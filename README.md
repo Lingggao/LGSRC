@@ -3,8 +3,7 @@
 <div align="center">
 <img src="Images/Microsoft MCI.png" width = "12%" /><img src="Images/LING_2.png" width = "25%" /> <img src="Images/WCC2024_2.png" width = "12%" />
 </div>
-<h1 align="center">灵糕中心：安全响应分中心</h1>
-
+<h1 align="center">灵糕中心：安全响应分中心</h1>  
 <h3 align="center">(LGHUB Security Response Center)</h3>
 
 [github.com/Lingggao/LGSRC](https://github.com/Lingggao/LGSRC) (GitHub)
