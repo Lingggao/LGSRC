@@ -18,11 +18,15 @@
 
 &emsp;&emsp;**宗旨**：独立管理、放眼全球、数据精确、打击迅速
 
-Microsoft 资源 - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Microsoft 安全情报](https://www.microsoft.com/en-us/wdsi) | [了解威胁](https://www.microsoft.com/en-us/wdsi/threats) | [获取更新](https://www.microsoft.com/en-us/wdsi/defenderupdates) | [提交文件进行分析](https://www.microsoft.com/en-us/wdsi/filesubmission)
+Microsoft 资源 - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Microsoft 安全情报](https://www.microsoft.com/en-us/wdsi) | [Microsoft Defender 门户](https://security.microsoft.com) | [获取更新](https://www.microsoft.com/en-us/wdsi/defenderupdates) | [提交文件进行分析](https://www.microsoft.com/en-us/wdsi/filesubmission)
+
+其他资源 - [微步云沙箱](https://s.threatbook.com) | [奇安信威胁情报中心](https://ti.qianxin.com) | [天恒云沙箱](https://sandbox.dbappsecurity.com.cn) | [天穹智能分析平台](https://sandbox.qianxin.com/sscc-tq-web) | [深信服威胁情报中心](https://ti.sangfor.com.cn/analysis-platform?lang=ZH-CN) | [VirusTotal](https://www.virustotal.com/gui/home/upload) | [MalwareBazaar](https://bazaar.abuse.ch) | [Kaspersky TIP](https://opentip.kaspersky.com) | [Hybrid Analysis](https://hybrid-analysis.com) | [ANY.RUN](https://app.any.run)
+
+社区 - [卡饭论坛 病毒样本 分享&分析区](https://bbs.kafan.cn/forum-31-1.html) | [火绒安全论坛 病毒查杀问题反馈](https://bbs.huorong.cn/forum-44-1.html)
 
 ## 总览
 
-上次更新时间：2025 年 12 月 20 日 3:30 (UTC+8)。Star 数量：2 ⭐
+上次更新时间：2025 年 12 月 20 日 5:00 (UTC+8)。Star 数量：2 ⭐
 
 **截至 2025 年 12 月 20 日，已打击计算机病毒 / 恶意软件 5 个**。
 
@@ -41,7 +45,7 @@ Microsoft 资源 - [Microsoft 安全响应中心](https://msrc.microsoft.com) | 
 | 2025/12/20 | wps_office-7390.msi |  **Win32/Vigorf.A**   | 31239840cd7c4f42ea883b748833baab5d6d5fc4967ebe6a58cf7041b6493c85 | 88d7aebf-f70e-48bb-9d2f-cc7e48912ee3 |
 |   ——————   |     ———————————     |      ———————————      |             ———————————————————————————————————              |         ————————————————————         |
 
-**注**：只保留最近 30 天内的最多 100 条数据，更早数据详见 [LGSRC](https://github.com/Lingggao/LGSRC) / [Archive.md]()。
+**注**：只保留最近 30 天内的最多 100 条数据，更早数据详见 [LGSRC](https://github.com/Lingggao/LGSRC) / [Archive.md](https://github.com/Lingggao/LGSRC/blob/main/Archive.md)。
 
 ## 工作流程
 
