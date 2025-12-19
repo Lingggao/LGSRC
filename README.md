@@ -9,7 +9,7 @@
 
 [github.com/Lingggao/LGSRC](https://github.com/Lingggao/LGSRC) (GitHub)
 
-&emsp;&emsp;**用于打击计算机病毒与恶意软件的灵糕中心安全响应分中心**。由 2021 Windows Insider 最有价值专家 (MVP) · [**Ling Gao**](https://github.com/Lingggao) 先生管理。灵糕中心安全响应分中心成立于 2025 年 12 月 19 日。
+&emsp;&emsp;**用于打击计算机病毒与恶意软件的 “灵糕中心安全响应分中心”**。由 2021 Windows Insider 最有价值专家 (MVP) · [**Ling Gao**](https://github.com/Lingggao) 先生管理。灵糕中心安全响应分中心成立于 2025 年 12 月 19 日。
 
 > [!IMPORTANT]
 >
