@@ -46,6 +46,23 @@ Microsoft 资源 - [Microsoft 安全响应中心](https://msrc.microsoft.com) | 
 
 <img src="Images/Workflow.png" width = "100%" />
 
+**一、工作流程概述**
+
+1. 发现 / 获得疑似恶意软件样本
+2. 使用 Microsoft Defender (最新[安全智能](https://learn.microsoft.com/zh-cn/defender-endpoint/microsoft-defender-antivirus-updates)) 测试能否查杀
+3. 如果不能，按工作流程开展前期分析
+4. 请求 Microsoft 等公司安全研究员人工分析样本
+5. 如果判断为恶意软件，则向全球信息安全社区、杀毒软件厂商等共享数据
+6. 将样本信息填写至上方表格
+
+二、出现以下情况时，样本信息**不会**填写至表格
+
+1. Microsoft Defender 可以查杀样本，无需人工分析
+2. 经前期分析，可 100% 确认为正常文件
+3. Microsoft 研究员判断样本 “干净” (Clean)
+4. 样本首次出现日期距今已超过 60 天
+5. 由其他从业人员 / 志愿者发现、分析、上报，Ling Gao 全程未参与
+
 ---
 
 [回到顶部](#HEAD)
