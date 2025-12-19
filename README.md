@@ -23,9 +23,9 @@ Microsoft 资源 - [Microsoft 安全响应中心 (MSRC)](https://msrc.microsoft.
 
 ## 总览
 
-上次更新时间：2025 年 12 月 20 日 0:00 (UTC+8)。Star 数量：2 ⭐
+上次更新时间：2025 年 12 月 20 日 0:30 (UTC+8)。Star 数量：2 ⭐
 
-**截至 2025 年 12 月 20 日，已打击计算机病毒 / 恶意软件 4 个**。
+**截至 2025 年 12 月 20 日，已打击计算机病毒 / 恶意软件 5 个**。
 
 ---
 
@@ -34,13 +34,14 @@ Microsoft 资源 - [Microsoft 安全响应中心 (MSRC)](https://msrc.microsoft.
 > 为确保安全，本中心**不提供**病毒 / 恶意软件样本下载服务。
 >
 
-|    日期    |       文件名       |       分析结果        |                            SHA256                            |             Internal ID              |
-| :--------: | :----------------: | :-------------------: | :----------------------------------------------------------: | :----------------------------------: |
-| 2025/12/19 | in-20251854846.msi |  **Win32/Vigorf.A**   | 881677965aedcb8fcd1a4b5ab358fe6b59bb728030700adad480cae557430b5f | bf85f0ce-a7a2-4e1b-9eb0-488c9570d95a |
-| 2025/12/19 |   chrromsoex.exe   | **Win32/Malgent!MSR** | 53ba47c9dbe3667d6e10f3645ceec4e9b5f5691dc4839078c8ddbf43671a0e2c | bf85f0ce-a7a2-4e1b-9eb0-488c9570d95a |
-| 2025/12/19 |     late1.exe      | **Win64/Malgent!MSR** | 0bf6e2366b49ba9f1a5cf30d9d5ae0bb713bf891780fbcd1e4ac82db8f2b6ff3 | 6a660a4d-1fbd-4050-8827-79ddd8eb4998 |
-| 2025/12/19 |  huorong_x64.exe   | **Win32/Malgent!MSR** | e5cf2cfa3881c56cfa7be09cb197d92071a23665e0f7ed1d03da3cdb33cd0490 | cdc75b0f-2061-47dc-b871-7286d44fcdf5 |
-|   ——————   |    ———————————     |      ———————————      |             ———————————————————————————————————              |         ————————————————————         |
+|    日期    |       文件名        |        分析结果         |                            SHA256                            |             Internal ID              |
+| :--------: | :-----------------: | :---------------------: | :----------------------------------------------------------: | :----------------------------------: |
+| 2025/12/19 | in-20251854846.msi  |   **Win32/Vigorf.A**    | 881677965aedcb8fcd1a4b5ab358fe6b59bb728030700adad480cae557430b5f | bf85f0ce-a7a2-4e1b-9eb0-488c9570d95a |
+| 2025/12/19 |   chrromsoex.exe    |  **Win32/Malgent!MSR**  | 53ba47c9dbe3667d6e10f3645ceec4e9b5f5691dc4839078c8ddbf43671a0e2c | bf85f0ce-a7a2-4e1b-9eb0-488c9570d95a |
+| 2025/12/19 |      late1.exe      |  **Win64/Malgent!MSR**  | 0bf6e2366b49ba9f1a5cf30d9d5ae0bb713bf891780fbcd1e4ac82db8f2b6ff3 | 6a660a4d-1fbd-4050-8827-79ddd8eb4998 |
+| 2025/12/19 |   huorong_x64.exe   |  **Win32/Malgent!MSR**  | e5cf2cfa3881c56cfa7be09cb197d92071a23665e0f7ed1d03da3cdb33cd0490 | cdc75b0f-2061-47dc-b871-7286d44fcdf5 |
+| 2025/12/20 | wps_office-7390.msi | **Script/Wacatac.C!ml** | 31239840cd7c4f42ea883b748833baab5d6d5fc4967ebe6a58cf7041b6493c85 | 88d7aebf-f70e-48bb-9d2f-cc7e48912ee3 |
+|   ——————   |     ———————————     |       ———————————       |             ———————————————————————————————————              |         ————————————————————         |
 
 <img src="Images/Workflow.png" width = "100%" />
 
