@@ -9,7 +9,7 @@
 
 [github.com/Lingggao/LGSRC](https://github.com/Lingggao/LGSRC) (GitHub)
 
-&emsp;&emsp;**用于打击计算机病毒与恶意软件的安全响应分中心**。由 2021 Windows Insider 最有价值专家 (MVP) · [**Ling Gao**](https://github.com/Lingggao) 先生管理。灵糕中心安全响应分中心成立于 2025 年 12 月 19 日。
+&emsp;&emsp;**用于打击计算机病毒与恶意软件的灵糕中心安全响应分中心**。由 2021 Windows Insider 最有价值专家 (MVP) · [**Ling Gao**](https://github.com/Lingggao) 先生管理。灵糕中心安全响应分中心成立于 2025 年 12 月 19 日。
 
 > [!IMPORTANT]
 >
@@ -19,7 +19,7 @@
 
 &emsp;&emsp;**宗旨**：独立管理、服务用户、数据精确、打击迅速
 
-[反馈中心](https://aka.ms/fbh) | [深入了解反馈](https://learn.microsoft.com/zh-cn/windows-insider/feedback) | [Flight Hub](https://learn.microsoft.com/en-us/windows-insider/flight-hub) | Windows 预览体验计划 - [网站](https://www.microsoft.com/zh-cn/windowsinsider) · [博客](https://blogs.windows.com/windows-insider) · [X](https://twitter.com/windowsinsider) · Microsoft 社区 ([中](https://learn.microsoft.com/zh-cn/answers/tags/953/windows-insider) / [英](https://learn.microsoft.com/en-us/answers/tags/953/windows-insider))
+[灵糕中心](https://github.com/Lingggao/LGHUB) | [Microsoft 安全响应中心 (MSRC)](https://msrc.microsoft.com) | [Microsoft 安全情报](https://www.microsoft.com/en-us/wdsi)
 
 ## 总览
 
@@ -32,13 +32,13 @@
 
 ---
 
-| 日期 |      |      | 分析 |
-| :--: | :--: | ---- | :--: |
-|      |      |      |      |
-|      |      |      |      |
-|      |      |      |      |
-|      |      |      |      |
-|      |      |      |      |
+|    日期    | SHA256 / MD5 | Internal ID | 分析结果 |
+| :--------: | :----------: | :---------: | :------: |
+| 2025/12/19 |              |             |          |
+|            |              |             |          |
+|            |              |             |          |
+|            |              |             |          |
+|            |              |             |          |
 
 ---
 
