@@ -1,7 +1,7 @@
 <SPAN ID = 'HEAD'/>
 
 <div align="center">
-<img src="Images/Microsoft MCI.png" width = "12%" /> <img src="Images/LING_2.png" width = "25%" /> <img src="Images/WCC2024_2.png" width = "12%" />
+<img src="Images/Microsoft MCI.png" width = "12%" /><img src="Images/LING_2.png" width = "25%" /> <img src="Images/WCC2024_2.png" width = "12%" />
 </div>
 <h1 align="center">灵糕中心：安全响应分中心</h1>
 
@@ -19,7 +19,7 @@
 
 &emsp;&emsp;**宗旨**：独立管理、服务全球、数据精确、打击迅速
 
-Microsoft 资源 - [Microsoft 安全响应中心 (MSRC)](https://msrc.microsoft.com) | [Microsoft 安全情报](https://www.microsoft.com/en-us/wdsi) | [了解威胁](https://www.microsoft.com/en-us/wdsi/threats) | [获取更新](https://www.microsoft.com/en-us/wdsi/defenderupdates) | [提交文件进行分析](https://www.microsoft.com/en-us/wdsi/filesubmission)
+Microsoft 资源 - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Microsoft 安全情报](https://www.microsoft.com/en-us/wdsi) | [了解威胁](https://www.microsoft.com/en-us/wdsi/threats) | [获取更新](https://www.microsoft.com/en-us/wdsi/defenderupdates) | [提交文件进行分析](https://www.microsoft.com/en-us/wdsi/filesubmission)
 
 ## 总览
 
@@ -31,8 +31,7 @@ Microsoft 资源 - [Microsoft 安全响应中心 (MSRC)](https://msrc.microsoft.
 
 > [!CAUTION]
 >
-> 为确保安全，本中心**不提供**病毒 / 恶意软件样本下载服务。
->
+> &emsp;为确保安全，本中心**不提供**病毒 / 恶意软件样本下载服务。
 
 |    日期    |       文件名        |       分析结果        |                            SHA256                            |             Internal ID              |
 | :--------: | :-----------------: | :-------------------: | :----------------------------------------------------------: | :----------------------------------: |
