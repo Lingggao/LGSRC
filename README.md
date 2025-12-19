@@ -23,13 +23,18 @@ Microsoft 资源 - [Microsoft 安全响应中心 (MSRC)](https://msrc.microsoft.
 
 ## 总览
 
-上次更新时间：2025 年 12 月 19 日 23:00 (UTC+8)。Star 数量：1 ⭐
+上次更新时间：2025 年 12 月 20 日 0:00 (UTC+8)。Star 数量：2 ⭐
 
-**截至 2025 年 12 月 19 日，已打击计算机病毒 / 恶意软件 4 个**。
+**截至 2025 年 12 月 20 日，已打击计算机病毒 / 恶意软件 4 个**。
 
 ---
 
-|    日期    |                         SHA256 / MD5                         |       分析结果        |             Internal ID              |
+> [!CAUTION]
+>
+> 为确保安全，本中心**不提供**病毒 / 恶意软件样本下载服务。
+>
+
+|    日期    |                            SHA256                            |       分析结果        |             Internal ID              |
 | :--------: | :----------------------------------------------------------: | :-------------------: | :----------------------------------: |
 | 2025/12/19 | 881677965aedcb8fcd1a4b5ab358fe6b59bb728030700adad480cae557430b5f |  **Win32/Vigorf.A**   | bf85f0ce-a7a2-4e1b-9eb0-488c9570d95a |
 | 2025/12/19 | 53ba47c9dbe3667d6e10f3645ceec4e9b5f5691dc4839078c8ddbf43671a0e2c | **Win32/Malgent!MSR** | bf85f0ce-a7a2-4e1b-9eb0-488c9570d95a |
@@ -37,7 +42,7 @@ Microsoft 资源 - [Microsoft 安全响应中心 (MSRC)](https://msrc.microsoft.
 | 2025/12/19 | e5cf2cfa3881c56cfa7be09cb197d92071a23665e0f7ed1d03da3cdb33cd0490 | **Win32/Malgent!MSR** | cdc75b0f-2061-47dc-b871-7286d44fcdf5 |
 |   ——————   |             ———————————————————————————————————              |      ———————————      |         ————————————————————         |
 
-<img src="Images/Workflow.png" width = "90%" />
+<img src="Images/Workflow.png" width = "100%" />
 
 ---
 
