@@ -19,7 +19,7 @@
 
 &emsp;&emsp;**宗旨**：独立管理、服务全球、数据精确、打击迅速
 
-[Microsoft 安全响应中心 (MSRC)](https://msrc.microsoft.com) | [Microsoft 安全情报](https://www.microsoft.com/en-us/wdsi) | [了解威胁](https://www.microsoft.com/en-us/wdsi/threats) | [获取更新](https://www.microsoft.com/en-us/wdsi/defenderupdates) | [提交文件进行分析](https://www.microsoft.com/en-us/wdsi/filesubmission)
+Microsoft 资源 - [Microsoft 安全响应中心 (MSRC)](https://msrc.microsoft.com) | [Microsoft 安全情报](https://www.microsoft.com/en-us/wdsi) | [了解威胁](https://www.microsoft.com/en-us/wdsi/threats) | [获取更新](https://www.microsoft.com/en-us/wdsi/defenderupdates) | [提交文件进行分析](https://www.microsoft.com/en-us/wdsi/filesubmission)
 
 ## 总览
 
@@ -37,7 +37,7 @@
 | 2025/12/19 | e5cf2cfa3881c56cfa7be09cb197d92071a23665e0f7ed1d03da3cdb33cd0490 | **Win32/Malgent!MSR** | cdc75b0f-2061-47dc-b871-7286d44fcdf5 |
 |   ——————   |             ———————————————————————————————————              |      ———————————      |         ————————————————————         |
 
-<img src="Images/Workflow.png" width = "80%" />
+<img src="Images/Workflow.png" width = "90%" />
 
 ---
 
