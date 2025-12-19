@@ -17,18 +17,15 @@
 >
 > &emsp;Microsoft、Windows 等是 Microsoft 公司的商标。
 
-&emsp;&emsp;**宗旨**：独立管理、服务用户、数据精确、打击迅速
+&emsp;&emsp;**宗旨**：独立管理、服务全球、数据精确、打击迅速
 
-[灵糕中心](https://github.com/Lingggao/LGHUB) | [Microsoft 安全响应中心 (MSRC)](https://msrc.microsoft.com) | [Microsoft 安全情报](https://www.microsoft.com/en-us/wdsi)
+[Microsoft 安全响应中心 (MSRC)](https://msrc.microsoft.com) | [Microsoft 安全情报](https://www.microsoft.com/en-us/wdsi) | [了解威胁](https://www.microsoft.com/en-us/wdsi/threats) | [获取更新](https://www.microsoft.com/en-us/wdsi/defenderupdates) | [提交文件进行分析](https://www.microsoft.com/en-us/wdsi/filesubmission)
 
 ## 总览
 
-| 😸 欢迎加入 [“Ling 的 Windows Insider 小屋”](https://teams.live.com/l/community/FEADGVjrvbHmT_d2RU) Microsoft Teams 社区 😽 |
-| :----------------------------------------------------------: |
-
 上次更新时间：2025 年 12 月 19 日 23:00 (UTC+8)。Star 数量：1 ⭐
 
-已打击计算机病毒与恶意软件 **4** 个。
+**截至 2025 年 12 月 19 日，已打击计算机病毒 / 恶意软件 4 个**。
 
 ---
 
