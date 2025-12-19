@@ -9,7 +9,7 @@
 
 [github.com/Lingggao/LGSRC](https://github.com/Lingggao/LGSRC) (GitHub)
 
-&emsp;&emsp;**用于打击计算机病毒与恶意软件的 “灵糕中心安全响应分中心”**。由 2021 Windows Insider 最有价值专家 (MVP) · [**Ling Gao**](https://github.com/Lingggao) 先生管理。灵糕中心安全响应分中心成立于 2025 年 12 月 19 日。
+&emsp;&emsp;**用于打击计算机病毒与恶意软件的 “[灵糕中心](https://github.com/Lingggao/LGHUB)安全响应分中心”**。由 2021 Windows Insider 最有价值专家 (MVP) · [**Ling Gao**](https://github.com/Lingggao) 先生管理。灵糕中心安全响应分中心成立于 2025 年 12 月 20 日。
 
 > [!IMPORTANT]
 >
@@ -17,13 +17,13 @@
 >
 > &emsp;Microsoft、Windows 等是 Microsoft 公司的商标。
 
-&emsp;&emsp;**宗旨**：独立管理、服务全球、数据精确、打击迅速
+&emsp;&emsp;**宗旨**：独立管理、放眼全球、数据精确、打击迅速
 
 Microsoft 资源 - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Microsoft 安全情报](https://www.microsoft.com/en-us/wdsi) | [了解威胁](https://www.microsoft.com/en-us/wdsi/threats) | [获取更新](https://www.microsoft.com/en-us/wdsi/defenderupdates) | [提交文件进行分析](https://www.microsoft.com/en-us/wdsi/filesubmission)
 
 ## 总览
 
-上次更新时间：2025 年 12 月 20 日 0:30 (UTC+8)。Star 数量：2 ⭐
+上次更新时间：2025 年 12 月 20 日 3:30 (UTC+8)。Star 数量：2 ⭐
 
 **截至 2025 年 12 月 20 日，已打击计算机病毒 / 恶意软件 5 个**。
 
@@ -41,6 +41,8 @@ Microsoft 资源 - [Microsoft 安全响应中心](https://msrc.microsoft.com) | 
 | 2025/12/19 |   huorong_x64.exe   | **Win32/Malgent!MSR** | e5cf2cfa3881c56cfa7be09cb197d92071a23665e0f7ed1d03da3cdb33cd0490 | cdc75b0f-2061-47dc-b871-7286d44fcdf5 |
 | 2025/12/20 | wps_office-7390.msi |  **Win32/Vigorf.A**   | 31239840cd7c4f42ea883b748833baab5d6d5fc4967ebe6a58cf7041b6493c85 | 88d7aebf-f70e-48bb-9d2f-cc7e48912ee3 |
 |   ——————   |     ———————————     |      ———————————      |             ———————————————————————————————————              |         ————————————————————         |
+
+## 工作流程
 
 <img src="Images/Workflow.png" width = "100%" />
 
