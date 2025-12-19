@@ -1,7 +1,7 @@
 <SPAN ID = 'HEAD'/>
 
 <div align="center">
-<img src="Images/Microsoft MCI.png" width = "12%" /> <img src="Images/Microsoft MCC.png" width = "12%" /> <img src="Images/LING_2.png" width = "25%" /> <img src="Images/WCC2024_2.png" width = "12%" /> <img src="Images/WCC2024_1.png" width = "12%" />
+<img src="Images/Microsoft MCI.png" width = "12%" /> <img src="Images/LING_2.png" width = "25%" /> <img src="Images/WCC2024_2.png" width = "12%" />
 </div>
 <h1 align="center">灵糕中心：安全响应分中心</h1>
 
@@ -32,13 +32,13 @@
 
 ---
 
-|    日期    | SHA256 / MD5 | Internal ID | 分析结果 |
-| :--------: | :----------: | :---------: | :------: |
-| 2025/12/19 |              |             |          |
-|            |              |             |          |
-|            |              |             |          |
-|            |              |             |          |
-|            |              |             |          |
+|    日期    |                         SHA256 / MD5                         |             Internal ID              |       分析结果        |
+| :--------: | :----------------------------------------------------------: | :----------------------------------: | :-------------------: |
+| 2025/12/19 | 881677965aedcb8fcd1a4b5ab358fe6b59bb728030700adad480cae557430b5f | bf85f0ce-a7a2-4e1b-9eb0-488c9570d95a | Trojan:Win32/Vigorf.A |
+| 2025/12/19 |                                                              |                                      |                       |
+| 2025/12/19 |                                                              |                                      |                       |
+| 2025/12/19 |                                                              |                                      |                       |
+| 2025/12/19 |                                                              |                                      |                       |
 
 ---
 
@@ -48,6 +48,6 @@
 
 在 “[署名 - 相同方式共享 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode.zh-Hans)” 协议 (CC BY-SA 4.0) 之条款下提供。
 
-2023 - 2025, [高楷修 (Ling Gao)](https://github.com/Lingggao), 灵糕中心安全响应分中心, [github.com/Lingggao/LGSRC](https://github.com/Lingggao/LGSRC)
+2023 - 2026, [高楷修 (Ling Gao)](https://github.com/Lingggao), 灵糕中心安全响应分中心, [github.com/Lingggao/LGSRC](https://github.com/Lingggao/LGSRC)
 
-[字体许可使用授权书](https://github.com/Lingggao/LGHUB/blob/main/Images/%E5%AD%97%E4%BD%93%E8%AE%B8%E5%8F%AF%E4%BD%BF%E7%94%A8%E6%8E%88%E6%9D%83%E4%B9%A6.png?raw=true) | [Windows Insider 最有价值专家](https://github.com/Lingggao/LGHUB/blob/main/Images/Windows%20Insider%20MVP.png?raw=true)
+[字体许可使用授权书](https://github.com/Lingggao/LGSRC/blob/main/Images/%E5%AD%97%E4%BD%93%E8%AE%B8%E5%8F%AF%E4%BD%BF%E7%94%A8%E6%8E%88%E6%9D%83%E4%B9%A6.png?raw=true) | [Windows Insider 最有价值专家](https://github.com/Lingggao/LGSRC/blob/main/Images/Windows%20Insider%20MVP.png?raw=true)
