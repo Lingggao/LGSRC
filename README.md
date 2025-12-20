@@ -22,7 +22,7 @@
 
 ---
 
-Microsoft 资源 - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Microsoft 安全情报](https://www.microsoft.com/en-us/wdsi) | [Microsoft Defender 门户](https://security.microsoft.com) | [获取更新](https://www.microsoft.com/en-us/wdsi/defenderupdates) | [提交文件](https://www.microsoft.com/en-us/wdsi/filesubmission)
+**Microsoft 资源** - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Microsoft 安全情报](https://www.microsoft.com/en-us/wdsi) | [Microsoft Defender 门户](https://security.microsoft.com) | [获取更新](https://www.microsoft.com/en-us/wdsi/defenderupdates) | [提交文件](https://www.microsoft.com/en-us/wdsi/filesubmission)
 
 其他资源 - [微步云沙箱](https://s.threatbook.com) | [奇安信威胁情报中心](https://ti.qianxin.com) | [天恒云沙箱](https://sandbox.dbappsecurity.com.cn) | [360 沙箱云](https://ata.360.net) | [天穹智能分析平台](https://sandbox.qianxin.com/sscc-tq-web) | [深信服威胁情报中心](https://ti.sangfor.com.cn/analysis-platform?lang=ZH-CN) | [VirusTotal](https://www.virustotal.com/gui/home/upload) | [MalwareBazaar](https://bazaar.abuse.ch) | [Kaspersky TIP](https://opentip.kaspersky.com) | [Hybrid Analysis](https://hybrid-analysis.com) | [ANY.RUN](https://app.any.run)
 
@@ -32,9 +32,9 @@ Microsoft 资源 - [Microsoft 安全响应中心](https://msrc.microsoft.com) | 
 
 ## 总览
 
-上次更新时间：2025 年 12 月 20 日 8:00 (UTC+8)。Star 数量：2 ⭐
+上次更新时间：2025 年 12 月 20 日 20:00 (UTC+8)。Star 数量：2 ⭐
 
-**截至 2025 年 12 月 20 日，已打击计算机病毒 / 恶意软件 5 个**。
+**截至 2025 年 12 月 20 日，已打击计算机病毒 / 恶意软件 7 个**。
 
 ---
 
@@ -42,14 +42,16 @@ Microsoft 资源 - [Microsoft 安全响应中心](https://msrc.microsoft.com) | 
 >
 > &emsp;为确保安全，本中心**不提供**病毒 / 恶意软件样本下载服务。
 
-|    日期    |       文件名        |       分析结果        |                            SHA256                            |             Internal ID              |
-| :--------: | :-----------------: | :-------------------: | :----------------------------------------------------------: | :----------------------------------: |
-| 2025/12/19 | in-20251854846.msi  |  **Win32/Vigorf.A**   | 881677965aedcb8fcd1a4b5ab358fe6b59bb728030700adad480cae557430b5f | bf85f0ce-a7a2-4e1b-9eb0-488c9570d95a |
-| 2025/12/19 |   chrromsoex.exe    | **Win32/Malgent!MSR** | 53ba47c9dbe3667d6e10f3645ceec4e9b5f5691dc4839078c8ddbf43671a0e2c | bf85f0ce-a7a2-4e1b-9eb0-488c9570d95a |
-| 2025/12/19 |      late1.exe      | **Win64/Malgent!MSR** | 0bf6e2366b49ba9f1a5cf30d9d5ae0bb713bf891780fbcd1e4ac82db8f2b6ff3 | 6a660a4d-1fbd-4050-8827-79ddd8eb4998 |
-| 2025/12/19 |   huorong_x64.exe   | **Win32/Malgent!MSR** | e5cf2cfa3881c56cfa7be09cb197d92071a23665e0f7ed1d03da3cdb33cd0490 | cdc75b0f-2061-47dc-b871-7286d44fcdf5 |
-| 2025/12/20 | wps_office-7390.msi |  **Win32/Vigorf.A**   | 31239840cd7c4f42ea883b748833baab5d6d5fc4967ebe6a58cf7041b6493c85 | 88d7aebf-f70e-48bb-9d2f-cc7e48912ee3 |
-|   ——————   |     ———————————     |      ———————————      |             ———————————————————————————————————              |         ————————————————————         |
+|    日期    |       文件名        |        分析结果        |                            SHA256                            |             Internal ID              |
+| :--------: | :-----------------: | :--------------------: | :----------------------------------------------------------: | :----------------------------------: |
+| 2025/12/19 | in-20251854846.msi  |   **Win32/Vigorf.A**   | 881677965aedcb8fcd1a4b5ab358fe6b59bb728030700adad480cae557430b5f | bf85f0ce-a7a2-4e1b-9eb0-488c9570d95a |
+| 2025/12/19 |   chrromsoex.exe    | **Win32/Malgent!MSR**  | 53ba47c9dbe3667d6e10f3645ceec4e9b5f5691dc4839078c8ddbf43671a0e2c | bf85f0ce-a7a2-4e1b-9eb0-488c9570d95a |
+| 2025/12/19 |      late1.exe      | **Win64/Malgent!MSR**  | 0bf6e2366b49ba9f1a5cf30d9d5ae0bb713bf891780fbcd1e4ac82db8f2b6ff3 | 6a660a4d-1fbd-4050-8827-79ddd8eb4998 |
+| 2025/12/19 |   huorong_x64.exe   | **Win32/Malgent!MSR**  | e5cf2cfa3881c56cfa7be09cb197d92071a23665e0f7ed1d03da3cdb33cd0490 | cdc75b0f-2061-47dc-b871-7286d44fcdf5 |
+| 2025/12/20 | wps_office-7390.msi |   **Win32/Vigorf.A**   | 31239840cd7c4f42ea883b748833baab5d6d5fc4967ebe6a58cf7041b6493c85 | 88d7aebf-f70e-48bb-9d2f-cc7e48912ee3 |
+| 2025/12/20 |  dfssafdsdawps.exe  | **Win32/Malgent!MSR**  | c853c91010bb617c57ee66d393de7213d89a87250be137ee7166d523cf7c513a | 2bad2e01-125c-47ea-ab6b-8d1c3ae84c6e |
+| 2025/12/20 |    wps-stup.exe     | **Win32/Wacatac.C!ml** | 83e24c1670ef7efe64421e6917d0ad8f81660ada23550e3da5dbd24dd348aa70 | 2bad2e01-125c-47ea-ab6b-8d1c3ae84c6e |
+|   ——————   |     ———————————     |      ———————————       |             ———————————————————————————————————              |         ————————————————————         |
 
 **注**：只保留最近 30 天内的最多 100 条数据，更早数据详见 LGSRC / [Archive.md](https://github.com/Lingggao/LGSRC/blob/main/Archive.md)。
 
@@ -72,7 +74,13 @@ Microsoft 资源 - [Microsoft 安全响应中心](https://msrc.microsoft.com) | 
 2. 经前期分析，可 100% 确认为正常文件
 3. Microsoft 研究员判断样本 “干净” (Clean)
 4. 样本首次发现日期距今已超过 60 天
-5. 由其他从业者 / 志愿者发现、分析、上报，Ling Gao 全程未参与
+5. 由其他从业人员 / 志愿者发现、分析、上报，Ling Gao 全程未参与
+
+## 如何提交文件进行分析？
+
+&emsp;&emsp;本中心**不能**代替 Microsoft 行使接收并分析疑似恶意软件样本的职责。用户应始终通过 [**Microsoft Security Intelligence - Submit a file for malware analysis**](https://www.microsoft.com/en-us/wdsi/filesubmission) 官方平台提交文件。
+
+&emsp;&emsp;如需联系 Ling Gao 共享信息，请发送电子邮件至 Ling@LGHUB01.onmicrosoft.com。谢谢。
 
 ---
 
