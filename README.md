@@ -32,9 +32,9 @@
 
 ## 总览
 
-上次更新时间：2025 年 12 月 20 日 22:00 (UTC+8)。Star 数量：2 ⭐
+上次更新时间：2025 年 12 月 20 日 23:00 (UTC+8)。Star 数量：2 ⭐
 
-**截至 2025 年 12 月 20 日，已打击计算机病毒 / 恶意软件 9 个**。
+**截至 2025 年 12 月 20 日，已打击计算机病毒 / 恶意软件 10 个**。
 
 ---
 
@@ -53,6 +53,7 @@
 | 2025/12/20 |     wps-stup.exe     | **Win32/Wacatac.C!ml**  | 83e24c1670ef7efe64421e6917d0ad8f81660ada23550e3da5dbd24dd348aa70 |             2bad2e01-125c-47ea-ab6b-8d1c3ae84c6e             |
 | 2025/12/20 | Wpssofilce_world.exe |  **Win32/Malgent!MSR**  | f5e2d25c9fc4cef5eb014e208dfab69e9e38b9235342b43ae1c9e65b1b2f1e14 |             2bad2e01-125c-47ea-ab6b-8d1c3ae84c6e             |
 | 2025/12/20 |     HUoRONG.msi      | **Script/Wacatac.H!ml** | 35d221d282a772437c17e374f666dab1423d7af7377f9300baf3612db23874e4 | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/35d221d282a772437c17e374f666dab1423d7af7377f9300baf3612db23874e4) |
+| 2025/12/20 |  hchaem_x64.5.3.exe  |   **Win32/Etset!rfn**   | ee2fd14686781ef30f3a214144465587bc5a34a18dc24f2c43a5599f5c0b1118 |             753b85f5-7dd9-4d25-8c6a-0731b65f84c9             |
 |   ——————   |     ———————————      |       ———————————       |             ———————————————————————————————————              |                     ————————————————————                     |
 
 **注**：只保留最近 30 天内的最多 100 条数据，更早数据详见 LGSRC/[Archive.md](https://github.com/Lingggao/LGSRC/blob/main/Archive.md)。
