@@ -15,8 +15,6 @@
 > [!IMPORTANT]
 >
 > &emsp;灵糕中心为个人项目，管理者不是 Microsoft 公司员工，不能代表 Microsoft 公司立场、态度。
->
-> &emsp;Microsoft、Windows 等是 Microsoft 公司的商标。
 
 &emsp;&emsp;**宗旨**：独立管理、放眼全球、数据精确、打击迅速
 
