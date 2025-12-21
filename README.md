@@ -34,7 +34,7 @@
 
 上次更新时间：2025 年 12 月 22 日 2:00 (UTC+8)。Star 数量：2 ⭐
 
-**截至 2025 年 12 月 22 日，已打击计算机病毒 / 恶意软件 18 个**。
+**截至 2025 年 12 月 22 日，已打击计算机病毒 / 恶意软件 19 个**。
 
 ---
 
@@ -62,6 +62,7 @@
 | 2025/12/22 |    javaclear.exe     |  **Win32/Malgent!MSR**  | 5c26565307470e8dafa63e7c9eb464f00cf4f4e6700a806f6cf73dd57a3fe853 | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5c26565307470e8dafa63e7c9eb464f00cf4f4e6700a806f6cf73dd57a3fe853) | 0016 |
 | 2025/12/22 |   ChrromSorMXi.exe   | **Win32/Wacatac.H!ml**  | 96aacc8331bc06e88c7b696aa8f2da19162400204ac86abf7e32d2b0142f2baf | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/96aacc8331bc06e88c7b696aa8f2da19162400204ac86abf7e32d2b0142f2baf) | 0017 |
 | 2025/12/22 |      fv47j.exe       |  **Win32/Malgent!MSR**  | 1822e2d6227f9b22573e82c973286fd920827cf15597d558af71790b56cda693 | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/1822e2d6227f9b22573e82c973286fd920827cf15597d558af71790b56cda693) | 0018 |
+| 2025/12/22 | todesk···x64.2.0.exe |   **Win32/Tnega!ml**    | 31bd93d6ae1266a19fc74e85db1a686afa845ba710b073c0fd41a82c921ac691 |             84989601-74a1-4df9-bc0a-64b23705f58e             | 0019 |
 |   ——————   |     ———————————      |       ———————————       |             ———————————————————————————————————              |                     ————————————————————                     | ———  |
 
 **注**：只保留最近 30 天内的最多 60 条数据，更早数据详见 LGSRC/[Archive.md](https://github.com/Lingggao/LGSRC/blob/main/Archive.md)。
