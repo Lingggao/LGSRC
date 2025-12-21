@@ -32,9 +32,9 @@
 
 ## 总览
 
-上次更新时间：2025 年 12 月 21 日 15:00 (UTC+8)。Star 数量：2 ⭐
+上次更新时间：2025 年 12 月 21 日 18:00 (UTC+8)。Star 数量：2 ⭐
 
-**截至 2025 年 12 月 21 日，已打击计算机病毒 / 恶意软件 12 个**。
+**截至 2025 年 12 月 21 日，已打击计算机病毒 / 恶意软件 13 个**。
 
 ---
 
@@ -56,6 +56,7 @@
 | 2025/12/20 |  hchaem_x64.5.3.exe  |   **Win32/Etset!rfn**   | ee2fd14686781ef30f3a214144465587bc5a34a18dc24f2c43a5599f5c0b1118 |             753b85f5-7dd9-4d25-8c6a-0731b65f84c9             | 0010 |
 | 2025/12/21 |    iN-HR20256.exe    |  **Win32/Malgent!MSR**  | f8533b2981f218a219ff9d67b08b3017e0ef00b6fbb3fca98e8382493b70fae1 |             dba49f80-78fe-4a8d-9abb-7772d9d3a5dd             | 0011 |
 | 2025/12/21 | Egzgxemc···SETUP.exe |  **Win32/Malgent!MSR**  | d659ad9d00570077e5918aa2f53783c5e5b105ef10c7f776496332527776fc58 | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/d659ad9d00570077e5918aa2f53783c5e5b105ef10c7f776496332527776fc58) | 0012 |
+| 2025/12/21 |      imgpr.exe       | **Win32/Wacatac.C!ml**  | 613d363367a9ab36b881e94555e38bf2b5466716606a14bddb7c1d9f2fc1d555 | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/613d363367a9ab36b881e94555e38bf2b5466716606a14bddb7c1d9f2fc1d555) | 0013 |
 |   ——————   |     ———————————      |       ———————————       |             ———————————————————————————————————              |                     ————————————————————                     | ———  |
 
 **注**：只保留最近 30 天内的最多 100 条数据，更早数据详见 LGSRC/[Archive.md](https://github.com/Lingggao/LGSRC/blob/main/Archive.md)。
@@ -85,7 +86,7 @@
 
 &emsp;&emsp;本中心**不能**代替 Microsoft 行使接收并分析疑似恶意软件样本的职责。用户应始终通过 [**Microsoft Security Intelligence - Submit a file for malware analysis**](https://www.microsoft.com/en-us/wdsi/filesubmission) 官方平台提交文件。
 
-&emsp;&emsp;如需联系 Ling Gao 共享信息，请发送电子邮件至 Ling@LGHUB01.onmicrosoft.com。谢谢。
+&emsp;&emsp;如需联系 Ling Gao 共享信息，请发送电子邮件至 Ling@LGHUB.org。谢谢。
 
 ---
 
