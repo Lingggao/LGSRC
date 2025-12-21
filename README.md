@@ -32,9 +32,9 @@
 
 ## 总览
 
-上次更新时间：2025 年 12 月 21 日 22:00 (UTC+8)。Star 数量：2 ⭐
+上次更新时间：2025 年 12 月 22 日 1:30 (UTC+8)。Star 数量：2 ⭐
 
-**截至 2025 年 12 月 21 日，已打击计算机病毒 / 恶意软件 15 个**。
+**截至 2025 年 12 月 22 日，已打击计算机病毒 / 恶意软件 17 个**。
 
 ---
 
@@ -59,6 +59,8 @@
 | 2025/12/21 |      imgpr.exe       | **Win32/Wacatac.C!ml**  | 613d363367a9ab36b881e94555e38bf2b5466716606a14bddb7c1d9f2fc1d555 | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/613d363367a9ab36b881e94555e38bf2b5466716606a14bddb7c1d9f2fc1d555) | 0013 |
 | 2025/12/21 |  llmxnb-653297.exe   |  **Win32/Malgent!MSR**  | ba349030f47d4478c4a13a42c422b4361501bdb6247efa81de571a59ff2d7ba5 |             cb8041ff-60fd-468f-b663-efeff7096c45             | 0014 |
 | 2025/12/21 |  din-Hr20254861.exe  |  **Win32/Malgent!MSR**  | c08753931b4af2c3f356695948d1bc23249b98f64c075b0660fa58bb501a7d36 |             cb8041ff-60fd-468f-b663-efeff7096c45             | 0015 |
+| 2025/12/22 |    javaclear.exe     |  **Win32/Malgent!MSR**  | 5c26565307470e8dafa63e7c9eb464f00cf4f4e6700a806f6cf73dd57a3fe853 | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5c26565307470e8dafa63e7c9eb464f00cf4f4e6700a806f6cf73dd57a3fe853) | 0016 |
+| 2025/12/22 |   ChrromSorMXi.exe   | **Win32/Wacatac.H!ml**  | 96aacc8331bc06e88c7b696aa8f2da19162400204ac86abf7e32d2b0142f2baf | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/96aacc8331bc06e88c7b696aa8f2da19162400204ac86abf7e32d2b0142f2baf) | 0017 |
 |   ——————   |     ———————————      |       ———————————       |             ———————————————————————————————————              |                     ————————————————————                     | ———  |
 
 **注**：只保留最近 30 天内的最多 60 条数据，更早数据详见 LGSRC/[Archive.md](https://github.com/Lingggao/LGSRC/blob/main/Archive.md)。
