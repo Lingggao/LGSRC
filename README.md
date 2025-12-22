@@ -30,9 +30,9 @@
 
 ## 总览
 
-上次更新时间：2025 年 12 月 22 日 19:00 (UTC+8)。Star 数量：2 ⭐
+上次更新时间：2025 年 12 月 23 日 6:00 (UTC+8)。Star 数量：2 ⭐
 
-**截至 2025 年 12 月 22 日，已打击计算机病毒 / 恶意软件 23 个**。
+**截至 2025 年 12 月 23 日，已打击计算机病毒 / 恶意软件 26 个**。
 
 ---
 
@@ -65,6 +65,9 @@
 | 2025/12/22 |   wechathelper1.exe   | **Win32/Wacatac.C!ml**  | b0b92ed73b4e9254a4e0d353c09305f7f27def9d3a86d70001b17482f7317ef9 |                  无                  | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b0b92ed73b4e9254a4e0d353c09305f7f27def9d3a86d70001b17482f7317ef9) | 0021 |
 | 2025/12/22 |       setup.exe       | **Win32/Sonbokli.A!cl** | 64292ff235908c90b3f38e3c37a4bb2e474b76bede9a2f4a9a60e5d1a3d1258a | f231c888-eb7c-4c54-af44-a46bda0253ad | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/64292ff235908c90b3f38e3c37a4bb2e474b76bede9a2f4a9a60e5d1a3d1258a) | 0022 |
 | 2025/12/22 |  Setup_Installer.exe  | **Win32/Sonbokli.A!cl** | 27f8ee5c936e6356bd575bddc9dc5dac88f6d14004feccc9622da2862862b23f | f231c888-eb7c-4c54-af44-a46bda0253ad | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/27f8ee5c936e6356bd575bddc9dc5dac88f6d14004feccc9622da2862862b23f) | 0023 |
+| 2025/12/22 |     Installer.exe     |  **Win32/Malgent!MSR**  | 96d36b91d5dc1a6257bbdad1b2b762e59a88d8d73cbaa317e2568dd7fb153b5f | f231c888-eb7c-4c54-af44-a46bda0253ad | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/96d36b91d5dc1a6257bbdad1b2b762e59a88d8d73cbaa317e2568dd7fb153b5f) | 0024 |
+| 2025/12/23 |     l519V93e.exe      |  **Win32/Malgent!MSR**  | 0586872339db977aa4f1b736feaf5642b07514d3f8aec627b9e47d05d3e88ee7 | e91743e4-c064-40d0-83e6-014a4a058454 |                              无                              | 0025 |
+| 2025/12/23 |  36chbem_x64.5.3.exe  |  **Win32/Malgent!MSR**  | 35b9bad49bac4d249359c49240e55a439ca5b4cc4449fc18e0d980e4158d0bf6 | e91743e4-c064-40d0-83e6-014a4a058454 |                              无                              | 0026 |
 |   ——————   |     ————————————      |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                         ————————————                         | ———  |
 
 **注**：只保留最近 30 天内的最多 60 条数据，更早数据详见 LGSRC/[Archive.md](https://github.com/Lingggao/LGSRC/blob/main/Archive.md)。
