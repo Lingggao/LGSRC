@@ -32,7 +32,7 @@
 
 上次更新时间：2025 年 12 月 23 日 7:00 (UTC+8)。Star 数量：2 ⭐
 
-**截至 2025 年 12 月 23 日，已打击计算机病毒 / 恶意软件 28 个**。
+**截至 2025 年 12 月 23 日，已打击计算机病毒 / 恶意软件 29 个**。
 
 ---
 
@@ -68,8 +68,9 @@
 | 2025/12/22 |       Installer.exe        |  **Win32/Malgent!MSR**  | 96d36b91d5dc1a6257bbdad1b2b762e59a88d8d73cbaa317e2568dd7fb153b5f | f231c888-eb7c-4c54-af44-a46bda0253ad | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/96d36b91d5dc1a6257bbdad1b2b762e59a88d8d73cbaa317e2568dd7fb153b5f) | 0024 |
 | 2025/12/23 |        l519V93e.exe        |  **Win32/Malgent!MSR**  | 0586872339db977aa4f1b736feaf5642b07514d3f8aec627b9e47d05d3e88ee7 | e91743e4-c064-40d0-83e6-014a4a058454 |                              无                              | 0025 |
 | 2025/12/23 |    36chbem_x64.5.3.exe     |  **Win32/Malgent!MSR**  | 35b9bad49bac4d249359c49240e55a439ca5b4cc4449fc18e0d980e4158d0bf6 | e91743e4-c064-40d0-83e6-014a4a058454 |                              无                              | 0026 |
-| 2025/12/23 | ···稽查内职人员名单···.exe | **Win32/Wacatac.C!ml**  | f1ec1791833bf98da73b948306fddc7085265fdb3bfeb6aaf67a697931e094ed |                  无                  |                  [MalwareBazaar Database]()                  | 0027 |
-| 2025/12/23 |        Y6DZJP78.exe        |  **Win32/Fuery.D!cl**   | ed624ef9def66eab4d8d59dd9693e9b6e6cd386d422f2835d97d577756c6634f |                  无                  |                  [MalwareBazaar Database]()                  | 0028 |
+| 2025/12/23 | ···稽查内职人员名单···.exe | **Win32/Wacatac.C!ml**  | f1ec1791833bf98da73b948306fddc7085265fdb3bfeb6aaf67a697931e094ed |                  无                  | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/f1ec1791833bf98da73b948306fddc7085265fdb3bfeb6aaf67a697931e094ed) | 0027 |
+| 2025/12/23 |        Y6DZJP78.exe        |  **Win32/Fuery.D!cl**   | ed624ef9def66eab4d8d59dd9693e9b6e6cd386d422f2835d97d577756c6634f |                  无                  | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/ed624ef9def66eab4d8d59dd9693e9b6e6cd386d422f2835d97d577756c6634f) | 0028 |
+| 2025/12/23 |    Egzgxemc···SETUP.exe    |   **Win32/Yomal!rfn**   | 03ab56b665e2af67093e123e177dffde21404adc81dc07223fb2b51c724a8eaa | 41ed80fb-1b3b-4fa8-959e-3a4efe247591 | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/03ab56b665e2af67093e123e177dffde21404adc81dc07223fb2b51c724a8eaa) | 0029 |
 |   ——————   |        ————————————        |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                         ————————————                         | ———  |
 
 **注**：只保留最近 30 天内的最多 60 条数据，更早数据详见 LGSRC/[Archive.md](https://github.com/Lingggao/LGSRC/blob/main/Archive.md)。
