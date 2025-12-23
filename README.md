@@ -30,9 +30,9 @@
 
 ## 总览
 
-上次更新时间：2025 年 12 月 23 日 17:30 (UTC+8)。Star 数量：2 ⭐
+上次更新时间：2025 年 12 月 24 日 2:30 (UTC+8)。Star 数量：2 ⭐
 
-**截至 2025 年 12 月 23 日，已打击计算机病毒 / 恶意软件 36 个**。
+**截至 2025 年 12 月 24 日，已打击计算机病毒 / 恶意软件 37 个**。
 
 ---
 
@@ -78,6 +78,7 @@
 | 2025/12/23 |          数据.exe          |  **Win32/Malgent!MSR**  | ebcc84ced0d80f19ca1b24f2bd0119ebe86a47942b6cfbcf337bd77d5ee66d2d | c9c1eb33-05ed-4cd1-8379-0d8b6425d36c | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/ebcc84ced0d80f19ca1b24f2bd0119ebe86a47942b6cfbcf337bd77d5ee66d2d) | 0034 |
 | 2025/12/23 |   ChromeSetupA-5440.msi    |  **Win32/Suschil!rfn**  | 7a9b933b41e8c345c374073636345b050a0f86321129b5f68d04695fe8a5751c |                  无                  | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/7a9b933b41e8c345c374073636345b050a0f86321129b5f68d04695fe8a5751c) | 0035 |
 | 2025/12/23 |         222222.exe         | **Win32/Sonbokli.A!cl** | 1c46675149b0f4d926783c855e860b20548568849cdec941a62abb72534d1e68 |                  无                  | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/1c46675149b0f4d926783c855e860b20548568849cdec941a62abb72534d1e68) | 0036 |
+| 2025/12/24 |      Tor Browser.exe       |  **Win32/Malgent!MSR**  | 164f62fcfeb1f8028b266cb43cfad556ea7905af2db6186f57e91c199ec49c38 | 7e19c1bf-b83f-4fee-bc8d-2ba8cae25f71 |                              无                              | 0037 |
 |   ——————   |        ————————————        |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                         ————————————                         | ———  |
 
 **注**：只保留最近 30 天内的最多 60 条数据，更早数据详见 LGSRC/[Archive.md](https://github.com/Lingggao/LGSRC/blob/main/Archive.md)。
