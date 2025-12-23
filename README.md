@@ -30,9 +30,9 @@
 
 ## 总览
 
-上次更新时间：2025 年 12 月 23 日 7:00 (UTC+8)。Star 数量：2 ⭐
+上次更新时间：2025 年 12 月 23 日 17:00 (UTC+8)。Star 数量：2 ⭐
 
-**截至 2025 年 12 月 23 日，已打击计算机病毒 / 恶意软件 29 个**。
+**截至 2025 年 12 月 23 日，已打击计算机病毒 / 恶意软件 34 个**。
 
 ---
 
@@ -71,6 +71,11 @@
 | 2025/12/23 | ···稽查内职人员名单···.exe | **Win32/Wacatac.C!ml**  | f1ec1791833bf98da73b948306fddc7085265fdb3bfeb6aaf67a697931e094ed |                  无                  | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/f1ec1791833bf98da73b948306fddc7085265fdb3bfeb6aaf67a697931e094ed) | 0027 |
 | 2025/12/23 |        Y6DZJP78.exe        |  **Win32/Fuery.D!cl**   | ed624ef9def66eab4d8d59dd9693e9b6e6cd386d422f2835d97d577756c6634f |                  无                  | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/ed624ef9def66eab4d8d59dd9693e9b6e6cd386d422f2835d97d577756c6634f) | 0028 |
 | 2025/12/23 |    Egzgxemc···SETUP.exe    |   **Win32/Yomal!rfn**   | 03ab56b665e2af67093e123e177dffde21404adc81dc07223fb2b51c724a8eaa | 41ed80fb-1b3b-4fa8-959e-3a4efe247591 | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/03ab56b665e2af67093e123e177dffde21404adc81dc07223fb2b51c724a8eaa) | 0029 |
+| 2025/12/23 |   11.17违纪人员名单.exe    |  **Win32/Malgent!MSR**  | d206f254c84fbeb5c0918b59ad017fdf91e77ccb34bb22f4f59379ce8b638636 | b433ccf1-9eab-4bab-9cff-c9bc363067fc | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/d206f254c84fbeb5c0918b59ad017fdf91e77ccb34bb22f4f59379ce8b638636) | 0030 |
+| 2025/12/23 |  2025.12.22人员调整1.exe   |  **Win32/Malgent!MSR**  | 2757e9cb4869f7716594ec5371bab3f2790ffd53a6e56f39a8805ff6e42f0269 | b433ccf1-9eab-4bab-9cff-c9bc363067fc | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/2757e9cb4869f7716594ec5371bab3f2790ffd53a6e56f39a8805ff6e42f0269) | 0031 |
+| 2025/12/23 | ···各企业违纪人员信息.exe  |  **Win32/Malgent!MSR**  | 22d4b6abcb913f72e56915b76b6baaadacc48719e42b1776cbd5fc263da36a89 | b433ccf1-9eab-4bab-9cff-c9bc363067fc | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/22d4b6abcb913f72e56915b76b6baaadacc48719e42b1776cbd5fc263da36a89) | 0032 |
+| 2025/12/23 |      名单12月22日.exe      |   **Win64/Vigorf.A**    | cefe8e08a63508ea77007f4800a8cd12a245789b648bd21e1bdf499bd51f5838 | c9c1eb33-05ed-4cd1-8379-0d8b6425d36c | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/cefe8e08a63508ea77007f4800a8cd12a245789b648bd21e1bdf499bd51f5838) | 0033 |
+| 2025/12/23 |          数据.exe          |  **Win32/Malgent!MSR**  | ebcc84ced0d80f19ca1b24f2bd0119ebe86a47942b6cfbcf337bd77d5ee66d2d | c9c1eb33-05ed-4cd1-8379-0d8b6425d36c | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/ebcc84ced0d80f19ca1b24f2bd0119ebe86a47942b6cfbcf337bd77d5ee66d2d) | 0034 |
 |   ——————   |        ————————————        |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                         ————————————                         | ———  |
 
 **注**：只保留最近 30 天内的最多 60 条数据，更早数据详见 LGSRC/[Archive.md](https://github.com/Lingggao/LGSRC/blob/main/Archive.md)。
