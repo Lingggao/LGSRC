@@ -30,9 +30,9 @@
 
 ## 总览
 
-上次更新时间：2025 年 12 月 24 日 20:00 (UTC+8)。Star 数量：2 ⭐
+上次更新时间：2025 年 12 月 25 日 10:00 (UTC+8)。Star 数量：2 ⭐
 
-**截至 2025 年 12 月 24 日，已打击计算机病毒 / 恶意软件 39 个**。
+**截至 2025 年 12 月 25 日，已打击计算机病毒 / 恶意软件 42 个**。
 
 ---
 
@@ -81,6 +81,9 @@
 | 2025/12/24 |      Tor Browser.exe       |  **Win32/Malgent!MSR**  | 164f62fcfeb1f8028b266cb43cfad556ea7905af2db6186f57e91c199ec49c38 | 7e19c1bf-b83f-4fee-bc8d-2ba8cae25f71 |                              无                              | 0037 |
 | 2025/12/24 |         6dtkv.exe          |  **Win64/Malgent!MSR**  | 2ba923b813a8e10fda61de4c1d0e0cf50b3c0a9f3ed7aa5309810edfc7fc179a | 007cf570-4f4a-493a-af82-9b02733f222e |                              无                              | 0038 |
 | 2025/12/24 |          mal2.exe          | **Win32/Sonbokli.A!cl** | 9866a8ecf5414283d89528597ef7ff590f60e42aa6fc4972f61a083c2b08c1ec | 007cf570-4f4a-493a-af82-9b02733f222e | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/9866a8ecf5414283d89528597ef7ff590f60e42aa6fc4972f61a083c2b08c1ec) | 0039 |
+| 2025/12/25 |   Chome-stallerwin64.exe   |  **Win32/Malgent!MSR**  | 9597ac18b19d498230c56bf853e64855a4fe60e02fc4c2b723a331fc06b3a1f4 | 7fc303d0-923d-4300-a8ca-f48d0b62d5cb |                              无                              | 0040 |
+| 2025/12/25 |     Chrome···4550.msi      |  **Win32/Malgent!MSR**  | e87ee6a08389cc69f3208247e0e65be770ad1ba5fc3e566aa3abe920ed8fc741 | 7fc303d0-923d-4300-a8ca-f48d0b62d5cb | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/e87ee6a08389cc69f3208247e0e65be770ad1ba5fc3e566aa3abe920ed8fc741) | 0041 |
+| 2025/12/25 |  Photoshop···单文件版.exe  |  **Win32/Tiggre!rfn**   | d49ec81f7be6eaabac6d77e8bc43a8ec61d368af5caa75690b95c18a6d52bcf7 | 51643783-afcb-4141-a8dd-95457d920f8e | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/d49ec81f7be6eaabac6d77e8bc43a8ec61d368af5caa75690b95c18a6d52bcf7) | 0042 |
 |   ——————   |        ————————————        |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                         ————————————                         | ———  |
 
 **注**：只保留最近 30 天内的最多 60 条数据，更早数据详见 LGSRC/[Archive.md](https://github.com/Lingggao/LGSRC/blob/main/Archive.md)。
