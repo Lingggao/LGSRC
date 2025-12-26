@@ -30,9 +30,9 @@
 
 ## 总览
 
-上次更新时间：2025 年 12 月 26 日 19:00 (UTC+8)。Star 数量：2 ⭐
+上次更新时间：2025 年 12 月 26 日 22:00 (UTC+8)。Star 数量：2 ⭐
 
-**截至 2025 年 12 月 26 日，已打击计算机病毒 / 恶意软件 53 个**。
+**截至 2025 年 12 月 26 日，已打击计算机病毒 / 恶意软件 54 个**。
 
 ---
 
@@ -95,6 +95,7 @@
 | 2025/12/26 |        OneDrive.exe        |   **Win32/Malgent!MSR**    | 784ce917a01cc0eede501ab8f98927cb732486c9262215231c4c4885c5ade680 | 2549f62f-ed89-490c-aace-729e66fa617b | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/784ce917a01cc0eede501ab8f98927cb732486c9262215231c4c4885c5ade680) | 0051 |
 | 2025/12/26 | photo···2025.12.23···.exe  |   **Win32/Malgent!MSR**    | 8bcfee677a8ec5a1fd2e020e0f9586ecee70ca1c3e7f9afba116b28223107e70 | 2549f62f-ed89-490c-aace-729e66fa617b | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/8bcfee677a8ec5a1fd2e020e0f9586ecee70ca1c3e7f9afba116b28223107e70) | 0052 |
 | 2025/12/26 |      qzonehelper.exe       |   **Win32/Malgent!MSR**    | a43d75b99fea27596fdc3b0fb11512329589d6482a2954dc4799ed737fddac50 | a60b7efe-7b7d-40ad-aea0-fc46ef1a58b1 | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a43d75b99fea27596fdc3b0fb11512329589d6482a2954dc4799ed737fddac50) | 0053 |
+| 2025/12/26 |         666666.exe         |   **Win32/Wacatac.C!ml**   | 380bcae2cbe211bfdb5229ef129d3188a3aeca61c2e3e20888b1dc29020b3d1a |                  无                  | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/380bcae2cbe211bfdb5229ef129d3188a3aeca61c2e3e20888b1dc29020b3d1a) | 0054 |
 |   ——————   |        ————————————        |        ————————————        |             ———————————————————————————————————              |         ————————————————————         |                         ————————————                         | ———  |
 
 **注**：只保留最近 30 天内的最多 60 条数据，更早数据详见 LGSRC/[Archive.md](https://github.com/Lingggao/LGSRC/blob/main/Archive.md)。
