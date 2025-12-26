@@ -30,9 +30,9 @@
 
 ## 总览
 
-上次更新时间：2025 年 12 月 26 日 22:00 (UTC+8)。Star 数量：2 ⭐
+上次更新时间：2025 年 12 月 27 日 1:00 (UTC+8)。Star 数量：2 ⭐
 
-**截至 2025 年 12 月 26 日，已打击计算机病毒 / 恶意软件 54 个**。
+**截至 2025 年 12 月 27 日，已打击计算机病毒 / 恶意软件 56 个**。
 
 ---
 
@@ -96,6 +96,8 @@
 | 2025/12/26 | photo···2025.12.23···.exe  |   **Win32/Malgent!MSR**    | 8bcfee677a8ec5a1fd2e020e0f9586ecee70ca1c3e7f9afba116b28223107e70 | 2549f62f-ed89-490c-aace-729e66fa617b | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/8bcfee677a8ec5a1fd2e020e0f9586ecee70ca1c3e7f9afba116b28223107e70) | 0052 |
 | 2025/12/26 |      qzonehelper.exe       |   **Win32/Malgent!MSR**    | a43d75b99fea27596fdc3b0fb11512329589d6482a2954dc4799ed737fddac50 | a60b7efe-7b7d-40ad-aea0-fc46ef1a58b1 | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a43d75b99fea27596fdc3b0fb11512329589d6482a2954dc4799ed737fddac50) | 0053 |
 | 2025/12/26 |         666666.exe         |   **Win32/Wacatac.C!ml**   | 380bcae2cbe211bfdb5229ef129d3188a3aeca61c2e3e20888b1dc29020b3d1a |                  无                  | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/380bcae2cbe211bfdb5229ef129d3188a3aeca61c2e3e20888b1dc29020b3d1a) | 0054 |
+| 2025/12/27 |     huorong333333.exe      |   **Win32/Malgent!MSR**    | a1e780e075a822053bb3322108d29674462089bc0fb90ecf24eb18dfb3052a94 | 4ab4468f-8114-4c47-9857-0d6ca3cfa756 |                              无                              | 0055 |
+| 2025/12/27 |   GWMeqk-itstos-2.35.msi   |   **Win32/Malgent!MSR**    | 918448e18b6fc75001634e154dabfe9d07aceac93ec997e833c592b31350b248 | 718ce763-129f-437b-badd-25b82fbc385a |                              无                              | 0056 |
 |   ——————   |        ————————————        |        ————————————        |             ———————————————————————————————————              |         ————————————————————         |                         ————————————                         | ———  |
 
 **注**：只保留最近 30 天内的最多 60 条数据，更早数据详见 LGSRC/[Archive.md](https://github.com/Lingggao/LGSRC/blob/main/Archive.md)。
