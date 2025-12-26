@@ -30,7 +30,7 @@
 
 ## 总览
 
-上次更新时间：2025 年 12 月 26 日 13:00 (UTC+8)。Star 数量：2 ⭐
+上次更新时间：2025 年 12 月 26 日 14:00 (UTC+8)。Star 数量：2 ⭐
 
 **截至 2025 年 12 月 26 日，已打击计算机病毒 / 恶意软件 50 个**。
 
@@ -117,7 +117,7 @@
 2. 经前期分析，可 100% 确认为正常文件
 3. Microsoft 研究员判断样本 “干净” (Clean)
 4. 样本首次发现日期距今已超过 60 天
-5. 由其他从业人员 / 志愿者发现、分析、上报，Ling Gao 全程未参与
+5. 由其他从业人员 / 志愿者发现、分析、上报，本中心全程未参与
 
 ## 如何提交文件进行分析？
 
@@ -133,6 +133,6 @@
 
 在 “[署名 - 相同方式共享 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode.zh-Hans)” 协议 (CC BY-SA 4.0) 之条款下提供。
 
-2023 - 2026, [高楷修 (Ling Gao)](https://github.com/Lingggao), 灵糕中心 · 安全响应分中心, [github.com/Lingggao/LGSRC](https://github.com/Lingggao/LGSRC)
+2023 - 2026, [Ling Gao](https://github.com/Lingggao), 灵糕中心 · 安全响应分中心, [github.com/Lingggao/LGSRC](https://github.com/Lingggao/LGSRC)
 
 [字体许可使用授权书](https://github.com/Lingggao/LGSRC/blob/main/Images/%E5%AD%97%E4%BD%93%E8%AE%B8%E5%8F%AF%E4%BD%BF%E7%94%A8%E6%8E%88%E6%9D%83%E4%B9%A6.png?raw=true) | [Windows Insider 最有价值专家](https://github.com/Lingggao/LGSRC/blob/main/Images/Windows%20Insider%20MVP.png?raw=true)
