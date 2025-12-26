@@ -24,15 +24,15 @@
 
 其他资源 - [微步云沙箱](https://s.threatbook.com) | [奇安信威胁情报中心](https://ti.qianxin.com) | [天恒云沙箱](https://sandbox.dbappsecurity.com.cn) | [360 沙箱云](https://ata.360.net) | [天穹智能分析平台](https://sandbox.qianxin.com/sscc-tq-web) | [深信服威胁情报中心](https://ti.sangfor.com.cn/analysis-platform?lang=ZH-CN) | [VirusTotal](https://www.virustotal.com/gui/home/upload) | [MalwareBazaar](https://bazaar.abuse.ch) | [Kaspersky TIP](https://opentip.kaspersky.com) | [Hybrid Analysis](https://hybrid-analysis.com) | [ANY.RUN](https://app.any.run)
 
-社区 - [卡饭论坛 病毒样本 分享&分析区](https://bbs.kafan.cn/forum-31-1.html) | [火绒安全论坛 病毒查杀问题反馈](https://bbs.huorong.cn/forum-44-1.html)
+社区 - [卡饭论坛 病毒样本 分享&分析区](https://bbs.kafan.cn/forum-31-1.html) | [火绒安全论坛 病毒查杀问题反馈](https://bbs.huorong.cn/forum-44-1.html) | [百度贴吧 病毒吧](https://tieba.baidu.com/f?ie=utf-8&kw=%E7%97%85%E6%AF%92)
 
-学习 - [Microsoft 认证：安全性、合规性和标识基础知识](https://learn.microsoft.com/zh-cn/credentials/certifications/security-compliance-and-identity-fundamentals) | [Microsoft 认证：安全运营分析师助理](https://learn.microsoft.com/zh-cn/credentials/certifications/security-operations-analyst) | [Microsoft 认证：网络安全架构师专家](https://learn.microsoft.com/zh-cn/credentials/certifications/cybersecurity-architect-expert) | [ISC.AI 学苑 (360 数字安全集团)](https://study.360.net/frontend/home/home)
+学习 - [Microsoft 认证：安全性、合规性和标识基础知识](https://learn.microsoft.com/zh-cn/credentials/certifications/security-compliance-and-identity-fundamentals) | [Microsoft 认证：安全运营分析师助理](https://learn.microsoft.com/zh-cn/credentials/certifications/security-operations-analyst) | [Microsoft 认证：网络安全架构师专家](https://learn.microsoft.com/zh-cn/credentials/certifications/cybersecurity-architect-expert) | [ISC.AI 学苑 (360 数字安全集团)](https://study.360.net/frontend/home/home) | [阿里云 云安全高级工程师 ACP 认证](https://edu.aliyun.com/certification/acp04)
 
 ## 总览
 
-上次更新时间：2025 年 12 月 26 日 14:00 (UTC+8)。Star 数量：2 ⭐
+上次更新时间：2025 年 12 月 26 日 19:00 (UTC+8)。Star 数量：2 ⭐
 
-**截至 2025 年 12 月 26 日，已打击计算机病毒 / 恶意软件 50 个**。
+**截至 2025 年 12 月 26 日，已打击计算机病毒 / 恶意软件 53 个**。
 
 ---
 
@@ -92,6 +92,9 @@
 | 2025/12/26 |        BypassAV.exe        | **Win64/TurtleLoader!rfn** | a85d9594291961d037a8aa9d4ce5529a4bdd7be97d299b984696ba36961473fe |                  无                  | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a85d9594291961d037a8aa9d4ce5529a4bdd7be97d299b984696ba36961473fe) | 0048 |
 | 2025/12/26 |    ···内部调查信息.exe     |   **Win32/Wacatac.C!ml**   | 45d0ed22f30cb0f3551439fefc7ff7153f1557103fd86507152d67a500f12e1b |                  无                  | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/45d0ed22f30cb0f3551439fefc7ff7153f1557103fd86507152d67a500f12e1b) | 0049 |
 | 2025/12/26 | 2025···人 员 名 单···.exe  |  **Win32/Conteban.A!ml**   | b19eda1354aeff70a9269a7096ac8e221ff0061133bc219fcb950608b207c9ee |                  无                  | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b19eda1354aeff70a9269a7096ac8e221ff0061133bc219fcb950608b207c9ee) | 0050 |
+| 2025/12/26 |        OneDrive.exe        |   **Win32/Malgent!MSR**    | 784ce917a01cc0eede501ab8f98927cb732486c9262215231c4c4885c5ade680 | 2549f62f-ed89-490c-aace-729e66fa617b | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/784ce917a01cc0eede501ab8f98927cb732486c9262215231c4c4885c5ade680) | 0051 |
+| 2025/12/26 | photo···2025.12.23···.exe  |   **Win32/Malgent!MSR**    | 8bcfee677a8ec5a1fd2e020e0f9586ecee70ca1c3e7f9afba116b28223107e70 | 2549f62f-ed89-490c-aace-729e66fa617b | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/8bcfee677a8ec5a1fd2e020e0f9586ecee70ca1c3e7f9afba116b28223107e70) | 0052 |
+| 2025/12/26 |      qzonehelper.exe       |   **Win32/Malgent!MSR**    | a43d75b99fea27596fdc3b0fb11512329589d6482a2954dc4799ed737fddac50 | a60b7efe-7b7d-40ad-aea0-fc46ef1a58b1 | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a43d75b99fea27596fdc3b0fb11512329589d6482a2954dc4799ed737fddac50) | 0053 |
 |   ——————   |        ————————————        |        ————————————        |             ———————————————————————————————————              |         ————————————————————         |                         ————————————                         | ———  |
 
 **注**：只保留最近 30 天内的最多 60 条数据，更早数据详见 LGSRC/[Archive.md](https://github.com/Lingggao/LGSRC/blob/main/Archive.md)。
