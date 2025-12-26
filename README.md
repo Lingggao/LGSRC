@@ -30,9 +30,9 @@
 
 ## 总览
 
-上次更新时间：2025 年 12 月 25 日 10:00 (UTC+8)。Star 数量：2 ⭐
+上次更新时间：2025 年 12 月 26 日 9:00 (UTC+8)。Star 数量：2 ⭐
 
-**截至 2025 年 12 月 25 日，已打击计算机病毒 / 恶意软件 42 个**。
+**截至 2025 年 12 月 26 日，已打击计算机病毒 / 恶意软件 43 个**。
 
 ---
 
@@ -84,6 +84,7 @@
 | 2025/12/25 |   Chome-stallerwin64.exe   |  **Win32/Malgent!MSR**  | 9597ac18b19d498230c56bf853e64855a4fe60e02fc4c2b723a331fc06b3a1f4 | 7fc303d0-923d-4300-a8ca-f48d0b62d5cb |                              无                              | 0040 |
 | 2025/12/25 |     Chrome···4550.msi      |  **Win32/Malgent!MSR**  | e87ee6a08389cc69f3208247e0e65be770ad1ba5fc3e566aa3abe920ed8fc741 | 7fc303d0-923d-4300-a8ca-f48d0b62d5cb | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/e87ee6a08389cc69f3208247e0e65be770ad1ba5fc3e566aa3abe920ed8fc741) | 0041 |
 | 2025/12/25 |  Photoshop···单文件版.exe  |  **Win32/Tiggre!rfn**   | d49ec81f7be6eaabac6d77e8bc43a8ec61d368af5caa75690b95c18a6d52bcf7 | 51643783-afcb-4141-a8dd-95457d920f8e | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/d49ec81f7be6eaabac6d77e8bc43a8ec61d368af5caa75690b95c18a6d52bcf7) | 0042 |
+| 2025/12/26 |         jdk1.8.exe         |  **Win32/Malgent!MSR**  | 1764d210fdc967c7b23efcb42bad3d019412232d106733c2da8349d352f030ae | 3f07782f-6df5-43a0-a8ca-f8529b7180b7 | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/1764d210fdc967c7b23efcb42bad3d019412232d106733c2da8349d352f030ae) | 0043 |
 |   ——————   |        ————————————        |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                         ————————————                         | ———  |
 
 **注**：只保留最近 30 天内的最多 60 条数据，更早数据详见 LGSRC/[Archive.md](https://github.com/Lingggao/LGSRC/blob/main/Archive.md)。
