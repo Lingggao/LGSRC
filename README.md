@@ -53,9 +53,9 @@
 
 ## 数据
 
-上次更新时间：2025 年 12 月 28 日 0:00 (UTC+8)。Star 数量：2 ⭐
+上次更新时间：2025 年 12 月 28 日 1:00 (UTC+8)。
 
-**截至 2025 年 12 月 28 日，已打击计算机病毒 / 恶意软件 63 个**。
+**截至 2025 年 12 月 28 日，已打击计算机病毒 / 恶意软件 64 个**。
 
 ---
 
@@ -118,6 +118,7 @@
 | 2025/12/27 |   wpsdhbsi_x64.2.0.1.exe   |   **Win32/Malgent!MSR**    | 1511f60e41d93b8412b42078c1e69c30ec84d45cd7456ffb45ba9fa88b48182f | 3277d72b-4408-4de2-9da7-24485da1ec39 |                              无                              | 0061 |
 | 2025/12/27 |      Bingguksiaru.msi      |   **Win32/Dropper!MSR**    | 07b2d1ff03cd867be5b1b72ebcff955e6919fe9daf33cc572e6688ebb191ef30 | e66c4239-61c3-430f-a454-06ccd7fc38a3 | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/07b2d1ff03cd867be5b1b72ebcff955e6919fe9daf33cc572e6688ebb191ef30) | 0062 |
 | 2025/12/27 |        Gskdfkd.exe         |   **Win64/Malgent!MSR**    | 5ada26b0bd07e54e568a058ac1619a7a613d67ae3680d3219aa254049fe111ae | e66c4239-61c3-430f-a454-06ccd7fc38a3 | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5ada26b0bd07e54e568a058ac1619a7a613d67ae3680d3219aa254049fe111ae) | 0063 |
+| 2025/12/28 |       Gusnktyst.msi        |   **Win32/Malgent!MSR**    | 7cecbc386a956670dd27cf2dd7e478c0dbda03152748c787352dd295b8aa5389 | 27210aec-e1bb-4545-9b2d-81cc876bfd93 | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/7cecbc386a956670dd27cf2dd7e478c0dbda03152748c787352dd295b8aa5389) | 0064 |
 |   ——————   |        ————————————        |        ————————————        |             ———————————————————————————————————              |         ————————————————————         |                         ————————————                         | ———  |
 
 **注**：只保留最近 30 天内的最多 60 条数据，更早数据详见 LGSRC/[Archive.md](https://github.com/Lingggao/LGSRC/blob/main/Archive.md)。
