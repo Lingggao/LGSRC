@@ -53,9 +53,9 @@
 
 ## 数据
 
-上次更新时间：2025 年 12 月 27 日 23:00 (UTC+8)。Star 数量：2 ⭐
+上次更新时间：2025 年 12 月 28 日 0:00 (UTC+8)。Star 数量：2 ⭐
 
-**截至 2025 年 12 月 27 日，已打击计算机病毒 / 恶意软件 61 个**。
+**截至 2025 年 12 月 28 日，已打击计算机病毒 / 恶意软件 63 个**。
 
 ---
 
@@ -114,8 +114,10 @@
 | 2025/12/27 |  Chome-stallerrwin64.exe   |   **Win32/Malgent!MSR**    | bfd4b3c2e9b2ed661059a94d38017e20b478aed370bbee80d36224d1dd34c9a2 | 0d542bbe-d253-4abf-97d0-b854fa267f61 |                              无                              | 0057 |
 | 2025/12/27 |   wps_ghwigzx64.5.3.exe    |   **Win32/Malgent!MSR**    | 30793d892d4ad1fb77093ccbe1bf6eed58de5eb9ea3ccdf675a61a121e4bf2dc | 5c771ea1-884b-4522-ab5c-75312b3dd9c2 |                              无                              | 0058 |
 | 2025/12/27 |    WPS_office-8097.msi     |   **Win32/Dropper!MSR**    | 4d97c932a78e7e52450b87abd64813007c1fda9405f041d47b7259db78d24f73 | 808698da-9883-4a71-8e46-159ef161c9f0 |                              无                              | 0059 |
-| 2025/12/27 |     WPS_Setup_X64.msi      |   **Win32/Malgent!MSR**    | bc6fcb450024b38f113f01cf7873657aede61549758191cd33d8597ad808f8e7 | 30849637-921e-4942-8207-d1dad45ec481 |                              无                              | 0060 |
+| 2025/12/27 |     WPS_Setup_X64.msi      |   **Win32/Malgent!MSR**    | bc6fcb450024b38f113f01cf7873657aede61549758191cd33d8597ad808f8e7 | 30849637-921e-4942-8207-d1dad45ec481 | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/bc6fcb450024b38f113f01cf7873657aede61549758191cd33d8597ad808f8e7) | 0060 |
 | 2025/12/27 |   wpsdhbsi_x64.2.0.1.exe   |   **Win32/Malgent!MSR**    | 1511f60e41d93b8412b42078c1e69c30ec84d45cd7456ffb45ba9fa88b48182f | 3277d72b-4408-4de2-9da7-24485da1ec39 |                              无                              | 0061 |
+| 2025/12/27 |      Bingguksiaru.msi      |   **Win32/Dropper!MSR**    | 07b2d1ff03cd867be5b1b72ebcff955e6919fe9daf33cc572e6688ebb191ef30 | e66c4239-61c3-430f-a454-06ccd7fc38a3 | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/07b2d1ff03cd867be5b1b72ebcff955e6919fe9daf33cc572e6688ebb191ef30) | 0062 |
+| 2025/12/27 |        Gskdfkd.exe         |   **Win64/Malgent!MSR**    | 5ada26b0bd07e54e568a058ac1619a7a613d67ae3680d3219aa254049fe111ae | e66c4239-61c3-430f-a454-06ccd7fc38a3 | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5ada26b0bd07e54e568a058ac1619a7a613d67ae3680d3219aa254049fe111ae) | 0063 |
 |   ——————   |        ————————————        |        ————————————        |             ———————————————————————————————————              |         ————————————————————         |                         ————————————                         | ———  |
 
 **注**：只保留最近 30 天内的最多 60 条数据，更早数据详见 LGSRC/[Archive.md](https://github.com/Lingggao/LGSRC/blob/main/Archive.md)。
