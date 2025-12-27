@@ -53,9 +53,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2025 年 12 月 28 日 1:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2025 年 12 月 28 日 2:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2025 年 12 月 28 日，已打击计算机病毒 / 恶意软件 64 个**。
+&emsp;&emsp;**截至 2025 年 12 月 28 日，已打击计算机病毒 / 恶意软件 66 个**。
 
 ---
 
@@ -119,6 +119,8 @@
 | 2025/12/27 |      Bingguksiaru.msi      |   **Win32/Dropper!MSR**    | 07b2d1ff03cd867be5b1b72ebcff955e6919fe9daf33cc572e6688ebb191ef30 | e66c4239-61c3-430f-a454-06ccd7fc38a3 | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/07b2d1ff03cd867be5b1b72ebcff955e6919fe9daf33cc572e6688ebb191ef30) | 0062 |
 | 2025/12/27 |        Gskdfkd.exe         |   **Win64/Malgent!MSR**    | 5ada26b0bd07e54e568a058ac1619a7a613d67ae3680d3219aa254049fe111ae | e66c4239-61c3-430f-a454-06ccd7fc38a3 | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5ada26b0bd07e54e568a058ac1619a7a613d67ae3680d3219aa254049fe111ae) | 0063 |
 | 2025/12/28 |       Gusnktyst.msi        |   **Win32/Malgent!MSR**    | 7cecbc386a956670dd27cf2dd7e478c0dbda03152748c787352dd295b8aa5389 | 27210aec-e1bb-4545-9b2d-81cc876bfd93 | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/7cecbc386a956670dd27cf2dd7e478c0dbda03152748c787352dd295b8aa5389) | 0064 |
+| 2025/12/28 |      txbase-63.89.exe      |   **Win32/Wacatac.C!ml**   | 6dd128150c5039d506d8a2887d356baab50a0bf5180d090ccbc3861ef0f987e8 |                  无                  |                              无                              | 0065 |
+| 2025/12/28 |      Ewaiwai2025.exe       |   **Win32/Malgent!MSR**    | 2469fd9033c7d7407569efa8cac539390bae9532d605fe6026422a924d81a8f7 | e66c4239-61c3-430f-a454-06ccd7fc38a3 |                              无                              | 0066 |
 |   ——————   |        ————————————        |        ————————————        |             ———————————————————————————————————              |         ————————————————————         |                         ————————————                         | ———  |
 
 &emsp;&emsp;**注**：只保留最近 30 天内的最多 60 条数据，更早数据详见 LGSRC/[Archive.md](https://github.com/Lingggao/LGSRC/blob/main/Archive.md)。
