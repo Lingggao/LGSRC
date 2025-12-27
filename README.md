@@ -14,7 +14,7 @@
 
 > [!IMPORTANT]
 >
-> &emsp;灵糕中心为个人项目，管理者不是 Microsoft 公司员工，不能代表 Microsoft 公司立场、态度。
+> &emsp;灵糕中心为个人项目，管理者**不是** Microsoft 公司员工，**不能**代表 Microsoft 公司立场、态度。
 
 &emsp;&emsp;**宗旨**：独立管理、放眼全球、数据精确、打击迅速
 
@@ -37,13 +37,13 @@
 1. 发现 / 获得疑似恶意软件样本
 2. 使用 Microsoft Defender (最新[安全智能](https://learn.microsoft.com/zh-cn/defender-endpoint/microsoft-defender-antivirus-updates)) 测试能否查杀
 3. 如果不能，按工作流程开展前期分析
-4. 请求 Microsoft 等公司安全研究员人工分析样本
+4. 请求 Microsoft 等公司研究员人工分析样本
 5. 如果判断为恶意软件，则向全球信息安全社区、杀毒软件厂商、威胁情报提供商等共享信息
 6. (可选) 向国家有关部门提供线索
 7. (可选) 针对仿冒正规软件投放病毒事件，向受害企业方共享线索
 8. 将样本数据填写至下方表格
 
-**二、出现以下情况时，样本数据不会填写至表格**
+**二、满足以下条件时，样本数据不会填写至表格**
 
 1. Microsoft Defender 可以查杀样本，无需人工分析
 2. 经前期分析，可 100% 确认为正常文件
@@ -123,7 +123,7 @@
 | 2025/12/28 |      Ewaiwai2025.exe       |   **Win32/Malgent!MSR**    | 2469fd9033c7d7407569efa8cac539390bae9532d605fe6026422a924d81a8f7 | e66c4239-61c3-430f-a454-06ccd7fc38a3 |                              无                              | 0066 |
 |   ——————   |        ————————————        |        ————————————        |             ———————————————————————————————————              |         ————————————————————         |                         ————————————                         | ———  |
 
-&emsp;&emsp;**注**：只保留最近 30 天内的最多 60 条数据，更早数据详见 LGSRC/[Archive.md](https://github.com/Lingggao/LGSRC/blob/main/Archive.md)。
+&emsp;&emsp;**注**：只保留最近 30 天内的最多 60 条数据，更早数据详见 LGSRC/[Archive.md](https://github.com/Lingggao/LGSRC/blob/main/Archive.md) (归档)。
 
 ## 如何提交文件进行分析？
 
