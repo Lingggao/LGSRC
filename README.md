@@ -53,9 +53,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2025 年 12 月 28 日 5:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2025 年 12 月 28 日 6:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2025 年 12 月 28 日，已打击计算机病毒 / 恶意软件 67 个**。
+&emsp;&emsp;**截至 2025 年 12 月 28 日，已打击计算机病毒 / 恶意软件 72 个**。
 
 ---
 
@@ -122,6 +122,11 @@
 | 2025/12/28 |      txbase-63.89.exe      |   **Win32/Wacatac.C!ml**   | 6dd128150c5039d506d8a2887d356baab50a0bf5180d090ccbc3861ef0f987e8 |                  无                  |                              无                              | 0065 |
 | 2025/12/28 |      Ewaiwai2025.exe       |   **Win32/Malgent!MSR**    | 2469fd9033c7d7407569efa8cac539390bae9532d605fe6026422a924d81a8f7 | e66c4239-61c3-430f-a454-06ccd7fc38a3 |                              无                              | 0066 |
 | 2025/12/28 |   点击此处安装语言包.exe   |    **Win64/Donut!rfn**     | f7b7cbb138c0264587c6978ebe89a66ff62b7378015bccf8cb7227049c38f255 | 0ba51492-ea75-4d8b-aa65-14b062f26880 | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/f7b7cbb138c0264587c6978ebe89a66ff62b7378015bccf8cb7227049c38f255) | 0067 |
+| 2025/12/28 |    36udhea_x64.2.1.exe     |   **Win32/Malgent!MSR**    | 14a8e301ef49676176cb5126a15fcd8e97e589c175dafbd0b94a0b7911cc0b3c | f40a9723-322c-49a5-bfe2-e16cf3d2a83a |                              无                              | 0068 |
+| 2025/12/28 |        install.exe         |   **Win32/Malgent!MSR**    | c22b66b65e97b7f87d3582315776c92f5ae64a487355ac5bfd0fae1bbccfc987 | f40a9723-322c-49a5-bfe2-e16cf3d2a83a | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c22b66b65e97b7f87d3582315776c92f5ae64a487355ac5bfd0fae1bbccfc987) | 0069 |
+| 2025/12/28 |      ldplayer9_ld.exe      |   **Win32/Malgent!MSR**    | f1a69a7e4493c308beb6b041368f1ad58ae49884789249e684c37672417f8cc5 | f40a9723-322c-49a5-bfe2-e16cf3d2a83a | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/f1a69a7e4493c308beb6b041368f1ad58ae49884789249e684c37672417f8cc5) | 0070 |
+| 2025/12/28 | ···违规内职人员名单···.exe |   **Win32/Malgent!MSR**    | 92551682197c1d0295549208e53f8479c096247846952147b4a59691cc269b53 | d64ec88e-ad93-4742-a2ea-0da2d4c1d86c | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/92551682197c1d0295549208e53f8479c096247846952147b4a59691cc269b53) | 0071 |
+| 2025/12/28 |         xAvuyj.exe         |   **Win32/Wacatac.C!ml**   | ebd4331fb913b6dea5616aa04e6565691b39240725e238ab334936d8bb0b1a8c | d64ec88e-ad93-4742-a2ea-0da2d4c1d86c | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/ebd4331fb913b6dea5616aa04e6565691b39240725e238ab334936d8bb0b1a8c) | 0072 |
 |   ——————   |        ————————————        |        ————————————        |             ———————————————————————————————————              |         ————————————————————         |                         ————————————                         | ———  |
 
 &emsp;&emsp;**注**：只保留最近 30 天内的最多 60 条数据，更早数据详见 LGSRC/[Archive.md](https://github.com/Lingggao/LGSRC/blob/main/Archive.md) (归档)。
