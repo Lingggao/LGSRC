@@ -1,19 +1,24 @@
 <SPAN ID = 'HEAD'/>
 
-## 总览
+## 数据
 
 > [!CAUTION]
 >
 > &emsp;为确保安全，本中心**不提供**病毒 / 恶意软件样本下载服务。
 
-|  日期  |    文件名    |   分析结果   |               SHA256                |     Internal ID      | MalwareBazaar | 编号 |
-| :----: | :----------: | :----------: | :---------------------------------: | :------------------: | :-----------: | :--: |
-|        |              |              |                                     |                      |               |      |
-|        |              |              |                                     |                      |               |      |
-|        |              |              |                                     |                      |               |      |
-|        |              |              |                                     |                      |               |      |
-|        |              |              |                                     |                      |               |      |
-| —————— | ———————————— | ———————————— | ——————————————————————————————————— | ———————————————————— | ————————————  | ———  |
+|    日期    |        文件名        |        分析结果         |                            SHA256                            |             Internal ID              |                        MalwareBazaar                         | 编号 |
+| :--------: | :------------------: | :---------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :--: |
+| 2025/12/19 |  in-20251854846.msi  |   **Win32/Vigorf.A**    | 881677965aedcb8fcd1a4b5ab358fe6b59bb728030700adad480cae557430b5f | bf85f0ce-a7a2-4e1b-9eb0-488c9570d95a |                              无                              | 0001 |
+| 2025/12/19 |    chrromsoex.exe    |  **Win32/Malgent!MSR**  | 53ba47c9dbe3667d6e10f3645ceec4e9b5f5691dc4839078c8ddbf43671a0e2c | bf85f0ce-a7a2-4e1b-9eb0-488c9570d95a |                              无                              | 0002 |
+| 2025/12/19 |      late1.exe       |  **Win64/Malgent!MSR**  | 0bf6e2366b49ba9f1a5cf30d9d5ae0bb713bf891780fbcd1e4ac82db8f2b6ff3 | 6a660a4d-1fbd-4050-8827-79ddd8eb4998 |                              无                              | 0003 |
+| 2025/12/19 |   huorong_x64.exe    |  **Win32/Malgent!MSR**  | e5cf2cfa3881c56cfa7be09cb197d92071a23665e0f7ed1d03da3cdb33cd0490 | cdc75b0f-2061-47dc-b871-7286d44fcdf5 |                              无                              | 0004 |
+| 2025/12/20 | wps_office-7390.msi  |   **Win32/Vigorf.A**    | 31239840cd7c4f42ea883b748833baab5d6d5fc4967ebe6a58cf7041b6493c85 | 88d7aebf-f70e-48bb-9d2f-cc7e48912ee3 |                              无                              | 0005 |
+| 2025/12/20 |  dfssafdsdawps.exe   |  **Win32/Malgent!MSR**  | c853c91010bb617c57ee66d393de7213d89a87250be137ee7166d523cf7c513a | 2bad2e01-125c-47ea-ab6b-8d1c3ae84c6e |                              无                              | 0006 |
+| 2025/12/20 |     wps-stup.exe     | **Win32/Wacatac.C!ml**  | 83e24c1670ef7efe64421e6917d0ad8f81660ada23550e3da5dbd24dd348aa70 | 2bad2e01-125c-47ea-ab6b-8d1c3ae84c6e |                              无                              | 0007 |
+| 2025/12/20 | Wpssofilce_world.exe |  **Win32/Malgent!MSR**  | f5e2d25c9fc4cef5eb014e208dfab69e9e38b9235342b43ae1c9e65b1b2f1e14 | 2bad2e01-125c-47ea-ab6b-8d1c3ae84c6e |                              无                              | 0008 |
+| 2025/12/20 |     HUoRONG.msi      | **Script/Wacatac.H!ml** | 35d221d282a772437c17e374f666dab1423d7af7377f9300baf3612db23874e4 | 2bad2e01-125c-47ea-ab6b-8d1c3ae84c6e | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/35d221d282a772437c17e374f666dab1423d7af7377f9300baf3612db23874e4) | 0009 |
+| 2025/12/20 |  hchaem_x64.5.3.exe  |   **Win32/Etset!rfn**   | ee2fd14686781ef30f3a214144465587bc5a34a18dc24f2c43a5599f5c0b1118 | 753b85f5-7dd9-4d25-8c6a-0731b65f84c9 |                              无                              | 0010 |
+|   ——————   |     ————————————     |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                         ————————————                         | ———  |
 
 ---
 

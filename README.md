@@ -28,11 +28,34 @@
 
 学习 - [Microsoft 认证：安全性、合规性和标识基础知识](https://learn.microsoft.com/zh-cn/credentials/certifications/security-compliance-and-identity-fundamentals) | [Microsoft 认证：安全运营分析师助理](https://learn.microsoft.com/zh-cn/credentials/certifications/security-operations-analyst) | [Microsoft 认证：网络安全架构师专家](https://learn.microsoft.com/zh-cn/credentials/certifications/cybersecurity-architect-expert) | [ISC.AI 学苑 (360 数字安全集团)](https://study.360.net/frontend/home/home) | [阿里云 云安全高级工程师 ACP 认证](https://edu.aliyun.com/certification/acp04)
 
-## 总览
+## 工作流程
 
-上次更新时间：2025 年 12 月 27 日 19:00 (UTC+8)。Star 数量：2 ⭐
+<img src="Images/Workflow.png" width = "100%" />
 
-**截至 2025 年 12 月 27 日，已打击计算机病毒 / 恶意软件 57 个**。
+**一、工作流程概述**
+
+1. 发现 / 获得疑似恶意软件样本
+2. 使用 Microsoft Defender (最新[安全智能](https://learn.microsoft.com/zh-cn/defender-endpoint/microsoft-defender-antivirus-updates)) 测试能否查杀
+3. 如果不能，按工作流程开展前期分析
+4. 请求 Microsoft 等公司安全研究员人工分析样本
+5. 如果判断为恶意软件，则向全球信息安全社区、杀毒软件厂商、威胁情报提供商等共享信息
+6. (可选) 向国家有关部门提供线索
+7. (可选) 针对仿冒正规软件投放病毒事件，向受害企业方共享线索
+8. 将样本数据填写至下方表格
+
+**二、出现以下情况时，样本数据不会填写至表格**
+
+1. Microsoft Defender 可以查杀样本，无需人工分析
+2. 经前期分析，可 100% 确认为正常文件
+3. Microsoft 研究员判断样本 “干净” (Clean)
+4. 样本首次发现日期距今已超过 60 天
+5. 由其他从业人员 / 志愿者发现、分析、上报，本中心全程未参与
+
+## 数据
+
+上次更新时间：2025 年 12 月 27 日 23:00 (UTC+8)。Star 数量：2 ⭐
+
+**截至 2025 年 12 月 27 日，已打击计算机病毒 / 恶意软件 61 个**。
 
 ---
 
@@ -42,16 +65,6 @@
 
 |    日期    |           文件名           |          分析结果          |                            SHA256                            |             Internal ID              |                        MalwareBazaar                         | 编号 |
 | :--------: | :------------------------: | :------------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :--: |
-| 2025/12/19 |     in-20251854846.msi     |     **Win32/Vigorf.A**     | 881677965aedcb8fcd1a4b5ab358fe6b59bb728030700adad480cae557430b5f | bf85f0ce-a7a2-4e1b-9eb0-488c9570d95a |                              无                              | 0001 |
-| 2025/12/19 |       chrromsoex.exe       |   **Win32/Malgent!MSR**    | 53ba47c9dbe3667d6e10f3645ceec4e9b5f5691dc4839078c8ddbf43671a0e2c | bf85f0ce-a7a2-4e1b-9eb0-488c9570d95a |                              无                              | 0002 |
-| 2025/12/19 |         late1.exe          |   **Win64/Malgent!MSR**    | 0bf6e2366b49ba9f1a5cf30d9d5ae0bb713bf891780fbcd1e4ac82db8f2b6ff3 | 6a660a4d-1fbd-4050-8827-79ddd8eb4998 |                              无                              | 0003 |
-| 2025/12/19 |      huorong_x64.exe       |   **Win32/Malgent!MSR**    | e5cf2cfa3881c56cfa7be09cb197d92071a23665e0f7ed1d03da3cdb33cd0490 | cdc75b0f-2061-47dc-b871-7286d44fcdf5 |                              无                              | 0004 |
-| 2025/12/20 |    wps_office-7390.msi     |     **Win32/Vigorf.A**     | 31239840cd7c4f42ea883b748833baab5d6d5fc4967ebe6a58cf7041b6493c85 | 88d7aebf-f70e-48bb-9d2f-cc7e48912ee3 |                              无                              | 0005 |
-| 2025/12/20 |     dfssafdsdawps.exe      |   **Win32/Malgent!MSR**    | c853c91010bb617c57ee66d393de7213d89a87250be137ee7166d523cf7c513a | 2bad2e01-125c-47ea-ab6b-8d1c3ae84c6e |                              无                              | 0006 |
-| 2025/12/20 |        wps-stup.exe        |   **Win32/Wacatac.C!ml**   | 83e24c1670ef7efe64421e6917d0ad8f81660ada23550e3da5dbd24dd348aa70 | 2bad2e01-125c-47ea-ab6b-8d1c3ae84c6e |                              无                              | 0007 |
-| 2025/12/20 |    Wpssofilce_world.exe    |   **Win32/Malgent!MSR**    | f5e2d25c9fc4cef5eb014e208dfab69e9e38b9235342b43ae1c9e65b1b2f1e14 | 2bad2e01-125c-47ea-ab6b-8d1c3ae84c6e |                              无                              | 0008 |
-| 2025/12/20 |        HUoRONG.msi         |  **Script/Wacatac.H!ml**   | 35d221d282a772437c17e374f666dab1423d7af7377f9300baf3612db23874e4 | 2bad2e01-125c-47ea-ab6b-8d1c3ae84c6e | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/35d221d282a772437c17e374f666dab1423d7af7377f9300baf3612db23874e4) | 0009 |
-| 2025/12/20 |     hchaem_x64.5.3.exe     |    **Win32/Etset!rfn**     | ee2fd14686781ef30f3a214144465587bc5a34a18dc24f2c43a5599f5c0b1118 | 753b85f5-7dd9-4d25-8c6a-0731b65f84c9 |                              无                              | 0010 |
 | 2025/12/21 |       iN-HR20256.exe       |   **Win32/Malgent!MSR**    | f8533b2981f218a219ff9d67b08b3017e0ef00b6fbb3fca98e8382493b70fae1 | dba49f80-78fe-4a8d-9abb-7772d9d3a5dd |                              无                              | 0011 |
 | 2025/12/21 |    Egzgxemc···SETUP.exe    |   **Win32/Malgent!MSR**    | d659ad9d00570077e5918aa2f53783c5e5b105ef10c7f776496332527776fc58 | dba49f80-78fe-4a8d-9abb-7772d9d3a5dd | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/d659ad9d00570077e5918aa2f53783c5e5b105ef10c7f776496332527776fc58) | 0012 |
 | 2025/12/21 |         imgpr.exe          |   **Win32/Wacatac.C!ml**   | 613d363367a9ab36b881e94555e38bf2b5466716606a14bddb7c1d9f2fc1d555 | dba49f80-78fe-4a8d-9abb-7772d9d3a5dd | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/613d363367a9ab36b881e94555e38bf2b5466716606a14bddb7c1d9f2fc1d555) | 0013 |
@@ -99,32 +112,13 @@
 | 2025/12/27 |     huorong333333.exe      |   **Win32/Malgent!MSR**    | a1e780e075a822053bb3322108d29674462089bc0fb90ecf24eb18dfb3052a94 | 4ab4468f-8114-4c47-9857-0d6ca3cfa756 |                              无                              | 0055 |
 | 2025/12/27 |   GWMeqk-itstos-2.35.msi   |   **Win32/Malgent!MSR**    | 918448e18b6fc75001634e154dabfe9d07aceac93ec997e833c592b31350b248 | 718ce763-129f-437b-badd-25b82fbc385a |                              无                              | 0056 |
 | 2025/12/27 |  Chome-stallerrwin64.exe   |   **Win32/Malgent!MSR**    | bfd4b3c2e9b2ed661059a94d38017e20b478aed370bbee80d36224d1dd34c9a2 | 0d542bbe-d253-4abf-97d0-b854fa267f61 |                              无                              | 0057 |
+| 2025/12/27 |   wps_ghwigzx64.5.3.exe    |   **Win32/Malgent!MSR**    | 30793d892d4ad1fb77093ccbe1bf6eed58de5eb9ea3ccdf675a61a121e4bf2dc | 5c771ea1-884b-4522-ab5c-75312b3dd9c2 |                              无                              | 0058 |
+| 2025/12/27 |    WPS_office-8097.msi     |   **Win32/Dropper!MSR**    | 4d97c932a78e7e52450b87abd64813007c1fda9405f041d47b7259db78d24f73 | 808698da-9883-4a71-8e46-159ef161c9f0 |                              无                              | 0059 |
+| 2025/12/27 |     WPS_Setup_X64.msi      |   **Win32/Malgent!MSR**    | bc6fcb450024b38f113f01cf7873657aede61549758191cd33d8597ad808f8e7 | 30849637-921e-4942-8207-d1dad45ec481 |                              无                              | 0060 |
+| 2025/12/27 |   wpsdhbsi_x64.2.0.1.exe   |   **Win32/Malgent!MSR**    | 1511f60e41d93b8412b42078c1e69c30ec84d45cd7456ffb45ba9fa88b48182f | 3277d72b-4408-4de2-9da7-24485da1ec39 |                              无                              | 0061 |
 |   ——————   |        ————————————        |        ————————————        |             ———————————————————————————————————              |         ————————————————————         |                         ————————————                         | ———  |
 
 **注**：只保留最近 30 天内的最多 60 条数据，更早数据详见 LGSRC/[Archive.md](https://github.com/Lingggao/LGSRC/blob/main/Archive.md)。
-
-## 工作流程
-
-<img src="Images/Workflow.png" width = "100%" />
-
-**一、工作流程概述**
-
-1. 发现 / 获得疑似恶意软件样本
-2. 使用 Microsoft Defender (最新[安全智能](https://learn.microsoft.com/zh-cn/defender-endpoint/microsoft-defender-antivirus-updates)) 测试能否查杀
-3. 如果不能，按工作流程开展前期分析
-4. 请求 Microsoft 等公司安全研究员人工分析样本
-5. 如果判断为恶意软件，则向全球信息安全社区、杀毒软件厂商、威胁情报提供商等共享信息
-6. (可选) 向国家有关部门提供线索
-7. (可选) 针对仿冒正规软件投放病毒事件，向受害企业方共享线索
-8. 将样本数据填写至上方表格
-
-**二、出现以下情况时，样本数据不会填写至表格**
-
-1. Microsoft Defender 可以查杀样本，无需人工分析
-2. 经前期分析，可 100% 确认为正常文件
-3. Microsoft 研究员判断样本 “干净” (Clean)
-4. 样本首次发现日期距今已超过 60 天
-5. 由其他从业人员 / 志愿者发现、分析、上报，本中心全程未参与
 
 ## 如何提交文件进行分析？
 
