@@ -53,9 +53,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2025 年 12 月 28 日 23:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2025 年 12 月 29 日 1:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2025 年 12 月 28 日，已打击计算机病毒 / 恶意软件 78 个**。
+&emsp;&emsp;**截至 2025 年 12 月 29 日，已打击计算机病毒 / 恶意软件 79 个**。
 
 ---
 
@@ -65,15 +65,6 @@
 
 |    日期    |           文件名           |          分析结果          |                            SHA256                            |             Internal ID              |                        MalwareBazaar                         | 编号 |
 | :--------: | :------------------------: | :------------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :--: |
-| 2025/12/22 |       javaclear.exe        |   **Win32/Malgent!MSR**    | 5c26565307470e8dafa63e7c9eb464f00cf4f4e6700a806f6cf73dd57a3fe853 | cb8041ff-60fd-468f-b663-efeff7096c45 | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5c26565307470e8dafa63e7c9eb464f00cf4f4e6700a806f6cf73dd57a3fe853) | 0016 |
-| 2025/12/22 |      ChrromSorMXi.exe      |   **Win32/Wacatac.H!ml**   | 96aacc8331bc06e88c7b696aa8f2da19162400204ac86abf7e32d2b0142f2baf | 84989601-74a1-4df9-bc0a-64b23705f58e | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/96aacc8331bc06e88c7b696aa8f2da19162400204ac86abf7e32d2b0142f2baf) | 0017 |
-| 2025/12/22 |         fv47j.exe          |   **Win32/Malgent!MSR**    | 1822e2d6227f9b22573e82c973286fd920827cf15597d558af71790b56cda693 | 84989601-74a1-4df9-bc0a-64b23705f58e | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/1822e2d6227f9b22573e82c973286fd920827cf15597d558af71790b56cda693) | 0018 |
-| 2025/12/22 |    todesk···x64.2.0.exe    |     **Win32/Tnega!ml**     | 31bd93d6ae1266a19fc74e85db1a686afa845ba710b073c0fd41a82c921ac691 | 84989601-74a1-4df9-bc0a-64b23705f58e |                              无                              | 0019 |
-| 2025/12/22 |   北京地铁···举报函.exe    |   **CobaltStrikeBeacon**   | bea27ed2fe4e48eebf79f045b50ab89be138596620155c3f47a75bf1b99ab824 | 84989601-74a1-4df9-bc0a-64b23705f58e | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/bea27ed2fe4e48eebf79f045b50ab89be138596620155c3f47a75bf1b99ab824) | 0020 |
-| 2025/12/22 |     wechathelper1.exe      |   **Win32/Wacatac.C!ml**   | b0b92ed73b4e9254a4e0d353c09305f7f27def9d3a86d70001b17482f7317ef9 |                  无                  | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b0b92ed73b4e9254a4e0d353c09305f7f27def9d3a86d70001b17482f7317ef9) | 0021 |
-| 2025/12/22 |         setup.exe          |  **Win32/Sonbokli.A!cl**   | 64292ff235908c90b3f38e3c37a4bb2e474b76bede9a2f4a9a60e5d1a3d1258a | f231c888-eb7c-4c54-af44-a46bda0253ad | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/64292ff235908c90b3f38e3c37a4bb2e474b76bede9a2f4a9a60e5d1a3d1258a) | 0022 |
-| 2025/12/22 |    Setup_Installer.exe     |  **Win32/Sonbokli.A!cl**   | 27f8ee5c936e6356bd575bddc9dc5dac88f6d14004feccc9622da2862862b23f | f231c888-eb7c-4c54-af44-a46bda0253ad | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/27f8ee5c936e6356bd575bddc9dc5dac88f6d14004feccc9622da2862862b23f) | 0023 |
-| 2025/12/22 |       Installer.exe        |   **Win32/Malgent!MSR**    | 96d36b91d5dc1a6257bbdad1b2b762e59a88d8d73cbaa317e2568dd7fb153b5f | f231c888-eb7c-4c54-af44-a46bda0253ad | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/96d36b91d5dc1a6257bbdad1b2b762e59a88d8d73cbaa317e2568dd7fb153b5f) | 0024 |
 | 2025/12/23 |        l519V93e.exe        |   **Win32/Malgent!MSR**    | 0586872339db977aa4f1b736feaf5642b07514d3f8aec627b9e47d05d3e88ee7 | e91743e4-c064-40d0-83e6-014a4a058454 |                              无                              | 0025 |
 | 2025/12/23 |    36chbem_x64.5.3.exe     |   **Win32/Malgent!MSR**    | 35b9bad49bac4d249359c49240e55a439ca5b4cc4449fc18e0d980e4158d0bf6 | e91743e4-c064-40d0-83e6-014a4a058454 |                              无                              | 0026 |
 | 2025/12/23 | ···稽查内职人员名单···.exe |   **Win32/Wacatac.C!ml**   | f1ec1791833bf98da73b948306fddc7085265fdb3bfeb6aaf67a697931e094ed |                  无                  | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/f1ec1791833bf98da73b948306fddc7085265fdb3bfeb6aaf67a697931e094ed) | 0027 |
@@ -128,6 +119,7 @@
 | 2025/12/28 |   Chome-stallerwin64.exe   |   **Win32/Malgent!MSR**    | 1e4026626b72e323104e940bb09a3abcc323712609469d7b016f7ace4473ad97 | 953f09b6-58f0-4a39-afd0-d23d870c24e8 |                              无                              | 0076 |
 | 2025/12/28 |   wpsdhbsi_x64.2.0.1.exe   |   **Win32/Malgent!MSR**    | a8efb24a1c1f488045aa0e31b156fd9eca3f7a2a821e351ef6f34d406e3d71ef | 3f7c02ce-a9f9-445e-9ceb-a87251521044 |                              无                              | 0077 |
 | 2025/12/28 |        bypassE.exe         |     **Win32/Genasom**      | acd537e6a2139078cf949232087a0600359a117edb2043188cf766d75a646072 | e588c9e3-4912-46cc-b334-9f1d37472f2a | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/acd537e6a2139078cf949232087a0600359a117edb2043188cf766d75a646072) | 0078 |
+| 2025/12/29 |      ChromeSetup.exe       |   **Win32/Wacatac.F!ml**   | c5606dc2a94800b9e5cee08c838b9c3a6ea46218a046a0ffa8939cffa0faae42 |                  无                  | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c5606dc2a94800b9e5cee08c838b9c3a6ea46218a046a0ffa8939cffa0faae42) | 0079 |
 |   ——————   |        ————————————        |        ————————————        |             ———————————————————————————————————              |         ————————————————————         |                         ————————————                         | ———  |
 
 &emsp;&emsp;**注**：只保留最近 30 天内的最多 60 条数据，更早数据详见 LGSRC/[Archive.md](https://github.com/Lingggao/LGSRC/blob/main/Archive.md) (归档)。
