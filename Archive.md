@@ -18,6 +18,11 @@
 | 2025/12/20 | Wpssofilce_world.exe |  **Win32/Malgent!MSR**  | f5e2d25c9fc4cef5eb014e208dfab69e9e38b9235342b43ae1c9e65b1b2f1e14 | 2bad2e01-125c-47ea-ab6b-8d1c3ae84c6e |                              无                              | 0008 |
 | 2025/12/20 |     HUoRONG.msi      | **Script/Wacatac.H!ml** | 35d221d282a772437c17e374f666dab1423d7af7377f9300baf3612db23874e4 | 2bad2e01-125c-47ea-ab6b-8d1c3ae84c6e | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/35d221d282a772437c17e374f666dab1423d7af7377f9300baf3612db23874e4) | 0009 |
 | 2025/12/20 |  hchaem_x64.5.3.exe  |   **Win32/Etset!rfn**   | ee2fd14686781ef30f3a214144465587bc5a34a18dc24f2c43a5599f5c0b1118 | 753b85f5-7dd9-4d25-8c6a-0731b65f84c9 |                              无                              | 0010 |
+| 2025/12/21 |    iN-HR20256.exe    |  **Win32/Malgent!MSR**  | f8533b2981f218a219ff9d67b08b3017e0ef00b6fbb3fca98e8382493b70fae1 | dba49f80-78fe-4a8d-9abb-7772d9d3a5dd |                              无                              | 0011 |
+| 2025/12/21 | Egzgxemc···SETUP.exe |  **Win32/Malgent!MSR**  | d659ad9d00570077e5918aa2f53783c5e5b105ef10c7f776496332527776fc58 | dba49f80-78fe-4a8d-9abb-7772d9d3a5dd | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/d659ad9d00570077e5918aa2f53783c5e5b105ef10c7f776496332527776fc58) | 0012 |
+| 2025/12/21 |      imgpr.exe       | **Win32/Wacatac.C!ml**  | 613d363367a9ab36b881e94555e38bf2b5466716606a14bddb7c1d9f2fc1d555 | dba49f80-78fe-4a8d-9abb-7772d9d3a5dd | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/613d363367a9ab36b881e94555e38bf2b5466716606a14bddb7c1d9f2fc1d555) | 0013 |
+| 2025/12/21 |  llmxnb-653297.exe   |  **Win32/Malgent!MSR**  | ba349030f47d4478c4a13a42c422b4361501bdb6247efa81de571a59ff2d7ba5 | cb8041ff-60fd-468f-b663-efeff7096c45 |                              无                              | 0014 |
+| 2025/12/21 |  din-Hr20254861.exe  |  **Win32/Malgent!MSR**  | c08753931b4af2c3f356695948d1bc23249b98f64c075b0660fa58bb501a7d36 | cb8041ff-60fd-468f-b663-efeff7096c45 |                              无                              | 0015 |
 |   ——————   |     ————————————     |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                         ————————————                         | ———  |
 
 ---

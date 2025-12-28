@@ -53,9 +53,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2025 年 12 月 28 日 6:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2025 年 12 月 28 日 18:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2025 年 12 月 28 日，已打击计算机病毒 / 恶意软件 72 个**。
+&emsp;&emsp;**截至 2025 年 12 月 28 日，已打击计算机病毒 / 恶意软件 73 个**。
 
 ---
 
@@ -65,11 +65,6 @@
 
 |    日期    |           文件名           |          分析结果          |                            SHA256                            |             Internal ID              |                        MalwareBazaar                         | 编号 |
 | :--------: | :------------------------: | :------------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :--: |
-| 2025/12/21 |       iN-HR20256.exe       |   **Win32/Malgent!MSR**    | f8533b2981f218a219ff9d67b08b3017e0ef00b6fbb3fca98e8382493b70fae1 | dba49f80-78fe-4a8d-9abb-7772d9d3a5dd |                              无                              | 0011 |
-| 2025/12/21 |    Egzgxemc···SETUP.exe    |   **Win32/Malgent!MSR**    | d659ad9d00570077e5918aa2f53783c5e5b105ef10c7f776496332527776fc58 | dba49f80-78fe-4a8d-9abb-7772d9d3a5dd | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/d659ad9d00570077e5918aa2f53783c5e5b105ef10c7f776496332527776fc58) | 0012 |
-| 2025/12/21 |         imgpr.exe          |   **Win32/Wacatac.C!ml**   | 613d363367a9ab36b881e94555e38bf2b5466716606a14bddb7c1d9f2fc1d555 | dba49f80-78fe-4a8d-9abb-7772d9d3a5dd | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/613d363367a9ab36b881e94555e38bf2b5466716606a14bddb7c1d9f2fc1d555) | 0013 |
-| 2025/12/21 |     llmxnb-653297.exe      |   **Win32/Malgent!MSR**    | ba349030f47d4478c4a13a42c422b4361501bdb6247efa81de571a59ff2d7ba5 | cb8041ff-60fd-468f-b663-efeff7096c45 |                              无                              | 0014 |
-| 2025/12/21 |     din-Hr20254861.exe     |   **Win32/Malgent!MSR**    | c08753931b4af2c3f356695948d1bc23249b98f64c075b0660fa58bb501a7d36 | cb8041ff-60fd-468f-b663-efeff7096c45 |                              无                              | 0015 |
 | 2025/12/22 |       javaclear.exe        |   **Win32/Malgent!MSR**    | 5c26565307470e8dafa63e7c9eb464f00cf4f4e6700a806f6cf73dd57a3fe853 | cb8041ff-60fd-468f-b663-efeff7096c45 | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5c26565307470e8dafa63e7c9eb464f00cf4f4e6700a806f6cf73dd57a3fe853) | 0016 |
 | 2025/12/22 |      ChrromSorMXi.exe      |   **Win32/Wacatac.H!ml**   | 96aacc8331bc06e88c7b696aa8f2da19162400204ac86abf7e32d2b0142f2baf | 84989601-74a1-4df9-bc0a-64b23705f58e | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/96aacc8331bc06e88c7b696aa8f2da19162400204ac86abf7e32d2b0142f2baf) | 0017 |
 | 2025/12/22 |         fv47j.exe          |   **Win32/Malgent!MSR**    | 1822e2d6227f9b22573e82c973286fd920827cf15597d558af71790b56cda693 | 84989601-74a1-4df9-bc0a-64b23705f58e | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/1822e2d6227f9b22573e82c973286fd920827cf15597d558af71790b56cda693) | 0018 |
@@ -127,6 +122,7 @@
 | 2025/12/28 |      ldplayer9_ld.exe      |   **Win32/Malgent!MSR**    | f1a69a7e4493c308beb6b041368f1ad58ae49884789249e684c37672417f8cc5 | f40a9723-322c-49a5-bfe2-e16cf3d2a83a | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/f1a69a7e4493c308beb6b041368f1ad58ae49884789249e684c37672417f8cc5) | 0070 |
 | 2025/12/28 | ···违规内职人员名单···.exe |   **Win32/Malgent!MSR**    | 92551682197c1d0295549208e53f8479c096247846952147b4a59691cc269b53 | d64ec88e-ad93-4742-a2ea-0da2d4c1d86c | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/92551682197c1d0295549208e53f8479c096247846952147b4a59691cc269b53) | 0071 |
 | 2025/12/28 |         xAvuyj.exe         |   **Win32/Wacatac.C!ml**   | ebd4331fb913b6dea5616aa04e6565691b39240725e238ab334936d8bb0b1a8c | d64ec88e-ad93-4742-a2ea-0da2d4c1d86c | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/ebd4331fb913b6dea5616aa04e6565691b39240725e238ab334936d8bb0b1a8c) | 0072 |
+| 2025/12/28 |          888.exe           | **Win32/Egairtigado!rfn**  | 1a68b732efe2aba27f5c4e44fe9b40ad2a8d8bdc03c08af12c44fa7b0b959e81 | 9fe7ac5e-8cf2-4582-a38b-62bca4f1ed27 |                              无                              | 0073 |
 |   ——————   |        ————————————        |        ————————————        |             ———————————————————————————————————              |         ————————————————————         |                         ————————————                         | ———  |
 
 &emsp;&emsp;**注**：只保留最近 30 天内的最多 60 条数据，更早数据详见 LGSRC/[Archive.md](https://github.com/Lingggao/LGSRC/blob/main/Archive.md) (归档)。
