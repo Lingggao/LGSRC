@@ -53,9 +53,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2025 年 12 月 30 日 20:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2025 年 12 月 31 日 8:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2025 年 12 月 30 日，已打击计算机病毒 / 恶意软件 94 个**。
+&emsp;&emsp;**截至 2025 年 12 月 31 日，已打击计算机病毒 / 恶意软件 95 个**。
 
 ---
 
@@ -123,6 +123,7 @@
 | 2025/12/30 |     wpfhsrfhsrjsej.exe     |   **Win32/Wacatac.F!ml**   | c5c31b6d568e827ba37e32fd12ac1da34da343a95bb242b15e36e4cfc69072a1 | e68f0345-5f0f-4085-84d7-1e07d6d01598 | [VirusTotal](https://www.virustotal.com/gui/file/c5c31b6d568e827ba37e32fd12ac1da34da343a95bb242b15e36e4cfc69072a1) (15) |                              无                              |      无      | 0092 |
 | 2025/12/30 |     ams.865301004.exe      |   **Win32/Malgent!MSR**    | 349c33df0b6938fbae6801222a6244871e0189a09c64db090556bf7252ade833 | 70e58ac9-4508-4d3a-844a-2da6f8148ba2 | [VirusTotal](https://www.virustotal.com/gui/file/349c33df0b6938fbae6801222a6244871e0189a09c64db090556bf7252ade833) (8) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/349c33df0b6938fbae6801222a6244871e0189a09c64db090556bf7252ade833) |      无      | 0093 |
 | 2025/12/30 |       款式-尺码.exe        |   **Win32/Malgent!MSR**    | 77e3aa52af76164ecf15fe59fc7e69ea046dd6e182aa12b8f4516f765124eee4 | 70e58ac9-4508-4d3a-844a-2da6f8148ba2 | [VirusTotal](https://www.virustotal.com/gui/file/77e3aa52af76164ecf15fe59fc7e69ea046dd6e182aa12b8f4516f765124eee4) (34) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/77e3aa52af76164ecf15fe59fc7e69ea046dd6e182aa12b8f4516f765124eee4) |      无      | 0094 |
+| 2025/12/31 | FlClash-0.8.91···setup.exe |   **Win32/Malgent!MSR**    | 3fa4070b5621914517362049ef967b47d8039fe30d5cffc95341ed489247a426 | c6cb0eba-61f4-42c8-ab3c-c36480584a75 | [VirusTotal](https://www.virustotal.com/gui/file/3fa4070b5621914517362049ef967b47d8039fe30d5cffc95341ed489247a426) (7) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/3fa4070b5621914517362049ef967b47d8039fe30d5cffc95341ed489247a426) |      无      | 0095 |
 |   ——————   |        ————————————        |        ————————————        |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         |    ——————    | ———  |
 
 &emsp;&emsp;**注**：只保留最近 30 天内的最多 60 条数据，更早数据详见 LGSRC/[Archive.md](https://github.com/Lingggao/LGSRC/blob/main/Archive.md) (归档)。
