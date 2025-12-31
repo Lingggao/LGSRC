@@ -127,7 +127,9 @@
 | 2025/12/31 |    ZooInstalle_v1.3.exe    |   **Win32/Kepavll!rfn**    | f61fb1855f70450e146fbcb7a08b13c6a300112c8e316318fdb26a2baa4c5ece | c515e910-595f-4dde-8f2e-a847578e9f5e | [VirusTotal](https://www.virustotal.com/gui/file/f61fb1855f70450e146fbcb7a08b13c6a300112c8e316318fdb26a2baa4c5ece) (12) |                              无                              |    QY    | 0102 |
 |   ——————   |        ————————————        |        ————————————        |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         |  ——————  | ———  |
 
-&emsp;&emsp;**注**：只保留最近 30 天内的最多 60 条数据，更早数据详见 LGSRC/[Archive.md](https://github.com/Lingggao/LGSRC/blob/main/Archive.md) (归档)。
+> [!NOTE]
+>
+> &emsp;只保留最近 30 天内的最多 60 条数据，更早数据详见 LGSRC/[Archive.md](https://github.com/Lingggao/LGSRC/blob/main/Archive.md) (归档)。
 
 ## 如何提交文件进行分析？
 
