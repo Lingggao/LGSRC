@@ -55,7 +55,7 @@
 
 &emsp;&emsp;上次更新时间：2026 年 1 月 1 日 8:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 1 月 1 日，已打击计算机病毒 / 恶意软件 106 个**。
+&emsp;&emsp;**截至 2026 年 1 月 1 日，已打击计算机病毒 / 恶意软件 107 个**。
 
 ---
 
@@ -117,6 +117,7 @@
 |  2026/1/1  |        Byingegu.msi        |   **Win32/Malgent!MSR**   | 46c3c14c9fb73ec9a209a0ead0e9c0a73f6ed1becb5d1ee0ea4c98cf2e38612a | 51af4bea-7bac-4007-ab02-e383c96d6a64 | [VirusTotal](https://www.virustotal.com/gui/file/46c3c14c9fb73ec9a209a0ead0e9c0a73f6ed1becb5d1ee0ea4c98cf2e38612a) (16) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/46c3c14c9fb73ec9a209a0ead0e9c0a73f6ed1becb5d1ee0ea4c98cf2e38612a) |    无    | 0104 |
 |  2026/1/1  |     Google_Install.exe     |   **Win32/Malgent!MSR**   | d1ada9c04cec4a022e70528b25e6fcf69d739be1ad980c7ec353a592b0fe9973 | 51af4bea-7bac-4007-ab02-e383c96d6a64 | [VirusTotal](https://www.virustotal.com/gui/file/d1ada9c04cec4a022e70528b25e6fcf69d739be1ad980c7ec353a592b0fe9973) (27) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/d1ada9c04cec4a022e70528b25e6fcf69d739be1ad980c7ec353a592b0fe9973) |    无    | 0105 |
 |  2026/1/1  |         maven.exe          |   **Win32/Malgent!MSR**   | 05e705159b0cff4b222e9209d911daa32caaeb0b52666cbd39fc0f410cf7b94c | c699f176-72cc-4b84-9c06-12e42bae2661 | [VirusTotal](https://www.virustotal.com/gui/file/05e705159b0cff4b222e9209d911daa32caaeb0b52666cbd39fc0f410cf7b94c) (23) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/05e705159b0cff4b222e9209d911daa32caaeb0b52666cbd39fc0f410cf7b94c) |    无    | 0106 |
+|  2026/1/1  | ···违纪人员内部调查···.exe |   **Win64/Malgent!MSR**   | dd6cce2a66908f4b454b8125425e33cdd41f6cb11aef82f4fa6e155a59706c8b |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/dd6cce2a66908f4b454b8125425e33cdd41f6cb11aef82f4fa6e155a59706c8b) (35) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/dd6cce2a66908f4b454b8125425e33cdd41f6cb11aef82f4fa6e155a59706c8b) |    无    | 0107 |
 |   ——————   |        ————————————        |       ————————————        |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         |  ——————  | ———  |
 
 > [!NOTE]
