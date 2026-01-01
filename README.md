@@ -47,15 +47,15 @@
 
 1. Microsoft Defender 可以查杀样本，无需人工分析
 2. 经前期分析，可 100% 确认为正常文件
-3. Microsoft 研究员判断样本 “干净” (Clean)
+3. Microsoft 研究员判断样本干净 (Clean)
 4. 样本首次发现日期距今已超过 60 天
 5. 由其他从业人员 / 志愿者发现、分析、上报，本中心全程未参与
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 1 月 1 日 9:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 1 月 1 日 11:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 1 月 1 日，已打击计算机病毒 / 恶意软件 112 个**。
+&emsp;&emsp;**截至 2026 年 1 月 1 日，已打击计算机病毒 / 恶意软件 114 个**。
 
 ---
 
@@ -65,15 +65,6 @@
 
 |    日期    |           文件名           |         分析结果          |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 有关部门 | 编号 |
 | :--------: | :------------------------: | :-----------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :------: | :--: |
-| 2025/12/27 |     huorong333333.exe      |   **Win32/Malgent!MSR**   | a1e780e075a822053bb3322108d29674462089bc0fb90ecf24eb18dfb3052a94 | 4ab4468f-8114-4c47-9857-0d6ca3cfa756 |                                                              |                              无                              |          | 0055 |
-| 2025/12/27 |   GWMeqk-itstos-2.35.msi   |   **Win32/Malgent!MSR**   | 918448e18b6fc75001634e154dabfe9d07aceac93ec997e833c592b31350b248 | 718ce763-129f-437b-badd-25b82fbc385a |                                                              |                              无                              |          | 0056 |
-| 2025/12/27 |  Chome-stallerrwin64.exe   |   **Win32/Malgent!MSR**   | bfd4b3c2e9b2ed661059a94d38017e20b478aed370bbee80d36224d1dd34c9a2 | 0d542bbe-d253-4abf-97d0-b854fa267f61 |                                                              |                              无                              |          | 0057 |
-| 2025/12/27 |   wps_ghwigzx64.5.3.exe    |   **Win32/Malgent!MSR**   | 30793d892d4ad1fb77093ccbe1bf6eed58de5eb9ea3ccdf675a61a121e4bf2dc | 5c771ea1-884b-4522-ab5c-75312b3dd9c2 |                                                              |                              无                              |  GX GA   | 0058 |
-| 2025/12/27 |    WPS_office-8097.msi     |   **Win32/Dropper!MSR**   | 4d97c932a78e7e52450b87abd64813007c1fda9405f041d47b7259db78d24f73 | 808698da-9883-4a71-8e46-159ef161c9f0 |                                                              |                              无                              |  GX GA   | 0059 |
-| 2025/12/27 |     WPS_Setup_X64.msi      |   **Win32/Malgent!MSR**   | bc6fcb450024b38f113f01cf7873657aede61549758191cd33d8597ad808f8e7 | 30849637-921e-4942-8207-d1dad45ec481 |                                                              | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/bc6fcb450024b38f113f01cf7873657aede61549758191cd33d8597ad808f8e7) |  GX GA   | 0060 |
-| 2025/12/27 |   wpsdhbsi_x64.2.0.1.exe   |   **Win32/Malgent!MSR**   | 1511f60e41d93b8412b42078c1e69c30ec84d45cd7456ffb45ba9fa88b48182f | 3277d72b-4408-4de2-9da7-24485da1ec39 |                                                              |                              无                              |  GX GA   | 0061 |
-| 2025/12/27 |      Bingguksiaru.msi      |   **Win32/Dropper!MSR**   | 07b2d1ff03cd867be5b1b72ebcff955e6919fe9daf33cc572e6688ebb191ef30 | e66c4239-61c3-430f-a454-06ccd7fc38a3 |                                                              | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/07b2d1ff03cd867be5b1b72ebcff955e6919fe9daf33cc572e6688ebb191ef30) |    无    | 0062 |
-| 2025/12/27 |        Gskdfkd.exe         |   **Win64/Malgent!MSR**   | 5ada26b0bd07e54e568a058ac1619a7a613d67ae3680d3219aa254049fe111ae | e66c4239-61c3-430f-a454-06ccd7fc38a3 |                                                              | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5ada26b0bd07e54e568a058ac1619a7a613d67ae3680d3219aa254049fe111ae) |    无    | 0063 |
 | 2025/12/28 |       Gusnktyst.msi        |   **Win32/Malgent!MSR**   | 7cecbc386a956670dd27cf2dd7e478c0dbda03152748c787352dd295b8aa5389 | 27210aec-e1bb-4545-9b2d-81cc876bfd93 |                                                              | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/7cecbc386a956670dd27cf2dd7e478c0dbda03152748c787352dd295b8aa5389) |    无    | 0064 |
 | 2025/12/28 |      txbase-63.89.exe      |  **Win32/Wacatac.C!ml**   | 6dd128150c5039d506d8a2887d356baab50a0bf5180d090ccbc3861ef0f987e8 |                  无                  |                                                              |                              无                              |    无    | 0065 |
 | 2025/12/28 |      Ewaiwai2025.exe       |   **Win32/Malgent!MSR**   | 2469fd9033c7d7407569efa8cac539390bae9532d605fe6026422a924d81a8f7 | e66c4239-61c3-430f-a454-06ccd7fc38a3 |                                                              |                              无                              |    无    | 0066 |
@@ -123,11 +114,13 @@
 |  2026/1/1  | ···违纪人员内部调查···.exe |   **Win32/Malgent!MSR**   | 0d9211f55a021885ce606126013fc3e1e0b0090ffa8c1596ed7d7ba509d8e5d5 | ee16262a-39f5-4da4-bbfb-f9733119000f | [VirusTotal](https://www.virustotal.com/gui/file/0d9211f55a021885ce606126013fc3e1e0b0090ffa8c1596ed7d7ba509d8e5d5) (17) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/0d9211f55a021885ce606126013fc3e1e0b0090ffa8c1596ed7d7ba509d8e5d5) |    无    | 0110 |
 |  2026/1/1  | ···违纪人员内部调查···.exe |   **Win32/Malgent!MSR**   | 115c07d9bcf087f680c5ef1837fd02d5180758dcb34ccbf436d29bddc96cee3f | 440e82c7-e684-4fab-a562-68bfe4e7eddd | [VirusTotal](https://www.virustotal.com/gui/file/115c07d9bcf087f680c5ef1837fd02d5180758dcb34ccbf436d29bddc96cee3f) (27) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/115c07d9bcf087f680c5ef1837fd02d5180758dcb34ccbf436d29bddc96cee3f) |    无    | 0111 |
 |  2026/1/1  |  ···内职人员名单信息.exe   |   **Win32/Malgent!MSR**   | 12621efded0dd3189158cfd1c03a2984a40ac91bfddd5414946eb59a584091d5 | 387d866c-9d1a-45f7-be83-382ed65e47c0 | [VirusTotal](https://www.virustotal.com/gui/file/12621efded0dd3189158cfd1c03a2984a40ac91bfddd5414946eb59a584091d5) (20) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/12621efded0dd3189158cfd1c03a2984a40ac91bfddd5414946eb59a584091d5) |    无    | 0112 |
+|  2026/1/1  |    link_to_android.exe     |  **Win32/Sonbokli.A!cl**  | 554e2b5ae82073d72bb8fda4451cf9686c8b8452c60a83812da1acbeacd876d1 | d993f6e4-bea6-4c53-8709-4ce64c4bd2fa | [VirusTotal](https://www.virustotal.com/gui/file/554e2b5ae82073d72bb8fda4451cf9686c8b8452c60a83812da1acbeacd876d1) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/554e2b5ae82073d72bb8fda4451cf9686c8b8452c60a83812da1acbeacd876d1) |    无    | 0113 |
+|  2026/1/1  | ···报表（安全管理部）.exe  |   **Win32/Malgent!MSR**   | a4af8f3b1fe0f428a0f0f0add035e27607c5dc8df3dd223368995aae694d9724 | b1612a61-29e8-4ac6-b4c5-7dc6185e7bad | [VirusTotal](https://www.virustotal.com/gui/file/a4af8f3b1fe0f428a0f0f0add035e27607c5dc8df3dd223368995aae694d9724) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a4af8f3b1fe0f428a0f0f0add035e27607c5dc8df3dd223368995aae694d9724) |    无    | 0114 |
 |   ——————   |        ————————————        |       ————————————        |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         |  ——————  | ———  |
 
 > [!NOTE]
 >
-> &emsp;只保留最近 30 天内的最多 60 条数据，更早数据详见 LGSRC/[Archive.md](https://github.com/Lingggao/LGSRC/blob/main/Archive.md) (归档)。
+> &emsp;只保留最近 20 天内的最多 60 条数据，更早数据详见 LGSRC/[Archive.md](https://github.com/Lingggao/LGSRC/blob/main/Archive.md) (归档)。
 
 ## 如何提交文件进行分析？
 
