@@ -8,7 +8,7 @@
 
 <h3 align="center">(LGHUB Security Response Center)</h3>
 
-[github.com/Lingggao/LGSRC](https://github.com/Lingggao/LGSRC) (GitHub)
+[github.com/Lingggao/LGSRC](https://github.com/Lingggao/LGSRC) (GitHub) & [lingggao.github.io/LGSRC](https://lingggao.github.io/LGSRC) (Pages)
 
 &emsp;&emsp;**用于打击计算机病毒与恶意软件的 “[灵糕中心](https://github.com/Lingggao/LGHUB) · 安全响应分中心”**。由 2021 Windows Insider 最有价值专家 (MVP) · [**Ling Gao**](https://github.com/Lingggao) 先生管理。灵糕中心 · 安全响应分中心成立于 2025 年 12 月 20 日。
 
@@ -53,9 +53,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 1 月 1 日 11:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 1 月 1 日 18:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 1 月 1 日，已打击计算机病毒 / 恶意软件 114 个**。
+&emsp;&emsp;**截至 2026 年 1 月 1 日，已打击计算机病毒 / 恶意软件 115 个**。
 
 ---
 
@@ -116,6 +116,7 @@
 |  2026/1/1  |  ···内职人员名单信息.exe   |   **Win32/Malgent!MSR**   | 12621efded0dd3189158cfd1c03a2984a40ac91bfddd5414946eb59a584091d5 | 387d866c-9d1a-45f7-be83-382ed65e47c0 | [VirusTotal](https://www.virustotal.com/gui/file/12621efded0dd3189158cfd1c03a2984a40ac91bfddd5414946eb59a584091d5) (20) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/12621efded0dd3189158cfd1c03a2984a40ac91bfddd5414946eb59a584091d5) |    无    | 0112 |
 |  2026/1/1  |    link_to_android.exe     |  **Win32/Sonbokli.A!cl**  | 554e2b5ae82073d72bb8fda4451cf9686c8b8452c60a83812da1acbeacd876d1 | d993f6e4-bea6-4c53-8709-4ce64c4bd2fa | [VirusTotal](https://www.virustotal.com/gui/file/554e2b5ae82073d72bb8fda4451cf9686c8b8452c60a83812da1acbeacd876d1) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/554e2b5ae82073d72bb8fda4451cf9686c8b8452c60a83812da1acbeacd876d1) |    无    | 0113 |
 |  2026/1/1  | ···报表（安全管理部）.exe  |   **Win32/Malgent!MSR**   | a4af8f3b1fe0f428a0f0f0add035e27607c5dc8df3dd223368995aae694d9724 | b1612a61-29e8-4ac6-b4c5-7dc6185e7bad | [VirusTotal](https://www.virustotal.com/gui/file/a4af8f3b1fe0f428a0f0f0add035e27607c5dc8df3dd223368995aae694d9724) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a4af8f3b1fe0f428a0f0f0add035e27607c5dc8df3dd223368995aae694d9724) |    无    | 0114 |
+|  2026/1/1  |   sun_login-win7···.msi    |   **Win32/Malgent!MSR**   | 0c77c7d7f00eac0c6114b447f3c24c12f464e57a7aed3a1d21afce089c083180 | 179e8f02-02aa-461f-8b9a-3a6dfd3f02ea | [VirusTotal](https://www.virustotal.com/gui/file/0c77c7d7f00eac0c6114b447f3c24c12f464e57a7aed3a1d21afce089c083180) (2) |                              无                              |    无    | 0115 |
 |   ——————   |        ————————————        |       ————————————        |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         |  ——————  | ———  |
 
 > [!NOTE]
@@ -134,8 +135,8 @@
 
 <img src="Images/CC.png" width = "3%" /> <img src="Images/BY.png" width = "3%" /> <img src="Images/SA.png" width = "3%" />
 
-在 “[署名 - 相同方式共享 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode.zh-Hans)” 协议 (CC BY-SA 4.0) 之条款下提供。
+在 “[署名 - 相同方式共享 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode.zh-Hans)” (CC BY-SA 4.0) 协议之条款下提供。
 
-2023 - 2026, [Ling Gao](https://github.com/Lingggao), 灵糕中心 · 安全响应分中心, [github.com/Lingggao/LGSRC](https://github.com/Lingggao/LGSRC)
+2025 - 2026, [Ling Gao](https://github.com/Lingggao), 灵糕中心 · 安全响应分中心, [github.com/Lingggao/LGSRC](https://github.com/Lingggao/LGSRC)
 
 [字体许可使用授权书](https://github.com/Lingggao/LGSRC/blob/main/Images/%E5%AD%97%E4%BD%93%E8%AE%B8%E5%8F%AF%E4%BD%BF%E7%94%A8%E6%8E%88%E6%9D%83%E4%B9%A6.png?raw=true) | [Windows Insider 最有价值专家](https://github.com/Lingggao/LGSRC/blob/main/Images/Windows%20Insider%20MVP.png?raw=true)
