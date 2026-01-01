@@ -53,9 +53,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 1 月 1 日 8:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 1 月 1 日 9:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 1 月 1 日，已打击计算机病毒 / 恶意软件 107 个**。
+&emsp;&emsp;**截至 2026 年 1 月 1 日，已打击计算机病毒 / 恶意软件 112 个**。
 
 ---
 
@@ -118,6 +118,11 @@
 |  2026/1/1  |     Google_Install.exe     |   **Win32/Malgent!MSR**   | d1ada9c04cec4a022e70528b25e6fcf69d739be1ad980c7ec353a592b0fe9973 | 51af4bea-7bac-4007-ab02-e383c96d6a64 | [VirusTotal](https://www.virustotal.com/gui/file/d1ada9c04cec4a022e70528b25e6fcf69d739be1ad980c7ec353a592b0fe9973) (27) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/d1ada9c04cec4a022e70528b25e6fcf69d739be1ad980c7ec353a592b0fe9973) |    无    | 0105 |
 |  2026/1/1  |         maven.exe          |   **Win32/Malgent!MSR**   | 05e705159b0cff4b222e9209d911daa32caaeb0b52666cbd39fc0f410cf7b94c | c699f176-72cc-4b84-9c06-12e42bae2661 | [VirusTotal](https://www.virustotal.com/gui/file/05e705159b0cff4b222e9209d911daa32caaeb0b52666cbd39fc0f410cf7b94c) (23) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/05e705159b0cff4b222e9209d911daa32caaeb0b52666cbd39fc0f410cf7b94c) |    无    | 0106 |
 |  2026/1/1  | ···违纪人员内部调查···.exe |   **Win64/Malgent!MSR**   | dd6cce2a66908f4b454b8125425e33cdd41f6cb11aef82f4fa6e155a59706c8b |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/dd6cce2a66908f4b454b8125425e33cdd41f6cb11aef82f4fa6e155a59706c8b) (35) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/dd6cce2a66908f4b454b8125425e33cdd41f6cb11aef82f4fa6e155a59706c8b) |    无    | 0107 |
+|  2026/1/1  |  ···12.30违纪处分名册.exe  |   **Win32/Malgent!MSR**   | c9052fcac46be58851e189cbddcc14c25ef75ea3cfe47045c18c2a1cb21d4a9f | 0eb48eab-9e03-47e7-b41f-c93b04b9daf3 | [VirusTotal](https://www.virustotal.com/gui/file/c9052fcac46be58851e189cbddcc14c25ef75ea3cfe47045c18c2a1cb21d4a9f) (23) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c9052fcac46be58851e189cbddcc14c25ef75ea3cfe47045c18c2a1cb21d4a9f) |    无    | 0108 |
+|  2026/1/1  | ···违纪人员内部调查···.exe |   **Win32/Malgent!MSR**   | 9f390e6ade0364f43436219f37e7fb27ceee42a0cf6e50596cf61650c14fe726 | b9f72834-a09f-4ba0-a46d-1b2313f4a0b8 | [VirusTotal](https://www.virustotal.com/gui/file/9f390e6ade0364f43436219f37e7fb27ceee42a0cf6e50596cf61650c14fe726) (21) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/9f390e6ade0364f43436219f37e7fb27ceee42a0cf6e50596cf61650c14fe726) |    无    | 0109 |
+|  2026/1/1  | ···违纪人员内部调查···.exe |   **Win32/Malgent!MSR**   | 0d9211f55a021885ce606126013fc3e1e0b0090ffa8c1596ed7d7ba509d8e5d5 | ee16262a-39f5-4da4-bbfb-f9733119000f | [VirusTotal](https://www.virustotal.com/gui/file/0d9211f55a021885ce606126013fc3e1e0b0090ffa8c1596ed7d7ba509d8e5d5) (17) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/0d9211f55a021885ce606126013fc3e1e0b0090ffa8c1596ed7d7ba509d8e5d5) |    无    | 0110 |
+|  2026/1/1  | ···违纪人员内部调查···.exe |   **Win32/Malgent!MSR**   | 115c07d9bcf087f680c5ef1837fd02d5180758dcb34ccbf436d29bddc96cee3f | 440e82c7-e684-4fab-a562-68bfe4e7eddd | [VirusTotal](https://www.virustotal.com/gui/file/115c07d9bcf087f680c5ef1837fd02d5180758dcb34ccbf436d29bddc96cee3f) (27) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/115c07d9bcf087f680c5ef1837fd02d5180758dcb34ccbf436d29bddc96cee3f) |    无    | 0111 |
+|  2026/1/1  |  ···内职人员名单信息.exe   |   **Win32/Malgent!MSR**   | 12621efded0dd3189158cfd1c03a2984a40ac91bfddd5414946eb59a584091d5 | 387d866c-9d1a-45f7-be83-382ed65e47c0 | [VirusTotal](https://www.virustotal.com/gui/file/12621efded0dd3189158cfd1c03a2984a40ac91bfddd5414946eb59a584091d5) (20) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/12621efded0dd3189158cfd1c03a2984a40ac91bfddd5414946eb59a584091d5) |    无    | 0112 |
 |   ——————   |        ————————————        |       ————————————        |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         |  ——————  | ———  |
 
 > [!NOTE]
