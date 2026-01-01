@@ -6,7 +6,7 @@
 
 <h1 align="center">灵糕中心 · 安全响应分中心</h1>
 
-<h3 align="center">(LGHUB Security Response Center)</h3>
+<h3 align="center">(LGHUB · Security Response Center)</h3>
 
 [github.com/Lingggao/LGSRC](https://github.com/Lingggao/LGSRC) (GitHub) & [lingggao.github.io/LGSRC](https://lingggao.github.io/LGSRC) (Pages)
 
@@ -125,7 +125,7 @@
 
 ## 如何提交文件进行分析？
 
-&emsp;&emsp;**本中心不能代替 Microsoft 行使接收并分析疑似恶意软件样本的职责**。用户应始终通过 [**Microsoft Security Intelligence - Submit a file for malware analysis**](https://www.microsoft.com/en-us/wdsi/filesubmission) 官方平台提交文件。
+&emsp;&emsp;**本中心不能代替 Microsoft 公司行使接收并分析疑似恶意软件样本的职责**。用户应始终通过 [**Microsoft Security Intelligence - Submit a file for malware analysis**](https://www.microsoft.com/en-us/wdsi/filesubmission) 官方平台提交文件。
 
 &emsp;&emsp;如需联系 Ling Gao 共享信息，请发送电子邮件至 Ling@LGHUB.org。谢谢！😀
 
