@@ -53,9 +53,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2025 年 12 月 31 日 19:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 1 月 1 日 8:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2025 年 12 月 31 日，已打击计算机病毒 / 恶意软件 103 个**。
+&emsp;&emsp;**截至 2026 年 1 月 1 日，已打击计算机病毒 / 恶意软件 106 个**。
 
 ---
 
@@ -114,6 +114,9 @@
 | 2025/12/31 |     WPS_Setup_X64.msi      |   **Win32/Dropper!MSR**   | 446c5024c20e0268de2b74044d53abe0b7d9e26a920916879153364b8850b2d8 | ab6be432-9255-469e-8818-ce66f07170b1 | [VirusTotal](https://www.virustotal.com/gui/file/446c5024c20e0268de2b74044d53abe0b7d9e26a920916879153364b8850b2d8) (9) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/446c5024c20e0268de2b74044d53abe0b7d9e26a920916879153364b8850b2d8) |    QY    | 0101 |
 | 2025/12/31 |    ZooInstalle_v1.3.exe    |   **Win32/Kepavll!rfn**   | f61fb1855f70450e146fbcb7a08b13c6a300112c8e316318fdb26a2baa4c5ece | c515e910-595f-4dde-8f2e-a847578e9f5e | [VirusTotal](https://www.virustotal.com/gui/file/f61fb1855f70450e146fbcb7a08b13c6a300112c8e316318fdb26a2baa4c5ece) (12) |                              无                              |    QY    | 0102 |
 | 2025/12/31 |       Notepad++.exe        |   **Win32/Malgent!MSR**   | 3298e00ff1d3fa255b16997bc8a08e02e328898100ab758378be3ad43fba4bd6 | e54437af-ec47-4758-b0d4-ff5df02d325d | [VirusTotal](https://www.virustotal.com/gui/file/3298e00ff1d3fa255b16997bc8a08e02e328898100ab758378be3ad43fba4bd6) (13) |                              无                              |    无    | 0103 |
+|  2026/1/1  |        Byingegu.msi        |   **Win32/Malgent!MSR**   | 46c3c14c9fb73ec9a209a0ead0e9c0a73f6ed1becb5d1ee0ea4c98cf2e38612a | 51af4bea-7bac-4007-ab02-e383c96d6a64 | [VirusTotal](https://www.virustotal.com/gui/file/46c3c14c9fb73ec9a209a0ead0e9c0a73f6ed1becb5d1ee0ea4c98cf2e38612a) (16) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/46c3c14c9fb73ec9a209a0ead0e9c0a73f6ed1becb5d1ee0ea4c98cf2e38612a) |    无    | 0104 |
+|  2026/1/1  |     Google_Install.exe     |   **Win32/Malgent!MSR**   | d1ada9c04cec4a022e70528b25e6fcf69d739be1ad980c7ec353a592b0fe9973 | 51af4bea-7bac-4007-ab02-e383c96d6a64 | [VirusTotal](https://www.virustotal.com/gui/file/d1ada9c04cec4a022e70528b25e6fcf69d739be1ad980c7ec353a592b0fe9973) (27) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/d1ada9c04cec4a022e70528b25e6fcf69d739be1ad980c7ec353a592b0fe9973) |    无    | 0105 |
+|  2026/1/1  |         maven.exe          |   **Win32/Malgent!MSR**   | 05e705159b0cff4b222e9209d911daa32caaeb0b52666cbd39fc0f410cf7b94c | c699f176-72cc-4b84-9c06-12e42bae2661 | [VirusTotal](https://www.virustotal.com/gui/file/05e705159b0cff4b222e9209d911daa32caaeb0b52666cbd39fc0f410cf7b94c) (23) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/05e705159b0cff4b222e9209d911daa32caaeb0b52666cbd39fc0f410cf7b94c) |    无    | 0106 |
 |   ——————   |        ————————————        |       ————————————        |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         |  ——————  | ———  |
 
 > [!NOTE]
