@@ -53,9 +53,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 1 月 1 日 18:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 1 月 2 日 15:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 1 月 1 日，已打击计算机病毒 / 恶意软件 115 个**。
+&emsp;&emsp;**截至 2026 年 1 月 1 日，已打击计算机病毒 / 恶意软件 116 个**。
 
 ---
 
@@ -117,6 +117,7 @@
 |  2026/1/1  |    link_to_android.exe     |  **Win32/Sonbokli.A!cl**  | 554e2b5ae82073d72bb8fda4451cf9686c8b8452c60a83812da1acbeacd876d1 | d993f6e4-bea6-4c53-8709-4ce64c4bd2fa | [VirusTotal](https://www.virustotal.com/gui/file/554e2b5ae82073d72bb8fda4451cf9686c8b8452c60a83812da1acbeacd876d1) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/554e2b5ae82073d72bb8fda4451cf9686c8b8452c60a83812da1acbeacd876d1) |    无    | 0113 |
 |  2026/1/1  | ···报表（安全管理部）.exe  |   **Win32/Malgent!MSR**   | a4af8f3b1fe0f428a0f0f0add035e27607c5dc8df3dd223368995aae694d9724 | b1612a61-29e8-4ac6-b4c5-7dc6185e7bad | [VirusTotal](https://www.virustotal.com/gui/file/a4af8f3b1fe0f428a0f0f0add035e27607c5dc8df3dd223368995aae694d9724) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a4af8f3b1fe0f428a0f0f0add035e27607c5dc8df3dd223368995aae694d9724) |    无    | 0114 |
 |  2026/1/1  |   sun_login-win7···.msi    |   **Win32/Malgent!MSR**   | 0c77c7d7f00eac0c6114b447f3c24c12f464e57a7aed3a1d21afce089c083180 | 179e8f02-02aa-461f-8b9a-3a6dfd3f02ea | [VirusTotal](https://www.virustotal.com/gui/file/0c77c7d7f00eac0c6114b447f3c24c12f464e57a7aed3a1d21afce089c083180) (2) |                              无                              |    无    | 0115 |
+|  2026/1/2  |        uftutrt.exe         |   **Win32/Malgent!MSR**   | 454972a63c641af5f72bd9ba8bde7c0caf4fc8872cbbcc3162a47e1e2f3dc386 | 6d11747f-aeb2-43e6-8787-250d48c39715 | [VirusTotal](https://www.virustotal.com/gui/file/454972a63c641af5f72bd9ba8bde7c0caf4fc8872cbbcc3162a47e1e2f3dc386) (16) |                              无                              |    QY    | 0116 |
 |   ——————   |        ————————————        |       ————————————        |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         |  ——————  | ———  |
 
 > [!NOTE]
