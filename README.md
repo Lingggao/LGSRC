@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 1 月 3 日 2:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 1 月 3 日 4:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 1 月 3 日，已打击计算机病毒 / 恶意软件 120 个**。
+&emsp;&emsp;**截至 2026 年 1 月 3 日，已打击计算机病毒 / 恶意软件 121 个**。
 
 ---
 
@@ -124,6 +124,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 |  2026/1/3  |       值班表.xls.exe       |   **Win32/Malgent!MSR**   | 28a3c1554c3025c4a252094e18ad1aed931c71edc992eec9dfc991f893f6b438 | 639caee4-e5ad-4e20-b82b-f7dec372ed0e | [VirusTotal](https://www.virustotal.com/gui/file/28a3c1554c3025c4a252094e18ad1aed931c71edc992eec9dfc991f893f6b438) (19) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/28a3c1554c3025c4a252094e18ad1aed931c71edc992eec9dfc991f893f6b438) |    无    | 0118 |
 |  2026/1/3  |   D..e.e.p.L_X64.1.3.exe   |   **Win32/Malgent!MSR**   | 5eb2299706493e2a6a3c30c2253ffbf0f644515745035b7f858e5b90d29c5662 | 9000180b-30d2-40a6-9a54-4f154bb6a025 | [VirusTotal](https://www.virustotal.com/gui/file/5eb2299706493e2a6a3c30c2253ffbf0f644515745035b7f858e5b90d29c5662) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5eb2299706493e2a6a3c30c2253ffbf0f644515745035b7f858e5b90d29c5662) |    无    | 0119 |
 |  2026/1/3  |  wincows_lestx64.1.3.exe   |   **Win32/Malgent!MSR**   | 405d1935735fd061b48bb1080223a297e23fcf53eccfde4e5f1de20977645f44 | 9000180b-30d2-40a6-9a54-4f154bb6a025 | [VirusTotal](https://www.virustotal.com/gui/file/405d1935735fd061b48bb1080223a297e23fcf53eccfde4e5f1de20977645f44) (2) |                              无                              |    无    | 0120 |
+|  2026/1/3  |       output_64.exe        |  **Win64/GhostRat.CKD**   | 7e19d36f49962f9606608514a34032e5b8af6ca64b97d0986f0c08fada006a70 |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/7e19d36f49962f9606608514a34032e5b8af6ca64b97d0986f0c08fada006a70) (51) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/7e19d36f49962f9606608514a34032e5b8af6ca64b97d0986f0c08fada006a70) |    无    | 0121 |
 |   ——————   |        ————————————        |       ————————————        |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         |  ——————  | ———  |
 
 > [!NOTE]
