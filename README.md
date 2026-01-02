@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 1 月 3 日 6:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 1 月 3 日 7:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 1 月 3 日，已打击计算机病毒 / 恶意软件 123 个**。
+&emsp;&emsp;**截至 2026 年 1 月 3 日，已打击计算机病毒 / 恶意软件 124 个**。
 
 ---
 
@@ -117,6 +117,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 |  2026/1/3  |       output_64.exe        | **Win64/GhostRat.CKD**  | 7e19d36f49962f9606608514a34032e5b8af6ca64b97d0986f0c08fada006a70 |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/7e19d36f49962f9606608514a34032e5b8af6ca64b97d0986f0c08fada006a70) (51) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/7e19d36f49962f9606608514a34032e5b8af6ca64b97d0986f0c08fada006a70) |    无    | 0121 |
 |  2026/1/3  |         getexe.exe         | **Win32/Wacatac.F!ml**  | af524c3cc9c894c6b6e91094cbf7c834ebdf5acc93c17dbaf5f8cb9a51c53187 | ed693798-bb38-4c42-bea0-dfd06ace5901 | [VirusTotal](https://www.virustotal.com/gui/file/af524c3cc9c894c6b6e91094cbf7c834ebdf5acc93c17dbaf5f8cb9a51c53187) (14) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/af524c3cc9c894c6b6e91094cbf7c834ebdf5acc93c17dbaf5f8cb9a51c53187) |    无    | 0122 |
 |  2026/1/3  |      QQ1666213767.exe      | **Win32/AutoRun!atmn**  | 451fe418159b0826d1b007d8bba9b8374760b9eee8a99bcad38bb62375a049e7 |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/451fe418159b0826d1b007d8bba9b8374760b9eee8a99bcad38bb62375a049e7) (62) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/451fe418159b0826d1b007d8bba9b8374760b9eee8a99bcad38bb62375a049e7) |    无    | 0123 |
+|  2026/1/3  |   ···安装中文语言包.exe    | **Win32/Wacatac.C!ml**  | d378fabc30fb2defa95124ca6220497dcdc0f95253afaf0f209810ba68db64a5 | 23cc46d7-97c1-4abd-9b7f-28fcadbfc694 | [VirusTotal](https://www.virustotal.com/gui/file/d378fabc30fb2defa95124ca6220497dcdc0f95253afaf0f209810ba68db64a5) (31) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/d378fabc30fb2defa95124ca6220497dcdc0f95253afaf0f209810ba68db64a5) |    无    | 0124 |
 |   ——————   |        ————————————        |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         |  ——————  | ———  |
 
 > [!NOTE]
