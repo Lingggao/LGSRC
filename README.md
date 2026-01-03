@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 1 月 4 日 1:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 1 月 4 日 2:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 1 月 4 日，已打击计算机病毒 / 恶意软件 128 个**。
+&emsp;&emsp;**截至 2026 年 1 月 4 日，已打击计算机病毒 / 恶意软件 129 个**。
 
 ---
 
@@ -65,7 +65,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 >
 > &emsp;为确保安全，本中心**不提供**病毒 / 恶意软件样本下载服务。
 
-|    日期    |           文件名           |        分析结果         |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 有关部门 | 编号 |
+|    日期    |           文件名           |          检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 有关部门 | 编号 |
 | :--------: | :------------------------: | :---------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :------: | :--: |
 | 2025/12/29 |      ChromeSetup.exe       | **Win32/Wacatac.F!ml**  | c5606dc2a94800b9e5cee08c838b9c3a6ea46218a046a0ffa8939cffa0faae42 |                  无                  |                                                              | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c5606dc2a94800b9e5cee08c838b9c3a6ea46218a046a0ffa8939cffa0faae42) |    无    | 0079 |
 | 2025/12/29 |       新设备驱动.exe       | **Win32/Wacatac.F!ml**  | 76301a6fb8c273df3a0590b5332163ff3cf64000e6f8e483e478ea91d3ab9132 |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/76301a6fb8c273df3a0590b5332163ff3cf64000e6f8e483e478ea91d3ab9132) (26) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/76301a6fb8c273df3a0590b5332163ff3cf64000e6f8e483e478ea91d3ab9132) |    无    | 0080 |
@@ -117,6 +117,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 |  2026/1/4  |       谷歌浏览器.msi       |  **Win32/Malgent!MSR**  | dc3f65a78d171f91d2309592cd4d3528cad11d0fe5fe3ae6232150961e3960a8 | edf6c68e-631e-48ec-bb08-429affa3d1f3 | [VirusTotal](https://www.virustotal.com/gui/file/dc3f65a78d171f91d2309592cd4d3528cad11d0fe5fe3ae6232150961e3960a8) (9) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/dc3f65a78d171f91d2309592cd4d3528cad11d0fe5fe3ae6232150961e3960a8) |    无    | 0126 |
 |  2026/1/4  |         777777.exe         |  **Win32/Malgent!MSR**  | ade35af6b9f4da96ae0b64c57df3eb5fc33e72847921b8ee929ba8620756788e | 2f1d0b94-edce-4fb2-a0fa-16d4032d0979 | [VirusTotal](https://www.virustotal.com/gui/file/ade35af6b9f4da96ae0b64c57df3eb5fc33e72847921b8ee929ba8620756788e) (10) |                              无                              |    无    | 0127 |
 |  2026/1/4  |     Quark_WebH···.msi      |  **Win32/Malgent!MSR**  | ae0c28da1bf3acde19ba33b275fe09e73d6a49b6d3282fb1057d50f5c752b553 | 64cd8312-2519-49c6-8fe6-3b9aeead0e8d | [VirusTotal](https://www.virustotal.com/gui/file/ae0c28da1bf3acde19ba33b275fe09e73d6a49b6d3282fb1057d50f5c752b553) (6) |                              无                              |    无    | 0128 |
+|  2026/1/4  |     AweSun_yuan···.exe     |  **Win32/Malgent!MSR**  | 8521cb16a844b81d87e591288b186da46f585a9c7756c3aac6eb8940e67ca09d |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/8521cb16a844b81d87e591288b186da46f585a9c7756c3aac6eb8940e67ca09d) (27) |                              无                              |    无    | 0129 |
 |   ——————   |        ————————————        |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         |  ——————  | ———  |
 
 > [!NOTE]
