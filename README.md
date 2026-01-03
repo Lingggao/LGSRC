@@ -22,7 +22,7 @@
 
 Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Microsoft 安全情报](https://www.microsoft.com/en-us/wdsi) | [Microsoft Defender 门户](https://security.microsoft.com) | [获取更新](https://www.microsoft.com/en-us/wdsi/defenderupdates) | [提交文件](https://www.microsoft.com/en-us/wdsi/filesubmission)
 
-研究 - [微步云沙箱](https://s.threatbook.com) | [奇安信威胁情报中心](https://ti.qianxin.com) | [天恒云沙箱](https://sandbox.dbappsecurity.com.cn) | [360 沙箱云](https://ata.360.net) | [天穹智能分析平台](https://sandbox.qianxin.com/sscc-tq-web) | [深信服威胁情报中心](https://ti.sangfor.com.cn/analysis-platform?lang=ZH-CN) | [国家计算机病毒协同分析平台 (国家计算机病毒应急处理中心)](http://110.41.132.165/#/entirety/upload) | [可疑文件分析云 (计算机病毒防御技术国家工程实验室)](https://cloud.vdnel.cn) | [VirusTotal](https://www.virustotal.com/gui/home/upload) | [MalwareBazaar](https://bazaar.abuse.ch) | [Kaspersky TIP](https://opentip.kaspersky.com) | [Hybrid Analysis](https://hybrid-analysis.com) | [ANY.RUN](https://app.any.run)
+研究 - [微步云沙箱](https://s.threatbook.com) | [奇安信威胁情报中心](https://ti.qianxin.com) | [天恒云沙箱](https://sandbox.dbappsecurity.com.cn) | [360 沙箱云](https://ata.360.net) | [天穹智能分析平台](https://sandbox.qianxin.com/sscc-tq-web) | [深信服威胁情报中心](https://ti.sangfor.com.cn/analysis-platform?lang=ZH-CN) | [国家计算机病毒协同分析平台 (国家计算机病毒应急处理中心)](http://110.41.132.165/#/entirety/upload) | [可疑文件分析云 (计算机病毒防御技术国家工程实验室)](https://cloud.vdnel.cn) | [VirusTotal](https://www.virustotal.com/gui/home/upload) | [MalwareBazaar](https://bazaar.abuse.ch) | [YARAify](https://yaraify.abuse.ch) | [Kaspersky TIP](https://opentip.kaspersky.com) | [Hybrid Analysis](https://hybrid-analysis.com) | [ANY.RUN](https://app.any.run)
 
 举报 - [中央网信办 违法和不良信息举报中心](https://www.12377.cn/index.html) | [网络违法犯罪信息举报网站](https://cyberpolice.mps.gov.cn/wfjb/#) | [网络不良与垃圾信息举报受理中心](https://www.12321.cn)
 
@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 1 月 4 日 2:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 1 月 4 日 5:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 1 月 4 日，已打击计算机病毒 / 恶意软件 129 个**。
+&emsp;&emsp;**截至 2026 年 1 月 4 日，已打击计算机病毒 / 恶意软件 132 个**。
 
 ---
 
@@ -118,6 +118,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 |  2026/1/4  |         777777.exe         |  **Win32/Malgent!MSR**  | ade35af6b9f4da96ae0b64c57df3eb5fc33e72847921b8ee929ba8620756788e | 2f1d0b94-edce-4fb2-a0fa-16d4032d0979 | [VirusTotal](https://www.virustotal.com/gui/file/ade35af6b9f4da96ae0b64c57df3eb5fc33e72847921b8ee929ba8620756788e) (10) |                              无                              |    无    | 0127 |
 |  2026/1/4  |     Quark_WebH···.msi      |  **Win32/Malgent!MSR**  | ae0c28da1bf3acde19ba33b275fe09e73d6a49b6d3282fb1057d50f5c752b553 | 64cd8312-2519-49c6-8fe6-3b9aeead0e8d | [VirusTotal](https://www.virustotal.com/gui/file/ae0c28da1bf3acde19ba33b275fe09e73d6a49b6d3282fb1057d50f5c752b553) (6) |                              无                              |    无    | 0128 |
 |  2026/1/4  |     AweSun_yuan···.exe     |  **Win32/Malgent!MSR**  | 8521cb16a844b81d87e591288b186da46f585a9c7756c3aac6eb8940e67ca09d |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/8521cb16a844b81d87e591288b186da46f585a9c7756c3aac6eb8940e67ca09d) (27) |                              无                              |    无    | 0129 |
+|  2026/1/4  |     兴趣爱好旅行：.bat     | **Win32/Wacatac.F!ml**  | 007da2fdf5cfdd224365517c1f9a1a73d0765624bd7a56df7585d0a614895f57 |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/007da2fdf5cfdd224365517c1f9a1a73d0765624bd7a56df7585d0a614895f57) (25) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/007da2fdf5cfdd224365517c1f9a1a73d0765624bd7a56df7585d0a614895f57) |    无    | 0130 |
+|  2026/1/4  |        myexetra.exe        |                         | 192ec289aef24bf1cdb74a5c4cd25b84d458e078c732b3aef9d1eda336f6e338 | f05eb2cc-5d5c-4786-b5ca-f76cc6c2bca6 | [VirusTotal](https://www.virustotal.com/gui/file/192ec289aef24bf1cdb74a5c4cd25b84d458e078c732b3aef9d1eda336f6e338) (31) |                  [MalwareBazaar Database]()                  |    无    | 0131 |
+|  2026/1/4  |         Setup1.exe         |                         | 749a094dd333916249a24c7e9540c9f7f22c8ead8a9b1bb353aeaf1b8e195fb9 | f05eb2cc-5d5c-4786-b5ca-f76cc6c2bca6 | [VirusTotal](https://www.virustotal.com/gui/file/749a094dd333916249a24c7e9540c9f7f22c8ead8a9b1bb353aeaf1b8e195fb9) (15) |                  [MalwareBazaar Database]()                  |    无    | 0132 |
 |   ——————   |        ————————————        |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         |  ——————  | ———  |
 
 > [!NOTE]
