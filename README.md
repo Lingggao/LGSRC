@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 1 月 4 日 6:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 1 月 4 日 14:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 1 月 4 日，已打击计算机病毒 / 恶意软件 132 个**。
+&emsp;&emsp;**截至 2026 年 1 月 4 日，已打击计算机病毒 / 恶意软件 133 个**。
 
 ---
 
@@ -121,6 +121,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 |  2026/1/4  |     兴趣爱好旅行：.bat     | **Win32/Wacatac.F!ml**  | 007da2fdf5cfdd224365517c1f9a1a73d0765624bd7a56df7585d0a614895f57 |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/007da2fdf5cfdd224365517c1f9a1a73d0765624bd7a56df7585d0a614895f57) (25) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/007da2fdf5cfdd224365517c1f9a1a73d0765624bd7a56df7585d0a614895f57) |    无    | 0130 |
 |  2026/1/4  |        myexetra.exe        |   **Backdoor:Farfli**   | 192ec289aef24bf1cdb74a5c4cd25b84d458e078c732b3aef9d1eda336f6e338 | f05eb2cc-5d5c-4786-b5ca-f76cc6c2bca6 | [VirusTotal](https://www.virustotal.com/gui/file/192ec289aef24bf1cdb74a5c4cd25b84d458e078c732b3aef9d1eda336f6e338) (31) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/192ec289aef24bf1cdb74a5c4cd25b84d458e078c732b3aef9d1eda336f6e338) |    无    | 0131 |
 |  2026/1/4  |         Setup1.exe         |  **Win32/Malgent!MSR**  | 749a094dd333916249a24c7e9540c9f7f22c8ead8a9b1bb353aeaf1b8e195fb9 | f05eb2cc-5d5c-4786-b5ca-f76cc6c2bca6 | [VirusTotal](https://www.virustotal.com/gui/file/749a094dd333916249a24c7e9540c9f7f22c8ead8a9b1bb353aeaf1b8e195fb9) (15) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/749a094dd333916249a24c7e9540c9f7f22c8ead8a9b1bb353aeaf1b8e195fb9) |    无    | 0132 |
+|  2026/1/4  |        version.dll         |  **Win32/Malgent!MSR**  | a67db7889b2bb834b178bd712724b0a2b636890eadaad917ce6256975cddda3c | fae8576a-245b-4292-a4d4-59a12e1573f1 | [VirusTotal](https://www.virustotal.com/gui/file/a67db7889b2bb834b178bd712724b0a2b636890eadaad917ce6256975cddda3c) (7) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a67db7889b2bb834b178bd712724b0a2b636890eadaad917ce6256975cddda3c) |    无    | 0133 |
 |   ——————   |        ————————————        |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         |  ——————  | ———  |
 
 > [!NOTE]
