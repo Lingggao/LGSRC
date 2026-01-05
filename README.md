@@ -10,11 +10,11 @@
 
 [github.com/Lingggao/LGSRC](https://github.com/Lingggao/LGSRC) (GitHub) & [lingggao.github.io/LGSRC](https://lingggao.github.io/LGSRC) (Pages)
 
-&emsp;&emsp;**用于打击计算机病毒与恶意软件的 “[灵糕中心](https://github.com/Lingggao/LGHUB) · 安全响应分中心”**。由 2021 Windows Insider 最有价值专家 (MVP) · [**Ling Gao**](https://github.com/Lingggao) 先生管理。灵糕中心 · 安全响应分中心成立于 2025 年 12 月 20 日。
+&emsp;&emsp;**用于打击计算机病毒与恶意软件的 “[灵糕中心](https://github.com/Lingggao/LGHUB) · 安全响应分中心”**。由 Microsoft Management Community Influencer · [**Ling Gao**](https://github.com/Lingggao) 先生管理。灵糕中心 · 安全响应分中心成立于 2025 年 12 月 20 日。
 
 > [!IMPORTANT]
 >
-> &emsp;灵糕中心为个人项目，管理者**不是** Microsoft 公司员工，**不能**代表 Microsoft 公司立场、态度。
+> &emsp;灵糕中心为个人项目，管理者不是 Microsoft 公司员工，不能代表 Microsoft 公司立场、态度。
 
 &emsp;&emsp;**宗旨**：独立管理、放眼全球、数据精确、打击迅速
 
@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 1 月 5 日 22:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 1 月 6 日 1:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 1 月 5 日，已打击计算机病毒 / 恶意软件 141 个、恶意网站 2 个**。
+&emsp;&emsp;**截至 2026 年 1 月 6 日，已打击计算机病毒 / 恶意软件 143 个、恶意网站 2 个**。
 
 ---
 
@@ -95,6 +95,8 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/1/5 |     人员名单···155.exe     | **Win64/Malgent!MSR**  | c88c2f98d3ccd66354dabfd7919a7f96b90659b1682f8810340b71d34165f461 |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/c88c2f98d3ccd66354dabfd7919a7f96b90659b1682f8810340b71d34165f461) (18) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c88c2f98d3ccd66354dabfd7919a7f96b90659b1682f8810340b71d34165f461) | 0139 |
 | 2026/1/5 |          2025.exe          |  **Win32/Fuery.D!cl**  | 67c6dee50d41bae5c85c4b347cf471d0ba0b9edb33de8a93abb4fa1ae0fdeba0 |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/67c6dee50d41bae5c85c4b347cf471d0ba0b9edb33de8a93abb4fa1ae0fdeba0) (39) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/67c6dee50d41bae5c85c4b347cf471d0ba0b9edb33de8a93abb4fa1ae0fdeba0) | 0140 |
 | 2026/1/5 |        identity.exe        | **Win64/Donut.C!MTB**  | f50b9b888107644204921d8449bc7ef4fe358cd5ccca87a7cf5944a00d00dcc8 |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/f50b9b888107644204921d8449bc7ef4fe358cd5ccca87a7cf5944a00d00dcc8) (29) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/f50b9b888107644204921d8449bc7ef4fe358cd5ccca87a7cf5944a00d00dcc8) | 0141 |
+| 2026/1/5 |        latest-b.exe        | **Win32/Wacatac.F!ml** | 2e7230657e27ed7f47cb8a8018c7bac088bfa7ee20e168e3665385ec35734c01 |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/2e7230657e27ed7f47cb8a8018c7bac088bfa7ee20e168e3665385ec35734c01) (23) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/2e7230657e27ed7f47cb8a8018c7bac088bfa7ee20e168e3665385ec35734c01) | 0142 |
+| 2026/1/5 |         build-.exe         | **Win32/Wacatac.F!ml** | 41b946332366eee08614c375b0fba08330f51ce17ef710735bc59183529e3dbc |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/41b946332366eee08614c375b0fba08330f51ce17ef710735bc59183529e3dbc) (18) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/41b946332366eee08614c375b0fba08330f51ce17ef710735bc59183529e3dbc) | 0143 |
 |  ——————  |        ————————————        |      ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -106,7 +108,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 > [!CAUTION]
 >
-> &emsp;为确保安全，网站地址将用 “hxxps://” 与 “[.]” 进行部分替换。**切勿尝试访问表格中列出的任何地址**。
+> &emsp;为确保安全，网站地址将用 “hxxps://” 与 “[.]” 进行替换。**切勿尝试访问表格中列出的任何地址**。
 
 |   日期   |              URL              |           类别           |                           有效载荷                           |                         URLhaus                          | 编号 |
 | :------: | :---------------------------: | :----------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
