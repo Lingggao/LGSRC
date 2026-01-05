@@ -55,7 +55,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 1 月 5 日 19:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 1 月 5 日 20:00 (UTC+8)。
 
 &emsp;&emsp;**截至 2026 年 1 月 5 日，已打击计算机病毒 / 恶意软件 141 个、恶意网站 2 个**。
 
@@ -99,14 +99,14 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 > [!NOTE]
 >
-> &emsp;只保留最近 10 天内的最多 30 条数据，更早数据详见 LGSRC/[Archive_1.md](https://github.com/Lingggao/LGSRC/blob/main/Archive_1.md) (归档)。
+> &emsp;只保留 30 条数据，更早数据详见 LGSRC/[Archive_1.md](https://github.com/Lingggao/LGSRC/blob/main/Archive_1.md) (归档)。
 
 ---
 【**恶意网站**】
 
 > [!CAUTION]
 >
-> &emsp;为确保安全，网站地址将用 **“hxxps://”** 与 **“[.]”** 进行部分替换。**切勿尝试访问表格中列出的网址**。
+> &emsp;为确保安全，网站地址将用 “hxxps://” 与 “[.]” 进行部分替换。**切勿尝试访问表格中列出的地址**。
 
 |   日期   |              URL              |           类别           |                           有效载荷                           |                         URLhaus                          | 编号 |
 | :------: | :---------------------------: | :----------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
@@ -116,7 +116,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 > [!NOTE]
 >
-> &emsp;只保留最多 30 条数据，更早数据详见 LGSRC/[Archive_2.md](https://github.com/Lingggao/LGSRC/blob/main/Archive_2.md) (归档)。
+> &emsp;只保留 30 条数据，更早数据详见 LGSRC/[Archive_2.md](https://github.com/Lingggao/LGSRC/blob/main/Archive_2.md) (归档)。
 
 ## 如何提交文件进行分析？
 
