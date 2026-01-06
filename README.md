@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 1 月 6 日 8:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 1 月 6 日 17:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 1 月 6 日，已打击计算机病毒 / 恶意软件 144 个、恶意网站 11 个**。
+&emsp;&emsp;**截至 2026 年 1 月 6 日，已打击计算机病毒 / 恶意软件 149 个、恶意网站 21 个**。
 
 ---
 
@@ -69,11 +69,6 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 |   日期   |           文件名           |          检测          |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :------: | :------------------------: | :--------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/1/2 |        uftutrt.exe         | **Win32/Malgent!MSR**  | 454972a63c641af5f72bd9ba8bde7c0caf4fc8872cbbcc3162a47e1e2f3dc386 | 6d11747f-aeb2-43e6-8787-250d48c39715 | [VirusTotal](https://www.virustotal.com/gui/file/454972a63c641af5f72bd9ba8bde7c0caf4fc8872cbbcc3162a47e1e2f3dc386) (16) |                              无                              | 0116 |
-| 2026/1/2 |      sfhfdhhjrsj.exe       | **Win32/Malgent!MSR**  | 3d0887289e3cc85b09b575e5b65e121ee25d33d66b21082a75363a3e397f9123 | 486c9fba-f155-4485-848c-48d16094bcfa | [VirusTotal](https://www.virustotal.com/gui/file/3d0887289e3cc85b09b575e5b65e121ee25d33d66b21082a75363a3e397f9123) (7) |                              无                              | 0117 |
-| 2026/1/3 |       值班表.xls.exe       | **Win32/Malgent!MSR**  | 28a3c1554c3025c4a252094e18ad1aed931c71edc992eec9dfc991f893f6b438 | 639caee4-e5ad-4e20-b82b-f7dec372ed0e | [VirusTotal](https://www.virustotal.com/gui/file/28a3c1554c3025c4a252094e18ad1aed931c71edc992eec9dfc991f893f6b438) (19) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/28a3c1554c3025c4a252094e18ad1aed931c71edc992eec9dfc991f893f6b438) | 0118 |
-| 2026/1/3 |   D..e.e.p.L_X64.1.3.exe   | **Win32/Malgent!MSR**  | 5eb2299706493e2a6a3c30c2253ffbf0f644515745035b7f858e5b90d29c5662 | 9000180b-30d2-40a6-9a54-4f154bb6a025 | [VirusTotal](https://www.virustotal.com/gui/file/5eb2299706493e2a6a3c30c2253ffbf0f644515745035b7f858e5b90d29c5662) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5eb2299706493e2a6a3c30c2253ffbf0f644515745035b7f858e5b90d29c5662) | 0119 |
-| 2026/1/3 |  wincows_lestx64.1.3.exe   | **Win32/Malgent!MSR**  | 405d1935735fd061b48bb1080223a297e23fcf53eccfde4e5f1de20977645f44 | 9000180b-30d2-40a6-9a54-4f154bb6a025 | [VirusTotal](https://www.virustotal.com/gui/file/405d1935735fd061b48bb1080223a297e23fcf53eccfde4e5f1de20977645f44) (2) |                              无                              | 0120 |
 | 2026/1/3 |       output_64.exe        | **Win64/GhostRat.CKD** | 7e19d36f49962f9606608514a34032e5b8af6ca64b97d0986f0c08fada006a70 |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/7e19d36f49962f9606608514a34032e5b8af6ca64b97d0986f0c08fada006a70) (51) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/7e19d36f49962f9606608514a34032e5b8af6ca64b97d0986f0c08fada006a70) | 0121 |
 | 2026/1/3 |         getexe.exe         | **Win32/Wacatac.F!ml** | af524c3cc9c894c6b6e91094cbf7c834ebdf5acc93c17dbaf5f8cb9a51c53187 | ed693798-bb38-4c42-bea0-dfd06ace5901 | [VirusTotal](https://www.virustotal.com/gui/file/af524c3cc9c894c6b6e91094cbf7c834ebdf5acc93c17dbaf5f8cb9a51c53187) (14) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/af524c3cc9c894c6b6e91094cbf7c834ebdf5acc93c17dbaf5f8cb9a51c53187) | 0122 |
 | 2026/1/3 |      QQ1666213767.exe      | **Win32/AutoRun!atmn** | 451fe418159b0826d1b007d8bba9b8374760b9eee8a99bcad38bb62375a049e7 |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/451fe418159b0826d1b007d8bba9b8374760b9eee8a99bcad38bb62375a049e7) (62) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/451fe418159b0826d1b007d8bba9b8374760b9eee8a99bcad38bb62375a049e7) | 0123 |
@@ -98,6 +93,11 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/1/5 |        latest-b.exe        | **Win32/Wacatac.F!ml** | 2e7230657e27ed7f47cb8a8018c7bac088bfa7ee20e168e3665385ec35734c01 |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/2e7230657e27ed7f47cb8a8018c7bac088bfa7ee20e168e3665385ec35734c01) (23) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/2e7230657e27ed7f47cb8a8018c7bac088bfa7ee20e168e3665385ec35734c01) | 0142 |
 | 2026/1/5 |         build-.exe         | **Win32/Wacatac.F!ml** | 41b946332366eee08614c375b0fba08330f51ce17ef710735bc59183529e3dbc |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/41b946332366eee08614c375b0fba08330f51ce17ef710735bc59183529e3dbc) (18) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/41b946332366eee08614c375b0fba08330f51ce17ef710735bc59183529e3dbc) | 0143 |
 | 2026/1/6 |  Aegis Virus Scanner.exe   | **Win32/Malgent!MSR**  | 1d4edfe3e4c16ccbc39bc1164ddf95b80f3a8954db5acdcc14c8483a40c1682a | f4699fe1-acf3-4b3f-9760-1c275c173c1a | [VirusTotal](https://www.virustotal.com/gui/file/1d4edfe3e4c16ccbc39bc1164ddf95b80f3a8954db5acdcc14c8483a40c1682a) (18) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/1d4edfe3e4c16ccbc39bc1164ddf95b80f3a8954db5acdcc14c8483a40c1682a) | 0144 |
+| 2026/1/6 |     ChromeSetup···.msi     | **Win32/Malgent!MSR**  | a826133b16e78530d1b391fe51c4097e135e83838e6b39a58e1eabb98e883e65 | 768d9362-188e-4773-b3ce-525235ccd83b | [VirusTotal](https://www.virustotal.com/gui/file/a826133b16e78530d1b391fe51c4097e135e83838e6b39a58e1eabb98e883e65) (14) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a826133b16e78530d1b391fe51c4097e135e83838e6b39a58e1eabb98e883e65) | 0145 |
+| 2026/1/6 |      shurufa15.12.msi      | **Win32/Malgent!MSR**  | 385b029c126aed550f992cf2499641983e7afd9dcc1753d3ee60bcb8652852e4 | b8d4f116-acde-4ec2-97b2-bc85ec16051c | [VirusTotal](https://www.virustotal.com/gui/file/385b029c126aed550f992cf2499641983e7afd9dcc1753d3ee60bcb8652852e4) (12) |                              无                              | 0146 |
+| 2026/1/6 |     i4Tools8···x64.msi     | **Win64/Malgent!MSR**  | 509ef6e01a71ea9930c10d2ece04de0f1ea1fb907e2c84e1c63bf66358a22afb | 711641d5-4c4e-448f-9f14-e6f5136de52a | [VirusTotal](https://www.virustotal.com/gui/file/509ef6e01a71ea9930c10d2ece04de0f1ea1fb907e2c84e1c63bf66358a22afb) (5) |                              无                              | 0147 |
+| 2026/1/6 |    i4Tooools_v9548.exe     | **Win64/Malgent!MSR**  | a2bd15aec68a7d9eefae7dfe70aa89e488a41013d3b57d4c8f9fd1ade462171b | 1660fdc7-3a50-4b46-b5b5-c5263255a3f0 | [VirusTotal](https://www.virustotal.com/gui/file/a2bd15aec68a7d9eefae7dfe70aa89e488a41013d3b57d4c8f9fd1ade462171b) (18) |                              无                              | 0148 |
+| 2026/1/6 |    aisiloemzushuI4.exe     | **Win32/Malgent!MSR**  | 463e92b60344fb7161a4b271ca305d2a0be46d6c2e7c77cc22092085f2ef0b19 | 73f003f4-21ee-45a8-9ee2-860d815478f3 | [VirusTotal](https://www.virustotal.com/gui/file/463e92b60344fb7161a4b271ca305d2a0be46d6c2e7c77cc22092085f2ef0b19) (14) |                              无                              | 0149 |
 |  ——————  |        ————————————        |      ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -111,24 +111,34 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 >
 > &emsp;为确保安全，网站地址将用 “hxxps://” 与 “[.]” 进行替换。**切勿尝试访问表格中列出的任何网址**。
 
-|   日期   |               URL                |            类别            |                           有效载荷                           |                         URLhaus                          | 编号 |
-| :------: | :------------------------------: | :------------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
-| 2026/1/5 |  hxxps://kuanicalawdjif[.]cyou   |  仿冒火绒、传播计算机病毒  | hxxps://pub-df13d803030c4cab8b69722fbd66d7cd[.]r2[.]dev/din-Hr20254861[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3749994) | 0001 |
-| 2026/1/5 |       hxxps://orayy[.]com        | 仿冒向日葵、传播计算机病毒 | hxxps://officelilne[.]oss-cn-hongkong[.]aliyuncs[.]com/AweSun_yuancheng_x64[.]1[.]2[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3750000) | 0002 |
-| 2026/1/6 |       hxxps://wps-wp[.]cn        |  仿冒 WPS、传播计算机病毒  |                              无                              |                            无                            | 0003 |
-| 2026/1/6 | hxxps://web-wpsoffice[.]com[.]cn |  仿冒 WPS、传播计算机病毒  | hxxps://wpsdowloadsitem[.]oss-cn-hongkong[.]aliyuncs[.]com/WPS_Setup_251211[.]zip |                            无                            | 0004 |
-| 2026/1/6 |    hxxps://www[.]on-wps[.]com    |  仿冒 WPS、传播计算机病毒  | hxxps://qweasd88668[.]oss-ap-southeast-1[.]aliyuncs[.]com/ZooInstalle_v1.3[.]zip |                            无                            | 0005 |
-| 2026/1/6 | hxxps://zh-wps-office[.]com[.]cn |  仿冒 WPS、传播计算机病毒  |    hxxps://zh-wps-office[.]com[.]cn/WPS_Setup_22529[.]exe    |                            无                            | 0006 |
-| 2026/1/6 |  hxxps://web-cn-wps[.]com[.]cn   |  仿冒 WPS、传播计算机病毒  | hxxps://wpsdowloadsitem[.]oss-cn-hongkong[.]aliyuncs[.]com/WPS_Setup_251211[.]zip |                            无                            | 0007 |
-| 2026/1/6 |    hxxps://platform-wps[.]cn     |  仿冒 WPS、传播计算机病毒  |                              无                              |                            无                            | 0008 |
-| 2026/1/6 | hxxps://www[.]wpssoft[.]com[.]cn |  仿冒 WPS、传播计算机病毒  |      hxxps://dows[.]v3-quickq[.]com/WPS_Setup_X64[.]zip      |                            无                            | 0009 |
-| 2026/1/6 |       hxxps://wp-wps[.]cn        |  仿冒 WPS、传播计算机病毒  |      hxxps://wp-wps[.]cn/cdn_download/wps/wps_wid[.]exe      |                            无                            | 0010 |
-| 2026/1/6 |    hxxps://wps-wp[.]com[.]cn     |  仿冒 WPS、传播计算机病毒  |       hxxps://hjekd8c[.]hoyenoy[.]com/WPS_office[.]zip       |                            无                            | 0011 |
-|  ——————  |       ————————————————————       |      ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
+|   日期   |                 URL                 |            类别            |                           有效载荷                           |                         URLhaus                          | 编号 |
+| :------: | :---------------------------------: | :------------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
+| 2026/1/5 |    hxxps://kuanicalawdjif[.]cyou    |  仿冒火绒、传播计算机病毒  | hxxps://pub-df13d803030c4cab8b69722fbd66d7cd[.]r2[.]dev/din-Hr20254861[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3749994) | 0001 |
+| 2026/1/5 |         hxxps://orayy[.]com         | 仿冒向日葵、传播计算机病毒 | hxxps://officelilne[.]oss-cn-hongkong[.]aliyuncs[.]com/AweSun_yuancheng_x64[.]1[.]2[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3750000) | 0002 |
+| 2026/1/6 |         hxxps://wps-wp[.]cn         |  仿冒 WPS、传播计算机病毒  |                              无                              |                            无                            | 0003 |
+| 2026/1/6 |  hxxps://web-wpsoffice[.]com[.]cn   |  仿冒 WPS、传播计算机病毒  | hxxps://wpsdowloadsitem[.]oss-cn-hongkong[.]aliyuncs[.]com/WPS_Setup_251211[.]zip |                            无                            | 0004 |
+| 2026/1/6 |     hxxps://www[.]on-wps[.]com      |  仿冒 WPS、传播计算机病毒  | hxxps://qweasd88668[.]oss-ap-southeast-1[.]aliyuncs[.]com/ZooInstalle_v1.3[.]zip |                            无                            | 0005 |
+| 2026/1/6 |  hxxps://zh-wps-office[.]com[.]cn   |  仿冒 WPS、传播计算机病毒  |    hxxps://zh-wps-office[.]com[.]cn/WPS_Setup_22529[.]exe    |                            无                            | 0006 |
+| 2026/1/6 |    hxxps://web-cn-wps[.]com[.]cn    |  仿冒 WPS、传播计算机病毒  | hxxps://wpsdowloadsitem[.]oss-cn-hongkong[.]aliyuncs[.]com/WPS_Setup_251211[.]zip |                            无                            | 0007 |
+| 2026/1/6 |      hxxps://platform-wps[.]cn      |  仿冒 WPS、传播计算机病毒  |                              无                              |                            无                            | 0008 |
+| 2026/1/6 |  hxxps://www[.]wpssoft[.]com[.]cn   |  仿冒 WPS、传播计算机病毒  |      hxxps://dows[.]v3-quickq[.]com/WPS_Setup_X64[.]zip      |                            无                            | 0009 |
+| 2026/1/6 |         hxxps://wp-wps[.]cn         |  仿冒 WPS、传播计算机病毒  |      hxxps://wp-wps[.]cn/cdn_download/wps/wps_wid[.]exe      |                            无                            | 0010 |
+| 2026/1/6 |      hxxps://wps-wp[.]com[.]cn      |  仿冒 WPS、传播计算机病毒  |       hxxps://hjekd8c[.]hoyenoy[.]com/WPS_office[.]zip       |                            无                            | 0011 |
+| 2026/1/6 |    hxxps://input-sogo[.]com[.]cn    |  仿冒搜狗输入法、传播病毒  |     hxxps://jkemdr[.]hoyenoy[.]com/shurufa15[.]12[.]zip      |                            无                            | 0012 |
+| 2026/1/6 |        hxxps://zh-i4.com.cn         |   仿冒爱思助手、传播病毒   |                              无                              |                            无                            | 0013 |
+| 2026/1/6 |    hxxps://www[.]asizhusou[.]com    |   仿冒爱思助手、传播病毒   | hxxps://dows[.]v3-quickq[.]com/i4Tools8_v8[.]38_Setup_x64[.]zip |                            无                            | 0014 |
+| 2026/1/6 |        hxxps://isi-cn[.]com         |   仿冒爱思助手、传播病毒   | hxxps://adfsdfsfdfds[.]oss-cn-hongkong[.]aliyuncs.com/i4Tooools_v9548[.]zip |                            无                            | 0015 |
+| 2026/1/6 |         hxxps://zh-i4[.]com         |   仿冒爱思助手、传播病毒   |                              无                              |                            无                            | 0016 |
+| 2026/1/6 | hxxps://www[.]as-zhushou[.]com[.]cn |   仿冒爱思助手、传播病毒   | hxxps://dows[.]v3-quickq[.]com/i4Tools8_v8[.]38_Setup_x64[.]zip |                            无                            | 0017 |
+| 2026/1/6 |  hxxps://www[.]cc-aisi[.]com[.]cn   |   仿冒爱思助手、传播病毒   |   hxxps://anzhuang-cn[.]top/busha/i4/aisiloemzushuI4[.]zip   |                            无                            | 0018 |
+| 2026/1/6 |       hxxps://i4zhushou[.]cn        |   仿冒爱思助手、传播病毒   |                              无                              |                            无                            | 0019 |
+| 2026/1/6 |      hxxps://i4zhus[.]com[.]cn      |   仿冒爱思助手、传播病毒   | hxxps://i4zhus[.]com[.]cn/i4Tools_v9[.]02[.]035_Setup_x64[.]exe |                            无                            | 0020 |
+| 2026/1/6 |  hxxps://i4aisizhushou[.]com[.]cn   |   仿冒爱思助手、传播病毒   | hxxps://ioansos-1373170392[.]cos[.]ap-guangzhou[.]myqcloud[.]com/v9[.]06[.]018_Setup[.]zip |                            无                            | 0021 |
+|  ——————  |        ————————————————————         |      ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
 >
-> &emsp;只显示最近 20 条数据，更早数据详见 LGSRC/[Archive_2.md](https://github.com/Lingggao/LGSRC/blob/main/Archive_2.md) (恶意网站归档)。
+> &emsp;只显示最近 30 条数据，更早数据详见 LGSRC/[Archive_2.md](https://github.com/Lingggao/LGSRC/blob/main/Archive_2.md) (恶意网站归档)。
 
 ## 如何提交文件进行分析？
 

@@ -2,6 +2,8 @@
 
 ## 数据 (归档)
 
+【**计算机病毒 / 恶意软件**】
+
 > [!CAUTION]
 >
 > &emsp;为确保安全，本中心**不提供**病毒 / 恶意软件样本下载服务。
@@ -123,6 +125,11 @@
 |  2026/1/1  |    link_to_android.exe     |  **Win32/Sonbokli.A!cl**   | 554e2b5ae82073d72bb8fda4451cf9686c8b8452c60a83812da1acbeacd876d1 | d993f6e4-bea6-4c53-8709-4ce64c4bd2fa | [VirusTotal](https://www.virustotal.com/gui/file/554e2b5ae82073d72bb8fda4451cf9686c8b8452c60a83812da1acbeacd876d1) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/554e2b5ae82073d72bb8fda4451cf9686c8b8452c60a83812da1acbeacd876d1) | 0113 |
 |  2026/1/1  | ···报表（安全管理部）.exe  |   **Win32/Malgent!MSR**    | a4af8f3b1fe0f428a0f0f0add035e27607c5dc8df3dd223368995aae694d9724 | b1612a61-29e8-4ac6-b4c5-7dc6185e7bad | [VirusTotal](https://www.virustotal.com/gui/file/a4af8f3b1fe0f428a0f0f0add035e27607c5dc8df3dd223368995aae694d9724) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a4af8f3b1fe0f428a0f0f0add035e27607c5dc8df3dd223368995aae694d9724) | 0114 |
 |  2026/1/1  |   sun_login-win7···.msi    |   **Win32/Malgent!MSR**    | 0c77c7d7f00eac0c6114b447f3c24c12f464e57a7aed3a1d21afce089c083180 | 179e8f02-02aa-461f-8b9a-3a6dfd3f02ea | [VirusTotal](https://www.virustotal.com/gui/file/0c77c7d7f00eac0c6114b447f3c24c12f464e57a7aed3a1d21afce089c083180) (2) |                              无                              | 0115 |
+|  2026/1/2  |        uftutrt.exe         |   **Win32/Malgent!MSR**    | 454972a63c641af5f72bd9ba8bde7c0caf4fc8872cbbcc3162a47e1e2f3dc386 | 6d11747f-aeb2-43e6-8787-250d48c39715 | [VirusTotal](https://www.virustotal.com/gui/file/454972a63c641af5f72bd9ba8bde7c0caf4fc8872cbbcc3162a47e1e2f3dc386) (16) |                              无                              | 0116 |
+|  2026/1/2  |      sfhfdhhjrsj.exe       |   **Win32/Malgent!MSR**    | 3d0887289e3cc85b09b575e5b65e121ee25d33d66b21082a75363a3e397f9123 | 486c9fba-f155-4485-848c-48d16094bcfa | [VirusTotal](https://www.virustotal.com/gui/file/3d0887289e3cc85b09b575e5b65e121ee25d33d66b21082a75363a3e397f9123) (7) |                              无                              | 0117 |
+|  2026/1/3  |       值班表.xls.exe       |   **Win32/Malgent!MSR**    | 28a3c1554c3025c4a252094e18ad1aed931c71edc992eec9dfc991f893f6b438 | 639caee4-e5ad-4e20-b82b-f7dec372ed0e | [VirusTotal](https://www.virustotal.com/gui/file/28a3c1554c3025c4a252094e18ad1aed931c71edc992eec9dfc991f893f6b438) (19) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/28a3c1554c3025c4a252094e18ad1aed931c71edc992eec9dfc991f893f6b438) | 0118 |
+|  2026/1/3  |   D..e.e.p.L_X64.1.3.exe   |   **Win32/Malgent!MSR**    | 5eb2299706493e2a6a3c30c2253ffbf0f644515745035b7f858e5b90d29c5662 | 9000180b-30d2-40a6-9a54-4f154bb6a025 | [VirusTotal](https://www.virustotal.com/gui/file/5eb2299706493e2a6a3c30c2253ffbf0f644515745035b7f858e5b90d29c5662) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5eb2299706493e2a6a3c30c2253ffbf0f644515745035b7f858e5b90d29c5662) | 0119 |
+|  2026/1/3  |  wincows_lestx64.1.3.exe   |   **Win32/Malgent!MSR**    | 405d1935735fd061b48bb1080223a297e23fcf53eccfde4e5f1de20977645f44 | 9000180b-30d2-40a6-9a54-4f154bb6a025 | [VirusTotal](https://www.virustotal.com/gui/file/405d1935735fd061b48bb1080223a297e23fcf53eccfde4e5f1de20977645f44) (2) |                              无                              | 0120 |
 |   ——————   |        ————————————        |        ————————————        |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 ---
