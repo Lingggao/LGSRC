@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 1 月 6 日 17:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 1 月 6 日 18:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 1 月 6 日，已打击计算机病毒 / 恶意软件 149 个、恶意网站 21 个**。
+&emsp;&emsp;**截至 2026 年 1 月 6 日，已打击计算机病毒 / 恶意软件 150 个、恶意网站 23 个**。
 
 ---
 
@@ -98,6 +98,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/1/6 |     i4Tools8···x64.msi     | **Win64/Malgent!MSR**  | 509ef6e01a71ea9930c10d2ece04de0f1ea1fb907e2c84e1c63bf66358a22afb | 711641d5-4c4e-448f-9f14-e6f5136de52a | [VirusTotal](https://www.virustotal.com/gui/file/509ef6e01a71ea9930c10d2ece04de0f1ea1fb907e2c84e1c63bf66358a22afb) (5) |                              无                              | 0147 |
 | 2026/1/6 |    i4Tooools_v9548.exe     | **Win64/Malgent!MSR**  | a2bd15aec68a7d9eefae7dfe70aa89e488a41013d3b57d4c8f9fd1ade462171b | 1660fdc7-3a50-4b46-b5b5-c5263255a3f0 | [VirusTotal](https://www.virustotal.com/gui/file/a2bd15aec68a7d9eefae7dfe70aa89e488a41013d3b57d4c8f9fd1ade462171b) (18) |                              无                              | 0148 |
 | 2026/1/6 |    aisiloemzushuI4.exe     | **Win32/Malgent!MSR**  | 463e92b60344fb7161a4b271ca305d2a0be46d6c2e7c77cc22092085f2ef0b19 | 73f003f4-21ee-45a8-9ee2-860d815478f3 | [VirusTotal](https://www.virustotal.com/gui/file/463e92b60344fb7161a4b271ca305d2a0be46d6c2e7c77cc22092085f2ef0b19) (14) |                              无                              | 0149 |
+| 2026/1/6 |     whtfhtyhg (1).exe      | **Win32/Wacatac.H!ml** | 085223042ef70a4c8fa6893a94de9b360524ba664e5f5e40193ce5c1746c513c | 3d51f469-619c-497c-83fd-e4eea6e0f00c | [VirusTotal](https://www.virustotal.com/gui/file/085223042ef70a4c8fa6893a94de9b360524ba664e5f5e40193ce5c1746c513c) (14) |                              无                              | 0150 |
 |  ——————  |        ————————————        |      ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -111,30 +112,32 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 >
 > &emsp;为确保安全，网站地址将用 “hxxps://” 与 “[.]” 进行替换。**切勿尝试访问表格中列出的任何网址**。
 
-|   日期   |                 URL                 |            类别            |                           有效载荷                           |                         URLhaus                          | 编号 |
-| :------: | :---------------------------------: | :------------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
-| 2026/1/5 |    hxxps://kuanicalawdjif[.]cyou    |  仿冒火绒、传播计算机病毒  | hxxps://pub-df13d803030c4cab8b69722fbd66d7cd[.]r2[.]dev/din-Hr20254861[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3749994) | 0001 |
-| 2026/1/5 |         hxxps://orayy[.]com         | 仿冒向日葵、传播计算机病毒 | hxxps://officelilne[.]oss-cn-hongkong[.]aliyuncs[.]com/AweSun_yuancheng_x64[.]1[.]2[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3750000) | 0002 |
-| 2026/1/6 |         hxxps://wps-wp[.]cn         |  仿冒 WPS、传播计算机病毒  |                              无                              |                            无                            | 0003 |
-| 2026/1/6 |  hxxps://web-wpsoffice[.]com[.]cn   |  仿冒 WPS、传播计算机病毒  | hxxps://wpsdowloadsitem[.]oss-cn-hongkong[.]aliyuncs[.]com/WPS_Setup_251211[.]zip |                            无                            | 0004 |
-| 2026/1/6 |     hxxps://www[.]on-wps[.]com      |  仿冒 WPS、传播计算机病毒  | hxxps://qweasd88668[.]oss-ap-southeast-1[.]aliyuncs[.]com/ZooInstalle_v1.3[.]zip |                            无                            | 0005 |
-| 2026/1/6 |  hxxps://zh-wps-office[.]com[.]cn   |  仿冒 WPS、传播计算机病毒  |    hxxps://zh-wps-office[.]com[.]cn/WPS_Setup_22529[.]exe    |                            无                            | 0006 |
-| 2026/1/6 |    hxxps://web-cn-wps[.]com[.]cn    |  仿冒 WPS、传播计算机病毒  | hxxps://wpsdowloadsitem[.]oss-cn-hongkong[.]aliyuncs[.]com/WPS_Setup_251211[.]zip |                            无                            | 0007 |
-| 2026/1/6 |      hxxps://platform-wps[.]cn      |  仿冒 WPS、传播计算机病毒  |                              无                              |                            无                            | 0008 |
-| 2026/1/6 |  hxxps://www[.]wpssoft[.]com[.]cn   |  仿冒 WPS、传播计算机病毒  |      hxxps://dows[.]v3-quickq[.]com/WPS_Setup_X64[.]zip      |                            无                            | 0009 |
-| 2026/1/6 |         hxxps://wp-wps[.]cn         |  仿冒 WPS、传播计算机病毒  |      hxxps://wp-wps[.]cn/cdn_download/wps/wps_wid[.]exe      |                            无                            | 0010 |
-| 2026/1/6 |      hxxps://wps-wp[.]com[.]cn      |  仿冒 WPS、传播计算机病毒  |       hxxps://hjekd8c[.]hoyenoy[.]com/WPS_office[.]zip       |                            无                            | 0011 |
-| 2026/1/6 |    hxxps://input-sogo[.]com[.]cn    |  仿冒搜狗输入法、传播病毒  |     hxxps://jkemdr[.]hoyenoy[.]com/shurufa15[.]12[.]zip      |                            无                            | 0012 |
-| 2026/1/6 |        hxxps://zh-i4.com.cn         |   仿冒爱思助手、传播病毒   |                              无                              |                            无                            | 0013 |
-| 2026/1/6 |    hxxps://www[.]asizhusou[.]com    |   仿冒爱思助手、传播病毒   | hxxps://dows[.]v3-quickq[.]com/i4Tools8_v8[.]38_Setup_x64[.]zip |                            无                            | 0014 |
-| 2026/1/6 |        hxxps://isi-cn[.]com         |   仿冒爱思助手、传播病毒   | hxxps://adfsdfsfdfds[.]oss-cn-hongkong[.]aliyuncs.com/i4Tooools_v9548[.]zip |                            无                            | 0015 |
-| 2026/1/6 |         hxxps://zh-i4[.]com         |   仿冒爱思助手、传播病毒   |                              无                              |                            无                            | 0016 |
-| 2026/1/6 | hxxps://www[.]as-zhushou[.]com[.]cn |   仿冒爱思助手、传播病毒   | hxxps://dows[.]v3-quickq[.]com/i4Tools8_v8[.]38_Setup_x64[.]zip |                            无                            | 0017 |
-| 2026/1/6 |  hxxps://www[.]cc-aisi[.]com[.]cn   |   仿冒爱思助手、传播病毒   |   hxxps://anzhuang-cn[.]top/busha/i4/aisiloemzushuI4[.]zip   |                            无                            | 0018 |
-| 2026/1/6 |       hxxps://i4zhushou[.]cn        |   仿冒爱思助手、传播病毒   |                              无                              |                            无                            | 0019 |
-| 2026/1/6 |      hxxps://i4zhus[.]com[.]cn      |   仿冒爱思助手、传播病毒   | hxxps://i4zhus[.]com[.]cn/i4Tools_v9[.]02[.]035_Setup_x64[.]exe |                            无                            | 0020 |
-| 2026/1/6 |  hxxps://i4aisizhushou[.]com[.]cn   |   仿冒爱思助手、传播病毒   | hxxps://ioansos-1373170392[.]cos[.]ap-guangzhou[.]myqcloud[.]com/v9[.]06[.]018_Setup[.]zip |                            无                            | 0021 |
-|  ——————  |        ————————————————————         |      ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
+|   日期   |                 URL                 |            类别             |                           有效载荷                           |                         URLhaus                          | 编号 |
+| :------: | :---------------------------------: | :-------------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
+| 2026/1/5 |    hxxps://kuanicalawdjif[.]cyou    |  仿冒火绒、传播计算机病毒   | hxxps://pub-df13d803030c4cab8b69722fbd66d7cd[.]r2[.]dev/din-Hr20254861[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3749994) | 0001 |
+| 2026/1/5 |         hxxps://orayy[.]com         | 仿冒向日葵、传播计算机病毒  | hxxps://officelilne[.]oss-cn-hongkong[.]aliyuncs[.]com/AweSun_yuancheng_x64[.]1[.]2[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3750000) | 0002 |
+| 2026/1/6 |         hxxps://wps-wp[.]cn         |  仿冒 WPS、传播计算机病毒   |                              无                              |                            无                            | 0003 |
+| 2026/1/6 |  hxxps://web-wpsoffice[.]com[.]cn   |  仿冒 WPS、传播计算机病毒   | hxxps://wpsdowloadsitem[.]oss-cn-hongkong[.]aliyuncs[.]com/WPS_Setup_251211[.]zip |                            无                            | 0004 |
+| 2026/1/6 |     hxxps://www[.]on-wps[.]com      |  仿冒 WPS、传播计算机病毒   | hxxps://qweasd88668[.]oss-ap-southeast-1[.]aliyuncs[.]com/ZooInstalle_v1.3[.]zip |                            无                            | 0005 |
+| 2026/1/6 |  hxxps://zh-wps-office[.]com[.]cn   |  仿冒 WPS、传播计算机病毒   |    hxxps://zh-wps-office[.]com[.]cn/WPS_Setup_22529[.]exe    |                            无                            | 0006 |
+| 2026/1/6 |    hxxps://web-cn-wps[.]com[.]cn    |  仿冒 WPS、传播计算机病毒   | hxxps://wpsdowloadsitem[.]oss-cn-hongkong[.]aliyuncs[.]com/WPS_Setup_251211[.]zip |                            无                            | 0007 |
+| 2026/1/6 |      hxxps://platform-wps[.]cn      |  仿冒 WPS、传播计算机病毒   |                              无                              |                            无                            | 0008 |
+| 2026/1/6 |  hxxps://www[.]wpssoft[.]com[.]cn   |  仿冒 WPS、传播计算机病毒   |      hxxps://dows[.]v3-quickq[.]com/WPS_Setup_X64[.]zip      |                            无                            | 0009 |
+| 2026/1/6 |         hxxps://wp-wps[.]cn         |  仿冒 WPS、传播计算机病毒   |      hxxps://wp-wps[.]cn/cdn_download/wps/wps_wid[.]exe      |                            无                            | 0010 |
+| 2026/1/6 |      hxxps://wps-wp[.]com[.]cn      |  仿冒 WPS、传播计算机病毒   |       hxxps://hjekd8c[.]hoyenoy[.]com/WPS_office[.]zip       |                            无                            | 0011 |
+| 2026/1/6 |    hxxps://input-sogo[.]com[.]cn    |  仿冒搜狗输入法、传播病毒   |     hxxps://jkemdr[.]hoyenoy[.]com/shurufa15[.]12[.]zip      |                            无                            | 0012 |
+| 2026/1/6 |        hxxps://zh-i4.com.cn         |   仿冒爱思助手、传播病毒    |                              无                              |                            无                            | 0013 |
+| 2026/1/6 |    hxxps://www[.]asizhusou[.]com    |   仿冒爱思助手、传播病毒    | hxxps://dows[.]v3-quickq[.]com/i4Tools8_v8[.]38_Setup_x64[.]zip |                            无                            | 0014 |
+| 2026/1/6 |        hxxps://isi-cn[.]com         |   仿冒爱思助手、传播病毒    | hxxps://adfsdfsfdfds[.]oss-cn-hongkong[.]aliyuncs.com/i4Tooools_v9548[.]zip |                            无                            | 0015 |
+| 2026/1/6 |         hxxps://zh-i4[.]com         |   仿冒爱思助手、传播病毒    |                              无                              |                            无                            | 0016 |
+| 2026/1/6 | hxxps://www[.]as-zhushou[.]com[.]cn |   仿冒爱思助手、传播病毒    | hxxps://dows[.]v3-quickq[.]com/i4Tools8_v8[.]38_Setup_x64[.]zip |                            无                            | 0017 |
+| 2026/1/6 |  hxxps://www[.]cc-aisi[.]com[.]cn   |   仿冒爱思助手、传播病毒    |   hxxps://anzhuang-cn[.]top/busha/i4/aisiloemzushuI4[.]zip   |                            无                            | 0018 |
+| 2026/1/6 |       hxxps://i4zhushou[.]cn        |   仿冒爱思助手、传播病毒    |                              无                              |                            无                            | 0019 |
+| 2026/1/6 |      hxxps://i4zhus[.]com[.]cn      |   仿冒爱思助手、传播病毒    | hxxps://i4zhus[.]com[.]cn/i4Tools_v9[.]02[.]035_Setup_x64[.]exe |                            无                            | 0020 |
+| 2026/1/6 |  hxxps://i4aisizhushou[.]com[.]cn   |   仿冒爱思助手、传播病毒    | hxxps://ioansos-1373170392[.]cos[.]ap-guangzhou[.]myqcloud[.]com/v9[.]06[.]018_Setup[.]zip |                            无                            | 0021 |
+| 2026/1/6 |     hxxps://www[.]360ccm[.]com      | 仿冒 360 安全卫士、传播病毒 | hxxps://pub-8bf10830d4fa42d3a538fa7b302d55b3[.]r2[.]dev/whtfhtyhg%20(1)[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3751295) | 0022 |
+| 2026/1/6 |     hxxps://xiazaiabcd7[.]cyou      | 仿冒 360 安全卫士、传播病毒 | hxxps://pub-8bf10830d4fa42d3a538fa7b302d55b3[.]r2[.]dev/whtfhtyhg%20(1)[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3751295) | 0023 |
+|  ——————  |        ————————————————————         |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
 >
