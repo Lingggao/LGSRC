@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 1 月 6 日 1:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 1 月 6 日 8:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 1 月 6 日，已打击计算机病毒 / 恶意软件 143 个、恶意网站 2 个**。
+&emsp;&emsp;**截至 2026 年 1 月 6 日，已打击计算机病毒 / 恶意软件 144 个、恶意网站 11 个**。
 
 ---
 
@@ -97,6 +97,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/1/5 |        identity.exe        | **Win64/Donut.C!MTB**  | f50b9b888107644204921d8449bc7ef4fe358cd5ccca87a7cf5944a00d00dcc8 |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/f50b9b888107644204921d8449bc7ef4fe358cd5ccca87a7cf5944a00d00dcc8) (29) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/f50b9b888107644204921d8449bc7ef4fe358cd5ccca87a7cf5944a00d00dcc8) | 0141 |
 | 2026/1/5 |        latest-b.exe        | **Win32/Wacatac.F!ml** | 2e7230657e27ed7f47cb8a8018c7bac088bfa7ee20e168e3665385ec35734c01 |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/2e7230657e27ed7f47cb8a8018c7bac088bfa7ee20e168e3665385ec35734c01) (23) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/2e7230657e27ed7f47cb8a8018c7bac088bfa7ee20e168e3665385ec35734c01) | 0142 |
 | 2026/1/5 |         build-.exe         | **Win32/Wacatac.F!ml** | 41b946332366eee08614c375b0fba08330f51ce17ef710735bc59183529e3dbc |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/41b946332366eee08614c375b0fba08330f51ce17ef710735bc59183529e3dbc) (18) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/41b946332366eee08614c375b0fba08330f51ce17ef710735bc59183529e3dbc) | 0143 |
+| 2026/1/6 |  Aegis Virus Scanner.exe   | **Win32/Malgent!MSR**  | 1d4edfe3e4c16ccbc39bc1164ddf95b80f3a8954db5acdcc14c8483a40c1682a | f4699fe1-acf3-4b3f-9760-1c275c173c1a | [VirusTotal](https://www.virustotal.com/gui/file/1d4edfe3e4c16ccbc39bc1164ddf95b80f3a8954db5acdcc14c8483a40c1682a) (18) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/1d4edfe3e4c16ccbc39bc1164ddf95b80f3a8954db5acdcc14c8483a40c1682a) | 0144 |
 |  ——————  |        ————————————        |      ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -108,13 +109,22 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 > [!CAUTION]
 >
-> &emsp;为确保安全，网站地址将用 “hxxps://” 与 “[.]” 进行替换。**切勿尝试访问表格中列出的任何地址**。
+> &emsp;为确保安全，网站地址将用 “hxxps://” 与 “[.]” 进行替换。**切勿尝试访问表格中列出的任何网址**。
 
-|   日期   |              URL              |           类别           |                           有效载荷                           |                         URLhaus                          | 编号 |
-| :------: | :---------------------------: | :----------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
-| 2026/1/5 | hxxps://kuanicalawdjif[.]cyou |  仿冒火绒、传播恶意软件  | hxxps://pub-df13d803030c4cab8b69722fbd66d7cd[.]r2[.]dev/din-Hr20254861[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3749994) | 0001 |
-| 2026/1/5 |      hxxps://orayy[.]com      | 仿冒向日葵、传播恶意软件 | hxxps://officelilne[.]oss-cn-hongkong[.]aliyuncs[.]com/AweSun_yuancheng_x64[.]1[.]2[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3750000) | 0002 |
-|  ——————  |     ————————————————————      |     ———————————————      |                ——————————————————————————————                |                        ——————————                        | ———  |
+|   日期   |               URL                |            类别            |                           有效载荷                           |                         URLhaus                          | 编号 |
+| :------: | :------------------------------: | :------------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
+| 2026/1/5 |  hxxps://kuanicalawdjif[.]cyou   |  仿冒火绒、传播计算机病毒  | hxxps://pub-df13d803030c4cab8b69722fbd66d7cd[.]r2[.]dev/din-Hr20254861[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3749994) | 0001 |
+| 2026/1/5 |       hxxps://orayy[.]com        | 仿冒向日葵、传播计算机病毒 | hxxps://officelilne[.]oss-cn-hongkong[.]aliyuncs[.]com/AweSun_yuancheng_x64[.]1[.]2[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3750000) | 0002 |
+| 2026/1/6 |       hxxps://wps-wp[.]cn        |  仿冒 WPS、传播计算机病毒  |                              无                              |                            无                            | 0003 |
+| 2026/1/6 | hxxps://web-wpsoffice[.]com[.]cn |  仿冒 WPS、传播计算机病毒  | hxxps://wpsdowloadsitem[.]oss-cn-hongkong[.]aliyuncs[.]com/WPS_Setup_251211[.]zip |                            无                            | 0004 |
+| 2026/1/6 |    hxxps://www[.]on-wps[.]com    |  仿冒 WPS、传播计算机病毒  | hxxps://qweasd88668[.]oss-ap-southeast-1[.]aliyuncs[.]com/ZooInstalle_v1.3[.]zip |                            无                            | 0005 |
+| 2026/1/6 | hxxps://zh-wps-office[.]com[.]cn |  仿冒 WPS、传播计算机病毒  |    hxxps://zh-wps-office[.]com[.]cn/WPS_Setup_22529[.]exe    |                            无                            | 0006 |
+| 2026/1/6 |  hxxps://web-cn-wps[.]com[.]cn   |  仿冒 WPS、传播计算机病毒  | hxxps://wpsdowloadsitem[.]oss-cn-hongkong[.]aliyuncs[.]com/WPS_Setup_251211[.]zip |                            无                            | 0007 |
+| 2026/1/6 |    hxxps://platform-wps[.]cn     |  仿冒 WPS、传播计算机病毒  |                              无                              |                            无                            | 0008 |
+| 2026/1/6 | hxxps://www[.]wpssoft[.]com[.]cn |  仿冒 WPS、传播计算机病毒  |      hxxps://dows[.]v3-quickq[.]com/WPS_Setup_X64[.]zip      |                            无                            | 0009 |
+| 2026/1/6 |       hxxps://wp-wps[.]cn        |  仿冒 WPS、传播计算机病毒  |      hxxps://wp-wps[.]cn/cdn_download/wps/wps_wid[.]exe      |                            无                            | 0010 |
+| 2026/1/6 |    hxxps://wps-wp[.]com[.]cn     |  仿冒 WPS、传播计算机病毒  |       hxxps://hjekd8c[.]hoyenoy[.]com/WPS_office[.]zip       |                            无                            | 0011 |
+|  ——————  |       ————————————————————       |      ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
 >
