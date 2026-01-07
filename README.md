@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 1 月 7 日 20:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 1 月 7 日 22:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 1 月 7 日，已打击计算机病毒 / 恶意软件 156 个、恶意网站 28 个**。
+&emsp;&emsp;**截至 2026 年 1 月 7 日，已打击计算机病毒 / 恶意软件 157 个、恶意网站 28 个**。
 
 ---
 
@@ -97,6 +97,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/1/7 |      哈希校验工具.exe      | **Win32/Wacatac.H!ml** | f3cfe05a29666720119fd284a27a4fcc691a0998cc53e6d62482f8f65daa43ba |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/f3cfe05a29666720119fd284a27a4fcc691a0998cc53e6d62482f8f65daa43ba) (31) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/f3cfe05a29666720119fd284a27a4fcc691a0998cc53e6d62482f8f65daa43ba) | 0154 |
 | 2026/1/7 |      wgdfhfgb (2).exe      | **Win32/Wacatac.F!ml** | f2d87ac51b145325a3a8a2fada440a929d91baf06563f84d0829bbcf04c2ba78 |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/f2d87ac51b145325a3a8a2fada440a929d91baf06563f84d0829bbcf04c2ba78) (17) |                              无                              | 0155 |
 | 2026/1/7 |     Chrome···9507.msi      | **Win32/Malgent!MSR**  | b47718d7a120beccf564de9b8f97920bccc3b8253cf30cc87fe0496d0a18d8fc | fa79a4c2-eade-473a-bbad-beb07e5ea20f | [VirusTotal](https://www.virustotal.com/gui/file/b47718d7a120beccf564de9b8f97920bccc3b8253cf30cc87fe0496d0a18d8fc) (9) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b47718d7a120beccf564de9b8f97920bccc3b8253cf30cc87fe0496d0a18d8fc) | 0156 |
+| 2026/1/7 |      GuBliulanqi.msi       |   **Win32/Vigorf.A**   | 584c660abedc2f2276207d4e64c9345296a33c562a4056d7b5d2bdc94b067e42 | eea876c3-9af2-46e6-bd78-3d614fae1359 | [VirusTotal](https://www.virustotal.com/gui/file/584c660abedc2f2276207d4e64c9345296a33c562a4056d7b5d2bdc94b067e42) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/584c660abedc2f2276207d4e64c9345296a33c562a4056d7b5d2bdc94b067e42) | 0157 |
 |  ——————  |        ————————————        |      ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
