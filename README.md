@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 1 月 9 日 12:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 1 月 9 日 20:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 1 月 9 日，已打击计算机病毒 / 恶意软件 171 个、恶意网站 36 个**。
+&emsp;&emsp;**截至 2026 年 1 月 9 日，已打击计算机病毒 / 恶意软件 173 个、恶意网站 36 个**。
 
 ---
 
@@ -97,6 +97,8 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/1/8 |    ToDesk_4.8.1.2.exe    |  **Win32/Malgent!MSR**   | 6d804a5f88ee97479fd123dca57edc3f17b6d1410879e6f37e4c28453464021a | 072e59b0-dbf4-4be8-a378-b36433a042fc | [VirusTotal](https://www.virustotal.com/gui/file/6d804a5f88ee97479fd123dca57edc3f17b6d1410879e6f37e4c28453464021a) (32) |                              无                              | 0169 |
 | 2026/1/9 | Chome-stallerrwin64.exe  |  **Win32/Malgent!MSR**   | d12479b6420bff547664c90946b634e525afb2a0238f9e80e188ed49083641bc | 58fd0b56-1169-4c69-9607-a255d5412fd5 | [VirusTotal](https://www.virustotal.com/gui/file/d12479b6420bff547664c90946b634e525afb2a0238f9e80e188ed49083641bc) (6) |                              无                              | 0170 |
 | 2026/1/9 |          1.msi           |    **Win32/Vigorf.A**    | 78ae8db62b746916c1f11796a071f1f620de91ee78f380c3a7860a444fd305a7 | 2e3f392e-d904-410c-bb92-59acb5224faf | [VirusTotal](https://www.virustotal.com/gui/file/78ae8db62b746916c1f11796a071f1f620de91ee78f380c3a7860a444fd305a7) (13) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/78ae8db62b746916c1f11796a071f1f620de91ee78f380c3a7860a444fd305a7) | 0171 |
+| 2026/1/9 |  SsogSgooun···1.5.8.exe  |   **Win32/Etset!rfn**    | 0d859868dd964cce07a33c47e334f7770a7efa5be08759480c8a14e8f90743fd | 7a9cd61b-7ff8-47ab-aa1f-061fa287da4e | [VirusTotal](https://www.virustotal.com/gui/file/0d859868dd964cce07a33c47e334f7770a7efa5be08759480c8a14e8f90743fd) (15) |                              无                              | 0172 |
+| 2026/1/9 |     shurufa15.12.msi     |  **Win32/Kepavll!rfn**   | e196744ce39516cc89f33599be7fd983ae054de9353b8788338b7a87ce5505c1 | 3b6fbe8f-a6b2-4a71-90d6-bce032f3418e | [VirusTotal](https://www.virustotal.com/gui/file/e196744ce39516cc89f33599be7fd983ae054de9353b8788338b7a87ce5505c1) (10) |                              无                              | 0173 |
 |  ——————  |       ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -134,14 +136,14 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/1/6 |     hxxps://apps-youdao[.]com[.]cn     |   仿冒有道翻译、传播病毒    | hxxps://hk-vip-oss-20251231[.]oss-cn-hongkong[.]aliyuncs[.]com/0106/YoudaoDict__X64[.]5[.]8[.]2[.]exe |                            无                            | 0026 |
 | 2026/1/6 |    hxxps://fanyi-youdao[.]com[.]cn     |   仿冒有道翻译、传播病毒    | hxxps://hk-vip-oss-20251231[.]oss-cn-hongkong[.]aliyuncs[.]com/0106/YoudaoDict__X64[.]5[.]8[.]2[.]exe |                            无                            | 0027 |
 | 2026/1/6 |     hxxps://www[.]cp-youdao[.]com      |   仿冒有道翻译、传播病毒    |                              无                              |                            无                            | 0028 |
-| 2026/1/9 |    hxxps://pinyin-sogou[.]com[.]cn     |  仿冒搜狗输入法、传播病毒   |     hxxps://jkemdr[.]hoyenoy[.]com/shurufa15[.]12[.]zip      |                            无                            | 0029 |
+| 2026/1/9 |    hxxps://pinyin-sogou[.]com[.]cn     |  仿冒搜狗输入法、传播病毒   |     hxxps://jkemdr[.]hoyenoy[.]com/shurufa15[.]12[.]zip      | [URLhaus Database](https://urlhaus.abuse.ch/url/3753789) | 0029 |
 | 2026/1/9 | hxxps://sougoupinyin-cn[.]com/download |  仿冒搜狗输入法、传播病毒   |                              无                              |                            无                            | 0030 |
-| 2026/1/9 |         hxxps://ai-sogou[.]com         |  仿冒搜狗输入法、传播病毒   | hxxps://apps-sogou[.]com/downloads/windows/SsogSgooun[.]guanwang[.]1[.]5[.]8[.]exe |                            无                            | 0031 |
-| 2026/1/9 | hxxps://sogoushurufa-sogou[.]com[.]cn  |  仿冒搜狗输入法、传播病毒   |     hxxps://jkemdr[.]hoyenoy[.]com/shurufa15[.]12[.]zip      |                            无                            | 0032 |
+| 2026/1/9 |         hxxps://ai-sogou[.]com         |  仿冒搜狗输入法、传播病毒   | hxxps://apps-sogou[.]com/downloads/windows/SsogSgooun[.]guanwang[.]1[.]5[.]8[.]exe | [URLhaus Database](https://urlhaus.abuse.ch/url/3753788) | 0031 |
+| 2026/1/9 | hxxps://sogoushurufa-sogou[.]com[.]cn  |  仿冒搜狗输入法、传播病毒   |     hxxps://jkemdr[.]hoyenoy[.]com/shurufa15[.]12[.]zip      | [URLhaus Database](https://urlhaus.abuse.ch/url/3753789) | 0032 |
 | 2026/1/9 |        hxxps://pc-sougous[.]com        |  仿冒搜狗输入法、传播病毒   |                              无                              |                            无                            | 0033 |
 | 2026/1/9 | hxxps://zhcn-sougoushurufa[.]com[.]cn  |  仿冒搜狗输入法、传播病毒   |                              无                              |                            无                            | 0034 |
-| 2026/1/9 |       hxxps://cnzh-sougou[.]com        |  仿冒搜狗输入法、传播病毒   |     hxxps://jkemdr[.]hoyenoy[.]com/shurufa15[.]12[.]zip      |                            无                            | 0035 |
-| 2026/1/9 |       hxxps://shouji-sogou[.]com       |  仿冒搜狗输入法、传播病毒   | hxxps://apps-sogou[.]com/downloads/windows/SsogSgooun[.]guanwang[.]1[.]5[.]8[.]exe |                            无                            | 0036 |
+| 2026/1/9 |       hxxps://cnzh-sougou[.]com        |  仿冒搜狗输入法、传播病毒   |     hxxps://jkemdr[.]hoyenoy[.]com/shurufa15[.]12[.]zip      | [URLhaus Database](https://urlhaus.abuse.ch/url/3753789) | 0035 |
+| 2026/1/9 |       hxxps://shouji-sogou[.]com       |  仿冒搜狗输入法、传播病毒   | hxxps://apps-sogou[.]com/downloads/windows/SsogSgooun[.]guanwang[.]1[.]5[.]8[.]exe | [URLhaus Database](https://urlhaus.abuse.ch/url/3753788) | 0036 |
 |  ——————  |          ————————————————————          |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
