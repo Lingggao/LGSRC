@@ -16,6 +16,9 @@
 | 2026/1/6 | hxxps://web-wpsoffice[.]com[.]cn |  仿冒 WPS、传播病毒  | hxxps://wpsdowloadsitem[.]oss-cn-hongkong[.]aliyuncs[.]com/WPS_Setup_251211[.]zip |                            无                            | 0004 |
 | 2026/1/6 |    hxxps://www[.]on-wps[.]com    |  仿冒 WPS、传播病毒  | hxxps://qweasd88668[.]oss-ap-southeast-1[.]aliyuncs[.]com/ZooInstalle_v1.3[.]zip |                            无                            | 0005 |
 | 2026/1/6 | hxxps://zh-wps-office[.]com[.]cn |  仿冒 WPS、传播病毒  |    hxxps://zh-wps-office[.]com[.]cn/WPS_Setup_22529[.]exe    |                            无                            | 0006 |
+| 2026/1/6 |  hxxps://web-cn-wps[.]com[.]cn   |  仿冒 WPS、传播病毒  | hxxps://wpsdowloadsitem[.]oss-cn-hongkong[.]aliyuncs[.]com/WPS_Setup_251211[.]zip |                            无                            | Z007 |
+| 2026/1/6 |    hxxps://platform-wps[.]cn     |  仿冒 WPS、传播病毒  |                              无                              |                            无                            | Z008 |
+| 2026/1/6 | hxxps://www[.]wpssoft[.]com[.]cn |  仿冒 WPS、传播病毒  |      hxxps://dows[.]v3-quickq[.]com/WPS_Setup_X64[.]zip      |                            无                            | Z009 |
 |  ——————  |       ————————————————————       |   ———————————————    |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
