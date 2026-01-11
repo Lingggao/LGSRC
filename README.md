@@ -141,7 +141,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/1/12 |    hxxps://apps-wps[.]com/download     |     仿冒 WPS、传播病毒      | hxxps://xinjiapox[.]oss-ap-southeast-1[.]aliyuncs[.]com/WPS_Sietup_4725[.]zip |                            无                            | Z044 |
 | 2026/1/12 |       hxxps://off-wps[.]com[.]cn       |     仿冒 WPS、传播病毒      |       hxxps://hjekd8c[.]hoyenoy[.]com/WPS_office[.]zip       |                            无                            | Z045 |
 | 2026/1/12 |       hxxps://wps-wp[.]com[.]cn        |     仿冒 WPS、传播病毒      |       hxxps://hjekd8c[.]hoyenoy[.]com/WPS_office[.]zip       |                            无                            | Z046 |
-| 2026/1/12 |    hxxps://www.[.]cp-wps[.]com[.]cn    |     仿冒 WPS、传播病毒      |       hxxps://www[.]cp-wps[.]com[.]cn/WPS_Setup[.]zip        |                            无                            | Z047 |
+| 2026/1/12 |    hxxps://www[.]cp-wps[.]com[.]cn     |     仿冒 WPS、传播病毒      |       hxxps://www[.]cp-wps[.]com[.]cn/WPS_Setup[.]zip        |                            无                            | Z047 |
 |  ——————   |          ————————————————————          |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
