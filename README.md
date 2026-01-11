@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 1 月 11 日 19:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 1 月 11 日 23:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 1 月 11 日，已打击计算机病毒 / 恶意软件 188 个、恶意网站 42 个**。
+&emsp;&emsp;**截至 2026 年 1 月 11 日，已打击计算机病毒 / 恶意软件 189 个、恶意网站 42 个**。
 
 ---
 
@@ -96,6 +96,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/1/11 |   Nightware_release.dll    |  **Win32/Kepavll!rfn**   | 373f6fc056779d6451b0f5171f7241f569620fef89d54a747c779ad023a204f6 | 30f95f9c-b2eb-4474-918f-9f342d4d4bcf | [VirusTotal](https://www.virustotal.com/gui/file/373f6fc056779d6451b0f5171f7241f569620fef89d54a747c779ad023a204f6) (12) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/373f6fc056779d6451b0f5171f7241f569620fef89d54a747c779ad023a204f6) | A186 |
 | 2026/1/11 |       let-latest.exe       |  **Win32/Malgent!MSR**   | e79763021dfd50d9bd6594ef254479cee81522438718059725e998bedb95649d | edf53130-34fd-4d7b-b75d-c5ec59829b15 | [VirusTotal](https://www.virustotal.com/gui/file/e79763021dfd50d9bd6594ef254479cee81522438718059725e998bedb95649d) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/e79763021dfd50d9bd6594ef254479cee81522438718059725e998bedb95649d) | A187 |
 | 2026/1/11 |      letsvpnSbing.exe      |  **Win64/Malgent!MSR**   | ba3e9f942d19cf6602497b17241249c441ade2d420cc90e43034ff38db4471c5 | edf53130-34fd-4d7b-b75d-c5ec59829b15 | [VirusTotal](https://www.virustotal.com/gui/file/ba3e9f942d19cf6602497b17241249c441ade2d420cc90e43034ff38db4471c5) (21) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/ba3e9f942d19cf6602497b17241249c441ade2d420cc90e43034ff38db4471c5) | A188 |
+| 2026/1/11 |         sogou.exe          |  **Win32/Wacatac.C!ml**  | 8f43636d122c558d88e3ea6cb493d82a7e8aff40cc692171b58861dba0bbb285 | 7f615f78-7dff-4146-8d42-64232cd3a989 | [VirusTotal](https://www.virustotal.com/gui/file/8f43636d122c558d88e3ea6cb493d82a7e8aff40cc692171b58861dba0bbb285) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/8f43636d122c558d88e3ea6cb493d82a7e8aff40cc692171b58861dba0bbb285) | A189 |
 |  ——————   |        ————————————        |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
