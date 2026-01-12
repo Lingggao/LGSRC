@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 1 月 12 日 5:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 1 月 12 日 19:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 1 月 12 日，已打击计算机病毒 / 恶意软件 197 个、恶意网站 47 个**。
+&emsp;&emsp;**截至 2026 年 1 月 12 日，已打击计算机病毒 / 恶意软件 199 个、恶意网站 47 个**。
 
 ---
 
@@ -97,6 +97,8 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/1/12 |       installer2.exe       | **Win32/Wacatac.H!ml**  | c9a756ab2e92496f25123f6be368ed0e00e834b59cb671313541b35d9f58c1e7 | 6ba7eb78-1c32-438c-8d4d-a8a43855e23b | [VirusTotal](https://www.virustotal.com/gui/file/c9a756ab2e92496f25123f6be368ed0e00e834b59cb671313541b35d9f58c1e7) (23) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c9a756ab2e92496f25123f6be368ed0e00e834b59cb671313541b35d9f58c1e7) | A195 |
 | 2026/1/12 |           ma.exe           | **Win32/Wacatac.H!ml**  | 45f02409a587411a0c3411d1a70c75f7eab801e6158efc24b4a0eb464906c816 | 9aaf273e-036e-4239-8d92-57098a9aabb8 | [VirusTotal](https://www.virustotal.com/gui/file/45f02409a587411a0c3411d1a70c75f7eab801e6158efc24b4a0eb464906c816) (10) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/45f02409a587411a0c3411d1a70c75f7eab801e6158efc24b4a0eb464906c816) | A196 |
 | 2026/1/12 |    款式_20251231···.exe    | **Win32/Wacatac.H!ml**  | 2433d08babdaa7ae1d61bfa55913e75d0cafb37a8cdf37703d7caddf4a36d993 | 19572fdd-f4e5-4432-bdb0-4572c3208961 | [VirusTotal](https://www.virustotal.com/gui/file/2433d08babdaa7ae1d61bfa55913e75d0cafb37a8cdf37703d7caddf4a36d993) (27) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/2433d08babdaa7ae1d61bfa55913e75d0cafb37a8cdf37703d7caddf4a36d993) | A197 |
+| 2026/1/12 |          eqsN.exe          |                         | 24d264c5b777a6a199916aa7afa32e92358aa9d13e695035a2b18285facdab0e | a9f4ab0c-47e8-4557-b58f-fd5d29b0488e | [VirusTotal](https://www.virustotal.com/gui/file/24d264c5b777a6a199916aa7afa32e92358aa9d13e695035a2b18285facdab0e) (26) |                                                              | A198 |
+| 2026/1/12 |       chromeX_64.exe       |                         | 11f61b765f5b70c176bae9420d9f2a399a6aff8d38fc9dd3c68fa066f06d1c62 | 2db71973-9cfc-4c4e-8bd5-356e83e5aebc | [VirusTotal](https://www.virustotal.com/gui/file/11f61b765f5b70c176bae9420d9f2a399a6aff8d38fc9dd3c68fa066f06d1c62) (7) |                                                              | A199 |
 |  ——————   |        ————————————        |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
