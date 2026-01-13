@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 1 月 13 日 15:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 1 月 14 日 1:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 1 月 13 日，已打击计算机病毒 / 恶意软件 201 个、恶意网站 47 个**。
+&emsp;&emsp;**截至 2026 年 1 月 14 日，已打击计算机病毒 / 恶意软件 202 个、恶意网站 48 个**。
 
 ---
 
@@ -94,6 +94,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/1/12 |       chromeX_64.exe       |  **Win32/Malgent!MSR**  | 11f61b765f5b70c176bae9420d9f2a399a6aff8d38fc9dd3c68fa066f06d1c62 | 2db71973-9cfc-4c4e-8bd5-356e83e5aebc | [VirusTotal](https://www.virustotal.com/gui/file/11f61b765f5b70c176bae9420d9f2a399a6aff8d38fc9dd3c68fa066f06d1c62) (7) |                              无                              | A199 |
 | 2026/1/13 |   财务部固定资产台账.exe   | **Win32/Wacatac.H!ml**  | 89fab2f1675210d76d997897f14f60b1bfdf73726e96f8aab9203c24cea27460 |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/89fab2f1675210d76d997897f14f60b1bfdf73726e96f8aab9203c24cea27460) (22) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/89fab2f1675210d76d997897f14f60b1bfdf73726e96f8aab9203c24cea27460) | A200 |
 | 2026/1/13 |    RVtools-4.7.0.2.msi     |   **Win32/Vigorf.A**    | ee0f0f2f089ee0594da5750bb4e342c34d703ea045ed80c3b73c81d2f3de8bd4 | 1f736c18-e061-418e-99b5-2776a680b277 | [VirusTotal](https://www.virustotal.com/gui/file/ee0f0f2f089ee0594da5750bb4e342c34d703ea045ed80c3b73c81d2f3de8bd4) (7) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/ee0f0f2f089ee0594da5750bb4e342c34d703ea045ed80c3b73c81d2f3de8bd4) | A201 |
+| 2026/1/13 |     Setup12.2-1208.msi     | **Script/Wacatac.C!ml** | c7d7dfa9d33f18eee6b6459fd39473caeb42dfd5d8f198443935e07d0575b5b9 | 0fc5ae52-43a2-4ce1-8b88-af84be397f18 | [VirusTotal](https://www.virustotal.com/gui/file/c7d7dfa9d33f18eee6b6459fd39473caeb42dfd5d8f198443935e07d0575b5b9) (12) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c7d7dfa9d33f18eee6b6459fd39473caeb42dfd5d8f198443935e07d0575b5b9) | A202 |
 |  ——————   |        ————————————        |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -139,6 +140,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/1/12 |       hxxps://off-wps[.]com[.]cn       |     仿冒 WPS、传播病毒      |       hxxps://hjekd8c[.]hoyenoy[.]com/WPS_office[.]zip       |                            无                            | Z045 |
 | 2026/1/12 |       hxxps://wps-wp[.]com[.]cn        |     仿冒 WPS、传播病毒      |       hxxps://hjekd8c[.]hoyenoy[.]com/WPS_office[.]zip       |                            无                            | Z046 |
 | 2026/1/12 |    hxxps://www[.]cp-wps[.]com[.]cn     |     仿冒 WPS、传播病毒      |       hxxps://www[.]cp-wps[.]com[.]cn/WPS_Setup[.]zip        |                            无                            | Z047 |
+| 2026/1/13 |     hxxps://ing-google[.]com[.]cn      |    仿冒 Chrome、传播病毒    |      hxxps://olekndx[.]hoyenoy[.]com/Setup12[.]2[.]zip       |                            无                            | Z048 |
 |  ——————   |          ————————————————————          |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
