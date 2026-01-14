@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 1 月 14 日 1:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 1 月 14 日 12:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 1 月 14 日，已打击计算机病毒 / 恶意软件 202 个、恶意网站 48 个**。
+&emsp;&emsp;**截至 2026 年 1 月 14 日，已打击计算机病毒 / 恶意软件 205 个、恶意网站 48 个**。
 
 ---
 
@@ -95,6 +95,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/1/13 |   财务部固定资产台账.exe   | **Win32/Wacatac.H!ml**  | 89fab2f1675210d76d997897f14f60b1bfdf73726e96f8aab9203c24cea27460 |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/89fab2f1675210d76d997897f14f60b1bfdf73726e96f8aab9203c24cea27460) (22) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/89fab2f1675210d76d997897f14f60b1bfdf73726e96f8aab9203c24cea27460) | A200 |
 | 2026/1/13 |    RVtools-4.7.0.2.msi     |   **Win32/Vigorf.A**    | ee0f0f2f089ee0594da5750bb4e342c34d703ea045ed80c3b73c81d2f3de8bd4 | 1f736c18-e061-418e-99b5-2776a680b277 | [VirusTotal](https://www.virustotal.com/gui/file/ee0f0f2f089ee0594da5750bb4e342c34d703ea045ed80c3b73c81d2f3de8bd4) (7) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/ee0f0f2f089ee0594da5750bb4e342c34d703ea045ed80c3b73c81d2f3de8bd4) | A201 |
 | 2026/1/13 |     Setup12.2-1208.msi     | **Script/Wacatac.C!ml** | c7d7dfa9d33f18eee6b6459fd39473caeb42dfd5d8f198443935e07d0575b5b9 | 0fc5ae52-43a2-4ce1-8b88-af84be397f18 | [VirusTotal](https://www.virustotal.com/gui/file/c7d7dfa9d33f18eee6b6459fd39473caeb42dfd5d8f198443935e07d0575b5b9) (12) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c7d7dfa9d33f18eee6b6459fd39473caeb42dfd5d8f198443935e07d0575b5b9) | A202 |
+| 2026/1/14 |     精聊思路必看：.bat     |  **Win32/Egairtigado**  | 5b2c762d82cd1a07170719fdd5c5c9a00592ea6164513d9d0642bce84c1221b7 | 1872db7d-2da5-453a-93b3-a6fa38d4a8f8 | [VirusTotal](https://www.virustotal.com/gui/file/5b2c762d82cd1a07170719fdd5c5c9a00592ea6164513d9d0642bce84c1221b7) (41) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5b2c762d82cd1a07170719fdd5c5c9a00592ea6164513d9d0642bce84c1221b7) | A203 |
+| 2026/1/14 |    sogou_pinyin···.exe     |  **Win32/Malgent!MSR**  | 6af981e75f136f051e738f5bc8ec1be42afc24b1b520c1dd5c7a7d603766c678 | 1872db7d-2da5-453a-93b3-a6fa38d4a8f8 | [VirusTotal](https://www.virustotal.com/gui/file/6af981e75f136f051e738f5bc8ec1be42afc24b1b520c1dd5c7a7d603766c678) (15) |                              无                              | A204 |
+| 2026/1/14 |         duilib.dll         |  **Win32/Kepavll!rfn**  | 03c2632bc7ae92e409c063e4f260b1a7199ff6cdd7ba0b0455fd1947afe79b99 | dc4718ab-e7c7-48ad-9353-216f612dd04d | [VirusTotal](https://www.virustotal.com/gui/file/03c2632bc7ae92e409c063e4f260b1a7199ff6cdd7ba0b0455fd1947afe79b99) (45) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/03c2632bc7ae92e409c063e4f260b1a7199ff6cdd7ba0b0455fd1947afe79b99) | A205 |
 |  ——————   |        ————————————        |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
