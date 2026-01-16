@@ -27,6 +27,10 @@
 | 2026/1/6 |        hxxps://isi-cn[.]com         |  仿冒爱思助手、传播病毒  | hxxps://adfsdfsfdfds[.]oss-cn-hongkong[.]aliyuncs.com/i4Tooools_v9548[.]zip |                            无                            | Z015 |
 | 2026/1/6 |         hxxps://zh-i4[.]com         |  仿冒爱思助手、传播病毒  |                              无                              |                            无                            | Z016 |
 | 2026/1/6 | hxxps://www[.]as-zhushou[.]com[.]cn |  仿冒爱思助手、传播病毒  | hxxps://dows[.]v3-quickq[.]com/i4Tools8_v8[.]38_Setup_x64[.]zip |                            无                            | Z017 |
+| 2026/1/6 |  hxxps://www[.]cc-aisi[.]com[.]cn   |  仿冒爱思助手、传播病毒  |   hxxps://anzhuang-cn[.]top/busha/i4/aisiloemzushuI4[.]zip   |                            无                            | Z018 |
+| 2026/1/6 |       hxxps://i4zhushou[.]cn        |  仿冒爱思助手、传播病毒  |                              无                              |                            无                            | Z019 |
+| 2026/1/6 |      hxxps://i4zhus[.]com[.]cn      |  仿冒爱思助手、传播病毒  | hxxps://i4zhus[.]com[.]cn/i4Tools_v9[.]02[.]035_Setup_x64[.]exe |                            无                            | Z020 |
+| 2026/1/6 |  hxxps://i4aisizhushou[.]com[.]cn   |  仿冒爱思助手、传播病毒  | hxxps://ioansos-1373170392[.]cos[.]ap-guangzhou[.]myqcloud[.]com/v9[.]06[.]018_Setup[.]zip |                            无                            | Z021 |
 |  ——————  |        ————————————————————         |     ———————————————      |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---

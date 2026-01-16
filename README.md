@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 1 月 16 日 13:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 1 月 16 日 20:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 1 月 16 日，已打击计算机病毒 / 恶意软件 215 个、恶意网站 48 个**。
+&emsp;&emsp;**截至 2026 年 1 月 16 日，已打击计算机病毒 / 恶意软件 216 个、恶意网站 49 个**。
 
 ---
 
@@ -69,11 +69,6 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 |   日期    |         文件名         |          检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :--------------------: | :---------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/1/11 |       222222.msi       | **Script/Wacatac.C!ml** | 2e6bc16d6ec33fbdcea0dd3cd3787bb2eccd2b3508fefd3f5ea09f172ff0bee4 | da95828c-15e3-4058-b0d1-93050fa11158 | [VirusTotal](https://www.virustotal.com/gui/file/2e6bc16d6ec33fbdcea0dd3cd3787bb2eccd2b3508fefd3f5ea09f172ff0bee4) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/2e6bc16d6ec33fbdcea0dd3cd3787bb2eccd2b3508fefd3f5ea09f172ff0bee4) | A185 |
-| 2026/1/11 | Nightware_release.dll  |  **Win32/Kepavll!rfn**  | 373f6fc056779d6451b0f5171f7241f569620fef89d54a747c779ad023a204f6 | 30f95f9c-b2eb-4474-918f-9f342d4d4bcf | [VirusTotal](https://www.virustotal.com/gui/file/373f6fc056779d6451b0f5171f7241f569620fef89d54a747c779ad023a204f6) (12) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/373f6fc056779d6451b0f5171f7241f569620fef89d54a747c779ad023a204f6) | A186 |
-| 2026/1/11 |     let-latest.exe     |  **Win32/Malgent!MSR**  | e79763021dfd50d9bd6594ef254479cee81522438718059725e998bedb95649d | edf53130-34fd-4d7b-b75d-c5ec59829b15 | [VirusTotal](https://www.virustotal.com/gui/file/e79763021dfd50d9bd6594ef254479cee81522438718059725e998bedb95649d) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/e79763021dfd50d9bd6594ef254479cee81522438718059725e998bedb95649d) | A187 |
-| 2026/1/11 |    letsvpnSbing.exe    |  **Win64/Malgent!MSR**  | ba3e9f942d19cf6602497b17241249c441ade2d420cc90e43034ff38db4471c5 | edf53130-34fd-4d7b-b75d-c5ec59829b15 | [VirusTotal](https://www.virustotal.com/gui/file/ba3e9f942d19cf6602497b17241249c441ade2d420cc90e43034ff38db4471c5) (21) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/ba3e9f942d19cf6602497b17241249c441ade2d420cc90e43034ff38db4471c5) | A188 |
-| 2026/1/11 |       sogou.exe        |  **Win32/Malgent!MSR**  | 8f43636d122c558d88e3ea6cb493d82a7e8aff40cc692171b58861dba0bbb285 | 7f615f78-7dff-4146-8d42-64232cd3a989 | [VirusTotal](https://www.virustotal.com/gui/file/8f43636d122c558d88e3ea6cb493d82a7e8aff40cc692171b58861dba0bbb285) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/8f43636d122c558d88e3ea6cb493d82a7e8aff40cc692171b58861dba0bbb285) | A189 |
 | 2026/1/12 |  vvps-ll-ws.1.2.3.exe  |  **Win32/Malgent!MSR**  | a0537660d4bf981d2f0f39e4caa99a78ae8a59e4f654b1a501adf35c565b5e92 | c0881423-e0e7-4f44-9258-6a84cdab8361 | [VirusTotal](https://www.virustotal.com/gui/file/a0537660d4bf981d2f0f39e4caa99a78ae8a59e4f654b1a501adf35c565b5e92) (5) |                              无                              | A190 |
 | 2026/1/12 |     WPS_office.msi     | **Script/Wacatac.C!ml** | 19b940c0a8600ed1b3d2e93aada7dc4e5327925b20983a5d3cb159f4eba98fb2 | 47aa4c73-5056-49d7-a44f-427d997ce34a | [VirusTotal](https://www.virustotal.com/gui/file/19b940c0a8600ed1b3d2e93aada7dc4e5327925b20983a5d3cb159f4eba98fb2) (3) |                              无                              | A191 |
 | 2026/1/12 |     WPS_Setup.msi      |  **Win32/Malgent!MSR**  | 7ff248e43af6defb6a7e1d38d6440563f711967d920d337d11f1a6362fb28f59 | a6f01060-56e9-4432-9de6-9b765296f041 | [VirusTotal](https://www.virustotal.com/gui/file/7ff248e43af6defb6a7e1d38d6440563f711967d920d337d11f1a6362fb28f59) (8) |                              无                              | A192 |
@@ -100,6 +95,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/1/16 |         1.exe          |  **Win32/Egairtigado**  | 648a2523aa0392033a003d9d9d8e13c67124447b99aedfb319f6644cb59b9d64 | edb8e3c7-53f4-4426-8e7d-51da189fe26a | [VirusTotal](https://www.virustotal.com/gui/file/648a2523aa0392033a003d9d9d8e13c67124447b99aedfb319f6644cb59b9d64) (20) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/648a2523aa0392033a003d9d9d8e13c67124447b99aedfb319f6644cb59b9d64) | A213 |
 | 2026/1/16 |         2.exe          |  **Win32/Egairtigado**  | a53ef8240fc2260ea62ef6a426c04e6333d96517d4d2f91492ab6de81a9eeee6 | edb8e3c7-53f4-4426-8e7d-51da189fe26a | [VirusTotal](https://www.virustotal.com/gui/file/a53ef8240fc2260ea62ef6a426c04e6333d96517d4d2f91492ab6de81a9eeee6) (25) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a53ef8240fc2260ea62ef6a426c04e6333d96517d4d2f91492ab6de81a9eeee6) | A214 |
 | 2026/1/16 |         3.exe          | **Win64/Filecoder!MSR** | da23f2f8f56b914c11beb31d1e3b4d663abf4ecb750554475fab11bf5d0a66b3 | edb8e3c7-53f4-4426-8e7d-51da189fe26a | [VirusTotal](https://www.virustotal.com/gui/file/da23f2f8f56b914c11beb31d1e3b4d663abf4ecb750554475fab11bf5d0a66b3) (27) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/da23f2f8f56b914c11beb31d1e3b4d663abf4ecb750554475fab11bf5d0a66b3) | A215 |
+| 2026/1/16 |    shurufa15.14.msi    |  **Win32/Malgent!MSR**  | 9d9bb9e0f824c4899a90fae437709ad2b48af83b3b7bd634751d772b23e37345 | 81deccf8-7a27-429a-a10c-75dbd796d7ce | [VirusTotal](https://www.virustotal.com/gui/file/9d9bb9e0f824c4899a90fae437709ad2b48af83b3b7bd634751d772b23e37345) (5) |                              无                              | A216 |
 |  ——————   |      ————————————      |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -116,10 +112,6 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 |   日期    |                  URL                   |            类别             |                           有效载荷                           |                         URLhaus                          | 编号 |
 | :-------: | :------------------------------------: | :-------------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
-| 2026/1/6  |    hxxps://www[.]cc-aisi[.]com[.]cn    |   仿冒爱思助手、传播病毒    |   hxxps://anzhuang-cn[.]top/busha/i4/aisiloemzushuI4[.]zip   |                            无                            | Z018 |
-| 2026/1/6  |         hxxps://i4zhushou[.]cn         |   仿冒爱思助手、传播病毒    |                              无                              |                            无                            | Z019 |
-| 2026/1/6  |       hxxps://i4zhus[.]com[.]cn        |   仿冒爱思助手、传播病毒    | hxxps://i4zhus[.]com[.]cn/i4Tools_v9[.]02[.]035_Setup_x64[.]exe |                            无                            | Z020 |
-| 2026/1/6  |    hxxps://i4aisizhushou[.]com[.]cn    |   仿冒爱思助手、传播病毒    | hxxps://ioansos-1373170392[.]cos[.]ap-guangzhou[.]myqcloud[.]com/v9[.]06[.]018_Setup[.]zip |                            无                            | Z021 |
 | 2026/1/6  |       hxxps://www[.]360ccm[.]com       | 仿冒 360 安全卫士、传播病毒 | hxxps://pub-8bf10830d4fa42d3a538fa7b302d55b3[.]r2[.]dev/whtfhtyhg%20(1)[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3751295) | Z022 |
 | 2026/1/6  |       hxxps://xiazaiabcd7[.]cyou       | 仿冒 360 安全卫士、传播病毒 | hxxps://pub-8bf10830d4fa42d3a538fa7b302d55b3[.]r2[.]dev/whtfhtyhg%20(1)[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3751295) | Z023 |
 | 2026/1/6  |      hxxps://webyoudao[.]com[.]cn      |   仿冒有道翻译、传播病毒    |                              无                              |                            无                            | Z024 |
@@ -147,6 +139,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/1/12 |       hxxps://wps-wp[.]com[.]cn        |     仿冒 WPS、传播病毒      |       hxxps://hjekd8c[.]hoyenoy[.]com/WPS_office[.]zip       |                            无                            | Z046 |
 | 2026/1/12 |    hxxps://www[.]cp-wps[.]com[.]cn     |     仿冒 WPS、传播病毒      |       hxxps://www[.]cp-wps[.]com[.]cn/WPS_Setup[.]zip        |                            无                            | Z047 |
 | 2026/1/13 |     hxxps://ing-google[.]com[.]cn      |    仿冒 Chrome、传播病毒    |      hxxps://olekndx[.]hoyenoy[.]com/Setup12[.]2[.]zip       |                            无                            | Z048 |
+| 2026/1/16 |    hxxps://pinyin-sogou[.]com[.]cn     |  仿冒搜狗输入法、传播病毒   |     hxxps://jkemdr[.]hoyenoy[.]com/shurufa15[.]14[.]zip      | [URLhaus Database](https://urlhaus.abuse.ch/url/3758898) | Z049 |
 |  ——————   |          ————————————————————          |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
