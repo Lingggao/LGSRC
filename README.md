@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 1 月 16 日 2:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 1 月 16 日 13:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 1 月 16 日，已打击计算机病毒 / 恶意软件 212 个、恶意网站 48 个**。
+&emsp;&emsp;**截至 2026 年 1 月 16 日，已打击计算机病毒 / 恶意软件 215 个、恶意网站 48 个**。
 
 ---
 
@@ -94,9 +94,12 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/1/14 |   Setup12.2-5267.msi   |  **Win32/Malgent!MSR**  | 4d3c21b0b02ad7664be9df6ed3a85c08be4af8ca7a7ac31dc373a8c09971feca | ed6a3fea-333a-4e16-81d7-8fed2f10a2bf | [VirusTotal](https://www.virustotal.com/gui/file/4d3c21b0b02ad7664be9df6ed3a85c08be4af8ca7a7ac31dc373a8c09971feca) (12) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/4d3c21b0b02ad7664be9df6ed3a85c08be4af8ca7a7ac31dc373a8c09971feca) | A207 |
 | 2026/1/16 |       design.exe       |  **Win32/Malgent!MSR**  | 2ef10f54c2edb27cb8ce2ba8f8c8f9f643618fb05816f559069aa74c5f6b4e6c | 364c1524-bbe9-410d-9411-e67c82354399 | [VirusTotal](https://www.virustotal.com/gui/file/2ef10f54c2edb27cb8ce2ba8f8c8f9f643618fb05816f559069aa74c5f6b4e6c) (9) |                              无                              | A208 |
 | 2026/1/16 |   Setup12.2-4515.msi   |  **Win32/Malgent!MSR**  | 2f9cc5150036a050cb20ce4ed9da99447df1a2e65982ebf962694e562ac39470 | 412fd200-6016-45b9-a488-69195e8d4daa | [VirusTotal](https://www.virustotal.com/gui/file/2f9cc5150036a050cb20ce4ed9da99447df1a2e65982ebf962694e562ac39470) (7) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/2f9cc5150036a050cb20ce4ed9da99447df1a2e65982ebf962694e562ac39470) | A209 |
-| 2026/1/16 |     Installer.msi      |                         | dd44bf8dd431961fd87edcbc709ff334d41b2d5c3986af9832ab932afb4c8104 | c7758fcc-9823-4a95-8ecf-8ab7b17d9fa6 | [VirusTotal](https://www.virustotal.com/gui/file/dd44bf8dd431961fd87edcbc709ff334d41b2d5c3986af9832ab932afb4c8104) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/dd44bf8dd431961fd87edcbc709ff334d41b2d5c3986af9832ab932afb4c8104) | A210 |
-| 2026/1/16 |       Weixin.exe       |                         | 69f720f1caae81d5897244ffbed547e9cb11643a26966c7880973b61df5436a8 | 02558d2c-347c-4041-9bc6-cb0fbde19bb1 | [VirusTotal](https://www.virustotal.com/gui/file/69f720f1caae81d5897244ffbed547e9cb11643a26966c7880973b61df5436a8) (21) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/69f720f1caae81d5897244ffbed547e9cb11643a26966c7880973b61df5436a8) | A211 |
-| 2026/1/16 |       888888.exe       |                         | a92ecd1a211c7114b9309c6706189edcbcf982a261a66d8960befa1fbb73e9b4 | 243e13c6-e272-47d2-8fd9-eaeca5851537 | [VirusTotal](https://www.virustotal.com/gui/file/a92ecd1a211c7114b9309c6706189edcbcf982a261a66d8960befa1fbb73e9b4) (3) |                              无                              | A212 |
+| 2026/1/16 |     Installer.msi      |  **Win32/Malgent!MSR**  | dd44bf8dd431961fd87edcbc709ff334d41b2d5c3986af9832ab932afb4c8104 | c7758fcc-9823-4a95-8ecf-8ab7b17d9fa6 | [VirusTotal](https://www.virustotal.com/gui/file/dd44bf8dd431961fd87edcbc709ff334d41b2d5c3986af9832ab932afb4c8104) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/dd44bf8dd431961fd87edcbc709ff334d41b2d5c3986af9832ab932afb4c8104) | A210 |
+| 2026/1/16 |       Weixin.exe       |  **Win32/Malgent!MSR**  | 69f720f1caae81d5897244ffbed547e9cb11643a26966c7880973b61df5436a8 | 02558d2c-347c-4041-9bc6-cb0fbde19bb1 | [VirusTotal](https://www.virustotal.com/gui/file/69f720f1caae81d5897244ffbed547e9cb11643a26966c7880973b61df5436a8) (21) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/69f720f1caae81d5897244ffbed547e9cb11643a26966c7880973b61df5436a8) | A211 |
+| 2026/1/16 |       888888.exe       |  **Win32/Malgent!MSR**  | a92ecd1a211c7114b9309c6706189edcbcf982a261a66d8960befa1fbb73e9b4 | 243e13c6-e272-47d2-8fd9-eaeca5851537 | [VirusTotal](https://www.virustotal.com/gui/file/a92ecd1a211c7114b9309c6706189edcbcf982a261a66d8960befa1fbb73e9b4) (3) |                              无                              | A212 |
+| 2026/1/16 |         1.exe          |  **Win32/Egairtigado**  | 648a2523aa0392033a003d9d9d8e13c67124447b99aedfb319f6644cb59b9d64 | edb8e3c7-53f4-4426-8e7d-51da189fe26a | [VirusTotal](https://www.virustotal.com/gui/file/648a2523aa0392033a003d9d9d8e13c67124447b99aedfb319f6644cb59b9d64) (20) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/648a2523aa0392033a003d9d9d8e13c67124447b99aedfb319f6644cb59b9d64) | A213 |
+| 2026/1/16 |         2.exe          |  **Win32/Egairtigado**  | a53ef8240fc2260ea62ef6a426c04e6333d96517d4d2f91492ab6de81a9eeee6 | edb8e3c7-53f4-4426-8e7d-51da189fe26a | [VirusTotal](https://www.virustotal.com/gui/file/a53ef8240fc2260ea62ef6a426c04e6333d96517d4d2f91492ab6de81a9eeee6) (25) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a53ef8240fc2260ea62ef6a426c04e6333d96517d4d2f91492ab6de81a9eeee6) | A214 |
+| 2026/1/16 |         3.exe          | **Win64/Filecoder!MSR** | da23f2f8f56b914c11beb31d1e3b4d663abf4ecb750554475fab11bf5d0a66b3 | edb8e3c7-53f4-4426-8e7d-51da189fe26a | [VirusTotal](https://www.virustotal.com/gui/file/da23f2f8f56b914c11beb31d1e3b4d663abf4ecb750554475fab11bf5d0a66b3) (27) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/da23f2f8f56b914c11beb31d1e3b4d663abf4ecb750554475fab11bf5d0a66b3) | A215 |
 |  ——————   |      ————————————      |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -104,6 +107,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 > &emsp;只显示最近 30 条数据，更早数据详见 LGSRC/[Archive_1.md](https://github.com/Lingggao/LGSRC/blob/main/Archive_1.md) (计算机病毒 / 恶意软件归档)。
 
 ---
+
 【**恶意网站**】
 
 > [!CAUTION]
