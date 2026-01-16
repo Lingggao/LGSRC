@@ -57,7 +57,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 &emsp;&emsp;上次更新时间：2026 年 1 月 17 日 7:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 1 月 17 日，已打击计算机病毒 / 恶意软件 222 个、恶意网站 55 个**。
+&emsp;&emsp;**截至 2026 年 1 月 17 日，已打击计算机病毒 / 恶意软件 222 个、恶意网站 57 个**。
 
 ---
 
@@ -111,39 +111,36 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 >
 > &emsp;为确保安全，网站地址将用 “hxxps://” 与 “[.]” 进行替换。**切勿尝试访问表格中列出的任何网址**。
 
-|   日期    |                  URL                   |           类别           |                           有效载荷                           |                         URLhaus                          | 编号 |
-| :-------: | :------------------------------------: | :----------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
-| 2026/1/6  |     hxxps://apps-youdao[.]com[.]cn     |  仿冒有道翻译、传播病毒  | hxxps://hk-vip-oss-20251231[.]oss-cn-hongkong[.]aliyuncs[.]com/0106/YoudaoDict__X64[.]5[.]8[.]2[.]exe |                            无                            | Z026 |
-| 2026/1/6  |    hxxps://fanyi-youdao[.]com[.]cn     |  仿冒有道翻译、传播病毒  | hxxps://hk-vip-oss-20251231[.]oss-cn-hongkong[.]aliyuncs[.]com/0106/YoudaoDict__X64[.]5[.]8[.]2[.]exe |                            无                            | Z027 |
-| 2026/1/6  |     hxxps://www[.]cp-youdao[.]com      |  仿冒有道翻译、传播病毒  |                              无                              |                            无                            | Z028 |
-| 2026/1/9  |    hxxps://pinyin-sogou[.]com[.]cn     | 仿冒搜狗输入法、传播病毒 |     hxxps://jkemdr[.]hoyenoy[.]com/shurufa15[.]12[.]zip      | [URLhaus Database](https://urlhaus.abuse.ch/url/3753789) | Z029 |
-| 2026/1/9  | hxxps://sougoupinyin-cn[.]com/download | 仿冒搜狗输入法、传播病毒 |                              无                              |                            无                            | Z030 |
-| 2026/1/9  |         hxxps://ai-sogou[.]com         | 仿冒搜狗输入法、传播病毒 | hxxps://apps-sogou[.]com/downloads/windows/SsogSgooun[.]guanwang[.]1[.]5[.]8[.]exe | [URLhaus Database](https://urlhaus.abuse.ch/url/3753788) | Z031 |
-| 2026/1/9  | hxxps://sogoushurufa-sogou[.]com[.]cn  | 仿冒搜狗输入法、传播病毒 |     hxxps://jkemdr[.]hoyenoy[.]com/shurufa15[.]12[.]zip      | [URLhaus Database](https://urlhaus.abuse.ch/url/3753789) | Z032 |
-| 2026/1/9  |        hxxps://pc-sougous[.]com        | 仿冒搜狗输入法、传播病毒 |                              无                              |                            无                            | Z033 |
-| 2026/1/9  | hxxps://zhcn-sougoushurufa[.]com[.]cn  | 仿冒搜狗输入法、传播病毒 |                              无                              |                            无                            | Z034 |
-| 2026/1/9  |       hxxps://cnzh-sougou[.]com        | 仿冒搜狗输入法、传播病毒 |     hxxps://jkemdr[.]hoyenoy[.]com/shurufa15[.]12[.]zip      | [URLhaus Database](https://urlhaus.abuse.ch/url/3753789) | Z035 |
-| 2026/1/9  |       hxxps://shouji-sogou[.]com       | 仿冒搜狗输入法、传播病毒 | hxxps://apps-sogou[.]com/downloads/windows/SsogSgooun[.]guanwang[.]1[.]5[.]8[.]exe | [URLhaus Database](https://urlhaus.abuse.ch/url/3753788) | Z036 |
-| 2026/1/10 |     hxxps://www[.]app-teams[.]com      |   仿冒 Teams、传播病毒   | hxxps://xinjuiogh[.]oss-cn-hongkong[.]aliyuncs[.]com/MSTea%D1%87msSetup[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3754717) | Z037 |
-| 2026/1/10 |      hxxps://teams-app[.]com[.]cn      |   仿冒 Teams、传播病毒   |        hxxps://lkejxfss[.]hoyenoy[.]com/MSTeams[.]zip        | [URLhaus Database](https://urlhaus.abuse.ch/url/3754716) | Z038 |
-| 2026/1/10 |      hxxps://www[.]teamscn[.]com       |   仿冒 Teams、传播病毒   | hxxps://xinjuiogh[.]oss-cn-hongkong[.]aliyuncs[.]com/MSTea%D1%87msSetup[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3754717) | Z039 |
-| 2026/1/11 |  hxxps://www[.]zh-letsvpn[.]com[.]cn   |  借助 VPN 工具传播病毒   | hxxps://lmf2110[.]oss-ap-southeast-1[.]aliyuncs.com/letsvpnSbing[.]zip |                            无                            | Z040 |
-| 2026/1/11 |  hxxps://www[.]nf-letsvpn[.]com[.]cn   |  借助 VPN 工具传播病毒   |                              无                              |                            无                            | Z041 |
-| 2026/1/11 |      hxxps://www[.]lets-vpn[.]dev      |  借助 VPN 工具传播病毒   | hxxps://www[.]kuaipan[.]org/download_share[.]php?code=6p9K3B8T6lejg3BX&download=1 |                            无                            | Z042 |
-| 2026/1/12 |       hxxps://desktop-wps[.]com        |    仿冒 WPS、传播病毒    | hxxps://desktop-wps[.]com/downloads/windows/vvps-ll-ws[.]1[.]2[.]3[.]exe |                            无                            | Z043 |
-| 2026/1/12 |    hxxps://apps-wps[.]com/download     |    仿冒 WPS、传播病毒    | hxxps://xinjiapox[.]oss-ap-southeast-1[.]aliyuncs[.]com/WPS_Sietup_4725[.]zip |                            无                            | Z044 |
-| 2026/1/12 |       hxxps://off-wps[.]com[.]cn       |    仿冒 WPS、传播病毒    |       hxxps://hjekd8c[.]hoyenoy[.]com/WPS_office[.]zip       |                            无                            | Z045 |
-| 2026/1/12 |       hxxps://wps-wp[.]com[.]cn        |    仿冒 WPS、传播病毒    |       hxxps://hjekd8c[.]hoyenoy[.]com/WPS_office[.]zip       |                            无                            | Z046 |
-| 2026/1/12 |    hxxps://www[.]cp-wps[.]com[.]cn     |    仿冒 WPS、传播病毒    |       hxxps://www[.]cp-wps[.]com[.]cn/WPS_Setup[.]zip        |                            无                            | Z047 |
-| 2026/1/13 |     hxxps://ing-google[.]com[.]cn      |  仿冒 Chrome、传播病毒   |      hxxps://olekndx[.]hoyenoy[.]com/Setup12[.]2[.]zip       |                            无                            | Z048 |
-| 2026/1/16 |    hxxps://pinyin-sogou[.]com[.]cn     | 仿冒搜狗输入法、传播病毒 |     hxxps://jkemdr[.]hoyenoy[.]com/shurufa15[.]14[.]zip      | [URLhaus Database](https://urlhaus.abuse.ch/url/3758898) | Z049 |
-| 2026/1/16 |       hxxps://pp-wps[.]com[.]cn        |    仿冒 WPS、传播病毒    | hxxps://1998qwertyuiasdg-1998[.]s3[.]ap-southeast-1[.]amazonaws[.]com/wps_Version_Ikhtdnler-2026[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3759111) | Z050 |
-| 2026/1/16 |       hxxps://com-wps[.]com[.]cn       |    仿冒 WPS、传播病毒    | hxxps://da05-1382952907[.]cos[.]ap-singapore[.]myqcloud[.]com/WPS_Setup_17147[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3759112) | Z051 |
-| 2026/1/16 |    hxxps://zh-wpsoffice[.]com[.]cn     |    仿冒 WPS、传播病毒    | hxxps://da05-1382952907[.]cos[.]ap-singapore[.]myqcloud[.]com/WPS_Setup_17147[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3759112) | Z052 |
-| 2026/1/16 |    hxxps://www[.]wps-download[.]im     |    仿冒 WPS、传播病毒    |                              无                              |                            无                            | Z053 |
-| 2026/1/17 |      hxxps://wt-google[.]com[.]cn      |  仿冒 Chrome、传播病毒   | hxxps://1227dwon[.]s3[.]ap-east-1[.]amazonaws[.]com/Ggllqying[.]zip |                            无                            | Z054 |
-| 2026/1/17 |       hxxps://clash-x[.]com[.]cn       |  借助 VPN 工具传播病毒   | hxxps://clash[.]services/wp-content/uploads/2025/clash/Clash[.]Verge_2[.]4[.]2_x64-setup_unsigned[.]zip |                            无                            | Z055 |
-|  ——————   |          ————————————————————          |     ———————————————      |                ——————————————————————————————                |                        ——————————                        | ———  |
+|   日期    |                  URL                  |           类别           |                           有效载荷                           |                         URLhaus                          | 编号 |
+| :-------: | :-----------------------------------: | :----------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
+| 2026/1/9  |        hxxps://ai-sogou[.]com         | 仿冒搜狗输入法、传播病毒 | hxxps://apps-sogou[.]com/downloads/windows/SsogSgooun[.]guanwang[.]1[.]5[.]8[.]exe | [URLhaus Database](https://urlhaus.abuse.ch/url/3753788) | Z031 |
+| 2026/1/9  | hxxps://sogoushurufa-sogou[.]com[.]cn | 仿冒搜狗输入法、传播病毒 |     hxxps://jkemdr[.]hoyenoy[.]com/shurufa15[.]12[.]zip      | [URLhaus Database](https://urlhaus.abuse.ch/url/3753789) | Z032 |
+| 2026/1/9  |       hxxps://pc-sougous[.]com        | 仿冒搜狗输入法、传播病毒 |                              无                              |                            无                            | Z033 |
+| 2026/1/9  | hxxps://zhcn-sougoushurufa[.]com[.]cn | 仿冒搜狗输入法、传播病毒 |                              无                              |                            无                            | Z034 |
+| 2026/1/9  |       hxxps://cnzh-sougou[.]com       | 仿冒搜狗输入法、传播病毒 |     hxxps://jkemdr[.]hoyenoy[.]com/shurufa15[.]12[.]zip      | [URLhaus Database](https://urlhaus.abuse.ch/url/3753789) | Z035 |
+| 2026/1/9  |      hxxps://shouji-sogou[.]com       | 仿冒搜狗输入法、传播病毒 | hxxps://apps-sogou[.]com/downloads/windows/SsogSgooun[.]guanwang[.]1[.]5[.]8[.]exe | [URLhaus Database](https://urlhaus.abuse.ch/url/3753788) | Z036 |
+| 2026/1/10 |     hxxps://www[.]app-teams[.]com     |   仿冒 Teams、传播病毒   | hxxps://xinjuiogh[.]oss-cn-hongkong[.]aliyuncs[.]com/MSTea%D1%87msSetup[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3754717) | Z037 |
+| 2026/1/10 |     hxxps://teams-app[.]com[.]cn      |   仿冒 Teams、传播病毒   |        hxxps://lkejxfss[.]hoyenoy[.]com/MSTeams[.]zip        | [URLhaus Database](https://urlhaus.abuse.ch/url/3754716) | Z038 |
+| 2026/1/10 |      hxxps://www[.]teamscn[.]com      |   仿冒 Teams、传播病毒   | hxxps://xinjuiogh[.]oss-cn-hongkong[.]aliyuncs[.]com/MSTea%D1%87msSetup[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3754717) | Z039 |
+| 2026/1/11 |  hxxps://www[.]zh-letsvpn[.]com[.]cn  |  借助 VPN 工具传播病毒   | hxxps://lmf2110[.]oss-ap-southeast-1[.]aliyuncs.com/letsvpnSbing[.]zip |                            无                            | Z040 |
+| 2026/1/11 |  hxxps://www[.]nf-letsvpn[.]com[.]cn  |  借助 VPN 工具传播病毒   |                              无                              |                            无                            | Z041 |
+| 2026/1/11 |     hxxps://www[.]lets-vpn[.]dev      |  借助 VPN 工具传播病毒   | hxxps://www[.]kuaipan[.]org/download_share[.]php?code=6p9K3B8T6lejg3BX&download=1 |                            无                            | Z042 |
+| 2026/1/12 |       hxxps://desktop-wps[.]com       |    仿冒 WPS、传播病毒    | hxxps://desktop-wps[.]com/downloads/windows/vvps-ll-ws[.]1[.]2[.]3[.]exe |                            无                            | Z043 |
+| 2026/1/12 |    hxxps://apps-wps[.]com/download    |    仿冒 WPS、传播病毒    | hxxps://xinjiapox[.]oss-ap-southeast-1[.]aliyuncs[.]com/WPS_Sietup_4725[.]zip |                            无                            | Z044 |
+| 2026/1/12 |      hxxps://off-wps[.]com[.]cn       |    仿冒 WPS、传播病毒    |       hxxps://hjekd8c[.]hoyenoy[.]com/WPS_office[.]zip       |                            无                            | Z045 |
+| 2026/1/12 |       hxxps://wps-wp[.]com[.]cn       |    仿冒 WPS、传播病毒    |       hxxps://hjekd8c[.]hoyenoy[.]com/WPS_office[.]zip       |                            无                            | Z046 |
+| 2026/1/12 |    hxxps://www[.]cp-wps[.]com[.]cn    |    仿冒 WPS、传播病毒    |       hxxps://www[.]cp-wps[.]com[.]cn/WPS_Setup[.]zip        |                            无                            | Z047 |
+| 2026/1/13 |     hxxps://ing-google[.]com[.]cn     |  仿冒 Chrome、传播病毒   |      hxxps://olekndx[.]hoyenoy[.]com/Setup12[.]2[.]zip       |                            无                            | Z048 |
+| 2026/1/16 |    hxxps://pinyin-sogou[.]com[.]cn    | 仿冒搜狗输入法、传播病毒 |     hxxps://jkemdr[.]hoyenoy[.]com/shurufa15[.]14[.]zip      | [URLhaus Database](https://urlhaus.abuse.ch/url/3758898) | Z049 |
+| 2026/1/16 |       hxxps://pp-wps[.]com[.]cn       |    仿冒 WPS、传播病毒    | hxxps://1998qwertyuiasdg-1998[.]s3[.]ap-southeast-1[.]amazonaws[.]com/wps_Version_Ikhtdnler-2026[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3759111) | Z050 |
+| 2026/1/16 |      hxxps://com-wps[.]com[.]cn       |    仿冒 WPS、传播病毒    | hxxps://da05-1382952907[.]cos[.]ap-singapore[.]myqcloud[.]com/WPS_Setup_17147[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3759112) | Z051 |
+| 2026/1/16 |    hxxps://zh-wpsoffice[.]com[.]cn    |    仿冒 WPS、传播病毒    | hxxps://da05-1382952907[.]cos[.]ap-singapore[.]myqcloud[.]com/WPS_Setup_17147[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3759112) | Z052 |
+| 2026/1/16 |    hxxps://www[.]wps-download[.]im    |    仿冒 WPS、传播病毒    |                              无                              |                            无                            | Z053 |
+| 2026/1/17 |     hxxps://wt-google[.]com[.]cn      |  仿冒 Chrome、传播病毒   | hxxps://1227dwon[.]s3[.]ap-east-1[.]amazonaws[.]com/Ggllqying[.]zip |                            无                            | Z054 |
+| 2026/1/17 |      hxxps://clash-x[.]com[.]cn       |  借助 VPN 工具传播病毒   | hxxps://clash[.]services/wp-content/uploads/2025/clash/Clash[.]Verge_2[.]4[.]2_x64-setup_unsigned[.]zip |                            无                            | Z055 |
+| 2026/1/17 |      hxxps://www[.]teamszs[.]com      |   仿冒 Teams、传播病毒   | hxxps://pub-1205925ec8c44035930d0869c38d3340[.]r2[.]dev/TVGS-9[.]6n8[.]zip |                            无                            | Z056 |
+| 2026/1/17 |      hxxps://www[.]teamszv[.]com      |   仿冒 Teams、传播病毒   |                              无                              |                            无                            | Z057 |
+|  ——————   |         ————————————————————          |     ———————————————      |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
 >
