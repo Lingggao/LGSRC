@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 1 月 18 日 6:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 1 月 19 日 4:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 1 月 18 日，已打击计算机病毒 / 恶意软件 231 个、恶意网站 57 个**。
+&emsp;&emsp;**截至 2026 年 1 月 19 日，已打击计算机病毒 / 恶意软件 235 个、恶意网站 57 个**。
 
 ---
 
@@ -93,6 +93,10 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/1/18 |         Wxl.exe          |  **Win32/Malgent!MSR**  | ed9059122624ae557738d80af15bcee9e68b8e6b779f15cc317777bc62435229 | c12b451b-e184-4ec0-b0a4-153f8ebcccbc | [VirusTotal](https://www.virustotal.com/gui/file/ed9059122624ae557738d80af15bcee9e68b8e6b779f15cc317777bc62435229) (6) |                              无                              | A229 |
 | 2026/1/18 | ···第四季度现金流···.exe |  **Win32/Malgent!MSR**  | 5e217d93abdbbcf93d8f2106a72d67a3642a9df28f5a705be7ec6b9955aa62bb | e592673f-7fb9-4814-9df5-7d1cd1bcafb9 | [VirusTotal](https://www.virustotal.com/gui/file/5e217d93abdbbcf93d8f2106a72d67a3642a9df28f5a705be7ec6b9955aa62bb) (22) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5e217d93abdbbcf93d8f2106a72d67a3642a9df28f5a705be7ec6b9955aa62bb) | A230 |
 | 2026/1/18 |     vue2迁移工具.exe     |   **Win32/Wacapew.C**   | e871a6faeb2baa0b10e657a7d0b02f2d669cdc03ba83cf7f4b2095d229ecf0d3 | d82d2701-7a21-420b-b01d-95d406dc1820 | [VirusTotal](https://www.virustotal.com/gui/file/e871a6faeb2baa0b10e657a7d0b02f2d669cdc03ba83cf7f4b2095d229ecf0d3) (27) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/e871a6faeb2baa0b10e657a7d0b02f2d669cdc03ba83cf7f4b2095d229ecf0d3) | A231 |
+| 2026/1/19 |    free_phonecall.exe    |  **Win32/Malgent!MSR**  | 43600a3a48b27af5a0eeead5357aba0a541585a54040d071a7f3a94188b9994d | 22c6279c-47bd-414f-9b4f-5cba20214196 | [VirusTotal](https://www.virustotal.com/gui/file/43600a3a48b27af5a0eeead5357aba0a541585a54040d071a7f3a94188b9994d) (17) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/43600a3a48b27af5a0eeead5357aba0a541585a54040d071a7f3a94188b9994d) | A232 |
+| 2026/1/19 |       BQTLock.exe        |   **BQTLock.MG!MTB**    | 3857744a651da4e431083180798041a5e888b09334a1a04c2c047216f471b0f6 | 695def5d-a477-4d26-a554-97472de2a17a | [VirusTotal](https://www.virustotal.com/gui/file/3857744a651da4e431083180798041a5e888b09334a1a04c2c047216f471b0f6) (26) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/3857744a651da4e431083180798041a5e888b09334a1a04c2c047216f471b0f6) | A233 |
+| 2026/1/19 | 公司冬日饮品订购···.exe  |  **Win32/Malgent!MSR**  | 74145543209fc59628929934407d4c889e643c9cb90162cc5709b526c515df09 | 6d215f37-de9c-435e-80f3-1b24e0de2f9c | [VirusTotal](https://www.virustotal.com/gui/file/74145543209fc59628929934407d4c889e643c9cb90162cc5709b526c515df09) (31) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/74145543209fc59628929934407d4c889e643c9cb90162cc5709b526c515df09) | A234 |
+| 2026/1/19 |   dingtalk···xч64.exe    |  **Win32/Malgent!MSR**  | 94410509bb5ff92426768ce7bb5b85f85680e556cc2563ebc37776b092710a6e | 89c6bf29-6838-4350-a2f0-45ad261d3836 | [VirusTotal](https://www.virustotal.com/gui/file/94410509bb5ff92426768ce7bb5b85f85680e556cc2563ebc37776b092710a6e) (39) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/94410509bb5ff92426768ce7bb5b85f85680e556cc2563ebc37776b092710a6e) | A235 |
 |  ——————   |       ————————————       |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
