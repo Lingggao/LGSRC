@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 1 月 19 日 10:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 1 月 19 日 19:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 1 月 19 日，已打击计算机病毒 / 恶意软件 237 个、恶意网站 57 个**。
+&emsp;&emsp;**截至 2026 年 1 月 19 日，已打击计算机病毒 / 恶意软件 240 个、恶意网站 57 个**。
 
 ---
 
@@ -91,6 +91,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/1/19 |   dingtalk···xч64.exe    | **Win32/Malgent!MSR** | 94410509bb5ff92426768ce7bb5b85f85680e556cc2563ebc37776b092710a6e | 89c6bf29-6838-4350-a2f0-45ad261d3836 | [VirusTotal](https://www.virustotal.com/gui/file/94410509bb5ff92426768ce7bb5b85f85680e556cc2563ebc37776b092710a6e) (39) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/94410509bb5ff92426768ce7bb5b85f85680e556cc2563ebc37776b092710a6e) | A235 |
 | 2026/1/19 |      output_64.exe       |  **Farfli.LMA!MTB**   | ffd02254edd6096f29de1cb946c79d621c553ff39b61ae4270a9e997b3818d8c | e4eaa456-ec88-4ccd-be4a-da25cabfe944 | [VirusTotal](https://www.virustotal.com/gui/file/ffd02254edd6096f29de1cb946c79d621c553ff39b61ae4270a9e997b3818d8c) (38) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/ffd02254edd6096f29de1cb946c79d621c553ff39b61ae4270a9e997b3818d8c) | A236 |
 | 2026/1/19 |    64位安装包···.exe     | **Win32/Malgent!MSR** | 019e0ded6cc8e5524f78fed06f17c3ac00222b5c0204a6ce2691a2775699846e | 7f7671a4-073e-482a-b84a-cbfb8b544cc7 | [VirusTotal](https://www.virustotal.com/gui/file/019e0ded6cc8e5524f78fed06f17c3ac00222b5c0204a6ce2691a2775699846e) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/019e0ded6cc8e5524f78fed06f17c3ac00222b5c0204a6ce2691a2775699846e) | A237 |
+| 2026/1/19 |      O-lib2.4.2.exe      | **Win32/Malgent!MSR** | 80199ca7e84bcda6b9c669bd2466ca65da0278668d13e861af41119bfc1f9722 | a79ab1a2-6347-48da-89c4-8973119e04c5 | [VirusTotal](https://www.virustotal.com/gui/file/80199ca7e84bcda6b9c669bd2466ca65da0278668d13e861af41119bfc1f9722) (14) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/80199ca7e84bcda6b9c669bd2466ca65da0278668d13e861af41119bfc1f9722) | A238 |
+| 2026/1/19 |      O-lib2.4.3.exe      | **Win32/Malgent!MSR** | 2d5d64823d83a1334ab64b37dcd02e9f07bf565b59ed8eea3b22094235b65cd9 | a79ab1a2-6347-48da-89c4-8973119e04c5 | [VirusTotal](https://www.virustotal.com/gui/file/2d5d64823d83a1334ab64b37dcd02e9f07bf565b59ed8eea3b22094235b65cd9) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/2d5d64823d83a1334ab64b37dcd02e9f07bf565b59ed8eea3b22094235b65cd9) | A239 |
+| 2026/1/19 |      O-lib2.4.4.exe      | **Win64/Malgent!MSR** | 3ddcdf98390d2786d67835f333aa86524f5b826a9b6fde596fa33d0b782dc1e7 | a79ab1a2-6347-48da-89c4-8973119e04c5 | [VirusTotal](https://www.virustotal.com/gui/file/3ddcdf98390d2786d67835f333aa86524f5b826a9b6fde596fa33d0b782dc1e7) (8) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/3ddcdf98390d2786d67835f333aa86524f5b826a9b6fde596fa33d0b782dc1e7) | A240 |
 |  ——————   |       ————————————       |     ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
