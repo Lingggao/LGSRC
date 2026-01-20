@@ -40,6 +40,12 @@
 | 2026/1/6 |     hxxps://www[.]cp-youdao[.]com      |   仿冒有道翻译、传播病毒    |                              无                              |                            无                            | Z028 |
 | 2026/1/9 |    hxxps://pinyin-sogou[.]com[.]cn     |  仿冒搜狗输入法、传播病毒   |     hxxps://jkemdr[.]hoyenoy[.]com/shurufa15[.]12[.]zip      | [URLhaus Database](https://urlhaus.abuse.ch/url/3753789) | Z029 |
 | 2026/1/9 | hxxps://sougoupinyin-cn[.]com/download |  仿冒搜狗输入法、传播病毒   |                              无                              |                            无                            | Z030 |
+| 2026/1/9 |         hxxps://ai-sogou[.]com         |  仿冒搜狗输入法、传播病毒   | hxxps://apps-sogou[.]com/downloads/windows/SsogSgooun[.]guanwang[.]1[.]5[.]8[.]exe | [URLhaus Database](https://urlhaus.abuse.ch/url/3753788) | Z031 |
+| 2026/1/9 | hxxps://sogoushurufa-sogou[.]com[.]cn  |  仿冒搜狗输入法、传播病毒   |     hxxps://jkemdr[.]hoyenoy[.]com/shurufa15[.]12[.]zip      | [URLhaus Database](https://urlhaus.abuse.ch/url/3753789) | Z032 |
+| 2026/1/9 |        hxxps://pc-sougous[.]com        |  仿冒搜狗输入法、传播病毒   |                              无                              |                            无                            | Z033 |
+| 2026/1/9 | hxxps://zhcn-sougoushurufa[.]com[.]cn  |  仿冒搜狗输入法、传播病毒   |                              无                              |                            无                            | Z034 |
+| 2026/1/9 |       hxxps://cnzh-sougou[.]com        |  仿冒搜狗输入法、传播病毒   |     hxxps://jkemdr[.]hoyenoy[.]com/shurufa15[.]12[.]zip      | [URLhaus Database](https://urlhaus.abuse.ch/url/3753789) | Z035 |
+| 2026/1/9 |       hxxps://shouji-sogou[.]com       |  仿冒搜狗输入法、传播病毒   | hxxps://apps-sogou[.]com/downloads/windows/SsogSgooun[.]guanwang[.]1[.]5[.]8[.]exe | [URLhaus Database](https://urlhaus.abuse.ch/url/3753788) | Z036 |
 |  ——————  |          ————————————————————          |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
