@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 1 月 21 日 18:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 1 月 21 日 23:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 1 月 21 日，已打击计算机病毒 / 恶意软件 253 个、恶意网站 64 个**。
+&emsp;&emsp;**截至 2026 年 1 月 21 日，已打击计算机病毒 / 恶意软件 255 个、恶意网站 64 个**。
 
 ---
 
@@ -93,6 +93,8 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/1/20 |   ToDesk···1.7.79.exe    |  **Win32/Kepavll!rfn**  | d73a990f91da52c1cd4def63643b10f2ca6dcc81607bc3db2975c720b3ece615 | 22a96fd5-f7b4-4de3-8af7-87b02087affb | [VirusTotal](https://www.virustotal.com/gui/file/d73a990f91da52c1cd4def63643b10f2ca6dcc81607bc3db2975c720b3ece615) (27) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/d73a990f91da52c1cd4def63643b10f2ca6dcc81607bc3db2975c720b3ece615) | A251 |
 | 2026/1/21 |          1.exe           |  **Win32/Malgent!MSR**  | 0b9c98d0df580bc39ce95df98163130d5b0a2473949ca707e866dd81a954a6e0 | 2f1a3e47-d1f3-4621-9baa-dd8f34bcaf98 | [VirusTotal](https://www.virustotal.com/gui/file/0b9c98d0df580bc39ce95df98163130d5b0a2473949ca707e866dd81a954a6e0) (44) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/0b9c98d0df580bc39ce95df98163130d5b0a2473949ca707e866dd81a954a6e0) | A252 |
 | 2026/1/21 |          2.exe           |  **Win32/Malgent!MSR**  | 1f1fb029233f92304e7df029cb69c35ebbc26d7e79ed609298c9ea27f312b222 | 2f1a3e47-d1f3-4621-9baa-dd8f34bcaf98 | [VirusTotal](https://www.virustotal.com/gui/file/1f1fb029233f92304e7df029cb69c35ebbc26d7e79ed609298c9ea27f312b222) (46) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/1f1fb029233f92304e7df029cb69c35ebbc26d7e79ed609298c9ea27f312b222) | A253 |
+| 2026/1/21 |      Chrome-x64.exe      |  **Win32/Malgent!MSR**  | 3eddb698899eb7ed1e868dec9ce76097dc03109388e259117dd82fab00eb2677 | 01d13b75-089c-43f0-aa03-16e025517164 | [VirusTotal](https://www.virustotal.com/gui/file/3eddb698899eb7ed1e868dec9ce76097dc03109388e259117dd82fab00eb2677) (22) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/3eddb698899eb7ed1e868dec9ce76097dc03109388e259117dd82fab00eb2677) | A254 |
+| 2026/1/21 | 设备管理部春节值班表.exe |  **Win32/Egairtigado**  | c0ce4d44b991347e886ce00435f646ac23db470461dbdabb88ab044f60c50f75 | 471442bc-2a73-4440-82ba-1b6b0517ea30 | [VirusTotal](https://www.virustotal.com/gui/file/c0ce4d44b991347e886ce00435f646ac23db470461dbdabb88ab044f60c50f75) (26) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c0ce4d44b991347e886ce00435f646ac23db470461dbdabb88ab044f60c50f75) | A255 |
 |  ——————   |       ————————————       |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
