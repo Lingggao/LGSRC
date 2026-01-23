@@ -59,6 +59,10 @@
 | 2026/1/12 |    hxxps://www[.]cp-wps[.]com[.]cn     |     仿冒 WPS、传播病毒      |       hxxps://www[.]cp-wps[.]com[.]cn/WPS_Setup[.]zip        |                            无                            | Z047 |
 | 2026/1/13 |     hxxps://ing-google[.]com[.]cn      |    仿冒 Chrome、传播病毒    |      hxxps://olekndx[.]hoyenoy[.]com/Setup12[.]2[.]zip       |                            无                            | Z048 |
 | 2026/1/16 |    hxxps://pinyin-sogou[.]com[.]cn     |  仿冒搜狗输入法、传播病毒   |     hxxps://jkemdr[.]hoyenoy[.]com/shurufa15[.]14[.]zip      | [URLhaus Database](https://urlhaus.abuse.ch/url/3758898) | Z049 |
+| 2026/1/16 |       hxxps://pp-wps[.]com[.]cn        |     仿冒 WPS、传播病毒      | hxxps://1998qwertyuiasdg-1998[.]s3[.]ap-southeast-1[.]amazonaws[.]com/wps_Version_Ikhtdnler-2026[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3759111) | Z050 |
+| 2026/1/16 |       hxxps://com-wps[.]com[.]cn       |     仿冒 WPS、传播病毒      | hxxps://da05-1382952907[.]cos[.]ap-singapore[.]myqcloud[.]com/WPS_Setup_17147[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3759112) | Z051 |
+| 2026/1/16 |    hxxps://zh-wpsoffice[.]com[.]cn     |     仿冒 WPS、传播病毒      | hxxps://da05-1382952907[.]cos[.]ap-singapore[.]myqcloud[.]com/WPS_Setup_17147[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3759112) | Z052 |
+| 2026/1/16 |    hxxps://www[.]wps-download[.]im     |     仿冒 WPS、传播病毒      |                              无                              |                            无                            | Z053 |
 |  ——————   |          ————————————————————          |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
