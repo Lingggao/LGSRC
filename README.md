@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 1 月 24 日 7:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 1 月 25 日 7:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 1 月 24 日，已打击计算机病毒 / 恶意软件 274 个、恶意网站 79 个**。
+&emsp;&emsp;**截至 2026 年 1 月 25 日，已打击计算机病毒 / 恶意软件 275 个、恶意网站 79 个**。
 
 ---
 
@@ -92,6 +92,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/1/24 |      Loiu9s361.exe       | **Win32/Malgent!MSR** | 1ca1366b9ab077a719e9249b1b42d0e279ca477fb501fa8ec001ab38b502c8c9 | 5ad0456c-7c08-4146-9b62-7023bb3f6784 | [VirusTotal](https://www.virustotal.com/gui/file/1ca1366b9ab077a719e9249b1b42d0e279ca477fb501fa8ec001ab38b502c8c9) (10) |                              无                              | A272 |
 | 2026/1/24 |       tsgx12.3.exe       | **Win32/Malgent!MSR** | e5294bcaa5736f15c3c6a574ea1e26647eb6f0cedf40831e1fdcfddc6d112854 | 23ea1251-af69-43a2-b99c-63546e7d0d53 | [VirusTotal](https://www.virustotal.com/gui/file/e5294bcaa5736f15c3c6a574ea1e26647eb6f0cedf40831e1fdcfddc6d112854) (16) |                              无                              | A273 |
 | 2026/1/24 |      Yghs1.3.6.exe       | **Win32/Malgent!MSR** | f254de5f7655c316fd1ff60d65ade2f1950bd96b7468ab55260f6f4c23e22f79 | e05984d4-9fae-4c53-90b2-22d0a734e7c9 | [VirusTotal](https://www.virustotal.com/gui/file/f254de5f7655c316fd1ff60d65ade2f1950bd96b7468ab55260f6f4c23e22f79) (12) |                              无                              | A274 |
+| 2026/1/25 |         bsod.exe         | **Win32/Malgent!MSR** | 6e39e74c75072a5ef5533a429c2803278ed1704e84f966acbad405be49b977f0 | 085ab8a9-18ef-408d-8262-a3d3d43e88d2 | [VirusTotal](https://www.virustotal.com/gui/file/6e39e74c75072a5ef5533a429c2803278ed1704e84f966acbad405be49b977f0) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/6e39e74c75072a5ef5533a429c2803278ed1704e84f966acbad405be49b977f0) | A275 |
 |  ——————   |       ————————————       |     ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -130,10 +131,10 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/1/22 |    hxxps://mj-google[.]com[.]cn    | 仿冒 Chrome、传播病毒  |      hxxps://olekndx[.]hoyenoy[.]com/google12[.]3[.]zip      | [URLhaus Database](https://urlhaus.abuse.ch/url/3761835) | Z073 |
 | 2026/1/22 |   hxxps://bing-google[.]com[.]cn   | 仿冒 Chrome、传播病毒  |                              无                              |                            无                            | Z074 |
 | 2026/1/24 |      hxxps://huorong-cn[.]com      |        仿冒火绒        |                              无                              |                            无                            | Z075 |
-| 2026/1/24 |    hxxps://www[.]teamsqs[.]com     |  仿冒 Teams、传播病毒  | hxxps://pub-40f0bc7019cc4cc4af33b722c6d5f182[.]r2[.]dev/tsgx12[.]3[.]rar |                            无                            | Z076 |
-| 2026/1/24 |    hxxps://www[.]gmailpc[.]com     |  仿冒 Gmail、传播病毒  | hxxps://pub-74506ace261846d4bfc80d45a1f06b40[.]r2[.]dev/GTRF19[.]3-6[.]rar |                            无                            | Z077 |
-| 2026/1/24 |    hxxps://www[.]lineopc[.]com     |  仿冒 LINE、传播病毒   | hxxps://pub-f3a5f16c0d0b45eab9e2e6a05a61d733[.]r2[.]dev/Loiu9s361[.]rar |                            无                            | Z078 |
-| 2026/1/24 |   hxxps://www[.]googleyzq1[.]com   | 仿冒 Google 身份验证器 | hxxps://pub-1ec812ea405b44f9976acd137f20fe96[.]r2[.]dev/Yghs1[.]3[.]6[.]rar |                            无                            | Z079 |
+| 2026/1/24 |    hxxps://www[.]teamsqs[.]com     |  仿冒 Teams、传播病毒  | hxxps://pub-40f0bc7019cc4cc4af33b722c6d5f182[.]r2[.]dev/tsgx12[.]3[.]rar | [URLhaus Database](https://urlhaus.abuse.ch/url/3762965) | Z076 |
+| 2026/1/24 |    hxxps://www[.]gmailpc[.]com     |  仿冒 Gmail、传播病毒  | hxxps://pub-74506ace261846d4bfc80d45a1f06b40[.]r2[.]dev/GTRF19[.]3-6[.]rar | [URLhaus Database](https://urlhaus.abuse.ch/url/3762967) | Z077 |
+| 2026/1/24 |    hxxps://www[.]lineopc[.]com     |  仿冒 LINE、传播病毒   | hxxps://pub-f3a5f16c0d0b45eab9e2e6a05a61d733[.]r2[.]dev/Loiu9s361[.]rar | [URLhaus Database](https://urlhaus.abuse.ch/url/3762959) | Z078 |
+| 2026/1/24 |   hxxps://www[.]googleyzq1[.]com   | 仿冒 Google 身份验证器 | hxxps://pub-1ec812ea405b44f9976acd137f20fe96[.]r2[.]dev/Yghs1[.]3[.]6[.]rar | [URLhaus Database](https://urlhaus.abuse.ch/url/3762966) | Z079 |
 |  ——————   |        ————————————————————        |    ———————————————     |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
