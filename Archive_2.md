@@ -63,6 +63,12 @@
 | 2026/1/16 |       hxxps://com-wps[.]com[.]cn       |     仿冒 WPS、传播病毒      | hxxps://da05-1382952907[.]cos[.]ap-singapore[.]myqcloud[.]com/WPS_Setup_17147[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3759112) | Z051 |
 | 2026/1/16 |    hxxps://zh-wpsoffice[.]com[.]cn     |     仿冒 WPS、传播病毒      | hxxps://da05-1382952907[.]cos[.]ap-singapore[.]myqcloud[.]com/WPS_Setup_17147[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3759112) | Z052 |
 | 2026/1/16 |    hxxps://www[.]wps-download[.]im     |     仿冒 WPS、传播病毒      |                              无                              |                            无                            | Z053 |
+| 2026/1/17 |      hxxps://wt-google[.]com[.]cn      |    仿冒 Chrome、传播病毒    | hxxps://1227dwon[.]s3[.]ap-east-1[.]amazonaws[.]com/Ggllqying[.]zip |                            无                            | Z054 |
+| 2026/1/17 |       hxxps://clash-x[.]com[.]cn       |    借助 VPN 工具传播病毒    | hxxps://clash[.]services/wp-content/uploads/2025/clash/Clash[.]Verge_2[.]4[.]2_x64-setup_unsigned[.]zip |                            无                            | Z055 |
+| 2026/1/17 |      hxxps://www[.]teamszs[.]com       |    仿冒 Teams、传播病毒     | hxxps://pub-1205925ec8c44035930d0869c38d3340[.]r2[.]dev/TVGS-9[.]6n8[.]zip |                            无                            | Z056 |
+| 2026/1/17 |      hxxps://www[.]teamszv[.]com       |    仿冒 Teams、传播病毒     |                              无                              |                            无                            | Z057 |
+| 2026/1/20 |     hxxps://www[.]to-desktop[.]com     |    仿冒 ToDesk、传播病毒    |                              无                              |                            无                            | Z058 |
+| 2026/1/20 |      hxxps://www[.]todeska[.]com       |    仿冒 ToDesk、传播病毒    | hxxps://pub-d57956a6ad284a3ea9a0112e6e0c4896[.]r2[.]dev/Sghmwidaniegv[.]zip |                            无                            | Z059 |
 |  ——————   |          ————————————————————          |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
