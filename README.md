@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 1 月 26 日 16:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 1 月 26 日 19:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 1 月 26 日，已打击计算机病毒 / 恶意软件 285 个、恶意网站 84 个**。
+&emsp;&emsp;**截至 2026 年 1 月 26 日，已打击计算机病毒 / 恶意软件 286 个、恶意网站 84 个**。
 
 ---
 
@@ -93,6 +93,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/1/26 |          2.exe          | **Win64/Malgent!MSR**  | a7509fd1e80e98bd45c58def8e8613e1c5565112c4edfcbedbe7a8c66a2885e9 | b52543e0-5091-4d1b-893f-21aaea4fe2bd | [VirusTotal](https://www.virustotal.com/gui/file/a7509fd1e80e98bd45c58def8e8613e1c5565112c4edfcbedbe7a8c66a2885e9) (36) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a7509fd1e80e98bd45c58def8e8613e1c5565112c4edfcbedbe7a8c66a2885e9) | A283 |
 | 2026/1/26 |          3.exe          | **Win32/Egairtigado**  | da63f8707cd02ecaa06dfed830753d5c96e116df2c4d210dcb8078d9b98b8b14 | b52543e0-5091-4d1b-893f-21aaea4fe2bd | [VirusTotal](https://www.virustotal.com/gui/file/da63f8707cd02ecaa06dfed830753d5c96e116df2c4d210dcb8078d9b98b8b14) (21) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/da63f8707cd02ecaa06dfed830753d5c96e116df2c4d210dcb8078d9b98b8b14) | A284 |
 | 2026/1/26 |        nvml.dll         | **Convagent.ARR!MTB**  | cc65b1a34ae54b9931783769522a11f5270a23e3223fe8b8008ceacde4bd3693 | 8bdf91b6-9863-4729-932f-83a888a9bdd1 | [VirusTotal](https://www.virustotal.com/gui/file/cc65b1a34ae54b9931783769522a11f5270a23e3223fe8b8008ceacde4bd3693) (36) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/cc65b1a34ae54b9931783769522a11f5270a23e3223fe8b8008ceacde4bd3693) | A285 |
+| 2026/1/26 |       Chrome.exe        | **Win32/Malgent!MSR**  | 067eea08254905f05f4adc1a4a1201a0401e691cc14a17751209ff5bfcae92b0 | 7f279fa8-b167-4bae-8240-6b830ca1b312 | [VirusTotal](https://www.virustotal.com/gui/file/067eea08254905f05f4adc1a4a1201a0401e691cc14a17751209ff5bfcae92b0) (12) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/067eea08254905f05f4adc1a4a1201a0401e691cc14a17751209ff5bfcae92b0) | A286 |
 |  ——————   |      ————————————       |      ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
