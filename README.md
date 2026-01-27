@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 1 月 27 日 20:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 1 月 28 日 6:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 1 月 27 日，已打击计算机病毒 / 恶意软件 292 个、恶意网站 84 个**。
+&emsp;&emsp;**截至 2026 年 1 月 28 日，已打击计算机病毒 / 恶意软件 295 个、恶意网站 84 个**。
 
 ---
 
@@ -69,9 +69,6 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 |   日期    |        文件名         |          检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :-------------------: | :---------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/1/24 |  youdaofanyi08.4.exe  |  **Win32/Malgent!MSR**  | 466503eaf866d60de346c9451452e910d99529ff35b87e5734aed5c41c7b79b9 | 03ba7539-ad83-4cbb-803a-65cc94cc7887 | [VirusTotal](https://www.virustotal.com/gui/file/466503eaf866d60de346c9451452e910d99529ff35b87e5734aed5c41c7b79b9) (7) |                              无                              | A269 |
-| 2026/1/24 |   打砖块小游戏.exe    |  **Win32/Malgent!MSR**  | 10b01d2bd5db60cf1d67e4269910c4e8a80ae6b4ed9443a49c37be63b49d70f7 | 382db139-70da-4fa5-b6bb-fe6d48e99164 | [VirusTotal](https://www.virustotal.com/gui/file/10b01d2bd5db60cf1d67e4269910c4e8a80ae6b4ed9443a49c37be63b49d70f7) (24) |                              无                              | A270 |
-| 2026/1/24 |    GTRF19.3-6.exe     |  **Win32/Malgent!MSR**  | e9555dbf4cad2b2a1e3f483f1f3ff689b91b6206aac23e6bb663b6f4bf300202 | 214c485e-5892-46b8-9944-607f7934ef3d | [VirusTotal](https://www.virustotal.com/gui/file/e9555dbf4cad2b2a1e3f483f1f3ff689b91b6206aac23e6bb663b6f4bf300202) (8) |                              无                              | A271 |
 | 2026/1/24 |     Loiu9s361.exe     |  **Win32/Malgent!MSR**  | 1ca1366b9ab077a719e9249b1b42d0e279ca477fb501fa8ec001ab38b502c8c9 | 5ad0456c-7c08-4146-9b62-7023bb3f6784 | [VirusTotal](https://www.virustotal.com/gui/file/1ca1366b9ab077a719e9249b1b42d0e279ca477fb501fa8ec001ab38b502c8c9) (10) |                              无                              | A272 |
 | 2026/1/24 |     tsgx12.3.exe      |  **Win32/Malgent!MSR**  | e5294bcaa5736f15c3c6a574ea1e26647eb6f0cedf40831e1fdcfddc6d112854 | 23ea1251-af69-43a2-b99c-63546e7d0d53 | [VirusTotal](https://www.virustotal.com/gui/file/e5294bcaa5736f15c3c6a574ea1e26647eb6f0cedf40831e1fdcfddc6d112854) (16) |                              无                              | A273 |
 | 2026/1/24 |     Yghs1.3.6.exe     |  **Win32/Malgent!MSR**  | f254de5f7655c316fd1ff60d65ade2f1950bd96b7468ab55260f6f4c23e22f79 | e05984d4-9fae-4c53-90b2-22d0a734e7c9 | [VirusTotal](https://www.virustotal.com/gui/file/f254de5f7655c316fd1ff60d65ade2f1950bd96b7468ab55260f6f4c23e22f79) (12) |                              无                              | A274 |
@@ -93,6 +90,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/1/27 |  绑定谷歌浏览器.exe   |  **Win32/Malgent!MSR**  | b02ddf5a7b67e793d054f47fb6d88a527f987ff532fc612d7ec62f169d02eef2 | d033dc05-8180-415e-a0cd-33822e8eac8a | [VirusTotal](https://www.virustotal.com/gui/file/b02ddf5a7b67e793d054f47fb6d88a527f987ff532fc612d7ec62f169d02eef2) (10) |                              无                              | A290 |
 | 2026/1/27 |         1.exe         |  **GhostRat.CKD!MTB**   | 84aa32d0c5eb678f62ba0c24d6f39ed9b61acf261a89ddaa1fb3d9ca392b1231 | f6a380e5-e9d5-43a9-b53c-4093cc73b874 | [VirusTotal](https://www.virustotal.com/gui/file/84aa32d0c5eb678f62ba0c24d6f39ed9b61acf261a89ddaa1fb3d9ca392b1231) (60) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/84aa32d0c5eb678f62ba0c24d6f39ed9b61acf261a89ddaa1fb3d9ca392b1231) | A291 |
 | 2026/1/27 |      HRSword.exe      |  **Win32/Malgent!MSR**  | 65fbe7f58f0ebd08771be05db480cc107d35a764880d4480fe97a551f527d3f2 | 405a1fe2-4a49-489e-a11a-acc78c6aaa06 | [VirusTotal](https://www.virustotal.com/gui/file/65fbe7f58f0ebd08771be05db480cc107d35a764880d4480fe97a551f527d3f2) (39) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/65fbe7f58f0ebd08771be05db480cc107d35a764880d4480fe97a551f527d3f2) | A292 |
+| 2026/1/28 |      555555.exe       |         研究中          | eaa6d596464acc10b8e9cd5ead58622d9a0a77499e3acab7de007afe763de296 | 36c637d7-7fd5-43a4-a2e5-eeea0f6c0359 | [VirusTotal](https://www.virustotal.com/gui/file/eaa6d596464acc10b8e9cd5ead58622d9a0a77499e3acab7de007afe763de296) (17) |                              无                              | A293 |
+| 2026/1/28 |         1.hta         |         研究中          | f6d2b11f93752076548705305a83bdc2766454ba7fb55a5457562c76cc1103b2 | b44412f1-40a2-4261-801a-5d93940218f2 | [VirusTotal](https://www.virustotal.com/gui/file/f6d2b11f93752076548705305a83bdc2766454ba7fb55a5457562c76cc1103b2) (4) |                  [MalwareBazaar Database]()                  | A294 |
+| 2026/1/28 |         2.exe         |         研究中          | 63854ecb06e7ce9f7525e275481b38ed2456d63e975a05fee233be59b4c62191 | 9c148bb1-358a-4c06-a3ae-7df35b1972a0 | [VirusTotal](https://www.virustotal.com/gui/file/63854ecb06e7ce9f7525e275481b38ed2456d63e975a05fee233be59b4c62191) (7) |                  [MalwareBazaar Database]()                  | A295 |
 |  ——————   |     ————————————      |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
