@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 1 月 27 日 10:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 1 月 27 日 20:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 1 月 27 日，已打击计算机病毒 / 恶意软件 289 个、恶意网站 84 个**。
+&emsp;&emsp;**截至 2026 年 1 月 27 日，已打击计算机病毒 / 恶意软件 292 个、恶意网站 84 个**。
 
 ---
 
@@ -69,10 +69,6 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 |   日期    |        文件名         |          检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :-------------------: | :---------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/1/24 |       urPty.rar       |  **Win64/Malgent!MSR**  | 7ebec64b37ea3d9e00a5ed90720535ec11f76522d7fb0f4420c9e87e3e6bc6a6 | 8f330e51-1554-48e9-bec3-12d3173f0b6b | [VirusTotal](https://www.virustotal.com/gui/file/7ebec64b37ea3d9e00a5ed90720535ec11f76522d7fb0f4420c9e87e3e6bc6a6) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/7ebec64b37ea3d9e00a5ed90720535ec11f76522d7fb0f4420c9e87e3e6bc6a6) | A265 |
-| 2026/1/24 |  letsvpn-latest.exe   |  **Win32/Kepavll!rfn**  | c7dafdf4837af753545e6bc68fe019d7db3aab6165aa6c73eacc179908224ec0 | 43d6d70f-e559-45ab-9499-8f430a4949fa | [VirusTotal](https://www.virustotal.com/gui/file/c7dafdf4837af753545e6bc68fe019d7db3aab6165aa6c73eacc179908224ec0) (10) |                              无                              | A266 |
-| 2026/1/24 |  ···youdao_inrez.exe  |  **Win32/Malgent!MSR**  | fe0eb0ce37e97f0708483f499799a311f0549c60a94d9ebe53f1530514739ca0 | 37a33248-0c3b-4307-b6f8-0587ef40df1a | [VirusTotal](https://www.virustotal.com/gui/file/fe0eb0ce37e97f0708483f499799a311f0549c60a94d9ebe53f1530514739ca0) (10) |                              无                              | A267 |
-| 2026/1/24 |  telegarmStex3.0.exe  |  **Win64/Malgent!MSR**  | 7ee804102a7156dc5fc20f87b1b0f4db7b27e895a94e95b276b9147f5996ff56 | 82063725-33ed-4036-8ffd-9a90484a28d2 | [VirusTotal](https://www.virustotal.com/gui/file/7ee804102a7156dc5fc20f87b1b0f4db7b27e895a94e95b276b9147f5996ff56) (15) |                              无                              | A268 |
 | 2026/1/24 |  youdaofanyi08.4.exe  |  **Win32/Malgent!MSR**  | 466503eaf866d60de346c9451452e910d99529ff35b87e5734aed5c41c7b79b9 | 03ba7539-ad83-4cbb-803a-65cc94cc7887 | [VirusTotal](https://www.virustotal.com/gui/file/466503eaf866d60de346c9451452e910d99529ff35b87e5734aed5c41c7b79b9) (7) |                              无                              | A269 |
 | 2026/1/24 |   打砖块小游戏.exe    |  **Win32/Malgent!MSR**  | 10b01d2bd5db60cf1d67e4269910c4e8a80ae6b4ed9443a49c37be63b49d70f7 | 382db139-70da-4fa5-b6bb-fe6d48e99164 | [VirusTotal](https://www.virustotal.com/gui/file/10b01d2bd5db60cf1d67e4269910c4e8a80ae6b4ed9443a49c37be63b49d70f7) (24) |                              无                              | A270 |
 | 2026/1/24 |    GTRF19.3-6.exe     |  **Win32/Malgent!MSR**  | e9555dbf4cad2b2a1e3f483f1f3ff689b91b6206aac23e6bb663b6f4bf300202 | 214c485e-5892-46b8-9944-607f7934ef3d | [VirusTotal](https://www.virustotal.com/gui/file/e9555dbf4cad2b2a1e3f483f1f3ff689b91b6206aac23e6bb663b6f4bf300202) (8) |                              无                              | A271 |
@@ -94,6 +90,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/1/27 |     f61752d0.exe      |  **Win32/Malgent!MSR**  | f61752d079c9738bb3df4c0126cd54633342636969ac355ce81db57ea4aec876 | 71c269f8-693a-44b8-8c55-6880b2203c31 | [VirusTotal](https://www.virustotal.com/gui/file/f61752d079c9738bb3df4c0126cd54633342636969ac355ce81db57ea4aec876) (8) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/f61752d079c9738bb3df4c0126cd54633342636969ac355ce81db57ea4aec876) | A287 |
 | 2026/1/27 |         init          | **Linux/CoinMiner!MSR** | 8ae786bad6b2a17a392520ad1d0a1fcdafa899802c866c38f9228f3205b80de9 | f9611a4f-5667-4c48-bcc0-552c3786e615 | [VirusTotal](https://www.virustotal.com/gui/file/8ae786bad6b2a17a392520ad1d0a1fcdafa899802c866c38f9228f3205b80de9) (8) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/8ae786bad6b2a17a392520ad1d0a1fcdafa899802c866c38f9228f3205b80de9) | A288 |
 | 2026/1/27 |         mysql         | **Linux/CoinMiner.C12** | c5e5e41f88f91e4e2ad524fae156bb74efe86e97ce84701b3e7f3a252fdb82ab | f9611a4f-5667-4c48-bcc0-552c3786e615 | [VirusTotal](https://www.virustotal.com/gui/file/c5e5e41f88f91e4e2ad524fae156bb74efe86e97ce84701b3e7f3a252fdb82ab) (35) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c5e5e41f88f91e4e2ad524fae156bb74efe86e97ce84701b3e7f3a252fdb82ab) | A289 |
+| 2026/1/27 |  绑定谷歌浏览器.exe   |  **Win32/Malgent!MSR**  | b02ddf5a7b67e793d054f47fb6d88a527f987ff532fc612d7ec62f169d02eef2 | d033dc05-8180-415e-a0cd-33822e8eac8a | [VirusTotal](https://www.virustotal.com/gui/file/b02ddf5a7b67e793d054f47fb6d88a527f987ff532fc612d7ec62f169d02eef2) (10) |                              无                              | A290 |
+| 2026/1/27 |         1.exe         |  **GhostRat.CKD!MTB**   | 84aa32d0c5eb678f62ba0c24d6f39ed9b61acf261a89ddaa1fb3d9ca392b1231 | f6a380e5-e9d5-43a9-b53c-4093cc73b874 | [VirusTotal](https://www.virustotal.com/gui/file/84aa32d0c5eb678f62ba0c24d6f39ed9b61acf261a89ddaa1fb3d9ca392b1231) (60) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/84aa32d0c5eb678f62ba0c24d6f39ed9b61acf261a89ddaa1fb3d9ca392b1231) | A291 |
+| 2026/1/27 |      HRSword.exe      |  **Win32/Malgent!MSR**  | 65fbe7f58f0ebd08771be05db480cc107d35a764880d4480fe97a551f527d3f2 | 405a1fe2-4a49-489e-a11a-acc78c6aaa06 | [VirusTotal](https://www.virustotal.com/gui/file/65fbe7f58f0ebd08771be05db480cc107d35a764880d4480fe97a551f527d3f2) (39) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/65fbe7f58f0ebd08771be05db480cc107d35a764880d4480fe97a551f527d3f2) | A292 |
 |  ——————   |     ————————————      |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
