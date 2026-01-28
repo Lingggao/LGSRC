@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 1 月 28 日 16:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 1 月 28 日 20:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 1 月 28 日，已打击计算机病毒 / 恶意软件 296 个、恶意网站 84 个**。
+&emsp;&emsp;**截至 2026 年 1 月 28 日，已打击计算机病毒 / 恶意软件 298 个、恶意网站 89 个**。
 
 ---
 
@@ -69,9 +69,6 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 |   日期    |         文件名          |          检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :---------------------: | :---------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/1/24 |      Loiu9s361.exe      |  **Win32/Malgent!MSR**  | 1ca1366b9ab077a719e9249b1b42d0e279ca477fb501fa8ec001ab38b502c8c9 | 5ad0456c-7c08-4146-9b62-7023bb3f6784 | [VirusTotal](https://www.virustotal.com/gui/file/1ca1366b9ab077a719e9249b1b42d0e279ca477fb501fa8ec001ab38b502c8c9) (10) |                              无                              | A272 |
-| 2026/1/24 |      tsgx12.3.exe       |  **Win32/Malgent!MSR**  | e5294bcaa5736f15c3c6a574ea1e26647eb6f0cedf40831e1fdcfddc6d112854 | 23ea1251-af69-43a2-b99c-63546e7d0d53 | [VirusTotal](https://www.virustotal.com/gui/file/e5294bcaa5736f15c3c6a574ea1e26647eb6f0cedf40831e1fdcfddc6d112854) (16) |                              无                              | A273 |
-| 2026/1/24 |      Yghs1.3.6.exe      |  **Win32/Malgent!MSR**  | f254de5f7655c316fd1ff60d65ade2f1950bd96b7468ab55260f6f4c23e22f79 | e05984d4-9fae-4c53-90b2-22d0a734e7c9 | [VirusTotal](https://www.virustotal.com/gui/file/f254de5f7655c316fd1ff60d65ade2f1950bd96b7468ab55260f6f4c23e22f79) (12) |                              无                              | A274 |
 | 2026/1/25 |        bsod.exe         |  **Win32/Malgent!MSR**  | 6e39e74c75072a5ef5533a429c2803278ed1704e84f966acbad405be49b977f0 | 085ab8a9-18ef-408d-8262-a3d3d43e88d2 | [VirusTotal](https://www.virustotal.com/gui/file/6e39e74c75072a5ef5533a429c2803278ed1704e84f966acbad405be49b977f0) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/6e39e74c75072a5ef5533a429c2803278ed1704e84f966acbad405be49b977f0) | A275 |
 | 2026/1/26 |   gou_pinyin15.4.msi    |   **Downloader!MSR**    | 1ee71fd14f85fe669ee4deb530b3269877cf0a2ee43e386c897a5e227aecff07 | 03da3034-5b52-4309-923c-9bbe1ab19205 | [VirusTotal](https://www.virustotal.com/gui/file/1ee71fd14f85fe669ee4deb530b3269877cf0a2ee43e386c897a5e227aecff07) (4) |                              无                              | A276 |
 | 2026/1/26 |    LWPSFW-FWF···.msi    |  **Win32/Malgent!MSR**  | 5335ec120a873c4469a9c0ba64a733affc0634c57eb4738b17e652150918c22e | 214fd7e2-ba39-4862-bdf3-70a945cd5943 | [VirusTotal](https://www.virustotal.com/gui/file/5335ec120a873c4469a9c0ba64a733affc0634c57eb4738b17e652150918c22e) (3) |                              无                              | A277 |
@@ -94,6 +91,8 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/1/28 |          1.hta          |   **JS/Malgent!MSR**    | f6d2b11f93752076548705305a83bdc2766454ba7fb55a5457562c76cc1103b2 | b44412f1-40a2-4261-801a-5d93940218f2 | [VirusTotal](https://www.virustotal.com/gui/file/f6d2b11f93752076548705305a83bdc2766454ba7fb55a5457562c76cc1103b2) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/f6d2b11f93752076548705305a83bdc2766454ba7fb55a5457562c76cc1103b2) | A294 |
 | 2026/1/28 |          2.exe          |  **Win32/Malgent!MSR**  | 63854ecb06e7ce9f7525e275481b38ed2456d63e975a05fee233be59b4c62191 | 9c148bb1-358a-4c06-a3ae-7df35b1972a0 | [VirusTotal](https://www.virustotal.com/gui/file/63854ecb06e7ce9f7525e275481b38ed2456d63e975a05fee233be59b4c62191) (7) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/63854ecb06e7ce9f7525e275481b38ed2456d63e975a05fee233be59b4c62191) | A295 |
 | 2026/1/28 | image_2026-01-23···.exe |  **Win64/Malgent!MSR**  | 3bd237be22b35f2e662c6c2add6aaf3f5847a07a1030d64776b9239cc5073fdf | 105f4e1a-b746-49ee-a379-e009fb803c83 | [VirusTotal](https://www.virustotal.com/gui/file/3bd237be22b35f2e662c6c2add6aaf3f5847a07a1030d64776b9239cc5073fdf) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/3bd237be22b35f2e662c6c2add6aaf3f5847a07a1030d64776b9239cc5073fdf) | A296 |
+| 2026/1/28 |     Sqveiqrg···.exe     |  **Win32/Malgent!MSR**  | bfdfce4bc5804ea9226cb7e30d8ede532a908f83cdb43d2c677e284d704d5d8b | 6d748887-2a1f-4dfb-8063-d69fc13b37de | [VirusTotal](https://www.virustotal.com/gui/file/bfdfce4bc5804ea9226cb7e30d8ede532a908f83cdb43d2c677e284d704d5d8b) (3) |                              无                              | A297 |
+| 2026/1/28 |    win32-Todesk.msi     |         研究中          | bb31ee4dc3b8f54694796f481b73a2afade02756688d0f71cdae2cf30170cda1 | 244b4a07-0332-4dcd-8dc5-04e5903bb7c6 | [VirusTotal](https://www.virustotal.com/gui/file/bb31ee4dc3b8f54694796f481b73a2afade02756688d0f71cdae2cf30170cda1) (6) |                              无                              | A298 |
 |  ——————   |      ————————————       |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -110,11 +109,6 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 |   日期    |                 URL                 |          类别          |                           有效载荷                           |                         URLhaus                          | 编号 |
 | :-------: | :---------------------------------: | :--------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
-| 2026/1/20 |     hxxps://todeskpc[.]com[.]cn     | 仿冒 ToDesk、传播病毒  | hxxps://todesk-cn[.]oss-cn-hongkong[.]aliyuncs[.]com/ToDesklets-stup1[.]7[.]79[.]zip |                            无                            | Z060 |
-| 2026/1/20 |        hxxps://todesk[.]app         | 仿冒 ToDesk、传播病毒  | hxxps://2026kk[.]oss-cn-hongkong[.]aliyuncs[.]com/ToDesk_4[.]8[.]1[.]2[.]zip |                            无                            | Z061 |
-| 2026/1/20 |    hxxps://www[.]todesk-cn[.]cn     | 仿冒 ToDesk、传播病毒  |                              无                              |                            无                            | Z062 |
-| 2026/1/20 |    hxxps://www[.]zh-todesk[.]com    | 仿冒 ToDesk、传播病毒  |                              无                              |                            无                            | Z063 |
-| 2026/1/20 |       hxxps://toamndkf[.]cyou       | 仿冒 ToDesk、传播病毒  | hxxps://pub-d57956a6ad284a3ea9a0112e6e0c4896[.]r2[.]dev/Sghmwidaniegv[.]zip |                            无                            | Z064 |
 | 2026/1/22 |  hxxps://chroome-google[.]com[.]cn  | 仿冒 Chrome、传播病毒  |                              无                              |                            无                            | Z065 |
 | 2026/1/22 |    hxxps://dd-google[.]com[.]cn     | 仿冒 Chrome、传播病毒  | hxxps://chrome[.]download-google-chrome[.]top/download/Chromeab-x64[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3761834) | Z066 |
 | 2026/1/22 |    hxxps://sf-google[.]com[.]cn     | 仿冒 Chrome、传播病毒  | hxxps://googdownload[.]googcdngoogleownload[.]top/google/download/Chrome[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3761832) | Z067 |
@@ -135,6 +129,11 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/1/26 |     hxxps://pc[.]wps-offce[.]cn     |   仿冒 WPS、传播病毒   | hxxps://wps03[.]oss-cn-hongkong[.]aliyuncs[.]com/WPS_Setup_17147_4[.]1[.]zip |                            无                            | Z082 |
 | 2026/1/26 |      hxxps://of-wps[.]com[.]cn      |   仿冒 WPS、传播病毒   |     hxxps://jkem45[.]gcdndo[.]com/gou_pinyin15[.]4[.]zip     |                            无                            | Z083 |
 | 2026/1/26 |      hxxps://i-wps[.]com[.]cn       |   仿冒 WPS、传播病毒   | hxxps://sgnfyn[.]oss-cn-shenzhen[.]aliyuncs[.]com/wps-setup1[.]8[.]6[.]18[.]zip |                            无                            | Z084 |
+| 2026/1/28 |     hxxps://www[.]to-desk[.]cn      | 仿冒 ToDesk、传播病毒  |                              无                              |                            无                            | Z085 |
+| 2026/1/28 |     hxxps://www[.]todeska[.]com     | 仿冒 ToDesk、传播病毒  | hxxps://pub-8f57965f8599440e97ac52dbcca4fc58[.]r2[.]dev/Sqveiqrgbuniasncoigenr[.]zip |                            无                            | Z086 |
+| 2026/1/28 |     hxxps://www[.]todeski[.]com     | 仿冒 ToDesk、传播病毒  | hxxps://pub-8f57965f8599440e97ac52dbcca4fc58[.]r2[.]dev/Sqveiqrgbuniasncoigenr[.]zip |                            无                            | Z087 |
+| 2026/1/28 |    hxxps://zh-todesk[.]com[.]cn     | 仿冒 ToDesk、传播病毒  |                              有                              |                            无                            | Z088 |
+| 2026/1/28 |       hxxps://toamndkf[.]cyou       | 仿冒 ToDesk、传播病毒  | hxxps://pub-8f57965f8599440e97ac52dbcca4fc58[.]r2[.]dev/Sqveiqrgbuniasncoigenr[.]zip |                            无                            | Z089 |
 |  ——————   |        ————————————————————         |    ———————————————     |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]

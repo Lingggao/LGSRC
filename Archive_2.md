@@ -69,6 +69,11 @@
 | 2026/1/17 |      hxxps://www[.]teamszv[.]com       |    仿冒 Teams、传播病毒     |                              无                              |                            无                            | Z057 |
 | 2026/1/20 |     hxxps://www[.]to-desktop[.]com     |    仿冒 ToDesk、传播病毒    |                              无                              |                            无                            | Z058 |
 | 2026/1/20 |      hxxps://www[.]todeska[.]com       |    仿冒 ToDesk、传播病毒    | hxxps://pub-d57956a6ad284a3ea9a0112e6e0c4896[.]r2[.]dev/Sghmwidaniegv[.]zip |                            无                            | Z059 |
+| 2026/1/20 |      hxxps://todeskpc[.]com[.]cn       |    仿冒 ToDesk、传播病毒    | hxxps://todesk-cn[.]oss-cn-hongkong[.]aliyuncs[.]com/ToDesklets-stup1[.]7[.]79[.]zip |                            无                            | Z060 |
+| 2026/1/20 |          hxxps://todesk[.]app          |    仿冒 ToDesk、传播病毒    | hxxps://2026kk[.]oss-cn-hongkong[.]aliyuncs[.]com/ToDesk_4[.]8[.]1[.]2[.]zip |                            无                            | Z061 |
+| 2026/1/20 |      hxxps://www[.]todesk-cn[.]cn      |    仿冒 ToDesk、传播病毒    |                              无                              |                            无                            | Z062 |
+| 2026/1/20 |     hxxps://www[.]zh-todesk[.]com      |    仿冒 ToDesk、传播病毒    |                              无                              |                            无                            | Z063 |
+| 2026/1/20 |        hxxps://toamndkf[.]cyou         |    仿冒 ToDesk、传播病毒    | hxxps://pub-d57956a6ad284a3ea9a0112e6e0c4896[.]r2[.]dev/Sghmwidaniegv[.]zip |                            无                            | Z064 |
 |  ——————   |          ————————————————————          |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
