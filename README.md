@@ -55,7 +55,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 1 月 28 日 6:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 1 月 28 日 8:00 (UTC+8)。
 
 &emsp;&emsp;**截至 2026 年 1 月 28 日，已打击计算机病毒 / 恶意软件 295 个、恶意网站 84 个**。
 
@@ -90,9 +90,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/1/27 |  绑定谷歌浏览器.exe   |  **Win32/Malgent!MSR**  | b02ddf5a7b67e793d054f47fb6d88a527f987ff532fc612d7ec62f169d02eef2 | d033dc05-8180-415e-a0cd-33822e8eac8a | [VirusTotal](https://www.virustotal.com/gui/file/b02ddf5a7b67e793d054f47fb6d88a527f987ff532fc612d7ec62f169d02eef2) (10) |                              无                              | A290 |
 | 2026/1/27 |         1.exe         |  **GhostRat.CKD!MTB**   | 84aa32d0c5eb678f62ba0c24d6f39ed9b61acf261a89ddaa1fb3d9ca392b1231 | f6a380e5-e9d5-43a9-b53c-4093cc73b874 | [VirusTotal](https://www.virustotal.com/gui/file/84aa32d0c5eb678f62ba0c24d6f39ed9b61acf261a89ddaa1fb3d9ca392b1231) (60) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/84aa32d0c5eb678f62ba0c24d6f39ed9b61acf261a89ddaa1fb3d9ca392b1231) | A291 |
 | 2026/1/27 |      HRSword.exe      |  **Win32/Malgent!MSR**  | 65fbe7f58f0ebd08771be05db480cc107d35a764880d4480fe97a551f527d3f2 | 405a1fe2-4a49-489e-a11a-acc78c6aaa06 | [VirusTotal](https://www.virustotal.com/gui/file/65fbe7f58f0ebd08771be05db480cc107d35a764880d4480fe97a551f527d3f2) (39) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/65fbe7f58f0ebd08771be05db480cc107d35a764880d4480fe97a551f527d3f2) | A292 |
-| 2026/1/28 |      555555.exe       |         研究中          | eaa6d596464acc10b8e9cd5ead58622d9a0a77499e3acab7de007afe763de296 | 36c637d7-7fd5-43a4-a2e5-eeea0f6c0359 | [VirusTotal](https://www.virustotal.com/gui/file/eaa6d596464acc10b8e9cd5ead58622d9a0a77499e3acab7de007afe763de296) (17) |                              无                              | A293 |
-| 2026/1/28 |         1.hta         |         研究中          | f6d2b11f93752076548705305a83bdc2766454ba7fb55a5457562c76cc1103b2 | b44412f1-40a2-4261-801a-5d93940218f2 | [VirusTotal](https://www.virustotal.com/gui/file/f6d2b11f93752076548705305a83bdc2766454ba7fb55a5457562c76cc1103b2) (4) |                  [MalwareBazaar Database]()                  | A294 |
-| 2026/1/28 |         2.exe         |         研究中          | 63854ecb06e7ce9f7525e275481b38ed2456d63e975a05fee233be59b4c62191 | 9c148bb1-358a-4c06-a3ae-7df35b1972a0 | [VirusTotal](https://www.virustotal.com/gui/file/63854ecb06e7ce9f7525e275481b38ed2456d63e975a05fee233be59b4c62191) (7) |                  [MalwareBazaar Database]()                  | A295 |
+| 2026/1/28 |      555555.exe       |  **Win32/Malgent!MSR**  | eaa6d596464acc10b8e9cd5ead58622d9a0a77499e3acab7de007afe763de296 | 36c637d7-7fd5-43a4-a2e5-eeea0f6c0359 | [VirusTotal](https://www.virustotal.com/gui/file/eaa6d596464acc10b8e9cd5ead58622d9a0a77499e3acab7de007afe763de296) (17) |                              无                              | A293 |
+| 2026/1/28 |         1.hta         |   **JS/Malgent!MSR**    | f6d2b11f93752076548705305a83bdc2766454ba7fb55a5457562c76cc1103b2 | b44412f1-40a2-4261-801a-5d93940218f2 | [VirusTotal](https://www.virustotal.com/gui/file/f6d2b11f93752076548705305a83bdc2766454ba7fb55a5457562c76cc1103b2) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/f6d2b11f93752076548705305a83bdc2766454ba7fb55a5457562c76cc1103b2) | A294 |
+| 2026/1/28 |         2.exe         |  **Win32/Malgent!MSR**  | 63854ecb06e7ce9f7525e275481b38ed2456d63e975a05fee233be59b4c62191 | 9c148bb1-358a-4c06-a3ae-7df35b1972a0 | [VirusTotal](https://www.virustotal.com/gui/file/63854ecb06e7ce9f7525e275481b38ed2456d63e975a05fee233be59b4c62191) (7) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/63854ecb06e7ce9f7525e275481b38ed2456d63e975a05fee233be59b4c62191) | A295 |
 |  ——————   |     ————————————      |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
