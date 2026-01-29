@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 1 月 29 日 9:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 1 月 29 日 12:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 1 月 29 日，已打击计算机病毒 / 恶意软件 301 个、恶意网站 89 个**。
+&emsp;&emsp;**截至 2026 年 1 月 29 日，已打击计算机病毒 / 恶意软件 302 个、恶意网站 89 个**。
 
 ---
 
@@ -95,6 +95,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/1/29 |          1.exe           |   **Lockscreen!MSR**    | 7c091c1c983a7d77857d1a78222fbd13b98ea221c6f44d6c34bb63d623f0a8b5 | d3ea3169-de2a-4f12-bd22-7894dc51dcda | [VirusTotal](https://www.virustotal.com/gui/file/7c091c1c983a7d77857d1a78222fbd13b98ea221c6f44d6c34bb63d623f0a8b5) (29) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/7c091c1c983a7d77857d1a78222fbd13b98ea221c6f44d6c34bb63d623f0a8b5) | A299 |
 | 2026/1/29 | GoolgeInsaller (x64).exe |  **Win32/Kepavll!rfn**  | 05a738bbfd1432db2ed33749070bf8ccf6d67ada6bb69f9ffc3d0042ef05a820 | 539d6e03-836f-4484-ad2d-1b91d2891223 | [VirusTotal](https://www.virustotal.com/gui/file/05a738bbfd1432db2ed33749070bf8ccf6d67ada6bb69f9ffc3d0042ef05a820) (13) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/05a738bbfd1432db2ed33749070bf8ccf6d67ada6bb69f9ffc3d0042ef05a820) | A300 |
 | 2026/1/29 |    youdaofanyi···.exe    |  **Win32/Kepavll!rfn**  | 20f94c27c09ba1c4624d5707fb65c27343e475999e803aa15e90bce517bbeb26 | 61a0f424-d573-4236-beb5-94a0dba86eb0 | [VirusTotal](https://www.virustotal.com/gui/file/20f94c27c09ba1c4624d5707fb65c27343e475999e803aa15e90bce517bbeb26) (16) |                              无                              | A301 |
+| 2026/1/29 |   破除ACE游戏保护.exe    |         研究中          | f97559f4ec80f28bd177d1a9e1d5208c5cadbf26e20cac4af374e6b1144a710c | 32e957f6-7722-429c-b82d-5bccf27c13aa | [VirusTotal](https://www.virustotal.com/gui/file/f97559f4ec80f28bd177d1a9e1d5208c5cadbf26e20cac4af374e6b1144a710c) (61) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/f97559f4ec80f28bd177d1a9e1d5208c5cadbf26e20cac4af374e6b1144a710c) | A302 |
 |  ——————   |       ————————————       |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
