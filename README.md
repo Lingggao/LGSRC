@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 1 月 30 日 19:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 1 月 30 日 20:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 1 月 30 日，已打击计算机病毒 / 恶意软件 321 个、恶意网站 89 个**。
+&emsp;&emsp;**截至 2026 年 1 月 30 日，已打击计算机病毒 / 恶意软件 321 个、恶意网站 90 个**。
 
 ---
 
@@ -136,6 +136,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/1/28 |     hxxps://www[.]todeski[.]com     | 仿冒 ToDesk、传播病毒  | hxxps://pub-8f57965f8599440e97ac52dbcca4fc58[.]r2[.]dev/Sqveiqrgbuniasncoigenr[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3765012) | Z087 |
 | 2026/1/28 |    hxxps://zh-todesk[.]com[.]cn     | 仿冒 ToDesk、传播病毒  |                              有                              |                            无                            | Z088 |
 | 2026/1/28 |       hxxps://toamndkf[.]cyou       | 仿冒 ToDesk、传播病毒  | hxxps://pub-8f57965f8599440e97ac52dbcca4fc58[.]r2[.]dev/Sqveiqrgbuniasncoigenr[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3765012) | Z089 |
+| 2026/1/30 |    hxxps://mail[.]qcqzaa[.]shop     |   钓鱼网站、QQ 盗号    |                              无                              |                            无                            | Z090 |
 |  ——————   |        ————————————————————         |    ———————————————     |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
