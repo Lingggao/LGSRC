@@ -57,7 +57,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 &emsp;&emsp;上次更新时间：2026 年 1 月 30 日 12:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 1 月 30 日，已打击计算机病毒 / 恶意软件 316 个、恶意网站 89 个**。
+&emsp;&emsp;**截至 2026 年 1 月 30 日，已打击计算机病毒 / 恶意软件 317 个、恶意网站 89 个**。
 
 ---
 
@@ -93,6 +93,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/1/30 |      goarsheep.exe       | **Win32/Malgent!MSR**  | e55a202c96bbbd7a4b4004877c17a882fde4884b733048b2acd15ce69547533e | 7fd8cfc1-e37b-48b4-9e0b-8405e4158933 | [VirusTotal](https://www.virustotal.com/gui/file/e55a202c96bbbd7a4b4004877c17a882fde4884b733048b2acd15ce69547533e) (1) |                              无                              | A314 |
 | 2026/1/30 |  Alibaba Order list.exe  | **Formbook.AMAJ!MTB**  | 851eff1ee63fed8cc3c032689e157ae350dbf68a49a23192bad20277c409d477 | 88f17820-2777-4c3e-b5ac-449346d5af94 | [VirusTotal](https://www.virustotal.com/gui/file/851eff1ee63fed8cc3c032689e157ae350dbf68a49a23192bad20277c409d477) (34) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/851eff1ee63fed8cc3c032689e157ae350dbf68a49a23192bad20277c409d477) | A315 |
 | 2026/1/30 |     Approved···.exe      | **AgentTesla.NCU!MTB** | a4b32f1a7ba468ea623a8864f891db07eac2c536ca637724f4e7daa861852fc0 | 86e61f6c-35d6-4450-b51a-93a6a288f587 | [VirusTotal](https://www.virustotal.com/gui/file/a4b32f1a7ba468ea623a8864f891db07eac2c536ca637724f4e7daa861852fc0) (45) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a4b32f1a7ba468ea623a8864f891db07eac2c536ca637724f4e7daa861852fc0) | A316 |
+| 2026/1/30 |         DJP.rar          |         研究中         | c24830ff830ba1456ce5e8cbfb079f5877685a94fd51731fd6d24e922b45d1fb | 70e569e1-c676-43aa-b9c6-ed1a470c14ba | [VirusTotal](https://www.virustotal.com/gui/file/c24830ff830ba1456ce5e8cbfb079f5877685a94fd51731fd6d24e922b45d1fb) (26) |                  [MalwareBazaar Database]()                  | A317 |
 |  ——————   |       ————————————       |      ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
