@@ -57,7 +57,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 &emsp;&emsp;上次更新时间：2026 年 1 月 31 日 23:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 1 月 31 日，已打击计算机病毒 / 恶意软件 339 个、恶意网站 96 个**。
+&emsp;&emsp;**截至 2026 年 1 月 31 日，已打击计算机病毒 / 恶意软件 340 个、恶意网站 96 个**。
 
 ---
 
@@ -95,6 +95,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/1/31 |  Chrorneca4d-x64.exe   |  **Win32/Malgent!MSR**  | 5ee01a7ec5257373175090e2bc23fae980ac996325ffa4bffc5bd53164c21d49 | 36454b22-b390-4240-bf4b-660db5e1fd28 | [VirusTotal](https://www.virustotal.com/gui/file/5ee01a7ec5257373175090e2bc23fae980ac996325ffa4bffc5bd53164c21d49) (12) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5ee01a7ec5257373175090e2bc23fae980ac996325ffa4bffc5bd53164c21d49) | A337 |
 | 2026/1/31 |  Hefiavnbeuht···.exe   |  **Win32/Malgent!MSR**  | 05f9c44beb2a774ab891c0f1858c45bf392f95373434b2270d0dbc9eddd634e9 | f52eb092-4b42-4c60-b1af-df8dd66bd82d | [VirusTotal](https://www.virustotal.com/gui/file/05f9c44beb2a774ab891c0f1858c45bf392f95373434b2270d0dbc9eddd634e9) (5) |                              无                              | A338 |
 | 2026/1/31 |      wps_x64.msi       |   **Win32/Vigorf.A**    | 65b6b0e2f3e57313b6947df839cde578250166671ff614b585edc844fc03b746 | af016af3-ca4b-42ef-957f-4b4304525a3a | [VirusTotal](https://www.virustotal.com/gui/file/65b6b0e2f3e57313b6947df839cde578250166671ff614b585edc844fc03b746) (7) |                              无                              | A339 |
+| 2026/1/31 |     aaadddbbb.exe      |   **Win32/Etset!rfn**   | c88f2448efa77d4ba9393392cc48af741ef1a700701fe26607f9d577fb840a37 | 325d5ae2-054a-4a67-99b6-0e2d98ac5371 | [VirusTotal](https://www.virustotal.com/gui/file/c88f2448efa77d4ba9393392cc48af741ef1a700701fe26607f9d577fb840a37) (30) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c88f2448efa77d4ba9393392cc48af741ef1a700701fe26607f9d577fb840a37) | A340 |
 |  ——————   |      ————————————      |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
