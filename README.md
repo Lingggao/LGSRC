@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 2 月 2 日 5:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 2 月 2 日 7:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 2 月 2 日，已打击计算机病毒 / 恶意软件 350 个、恶意网站 103 个**。
+&emsp;&emsp;**截至 2026 年 2 月 2 日，已打击计算机病毒 / 恶意软件 352 个、恶意网站 103 个**。
 
 ---
 
@@ -94,6 +94,8 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/2  | Microsoft 365 Copilot.exe |  **Win32/KillProc.MA**  | 5dee376ea124ff1038f59cdf7717a3ba99c6d1ef319c45543c461b321a1dae1d | 87dbe02a-4e43-4f41-9b20-87e303ab67a3 | [VirusTotal](https://www.virustotal.com/gui/file/5dee376ea124ff1038f59cdf7717a3ba99c6d1ef319c45543c461b321a1dae1d) (28) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5dee376ea124ff1038f59cdf7717a3ba99c6d1ef319c45543c461b321a1dae1d) | A348 |
 | 2026/2/2  |   SG.Setup.0.2.0.1.exe    |   **Win32/Wacapew.C**   | 7867e9f5be414c804a64723ce52b8de7bfa678b5aab2689d4d43eedda460edd7 | bd1a861f-3985-4b7f-8e15-7cc2895454e4 | [VirusTotal](https://www.virustotal.com/gui/file/7867e9f5be414c804a64723ce52b8de7bfa678b5aab2689d4d43eedda460edd7) (7) |                              无                              | A349 |
 | 2026/2/2  |       YVC6.3.87.msi       |  **Win32/Malgent!MSR**  | 96de475b390ac1815c88f9f6ae10fedfb9d0723a5f41be1dc3a7b9ed1d29a35a | 00546423-aad3-495a-ba69-757dc3c34cce | [VirusTotal](https://www.virustotal.com/gui/file/96de475b390ac1815c88f9f6ae10fedfb9d0723a5f41be1dc3a7b9ed1d29a35a) (25) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/96de475b390ac1815c88f9f6ae10fedfb9d0723a5f41be1dc3a7b9ed1d29a35a) | A350 |
+| 2026/2/2  |      (Linux) 7m45f9       |  **Downloader:SAgnt**   | c8c016dbfd1f8a15e566a61fce2a2f6674cde79f0decaa6872aa371235d630d3 | a6ef172c-5a16-4842-92e6-e10e1ea5cd8c | [VirusTotal](https://www.virustotal.com/gui/file/c8c016dbfd1f8a15e566a61fce2a2f6674cde79f0decaa6872aa371235d630d3) (9) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c8c016dbfd1f8a15e566a61fce2a2f6674cde79f0decaa6872aa371235d630d3) | A351 |
+| 2026/2/2  |      (Linux) random       |   **Backdoor:Mirai**    | 6d10382a478f71b121be340ff622ff62e58458f290f35217b1b0fd23865a8b4e | a6ef172c-5a16-4842-92e6-e10e1ea5cd8c | [VirusTotal](https://www.virustotal.com/gui/file/6d10382a478f71b121be340ff622ff62e58458f290f35217b1b0fd23865a8b4e) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/6d10382a478f71b121be340ff622ff62e58458f290f35217b1b0fd23865a8b4e) | A352 |
 |  ——————   |       ————————————        |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
