@@ -57,7 +57,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 &emsp;&emsp;上次更新时间：2026 年 2 月 2 日 2:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 2 月 2 日，已打击计算机病毒 / 恶意软件 345 个、恶意网站 96 个**。
+&emsp;&emsp;**截至 2026 年 2 月 2 日，已打击计算机病毒 / 恶意软件 349 个、恶意网站 96 个**。
 
 ---
 
@@ -92,7 +92,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/2  |       codeload.exe        |  **Win32/Malgent!MSR**  | 06487285bc404428659b86dbc5b80710404ed042c4c9c8714bcf3422c8dd471e | dac619b5-32f0-4739-b1a9-fc2a19270df2 | [VirusTotal](https://www.virustotal.com/gui/file/06487285bc404428659b86dbc5b80710404ed042c4c9c8714bcf3422c8dd471e) (14) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/06487285bc404428659b86dbc5b80710404ed042c4c9c8714bcf3422c8dd471e) | A346 |
 | 2026/2/2  |          dd.exe           |   **Backdoor/Agent**    | d9fb746821f2498aafb3ce437b79439d4e625dd91cd873368dc7f8a550fdeb0c |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/d9fb746821f2498aafb3ce437b79439d4e625dd91cd873368dc7f8a550fdeb0c) (14) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/d9fb746821f2498aafb3ce437b79439d4e625dd91cd873368dc7f8a550fdeb0c) | A347 |
 | 2026/2/2  | Microsoft 365 Copilot.exe |  **Win32/KillProc.MA**  | 5dee376ea124ff1038f59cdf7717a3ba99c6d1ef319c45543c461b321a1dae1d | 87dbe02a-4e43-4f41-9b20-87e303ab67a3 | [VirusTotal](https://www.virustotal.com/gui/file/5dee376ea124ff1038f59cdf7717a3ba99c6d1ef319c45543c461b321a1dae1d) (28) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5dee376ea124ff1038f59cdf7717a3ba99c6d1ef319c45543c461b321a1dae1d) | A348 |
-| 2026/2/2  |   SG.Setup.0.2.0.1.exe    |         研究中          |                                                              |                                      |                                                              |                              无                              | A349 |
+| 2026/2/2  |   SG.Setup.0.2.0.1.exe    |         研究中          | 7867e9f5be414c804a64723ce52b8de7bfa678b5aab2689d4d43eedda460edd7 | bd1a861f-3985-4b7f-8e15-7cc2895454e4 | [VirusTotal](https://www.virustotal.com/gui/file/7867e9f5be414c804a64723ce52b8de7bfa678b5aab2689d4d43eedda460edd7) (7) |                              无                              | A349 |
 |  ——————   |       ————————————        |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
