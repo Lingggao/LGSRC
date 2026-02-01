@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 2 月 1 日 2:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 2 月 1 日 12:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 2 月 1 日，已打击计算机病毒 / 恶意软件 341 个、恶意网站 96 个**。
+&emsp;&emsp;**截至 2026 年 2 月 1 日，已打击计算机病毒 / 恶意软件 343 个、恶意网站 96 个**。
 
 ---
 
@@ -93,6 +93,8 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/1/31 |      wps_x64.msi      |   **Win32/Vigorf.A**    | 65b6b0e2f3e57313b6947df839cde578250166671ff614b585edc844fc03b746 | af016af3-ca4b-42ef-957f-4b4304525a3a | [VirusTotal](https://www.virustotal.com/gui/file/65b6b0e2f3e57313b6947df839cde578250166671ff614b585edc844fc03b746) (7) |                              无                              | A339 |
 | 2026/1/31 |     aaadddbbb.exe     |   **Win32/Etset!rfn**   | c88f2448efa77d4ba9393392cc48af741ef1a700701fe26607f9d577fb840a37 | 325d5ae2-054a-4a67-99b6-0e2d98ac5371 | [VirusTotal](https://www.virustotal.com/gui/file/c88f2448efa77d4ba9393392cc48af741ef1a700701fe26607f9d577fb840a37) (30) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c88f2448efa77d4ba9393392cc48af741ef1a700701fe26607f9d577fb840a37) | A340 |
 | 2026/2/1  |   VC_radist.x64.exe   |  **Win32/Malgent!MSR**  | 8507309e3f00c1258d632b4de937dd9540751e56e6276d7226dd6c916456a763 | 3cec7da4-fe8a-406d-b352-c7f8ae8b31b1 | [VirusTotal](https://www.virustotal.com/gui/file/8507309e3f00c1258d632b4de937dd9540751e56e6276d7226dd6c916456a763) (20) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/8507309e3f00c1258d632b4de937dd9540751e56e6276d7226dd6c916456a763) | A341 |
+| 2026/2/1  |     bxhwel42.exe      |   **Win64/Devman.D**    | 49c61f36682d62c7bc8d755463260f756d966e8129fd2387a53f85d711286dfc | 1ee7c420-737f-4fc1-b154-9832155c8fb6 | [VirusTotal](https://www.virustotal.com/gui/file/49c61f36682d62c7bc8d755463260f756d966e8129fd2387a53f85d711286dfc) (26) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/49c61f36682d62c7bc8d755463260f756d966e8129fd2387a53f85d711286dfc) | A342 |
+| 2026/2/1  |  Sonifqeuijf···.exe   |         研究中          | 83f5fdeff98f1710964ee0bef90a2da3a8b51c42eea8404c33b853c08746cf7c | 42240f2e-f4de-4754-905a-08b70c54b671 | [VirusTotal](https://www.virustotal.com/gui/file/83f5fdeff98f1710964ee0bef90a2da3a8b51c42eea8404c33b853c08746cf7c) (3) |                              无                              | A343 |
 |  ——————   |     ————————————      |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
