@@ -80,6 +80,13 @@
 | 2026/1/22 |      hxxps://oa-google[.]com[.]cn      |    仿冒 Chrome、传播病毒    |      hxxps://olekndx[.]hoyenoy[.]com/google12[.]3[.]zip      | [URLhaus Database](https://urlhaus.abuse.ch/url/3761835) | Z068 |
 | 2026/1/22 |      hxxps://cc-chrom[.]com[.]cn       |    仿冒 Chrome、传播病毒    |      hxxps://olekndx[.]hoyenoy[.]com/google12[.]3[.]zip      | [URLhaus Database](https://urlhaus.abuse.ch/url/3761835) | Z069 |
 | 2026/1/22 |   hxxps://www[.]ro-google[.]com[.]cn   |    仿冒 Chrome、传播病毒    |                              无                              |                            无                            | Z070 |
+| 2026/1/22 |     hxxps://cnzh-chrom[.]com[.]cn      |    仿冒 Chrome、传播病毒    |      hxxps://olekndx[.]hoyenoy[.]com/google12[.]3[.]zip      | [URLhaus Database](https://urlhaus.abuse.ch/url/3761835) | Z071 |
+| 2026/1/22 |      hxxps://zh-google[.]org[.]cn      |    仿冒 Chrome、传播病毒    | hxxps://fivefouronefive[.]oss-us-west-1[.]aliyuncs[.]com/win32-googl[.]zip |                            无                            | Z072 |
+| 2026/1/22 |      hxxps://mj-google[.]com[.]cn      |    仿冒 Chrome、传播病毒    |      hxxps://olekndx[.]hoyenoy[.]com/google12[.]3[.]zip      | [URLhaus Database](https://urlhaus.abuse.ch/url/3761835) | Z073 |
+| 2026/1/22 |     hxxps://bing-google[.]com[.]cn     |    仿冒 Chrome、传播病毒    |                              无                              |                            无                            | Z074 |
+| 2026/1/24 |        hxxps://huorong-cn[.]com        |          仿冒火绒           |                              无                              |                            无                            | Z075 |
+| 2026/1/24 |      hxxps://www[.]teamsqs[.]com       |    仿冒 Teams、传播病毒     | hxxps://pub-40f0bc7019cc4cc4af33b722c6d5f182[.]r2[.]dev/tsgx12[.]3[.]rar | [URLhaus Database](https://urlhaus.abuse.ch/url/3762965) | Z076 |
+| 2026/1/24 |      hxxps://www[.]gmailpc[.]com       |    仿冒 Gmail、传播病毒     | hxxps://pub-74506ace261846d4bfc80d45a1f06b40[.]r2[.]dev/GTRF19[.]3-6[.]rar | [URLhaus Database](https://urlhaus.abuse.ch/url/3762967) | Z077 |
 |  ——————   |          ————————————————————          |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
