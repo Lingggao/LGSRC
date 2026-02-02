@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 2 月 2 日 7:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 2 月 2 日 14:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 2 月 2 日，已打击计算机病毒 / 恶意软件 352 个、恶意网站 103 个**。
+&emsp;&emsp;**截至 2026 年 2 月 2 日，已打击计算机病毒 / 恶意软件 354 个、恶意网站 103 个**。
 
 ---
 
@@ -69,9 +69,6 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 |   日期    |          文件名           |          检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :-----------------------: | :---------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/1/31 |         hits.ps1          | **PowerShell/Malgent**  | 1c421d985a73a379bd2464b8d71c0a4db986135512facf204500e5dbe9e67649 | 3fa2f48c-42db-4776-b9bb-9e1d0c83e75d | [VirusTotal](https://www.virustotal.com/gui/file/1c421d985a73a379bd2464b8d71c0a4db986135512facf204500e5dbe9e67649) (3) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/1c421d985a73a379bd2464b8d71c0a4db986135512facf204500e5dbe9e67649) | A326 |
-| 2026/1/31 |     final_loader.exe      |  **Win32/Malgent!MSR**  | c6d35c535539f28419ccebb3a1ef7d19e271aa05568df74fb7fee25d26a79f10 | 778cbd5d-b729-4ae2-8c6a-aa376d1ef825 | [VirusTotal](https://www.virustotal.com/gui/file/c6d35c535539f28419ccebb3a1ef7d19e271aa05568df74fb7fee25d26a79f10) (12) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c6d35c535539f28419ccebb3a1ef7d19e271aa05568df74fb7fee25d26a79f10) | A327 |
-| 2026/1/31 |    ChoormeInsaller.exe    |  **Win32/Malgent!MSR**  | 895cc75f1264314921a5a6487d1b35e489feb63900cb3d60359f17d595adec28 | bef53beb-7d62-451a-b396-041cfaa45e2f | [VirusTotal](https://www.virustotal.com/gui/file/895cc75f1264314921a5a6487d1b35e489feb63900cb3d60359f17d595adec28) (12) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/895cc75f1264314921a5a6487d1b35e489feb63900cb3d60359f17d595adec28) | A328 |
 | 2026/1/31 |        多功能.exe         |  **Win32/Malgent!MSR**  | f030be75e1ec253744464c9456aaf85b71273788e684495689a5bfbe9a3483e5 | 4582ca0e-5793-480e-9ebb-e680b2b9a822 | [VirusTotal](https://www.virustotal.com/gui/file/f030be75e1ec253744464c9456aaf85b71273788e684495689a5bfbe9a3483e5) (25) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/f030be75e1ec253744464c9456aaf85b71273788e684495689a5bfbe9a3483e5) | A329 |
 | 2026/1/31 |       KB284726.ps1        | **FickleFrostbite!dha** | 033cb31c081ff4292f82e528f5cb78a503816462daba8cc18a6c4531009602c2 | edbd10bc-3e65-4837-b682-1322bad449cb | [VirusTotal](https://www.virustotal.com/gui/file/033cb31c081ff4292f82e528f5cb78a503816462daba8cc18a6c4531009602c2) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/033cb31c081ff4292f82e528f5cb78a503816462daba8cc18a6c4531009602c2) | A330 |
 | 2026/1/31 |    youdao02dict···.msi    |  **Win32/Malgent!MSR**  | 1a2f8ae6f6d459b5cdf0bec4510e91613a64b559dc9ef324220659a67b03215b | 6ac8e757-3108-4194-ab60-fb5611cd1978 | [VirusTotal](https://www.virustotal.com/gui/file/1a2f8ae6f6d459b5cdf0bec4510e91613a64b559dc9ef324220659a67b03215b) (14) |                              无                              | A331 |
@@ -96,6 +93,8 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/2  |       YVC6.3.87.msi       |  **Win32/Malgent!MSR**  | 96de475b390ac1815c88f9f6ae10fedfb9d0723a5f41be1dc3a7b9ed1d29a35a | 00546423-aad3-495a-ba69-757dc3c34cce | [VirusTotal](https://www.virustotal.com/gui/file/96de475b390ac1815c88f9f6ae10fedfb9d0723a5f41be1dc3a7b9ed1d29a35a) (25) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/96de475b390ac1815c88f9f6ae10fedfb9d0723a5f41be1dc3a7b9ed1d29a35a) | A350 |
 | 2026/2/2  |      (Linux) 7m45f9       |  **Downloader:SAgnt**   | c8c016dbfd1f8a15e566a61fce2a2f6674cde79f0decaa6872aa371235d630d3 | a6ef172c-5a16-4842-92e6-e10e1ea5cd8c | [VirusTotal](https://www.virustotal.com/gui/file/c8c016dbfd1f8a15e566a61fce2a2f6674cde79f0decaa6872aa371235d630d3) (9) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c8c016dbfd1f8a15e566a61fce2a2f6674cde79f0decaa6872aa371235d630d3) | A351 |
 | 2026/2/2  |      (Linux) random       |   **Backdoor:Mirai**    | 6d10382a478f71b121be340ff622ff62e58458f290f35217b1b0fd23865a8b4e | a6ef172c-5a16-4842-92e6-e10e1ea5cd8c | [VirusTotal](https://www.virustotal.com/gui/file/6d10382a478f71b121be340ff622ff62e58458f290f35217b1b0fd23865a8b4e) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/6d10382a478f71b121be340ff622ff62e58458f290f35217b1b0fd23865a8b4e) | A352 |
+| 2026/2/2  |      WOS_SAN_088.exe      |  **Win32/Kepavll!rfn**  | 6dc96699edab226f7b91cfa16bcc3801d22b251accc293992ee094d4546d3a25 | 507ea377-6468-4645-a08a-5b567e041ef3 | [VirusTotal](https://www.virustotal.com/gui/file/6dc96699edab226f7b91cfa16bcc3801d22b251accc293992ee094d4546d3a25) (8) |                              无                              | A353 |
+| 2026/2/2  |        dbEoYH.exe         |  **Win32/Malgent!MSR**  | 23e82be61fb19583d1f8082a5639d61c03707558d0cba3b59f65c12eaca11a7c | 01b75132-5f2f-4ae4-8eb7-feb3909aec69 | [VirusTotal](https://www.virustotal.com/gui/file/23e82be61fb19583d1f8082a5639d61c03707558d0cba3b59f65c12eaca11a7c) (20) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/23e82be61fb19583d1f8082a5639d61c03707558d0cba3b59f65c12eaca11a7c) | A354 |
 |  ——————   |       ————————————        |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
