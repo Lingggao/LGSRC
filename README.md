@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 2 月 2 日 20:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 2 月 3 日 7:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 2 月 2 日，已打击计算机病毒 / 恶意软件 356 个、恶意网站 103 个**。
+&emsp;&emsp;**截至 2026 年 2 月 3 日，已打击计算机病毒 / 恶意软件 358 个、恶意网站 103 个**。
 
 ---
 
@@ -94,6 +94,8 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/2  |        dbEoYH.exe         |  **Win32/Malgent!MSR**  | 23e82be61fb19583d1f8082a5639d61c03707558d0cba3b59f65c12eaca11a7c | 01b75132-5f2f-4ae4-8eb7-feb3909aec69 | [VirusTotal](https://www.virustotal.com/gui/file/23e82be61fb19583d1f8082a5639d61c03707558d0cba3b59f65c12eaca11a7c) (20) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/23e82be61fb19583d1f8082a5639d61c03707558d0cba3b59f65c12eaca11a7c) | A354 |
 | 2026/2/2  |        asz8EIg.exe        |  **Win32/Malgent!MSR**  | dc1cd19fe85beabcb904caec0efba88e9fa626751bb30e89dc4d432001c8b7a9 | c0038570-9c2c-4559-9390-a9c04e73a710 | [VirusTotal](https://www.virustotal.com/gui/file/dc1cd19fe85beabcb904caec0efba88e9fa626751bb30e89dc4d432001c8b7a9) (8) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/dc1cd19fe85beabcb904caec0efba88e9fa626751bb30e89dc4d432001c8b7a9) | A355 |
 | 2026/2/2  |         Steam.exe         |  **Win32/Malgent!MSR**  | e0f6227f02d8bf6263938088af91d3f073db4a43a529ba46665cb2e90f612799 | fb646ebc-08e3-4fce-9775-7367288b196e | [VirusTotal](https://www.virustotal.com/gui/file/e0f6227f02d8bf6263938088af91d3f073db4a43a529ba46665cb2e90f612799) (10) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/e0f6227f02d8bf6263938088af91d3f073db4a43a529ba46665cb2e90f612799) | A356 |
+| 2026/2/3  |    电脑工具箱 V3.0.exe    |  **Win32/Egairtigado**  | a995ba239662505b2d34ae44b8f958e83b130959fd9609f000e9b269bce1dea4 | 968484a9-e053-410c-a946-ce37157f2d04 | [VirusTotal](https://www.virustotal.com/gui/file/a995ba239662505b2d34ae44b8f958e83b130959fd9609f000e9b269bce1dea4) (26) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a995ba239662505b2d34ae44b8f958e83b130959fd9609f000e9b269bce1dea4) | A357 |
+| 2026/2/3  |     adn.826522009.exe     |  **Win64/Malgent!MSR**  | bda07f6a81cd4b94a6c15c5f8bb531a26ce4550f7d201a0799b4ecb3eaa7ed80 | a569a9e4-c845-4ae3-bc15-482a4e80128b | [VirusTotal](https://www.virustotal.com/gui/file/bda07f6a81cd4b94a6c15c5f8bb531a26ce4550f7d201a0799b4ecb3eaa7ed80) (3) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/bda07f6a81cd4b94a6c15c5f8bb531a26ce4550f7d201a0799b4ecb3eaa7ed80) | A358 |
 |  ——————   |       ————————————        |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
