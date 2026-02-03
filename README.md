@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 2 月 3 日 7:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 2 月 3 日 12:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 2 月 3 日，已打击计算机病毒 / 恶意软件 358 个、恶意网站 103 个**。
+&emsp;&emsp;**截至 2026 年 2 月 3 日，已打击计算机病毒 / 恶意软件 359 个、恶意网站 103 个**。
 
 ---
 
@@ -69,9 +69,6 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 |   日期    |          文件名           |          检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :-----------------------: | :---------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/1/31 |    youdaofanyi058.exe     |  **Win32/Dropper!MSR**  | a30709e30dd11483bcc598d86964a11ad2d92960c0febaf6a72ddcc003a1f41d | 4240728a-f4fa-441c-bc92-7ccd96fca561 | [VirusTotal](https://www.virustotal.com/gui/file/a30709e30dd11483bcc598d86964a11ad2d92960c0febaf6a72ddcc003a1f41d) (5) |                              无                              | A332 |
-| 2026/1/31 |   youdao···26130···.exe   |  **Win32/Dropper!MSR**  | 4cc687dd0c34a9415c33f3aa36ee222aae1c2072f17dc307f1ea9a64716f7501 | 6618ff0f-6609-4e71-a5ea-b3ff8bdebb01 | [VirusTotal](https://www.virustotal.com/gui/file/4cc687dd0c34a9415c33f3aa36ee222aae1c2072f17dc307f1ea9a64716f7501) (8) |                              无                              | A333 |
-| 2026/1/31 |        inscan.exe         |  **ValleyRat.YAG!MTB**  | 4977999a446adb8831780c2f3aaa46dad084da7969e494ce34085a0832bed2a3 | 5015be88-1fd4-4f2a-aadb-cee41455311e | [VirusTotal](https://www.virustotal.com/gui/file/4977999a446adb8831780c2f3aaa46dad084da7969e494ce34085a0832bed2a3) (9) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/4977999a446adb8831780c2f3aaa46dad084da7969e494ce34085a0832bed2a3) | A334 |
 | 2026/1/31 |       (Linux) gots        |   **Backdoor:Gafgyt**   | 6b46481f29c4bbe2b6984ada145a71ebdf014a4bb29dbf7d1e536f47e41229e4 | 85f55bf5-071c-4c0e-9c9b-569e64f8b890 | [VirusTotal](https://www.virustotal.com/gui/file/6b46481f29c4bbe2b6984ada145a71ebdf014a4bb29dbf7d1e536f47e41229e4) (14) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/6b46481f29c4bbe2b6984ada145a71ebdf014a4bb29dbf7d1e536f47e41229e4) | A335 |
 | 2026/1/31 |    (Linux) lbdJkIHQ5p     |   **Backdoor:SAgnt**    | 3c45b91ac9d4eb5d058a16af2719b7b1acdcd2f59b177de8ce1f9fbc01e423bd | 2f4091ed-6709-46de-940e-39d0151d7379 | [VirusTotal](https://www.virustotal.com/gui/file/3c45b91ac9d4eb5d058a16af2719b7b1acdcd2f59b177de8ce1f9fbc01e423bd) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/3c45b91ac9d4eb5d058a16af2719b7b1acdcd2f59b177de8ce1f9fbc01e423bd) | A336 |
 | 2026/1/31 |    Chrorneca4d-x64.exe    |  **Win32/Malgent!MSR**  | 5ee01a7ec5257373175090e2bc23fae980ac996325ffa4bffc5bd53164c21d49 | 36454b22-b390-4240-bf4b-660db5e1fd28 | [VirusTotal](https://www.virustotal.com/gui/file/5ee01a7ec5257373175090e2bc23fae980ac996325ffa4bffc5bd53164c21d49) (12) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5ee01a7ec5257373175090e2bc23fae980ac996325ffa4bffc5bd53164c21d49) | A337 |
@@ -96,6 +93,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/2  |         Steam.exe         |  **Win32/Malgent!MSR**  | e0f6227f02d8bf6263938088af91d3f073db4a43a529ba46665cb2e90f612799 | fb646ebc-08e3-4fce-9775-7367288b196e | [VirusTotal](https://www.virustotal.com/gui/file/e0f6227f02d8bf6263938088af91d3f073db4a43a529ba46665cb2e90f612799) (10) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/e0f6227f02d8bf6263938088af91d3f073db4a43a529ba46665cb2e90f612799) | A356 |
 | 2026/2/3  |    电脑工具箱 V3.0.exe    |  **Win32/Egairtigado**  | a995ba239662505b2d34ae44b8f958e83b130959fd9609f000e9b269bce1dea4 | 968484a9-e053-410c-a946-ce37157f2d04 | [VirusTotal](https://www.virustotal.com/gui/file/a995ba239662505b2d34ae44b8f958e83b130959fd9609f000e9b269bce1dea4) (26) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a995ba239662505b2d34ae44b8f958e83b130959fd9609f000e9b269bce1dea4) | A357 |
 | 2026/2/3  |     adn.826522009.exe     |  **Win64/Malgent!MSR**  | bda07f6a81cd4b94a6c15c5f8bb531a26ce4550f7d201a0799b4ecb3eaa7ed80 | a569a9e4-c845-4ae3-bc15-482a4e80128b | [VirusTotal](https://www.virustotal.com/gui/file/bda07f6a81cd4b94a6c15c5f8bb531a26ce4550f7d201a0799b4ecb3eaa7ed80) (3) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/bda07f6a81cd4b94a6c15c5f8bb531a26ce4550f7d201a0799b4ecb3eaa7ed80) | A358 |
+| 2026/2/3  |        SandBox.exe        | **Win32/Wacatac.C!ml**  | 4fad4215a12ef6b677ee757b7e7f81c61b2d7d3557ea15919165fa735f8d8769 | 186d64ce-0822-4c45-b314-2a4ed007c656 | [VirusTotal](https://www.virustotal.com/gui/search/4fad4215a12ef6b677ee757b7e7f81c61b2d7d3557ea15919165fa735f8d8769) (16) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/4fad4215a12ef6b677ee757b7e7f81c61b2d7d3557ea15919165fa735f8d8769) | A359 |
 |  ——————   |       ————————————        |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
