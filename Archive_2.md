@@ -87,6 +87,8 @@
 | 2026/1/24 |        hxxps://huorong-cn[.]com        |          仿冒火绒           |                              无                              |                            无                            | Z075 |
 | 2026/1/24 |      hxxps://www[.]teamsqs[.]com       |    仿冒 Teams、传播病毒     | hxxps://pub-40f0bc7019cc4cc4af33b722c6d5f182[.]r2[.]dev/tsgx12[.]3[.]rar | [URLhaus Database](https://urlhaus.abuse.ch/url/3762965) | Z076 |
 | 2026/1/24 |      hxxps://www[.]gmailpc[.]com       |    仿冒 Gmail、传播病毒     | hxxps://pub-74506ace261846d4bfc80d45a1f06b40[.]r2[.]dev/GTRF19[.]3-6[.]rar | [URLhaus Database](https://urlhaus.abuse.ch/url/3762967) | Z077 |
+| 2026/1/24 |      hxxps://www[.]lineopc[.]com       |     仿冒 LINE、传播病毒     | hxxps://pub-f3a5f16c0d0b45eab9e2e6a05a61d733[.]r2[.]dev/Loiu9s361[.]rar | [URLhaus Database](https://urlhaus.abuse.ch/url/3762959) | Z078 |
+| 2026/1/24 |     hxxps://www[.]googleyzq1[.]com     |   仿冒 Google 身份验证器    | hxxps://pub-1ec812ea405b44f9976acd137f20fe96[.]r2[.]dev/Yghs1[.]3[.]6[.]rar | [URLhaus Database](https://urlhaus.abuse.ch/url/3762966) | Z079 |
 |  ——————   |          ————————————————————          |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---

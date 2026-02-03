@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 2 月 3 日 12:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 2 月 3 日 17:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 2 月 3 日，已打击计算机病毒 / 恶意软件 359 个、恶意网站 103 个**。
+&emsp;&emsp;**截至 2026 年 2 月 3 日，已打击计算机病毒 / 恶意软件 361 个、恶意网站 105 个**。
 
 ---
 
@@ -69,8 +69,6 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 |   日期    |          文件名           |          检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :-----------------------: | :---------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/1/31 |       (Linux) gots        |   **Backdoor:Gafgyt**   | 6b46481f29c4bbe2b6984ada145a71ebdf014a4bb29dbf7d1e536f47e41229e4 | 85f55bf5-071c-4c0e-9c9b-569e64f8b890 | [VirusTotal](https://www.virustotal.com/gui/file/6b46481f29c4bbe2b6984ada145a71ebdf014a4bb29dbf7d1e536f47e41229e4) (14) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/6b46481f29c4bbe2b6984ada145a71ebdf014a4bb29dbf7d1e536f47e41229e4) | A335 |
-| 2026/1/31 |    (Linux) lbdJkIHQ5p     |   **Backdoor:SAgnt**    | 3c45b91ac9d4eb5d058a16af2719b7b1acdcd2f59b177de8ce1f9fbc01e423bd | 2f4091ed-6709-46de-940e-39d0151d7379 | [VirusTotal](https://www.virustotal.com/gui/file/3c45b91ac9d4eb5d058a16af2719b7b1acdcd2f59b177de8ce1f9fbc01e423bd) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/3c45b91ac9d4eb5d058a16af2719b7b1acdcd2f59b177de8ce1f9fbc01e423bd) | A336 |
 | 2026/1/31 |    Chrorneca4d-x64.exe    |  **Win32/Malgent!MSR**  | 5ee01a7ec5257373175090e2bc23fae980ac996325ffa4bffc5bd53164c21d49 | 36454b22-b390-4240-bf4b-660db5e1fd28 | [VirusTotal](https://www.virustotal.com/gui/file/5ee01a7ec5257373175090e2bc23fae980ac996325ffa4bffc5bd53164c21d49) (12) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5ee01a7ec5257373175090e2bc23fae980ac996325ffa4bffc5bd53164c21d49) | A337 |
 | 2026/1/31 |    Hefiavnbeuht···.exe    |  **Win32/Malgent!MSR**  | 05f9c44beb2a774ab891c0f1858c45bf392f95373434b2270d0dbc9eddd634e9 | f52eb092-4b42-4c60-b1af-df8dd66bd82d | [VirusTotal](https://www.virustotal.com/gui/file/05f9c44beb2a774ab891c0f1858c45bf392f95373434b2270d0dbc9eddd634e9) (5) |                              无                              | A338 |
 | 2026/1/31 |        wps_x64.msi        |   **Win32/Vigorf.A**    | 65b6b0e2f3e57313b6947df839cde578250166671ff614b585edc844fc03b746 | af016af3-ca4b-42ef-957f-4b4304525a3a | [VirusTotal](https://www.virustotal.com/gui/file/65b6b0e2f3e57313b6947df839cde578250166671ff614b585edc844fc03b746) (7) |                              无                              | A339 |
@@ -94,6 +92,8 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/3  |    电脑工具箱 V3.0.exe    |  **Win32/Egairtigado**  | a995ba239662505b2d34ae44b8f958e83b130959fd9609f000e9b269bce1dea4 | 968484a9-e053-410c-a946-ce37157f2d04 | [VirusTotal](https://www.virustotal.com/gui/file/a995ba239662505b2d34ae44b8f958e83b130959fd9609f000e9b269bce1dea4) (26) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a995ba239662505b2d34ae44b8f958e83b130959fd9609f000e9b269bce1dea4) | A357 |
 | 2026/2/3  |     adn.826522009.exe     |  **Win64/Malgent!MSR**  | bda07f6a81cd4b94a6c15c5f8bb531a26ce4550f7d201a0799b4ecb3eaa7ed80 | a569a9e4-c845-4ae3-bc15-482a4e80128b | [VirusTotal](https://www.virustotal.com/gui/file/bda07f6a81cd4b94a6c15c5f8bb531a26ce4550f7d201a0799b4ecb3eaa7ed80) (3) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/bda07f6a81cd4b94a6c15c5f8bb531a26ce4550f7d201a0799b4ecb3eaa7ed80) | A358 |
 | 2026/2/3  |        SandBox.exe        | **Win32/Wacatac.C!ml**  | 4fad4215a12ef6b677ee757b7e7f81c61b2d7d3557ea15919165fa735f8d8769 | 186d64ce-0822-4c45-b314-2a4ed007c656 | [VirusTotal](https://www.virustotal.com/gui/search/4fad4215a12ef6b677ee757b7e7f81c61b2d7d3557ea15919165fa735f8d8769) (16) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/4fad4215a12ef6b677ee757b7e7f81c61b2d7d3557ea15919165fa735f8d8769) | A359 |
+| 2026/2/3  |    ···中文语音包-3.exe    |  **Win32/Malgent!MSR**  | 08b99583611ee222b5989af12eedc07ea0b39bd7af1bf68f04a8cc4a14ab47bc | 28ac2280-d220-4faa-b03a-d7034b411ac7 | [VirusTotal](https://www.virustotal.com/gui/file/08b99583611ee222b5989af12eedc07ea0b39bd7af1bf68f04a8cc4a14ab47bc) (10) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/08b99583611ee222b5989af12eedc07ea0b39bd7af1bf68f04a8cc4a14ab47bc) | A360 |
+| 2026/2/3  |    wpsoffice_12.1.msi     |  **Win32/Malgent!MSR**  | 3ce915cc389b19c3d2ce8be1c2e7e710937637cfe5e99575fecfe8f393ff73bf | f3f276c1-5b47-4de1-aee1-e8b019483b85 | [VirusTotal](https://www.virustotal.com/gui/file/3ce915cc389b19c3d2ce8be1c2e7e710937637cfe5e99575fecfe8f393ff73bf) (5) |                              无                              | A361 |
 |  ——————   |       ————————————        |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -108,35 +108,35 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 >
 > &emsp;为确保安全，网站地址将用 “hxxps://” 与 “[.]” 进行替换。**切勿尝试访问表格中列出的任何网址**。
 
-|   日期    |                 URL                 |          类别          |                           有效载荷                           |                         URLhaus                          | 编号 |
-| :-------: | :---------------------------------: | :--------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
-| 2026/1/24 |     hxxps://www[.]lineopc[.]com     |  仿冒 LINE、传播病毒   | hxxps://pub-f3a5f16c0d0b45eab9e2e6a05a61d733[.]r2[.]dev/Loiu9s361[.]rar | [URLhaus Database](https://urlhaus.abuse.ch/url/3762959) | Z078 |
-| 2026/1/24 |   hxxps://www[.]googleyzq1[.]com    | 仿冒 Google 身份验证器 | hxxps://pub-1ec812ea405b44f9976acd137f20fe96[.]r2[.]dev/Yghs1[.]3[.]6[.]rar | [URLhaus Database](https://urlhaus.abuse.ch/url/3762966) | Z079 |
-| 2026/1/26 | hxxps://cn-app-wpsoffice[.]com[.]cn |   仿冒 WPS、传播病毒   | hxxps://www-dfsdhsr-bssbdd[.]com[.]cn/assets/download/LWPSFW-FWFInstaller_SetupX64[.]zip |                            无                            | Z080 |
-| 2026/1/26 |   hxxps://www[.]cc-wps[.]com[.]cn   |   仿冒 WPS、传播病毒   | hxxps://sgnfyn[.]oss-cn-shenzhen[.]aliyuncs[.]com/wps-setup-1[.]5[.]69[.]zip |                            无                            | Z081 |
-| 2026/1/26 |     hxxps://pc[.]wps-offce[.]cn     |   仿冒 WPS、传播病毒   | hxxps://wps03[.]oss-cn-hongkong[.]aliyuncs[.]com/WPS_Setup_17147_4[.]1[.]zip |                            无                            | Z082 |
-| 2026/1/26 |      hxxps://of-wps[.]com[.]cn      |   仿冒 WPS、传播病毒   |     hxxps://jkem45[.]gcdndo[.]com/gou_pinyin15[.]4[.]zip     |                            无                            | Z083 |
-| 2026/1/26 |      hxxps://i-wps[.]com[.]cn       |   仿冒 WPS、传播病毒   | hxxps://sgnfyn[.]oss-cn-shenzhen[.]aliyuncs[.]com/wps-setup1[.]8[.]6[.]18[.]zip |                            无                            | Z084 |
-| 2026/1/28 |     hxxps://www[.]to-desk[.]cn      | 仿冒 ToDesk、传播病毒  |                              无                              |                            无                            | Z085 |
-| 2026/1/28 |     hxxps://www[.]todeska[.]com     | 仿冒 ToDesk、传播病毒  | hxxps://pub-8f57965f8599440e97ac52dbcca4fc58[.]r2[.]dev/Sqveiqrgbuniasncoigenr[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3765012) | Z086 |
-| 2026/1/28 |     hxxps://www[.]todeski[.]com     | 仿冒 ToDesk、传播病毒  | hxxps://pub-8f57965f8599440e97ac52dbcca4fc58[.]r2[.]dev/Sqveiqrgbuniasncoigenr[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3765012) | Z087 |
-| 2026/1/28 |    hxxps://zh-todesk[.]com[.]cn     | 仿冒 ToDesk、传播病毒  |                              有                              |                            无                            | Z088 |
-| 2026/1/28 |       hxxps://toamndkf[.]cyou       | 仿冒 ToDesk、传播病毒  | hxxps://pub-8f57965f8599440e97ac52dbcca4fc58[.]r2[.]dev/Sqveiqrgbuniasncoigenr[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3765012) | Z089 |
-| 2026/1/30 |    hxxps://mail[.]qcqzaa[.]shop     |   钓鱼网站、QQ 盗号    |                              无                              |                            无                            | Z090 |
-| 2026/1/31 |   hxxps://appb-youdao[.]com[.]cn    | 仿冒有道翻译、传播病毒 | hxxps://youdao02[.]oss-cn-hongkong[.]aliyuncs[.]com/Youdao02Dict_fanyiweb_navigation[.]zip |                            无                            | Z091 |
-| 2026/1/31 |      hxxps://apps-youdao[.]com      | 仿冒有道翻译、传播病毒 | hxxps://xinjiapox[.]oss-ap-southeast-1[.]aliyuncs[.]com/youdaofanyi058[.]zip |                            无                            | Z092 |
-| 2026/1/31 |    hxxps://wp-youdao[.]com[.]cn     | 仿冒有道翻译、传播病毒 | hxxps://ww3[.]wangmeipo[.]cn/api/v3/file/get/44036/youdaofanyi261301620[.]zip?sign=KofEYK49f-d63hzDE0LkCe1M8gE7gNLvEBpnCjyGzOI%3D%3A0 |                            无                            | Z093 |
-| 2026/1/31 |    hxxps://www[.]cp-youdao[.]com    | 仿冒有道翻译、传播病毒 |                              无                              |                            无                            | Z094 |
-| 2026/1/31 |    hxxps://cn-youdao[.]com[.]cn     | 仿冒有道翻译、传播病毒 |                              无                              |                            无                            | Z095 |
-| 2026/1/31 |    hxxps://ai-youdao[.]com[.]cn     | 仿冒有道翻译、传播病毒 | hxxps://ww3[.]wangmeipo[.]cn/api/v3/file/get/44036/youdaofanyi261301620[.]zip?sign=KofEYK49f-d63hzDE0LkCe1M8gE7gNLvEBpnCjyGzOI%3D%3A0 |                            无                            | Z096 |
-| 2026/2/2  |    hxxps://wps-offics[.]com[.]cn    |   仿冒 WPS、传播病毒   |   hxxps://download[.]wpscn[.]sbs/downloads/downloads[.]php   |                            无                            | Z097 |
-| 2026/2/2  |      hxxp://sg-wps[.]com[.]cn       |   仿冒 WPS、传播病毒   |                              无                              |                            无                            | Z098 |
-| 2026/2/2  |  hxxps://sgp-wpsoffice[.]com[.]cn   |   仿冒 WPS、传播病毒   |                              无                              |                            无                            | Z099 |
-| 2026/2/2  |      hxxps://u-wps[.]com[.]cn       |   仿冒 WPS、传播病毒   |                              有                              |                            无                            | Z100 |
-| 2026/2/2  |    hxxps://wps-wpsapp[.]com[.]cn    |   仿冒 WPS、传播病毒   |   hxxps://download[.]wpscn[.]sbs/downloads/downloads[.]php   |                            无                            | Z101 |
-| 2026/2/2  |  hxxps://for-wpsoffice[.]com[.]cn   |   仿冒 WPS、传播病毒   | hxxps://wps-cn-ci[.]wpscdn[.]cn/wps/download/ep/WPS2019_15344[.]exe |                            无                            | Z102 |
-| 2026/2/2  |   hxxps://www[.]am-wps[.]com[.]cn   |   仿冒 WPS、传播病毒   |                              无                              |                            无                            | Z103 |
-|  ——————   |        ————————————————————         |    ———————————————     |                ——————————————————————————————                |                        ——————————                        | ———  |
+|   日期    |                 URL                  |          类别          |                           有效载荷                           |                         URLhaus                          | 编号 |
+| :-------: | :----------------------------------: | :--------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
+| 2026/1/26 | hxxps://cn-app-wpsoffice[.]com[.]cn  |   仿冒 WPS、传播病毒   | hxxps://www-dfsdhsr-bssbdd[.]com[.]cn/assets/download/LWPSFW-FWFInstaller_SetupX64[.]zip |                            无                            | Z080 |
+| 2026/1/26 |   hxxps://www[.]cc-wps[.]com[.]cn    |   仿冒 WPS、传播病毒   | hxxps://sgnfyn[.]oss-cn-shenzhen[.]aliyuncs[.]com/wps-setup-1[.]5[.]69[.]zip |                            无                            | Z081 |
+| 2026/1/26 |     hxxps://pc[.]wps-offce[.]cn      |   仿冒 WPS、传播病毒   | hxxps://wps03[.]oss-cn-hongkong[.]aliyuncs[.]com/WPS_Setup_17147_4[.]1[.]zip |                            无                            | Z082 |
+| 2026/1/26 |      hxxps://of-wps[.]com[.]cn       |   仿冒 WPS、传播病毒   |     hxxps://jkem45[.]gcdndo[.]com/gou_pinyin15[.]4[.]zip     |                            无                            | Z083 |
+| 2026/1/26 |       hxxps://i-wps[.]com[.]cn       |   仿冒 WPS、传播病毒   | hxxps://sgnfyn[.]oss-cn-shenzhen[.]aliyuncs[.]com/wps-setup1[.]8[.]6[.]18[.]zip |                            无                            | Z084 |
+| 2026/1/28 |      hxxps://www[.]to-desk[.]cn      | 仿冒 ToDesk、传播病毒  |                              无                              |                            无                            | Z085 |
+| 2026/1/28 |     hxxps://www[.]todeska[.]com      | 仿冒 ToDesk、传播病毒  | hxxps://pub-8f57965f8599440e97ac52dbcca4fc58[.]r2[.]dev/Sqveiqrgbuniasncoigenr[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3765012) | Z086 |
+| 2026/1/28 |     hxxps://www[.]todeski[.]com      | 仿冒 ToDesk、传播病毒  | hxxps://pub-8f57965f8599440e97ac52dbcca4fc58[.]r2[.]dev/Sqveiqrgbuniasncoigenr[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3765012) | Z087 |
+| 2026/1/28 |     hxxps://zh-todesk[.]com[.]cn     | 仿冒 ToDesk、传播病毒  |                              有                              |                            无                            | Z088 |
+| 2026/1/28 |       hxxps://toamndkf[.]cyou        | 仿冒 ToDesk、传播病毒  | hxxps://pub-8f57965f8599440e97ac52dbcca4fc58[.]r2[.]dev/Sqveiqrgbuniasncoigenr[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3765012) | Z089 |
+| 2026/1/30 |     hxxps://mail[.]qcqzaa[.]shop     |   钓鱼网站、QQ 盗号    |                              无                              |                            无                            | Z090 |
+| 2026/1/31 |    hxxps://appb-youdao[.]com[.]cn    | 仿冒有道翻译、传播病毒 | hxxps://youdao02[.]oss-cn-hongkong[.]aliyuncs[.]com/Youdao02Dict_fanyiweb_navigation[.]zip |                            无                            | Z091 |
+| 2026/1/31 |      hxxps://apps-youdao[.]com       | 仿冒有道翻译、传播病毒 | hxxps://xinjiapox[.]oss-ap-southeast-1[.]aliyuncs[.]com/youdaofanyi058[.]zip |                            无                            | Z092 |
+| 2026/1/31 |     hxxps://wp-youdao[.]com[.]cn     | 仿冒有道翻译、传播病毒 | hxxps://ww3[.]wangmeipo[.]cn/api/v3/file/get/44036/youdaofanyi261301620[.]zip?sign=KofEYK49f-d63hzDE0LkCe1M8gE7gNLvEBpnCjyGzOI%3D%3A0 |                            无                            | Z093 |
+| 2026/1/31 |    hxxps://www[.]cp-youdao[.]com     | 仿冒有道翻译、传播病毒 |                              无                              |                            无                            | Z094 |
+| 2026/1/31 |     hxxps://cn-youdao[.]com[.]cn     | 仿冒有道翻译、传播病毒 |                              无                              |                            无                            | Z095 |
+| 2026/1/31 |     hxxps://ai-youdao[.]com[.]cn     | 仿冒有道翻译、传播病毒 | hxxps://ww3[.]wangmeipo[.]cn/api/v3/file/get/44036/youdaofanyi261301620[.]zip?sign=KofEYK49f-d63hzDE0LkCe1M8gE7gNLvEBpnCjyGzOI%3D%3A0 |                            无                            | Z096 |
+| 2026/2/2  |    hxxps://wps-offics[.]com[.]cn     |   仿冒 WPS、传播病毒   |   hxxps://download[.]wpscn[.]sbs/downloads/downloads[.]php   |                            无                            | Z097 |
+| 2026/2/2  |       hxxp://sg-wps[.]com[.]cn       |   仿冒 WPS、传播病毒   |                              无                              |                            无                            | Z098 |
+| 2026/2/2  |   hxxps://sgp-wpsoffice[.]com[.]cn   |   仿冒 WPS、传播病毒   |                              无                              |                            无                            | Z099 |
+| 2026/2/2  |       hxxps://u-wps[.]com[.]cn       |   仿冒 WPS、传播病毒   |                              有                              |                            无                            | Z100 |
+| 2026/2/2  |    hxxps://wps-wpsapp[.]com[.]cn     |   仿冒 WPS、传播病毒   |   hxxps://download[.]wpscn[.]sbs/downloads/downloads[.]php   |                            无                            | Z101 |
+| 2026/2/2  |   hxxps://for-wpsoffice[.]com[.]cn   |   仿冒 WPS、传播病毒   | hxxps://wps-cn-ci[.]wpscdn[.]cn/wps/download/ep/WPS2019_15344[.]exe |                            无                            | Z102 |
+| 2026/2/2  |   hxxps://www[.]am-wps[.]com[.]cn    |   仿冒 WPS、传播病毒   |                              无                              |                            无                            | Z103 |
+| 2026/2/3  | hxxps://cn[.]co-wpsoffice[.]com[.]cn |   仿冒 WPS、传播病毒   | hxxps://fiveeightfourthree[.]oss-us-west-1[.]aliyuncs[.]com/wpsoffice_12[.]1[.]zip |                            无                            | Z104 |
+| 2026/2/3  |     hxxps://www[.]word-cn[.]com      |  仿冒 Word、传播病毒   |                              无                              |                            无                            | Z105 |
+|  ——————   |         ————————————————————         |    ———————————————     |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
 >
