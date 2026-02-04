@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 2 月 4 日 14:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 2 月 4 日 15:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 2 月 4 日，已打击计算机病毒 / 恶意软件 371 个、恶意网站 105 个**。
+&emsp;&emsp;**截至 2026 年 2 月 4 日，已打击计算机病毒 / 恶意软件 370 个、恶意网站 105 个**。
 
 ---
 
@@ -93,9 +93,8 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/4 |        123321.exe         |  **Win64/Malgent!MSR**  | 784f91bd483172f27ff0a65795b1fe7911e3d4f2293b190ab4db0a79b9acc783 | 141391cd-0cd7-42a4-90b3-f3380b2bdab0 | [VirusTotal](https://www.virustotal.com/gui/file/784f91bd483172f27ff0a65795b1fe7911e3d4f2293b190ab4db0a79b9acc783) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/784f91bd483172f27ff0a65795b1fe7911e3d4f2293b190ab4db0a79b9acc783) | A366 |
 | 2026/2/4 | cloudflared_installer.exe |  **Win32/Malgent!MSR**  | 6152b2d71d575a61f12a0d7cc56ac04387493c330b1fb8c934f5e1b9f755ef53 | 9f534027-e41f-4471-93ad-72190aa679df | [VirusTotal](https://www.virustotal.com/gui/file/6152b2d71d575a61f12a0d7cc56ac04387493c330b1fb8c934f5e1b9f755ef53) (10) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/6152b2d71d575a61f12a0d7cc56ac04387493c330b1fb8c934f5e1b9f755ef53) | A367 |
 | 2026/2/4 |       MoveWrite.exe       |  **Win32/Malgent!MSR**  | dc0adb03fd833ab70b582fc092d5e5e511669abb125c41660e3d4ee3b95163b1 | 247d095e-b125-48f2-b773-6fad019bd194 | [VirusTotal](https://www.virustotal.com/gui/file/dc0adb03fd833ab70b582fc092d5e5e511669abb125c41660e3d4ee3b95163b1) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/dc0adb03fd833ab70b582fc092d5e5e511669abb125c41660e3d4ee3b95163b1) | A368 |
-| 2026/2/4 |        569Bxgo.exe        |         研究中          | 4399c0889ab9ce999f4724d78f372dab4f2d31e1c4b229c409f1c6da942be435 | 923dbd13-27cc-4d25-b6af-7997ff5d1b2c | [VirusTotal](https://www.virustotal.com/gui/file/4399c0889ab9ce999f4724d78f372dab4f2d31e1c4b229c409f1c6da942be435) (10) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/4399c0889ab9ce999f4724d78f372dab4f2d31e1c4b229c409f1c6da942be435) | A369 |
-| 2026/2/4 |      DataAuthSvc.exe      |         研究中          | 5267fff6399de9a9b8f1901e7596b641647a1fb6a542b391928c349074b34f6e |                                      | [VirusTotal](https://www.virustotal.com/gui/search/5267fff6399de9a9b8f1901e7596b641647a1fb6a542b391928c349074b34f6e) (8) |                  [MalwareBazaar Database]()                  | A370 |
-| 2026/2/4 |     single_file_2.exe     |         研究中          | 6236c5953c75e945068b55384d2b537ebd48612befd259f25cc68fc11c1bd0b0 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/6236c5953c75e945068b55384d2b537ebd48612befd259f25cc68fc11c1bd0b0) (4) |                  [MalwareBazaar Database]()                  | A371 |
+| 2026/2/4 |        569Bxgo.exe        |  **Win32/Malgent!MSR**  | 4399c0889ab9ce999f4724d78f372dab4f2d31e1c4b229c409f1c6da942be435 | 923dbd13-27cc-4d25-b6af-7997ff5d1b2c | [VirusTotal](https://www.virustotal.com/gui/file/4399c0889ab9ce999f4724d78f372dab4f2d31e1c4b229c409f1c6da942be435) (10) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/4399c0889ab9ce999f4724d78f372dab4f2d31e1c4b229c409f1c6da942be435) | A369 |
+| 2026/2/4 |      DataAuthSvc.exe      |  **Win32/Malgent!MSR**  | 5267fff6399de9a9b8f1901e7596b641647a1fb6a542b391928c349074b34f6e | 4ee09e28-029f-4293-a7b5-0e0d756ea8ac | [VirusTotal](https://www.virustotal.com/gui/search/5267fff6399de9a9b8f1901e7596b641647a1fb6a542b391928c349074b34f6e) (8) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5267fff6399de9a9b8f1901e7596b641647a1fb6a542b391928c349074b34f6e) | A370 |
 |  ——————  |       ————————————        |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
