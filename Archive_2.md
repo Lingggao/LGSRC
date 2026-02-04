@@ -89,6 +89,11 @@
 | 2026/1/24 |      hxxps://www[.]gmailpc[.]com       |    仿冒 Gmail、传播病毒     | hxxps://pub-74506ace261846d4bfc80d45a1f06b40[.]r2[.]dev/GTRF19[.]3-6[.]rar | [URLhaus Database](https://urlhaus.abuse.ch/url/3762967) | Z077 |
 | 2026/1/24 |      hxxps://www[.]lineopc[.]com       |     仿冒 LINE、传播病毒     | hxxps://pub-f3a5f16c0d0b45eab9e2e6a05a61d733[.]r2[.]dev/Loiu9s361[.]rar | [URLhaus Database](https://urlhaus.abuse.ch/url/3762959) | Z078 |
 | 2026/1/24 |     hxxps://www[.]googleyzq1[.]com     |   仿冒 Google 身份验证器    | hxxps://pub-1ec812ea405b44f9976acd137f20fe96[.]r2[.]dev/Yghs1[.]3[.]6[.]rar | [URLhaus Database](https://urlhaus.abuse.ch/url/3762966) | Z079 |
+| 2026/1/26 |  hxxps://cn-app-wpsoffice[.]com[.]cn   |     仿冒 WPS、传播病毒      | hxxps://www-dfsdhsr-bssbdd[.]com[.]cn/assets/download/LWPSFW-FWFInstaller_SetupX64[.]zip |                            无                            | Z080 |
+| 2026/1/26 |    hxxps://www[.]cc-wps[.]com[.]cn     |     仿冒 WPS、传播病毒      | hxxps://sgnfyn[.]oss-cn-shenzhen[.]aliyuncs[.]com/wps-setup-1[.]5[.]69[.]zip |                            无                            | Z081 |
+| 2026/1/26 |      hxxps://pc[.]wps-offce[.]cn       |     仿冒 WPS、传播病毒      | hxxps://wps03[.]oss-cn-hongkong[.]aliyuncs[.]com/WPS_Setup_17147_4[.]1[.]zip |                            无                            | Z082 |
+| 2026/1/26 |       hxxps://of-wps[.]com[.]cn        |     仿冒 WPS、传播病毒      |     hxxps://jkem45[.]gcdndo[.]com/gou_pinyin15[.]4[.]zip     |                            无                            | Z083 |
+| 2026/1/26 |        hxxps://i-wps[.]com[.]cn        |     仿冒 WPS、传播病毒      | hxxps://sgnfyn[.]oss-cn-shenzhen[.]aliyuncs[.]com/wps-setup1[.]8[.]6[.]18[.]zip |                            无                            | Z084 |
 |  ——————   |          ————————————————————          |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
