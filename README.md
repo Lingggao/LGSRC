@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 2 月 3 日 20:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 2 月 4 日 12:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 2 月 3 日，已打击计算机病毒 / 恶意软件 369 个、恶意网站 105 个**。
+&emsp;&emsp;**截至 2026 年 2 月 4 日，已打击计算机病毒 / 恶意软件 368 个、恶意网站 105 个**。
 
 ---
 
@@ -89,11 +89,10 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/3 |       chromasj.msi        |  **Win32/Malgent!MSR**  | 1942b8e87183ad52259060638ea36052cfbecdeae45c01879c0f4d22c044dca6 | 92e1d783-df35-4518-9a9b-5f44e878aa9f | [VirusTotal](https://www.virustotal.com/gui/file/1942b8e87183ad52259060638ea36052cfbecdeae45c01879c0f4d22c044dca6) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/1942b8e87183ad52259060638ea36052cfbecdeae45c01879c0f4d22c044dca6) | A362 |
 | 2026/2/3 |       E-Invoice.rar       |   **Win32/Vigorf.A**    | aa94291f9f25c61f4ef1181043c6c402b238774620603716ceea6412a9f29cc5 | 4b93d837-7d79-41e1-8b96-3eec130d47ec | [VirusTotal](https://www.virustotal.com/gui/file/aa94291f9f25c61f4ef1181043c6c402b238774620603716ceea6412a9f29cc5) (29) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/aa94291f9f25c61f4ef1181043c6c402b238774620603716ceea6412a9f29cc5) | A363 |
 | 2026/2/3 |          333.msi          |  **Win32/Malgent!MSR**  | c7f7467468ff31acef0ea15d0017a9788ba7c019e62a07ac9c951fca841c581d | 7e7c71e3-832e-4b9c-ad38-8f1ecd917767 | [VirusTotal](https://www.virustotal.com/gui/file/c7f7467468ff31acef0ea15d0017a9788ba7c019e62a07ac9c951fca841c581d) (4) |                              无                              | A364 |
-| 2026/2/3 |  点击安装中文语言包.exe   |         研究中          | aa0f1ee47250cddf353056ee05029b4cf107ca0dabcf8aa31dbef7f5ac54bb6c | cd416624-f6ee-453e-90b5-1b916bc66865 | [VirusTotal](https://www.virustotal.com/gui/file/aa0f1ee47250cddf353056ee05029b4cf107ca0dabcf8aa31dbef7f5ac54bb6c) (2) |                  [MalwareBazaar Database]()                  | A365 |
-| 2026/2/3 |     64位安装包···.exe     |         研究中          | a2c59ea0b830d2d773c08a66df43506972b780ed7bd26f80308763247be64e09 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/a2c59ea0b830d2d773c08a66df43506972b780ed7bd26f80308763247be64e09) (33) |                  [MalwareBazaar Database]()                  | A366 |
-| 2026/2/3 |        123321.exe         |         研究中          | 784f91bd483172f27ff0a65795b1fe7911e3d4f2293b190ab4db0a79b9acc783 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/784f91bd483172f27ff0a65795b1fe7911e3d4f2293b190ab4db0a79b9acc783) (11) |                  [MalwareBazaar Database]()                  | A367 |
-| 2026/2/3 | cloudflared_installer.exe |         研究中          | 6152b2d71d575a61f12a0d7cc56ac04387493c330b1fb8c934f5e1b9f755ef53 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/6152b2d71d575a61f12a0d7cc56ac04387493c330b1fb8c934f5e1b9f755ef53) (10) |                  [MalwareBazaar Database]()                  | A368 |
-| 2026/2/3 |       MoveWrite.exe       |         研究中          | dc0adb03fd833ab70b582fc092d5e5e511669abb125c41660e3d4ee3b95163b1 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/dc0adb03fd833ab70b582fc092d5e5e511669abb125c41660e3d4ee3b95163b1) (5) |                  [MalwareBazaar Database]()                  | A369 |
+| 2026/2/4 |     64位安装包···.exe     |  **Win64/Malgent!MSR**  | a2c59ea0b830d2d773c08a66df43506972b780ed7bd26f80308763247be64e09 | 35e40d9b-03f1-4667-a967-3a46f435e3d0 | [VirusTotal](https://www.virustotal.com/gui/file/a2c59ea0b830d2d773c08a66df43506972b780ed7bd26f80308763247be64e09) (33) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a2c59ea0b830d2d773c08a66df43506972b780ed7bd26f80308763247be64e09) | A365 |
+| 2026/2/4 |        123321.exe         |  **Win64/Malgent!MSR**  | 784f91bd483172f27ff0a65795b1fe7911e3d4f2293b190ab4db0a79b9acc783 | 141391cd-0cd7-42a4-90b3-f3380b2bdab0 | [VirusTotal](https://www.virustotal.com/gui/file/784f91bd483172f27ff0a65795b1fe7911e3d4f2293b190ab4db0a79b9acc783) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/784f91bd483172f27ff0a65795b1fe7911e3d4f2293b190ab4db0a79b9acc783) | A366 |
+| 2026/2/4 | cloudflared_installer.exe |  **Win32/Malgent!MSR**  | 6152b2d71d575a61f12a0d7cc56ac04387493c330b1fb8c934f5e1b9f755ef53 | 9f534027-e41f-4471-93ad-72190aa679df | [VirusTotal](https://www.virustotal.com/gui/file/6152b2d71d575a61f12a0d7cc56ac04387493c330b1fb8c934f5e1b9f755ef53) (10) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/6152b2d71d575a61f12a0d7cc56ac04387493c330b1fb8c934f5e1b9f755ef53) | A367 |
+| 2026/2/4 |       MoveWrite.exe       |  **Win32/Malgent!MSR**  | dc0adb03fd833ab70b582fc092d5e5e511669abb125c41660e3d4ee3b95163b1 | 247d095e-b125-48f2-b773-6fad019bd194 | [VirusTotal](https://www.virustotal.com/gui/file/dc0adb03fd833ab70b582fc092d5e5e511669abb125c41660e3d4ee3b95163b1) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/dc0adb03fd833ab70b582fc092d5e5e511669abb125c41660e3d4ee3b95163b1) | A368 |
 |  ——————  |       ————————————        |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
