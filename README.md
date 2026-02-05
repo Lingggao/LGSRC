@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 2 月 5 日 10:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 2 月 5 日 13:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 2 月 5 日，已打击计算机病毒 / 恶意软件 378 个、恶意网站 111 个**。
+&emsp;&emsp;**截至 2026 年 2 月 5 日，已打击计算机病毒 / 恶意软件 379 个、恶意网站 111 个**。
 
 ---
 
@@ -94,6 +94,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/5 |   Clash.Verge_2.4.4.exe   | **Win32/Malgent!MSR**  | 930236706dac79e929ed51a0bc993b528e1efa6254a86ac653d49306fd078246 | 60df7178-8ada-4ab0-8d62-cee838876090 | [VirusTotal](https://www.virustotal.com/gui/file/930236706dac79e929ed51a0bc993b528e1efa6254a86ac653d49306fd078246) (20) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/930236706dac79e929ed51a0bc993b528e1efa6254a86ac653d49306fd078246) | A376 |
 | 2026/2/5 |  deep大模型安装助手.exe   | **Win32/Dropper!MSR**  | a5e8494d6df69947380c86e1d9661125397885a9251f9ee3b1459e1d0e0dbc01 | 46830dc6-24e0-4a57-9236-e5cf7af7e74f | [VirusTotal](https://www.virustotal.com/gui/file/a5e8494d6df69947380c86e1d9661125397885a9251f9ee3b1459e1d0e0dbc01) (9) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a5e8494d6df69947380c86e1d9661125397885a9251f9ee3b1459e1d0e0dbc01) | A377 |
 | 2026/2/5 |    xmrig_launcher.exe     | **Win32/CoinMiner.N**  | 208fbb1b50982f53fd65c6437e43147bc74899ad5f40863d7d95d9c6dfdc1bb3 | f9105c37-38c0-43df-8004-60e855c4f790 | [VirusTotal](https://www.virustotal.com/gui/file/208fbb1b50982f53fd65c6437e43147bc74899ad5f40863d7d95d9c6dfdc1bb3) (21) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/208fbb1b50982f53fd65c6437e43147bc74899ad5f40863d7d95d9c6dfdc1bb3) | A378 |
+| 2026/2/5 |   VC_radist.x64 (2).exe   | **Win32/Malgent!MSR**  | e86c74fc39924e5c86d3ede3098f5c0d5c1655e2414f9b19359f32e35608e670 | 6c668b46-22aa-4870-a3e0-a1c6affd6f75 | [VirusTotal](https://www.virustotal.com/gui/file/e86c74fc39924e5c86d3ede3098f5c0d5c1655e2414f9b19359f32e35608e670) (14) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/e86c74fc39924e5c86d3ede3098f5c0d5c1655e2414f9b19359f32e35608e670) | A379 |
 |  ——————  |       ————————————        |      ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
