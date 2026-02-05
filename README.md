@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 2 月 5 日 19:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 2 月 5 日 20:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 2 月 5 日，已打击计算机病毒 / 恶意软件 383 个、恶意网站 111 个**。
+&emsp;&emsp;**截至 2026 年 2 月 5 日，已打击计算机病毒 / 恶意软件 384 个、恶意网站 111 个**。
 
 ---
 
@@ -83,7 +83,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/4 |        569Bxgo.exe         | **Win32/Malgent!MSR**  | 4399c0889ab9ce999f4724d78f372dab4f2d31e1c4b229c409f1c6da942be435 | 923dbd13-27cc-4d25-b6af-7997ff5d1b2c | [VirusTotal](https://www.virustotal.com/gui/file/4399c0889ab9ce999f4724d78f372dab4f2d31e1c4b229c409f1c6da942be435) (10) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/4399c0889ab9ce999f4724d78f372dab4f2d31e1c4b229c409f1c6da942be435) | A369 |
 | 2026/2/4 |      DataAuthSvc.exe       | **Win32/Malgent!MSR**  | 5267fff6399de9a9b8f1901e7596b641647a1fb6a542b391928c349074b34f6e | 4ee09e28-029f-4293-a7b5-0e0d756ea8ac | [VirusTotal](https://www.virustotal.com/gui/search/5267fff6399de9a9b8f1901e7596b641647a1fb6a542b391928c349074b34f6e) (8) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5267fff6399de9a9b8f1901e7596b641647a1fb6a542b391928c349074b34f6e) | A370 |
 | 2026/2/4 |       3275ca7084.exe       | **Win64/Malgent!MSR**  | 0f233bed3f7e4f65ff7ef8045f61b5496c93ad1a08a26b439a365d6310d24930 | 7b977a3b-0516-404c-8598-c7e3c9e4ebb4 | [VirusTotal](https://www.virustotal.com/gui/file/0f233bed3f7e4f65ff7ef8045f61b5496c93ad1a08a26b439a365d6310d24930) (36) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/0f233bed3f7e4f65ff7ef8045f61b5496c93ad1a08a26b439a365d6310d24930) | A371 |
-| 2026/2/4 |        被骗园区.exe        |  **Win32/Sonbokli.A**  | 6600e79da01251789f8cfd6599d9f22edf1a6c4e3e8fb8a4123757bdcc26de57 | 7b977a3b-0516-404c-8598-c7e3c9e4ebb4 | [VirusTotal](https://www.virustotal.com/gui/search/6600e79da01251789f8cfd6599d9f22edf1a6c4e3e8fb8a4123757bdcc26de57) (27) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/6600e79da01251789f8cfd6599d9f22edf1a6c4e3e8fb8a4123757bdcc26de57) | A372 |
+| 2026/2/4 |     ···被骗园区···.exe     |  **Win32/Sonbokli.A**  | 6600e79da01251789f8cfd6599d9f22edf1a6c4e3e8fb8a4123757bdcc26de57 | 7b977a3b-0516-404c-8598-c7e3c9e4ebb4 | [VirusTotal](https://www.virustotal.com/gui/search/6600e79da01251789f8cfd6599d9f22edf1a6c4e3e8fb8a4123757bdcc26de57) (27) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/6600e79da01251789f8cfd6599d9f22edf1a6c4e3e8fb8a4123757bdcc26de57) | A372 |
 | 2026/2/4 |     gou_pinyin15.4.msi     |  **Win32/Wacatac.B**   | 71ff5c5a41717f165df07c1a94f141b286e1790bce9419f628d0f29046898910 | 89a8ee54-9287-46f9-9972-3184065cd945 | [VirusTotal](https://www.virustotal.com/gui/file/71ff5c5a41717f165df07c1a94f141b286e1790bce9419f628d0f29046898910) (3) |                              无                              | A373 |
 | 2026/2/4 |    SG.Setup.0.2.0.1.exe    |  **Win32/Etset!rfn**   | 7867e9f5be414c804a64723ce52b8de7bfa678b5aab2689d4d43eedda460edd7 | f89eaa4c-df5a-4a89-a7e1-d78f063b699c | [VirusTotal](https://www.virustotal.com/gui/file/7867e9f5be414c804a64723ce52b8de7bfa678b5aab2689d4d43eedda460edd7) (23) |                              无                              | A374 |
 | 2026/2/4 |   sluvou_pinyin5.024.exe   | **Win32/Malgent!MSR**  | 64656eea38a3bd645f8cee25c7ce8b0f41a8bce4a8471a5a14f34c5ef38bed00 | 2206ce35-6e01-43ef-88d4-25cd5c18ffe3 | [VirusTotal](https://www.virustotal.com/gui/file/64656eea38a3bd645f8cee25c7ce8b0f41a8bce4a8471a5a14f34c5ef38bed00) (7) |                              无                              | A375 |
@@ -95,6 +95,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/5 | ···违纪人员内部调查···.exe | **Win32/Malgent!MSR**  | ed1c730a532dab5f4e9b3194437ab3fa5b03948869773b5347671950e0641a43 | 64e32828-7e1f-40d2-b42b-3e366f03eacd | [VirusTotal](https://www.virustotal.com/gui/file/ed1c730a532dab5f4e9b3194437ab3fa5b03948869773b5347671950e0641a43) (33) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/ed1c730a532dab5f4e9b3194437ab3fa5b03948869773b5347671950e0641a43) | A381 |
 | 2026/2/5 |       202602053.msi        |   **Win32/Vigorf.A**   | 979f8470bc155a62d32041c37bfc8c8abdfec193338ab27940560181899d800a | fab6dce4-7e6d-4581-a2ad-2722787f6e0a | [VirusTotal](https://www.virustotal.com/gui/file/979f8470bc155a62d32041c37bfc8c8abdfec193338ab27940560181899d800a) (9) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/979f8470bc155a62d32041c37bfc8c8abdfec193338ab27940560181899d800a) | A382 |
 | 2026/2/5 |        chromasj.msi        | **Win64/Malgent!MSR**  | 74bee981edd3316032cae86dde78b3d57dae950302f70d154b3d746495b1ab7a | 211d6da1-1a60-4b90-a276-f4a0170c9787 | [VirusTotal](https://www.virustotal.com/gui/file/74bee981edd3316032cae86dde78b3d57dae950302f70d154b3d746495b1ab7a) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/74bee981edd3316032cae86dde78b3d57dae950302f70d154b3d746495b1ab7a) | A383 |
+| 2026/2/5 |     YD_fanyiweb···.exe     |         研究中         | 4bccf7f4713dcd31319f9349fe90352a93e40290149101f7fd22f4961282408a | be44a0eb-737b-404d-bdf0-5c71236b6714 | [VirusTotal](https://www.virustotal.com/gui/search/4bccf7f4713dcd31319f9349fe90352a93e40290149101f7fd22f4961282408a) (13) |                              无                              | A384 |
 |  ——————  |        ————————————        |      ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
