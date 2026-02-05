@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 2 月 4 日 21:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 2 月 5 日 10:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 2 月 4 日，已打击计算机病毒 / 恶意软件 378 个、恶意网站 111 个**。
+&emsp;&emsp;**截至 2026 年 2 月 5 日，已打击计算机病毒 / 恶意软件 378 个、恶意网站 111 个**。
 
 ---
 
@@ -91,9 +91,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/4 |    gou_pinyin15.4.msi     |  **Win32/Wacatac.B**   | 71ff5c5a41717f165df07c1a94f141b286e1790bce9419f628d0f29046898910 | 89a8ee54-9287-46f9-9972-3184065cd945 | [VirusTotal](https://www.virustotal.com/gui/file/71ff5c5a41717f165df07c1a94f141b286e1790bce9419f628d0f29046898910) (3) |                              无                              | A373 |
 | 2026/2/4 |   SG.Setup.0.2.0.1.exe    |  **Win32/Etset!rfn**   | 7867e9f5be414c804a64723ce52b8de7bfa678b5aab2689d4d43eedda460edd7 | f89eaa4c-df5a-4a89-a7e1-d78f063b699c | [VirusTotal](https://www.virustotal.com/gui/file/7867e9f5be414c804a64723ce52b8de7bfa678b5aab2689d4d43eedda460edd7) (23) |                              无                              | A374 |
 | 2026/2/4 |  sluvou_pinyin5.024.exe   | **Win32/Malgent!MSR**  | 64656eea38a3bd645f8cee25c7ce8b0f41a8bce4a8471a5a14f34c5ef38bed00 | 2206ce35-6e01-43ef-88d4-25cd5c18ffe3 | [VirusTotal](https://www.virustotal.com/gui/file/64656eea38a3bd645f8cee25c7ce8b0f41a8bce4a8471a5a14f34c5ef38bed00) (7) |                              无                              | A375 |
-| 2026/2/4 |   Clash.Verge_2.4.4.exe   |         研究中         | 930236706dac79e929ed51a0bc993b528e1efa6254a86ac653d49306fd078246 | 60df7178-8ada-4ab0-8d62-cee838876090 | [VirusTotal](https://www.virustotal.com/gui/file/930236706dac79e929ed51a0bc993b528e1efa6254a86ac653d49306fd078246) (20) |                  [MalwareBazaar Database]()                  | A376 |
-| 2026/2/4 |  deep大模型安装助手.exe   |         研究中         | a5e8494d6df69947380c86e1d9661125397885a9251f9ee3b1459e1d0e0dbc01 | 46830dc6-24e0-4a57-9236-e5cf7af7e74f | [VirusTotal](https://www.virustotal.com/gui/file/a5e8494d6df69947380c86e1d9661125397885a9251f9ee3b1459e1d0e0dbc01) (9) |                  [MalwareBazaar Database]()                  | A377 |
-| 2026/2/4 |    xmrig_launcher.exe     |         研究中         | 208fbb1b50982f53fd65c6437e43147bc74899ad5f40863d7d95d9c6dfdc1bb3 | f9105c37-38c0-43df-8004-60e855c4f790 | [VirusTotal](https://www.virustotal.com/gui/file/208fbb1b50982f53fd65c6437e43147bc74899ad5f40863d7d95d9c6dfdc1bb3) (21) |                  [MalwareBazaar Database]()                  | A378 |
+| 2026/2/5 |   Clash.Verge_2.4.4.exe   | **Win32/Malgent!MSR**  | 930236706dac79e929ed51a0bc993b528e1efa6254a86ac653d49306fd078246 | 60df7178-8ada-4ab0-8d62-cee838876090 | [VirusTotal](https://www.virustotal.com/gui/file/930236706dac79e929ed51a0bc993b528e1efa6254a86ac653d49306fd078246) (20) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/930236706dac79e929ed51a0bc993b528e1efa6254a86ac653d49306fd078246) | A376 |
+| 2026/2/5 |  deep大模型安装助手.exe   | **Win32/Dropper!MSR**  | a5e8494d6df69947380c86e1d9661125397885a9251f9ee3b1459e1d0e0dbc01 | 46830dc6-24e0-4a57-9236-e5cf7af7e74f | [VirusTotal](https://www.virustotal.com/gui/file/a5e8494d6df69947380c86e1d9661125397885a9251f9ee3b1459e1d0e0dbc01) (9) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a5e8494d6df69947380c86e1d9661125397885a9251f9ee3b1459e1d0e0dbc01) | A377 |
+| 2026/2/5 |    xmrig_launcher.exe     | **Win32/CoinMiner.N**  | 208fbb1b50982f53fd65c6437e43147bc74899ad5f40863d7d95d9c6dfdc1bb3 | f9105c37-38c0-43df-8004-60e855c4f790 | [VirusTotal](https://www.virustotal.com/gui/file/208fbb1b50982f53fd65c6437e43147bc74899ad5f40863d7d95d9c6dfdc1bb3) (21) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/208fbb1b50982f53fd65c6437e43147bc74899ad5f40863d7d95d9c6dfdc1bb3) | A378 |
 |  ——————  |       ————————————        |      ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
