@@ -55,7 +55,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 2 月 7 日 2:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 2 月 7 日 1:00 (UTC+8)。
 
 &emsp;&emsp;**截至 2026 年 2 月 7 日，已打击计算机病毒 / 恶意软件 400 个、恶意网站 115 个**。
 
@@ -95,7 +95,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/7 |     AJiaSu_4.9.6.0.msi     | **Win64/Malgent!MSR** | 4410442a1ab1ddb19c40bec809ed78a7183cb28fbf990fa23ea6796c8f44357c | 07c94f2e-9e5e-4efe-ac9b-27d29b828f84 | [VirusTotal](https://www.virustotal.com/gui/file/4410442a1ab1ddb19c40bec809ed78a7183cb28fbf990fa23ea6796c8f44357c) (9) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/4410442a1ab1ddb19c40bec809ed78a7183cb28fbf990fa23ea6796c8f44357c) | A397 |
 | 2026/2/7 |       what's up.chm        |  **Win32/Vigorf.A**   | 5f0a8fb984f5fac8718e1cf760a3f997166ff968df2531a094cf615514072576 | fd6b3a43-c6a8-40d5-87e0-e58758bf78f8 | [VirusTotal](https://www.virustotal.com/gui/file/5f0a8fb984f5fac8718e1cf760a3f997166ff968df2531a094cf615514072576) (2) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5f0a8fb984f5fac8718e1cf760a3f997166ff968df2531a094cf615514072576) | A398 |
 | 2026/2/7 |    artifact_x64···.exe     |  **CobaltStrike.CB**  | 0b147b343a1e37a94d6e19b5400a5a4082dda5af715d475e8b03b02a5608de85 | 2966e369-0d46-47dc-a044-8e8ea32aa468 | [VirusTotal](https://www.virustotal.com/gui/file/0b147b343a1e37a94d6e19b5400a5a4082dda5af715d475e8b03b02a5608de85) (42) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/0b147b343a1e37a94d6e19b5400a5a4082dda5af715d475e8b03b02a5608de85) | A399 |
-| 2026/2/7 |     fs_windows···.exe      |        研究中         | d4483b235b21eb695eb5ddfff9467081dd486f78e9000a5e39d8ae2ce28e1d7d | 2966e369-0d46-47dc-a044-8e8ea32aa468 | [VirusTotal](https://www.virustotal.com/gui/file/d4483b235b21eb695eb5ddfff9467081dd486f78e9000a5e39d8ae2ce28e1d7d) (10) |                  [MalwareBazaar Database]()                  | A400 |
+| 2026/2/7 |     fs_windows···.exe      | **Win32/Malgent!MSR** | d4483b235b21eb695eb5ddfff9467081dd486f78e9000a5e39d8ae2ce28e1d7d | 2966e369-0d46-47dc-a044-8e8ea32aa468 | [VirusTotal](https://www.virustotal.com/gui/file/d4483b235b21eb695eb5ddfff9467081dd486f78e9000a5e39d8ae2ce28e1d7d) (10) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/d4483b235b21eb695eb5ddfff9467081dd486f78e9000a5e39d8ae2ce28e1d7d) | A400 |
 |  ——————  |        ————————————        |     ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
