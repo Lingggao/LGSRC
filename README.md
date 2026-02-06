@@ -55,7 +55,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 2 月 6 日 17:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 2 月 6 日 20:00 (UTC+8)。
 
 &emsp;&emsp;**截至 2026 年 2 月 6 日，已打击计算机病毒 / 恶意软件 394 个、恶意网站 115 个**。
 
