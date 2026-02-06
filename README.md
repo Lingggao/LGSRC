@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 2 月 6 日 20:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 2 月 6 日 23:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 2 月 6 日，已打击计算机病毒 / 恶意软件 394 个、恶意网站 115 个**。
+&emsp;&emsp;**截至 2026 年 2 月 6 日，已打击计算机病毒 / 恶意软件 396 个、恶意网站 115 个**。
 
 ---
 
@@ -95,6 +95,8 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/6 |     Yòydaofanyi···.msi     |  **Win32/Vigorf.A**   | 9a54f0b5417c8ae82f4bc423edf940d817c9585b385284a927ebd6a0b17c5399 | 0cd7ec5a-297a-4d16-a0bc-265e46f3c458 | [VirusTotal](https://www.virustotal.com/gui/file/9a54f0b5417c8ae82f4bc423edf940d817c9585b385284a927ebd6a0b17c5399) (9) |                              无                              | A392 |
 | 2026/2/6 |      WOS_SAN_088.exe       | **Win32/Malgent!MSR** | 0dee76d3f834ca80d6f14c312159f9cf3c3deb5f5894c0165ec2091f370474bc | d52bc050-1cfe-4031-bcf0-331309030066 | [VirusTotal](https://www.virustotal.com/gui/file/0dee76d3f834ca80d6f14c312159f9cf3c3deb5f5894c0165ec2091f370474bc) (3) |                              无                              | A393 |
 | 2026/2/6 |        Project1.exe        | **Win32/Malgent!MSR** | f2db3b97950873f2cf496bba7b50d63e5f734e9009ddd8bc70088a935f0a0357 | 4491bbf7-fd88-4c29-a06b-125910c63ddc | [VirusTotal](https://www.virustotal.com/gui/file/f2db3b97950873f2cf496bba7b50d63e5f734e9009ddd8bc70088a935f0a0357) (10) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/f2db3b97950873f2cf496bba7b50d63e5f734e9009ddd8bc70088a935f0a0357) | A394 |
+| 2026/2/6 |      迷你罗德···.exe       |   **Win32/Zusy.LM**   | 1563283dc6e72018240bc34062d30361ada87b6006f8ca554b01a2d780d80e2a | 5dc072ca-e4d8-4a9f-b71c-414fbcd99d53 | [VirusTotal](https://www.virustotal.com/gui/file/1563283dc6e72018240bc34062d30361ada87b6006f8ca554b01a2d780d80e2a) (29) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/1563283dc6e72018240bc34062d30361ada87b6006f8ca554b01a2d780d80e2a) | A395 |
+| 2026/2/6 |        explorer.exe        |   **GhostRat.CKD**    | f4541e8a44142832d5ad0897a22d88d0caab4ffc0179026906e9f19c3dbcffcb | ecd93426-464e-44eb-8cae-f9c06dd964d4 | [VirusTotal](https://www.virustotal.com/gui/file/f4541e8a44142832d5ad0897a22d88d0caab4ffc0179026906e9f19c3dbcffcb) (47) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/f4541e8a44142832d5ad0897a22d88d0caab4ffc0179026906e9f19c3dbcffcb) | A396 |
 |  ——————  |        ————————————        |     ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
