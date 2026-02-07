@@ -57,7 +57,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 &emsp;&emsp;上次更新时间：2026 年 2 月 7 日 19:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 2 月 7 日，已打击计算机病毒 / 恶意软件 405 个、恶意网站 115 个**。
+&emsp;&emsp;**截至 2026 年 2 月 7 日，已打击计算机病毒 / 恶意软件 406 个、恶意网站 115 个**。
 
 ---
 
@@ -94,6 +94,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/7 |        LetsVPN1.exe        | **Win32/Malgent!MSR**  | fcea800aba7df32845bbe7808e6c38791c99cb7710245f0e00db701db9a521e5 | 3f4e8568-c65a-4660-abf3-b518a4f012b6 | [VirusTotal](https://www.virustotal.com/gui/file/fcea800aba7df32845bbe7808e6c38791c99cb7710245f0e00db701db9a521e5) (6) |                              无                              | A403 |
 | 2026/2/7 |        LetsVPN2.exe        |  **Win32/Wacatac.C**   | 8334abf7a7af06479e6afa45ace0142d51e48c2b1f7bfb6f4d86f5eb3e8fa1e9 | c007c2dc-6d13-4c5b-a3bd-2baa53901813 | [VirusTotal](https://www.virustotal.com/gui/file/8334abf7a7af06479e6afa45ace0142d51e48c2b1f7bfb6f4d86f5eb3e8fa1e9) (21) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/8334abf7a7af06479e6afa45ace0142d51e48c2b1f7bfb6f4d86f5eb3e8fa1e9) | A404 |
 | 2026/2/7 |        LetsVPN4.exe        | **Win32/Malgent!MSR**  | 515a914e7d9336fa5e0feb6fb24e302884c0a0fc8e18aba333b59cdc5594a155 | e41eabba-a3dd-4383-940b-9788f46290ce | [VirusTotal](https://www.virustotal.com/gui/file/515a914e7d9336fa5e0feb6fb24e302884c0a0fc8e18aba333b59cdc5594a155) (28) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/515a914e7d9336fa5e0feb6fb24e302884c0a0fc8e18aba333b59cdc5594a155) | A405 |
+| 2026/2/7 |    Hfiannhosong···.exe     | **Win32/Malgent!MSR**  | da8dad7973c58eedead4973d73102e89019120e124641695590786ab711a9f3a | cced3dc7-3c96-4111-88a8-7365b58b5ef9 | [VirusTotal](https://www.virustotal.com/gui/file/da8dad7973c58eedead4973d73102e89019120e124641695590786ab711a9f3a) (20) |                              无                              | A406 |
 |  ——————  |        ————————————        |      ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
