@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 2 月 7 日 19:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 2 月 8 日 2:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 2 月 7 日，已打击计算机病毒 / 恶意软件 406 个、恶意网站 115 个**。
+&emsp;&emsp;**截至 2026 年 2 月 8 日，已打击计算机病毒 / 恶意软件 408 个、恶意网站 115 个**。
 
 ---
 
@@ -95,6 +95,8 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/7 |        LetsVPN2.exe        |  **Win32/Wacatac.C**   | 8334abf7a7af06479e6afa45ace0142d51e48c2b1f7bfb6f4d86f5eb3e8fa1e9 | c007c2dc-6d13-4c5b-a3bd-2baa53901813 | [VirusTotal](https://www.virustotal.com/gui/file/8334abf7a7af06479e6afa45ace0142d51e48c2b1f7bfb6f4d86f5eb3e8fa1e9) (21) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/8334abf7a7af06479e6afa45ace0142d51e48c2b1f7bfb6f4d86f5eb3e8fa1e9) | A404 |
 | 2026/2/7 |        LetsVPN4.exe        | **Win32/Malgent!MSR**  | 515a914e7d9336fa5e0feb6fb24e302884c0a0fc8e18aba333b59cdc5594a155 | e41eabba-a3dd-4383-940b-9788f46290ce | [VirusTotal](https://www.virustotal.com/gui/file/515a914e7d9336fa5e0feb6fb24e302884c0a0fc8e18aba333b59cdc5594a155) (28) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/515a914e7d9336fa5e0feb6fb24e302884c0a0fc8e18aba333b59cdc5594a155) | A405 |
 | 2026/2/7 |    Hfiannhosong···.exe     | **Win32/Malgent!MSR**  | da8dad7973c58eedead4973d73102e89019120e124641695590786ab711a9f3a | cced3dc7-3c96-4111-88a8-7365b58b5ef9 | [VirusTotal](https://www.virustotal.com/gui/file/da8dad7973c58eedead4973d73102e89019120e124641695590786ab711a9f3a) (20) |                              无                              | A406 |
+| 2026/2/7 |     toel_x64_G3.68.exe     | **Win32/Malgent!MSR**  | e3f569902bac951999029cdf555c84bd21667eebe8ba8aa5d5d5fe8b7669ff8c | 0d9ba54d-2180-44ab-b437-360eb34416df | [VirusTotal](https://www.virustotal.com/gui/file/e3f569902bac951999029cdf555c84bd21667eebe8ba8aa5d5d5fe8b7669ff8c) (11) |                              无                              | A407 |
+| 2026/2/7 |   H_World_Setup_INS.exe    | **Win32/Malgent!MSR**  | 89f8b6cade1808afcea0c700b66bd44802742299812c066298474326b5d0e90f | ec21653d-51d7-4b1c-b801-3fdf57d809d2 | [VirusTotal](https://www.virustotal.com/gui/file/89f8b6cade1808afcea0c700b66bd44802742299812c066298474326b5d0e90f) (27) |                              无                              | A408 |
 |  ——————  |        ————————————        |      ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
