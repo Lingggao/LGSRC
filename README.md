@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 2 月 8 日 16:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 2 月 8 日 17:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 2 月 8 日，已打击计算机病毒 / 恶意软件 412 个、恶意网站 119 个**。
+&emsp;&emsp;**截至 2026 年 2 月 8 日，已打击计算机病毒 / 恶意软件 413 个、恶意网站 121 个**。
 
 ---
 
@@ -69,10 +69,6 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 |   日期   |        文件名        |          检测          |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :------: | :------------------: | :--------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/2/6 |   secure_tool.exe    | **Win32/Egairtigado**  | 9f56f791d572e709207170057f565473a470d0837addda77e9ac06d07b38d468 | 305f9544-0981-41c5-9809-4e2a53046402 | [VirusTotal](https://www.virustotal.com/gui/file/9f56f791d572e709207170057f565473a470d0837addda77e9ac06d07b38d468) (27) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/9f56f791d572e709207170057f565473a470d0837addda77e9ac06d07b38d468) | A385 |
-| 2026/2/6 |    7zip_PC···.exe    | **Win32/Malgent!MSR**  | 6373afd213310e56556cb1c4c274aab36b34f638964f5cde822416ba2cc5468b | 6acf7086-5115-4fd1-ad87-a306d554d757 | [VirusTotal](https://www.virustotal.com/gui/file/6373afd213310e56556cb1c4c274aab36b34f638964f5cde822416ba2cc5468b) (27) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/6373afd213310e56556cb1c4c274aab36b34f638964f5cde822416ba2cc5468b) | A386 |
-| 2026/2/6 | Chrorne0af0-x64.exe  | **Win32/Malgent!MSR**  | 11102393d678f2cd98549207235bda614e2e1fb3ea56fbfca3fe919459aa1120 | f234a9ff-4f9e-4b5c-9611-3626928ac6b1 | [VirusTotal](https://www.virustotal.com/gui/file/11102393d678f2cd98549207235bda614e2e1fb3ea56fbfca3fe919459aa1120) (17) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/11102393d678f2cd98549207235bda614e2e1fb3ea56fbfca3fe919459aa1120) | A387 |
-| 2026/2/6 |   SExplorer···.exe   | **Win32/Malgent!MSR**  | 92555e71e83dae5af4a3fdd232f42767800ea9c91439ad54d64b66888bbc6d8c | 39fc93ce-fcf8-43b5-8acf-01895d21a06b | [VirusTotal](https://www.virustotal.com/gui/file/92555e71e83dae5af4a3fdd232f42767800ea9c91439ad54d64b66888bbc6d8c) (20) |                              无                              | A388 |
 | 2026/2/6 |       150.exe        | **Win32/Malgent!MSR**  | 8b87dd755de641e2c3f4e5e2db19e2df1e9d120f226e168bd4ed6d2212f45be1 | 27afb4a8-2e83-407c-92fd-8872ba50cd62 | [VirusTotal](https://www.virustotal.com/gui/file/8b87dd755de641e2c3f4e5e2db19e2df1e9d120f226e168bd4ed6d2212f45be1) (21) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/8b87dd755de641e2c3f4e5e2db19e2df1e9d120f226e168bd4ed6d2212f45be1) | A389 |
 | 2026/2/6 |     cherome.exe      | **Win32/Malgent!MSR**  | 26ddeea6d5171984cd054b33cab67970716611064972b44ed7297703d0848df1 | d63aca7f-d174-4263-89f1-cf9541208780 | [VirusTotal](https://www.virustotal.com/gui/file/26ddeea6d5171984cd054b33cab67970716611064972b44ed7297703d0848df1) (17) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/26ddeea6d5171984cd054b33cab67970716611064972b44ed7297703d0848df1) | A390 |
 | 2026/2/6 | meSetup13.2A···.msi  | **Win32/Malgent!MSR**  | 94620117e0c4878da2fa57362058aadd437f1639d3c6d1337b27b8c3070357cf | 3f8a76c0-228d-4992-8db9-353e1a393011 | [VirusTotal](https://www.virustotal.com/gui/file/94620117e0c4878da2fa57362058aadd437f1639d3c6d1337b27b8c3070357cf) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/94620117e0c4878da2fa57362058aadd437f1639d3c6d1337b27b8c3070357cf) | A391 |
@@ -97,6 +93,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/8 |    0206SETUP.exe     |  **CryptInject!MSR**   | 729c830b997d00d365ae4dadee5e26ce2a269df651c93a8337bde5084c66cc1a | 9b997412-3a6e-477f-ac28-bcc0baa624ea | [VirusTotal](https://www.virustotal.com/gui/file/729c830b997d00d365ae4dadee5e26ce2a269df651c93a8337bde5084c66cc1a) (26) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/729c830b997d00d365ae4dadee5e26ce2a269df651c93a8337bde5084c66cc1a) | A410 |
 | 2026/2/8 |  CarboraneAcid.exe   | **Win64/Malgent!MSR**  | 1974c75a8009c84626a53a1651b99be84c897cfd088d571f7f7c4db1ee4e7b0b | 0dbb6bf6-2e10-4c2f-95f2-52d18298d0f4 | [VirusTotal](https://www.virustotal.com/gui/file/1974c75a8009c84626a53a1651b99be84c897cfd088d571f7f7c4db1ee4e7b0b) (18) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/1974c75a8009c84626a53a1651b99be84c897cfd088d571f7f7c4db1ee4e7b0b) | A411 |
 | 2026/2/8 | sysidiag6.0.225.msi  |  **CryptInject!MSR**   | 69380290e6e3426e5dec5e9e28e2d3fae69a01042c19f07e23330a670e032a5c | 51ef48b8-844d-4588-ac28-cd21a0040288 | [VirusTotal](https://www.virustotal.com/gui/file/69380290e6e3426e5dec5e9e28e2d3fae69a01042c19f07e23330a670e032a5c) (16) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/69380290e6e3426e5dec5e9e28e2d3fae69a01042c19f07e23330a670e032a5c) | A412 |
+| 2026/2/8 | Hwjfinaviuner···.exe |         研究中         | c298a73ccaeee8e2c0f0596b66542dc923712ce42faa5062076069197cf90117 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/c298a73ccaeee8e2c0f0596b66542dc923712ce42faa5062076069197cf90117) (20) |                              无                              | A413 |
 |  ——————  |     ————————————     |      ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -138,6 +135,8 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/8  |         hxxps://apps-huorong[.]com          |    仿冒火绒、传播病毒    | hxxps://xinjiapox[.]oss-ap-southeast-1[.]aliyuncs[.]com/sysidiag6[.]0[.]225[.]zip |                            无                            | Z117 |
 | 2026/2/8  |      hxxps://huorong-zh[.]com/download      |    仿冒火绒、传播病毒    | hxxps://xinjiapox[.]oss-ap-southeast-1[.]aliyuncs[.]com/sysidiag6[.]0[.]225[.]zip |                            无                            | Z118 |
 | 2026/2/8  |          hxxps://huorong-ch[.]com           |    仿冒火绒、传播病毒    |                              无                              |                            无                            | Z119 |
+| 2026/2/8  |        hxxps://www[.]huorongh[.]com         |    仿冒火绒、传播病毒    | hxxps://pub-4d163d98fea2481681223bee3f402224[.]r2[.]dev/Hwjfinaviunerjionoiantn[.]zip |                            无                            | Z120 |
+| 2026/2/8  |         hxxps://hrnfaenawmjg[.]com          |    仿冒火绒、传播病毒    | hxxps://pub-4d163d98fea2481681223bee3f402224[.]r2[.]dev/Hwjfinaviunerjionoiantn[.]zip |                            无                            | Z121 |
 |  ——————   |            ————————————————————             |     ———————————————      |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
