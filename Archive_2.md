@@ -99,6 +99,11 @@
 | 2026/1/28 |      hxxps://www[.]todeski[.]com       |    仿冒 ToDesk、传播病毒    | hxxps://pub-8f57965f8599440e97ac52dbcca4fc58[.]r2[.]dev/Sqveiqrgbuniasncoigenr[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3765012) | Z087 |
 | 2026/1/28 |      hxxps://zh-todesk[.]com[.]cn      |    仿冒 ToDesk、传播病毒    |                              有                              |                            无                            | Z088 |
 | 2026/1/28 |        hxxps://toamndkf[.]cyou         |    仿冒 ToDesk、传播病毒    | hxxps://pub-8f57965f8599440e97ac52dbcca4fc58[.]r2[.]dev/Sqveiqrgbuniasncoigenr[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3765012) | Z089 |
+| 2026/1/30 |      hxxps://mail[.]qcqzaa[.]shop      |      钓鱼网站、QQ 盗号      |                              无                              |                            无                            | Z090 |
+| 2026/1/31 |     hxxps://appb-youdao[.]com[.]cn     |   仿冒有道翻译、传播病毒    | hxxps://youdao02[.]oss-cn-hongkong[.]aliyuncs[.]com/Youdao02Dict_fanyiweb_navigation[.]zip |                            无                            | Z091 |
+| 2026/1/31 |       hxxps://apps-youdao[.]com        |   仿冒有道翻译、传播病毒    | hxxps://xinjiapox[.]oss-ap-southeast-1[.]aliyuncs[.]com/youdaofanyi058[.]zip |                            无                            | Z092 |
+| 2026/1/31 |      hxxps://wp-youdao[.]com[.]cn      |   仿冒有道翻译、传播病毒    | hxxps://ww3[.]wangmeipo[.]cn/api/v3/file/get/44036/youdaofanyi261301620[.]zip?sign=KofEYK49f-d63hzDE0LkCe1M8gE7gNLvEBpnCjyGzOI%3D%3A0 |                            无                            | Z093 |
+| 2026/1/31 |     hxxps://www[.]cp-youdao[.]com      |   仿冒有道翻译、传播病毒    |                              无                              |                            无                            | Z094 |
 |  ——————   |          ————————————————————          |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---

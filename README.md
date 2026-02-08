@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 2 月 8 日 3:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 2 月 8 日 16:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 2 月 8 日，已打击计算机病毒 / 恶意软件 411 个、恶意网站 115 个**。
+&emsp;&emsp;**截至 2026 年 2 月 8 日，已打击计算机病毒 / 恶意软件 412 个、恶意网站 119 个**。
 
 ---
 
@@ -96,6 +96,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/8 | MicrosoftPhotos.exe  | **Win32/Malgent!MSR**  | 4650a4652d78b4adf952fb1188b69361c5adfbb6dde8ae730c267b5395c54166 | 9303841f-6ee5-4daa-bde8-a5cca5824bd1 | [VirusTotal](https://www.virustotal.com/gui/file/4650a4652d78b4adf952fb1188b69361c5adfbb6dde8ae730c267b5395c54166) (30) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/4650a4652d78b4adf952fb1188b69361c5adfbb6dde8ae730c267b5395c54166) | A409 |
 | 2026/2/8 |    0206SETUP.exe     |  **CryptInject!MSR**   | 729c830b997d00d365ae4dadee5e26ce2a269df651c93a8337bde5084c66cc1a | 9b997412-3a6e-477f-ac28-bcc0baa624ea | [VirusTotal](https://www.virustotal.com/gui/file/729c830b997d00d365ae4dadee5e26ce2a269df651c93a8337bde5084c66cc1a) (26) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/729c830b997d00d365ae4dadee5e26ce2a269df651c93a8337bde5084c66cc1a) | A410 |
 | 2026/2/8 |  CarboraneAcid.exe   | **Win64/Malgent!MSR**  | 1974c75a8009c84626a53a1651b99be84c897cfd088d571f7f7c4db1ee4e7b0b | 0dbb6bf6-2e10-4c2f-95f2-52d18298d0f4 | [VirusTotal](https://www.virustotal.com/gui/file/1974c75a8009c84626a53a1651b99be84c897cfd088d571f7f7c4db1ee4e7b0b) (18) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/1974c75a8009c84626a53a1651b99be84c897cfd088d571f7f7c4db1ee4e7b0b) | A411 |
+| 2026/2/8 | sysidiag6.0.225.msi  |  **CryptInject!MSR**   | 69380290e6e3426e5dec5e9e28e2d3fae69a01042c19f07e23330a670e032a5c | 51ef48b8-844d-4588-ac28-cd21a0040288 | [VirusTotal](https://www.virustotal.com/gui/file/69380290e6e3426e5dec5e9e28e2d3fae69a01042c19f07e23330a670e032a5c) (16) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/69380290e6e3426e5dec5e9e28e2d3fae69a01042c19f07e23330a670e032a5c) | A412 |
 |  ——————  |     ————————————     |      ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -112,11 +113,6 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 |   日期    |                     URL                     |           类别           |                           有效载荷                           |                         URLhaus                          | 编号 |
 | :-------: | :-----------------------------------------: | :----------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
-| 2026/1/30 |        hxxps://mail[.]qcqzaa[.]shop         |    钓鱼网站、QQ 盗号     |                              无                              |                            无                            | Z090 |
-| 2026/1/31 |       hxxps://appb-youdao[.]com[.]cn        |  仿冒有道翻译、传播病毒  | hxxps://youdao02[.]oss-cn-hongkong[.]aliyuncs[.]com/Youdao02Dict_fanyiweb_navigation[.]zip |                            无                            | Z091 |
-| 2026/1/31 |          hxxps://apps-youdao[.]com          |  仿冒有道翻译、传播病毒  | hxxps://xinjiapox[.]oss-ap-southeast-1[.]aliyuncs[.]com/youdaofanyi058[.]zip |                            无                            | Z092 |
-| 2026/1/31 |        hxxps://wp-youdao[.]com[.]cn         |  仿冒有道翻译、传播病毒  | hxxps://ww3[.]wangmeipo[.]cn/api/v3/file/get/44036/youdaofanyi261301620[.]zip?sign=KofEYK49f-d63hzDE0LkCe1M8gE7gNLvEBpnCjyGzOI%3D%3A0 |                            无                            | Z093 |
-| 2026/1/31 |        hxxps://www[.]cp-youdao[.]com        |  仿冒有道翻译、传播病毒  |                              无                              |                            无                            | Z094 |
 | 2026/1/31 |        hxxps://cn-youdao[.]com[.]cn         |  仿冒有道翻译、传播病毒  |                              无                              |                            无                            | Z095 |
 | 2026/1/31 |        hxxps://ai-youdao[.]com[.]cn         |  仿冒有道翻译、传播病毒  | hxxps://ww3[.]wangmeipo[.]cn/api/v3/file/get/44036/youdaofanyi261301620[.]zip?sign=KofEYK49f-d63hzDE0LkCe1M8gE7gNLvEBpnCjyGzOI%3D%3A0 |                            无                            | Z096 |
 | 2026/2/2  |        hxxps://wps-offics[.]com[.]cn        |    仿冒 WPS、传播病毒    |   hxxps://download[.]wpscn[.]sbs/downloads/downloads[.]php   |                            无                            | Z097 |
@@ -138,6 +134,10 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/6  |        hxxps://eol-google[.]com[.]cn        |  仿冒 Chrome、传播病毒   |      hxxps://hjendcs[.]kojga[.]icu/meSetup13[.]2A[.]zip      | [URLhaus Database](https://urlhaus.abuse.ch/url/3772943) | Z113 |
 | 2026/2/6  |      hxxps://chromle-google[.]com[.]cn      |  仿冒 Chrome、传播病毒   | hxxps://chvomrec[.]s3[.]ap-southeast-1[.]amazonaws[.]com/cherome[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3772942) | Z114 |
 | 2026/2/6  |        hxxps://xo-google[.]com[.]cn         |  仿冒 Chrome、传播病毒   |                              无                              |                            无                            | Z115 |
+| 2026/2/8  |          hxxps://pc-huorong[.]com           |    仿冒火绒、传播病毒    | hxxps://xinjiapox[.]oss-ap-southeast-1[.]aliyuncs[.]com/sysidiag6[.]0[.]225[.]zip |                            无                            | Z116 |
+| 2026/2/8  |         hxxps://apps-huorong[.]com          |    仿冒火绒、传播病毒    | hxxps://xinjiapox[.]oss-ap-southeast-1[.]aliyuncs[.]com/sysidiag6[.]0[.]225[.]zip |                            无                            | Z117 |
+| 2026/2/8  |      hxxps://huorong-zh[.]com/download      |    仿冒火绒、传播病毒    | hxxps://xinjiapox[.]oss-ap-southeast-1[.]aliyuncs[.]com/sysidiag6[.]0[.]225[.]zip |                            无                            | Z118 |
+| 2026/2/8  |          hxxps://huorong-ch[.]com           |    仿冒火绒、传播病毒    |                              无                              |                            无                            | Z119 |
 |  ——————   |            ————————————————————             |     ———————————————      |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
