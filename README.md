@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 2 月 10 日 18:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 2 月 10 日 21:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 2 月 10 日，已打击计算机病毒 / 恶意软件 431 个、恶意网站 121 个**。
+&emsp;&emsp;**截至 2026 年 2 月 10 日，已打击计算机病毒 / 恶意软件 434 个、恶意网站 121 个**。
 
 ---
 
@@ -69,10 +69,6 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 |   日期    |          文件名          |          检测          |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :----------------------: | :--------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/2/7  |       LetsVPN4.exe       | **Win32/Malgent!MSR**  | 515a914e7d9336fa5e0feb6fb24e302884c0a0fc8e18aba333b59cdc5594a155 | e41eabba-a3dd-4383-940b-9788f46290ce | [VirusTotal](https://www.virustotal.com/gui/file/515a914e7d9336fa5e0feb6fb24e302884c0a0fc8e18aba333b59cdc5594a155) (28) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/515a914e7d9336fa5e0feb6fb24e302884c0a0fc8e18aba333b59cdc5594a155) | A405 |
-| 2026/2/7  |   Hfiannhosong···.exe    | **Win32/Malgent!MSR**  | da8dad7973c58eedead4973d73102e89019120e124641695590786ab711a9f3a | cced3dc7-3c96-4111-88a8-7365b58b5ef9 | [VirusTotal](https://www.virustotal.com/gui/file/da8dad7973c58eedead4973d73102e89019120e124641695590786ab711a9f3a) (20) |                              无                              | A406 |
-| 2026/2/7  |    toel_x64_G3.68.exe    | **Win32/Malgent!MSR**  | e3f569902bac951999029cdf555c84bd21667eebe8ba8aa5d5d5fe8b7669ff8c | 0d9ba54d-2180-44ab-b437-360eb34416df | [VirusTotal](https://www.virustotal.com/gui/file/e3f569902bac951999029cdf555c84bd21667eebe8ba8aa5d5d5fe8b7669ff8c) (11) |                              无                              | A407 |
-| 2026/2/7  |   H_World_Setup···.exe   | **Win32/Malgent!MSR**  | 89f8b6cade1808afcea0c700b66bd44802742299812c066298474326b5d0e90f | ec21653d-51d7-4b1c-b801-3fdf57d809d2 | [VirusTotal](https://www.virustotal.com/gui/file/89f8b6cade1808afcea0c700b66bd44802742299812c066298474326b5d0e90f) (27) |                              无                              | A408 |
 | 2026/2/8  |   MicrosoftPhotos.exe    | **Win32/Malgent!MSR**  | 4650a4652d78b4adf952fb1188b69361c5adfbb6dde8ae730c267b5395c54166 | 9303841f-6ee5-4daa-bde8-a5cca5824bd1 | [VirusTotal](https://www.virustotal.com/gui/file/4650a4652d78b4adf952fb1188b69361c5adfbb6dde8ae730c267b5395c54166) (30) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/4650a4652d78b4adf952fb1188b69361c5adfbb6dde8ae730c267b5395c54166) | A409 |
 | 2026/2/8  |      0206SETUP.exe       |  **CryptInject!MSR**   | 729c830b997d00d365ae4dadee5e26ce2a269df651c93a8337bde5084c66cc1a | 9b997412-3a6e-477f-ac28-bcc0baa624ea | [VirusTotal](https://www.virustotal.com/gui/file/729c830b997d00d365ae4dadee5e26ce2a269df651c93a8337bde5084c66cc1a) (26) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/729c830b997d00d365ae4dadee5e26ce2a269df651c93a8337bde5084c66cc1a) | A410 |
 | 2026/2/8  |    CarboraneAcid.exe     | **Win64/Malgent!MSR**  | 1974c75a8009c84626a53a1651b99be84c897cfd088d571f7f7c4db1ee4e7b0b | 0dbb6bf6-2e10-4c2f-95f2-52d18298d0f4 | [VirusTotal](https://www.virustotal.com/gui/file/1974c75a8009c84626a53a1651b99be84c897cfd088d571f7f7c4db1ee4e7b0b) (18) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/1974c75a8009c84626a53a1651b99be84c897cfd088d571f7f7c4db1ee4e7b0b) | A411 |
@@ -96,6 +92,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/10 | 2026年···违规名单···.exe | **Win32/Malgent!MSR**  | 8cd23d5552c846482cefa3a0344928e924312416a9ac6f1b9f2e6a1f05ae13f2 | 7686cbb9-536b-4d2e-97c2-6e3e1647f343 | [VirusTotal](https://www.virustotal.com/gui/file/8cd23d5552c846482cefa3a0344928e924312416a9ac6f1b9f2e6a1f05ae13f2) (27) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/8cd23d5552c846482cefa3a0344928e924312416a9ac6f1b9f2e6a1f05ae13f2) | A429 |
 | 2026/2/10 |   Chrome_Setup···.exe    | **Win32/Malgent!MSR**  | ddf5711ccc42a9016b93798b94acac08babbcb09c4e8782f85f4a430983bc7ec | 45dc4ad9-ec4b-482c-85d2-6b5e9757f3d4 | [VirusTotal](https://www.virustotal.com/gui/file/ddf5711ccc42a9016b93798b94acac08babbcb09c4e8782f85f4a430983bc7ec) (20) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/ddf5711ccc42a9016b93798b94acac08babbcb09c4e8782f85f4a430983bc7ec) | A430 |
 | 2026/2/10 |      8cc81fea88.exe      | **Win32/Malgent!MSR**  | 8cc81fea885559da6be9febd385304ea25ed77979f2d5676a8b7b20475ceae3d | 21c7b169-1f9f-46c5-a6cc-a287fc11c753 | [VirusTotal](https://www.virustotal.com/gui/file/8cc81fea885559da6be9febd385304ea25ed77979f2d5676a8b7b20475ceae3d) (14) |                              无                              | A431 |
+| 2026/2/10 |        mfTVt.rar         |         研究中         | 41bc6bb1ad5d5b11594a6dba168a6a36d951f6bd551d45d9e42e4f57d6376ef9 | 89dead17-a888-4c4e-9db2-e3add6676039 | [VirusTotal](https://www.virustotal.com/gui/file/41bc6bb1ad5d5b11594a6dba168a6a36d951f6bd551d45d9e42e4f57d6376ef9) (17) |                  [MalwareBazaar Database]()                  | A432 |
+| 2026/2/10 |   Chrorne0cdd-x64.exe    |         研究中         | 749e1e2345b5a6c236eec818b5a358a15a913da8eb569cdc1147d0307f6b7055 |                                      | [VirusTotal](https://www.virustotal.com/gui/search/749e1e2345b5a6c236eec818b5a358a15a913da8eb569cdc1147d0307f6b7055) (21) |                  [MalwareBazaar Database]()                  | A433 |
+| 2026/2/10 |    cloudflared···.exe    |         研究中         | c3232c7f77a8d126c696e362d943f07b714950e1012b38b3eb77982c5e2a06b5 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/c3232c7f77a8d126c696e362d943f07b714950e1012b38b3eb77982c5e2a06b5) (35) |                  [MalwareBazaar Database]()                  | A434 |
 |  ——————   |       ————————————       |      ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
