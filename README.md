@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 2 月 10 日 12:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 2 月 10 日 18:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 2 月 10 日，已打击计算机病毒 / 恶意软件 429 个、恶意网站 121 个**。
+&emsp;&emsp;**截至 2026 年 2 月 10 日，已打击计算机病毒 / 恶意软件 431 个、恶意网站 121 个**。
 
 ---
 
@@ -93,7 +93,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/10 |      2383e230c4.exe      | **Win64/Malgent!MSR**  | 2383e230c44f405c4171e0db86e9fc04eaeea223860678f0048e862b6ea477a8 | 426c4fa7-bfbd-4e8c-8c77-b60213fc8da6 | [VirusTotal](https://www.virustotal.com/gui/file/2383e230c44f405c4171e0db86e9fc04eaeea223860678f0048e862b6ea477a8) (23) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/2383e230c44f405c4171e0db86e9fc04eaeea223860678f0048e862b6ea477a8) | A426 |
 | 2026/2/10 |       Verifier.exe       | **Win32/Malgent!MSR**  | 85c5d598edccfddce306e53a69ba86fd0193114aa05e66d8e0106db2b00ba03c | 5ca681a9-4c6b-4ebc-a61c-0c098ee19fb2 | [VirusTotal](https://www.virustotal.com/gui/file/85c5d598edccfddce306e53a69ba86fd0193114aa05e66d8e0106db2b00ba03c) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/85c5d598edccfddce306e53a69ba86fd0193114aa05e66d8e0106db2b00ba03c) | A427 |
 | 2026/2/10 |       王者荣耀.exe       | **Win64/CobaltStrike** | 70eb836ff3d3026bcc703bef4ebab0a690203d3c595710ae079de66d6af45c4d | 999b1898-ed86-465e-9f50-ab2dd0d2c797 | [VirusTotal](https://www.virustotal.com/gui/file/70eb836ff3d3026bcc703bef4ebab0a690203d3c595710ae079de66d6af45c4d) (21) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/70eb836ff3d3026bcc703bef4ebab0a690203d3c595710ae079de66d6af45c4d) | A428 |
-| 2026/2/10 | 2026年···违规名单···.exe |         研究中         | 8cd23d5552c846482cefa3a0344928e924312416a9ac6f1b9f2e6a1f05ae13f2 | 7686cbb9-536b-4d2e-97c2-6e3e1647f343 | [VirusTotal](https://www.virustotal.com/gui/file/8cd23d5552c846482cefa3a0344928e924312416a9ac6f1b9f2e6a1f05ae13f2) (27) |                  [MalwareBazaar Database]()                  | A429 |
+| 2026/2/10 | 2026年···违规名单···.exe | **Win32/Malgent!MSR**  | 8cd23d5552c846482cefa3a0344928e924312416a9ac6f1b9f2e6a1f05ae13f2 | 7686cbb9-536b-4d2e-97c2-6e3e1647f343 | [VirusTotal](https://www.virustotal.com/gui/file/8cd23d5552c846482cefa3a0344928e924312416a9ac6f1b9f2e6a1f05ae13f2) (27) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/8cd23d5552c846482cefa3a0344928e924312416a9ac6f1b9f2e6a1f05ae13f2) | A429 |
+| 2026/2/10 |   Chrome_Setup···.exe    | **Win32/Malgent!MSR**  | ddf5711ccc42a9016b93798b94acac08babbcb09c4e8782f85f4a430983bc7ec | 45dc4ad9-ec4b-482c-85d2-6b5e9757f3d4 | [VirusTotal](https://www.virustotal.com/gui/file/ddf5711ccc42a9016b93798b94acac08babbcb09c4e8782f85f4a430983bc7ec) (20) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/ddf5711ccc42a9016b93798b94acac08babbcb09c4e8782f85f4a430983bc7ec) | A430 |
+| 2026/2/10 |      8cc81fea88.exe      | **Win32/Malgent!MSR**  | 8cc81fea885559da6be9febd385304ea25ed77979f2d5676a8b7b20475ceae3d | 21c7b169-1f9f-46c5-a6cc-a287fc11c753 | [VirusTotal](https://www.virustotal.com/gui/file/8cc81fea885559da6be9febd385304ea25ed77979f2d5676a8b7b20475ceae3d) (14) |                              无                              | A431 |
 |  ——————   |       ————————————       |      ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
