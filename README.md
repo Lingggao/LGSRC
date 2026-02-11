@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 2 月 11 日 13:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 2 月 11 日 17:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 2 月 11 日，已打击计算机病毒 / 恶意软件 438 个、恶意网站 121 个**。
+&emsp;&emsp;**截至 2026 年 2 月 11 日，已打击计算机病毒 / 恶意软件 439 个、恶意网站 121 个**。
 
 ---
 
@@ -95,6 +95,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/11 |   Hdtthihsevuio174.exe   | **Win32/Malgent!MSR**  | 4b8809d28249ef28e9f44703cb36d4524c41f2adc4b5f1f9a0f49485527f0f61 | 73aed06a-7035-4765-97f6-ffecb13fcd01 | [VirusTotal](https://www.virustotal.com/gui/file/4b8809d28249ef28e9f44703cb36d4524c41f2adc4b5f1f9a0f49485527f0f61) (4) |                              无                              | A436 |
 | 2026/2/11 |    Yòydaofanyi···.msi    | **Win64/Malgent!MSR**  | 02ca96e74fbb21b957591968a28ff42e03834216469ed279364eea1d8306b9e3 | 10b42b6d-e56d-42b5-8850-49c44847c837 | [VirusTotal](https://www.virustotal.com/gui/file/02ca96e74fbb21b957591968a28ff42e03834216469ed279364eea1d8306b9e3) (3) |                              无                              | A437 |
 | 2026/2/11 |  (macOS) dyrtvwjfve···   |   **MacOS/Amos.FB**    | 30f97ae88f8861eeadeb54854d47078724e52e2ef36dd847180663b7f5763168 | ccfe4b48-9241-44b8-bf2c-1f82130af161 | [VirusTotal](https://www.virustotal.com/gui/file/30f97ae88f8861eeadeb54854d47078724e52e2ef36dd847180663b7f5763168) (28) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/30f97ae88f8861eeadeb54854d47078724e52e2ef36dd847180663b7f5763168) | A438 |
+| 2026/2/11 |        4XLZjC.exe        | **Win32/Malgent!MSR**  | 63bd2535fa047323b76cb578c8d57b16d568bc5aa3c39249ef7fde2448b336ce | 9b546e4d-27c8-440b-a335-c20837233ae3 | [VirusTotal](https://www.virustotal.com/gui/file/63bd2535fa047323b76cb578c8d57b16d568bc5aa3c39249ef7fde2448b336ce) (9) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/63bd2535fa047323b76cb578c8d57b16d568bc5aa3c39249ef7fde2448b336ce) | A439 |
 |  ——————   |       ————————————       |      ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
