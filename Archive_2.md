@@ -104,6 +104,15 @@
 | 2026/1/31 |       hxxps://apps-youdao[.]com        |   仿冒有道翻译、传播病毒    | hxxps://xinjiapox[.]oss-ap-southeast-1[.]aliyuncs[.]com/youdaofanyi058[.]zip |                            无                            | Z092 |
 | 2026/1/31 |      hxxps://wp-youdao[.]com[.]cn      |   仿冒有道翻译、传播病毒    | hxxps://ww3[.]wangmeipo[.]cn/api/v3/file/get/44036/youdaofanyi261301620[.]zip?sign=KofEYK49f-d63hzDE0LkCe1M8gE7gNLvEBpnCjyGzOI%3D%3A0 |                            无                            | Z093 |
 | 2026/1/31 |     hxxps://www[.]cp-youdao[.]com      |   仿冒有道翻译、传播病毒    |                              无                              |                            无                            | Z094 |
+| 2026/1/31 |      hxxps://cn-youdao[.]com[.]cn      |   仿冒有道翻译、传播病毒    |                              无                              |                            无                            | Z095 |
+| 2026/1/31 |      hxxps://ai-youdao[.]com[.]cn      |   仿冒有道翻译、传播病毒    | hxxps://ww3[.]wangmeipo[.]cn/api/v3/file/get/44036/youdaofanyi261301620[.]zip?sign=KofEYK49f-d63hzDE0LkCe1M8gE7gNLvEBpnCjyGzOI%3D%3A0 |                            无                            | Z096 |
+| 2026/2/2  |     hxxps://wps-offics[.]com[.]cn      |     仿冒 WPS、传播病毒      |   hxxps://download[.]wpscn[.]sbs/downloads/downloads[.]php   |                            无                            | Z097 |
+| 2026/2/2  |        hxxp://sg-wps[.]com[.]cn        |     仿冒 WPS、传播病毒      |                              无                              |                            无                            | Z098 |
+| 2026/2/2  |    hxxps://sgp-wpsoffice[.]com[.]cn    |     仿冒 WPS、传播病毒      |                              无                              |                            无                            | Z099 |
+| 2026/2/2  |        hxxps://u-wps[.]com[.]cn        |     仿冒 WPS、传播病毒      |                              有                              |                            无                            | Z100 |
+| 2026/2/2  |     hxxps://wps-wpsapp[.]com[.]cn      |     仿冒 WPS、传播病毒      |   hxxps://download[.]wpscn[.]sbs/downloads/downloads[.]php   |                            无                            | Z101 |
+| 2026/2/2  |    hxxps://for-wpsoffice[.]com[.]cn    |     仿冒 WPS、传播病毒      | hxxps://wps-cn-ci[.]wpscdn[.]cn/wps/download/ep/WPS2019_15344[.]exe |                            无                            | Z102 |
+| 2026/2/2  |    hxxps://www[.]am-wps[.]com[.]cn     |     仿冒 WPS、传播病毒      |                              无                              |                            无                            | Z103 |
 |  ——————   |          ————————————————————          |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
