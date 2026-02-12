@@ -55,7 +55,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 2 月 12 日 12:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 2 月 12 日 22:00 (UTC+8)。
 
 &emsp;&emsp;**截至 2026 年 2 月 12 日，已打击计算机病毒 / 恶意软件 449 个、恶意网站 129 个**。
 
@@ -95,7 +95,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/12 |   WPS_office-6899.msi    | **Win32/Malgent!MSR**  | b3d91212406527d0ef62a5b6e9cb0abea93292a893cc6b5f1dbd09465da54c36 | e113ba87-4727-4879-84ff-122eaf44419c | [VirusTotal](https://www.virustotal.com/gui/file/b3d91212406527d0ef62a5b6e9cb0abea93292a893cc6b5f1dbd09465da54c36) (3) |                              无                              | A446 |
 | 2026/2/12 |        77777.msi         | **Win32/Malgent!MSR**  | f007bc6c53e2995f5490418fac761a64a88e30d1d145a67f3954b8966d8db154 | 7c785529-0ab6-468d-95b3-0d456a2632c7 | [VirusTotal](https://www.virustotal.com/gui/file/f007bc6c53e2995f5490418fac761a64a88e30d1d145a67f3954b8966d8db154) (10) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/f007bc6c53e2995f5490418fac761a64a88e30d1d145a67f3954b8966d8db154) | A447 |
 | 2026/2/12 |        88888.exe         | **Win32/Malgent!MSR**  | 003734348d05ac8087c497c214bd871355b168e41c9ee8d5aa5fcfcdbe6c8a89 | 3e06e94f-c76c-4fff-8ad5-3970e52a0f44 | [VirusTotal](https://www.virustotal.com/gui/file/003734348d05ac8087c497c214bd871355b168e41c9ee8d5aa5fcfcdbe6c8a89) (9) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/003734348d05ac8087c497c214bd871355b168e41c9ee8d5aa5fcfcdbe6c8a89) | A448 |
-| 2026/2/12 |        99999.msi         |         研究中         | d62975d9c56bfcf182d2341c7cf01ea07503b3a00d2d89bc77274d779973de9c | 8819df63-bb90-4c64-8421-ca86b7b0b039 | [VirusTotal](https://www.virustotal.com/gui/file/d62975d9c56bfcf182d2341c7cf01ea07503b3a00d2d89bc77274d779973de9c) (8) |                  [MalwareBazaar Database]()                  | A449 |
+| 2026/2/12 |        99999.msi         | **Win32/Malgent!MSR**  | d62975d9c56bfcf182d2341c7cf01ea07503b3a00d2d89bc77274d779973de9c | 8819df63-bb90-4c64-8421-ca86b7b0b039 | [VirusTotal](https://www.virustotal.com/gui/file/d62975d9c56bfcf182d2341c7cf01ea07503b3a00d2d89bc77274d779973de9c) (8) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/d62975d9c56bfcf182d2341c7cf01ea07503b3a00d2d89bc77274d779973de9c) | A449 |
 |  ——————   |       ————————————       |      ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -130,14 +130,14 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/8  |          hxxps://huorong-ch[.]com           |    仿冒火绒、传播病毒    |                              无                              |                            无                            | Z119 |
 | 2026/2/8  |        hxxps://www[.]huorongh[.]com         |    仿冒火绒、传播病毒    | hxxps://pub-4d163d98fea2481681223bee3f402224[.]r2[.]dev/Hwjfinaviunerjionoiantn[.]zip |                            无                            | Z120 |
 | 2026/2/8  |         hxxps://hrnfaenawmjg[.]com          |    仿冒火绒、传播病毒    | hxxps://pub-4d163d98fea2481681223bee3f402224[.]r2[.]dev/Hwjfinaviunerjionoiantn[.]zip |                            无                            | Z121 |
-| 2026/2/11 |           hxxps://wps-online[.]cn           |         仿冒 WPS         | hxxps://official-package[.]wpscdn[.]cn/wps/download/WPS_Setup_24657[.]exe |                            无                            | Z122 |
+| 2026/2/11 |           hxxps://wps-online[.]cn           |    仿冒 WPS、传播病毒    | hxxps://official-package[.]wpscdn[.]cn/wps/download/WPS_Setup_24657[.]exe |                            无                            | Z122 |
 | 2026/2/11 |    hxxps://www[.]jinshan-wps[.]com[.]cn     |    仿冒 WPS、传播病毒    |       hxxps://hjekd8c[.]huowdy[.]com/WPS_office[.]zip        | [URLhaus Database](https://urlhaus.abuse.ch/url/3775978) | Z123 |
-| 2026/2/11 |          hxxps://pp-wps[.]com[.]cn          |         仿冒 WPS         |                              无                              |                            无                            | Z124 |
-| 2026/2/11 |          hxxps://www[.]wpspt[.]com          |         仿冒 WPS         |                              有                              |                            无                            | Z125 |
+| 2026/2/11 |          hxxps://pp-wps[.]com[.]cn          |    仿冒 WPS、传播病毒    |                              无                              |                            无                            | Z124 |
+| 2026/2/11 |          hxxps://www[.]wpspt[.]com          |    仿冒 WPS、传播病毒    |                              有                              |                            无                            | Z125 |
 | 2026/2/11 |         hxxps://sgp-wps[.]com[.]cn          |    仿冒 WPS、传播病毒    | hxxps://wps01[.]oss-cn-hongkong[.]aliyuncs[.]com/WPS_Setup_17147_1[.]3[.]zip |                            无                            | Z126 |
 | 2026/2/11 |        hxxps://ofice-wps[.]com[.]cn         |    仿冒 WPS、传播病毒    |       hxxps://hjekd8c[.]huowdy[.]com/WPS_office[.]zip        | [URLhaus Database](https://urlhaus.abuse.ch/url/3775978) | Z127 |
 | 2026/2/11 |             hxxps://cn-wps[.]cc             |    仿冒 WPS、传播病毒    |                              有                              |                            无                            | Z128 |
-| 2026/2/11 |       hxxps://www[.]ce-wps[.]com[.]cn       |         仿冒 WPS         |                              有                              |                            无                            | Z129 |
+| 2026/2/11 |       hxxps://www[.]ce-wps[.]com[.]cn       |    仿冒 WPS、传播病毒    |                              有                              |                            无                            | Z129 |
 |  ——————   |            ————————————————————             |     ———————————————      |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
