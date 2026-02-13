@@ -117,6 +117,10 @@
 | 2026/2/3  |         hxxps://www[.]word-cn[.]com         |     仿冒 Word、传播病毒     |                              无                              |                            无                            | Z105 |
 | 2026/2/4  |        hxxps://srf-sogou[.]com[.]cn         |  仿冒搜狗输入法、传播病毒   |    hxxps://jkem45[.]cndyals[.]top/gou_pinyin15[.]4[.]zip     |                            无                            | Z106 |
 | 2026/2/4  | hxxps://input-sogo[.]com[.]cn/index1[.]html |  仿冒搜狗输入法、传播病毒   |                              无                              |                            无                            | Z107 |
+| 2026/2/4  |      hxxps://sogoushurufa-sogou[.]com       |  仿冒搜狗输入法、传播病毒   |                              无                              |                            无                            | Z108 |
+| 2026/2/4  |           hxxps://ai-sogou[.]com            |  仿冒搜狗输入法、传播病毒   | hxxps://c-sougou[.]com/downloads/windows/SG[.]Setup[.]0[.]2[.]0[.]1[.]zip |                            无                            | Z109 |
+| 2026/2/4  |    hxxps://www[.]win-sogou[.]com/windows    |  仿冒搜狗输入法、传播病毒   |                              无                              |                            无                            | Z110 |
+| 2026/2/4  |       hxxps://apps-sougoupinyin[.]com       |  仿冒搜狗输入法、传播病毒   | hxxps://www[.]zwpht[.]com/ssogou/sluvou_pinyin5[.]024[.]exe  | [URLhaus Database](https://urlhaus.abuse.ch/url/3772056) | Z111 |
 |  ——————   |            ————————————————————             |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
