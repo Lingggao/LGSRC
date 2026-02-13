@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 2 月 13 日 14:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 2 月 13 日 20:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 2 月 13 日，已打击计算机病毒 / 恶意软件 452 个、恶意网站 129 个**。
+&emsp;&emsp;**截至 2026 年 2 月 13 日，已打击计算机病毒 / 恶意软件 453 个、恶意网站 129 个**。
 
 ---
 
@@ -95,6 +95,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/13 |       5.13dasd.exe       | **Win32/Malgent!MSR**  | 76d4142469fe6f8d1743fee5a3a38de3dc9ffe243f89479b99e90172005d5b72 | c0da19d5-c337-458c-914f-0b30c23e95cc | [VirusTotal](https://www.virustotal.com/gui/file/76d4142469fe6f8d1743fee5a3a38de3dc9ffe243f89479b99e90172005d5b72) (32) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/76d4142469fe6f8d1743fee5a3a38de3dc9ffe243f89479b99e90172005d5b72) | A450 |
 | 2026/2/13 |       LetsVPN.exe        | **Win32/Malgent!MSR**  | 32f8ef122fe29ab7a4cb40a75aef68314c37cbca96b3bf63032170db1d9cb9c5 | 7de6fa02-e35d-41be-9a08-3c57ddebc5a8 | [VirusTotal](https://www.virustotal.com/gui/file/32f8ef122fe29ab7a4cb40a75aef68314c37cbca96b3bf63032170db1d9cb9c5) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/32f8ef122fe29ab7a4cb40a75aef68314c37cbca96b3bf63032170db1d9cb9c5) | A451 |
 | 2026/2/13 |     output_86···.exe     | **Win32/Malgent!MSR**  | 516201070aaa2085711cd65d71b59ae200cd1894a7b2f28a7c1ee4560fb6d5ae | d8aa0bab-9ee8-4bc6-8b27-79264f8ddf2b | [VirusTotal](https://www.virustotal.com/gui/file/516201070aaa2085711cd65d71b59ae200cd1894a7b2f28a7c1ee4560fb6d5ae) (32) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/516201070aaa2085711cd65d71b59ae200cd1894a7b2f28a7c1ee4560fb6d5ae) | A452 |
+| 2026/2/13 |       zetarink.exe       |         研究中         | 904cee06bbc6093213e8653b120b2b72701bac7e8dbfbdd69bfb3aed9b6a7298 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/904cee06bbc6093213e8653b120b2b72701bac7e8dbfbdd69bfb3aed9b6a7298) (22) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/904cee06bbc6093213e8653b120b2b72701bac7e8dbfbdd69bfb3aed9b6a7298) | A453 |
 |  ——————   |       ————————————       |      ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
