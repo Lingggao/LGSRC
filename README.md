@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 2 月 15 日 3:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 2 月 16 日 13:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 2 月 15 日，已打击计算机病毒 / 恶意软件 462 个、恶意网站 137 个**。
+&emsp;&emsp;**截至 2026 年 2 月 16 日，已打击计算机病毒 / 恶意软件 463 个、恶意网站 138 个**。
 
 ---
 
@@ -96,7 +96,8 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/14 |      shield.exe       | **Win64/Rozena.YAI**  | 72a595ec26cc06436af13953cd4495b0988f6f57a71b239671a22bde49343c49 | 58500a61-6240-4f38-a2c4-afa9c7a7dd58 | [VirusTotal](https://www.virustotal.com/gui/file/72a595ec26cc06436af13953cd4495b0988f6f57a71b239671a22bde49343c49) (15) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/72a595ec26cc06436af13953cd4495b0988f6f57a71b239671a22bde49343c49) | A459 |
 | 2026/2/14 | WinDataOptimizer.exe  | **Win64/Malgent!MSR** | 209aab8495025a101cf5184bf7e6ab2fdb83aca59b1971a46269f1d2469a44dc | 2ac9c91f-5f75-4e10-8a0e-a6bf54e49dd6 | [VirusTotal](https://www.virustotal.com/gui/file/209aab8495025a101cf5184bf7e6ab2fdb83aca59b1971a46269f1d2469a44dc) (22) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/209aab8495025a101cf5184bf7e6ab2fdb83aca59b1971a46269f1d2469a44dc/) | A460 |
 | 2026/2/14 |     chromasj.msi      | **Win32/Malgent!MSR** | 6c1459cc141f2e4fe660b9e78f69ed538ba770f5c03b24e850a27cad81e3402d | d4f80239-6feb-4d5b-998c-07e5228ea021 | [VirusTotal](https://www.virustotal.com/gui/file/6c1459cc141f2e4fe660b9e78f69ed538ba770f5c03b24e850a27cad81e3402d) (3) | [MalwareBazaar Database](https://www.virustotal.com/gui/file/6c1459cc141f2e4fe660b9e78f69ed538ba770f5c03b24e850a27cad81e3402d) | A461 |
-| 2026/2/15 |   腾讯电脑管家.exe    |        研究中         | a9ac75edac52f05e1a07b0447cf8e58b5d90eaab16f01ee19affa1cf9e599da1 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/a9ac75edac52f05e1a07b0447cf8e58b5d90eaab16f01ee19affa1cf9e599da1) (35) |                  [MalwareBazaar Database]()                  | A462 |
+| 2026/2/15 |   腾讯电脑管家.exe    |  **Win32/Vigorf.A**   | a9ac75edac52f05e1a07b0447cf8e58b5d90eaab16f01ee19affa1cf9e599da1 | a6b56831-1e38-453f-ae83-aa8e1cead2e1 | [VirusTotal](https://www.virustotal.com/gui/file/a9ac75edac52f05e1a07b0447cf8e58b5d90eaab16f01ee19affa1cf9e599da1) (35) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a9ac75edac52f05e1a07b0447cf8e58b5d90eaab16f01ee19affa1cf9e599da1) | A462 |
+| 2026/2/16 |   win32-chrome.exe    | **Win32/Malgent!MSR** | dec3a4675cf344ce89669663dbabb8db0f32c7ca589def346220635160340f80 | 8f89a140-31fb-4708-91be-782be1c0f1e0 | [VirusTotal](https://www.virustotal.com/gui/file/dec3a4675cf344ce89669663dbabb8db0f32c7ca589def346220635160340f80) (14) |                              无                              | A463 |
 |  ——————   |     ————————————      |     ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -139,6 +140,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/14 |       hxxps://lu-da-shi[.]top        | 仿冒鲁大师、传播病毒  | hxxps://lu-da-shi[.]top/cdn_download/ludashi/setuploader[.]exe |                            无                            | Z135 |
 | 2026/2/14 |       hxxps://ludashi-cn[.]com       | 仿冒鲁大师、传播病毒  | hxxps://ludashi-cn[.]com/cdn_download/ludashi/setuploader[.]exe |                            无                            | Z136 |
 | 2026/2/14 |       hxxps://ludashi-zh[.]com       | 仿冒鲁大师、传播病毒  | hxxps://ludashi-zh[.]com/cdn_download/ludashi/setuploader[.]exe |                            无                            | Z137 |
+| 2026/2/15 |       hxxps://web-google[.]cn        | 仿冒 Chrome、传播病毒 |                              有                              |                            无                            | Z138 |
 |  ——————   |         ————————————————————         |    ———————————————    |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
