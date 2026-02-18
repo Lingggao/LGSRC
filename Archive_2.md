@@ -127,6 +127,15 @@
 | 2026/2/6  |        hxxps://xo-google[.]com[.]cn         |    仿冒 Chrome、传播病毒    |                              无                              |                            无                            | Z115 |
 | 2026/2/8  |          hxxps://pc-huorong[.]com           |     仿冒火绒、传播病毒      | hxxps://xinjiapox[.]oss-ap-southeast-1[.]aliyuncs[.]com/sysidiag6[.]0[.]225[.]zip |                            无                            | Z116 |
 | 2026/2/8  |         hxxps://apps-huorong[.]com          |     仿冒火绒、传播病毒      | hxxps://xinjiapox[.]oss-ap-southeast-1[.]aliyuncs[.]com/sysidiag6[.]0[.]225[.]zip |                            无                            | Z117 |
+| 2026/2/8  |      hxxps://huorong-zh[.]com/download      |     仿冒火绒、传播病毒      | hxxps://xinjiapox[.]oss-ap-southeast-1[.]aliyuncs[.]com/sysidiag6[.]0[.]225[.]zip |                            无                            | Z118 |
+| 2026/2/8  |          hxxps://huorong-ch[.]com           |     仿冒火绒、传播病毒      |                              无                              |                            无                            | Z119 |
+| 2026/2/8  |        hxxps://www[.]huorongh[.]com         |     仿冒火绒、传播病毒      | hxxps://pub-4d163d98fea2481681223bee3f402224[.]r2[.]dev/Hwjfinaviunerjionoiantn[.]zip |                            无                            | Z120 |
+| 2026/2/8  |         hxxps://hrnfaenawmjg[.]com          |     仿冒火绒、传播病毒      | hxxps://pub-4d163d98fea2481681223bee3f402224[.]r2[.]dev/Hwjfinaviunerjionoiantn[.]zip |                            无                            | Z121 |
+| 2026/2/11 |           hxxps://wps-online[.]cn           |     仿冒 WPS、传播病毒      | hxxps://official-package[.]wpscdn[.]cn/wps/download/WPS_Setup_24657[.]exe |                            无                            | Z122 |
+| 2026/2/11 |    hxxps://www[.]jinshan-wps[.]com[.]cn     |     仿冒 WPS、传播病毒      |       hxxps://hjekd8c[.]huowdy[.]com/WPS_office[.]zip        | [URLhaus Database](https://urlhaus.abuse.ch/url/3775978) | Z123 |
+| 2026/2/11 |          hxxps://pp-wps[.]com[.]cn          |     仿冒 WPS、传播病毒      |                              无                              |                            无                            | Z124 |
+| 2026/2/11 |          hxxps://www[.]wpspt[.]com          |     仿冒 WPS、传播病毒      |                              有                              |                            无                            | Z125 |
+| 2026/2/11 |         hxxps://sgp-wps[.]com[.]cn          |     仿冒 WPS、传播病毒      | hxxps://wps01[.]oss-cn-hongkong[.]aliyuncs[.]com/WPS_Setup_17147_1[.]3[.]zip |                            无                            | Z126 |
 |  ——————   |            ————————————————————             |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
