@@ -55,7 +55,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 2 月 18 日 6:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 2 月 18 日 9:00 (UTC+8)。
 
 &emsp;&emsp;**截至 2026 年 2 月 18 日，已打击计算机病毒 / 恶意软件 477 个、恶意网站 143 个**。
 
@@ -96,7 +96,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/17 |     创世奇迹.exe     | **Win32/Malgent!MSR** | 2992ca29c7f80ffe65886f062abbbecf66c231d19bd7cfb6ddba6a34e1e0effd | 50d06a7a-e4c2-4a86-ae35-764f1f91d1c8 | [VirusTotal](https://www.virustotal.com/gui/file/2992ca29c7f80ffe65886f062abbbecf66c231d19bd7cfb6ddba6a34e1e0effd) (22) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/2992ca29c7f80ffe65886f062abbbecf66c231d19bd7cfb6ddba6a34e1e0effd) | A474 |
 | 2026/2/17 |    下载器3.40.exe    |  **Dropper:Floxif**   | 720e1a32fcc9308e33781ea1f1e0dd5e980f11492e93ed14624a68c383752159 | 36371e26-9d1a-4aa5-b643-14f97349e790 | [VirusTotal](https://www.virustotal.com/gui/file/720e1a32fcc9308e33781ea1f1e0dd5e980f11492e93ed14624a68c383752159) (27) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/720e1a32fcc9308e33781ea1f1e0dd5e980f11492e93ed14624a68c383752159) | A475 |
 | 2026/2/17 | 国税庁からの通知.exe |  **Win32/Yomal!rfn**  | a06f070614fb6458e1c36f20e7bb512957e843f45f8da9e99bb2365126a56be9 | efbc625f-2518-4964-8e72-3780cf193792 | [VirusTotal](https://www.virustotal.com/gui/file/a06f070614fb6458e1c36f20e7bb512957e843f45f8da9e99bb2365126a56be9) (31) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a06f070614fb6458e1c36f20e7bb512957e843f45f8da9e99bb2365126a56be9) | A476 |
-| 2026/2/18 |      远控_.exe       |        研究中         | 7cb4dab5ab63a160849187ad0de3c926216fc0c3d5d08613ec88e244e1fc0f42 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/7cb4dab5ab63a160849187ad0de3c926216fc0c3d5d08613ec88e244e1fc0f42) (15) |                  [MalwareBazaar Database]()                  | A477 |
+| 2026/2/18 |      远控_.exe       |  **Win32/Mikey.HNC**  | 7cb4dab5ab63a160849187ad0de3c926216fc0c3d5d08613ec88e244e1fc0f42 | a7a32059-e903-453c-af2a-f3a6340480e3 | [VirusTotal](https://www.virustotal.com/gui/file/7cb4dab5ab63a160849187ad0de3c926216fc0c3d5d08613ec88e244e1fc0f42) (15) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/7cb4dab5ab63a160849187ad0de3c926216fc0c3d5d08613ec88e244e1fc0f42) | A477 |
 |  ——————   |     ————————————     |     ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
