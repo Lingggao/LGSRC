@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 2 月 19 日 11:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 2 月 19 日 21:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 2 月 19 日，已打击计算机病毒 / 恶意软件 482 个、恶意网站 150 个**。
+&emsp;&emsp;**截至 2026 年 2 月 19 日，已打击计算机病毒 / 恶意软件 483 个、恶意网站 152 个**。
 
 ---
 
@@ -94,11 +94,12 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/19 | Clash.for.Windows.msi |   **Win32/Kepavll**   | 822681e669666fe00b0dc735971d0f1891da3d7ae39f290a1e34365d28490fd7 | 4b7fa5f4-bbd3-4e89-9cb6-7b4940741275 | [VirusTotal](https://www.virustotal.com/gui/file/822681e669666fe00b0dc735971d0f1891da3d7ae39f290a1e34365d28490fd7) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/822681e669666fe00b0dc735971d0f1891da3d7ae39f290a1e34365d28490fd7) | A480 |
 | 2026/2/19 |   clash0.20.39.exe    | **Win32/Malgent!MSR** | 93dc23aac6771621ff743b5c17e3550532df31dcc576b06090fe1a3342060910 | 53cb0256-c828-4352-874c-d496a6157671 | [VirusTotal](https://www.virustotal.com/gui/file/93dc23aac6771621ff743b5c17e3550532df31dcc576b06090fe1a3342060910) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/93dc23aac6771621ff743b5c17e3550532df31dcc576b06090fe1a3342060910) | A481 |
 | 2026/2/19 |    ClashSetup.exe     |    **Win32/Etset**    | f0b0b82e444289ca38356b898589c1882b12808bad1e0bdfca467685d4ea350a | 33ed48d3-8c9d-40e4-87b2-8aeda93d4928 | [VirusTotal](https://www.virustotal.com/gui/file/f0b0b82e444289ca38356b898589c1882b12808bad1e0bdfca467685d4ea350a) (35) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/f0b0b82e444289ca38356b898589c1882b12808bad1e0bdfca467685d4ea350a) | A482 |
+| 2026/2/19 |  2.19anSogou···.exe   | **Win32/Malgent!MSR** | d635ad5ba66925c17b63e6d1d6fae58d6ecfc0be0806064907b564861f033489 | dbd20078-0221-4a39-a2f2-422c8dd5dde7 | [VirusTotal](https://www.virustotal.com/gui/file/d635ad5ba66925c17b63e6d1d6fae58d6ecfc0be0806064907b564861f033489) (5) |                              无                              | A483 |
 |  ——————   |     ————————————      |     ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
 >
-> &emsp;只显示最近 30 条数据，更早数据详见 LGSRC/[Archive_1.md](https://github.com/Lingggao/LGSRC/blob/main/Archive_1.md) (计算机病毒 / 恶意软件归档)。
+> &emsp;只显示最近约 30 条数据，更早数据详见 LGSRC/[Archive_1.md](https://github.com/Lingggao/LGSRC/blob/main/Archive_1.md) (计算机病毒 / 恶意软件归档)。
 
 ---
 
@@ -108,37 +109,39 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 >
 > &emsp;为确保安全，网站地址将用 “hxxps://” 与 “[.]” 进行替换。**切勿尝试访问表格中列出的任何网址**。
 
-|   日期    |                   URL                    |         类别          |                           有效载荷                           |                         URLhaus                          | 编号 |
-| :-------: | :--------------------------------------: | :-------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
-| 2026/2/11 |       hxxps://ofice-wps[.]com[.]cn       |  仿冒 WPS、传播病毒   |       hxxps://hjekd8c[.]huowdy[.]com/WPS_office[.]zip        | [URLhaus Database](https://urlhaus.abuse.ch/url/3775978) | Z127 |
-| 2026/2/11 |           hxxps://cn-wps[.]cc            |  仿冒 WPS、传播病毒   |                              有                              |                            无                            | Z128 |
-| 2026/2/11 |     hxxps://www[.]ce-wps[.]com[.]cn      |  仿冒 WPS、传播病毒   |                              有                              |                            无                            | Z129 |
-| 2026/2/13 |         hxxps://pc-huorong[.]com         |  仿冒火绒、传播病毒   | hxxps://xinjiapox[.]oss-ap-southeast-1[.]aliyuncs[.]com/sysidiag6[.]0[.]225[.]zip |                            无                            | Z130 |
-| 2026/2/13 |    hxxps://of-huorong[.]com/download     |  仿冒火绒、传播病毒   | hxxps://xinjiapox[.]oss-ap-southeast-1[.]aliyuncs[.]com/sysidiag6[.]0[.]225[.]zip |                            无                            | Z131 |
-| 2026/2/13 |        hxxps://apps-huorong[.]com        |  仿冒火绒、传播病毒   | hxxps://xinjiapox[.]oss-ap-southeast-1[.]aliyuncs[.]com/sysidiag6[.]0[.]225[.]zip |                            无                            | Z132 |
-| 2026/2/13 |    hxxps://huorong-zh[.]com/download     |  仿冒火绒、传播病毒   | hxxps://xinjiapox[.]oss-ap-southeast-1[.]aliyuncs[.]com/sysidiag6[.]0[.]225[.]zip |                            无                            | Z133 |
-| 2026/2/13 |         hxxps://huorong-ch[.]com         |  仿冒火绒、传播病毒   |                              无                              |                            无                            | Z134 |
-| 2026/2/14 |         hxxps://lu-da-shi[.]top          | 仿冒鲁大师、传播病毒  | hxxps://lu-da-shi[.]top/cdn_download/ludashi/setuploader[.]exe |                            无                            | Z135 |
-| 2026/2/14 |         hxxps://ludashi-cn[.]com         | 仿冒鲁大师、传播病毒  | hxxps://ludashi-cn[.]com/cdn_download/ludashi/setuploader[.]exe |                            无                            | Z136 |
-| 2026/2/14 |         hxxps://ludashi-zh[.]com         | 仿冒鲁大师、传播病毒  | hxxps://ludashi-zh[.]com/cdn_download/ludashi/setuploader[.]exe |                            无                            | Z137 |
-| 2026/2/15 |         hxxps://web-google[.]cn          | 仿冒 Chrome、传播病毒 |                              有                              |                            无                            | Z138 |
-| 2026/2/16 | hxxps://web[.]chrorome-google[.]hl[.]cn  | 仿冒 Chrome、传播病毒 | hxxps://tpuexd-1362557240[.]cos[.]ap-hongkong[.]myqcloud[.]com/Chorme_Setup_1858_1[.]3[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3779077) | Z139 |
-| 2026/2/16 |     hxxps://chrorme-google[.]hl[.]cn     | 仿冒 Chrome、传播病毒 | hxxps://www[.]up3me[.]cc/?c=cGXvEgv949Hv4SreY2v_OTs8Z-7n5Cqw9l9jPJG65GC3A1riBz4JRBlKnIFs-IqV | [URLhaus Database](https://urlhaus.abuse.ch/url/3778875) | Z140 |
-| 2026/2/16 |    hxxps://chromme-google[.]com[.]cn     | 仿冒 Chrome、传播病毒 | hxxps://download[.]chrome-google[.]sbs/downloads/clnrorne[.]php |                            无                            | Z141 |
-| 2026/2/16 | hxxps://cn[.]pc-chrome-google[.]hl[.]cn  | 仿冒 Chrome、传播病毒 | hxxps://tpuexd-1362557240[.]cos[.]ap-hongkong[.]myqcloud[.]com/Chorme_Setup_1858_1[.]3[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3779077) | Z142 |
-| 2026/2/16 | hxxps://zh[.]cn-chroome-google[.]hl[.]cn | 仿冒 Chrome、传播病毒 | hxxps://tpuexd-1362557240[.]cos[.]ap-hongkong[.]myqcloud[.]com/Chorme_Setup_1858_1[.]3[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3779077) | Z143 |
-| 2026/2/18 |       hxxps://clash-org[.]com[.]cn       | 借助 VPN 工具传播病毒 |   hxxps://clash-org[.]com[.]cn/Clash[.]for[.]Windows[.]zip   |                            无                            | Z144 |
-| 2026/2/18 |       hxxps://ip-clash[.]com[.]cn        | 借助 VPN 工具传播病毒 |           hxxps://ip-clash[.]com[.]cn/down[.]html            |                            无                            | Z145 |
-| 2026/2/18 |       hxxps://app-clash[.]com[.]cn       | 借助 VPN 工具传播病毒 |     hxxps://app-clash[.]com[.]cn/clash0[.]20[.]39[.]zip      |                            无                            | Z146 |
-| 2026/2/18 |       hxxps://kc-clash[.]com[.]cn        | 借助 VPN 工具传播病毒 |           hxxps://ip-clash[.]com[.]cn/down[.]html            |                            无                            | Z147 |
-| 2026/2/18 |  hxxps://www[.]clash-github[.]com[.]cn   | 借助 VPN 工具传播病毒 | hxxps://www[.]clash-github[.]com[.]cn/downloads/windows/ClashSetup[.]zip |                            无                            | Z148 |
-| 2026/2/18 |        hxxps://clashos[.]com[.]cn        | 借助 VPN 工具传播病毒 |                              无                              |                            无                            | Z149 |
-| 2026/2/18 |        hxxps://clashi[.]com[.]cn         | 借助 VPN 工具传播病毒 |                              无                              |                            无                            | Z150 |
-|  ——————   |           ————————————————————           |    ———————————————    |                ——————————————————————————————                |                        ——————————                        | ———  |
+|   日期    |                   URL                    |           类别            |                           有效载荷                           |                         URLhaus                          | 编号 |
+| :-------: | :--------------------------------------: | :-----------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
+| 2026/2/11 |       hxxps://ofice-wps[.]com[.]cn       |    仿冒 WPS、传播病毒     |       hxxps://hjekd8c[.]huowdy[.]com/WPS_office[.]zip        | [URLhaus Database](https://urlhaus.abuse.ch/url/3775978) | Z127 |
+| 2026/2/11 |           hxxps://cn-wps[.]cc            |    仿冒 WPS、传播病毒     |                              有                              |                            无                            | Z128 |
+| 2026/2/11 |     hxxps://www[.]ce-wps[.]com[.]cn      |    仿冒 WPS、传播病毒     |                              有                              |                            无                            | Z129 |
+| 2026/2/13 |         hxxps://pc-huorong[.]com         |    仿冒火绒、传播病毒     | hxxps://xinjiapox[.]oss-ap-southeast-1[.]aliyuncs[.]com/sysidiag6[.]0[.]225[.]zip |                            无                            | Z130 |
+| 2026/2/13 |    hxxps://of-huorong[.]com/download     |    仿冒火绒、传播病毒     | hxxps://xinjiapox[.]oss-ap-southeast-1[.]aliyuncs[.]com/sysidiag6[.]0[.]225[.]zip |                            无                            | Z131 |
+| 2026/2/13 |        hxxps://apps-huorong[.]com        |    仿冒火绒、传播病毒     | hxxps://xinjiapox[.]oss-ap-southeast-1[.]aliyuncs[.]com/sysidiag6[.]0[.]225[.]zip |                            无                            | Z132 |
+| 2026/2/13 |    hxxps://huorong-zh[.]com/download     |    仿冒火绒、传播病毒     | hxxps://xinjiapox[.]oss-ap-southeast-1[.]aliyuncs[.]com/sysidiag6[.]0[.]225[.]zip |                            无                            | Z133 |
+| 2026/2/13 |         hxxps://huorong-ch[.]com         |    仿冒火绒、传播病毒     |                              无                              |                            无                            | Z134 |
+| 2026/2/14 |         hxxps://lu-da-shi[.]top          |   仿冒鲁大师、传播病毒    | hxxps://lu-da-shi[.]top/cdn_download/ludashi/setuploader[.]exe |                            无                            | Z135 |
+| 2026/2/14 |         hxxps://ludashi-cn[.]com         |   仿冒鲁大师、传播病毒    | hxxps://ludashi-cn[.]com/cdn_download/ludashi/setuploader[.]exe |                            无                            | Z136 |
+| 2026/2/14 |         hxxps://ludashi-zh[.]com         |   仿冒鲁大师、传播病毒    | hxxps://ludashi-zh[.]com/cdn_download/ludashi/setuploader[.]exe |                            无                            | Z137 |
+| 2026/2/15 |         hxxps://web-google[.]cn          |   仿冒 Chrome、传播病毒   |                              有                              |                            无                            | Z138 |
+| 2026/2/16 | hxxps://web[.]chrorome-google[.]hl[.]cn  |   仿冒 Chrome、传播病毒   | hxxps://tpuexd-1362557240[.]cos[.]ap-hongkong[.]myqcloud[.]com/Chorme_Setup_1858_1[.]3[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3779077) | Z139 |
+| 2026/2/16 |     hxxps://chrorme-google[.]hl[.]cn     |   仿冒 Chrome、传播病毒   | hxxps://www[.]up3me[.]cc/?c=cGXvEgv949Hv4SreY2v_OTs8Z-7n5Cqw9l9jPJG65GC3A1riBz4JRBlKnIFs-IqV | [URLhaus Database](https://urlhaus.abuse.ch/url/3778875) | Z140 |
+| 2026/2/16 |    hxxps://chromme-google[.]com[.]cn     |   仿冒 Chrome、传播病毒   | hxxps://download[.]chrome-google[.]sbs/downloads/clnrorne[.]php |                            无                            | Z141 |
+| 2026/2/16 | hxxps://cn[.]pc-chrome-google[.]hl[.]cn  |   仿冒 Chrome、传播病毒   | hxxps://tpuexd-1362557240[.]cos[.]ap-hongkong[.]myqcloud[.]com/Chorme_Setup_1858_1[.]3[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3779077) | Z142 |
+| 2026/2/16 | hxxps://zh[.]cn-chroome-google[.]hl[.]cn |   仿冒 Chrome、传播病毒   | hxxps://tpuexd-1362557240[.]cos[.]ap-hongkong[.]myqcloud[.]com/Chorme_Setup_1858_1[.]3[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3779077) | Z143 |
+| 2026/2/18 |       hxxps://clash-org[.]com[.]cn       |   借助 VPN 工具传播病毒   |   hxxps://clash-org[.]com[.]cn/Clash[.]for[.]Windows[.]zip   | [URLhaus Database](https://urlhaus.abuse.ch/url/3781032) | Z144 |
+| 2026/2/18 |       hxxps://ip-clash[.]com[.]cn        |   借助 VPN 工具传播病毒   |           hxxps://ip-clash[.]com[.]cn/down[.]html            |                            无                            | Z145 |
+| 2026/2/18 |       hxxps://app-clash[.]com[.]cn       |   借助 VPN 工具传播病毒   |     hxxps://app-clash[.]com[.]cn/clash0[.]20[.]39[.]zip      | [URLhaus Database](https://urlhaus.abuse.ch/url/3781030) | Z146 |
+| 2026/2/18 |       hxxps://kc-clash[.]com[.]cn        |   借助 VPN 工具传播病毒   |           hxxps://ip-clash[.]com[.]cn/down[.]html            |                            无                            | Z147 |
+| 2026/2/18 |  hxxps://www[.]clash-github[.]com[.]cn   |   借助 VPN 工具传播病毒   | hxxps://www[.]clash-github[.]com[.]cn/downloads/windows/ClashSetup[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3781031) | Z148 |
+| 2026/2/18 |        hxxps://clashos[.]com[.]cn        |   借助 VPN 工具传播病毒   |                              无                              |                            无                            | Z149 |
+| 2026/2/18 |        hxxps://clashi[.]com[.]cn         |   借助 VPN 工具传播病毒   |                              无                              |                            无                            | Z150 |
+| 2026/2/19 |       hxxps://www[.]huoronga[.]com       | 仿冒火绒 / 搜狗、传播病毒 | hxxps://pub-085644fd7c304ed49d4ff78a323bd506[.]r2[.]dev/2[.]19anSogouExplorer[.]zip |                            无                            | Z151 |
+| 2026/2/19 |    hxxps://hndqiuebgibuiwqdhr[.]cyou     | 仿冒火绒 / 搜狗、传播病毒 | hxxps://pub-085644fd7c304ed49d4ff78a323bd506[.]r2[.]dev/2[.]19anSogouExplorer[.]zip |                            无                            | Z152 |
+|  ——————   |           ————————————————————           |      ———————————————      |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
 >
-> &emsp;只显示最近 30 条数据，更早数据详见 LGSRC/[Archive_2.md](https://github.com/Lingggao/LGSRC/blob/main/Archive_2.md) (恶意网站归档)。
+> &emsp;只显示最近约 30 条数据，更早数据详见 LGSRC/[Archive_2.md](https://github.com/Lingggao/LGSRC/blob/main/Archive_2.md) (恶意网站归档)。
 
 ## 如何提交文件进行分析？
 
