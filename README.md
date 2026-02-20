@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 2 月 19 日 23:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 2 月 20 日 11:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 2 月 19 日，已打击计算机病毒 / 恶意软件 484 个、恶意网站 152 个**。
+&emsp;&emsp;**截至 2026 年 2 月 20 日，已打击计算机病毒 / 恶意软件 485 个、恶意网站 152 个**。
 
 ---
 
@@ -96,6 +96,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/19 |    ClashSetup.exe     |    **Win32/Etset**    | f0b0b82e444289ca38356b898589c1882b12808bad1e0bdfca467685d4ea350a | 33ed48d3-8c9d-40e4-87b2-8aeda93d4928 | [VirusTotal](https://www.virustotal.com/gui/file/f0b0b82e444289ca38356b898589c1882b12808bad1e0bdfca467685d4ea350a) (35) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/f0b0b82e444289ca38356b898589c1882b12808bad1e0bdfca467685d4ea350a) | A482 |
 | 2026/2/19 |  2.19anSogou···.exe   | **Win32/Malgent!MSR** | d635ad5ba66925c17b63e6d1d6fae58d6ecfc0be0806064907b564861f033489 | dbd20078-0221-4a39-a2f2-422c8dd5dde7 | [VirusTotal](https://www.virustotal.com/gui/file/d635ad5ba66925c17b63e6d1d6fae58d6ecfc0be0806064907b564861f033489) (5) |                              无                              | A483 |
 | 2026/2/19 |    OfficeSetup.exe    | **Win32/Malgent!MSR** | 4d15c4b79dd29233ab3b016f5e28186968ea291935608c5790d54803509f3b73 | 86c6868d-3053-4b53-9030-52e902d27bf1 | [VirusTotal](https://www.virustotal.com/gui/file/4d15c4b79dd29233ab3b016f5e28186968ea291935608c5790d54803509f3b73) (22) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/4d15c4b79dd29233ab3b016f5e28186968ea291935608c5790d54803509f3b73) | A484 |
+| 2026/2/20 | 运行收集硬件信息.exe  | **Win32/Malgent!MSR** | 0f43b3de8c5e80bc9d81b9d8b9c67ebab8ac297d0eac10fa3e64831db36ee5b6 | 3c07df9b-66d9-4637-a1d5-94d712be73fb | [VirusTotal](https://www.virustotal.com/gui/file/0f43b3de8c5e80bc9d81b9d8b9c67ebab8ac297d0eac10fa3e64831db36ee5b6) (24) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/0f43b3de8c5e80bc9d81b9d8b9c67ebab8ac297d0eac10fa3e64831db36ee5b6) | A485 |
 |  ——————   |     ————————————      |     ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
