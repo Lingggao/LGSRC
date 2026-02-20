@@ -57,7 +57,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 &emsp;&emsp;上次更新时间：2026 年 2 月 20 日 11:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 2 月 20 日，已打击计算机病毒 / 恶意软件 485 个、恶意网站 152 个**。
+&emsp;&emsp;**截至 2026 年 2 月 20 日，已打击计算机病毒 / 恶意软件 485 个、恶意网站 153 个**。
 
 ---
 
@@ -139,6 +139,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/18 |        hxxps://clashi[.]com[.]cn         |   借助 VPN 工具传播病毒   |                              无                              |                            无                            | Z150 |
 | 2026/2/19 |       hxxps://www[.]huoronga[.]com       | 仿冒火绒 / 搜狗、传播病毒 | hxxps://pub-085644fd7c304ed49d4ff78a323bd506[.]r2[.]dev/2[.]19anSogouExplorer[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3781232) | Z151 |
 | 2026/2/19 |    hxxps://hndqiuebgibuiwqdhr[.]cyou     | 仿冒火绒 / 搜狗、传播病毒 | hxxps://pub-085644fd7c304ed49d4ff78a323bd506[.]r2[.]dev/2[.]19anSogouExplorer[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3781232) | Z152 |
+| 2026/2/20 |  hxxps://www[.]ohyewang[.]com/hardware   |         传播病毒          |                              有                              |                            无                            | Z153 |
 |  ——————   |           ————————————————————           |      ———————————————      |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
