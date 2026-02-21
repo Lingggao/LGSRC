@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 2 月 21 日 14:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 2 月 21 日 22:00 (UTC+8)。
 
-&emsp;&emsp;**截至 2026 年 2 月 21 日，已打击计算机病毒 / 恶意软件 490 个、恶意网站 153 个**。
+&emsp;&emsp;**截至 2026 年 2 月 21 日，已打击计算机病毒 / 恶意软件 491 个、恶意网站 153 个**。
 
 ---
 
@@ -95,6 +95,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/21 |     P-c50f547c.exe      | **Win32/Malgent!MSR** | 6efe8160f7d2327d0b1f2b3a8d78b0be094548fb72fe21ad9f127a13c9ea0ebd | ad3d88ab-275e-4423-a723-c6316d9cb58d | [VirusTotal](https://www.virustotal.com/gui/file/6efe8160f7d2327d0b1f2b3a8d78b0be094548fb72fe21ad9f127a13c9ea0ebd) (16) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/6efe8160f7d2327d0b1f2b3a8d78b0be094548fb72fe21ad9f127a13c9ea0ebd) | A488 |
 | 2026/2/21 |      Steam(2).exe       |   **Win32/Kepavll**   | 3d3c7507e9f6319b006c46e8c67f8a51cd35f4e7c82f6bbd7573380eff9206c8 | 32a0f29b-2a34-4bda-9dbe-7a864c70ec10 | [VirusTotal](https://www.virustotal.com/gui/file/3d3c7507e9f6319b006c46e8c67f8a51cd35f4e7c82f6bbd7573380eff9206c8) (22) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/3d3c7507e9f6319b006c46e8c67f8a51cd35f4e7c82f6bbd7573380eff9206c8) | A489 |
 | 2026/2/21 | 猪猪音频调试工具箱.exe  |  **Win32/FatalRAT**   | 958634f5699c996ebe6ec331b5421580ae1eba5fbc55da387fdfee04ecc702bd | fb134074-2d41-45fc-a698-d52511a0c7c8 | [VirusTotal](https://www.virustotal.com/gui/file/958634f5699c996ebe6ec331b5421580ae1eba5fbc55da387fdfee04ecc702bd) (35) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/958634f5699c996ebe6ec331b5421580ae1eba5fbc55da387fdfee04ecc702bd) | A490 |
+| 2026/2/21 |     HostRuntime.exe     |        研究中         | 519a114231809dca8849f6f9e3653ffcbdd8244845023668a3e3a90be8aa6662 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/519a114231809dca8849f6f9e3653ffcbdd8244845023668a3e3a90be8aa6662) (24) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/519a114231809dca8849f6f9e3653ffcbdd8244845023668a3e3a90be8aa6662) | A491 |
 |  ——————   |      ————————————       |     ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
