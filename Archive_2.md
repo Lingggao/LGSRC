@@ -136,6 +136,12 @@
 | 2026/2/11 |          hxxps://pp-wps[.]com[.]cn          |     仿冒 WPS、传播病毒      |                              无                              |                            无                            | Z124 |
 | 2026/2/11 |          hxxps://www[.]wpspt[.]com          |     仿冒 WPS、传播病毒      |                              有                              |                            无                            | Z125 |
 | 2026/2/11 |         hxxps://sgp-wps[.]com[.]cn          |     仿冒 WPS、传播病毒      | hxxps://wps01[.]oss-cn-hongkong[.]aliyuncs[.]com/WPS_Setup_17147_1[.]3[.]zip |                            无                            | Z126 |
+| 2026/2/11 |        hxxps://ofice-wps[.]com[.]cn         |     仿冒 WPS、传播病毒      |       hxxps://hjekd8c[.]huowdy[.]com/WPS_office[.]zip        | [URLhaus Database](https://urlhaus.abuse.ch/url/3775978) | Z127 |
+| 2026/2/11 |             hxxps://cn-wps[.]cc             |     仿冒 WPS、传播病毒      |                              有                              |                            无                            | Z128 |
+| 2026/2/11 |       hxxps://www[.]ce-wps[.]com[.]cn       |     仿冒 WPS、传播病毒      |                              有                              |                            无                            | Z129 |
+| 2026/2/13 |          hxxps://pc-huorong[.]com           |     仿冒火绒、传播病毒      | hxxps://xinjiapox[.]oss-ap-southeast-1[.]aliyuncs[.]com/sysidiag6[.]0[.]225[.]zip |                            无                            | Z130 |
+| 2026/2/13 |      hxxps://of-huorong[.]com/download      |     仿冒火绒、传播病毒      | hxxps://xinjiapox[.]oss-ap-southeast-1[.]aliyuncs[.]com/sysidiag6[.]0[.]225[.]zip |                            无                            | Z131 |
+| 2026/2/13 |         hxxps://apps-huorong[.]com          |     仿冒火绒、传播病毒      | hxxps://xinjiapox[.]oss-ap-southeast-1[.]aliyuncs[.]com/sysidiag6[.]0[.]225[.]zip |                            无                            | Z132 |
 |  ——————   |            ————————————————————             |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
