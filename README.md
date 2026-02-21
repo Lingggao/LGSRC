@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 2 月 22 日 2:00 (UTC+8)。
+&emsp;&emsp;上次更新时间：2026 年 2 月 22 日 5:00 (GMT+8)。
 
-&emsp;&emsp;**截至 2026 年 2 月 22 日，已打击计算机病毒 / 恶意软件 492 个、恶意网站 155 个**。
+&emsp;&emsp;**截至 2026 年 2 月 22 日，已打击计算机病毒 / 恶意软件 496 个、恶意网站 155 个**。
 
 ---
 
@@ -69,9 +69,6 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 |   日期    |         文件名          |         检测          |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :---------------------: | :-------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/2/16 |        m (2).exe        | **Win32/Egairtigado** | b32d1a2b8c3bbe74e196486a6a526aa69aa2881571357f671fabedd0f8a6d825 | f30cab24-d66e-4ae7-adc0-12356d947e1c | [VirusTotal](https://www.virustotal.com/gui/file/b32d1a2b8c3bbe74e196486a6a526aa69aa2881571357f671fabedd0f8a6d825) (20) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b32d1a2b8c3bbe74e196486a6a526aa69aa2881571357f671fabedd0f8a6d825) | A468 |
-| 2026/2/16 |   星际战甲_Class.exe    | **Win32/Malgent!MSR** | 65261fdbc5609f11095af8ab0afb87c017cd5bff10eebbf4bccdcce2e47da40d | 21c6d608-c978-43f8-a1e5-9dcc6da87bb2 | [VirusTotal](https://www.virustotal.com/gui/file/65261fdbc5609f11095af8ab0afb87c017cd5bff10eebbf4bccdcce2e47da40d) (33) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/65261fdbc5609f11095af8ab0afb87c017cd5bff10eebbf4bccdcce2e47da40d) | A469 |
-| 2026/2/17 |  Chorme···1858···.exe   | **Win32/Malgent!MSR** | 436c9ae95fd183ea7c5e5bdc019d93a615b50b5b293b5b6c550bd61623d86709 | 20d2cc95-a992-485f-a89c-0d9165041709 | [VirusTotal](https://www.virustotal.com/gui/file/436c9ae95fd183ea7c5e5bdc019d93a615b50b5b293b5b6c550bd61623d86709) (5) |                              无                              | A470 |
 | 2026/2/17 |   Clnromeca9f-x64.exe   | **Win32/Malgent!MSR** | cd086223e514084ec27942cfa308024d55e5e2138abd8b0cc9a940835e35cd71 | a9e7626d-9c2e-42ce-bdb5-d3244fc2d7fd | [VirusTotal](https://www.virustotal.com/gui/file/cd086223e514084ec27942cfa308024d55e5e2138abd8b0cc9a940835e35cd71) (24) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/cd086223e514084ec27942cfa308024d55e5e2138abd8b0cc9a940835e35cd71) | A471 |
 | 2026/2/17 |       RunCode.zip       |   **CobaltStrike**    | 478c33a64d55fcce7c037d5c351412857a0714c086e6e142f01efb05c4797361 | 9157095d-cdc5-442a-98c9-aeb92936c424 | [VirusTotal](https://www.virustotal.com/gui/file/478c33a64d55fcce7c037d5c351412857a0714c086e6e142f01efb05c4797361) (38) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/478c33a64d55fcce7c037d5c351412857a0714c086e6e142f01efb05c4797361) | A472 |
 | 2026/2/17 |  HanNEL Beta1.3.2.exe   | **Win32/Malgent!MSR** | 113c133afaf9312ab4aea413456e9107de2b9fb1694dc31f8747bafdba2980ce | 7c4d3b60-fe1a-4902-b92c-efbfdf6c6e73 | [VirusTotal](https://www.virustotal.com/gui/file/113c133afaf9312ab4aea413456e9107de2b9fb1694dc31f8747bafdba2980ce) (28) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/113c133afaf9312ab4aea413456e9107de2b9fb1694dc31f8747bafdba2980ce) | A473 |
@@ -94,6 +91,10 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/21 | 猪猪音频调试工具箱.exe  |  **Win32/FatalRAT**   | 958634f5699c996ebe6ec331b5421580ae1eba5fbc55da387fdfee04ecc702bd | fb134074-2d41-45fc-a698-d52511a0c7c8 | [VirusTotal](https://www.virustotal.com/gui/file/958634f5699c996ebe6ec331b5421580ae1eba5fbc55da387fdfee04ecc702bd) (35) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/958634f5699c996ebe6ec331b5421580ae1eba5fbc55da387fdfee04ecc702bd) | A490 |
 | 2026/2/21 |     HostRuntime.exe     | **MSIL/TurtleLoader** | 519a114231809dca8849f6f9e3653ffcbdd8244845023668a3e3a90be8aa6662 | dbce1223-a5e5-4b23-9381-f34c77163c3b | [VirusTotal](https://www.virustotal.com/gui/file/519a114231809dca8849f6f9e3653ffcbdd8244845023668a3e3a90be8aa6662) (24) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/519a114231809dca8849f6f9e3653ffcbdd8244845023668a3e3a90be8aa6662) | A491 |
 | 2026/2/21 |   sysidiag6.0.225.exe   | **Win32/Malgent!MSR** | c8a6625fc3de57f7c8aae45400c29a6def9e5edd7139a77742b681bf66a745b5 | 03663450-a88b-4995-aa83-6abb500100ce | [VirusTotal](https://www.virustotal.com/gui/file/c8a6625fc3de57f7c8aae45400c29a6def9e5edd7139a77742b681bf66a745b5) (26) |                              无                              | A492 |
+| 2026/2/22 |    cache_7ad15a.exe     |        研究中         | dc2140458c110ba1695bf5f8478a1385d48db45cfe97cbf71d2fb8cb7d1d7e9c |                                      | [VirusTotal](https://www.virustotal.com/gui/file/dc2140458c110ba1695bf5f8478a1385d48db45cfe97cbf71d2fb8cb7d1d7e9c) (64) |                  [MalwareBazaar Database]()                  | A493 |
+| 2026/2/22 |       libcef.exe        |        研究中         | 11dee89c0ea7cb7142d3edd87bf1888f3d559ab6752f0762b123e60bbb0cdac9 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/11dee89c0ea7cb7142d3edd87bf1888f3d559ab6752f0762b123e60bbb0cdac9) (62) |                  [MalwareBazaar Database]()                  | A494 |
+| 2026/2/22 |       Server.exe        |        研究中         | d80119e2594df87d9719eb97672c18dfd663654847c7def1c91cac374a720cb6 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/d80119e2594df87d9719eb97672c18dfd663654847c7def1c91cac374a720cb6) (62) |                  [MalwareBazaar Database]()                  | A495 |
+| 2026/2/22 |  调音师工具箱1.8.0.exe  |        研究中         | c3e552b187f95df1a59b2f1304c38caff54ce9e94688f67b52aad375ac7c610a |                                      | [VirusTotal](https://www.virustotal.com/gui/file/c3e552b187f95df1a59b2f1304c38caff54ce9e94688f67b52aad375ac7c610a) (62) |                  [MalwareBazaar Database]()                  | A496 |
 |  ——————   |      ————————————       |     ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
