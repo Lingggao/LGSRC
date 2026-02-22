@@ -5,11 +5,11 @@
 | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;坚持筑牢国家网络安全屏障&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
 | :----------------------------------------------------------: |
 
-| 没有网络安全就没有国家安全 |
-| :------------------------: |
+| &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;没有网络安全就没有国家安全&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
+| :----------------------------------------------------------: |
 
-| 网络安全为人民，网络安全靠人民 |
-| :----------------------------: |
+| &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;网络安全为人民，网络安全靠人民&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
+| :----------------------------------------------------------: |
 
 </div>
 
