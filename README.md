@@ -1,5 +1,7 @@
 <SPAN ID = 'HEAD'/>
 
+<div align="center">
+
 | 坚持筑牢国家网络安全屏障 |
 | :----------------------: |
 
@@ -8,6 +10,8 @@
 
 | 网络安全为人民，网络安全靠人民 |
 | :----------------------------: |
+
+</div>
 
 <div align="center">
 <img src="Images/Microsoft MCI.png" width = "12%" /><img src="Images/LING_2.png" width = "25%" /> <img src="Images/WCC2024_2.png" width = "12%" />
