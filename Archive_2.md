@@ -142,6 +142,8 @@
 | 2026/2/13 |          hxxps://pc-huorong[.]com           |     仿冒火绒、传播病毒      | hxxps://xinjiapox[.]oss-ap-southeast-1[.]aliyuncs[.]com/sysidiag6[.]0[.]225[.]zip |                            无                            | Z130 |
 | 2026/2/13 |      hxxps://of-huorong[.]com/download      |     仿冒火绒、传播病毒      | hxxps://xinjiapox[.]oss-ap-southeast-1[.]aliyuncs[.]com/sysidiag6[.]0[.]225[.]zip |                            无                            | Z131 |
 | 2026/2/13 |         hxxps://apps-huorong[.]com          |     仿冒火绒、传播病毒      | hxxps://xinjiapox[.]oss-ap-southeast-1[.]aliyuncs[.]com/sysidiag6[.]0[.]225[.]zip |                            无                            | Z132 |
+| 2026/2/13 |      hxxps://huorong-zh[.]com/download      |     仿冒火绒、传播病毒      | hxxps://xinjiapox[.]oss-ap-southeast-1[.]aliyuncs[.]com/sysidiag6[.]0[.]225[.]zip |                            无                            | Z133 |
+| 2026/2/13 |          hxxps://huorong-ch[.]com           |     仿冒火绒、传播病毒      |                              无                              |                            无                            | Z134 |
 |  ——————   |            ————————————————————             |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---

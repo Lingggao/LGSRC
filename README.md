@@ -1,5 +1,14 @@
 <SPAN ID = 'HEAD'/>
 
+| 坚持筑牢国家网络安全屏障 |
+| :----------------------: |
+
+| 没有网络安全就没有国家安全 |
+| :------------------------: |
+
+| 网络安全为人民，网络安全靠人民 |
+| :----------------------------: |
+
 <div align="center">
 <img src="Images/Microsoft MCI.png" width = "12%" /><img src="Images/LING_2.png" width = "25%" /> <img src="Images/WCC2024_2.png" width = "12%" />
 </div>
@@ -55,7 +64,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 2 月 23 日 1:00 (GMT+8)。
+&emsp;&emsp;上次更新时间：2026 年 2 月 23 日 6:00 (GMT+8)。
 
 &emsp;&emsp;**截至 2026 年 2 月 23 日，已打击计算机病毒 / 恶意软件 496 个、恶意网站 155 个**。
 
@@ -95,6 +104,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/22 |       libcef.exe        |   **Win32/AutoRun**   | 11dee89c0ea7cb7142d3edd87bf1888f3d559ab6752f0762b123e60bbb0cdac9 | f3710003-38d7-4473-931d-98d370c0d4ac | [VirusTotal](https://www.virustotal.com/gui/file/11dee89c0ea7cb7142d3edd87bf1888f3d559ab6752f0762b123e60bbb0cdac9) (62) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/11dee89c0ea7cb7142d3edd87bf1888f3d559ab6752f0762b123e60bbb0cdac9) | A494 |
 | 2026/2/22 |       Server.exe        |   **Win32/AutoRun**   | d80119e2594df87d9719eb97672c18dfd663654847c7def1c91cac374a720cb6 | 653d8574-85e9-4a47-acfe-da13af14c9d8 | [VirusTotal](https://www.virustotal.com/gui/file/d80119e2594df87d9719eb97672c18dfd663654847c7def1c91cac374a720cb6) (62) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/d80119e2594df87d9719eb97672c18dfd663654847c7def1c91cac374a720cb6) | A495 |
 | 2026/2/22 |  调音师工具箱1.8.0.exe  |   **Win32/Farfli**    | c3e552b187f95df1a59b2f1304c38caff54ce9e94688f67b52aad375ac7c610a | b600b567-2bc7-4549-bbf1-11ff98d56c17 | [VirusTotal](https://www.virustotal.com/gui/file/c3e552b187f95df1a59b2f1304c38caff54ce9e94688f67b52aad375ac7c610a) (62) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c3e552b187f95df1a59b2f1304c38caff54ce9e94688f67b52aad375ac7c610a) | A496 |
+| 2026/2/23 |                         |        研究中         |                                                              |                                      |                      [VirusTotal]() ()                       |                  [MalwareBazaar Database]()                  | A497 |
 |  ——————   |      ————————————       |     ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -111,8 +121,6 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 |   日期    |                   URL                    |           类别            |                           有效载荷                           |                         URLhaus                          | 编号 |
 | :-------: | :--------------------------------------: | :-----------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
-| 2026/2/13 |    hxxps://huorong-zh[.]com/download     |    仿冒火绒、传播病毒     | hxxps://xinjiapox[.]oss-ap-southeast-1[.]aliyuncs[.]com/sysidiag6[.]0[.]225[.]zip |                            无                            | Z133 |
-| 2026/2/13 |         hxxps://huorong-ch[.]com         |    仿冒火绒、传播病毒     |                              无                              |                            无                            | Z134 |
 | 2026/2/14 |         hxxps://lu-da-shi[.]top          |   仿冒鲁大师、传播病毒    | hxxps://lu-da-shi[.]top/cdn_download/ludashi/setuploader[.]exe |                            无                            | Z135 |
 | 2026/2/14 |         hxxps://ludashi-cn[.]com         |   仿冒鲁大师、传播病毒    | hxxps://ludashi-cn[.]com/cdn_download/ludashi/setuploader[.]exe |                            无                            | Z136 |
 | 2026/2/14 |         hxxps://ludashi-zh[.]com         |   仿冒鲁大师、传播病毒    | hxxps://ludashi-zh[.]com/cdn_download/ludashi/setuploader[.]exe |                            无                            | Z137 |
