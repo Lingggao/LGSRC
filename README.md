@@ -55,9 +55,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 2 月 22 日 5:00 (GMT+8)。
+&emsp;&emsp;上次更新时间：2026 年 2 月 23 日 1:00 (GMT+8)。
 
-&emsp;&emsp;**截至 2026 年 2 月 22 日，已打击计算机病毒 / 恶意软件 496 个、恶意网站 155 个**。
+&emsp;&emsp;**截至 2026 年 2 月 23 日，已打击计算机病毒 / 恶意软件 496 个、恶意网站 155 个**。
 
 ---
 
@@ -91,10 +91,10 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/21 | 猪猪音频调试工具箱.exe  |  **Win32/FatalRAT**   | 958634f5699c996ebe6ec331b5421580ae1eba5fbc55da387fdfee04ecc702bd | fb134074-2d41-45fc-a698-d52511a0c7c8 | [VirusTotal](https://www.virustotal.com/gui/file/958634f5699c996ebe6ec331b5421580ae1eba5fbc55da387fdfee04ecc702bd) (35) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/958634f5699c996ebe6ec331b5421580ae1eba5fbc55da387fdfee04ecc702bd) | A490 |
 | 2026/2/21 |     HostRuntime.exe     | **MSIL/TurtleLoader** | 519a114231809dca8849f6f9e3653ffcbdd8244845023668a3e3a90be8aa6662 | dbce1223-a5e5-4b23-9381-f34c77163c3b | [VirusTotal](https://www.virustotal.com/gui/file/519a114231809dca8849f6f9e3653ffcbdd8244845023668a3e3a90be8aa6662) (24) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/519a114231809dca8849f6f9e3653ffcbdd8244845023668a3e3a90be8aa6662) | A491 |
 | 2026/2/21 |   sysidiag6.0.225.exe   | **Win32/Malgent!MSR** | c8a6625fc3de57f7c8aae45400c29a6def9e5edd7139a77742b681bf66a745b5 | 03663450-a88b-4995-aa83-6abb500100ce | [VirusTotal](https://www.virustotal.com/gui/file/c8a6625fc3de57f7c8aae45400c29a6def9e5edd7139a77742b681bf66a745b5) (26) |                              无                              | A492 |
-| 2026/2/22 |    cache_7ad15a.exe     |        研究中         | dc2140458c110ba1695bf5f8478a1385d48db45cfe97cbf71d2fb8cb7d1d7e9c |                                      | [VirusTotal](https://www.virustotal.com/gui/file/dc2140458c110ba1695bf5f8478a1385d48db45cfe97cbf71d2fb8cb7d1d7e9c) (64) |                  [MalwareBazaar Database]()                  | A493 |
-| 2026/2/22 |       libcef.exe        |        研究中         | 11dee89c0ea7cb7142d3edd87bf1888f3d559ab6752f0762b123e60bbb0cdac9 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/11dee89c0ea7cb7142d3edd87bf1888f3d559ab6752f0762b123e60bbb0cdac9) (62) |                  [MalwareBazaar Database]()                  | A494 |
-| 2026/2/22 |       Server.exe        |        研究中         | d80119e2594df87d9719eb97672c18dfd663654847c7def1c91cac374a720cb6 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/d80119e2594df87d9719eb97672c18dfd663654847c7def1c91cac374a720cb6) (62) |                  [MalwareBazaar Database]()                  | A495 |
-| 2026/2/22 |  调音师工具箱1.8.0.exe  |        研究中         | c3e552b187f95df1a59b2f1304c38caff54ce9e94688f67b52aad375ac7c610a |                                      | [VirusTotal](https://www.virustotal.com/gui/file/c3e552b187f95df1a59b2f1304c38caff54ce9e94688f67b52aad375ac7c610a) (62) |                  [MalwareBazaar Database]()                  | A496 |
+| 2026/2/22 |    cache_7ad15a.exe     |  **Win32/Asruex.A**   | dc2140458c110ba1695bf5f8478a1385d48db45cfe97cbf71d2fb8cb7d1d7e9c | da5d367e-2721-4696-91fc-c458943dd145 | [VirusTotal](https://www.virustotal.com/gui/file/dc2140458c110ba1695bf5f8478a1385d48db45cfe97cbf71d2fb8cb7d1d7e9c) (64) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/dc2140458c110ba1695bf5f8478a1385d48db45cfe97cbf71d2fb8cb7d1d7e9c) | A493 |
+| 2026/2/22 |       libcef.exe        |   **Win32/AutoRun**   | 11dee89c0ea7cb7142d3edd87bf1888f3d559ab6752f0762b123e60bbb0cdac9 | f3710003-38d7-4473-931d-98d370c0d4ac | [VirusTotal](https://www.virustotal.com/gui/file/11dee89c0ea7cb7142d3edd87bf1888f3d559ab6752f0762b123e60bbb0cdac9) (62) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/11dee89c0ea7cb7142d3edd87bf1888f3d559ab6752f0762b123e60bbb0cdac9) | A494 |
+| 2026/2/22 |       Server.exe        |   **Win32/AutoRun**   | d80119e2594df87d9719eb97672c18dfd663654847c7def1c91cac374a720cb6 | 653d8574-85e9-4a47-acfe-da13af14c9d8 | [VirusTotal](https://www.virustotal.com/gui/file/d80119e2594df87d9719eb97672c18dfd663654847c7def1c91cac374a720cb6) (62) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/d80119e2594df87d9719eb97672c18dfd663654847c7def1c91cac374a720cb6) | A495 |
+| 2026/2/22 |  调音师工具箱1.8.0.exe  |   **Win32/Farfli**    | c3e552b187f95df1a59b2f1304c38caff54ce9e94688f67b52aad375ac7c610a | b600b567-2bc7-4549-bbf1-11ff98d56c17 | [VirusTotal](https://www.virustotal.com/gui/file/c3e552b187f95df1a59b2f1304c38caff54ce9e94688f67b52aad375ac7c610a) (62) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c3e552b187f95df1a59b2f1304c38caff54ce9e94688f67b52aad375ac7c610a) | A496 |
 |  ——————   |      ————————————       |     ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
