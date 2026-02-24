@@ -68,9 +68,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 2 月 23 日 6:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 2 月 24 日 9:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 2 月 23 日，已打击计算机病毒 / 恶意软件 497 个、恶意网站 155 个**。
+&emsp;&emsp;**截至 2026 年 2 月 24 日，已打击计算机病毒 / 恶意软件 498 个、恶意网站 155 个**。
 
 ---
 
@@ -82,10 +82,6 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 |   日期    |         文件名          |         检测          |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :---------------------: | :-------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/2/17 |   Clnromeca9f-x64.exe   | **Win32/Malgent!MSR** | cd086223e514084ec27942cfa308024d55e5e2138abd8b0cc9a940835e35cd71 | a9e7626d-9c2e-42ce-bdb5-d3244fc2d7fd | [VirusTotal](https://www.virustotal.com/gui/file/cd086223e514084ec27942cfa308024d55e5e2138abd8b0cc9a940835e35cd71) (24) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/cd086223e514084ec27942cfa308024d55e5e2138abd8b0cc9a940835e35cd71) | A471 |
-| 2026/2/17 |       RunCode.zip       |   **CobaltStrike**    | 478c33a64d55fcce7c037d5c351412857a0714c086e6e142f01efb05c4797361 | 9157095d-cdc5-442a-98c9-aeb92936c424 | [VirusTotal](https://www.virustotal.com/gui/file/478c33a64d55fcce7c037d5c351412857a0714c086e6e142f01efb05c4797361) (38) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/478c33a64d55fcce7c037d5c351412857a0714c086e6e142f01efb05c4797361) | A472 |
-| 2026/2/17 |  HanNEL Beta1.3.2.exe   | **Win32/Malgent!MSR** | 113c133afaf9312ab4aea413456e9107de2b9fb1694dc31f8747bafdba2980ce | 7c4d3b60-fe1a-4902-b92c-efbfdf6c6e73 | [VirusTotal](https://www.virustotal.com/gui/file/113c133afaf9312ab4aea413456e9107de2b9fb1694dc31f8747bafdba2980ce) (28) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/113c133afaf9312ab4aea413456e9107de2b9fb1694dc31f8747bafdba2980ce) | A473 |
-| 2026/2/17 |      创世奇迹.exe       | **Win32/Malgent!MSR** | 2992ca29c7f80ffe65886f062abbbecf66c231d19bd7cfb6ddba6a34e1e0effd | 50d06a7a-e4c2-4a86-ae35-764f1f91d1c8 | [VirusTotal](https://www.virustotal.com/gui/file/2992ca29c7f80ffe65886f062abbbecf66c231d19bd7cfb6ddba6a34e1e0effd) (22) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/2992ca29c7f80ffe65886f062abbbecf66c231d19bd7cfb6ddba6a34e1e0effd) | A474 |
 | 2026/2/17 |     下载器3.40.exe      |  **Dropper:Floxif**   | 720e1a32fcc9308e33781ea1f1e0dd5e980f11492e93ed14624a68c383752159 | 36371e26-9d1a-4aa5-b643-14f97349e790 | [VirusTotal](https://www.virustotal.com/gui/file/720e1a32fcc9308e33781ea1f1e0dd5e980f11492e93ed14624a68c383752159) (27) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/720e1a32fcc9308e33781ea1f1e0dd5e980f11492e93ed14624a68c383752159) | A475 |
 | 2026/2/17 |  国税庁からの通知.exe   |  **Win32/Yomal!rfn**  | a06f070614fb6458e1c36f20e7bb512957e843f45f8da9e99bb2365126a56be9 | efbc625f-2518-4964-8e72-3780cf193792 | [VirusTotal](https://www.virustotal.com/gui/file/a06f070614fb6458e1c36f20e7bb512957e843f45f8da9e99bb2365126a56be9) (31) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a06f070614fb6458e1c36f20e7bb512957e843f45f8da9e99bb2365126a56be9) | A476 |
 | 2026/2/18 |        远控_.exe        |  **Win32/Mikey.HNC**  | 7cb4dab5ab63a160849187ad0de3c926216fc0c3d5d08613ec88e244e1fc0f42 | a7a32059-e903-453c-af2a-f3a6340480e3 | [VirusTotal](https://www.virustotal.com/gui/file/7cb4dab5ab63a160849187ad0de3c926216fc0c3d5d08613ec88e244e1fc0f42) (15) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/7cb4dab5ab63a160849187ad0de3c926216fc0c3d5d08613ec88e244e1fc0f42) | A477 |
@@ -109,6 +105,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/22 |       Server.exe        |   **Win32/AutoRun**   | d80119e2594df87d9719eb97672c18dfd663654847c7def1c91cac374a720cb6 | 653d8574-85e9-4a47-acfe-da13af14c9d8 | [VirusTotal](https://www.virustotal.com/gui/file/d80119e2594df87d9719eb97672c18dfd663654847c7def1c91cac374a720cb6) (62) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/d80119e2594df87d9719eb97672c18dfd663654847c7def1c91cac374a720cb6) | A495 |
 | 2026/2/22 |  调音师工具箱1.8.0.exe  |   **Win32/Farfli**    | c3e552b187f95df1a59b2f1304c38caff54ce9e94688f67b52aad375ac7c610a | b600b567-2bc7-4549-bbf1-11ff98d56c17 | [VirusTotal](https://www.virustotal.com/gui/file/c3e552b187f95df1a59b2f1304c38caff54ce9e94688f67b52aad375ac7c610a) (62) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c3e552b187f95df1a59b2f1304c38caff54ce9e94688f67b52aad375ac7c610a) | A496 |
 | 2026/2/23 |        ceshi.exe        | **Win32/Malgent!MSR** | 3c107cc4bd314450d8d7ecb6cbf25cdf43eefb2fc3971ab14604c9510ec6c503 | 2efaac64-e73c-4a7e-b576-ebf466e4c55f | [VirusTotal](https://www.virustotal.com/gui/file/3c107cc4bd314450d8d7ecb6cbf25cdf43eefb2fc3971ab14604c9510ec6c503) (13) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/3c107cc4bd314450d8d7ecb6cbf25cdf43eefb2fc3971ab14604c9510ec6c503) | A497 |
+| 2026/2/24 |        bate.exe         | **Win32/Malgent!MSR** | 948261aa1b9803ca07c9bbad33f2171e0d56c5eeeccf3b13045fd27dc31c0676 | d8c5c34b-babc-493e-a7d1-b5346d7d27c8 | [VirusTotal](https://www.virustotal.com/gui/file/948261aa1b9803ca07c9bbad33f2171e0d56c5eeeccf3b13045fd27dc31c0676) (16) |                              无                              | A498 |
 |  ——————   |      ————————————       |     ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
