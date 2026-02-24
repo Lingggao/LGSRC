@@ -68,9 +68,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 2 月 24 日 9:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 2 月 24 日 12:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 2 月 24 日，已打击计算机病毒 / 恶意软件 498 个、恶意网站 155 个**。
+&emsp;&emsp;**截至 2026 年 2 月 24 日，已打击计算机病毒 / 恶意软件 500 个、恶意网站 158 个**。
 
 ---
 
@@ -106,6 +106,8 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/22 |  调音师工具箱1.8.0.exe  |   **Win32/Farfli**    | c3e552b187f95df1a59b2f1304c38caff54ce9e94688f67b52aad375ac7c610a | b600b567-2bc7-4549-bbf1-11ff98d56c17 | [VirusTotal](https://www.virustotal.com/gui/file/c3e552b187f95df1a59b2f1304c38caff54ce9e94688f67b52aad375ac7c610a) (62) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c3e552b187f95df1a59b2f1304c38caff54ce9e94688f67b52aad375ac7c610a) | A496 |
 | 2026/2/23 |        ceshi.exe        | **Win32/Malgent!MSR** | 3c107cc4bd314450d8d7ecb6cbf25cdf43eefb2fc3971ab14604c9510ec6c503 | 2efaac64-e73c-4a7e-b576-ebf466e4c55f | [VirusTotal](https://www.virustotal.com/gui/file/3c107cc4bd314450d8d7ecb6cbf25cdf43eefb2fc3971ab14604c9510ec6c503) (13) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/3c107cc4bd314450d8d7ecb6cbf25cdf43eefb2fc3971ab14604c9510ec6c503) | A497 |
 | 2026/2/24 |        bate.exe         | **Win32/Malgent!MSR** | 948261aa1b9803ca07c9bbad33f2171e0d56c5eeeccf3b13045fd27dc31c0676 | d8c5c34b-babc-493e-a7d1-b5346d7d27c8 | [VirusTotal](https://www.virustotal.com/gui/file/948261aa1b9803ca07c9bbad33f2171e0d56c5eeeccf3b13045fd27dc31c0676) (16) |                              无                              | A498 |
+| 2026/2/24 |    UpdataThemes.exe     |        研究中         | af607e275da4a3bc9bfd365e262addf5d17e5ac83c9cef9bc9e535394a3ef59f | d54580f5-0715-4ba7-80b7-f801efe82c87 | [VirusTotal](https://www.virustotal.com/gui/file/af607e275da4a3bc9bfd365e262addf5d17e5ac83c9cef9bc9e535394a3ef59f) (6) |                  [MalwareBazaar Database]()                  | A499 |
+| 2026/2/24 |     Chrone-x64.exe      | **Win32/Malgent!MSR** | 8302d69e3db2911961aec5dd230e84abe38d9d048c08f77a37969ede9be822df | 53780450-4dba-4299-be86-94b8f8bff174 | [VirusTotal](https://www.virustotal.com/gui/file/8302d69e3db2911961aec5dd230e84abe38d9d048c08f77a37969ede9be822df) (6) |                              无                              | A500 |
 |  ——————   |      ————————————       |     ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -143,6 +145,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/20 |  hxxps://www[.]ohyewang[.]com/hardware   |         传播病毒          |                              有                              |                            无                            | Z153 |
 | 2026/2/21 |    hxxps://huorong-zh[.]com/download     |    仿冒火绒、传播病毒     | hxxps://xinjiapox[.]oss-ap-southeast-1[.]aliyuncs[.]com/sysidiag6[.]0[.]225[.]zip |                            无                            | Z154 |
 | 2026/2/21 |         hxxps://huorong-ch[.]com         |    仿冒火绒、传播病毒     |                              无                              |                            无                            | Z155 |
+| 2026/2/24 |   hxxps://cnzh-googlechrome[.]com[.]cn   |   仿冒 Chrome、传播病毒   |                              无                              |                            无                            | Z156 |
+| 2026/2/24 |    hxxps://chromea-google[.]com[.]cn     |   仿冒 Chrome、传播病毒   | hxxps://googdownload[.]googcdngoogchromeleownload[.]top/download/googdownload/chroome[.]zip |                            无                            | Z157 |
+| 2026/2/24 |    hxxps://chrome-gooogle[.]com[.]cn     |   仿冒 Chrome、传播病毒   | hxxps://dawang-1390785885[.]cos[.]ap-hongkong[.]myqcloud[.]com/BiyGu2[.]zip |                            无                            | Z158 |
 |  ——————   |           ————————————————————           |      ———————————————      |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
