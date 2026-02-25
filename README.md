@@ -68,9 +68,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 2 月 24 日 21:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 2 月 25 日 10:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 2 月 24 日，已打击计算机病毒 / 恶意软件 500 个、恶意网站 158 个**。
+&emsp;&emsp;**截至 2026 年 2 月 25 日，已打击计算机病毒 / 恶意软件 501 个、恶意网站 160 个**。
 
 ---
 
@@ -108,6 +108,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/24 |        bate.exe         | **Win32/Malgent!MSR** | 948261aa1b9803ca07c9bbad33f2171e0d56c5eeeccf3b13045fd27dc31c0676 | d8c5c34b-babc-493e-a7d1-b5346d7d27c8 | [VirusTotal](https://www.virustotal.com/gui/file/948261aa1b9803ca07c9bbad33f2171e0d56c5eeeccf3b13045fd27dc31c0676) (16) |                              无                              | A498 |
 | 2026/2/24 |    UpdataThemes.exe     | **Win64/Malgent!MSR** | af607e275da4a3bc9bfd365e262addf5d17e5ac83c9cef9bc9e535394a3ef59f | 2c79cc9a-e773-4d27-a165-51a625778abf | [VirusTotal](https://www.virustotal.com/gui/file/af607e275da4a3bc9bfd365e262addf5d17e5ac83c9cef9bc9e535394a3ef59f) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/af607e275da4a3bc9bfd365e262addf5d17e5ac83c9cef9bc9e535394a3ef59f) | A499 |
 | 2026/2/24 |     Chrone-x64.exe      | **Win32/Malgent!MSR** | 8302d69e3db2911961aec5dd230e84abe38d9d048c08f77a37969ede9be822df | 53780450-4dba-4299-be86-94b8f8bff174 | [VirusTotal](https://www.virustotal.com/gui/file/8302d69e3db2911961aec5dd230e84abe38d9d048c08f77a37969ede9be822df) (6) |                              无                              | A500 |
+| 2026/2/25 |  googlechrome64位.msi   |  **Win32/Etset!rfn**  | 084239ba4742045424ecd68e60a1bef04d1e9f2d61ff10ff703026c4bb7e121c | 4d89f3f3-feaa-4b63-a142-83b53778a043 | [VirusTotal](https://www.virustotal.com/gui/file/084239ba4742045424ecd68e60a1bef04d1e9f2d61ff10ff703026c4bb7e121c) (14) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/084239ba4742045424ecd68e60a1bef04d1e9f2d61ff10ff703026c4bb7e121c) | A501 |
 |  ——————   |      ————————————       |     ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -122,33 +123,35 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 >
 > &emsp;为确保安全，网站地址将用 “hxxps://” 与 “[.]” 进行替换。**切勿尝试访问表格中列出的任何网址**。
 
-|   日期    |                   URL                    |           类别            |                           有效载荷                           |                         URLhaus                          | 编号 |
-| :-------: | :--------------------------------------: | :-----------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
-| 2026/2/14 |         hxxps://lu-da-shi[.]top          |   仿冒鲁大师、传播病毒    | hxxps://lu-da-shi[.]top/cdn_download/ludashi/setuploader[.]exe |                            无                            | Z135 |
-| 2026/2/14 |         hxxps://ludashi-cn[.]com         |   仿冒鲁大师、传播病毒    | hxxps://ludashi-cn[.]com/cdn_download/ludashi/setuploader[.]exe |                            无                            | Z136 |
-| 2026/2/14 |         hxxps://ludashi-zh[.]com         |   仿冒鲁大师、传播病毒    | hxxps://ludashi-zh[.]com/cdn_download/ludashi/setuploader[.]exe |                            无                            | Z137 |
-| 2026/2/15 |         hxxps://web-google[.]cn          |   仿冒 Chrome、传播病毒   |                              有                              |                            无                            | Z138 |
-| 2026/2/16 | hxxps://web[.]chrorome-google[.]hl[.]cn  |   仿冒 Chrome、传播病毒   | hxxps://tpuexd-1362557240[.]cos[.]ap-hongkong[.]myqcloud[.]com/Chorme_Setup_1858_1[.]3[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3779077) | Z139 |
-| 2026/2/16 |     hxxps://chrorme-google[.]hl[.]cn     |   仿冒 Chrome、传播病毒   | hxxps://www[.]up3me[.]cc/?c=cGXvEgv949Hv4SreY2v_OTs8Z-7n5Cqw9l9jPJG65GC3A1riBz4JRBlKnIFs-IqV | [URLhaus Database](https://urlhaus.abuse.ch/url/3778875) | Z140 |
-| 2026/2/16 |    hxxps://chromme-google[.]com[.]cn     |   仿冒 Chrome、传播病毒   | hxxps://download[.]chrome-google[.]sbs/downloads/clnrorne[.]php |                            无                            | Z141 |
-| 2026/2/16 | hxxps://cn[.]pc-chrome-google[.]hl[.]cn  |   仿冒 Chrome、传播病毒   | hxxps://tpuexd-1362557240[.]cos[.]ap-hongkong[.]myqcloud[.]com/Chorme_Setup_1858_1[.]3[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3779077) | Z142 |
-| 2026/2/16 | hxxps://zh[.]cn-chroome-google[.]hl[.]cn |   仿冒 Chrome、传播病毒   | hxxps://tpuexd-1362557240[.]cos[.]ap-hongkong[.]myqcloud[.]com/Chorme_Setup_1858_1[.]3[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3779077) | Z143 |
-| 2026/2/18 |       hxxps://clash-org[.]com[.]cn       |   借助 VPN 工具传播病毒   |   hxxps://clash-org[.]com[.]cn/Clash[.]for[.]Windows[.]zip   | [URLhaus Database](https://urlhaus.abuse.ch/url/3781032) | Z144 |
-| 2026/2/18 |       hxxps://ip-clash[.]com[.]cn        |   借助 VPN 工具传播病毒   |           hxxps://ip-clash[.]com[.]cn/down[.]html            |                            无                            | Z145 |
-| 2026/2/18 |       hxxps://app-clash[.]com[.]cn       |   借助 VPN 工具传播病毒   |     hxxps://app-clash[.]com[.]cn/clash0[.]20[.]39[.]zip      | [URLhaus Database](https://urlhaus.abuse.ch/url/3781030) | Z146 |
-| 2026/2/18 |       hxxps://kc-clash[.]com[.]cn        |   借助 VPN 工具传播病毒   |           hxxps://ip-clash[.]com[.]cn/down[.]html            |                            无                            | Z147 |
-| 2026/2/18 |  hxxps://www[.]clash-github[.]com[.]cn   |   借助 VPN 工具传播病毒   | hxxps://www[.]clash-github[.]com[.]cn/downloads/windows/ClashSetup[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3781031) | Z148 |
-| 2026/2/18 |        hxxps://clashos[.]com[.]cn        |   借助 VPN 工具传播病毒   |                              无                              |                            无                            | Z149 |
-| 2026/2/18 |        hxxps://clashi[.]com[.]cn         |   借助 VPN 工具传播病毒   |                              无                              |                            无                            | Z150 |
-| 2026/2/19 |       hxxps://www[.]huoronga[.]com       | 仿冒火绒 / 搜狗、传播病毒 | hxxps://pub-085644fd7c304ed49d4ff78a323bd506[.]r2[.]dev/2[.]19anSogouExplorer[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3781232) | Z151 |
-| 2026/2/19 |    hxxps://hndqiuebgibuiwqdhr[.]cyou     | 仿冒火绒 / 搜狗、传播病毒 | hxxps://pub-085644fd7c304ed49d4ff78a323bd506[.]r2[.]dev/2[.]19anSogouExplorer[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3781232) | Z152 |
-| 2026/2/20 |  hxxps://www[.]ohyewang[.]com/hardware   |         传播病毒          |                              有                              |                            无                            | Z153 |
-| 2026/2/21 |    hxxps://huorong-zh[.]com/download     |    仿冒火绒、传播病毒     | hxxps://xinjiapox[.]oss-ap-southeast-1[.]aliyuncs[.]com/sysidiag6[.]0[.]225[.]zip |                            无                            | Z154 |
-| 2026/2/21 |         hxxps://huorong-ch[.]com         |    仿冒火绒、传播病毒     |                              无                              |                            无                            | Z155 |
-| 2026/2/24 |   hxxps://cnzh-googlechrome[.]com[.]cn   |   仿冒 Chrome、传播病毒   |                              无                              |                            无                            | Z156 |
-| 2026/2/24 |    hxxps://chromea-google[.]com[.]cn     |   仿冒 Chrome、传播病毒   | hxxps://googdownload[.]googcdngoogchromeleownload[.]top/download/googdownload/chroome[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3784688) | Z157 |
-| 2026/2/24 |    hxxps://chrome-gooogle[.]com[.]cn     |   仿冒 Chrome、传播病毒   | hxxps://dawang-1390785885[.]cos[.]ap-hongkong[.]myqcloud[.]com/BiyGu2[.]zip |                            无                            | Z158 |
-|  ——————   |           ————————————————————           |      ———————————————      |                ——————————————————————————————                |                        ——————————                        | ———  |
+|   日期    |                    URL                    |           类别            |                           有效载荷                           |                         URLhaus                          | 编号 |
+| :-------: | :---------------------------------------: | :-----------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
+| 2026/2/14 |          hxxps://lu-da-shi[.]top          |   仿冒鲁大师、传播病毒    | hxxps://lu-da-shi[.]top/cdn_download/ludashi/setuploader[.]exe |                            无                            | Z135 |
+| 2026/2/14 |         hxxps://ludashi-cn[.]com          |   仿冒鲁大师、传播病毒    | hxxps://ludashi-cn[.]com/cdn_download/ludashi/setuploader[.]exe |                            无                            | Z136 |
+| 2026/2/14 |         hxxps://ludashi-zh[.]com          |   仿冒鲁大师、传播病毒    | hxxps://ludashi-zh[.]com/cdn_download/ludashi/setuploader[.]exe |                            无                            | Z137 |
+| 2026/2/15 |          hxxps://web-google[.]cn          |   仿冒 Chrome、传播病毒   |                              有                              |                            无                            | Z138 |
+| 2026/2/16 |  hxxps://web[.]chrorome-google[.]hl[.]cn  |   仿冒 Chrome、传播病毒   | hxxps://tpuexd-1362557240[.]cos[.]ap-hongkong[.]myqcloud[.]com/Chorme_Setup_1858_1[.]3[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3779077) | Z139 |
+| 2026/2/16 |     hxxps://chrorme-google[.]hl[.]cn      |   仿冒 Chrome、传播病毒   | hxxps://www[.]up3me[.]cc/?c=cGXvEgv949Hv4SreY2v_OTs8Z-7n5Cqw9l9jPJG65GC3A1riBz4JRBlKnIFs-IqV | [URLhaus Database](https://urlhaus.abuse.ch/url/3778875) | Z140 |
+| 2026/2/16 |     hxxps://chromme-google[.]com[.]cn     |   仿冒 Chrome、传播病毒   | hxxps://download[.]chrome-google[.]sbs/downloads/clnrorne[.]php |                            无                            | Z141 |
+| 2026/2/16 |  hxxps://cn[.]pc-chrome-google[.]hl[.]cn  |   仿冒 Chrome、传播病毒   | hxxps://tpuexd-1362557240[.]cos[.]ap-hongkong[.]myqcloud[.]com/Chorme_Setup_1858_1[.]3[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3779077) | Z142 |
+| 2026/2/16 | hxxps://zh[.]cn-chroome-google[.]hl[.]cn  |   仿冒 Chrome、传播病毒   | hxxps://tpuexd-1362557240[.]cos[.]ap-hongkong[.]myqcloud[.]com/Chorme_Setup_1858_1[.]3[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3779077) | Z143 |
+| 2026/2/18 |       hxxps://clash-org[.]com[.]cn        |   借助 VPN 工具传播病毒   |   hxxps://clash-org[.]com[.]cn/Clash[.]for[.]Windows[.]zip   | [URLhaus Database](https://urlhaus.abuse.ch/url/3781032) | Z144 |
+| 2026/2/18 |        hxxps://ip-clash[.]com[.]cn        |   借助 VPN 工具传播病毒   |           hxxps://ip-clash[.]com[.]cn/down[.]html            |                            无                            | Z145 |
+| 2026/2/18 |       hxxps://app-clash[.]com[.]cn        |   借助 VPN 工具传播病毒   |     hxxps://app-clash[.]com[.]cn/clash0[.]20[.]39[.]zip      | [URLhaus Database](https://urlhaus.abuse.ch/url/3781030) | Z146 |
+| 2026/2/18 |        hxxps://kc-clash[.]com[.]cn        |   借助 VPN 工具传播病毒   |           hxxps://ip-clash[.]com[.]cn/down[.]html            |                            无                            | Z147 |
+| 2026/2/18 |   hxxps://www[.]clash-github[.]com[.]cn   |   借助 VPN 工具传播病毒   | hxxps://www[.]clash-github[.]com[.]cn/downloads/windows/ClashSetup[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3781031) | Z148 |
+| 2026/2/18 |        hxxps://clashos[.]com[.]cn         |   借助 VPN 工具传播病毒   |                              无                              |                            无                            | Z149 |
+| 2026/2/18 |         hxxps://clashi[.]com[.]cn         |   借助 VPN 工具传播病毒   |                              无                              |                            无                            | Z150 |
+| 2026/2/19 |       hxxps://www[.]huoronga[.]com        | 仿冒火绒 / 搜狗、传播病毒 | hxxps://pub-085644fd7c304ed49d4ff78a323bd506[.]r2[.]dev/2[.]19anSogouExplorer[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3781232) | Z151 |
+| 2026/2/19 |     hxxps://hndqiuebgibuiwqdhr[.]cyou     | 仿冒火绒 / 搜狗、传播病毒 | hxxps://pub-085644fd7c304ed49d4ff78a323bd506[.]r2[.]dev/2[.]19anSogouExplorer[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3781232) | Z152 |
+| 2026/2/20 |   hxxps://www[.]ohyewang[.]com/hardware   |         传播病毒          |                              有                              |                            无                            | Z153 |
+| 2026/2/21 |     hxxps://huorong-zh[.]com/download     |    仿冒火绒、传播病毒     | hxxps://xinjiapox[.]oss-ap-southeast-1[.]aliyuncs[.]com/sysidiag6[.]0[.]225[.]zip |                            无                            | Z154 |
+| 2026/2/21 |         hxxps://huorong-ch[.]com          |    仿冒火绒、传播病毒     |                              无                              |                            无                            | Z155 |
+| 2026/2/24 |   hxxps://cnzh-googlechrome[.]com[.]cn    |   仿冒 Chrome、传播病毒   |                              无                              |                            无                            | Z156 |
+| 2026/2/24 |     hxxps://chromea-google[.]com[.]cn     |   仿冒 Chrome、传播病毒   | hxxps://googdownload[.]googcdngoogchromeleownload[.]top/download/googdownload/chroome[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3784688) | Z157 |
+| 2026/2/24 |     hxxps://chrome-gooogle[.]com[.]cn     |   仿冒 Chrome、传播病毒   | hxxps://dawang-1390785885[.]cos[.]ap-hongkong[.]myqcloud[.]com/BiyGu2[.]zip |                            无                            | Z158 |
+| 2026/2/25 | hxxps://web[.]chrorome-gooogle[.]com[.]cn |   仿冒 Chrome、传播病毒   |    hxxps://xiazaijd[.]click/googlechrome64%E4%BD%8D[.]zip    | [URLhaus Database](https://urlhaus.abuse.ch/url/3784999) | Z159 |
+| 2026/2/25 |         hxxps://xiazaijd[.]click          |   仿冒 Chrome、传播病毒   |    hxxps://xiazaijd[.]click/googlechrome64%E4%BD%8D[.]zip    | [URLhaus Database](https://urlhaus.abuse.ch/url/3784999) | Z160 |
+|  ——————   |           ————————————————————            |      ———————————————      |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
 >
