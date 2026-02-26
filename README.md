@@ -68,9 +68,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 2 月 26 日 13:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 2 月 26 日 16:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 2 月 26 日，已打击计算机病毒 / 恶意软件 501 个、恶意网站 162 个**。
+&emsp;&emsp;**截至 2026 年 2 月 26 日，已打击计算机病毒 / 恶意软件 506 个、恶意网站 162 个**。
 
 ---
 
@@ -104,9 +104,10 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/24 |     Chrone-x64.exe      | **Win32/Malgent!MSR** | 8302d69e3db2911961aec5dd230e84abe38d9d048c08f77a37969ede9be822df | 53780450-4dba-4299-be86-94b8f8bff174 | [VirusTotal](https://www.virustotal.com/gui/file/8302d69e3db2911961aec5dd230e84abe38d9d048c08f77a37969ede9be822df) (6) |                              无                              | A500 |
 | 2026/2/25 |  googlechrome64位.msi   |  **Win32/Etset!rfn**  | 084239ba4742045424ecd68e60a1bef04d1e9f2d61ff10ff703026c4bb7e121c | 4d89f3f3-feaa-4b63-a142-83b53778a043 | [VirusTotal](https://www.virustotal.com/gui/file/084239ba4742045424ecd68e60a1bef04d1e9f2d61ff10ff703026c4bb7e121c) (14) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/084239ba4742045424ecd68e60a1bef04d1e9f2d61ff10ff703026c4bb7e121c) | A501 |
 | 2026/2/25 |   生存战争内核外挂.sh   |  **Win32/Vigorf.A**   | 805eae7b8aec30ec087800ee50825cf2a64dcd8d78ebe27e7aeb7839962bb450 | 450b43be-8f15-46ad-9395-bbc2ea8a2dba | [VirusTotal](https://www.virustotal.com/gui/file/805eae7b8aec30ec087800ee50825cf2a64dcd8d78ebe27e7aeb7839962bb450) (0) |                              无                              | A502 |
-| 2026/2/25 |                         |                       |                                                              |                                      |                                                              |                                                              | A503 |
-| 2026/2/25 |                         |                       |                                                              |                                      |                                                              |                                                              | A504 |
-| 2026/2/25 |                         |                       |                                                              |                                      |                                                              |                                                              | A505 |
+| 2026/2/26 |      Destroyer.bat      |  **BAT/Malgent!MSR**  |                                                              |                                      |                      [VirusTotal]() ()                       |                  [MalwareBazaar Database]()                  | A503 |
+| 2026/2/26 |        Test.exe         | **Win32/Malgent!MSR** |                                                              |                                      |                      [VirusTotal]() ()                       |                  [MalwareBazaar Database]()                  | A504 |
+| 2026/2/26 |        getP.dll         | **Win32/Malgent!MSR** |                                                              |                                      |                      [VirusTotal]() ()                       |                  [MalwareBazaar Database]()                  | A505 |
+| 2026/2/26 |  gg_windesktop···.msi   |   **Win32/Kepavll**   |                                                              |                                      |                      [VirusTotal]() ()                       |                              无                              | A506 |
 |  ——————   |      ————————————       |     ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -146,8 +147,8 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/24 |     hxxps://chrome-gooogle[.]com[.]cn     |   仿冒 Chrome、传播病毒   | hxxps://dawang-1390785885[.]cos[.]ap-hongkong[.]myqcloud[.]com/BiyGu2[.]zip |                            无                            | Z158 |
 | 2026/2/25 | hxxps://web[.]chrorome-gooogle[.]com[.]cn |   仿冒 Chrome、传播病毒   |    hxxps://xiazaijd[.]click/googlechrome64%E4%BD%8D[.]zip    | [URLhaus Database](https://urlhaus.abuse.ch/url/3784999) | Z159 |
 | 2026/2/25 |         hxxps://xiazaijd[.]click          |   仿冒 Chrome、传播病毒   |    hxxps://xiazaijd[.]click/googlechrome64%E4%BD%8D[.]zip    | [URLhaus Database](https://urlhaus.abuse.ch/url/3784999) | Z160 |
-| 2026/2/25 |         https://tbtool.dawnstd.cn         | 仿冒图吧工具箱、传播病毒  | https://apac.tualatin.club/%E5%9B%BE%E5%90%A7%E5%B7%A5%E5%85%B7%E7%AE%B1202601.1%E5%AE%89%E8%A3%85%E5%8C%85.exe |                            无                            | Z161 |
-| 2026/2/25 |           https://80868088.xyz            | 仿冒图吧工具箱、传播病毒  | https://apac.tualatin.club/%E5%9B%BE%E5%90%A7%E5%B7%A5%E5%85%B7%E7%AE%B1202601.1%E5%AE%89%E8%A3%85%E5%8C%85.exe |                            无                            | Z162 |
+| 2026/2/25 |       hxxps://tbtool[.]dawnstd[.]cn       | 仿冒图吧工具箱、传播病毒  | hxxps://apac[.]tualatin[.]club/%E5%9B%BE%E5%90%A7%E5%B7%A5%E5%85%B7%E7%AE%B1202601[.]1%E5%AE%89%E8%A3%85%E5%8C%85[.]exe |                            无                            | Z161 |
+| 2026/2/25 |          hxxps://80868088[.]xyz           | 仿冒图吧工具箱、传播病毒  | hxxps://apac[.]tualatin[.]club/%E5%9B%BE%E5%90%A7%E5%B7%A5%E5%85%B7%E7%AE%B1202601[.]1%E5%AE%89%E8%A3%85%E5%8C%85[.]exe |                            无                            | Z162 |
 |  ——————   |           ————————————————————            |      ———————————————      |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
