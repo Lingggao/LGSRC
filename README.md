@@ -68,9 +68,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 2 月 26 日 23:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 2 月 27 日 6:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 2 月 26 日，已打击计算机病毒 / 恶意软件 513 个、恶意网站 162 个**。
+&emsp;&emsp;**截至 2026 年 2 月 27 日，已打击计算机病毒 / 恶意软件 513 个、恶意网站 162 个**。
 
 ---
 
@@ -103,8 +103,8 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/26 |    SystemStart.exe     | **Win32/Malgent!MSR** | 5b4ef24afe75340ec782ea1a18fd7777d239e67b0e042ad90bdbbbe0f1a08569 | 8b1cfb27-1dfe-413d-80db-464bc071204c | [VirusTotal](https://www.virustotal.com/gui/file/5b4ef24afe75340ec782ea1a18fd7777d239e67b0e042ad90bdbbbe0f1a08569) (21) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5b4ef24afe75340ec782ea1a18fd7777d239e67b0e042ad90bdbbbe0f1a08569) | A507 |
 | 2026/2/26 |     Chrome-x64.exe     |  **Win32/Microjoin**  | 4ff3ce11ecc591dbcd331ae8d10bede96519d706678ab483aa0169cbbbaa4f47 | 878a05da-b6c3-41cb-9226-545ef367fbe1 | [VirusTotal](https://www.virustotal.com/gui/search/4ff3ce11ecc591dbcd331ae8d10bede96519d706678ab483aa0169cbbbaa4f47) (28) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/4ff3ce11ecc591dbcd331ae8d10bede96519d706678ab483aa0169cbbbaa4f47) | A508 |
 | 2026/2/26 |  Clnrome6c3b-x64.exe   | **Win32/Malgent!MSR** | 92c8abacfa42d471c6a0fa5b697e7b357dde49f8cb35aa6a60e1e33d1a12fcd7 | 68c173a9-a608-47b0-9ab6-e92ca73d43e4 | [VirusTotal](https://www.virustotal.com/gui/file/92c8abacfa42d471c6a0fa5b697e7b357dde49f8cb35aa6a60e1e33d1a12fcd7) (21) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/92c8abacfa42d471c6a0fa5b697e7b357dde49f8cb35aa6a60e1e33d1a12fcd7) | A509 |
-| 2026/2/26 |  Chorme···1858···.exe  |        研究中         | ead9159f4c34dd47a2b906d6c63e81ec09bfd220b4f80c0b028322fffb5925a7 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/ead9159f4c34dd47a2b906d6c63e81ec09bfd220b4f80c0b028322fffb5925a7) (4) |                              无                              | A510 |
-| 2026/2/26 |      gknqtxAD.exe      |        研究中         | 3c4f10d6973fbbda4d78aba0f7d3a81721f85607fa8944af710343f70724cd66 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/3c4f10d6973fbbda4d78aba0f7d3a81721f85607fa8944af710343f70724cd66) (12) |                  [MalwareBazaar Database]()                  | A511 |
+| 2026/2/26 |  Chorme···1858···.exe  | **Win32/Malgent!MSR** | ead9159f4c34dd47a2b906d6c63e81ec09bfd220b4f80c0b028322fffb5925a7 | c4703da2-ac86-4773-80b7-4fed695c280f | [VirusTotal](https://www.virustotal.com/gui/file/ead9159f4c34dd47a2b906d6c63e81ec09bfd220b4f80c0b028322fffb5925a7) (4) |                              无                              | A510 |
+| 2026/2/26 |      gknqtxAD.exe      | **Win32/Malgent!MSR** | 3c4f10d6973fbbda4d78aba0f7d3a81721f85607fa8944af710343f70724cd66 | 1fe5450c-2cea-418c-856b-6f2459537e39 | [VirusTotal](https://www.virustotal.com/gui/file/3c4f10d6973fbbda4d78aba0f7d3a81721f85607fa8944af710343f70724cd66) (12) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/3c4f10d6973fbbda4d78aba0f7d3a81721f85607fa8944af710343f70724cd66) | A511 |
 | 2026/2/26 |   win32-telegram.exe   | **Win32/Malgent!MSR** | 7ece344101454d23e7e2e01f23b2a7c77d19b1e0a7d3057fae36935ba8680521 | 595b2f10-9e0c-45f5-b93d-b5b2493f1dd7 | [VirusTotal](https://www.virustotal.com/gui/file/7ece344101454d23e7e2e01f23b2a7c77d19b1e0a7d3057fae36935ba8680521) (3) |                              无                              | A512 |
 | 2026/2/26 |    XshellA-7183.msi    | **Win32/Malgent!MSR** | 52ce13dd318a59976a03e9ac99e486f7398591be50a6da78ad7636c2adab3149 | 530b2407-8c46-4553-91c0-fff821ba60be | [VirusTotal](https://www.virustotal.com/gui/file/52ce13dd318a59976a03e9ac99e486f7398591be50a6da78ad7636c2adab3149) (18) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/52ce13dd318a59976a03e9ac99e486f7398591be50a6da78ad7636c2adab3149) | A513 |
 |  ——————   |      ————————————      |     ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
