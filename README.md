@@ -68,7 +68,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 2 月 26 日 16:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 2 月 26 日 19:00 (GMT+8)
 
 &emsp;&emsp;**截至 2026 年 2 月 26 日，已打击计算机病毒 / 恶意软件 506 个、恶意网站 162 个**。
 
@@ -104,10 +104,10 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/24 |     Chrone-x64.exe      | **Win32/Malgent!MSR** | 8302d69e3db2911961aec5dd230e84abe38d9d048c08f77a37969ede9be822df | 53780450-4dba-4299-be86-94b8f8bff174 | [VirusTotal](https://www.virustotal.com/gui/file/8302d69e3db2911961aec5dd230e84abe38d9d048c08f77a37969ede9be822df) (6) |                              无                              | A500 |
 | 2026/2/25 |  googlechrome64位.msi   |  **Win32/Etset!rfn**  | 084239ba4742045424ecd68e60a1bef04d1e9f2d61ff10ff703026c4bb7e121c | 4d89f3f3-feaa-4b63-a142-83b53778a043 | [VirusTotal](https://www.virustotal.com/gui/file/084239ba4742045424ecd68e60a1bef04d1e9f2d61ff10ff703026c4bb7e121c) (14) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/084239ba4742045424ecd68e60a1bef04d1e9f2d61ff10ff703026c4bb7e121c) | A501 |
 | 2026/2/25 |   生存战争内核外挂.sh   |  **Win32/Vigorf.A**   | 805eae7b8aec30ec087800ee50825cf2a64dcd8d78ebe27e7aeb7839962bb450 | 450b43be-8f15-46ad-9395-bbc2ea8a2dba | [VirusTotal](https://www.virustotal.com/gui/file/805eae7b8aec30ec087800ee50825cf2a64dcd8d78ebe27e7aeb7839962bb450) (0) |                              无                              | A502 |
-| 2026/2/26 |      Destroyer.bat      |  **BAT/Malgent!MSR**  |                                                              |                                      |                      [VirusTotal]() ()                       |                  [MalwareBazaar Database]()                  | A503 |
-| 2026/2/26 |        Test.exe         | **Win32/Malgent!MSR** |                                                              |                                      |                      [VirusTotal]() ()                       |                  [MalwareBazaar Database]()                  | A504 |
-| 2026/2/26 |        getP.dll         | **Win32/Malgent!MSR** |                                                              |                                      |                      [VirusTotal]() ()                       |                  [MalwareBazaar Database]()                  | A505 |
-| 2026/2/26 |  gg_windesktop···.msi   |   **Win32/Kepavll**   |                                                              |                                      |                      [VirusTotal]() ()                       |                              无                              | A506 |
+| 2026/2/26 |      Destroyer.bat      |  **BAT/Malgent!MSR**  | b2339dfd67a0987753c0c6142aade3a21d6575f23f63c880cf56f00afcc762f4 | 9353dfd6-69dd-4dc2-979d-37c6e03f5459 | [VirusTotal](https://www.virustotal.com/gui/file/b2339dfd67a0987753c0c6142aade3a21d6575f23f63c880cf56f00afcc762f4) (9) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b2339dfd67a0987753c0c6142aade3a21d6575f23f63c880cf56f00afcc762f4) | A503 |
+| 2026/2/26 |        Test.exe         | **Win32/Malgent!MSR** | 8cdffe6a426c8eb9499b596e390ae20102b7ed6219c82e700ed351784d589500 | f483c79b-6945-4a90-bda8-1faf5dc8e22e | [VirusTotal](https://www.virustotal.com/gui/file/8cdffe6a426c8eb9499b596e390ae20102b7ed6219c82e700ed351784d589500) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/8cdffe6a426c8eb9499b596e390ae20102b7ed6219c82e700ed351784d589500) | A504 |
+| 2026/2/26 |        getP.dll         | **Win32/Malgent!MSR** | 3b2deece9e74a0235ee16ea0e571d114671395eefac8b5b5eb66e7224844e644 | f483c79b-6945-4a90-bda8-1faf5dc8e22e | [VirusTotal](https://www.virustotal.com/gui/file/3b2deece9e74a0235ee16ea0e571d114671395eefac8b5b5eb66e7224844e644) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/3b2deece9e74a0235ee16ea0e571d114671395eefac8b5b5eb66e7224844e644) | A505 |
+| 2026/2/26 |  gg_windesktop···.msi   |   **Win32/Kepavll**   | 5d9c68bc9a6852770106805cc6af72009d39e2e1564ae63f35e1b8759640fe21 | 053f3059-ebe7-4c62-ad9b-3a56a6deb324 | [VirusTotal](https://www.virustotal.com/gui/file/5d9c68bc9a6852770106805cc6af72009d39e2e1564ae63f35e1b8759640fe21) (14) |                              无                              | A506 |
 |  ——————   |      ————————————       |     ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
