@@ -68,9 +68,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 2 月 25 日 10:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 2 月 26 日 13:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 2 月 25 日，已打击计算机病毒 / 恶意软件 501 个、恶意网站 160 个**。
+&emsp;&emsp;**截至 2026 年 2 月 26 日，已打击计算机病毒 / 恶意软件 501 个、恶意网站 162 个**。
 
 ---
 
@@ -82,12 +82,6 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 |   日期    |         文件名          |         检测          |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :---------------------: | :-------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/2/17 |     下载器3.40.exe      |  **Dropper:Floxif**   | 720e1a32fcc9308e33781ea1f1e0dd5e980f11492e93ed14624a68c383752159 | 36371e26-9d1a-4aa5-b643-14f97349e790 | [VirusTotal](https://www.virustotal.com/gui/file/720e1a32fcc9308e33781ea1f1e0dd5e980f11492e93ed14624a68c383752159) (27) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/720e1a32fcc9308e33781ea1f1e0dd5e980f11492e93ed14624a68c383752159) | A475 |
-| 2026/2/17 |  国税庁からの通知.exe   |  **Win32/Yomal!rfn**  | a06f070614fb6458e1c36f20e7bb512957e843f45f8da9e99bb2365126a56be9 | efbc625f-2518-4964-8e72-3780cf193792 | [VirusTotal](https://www.virustotal.com/gui/file/a06f070614fb6458e1c36f20e7bb512957e843f45f8da9e99bb2365126a56be9) (31) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a06f070614fb6458e1c36f20e7bb512957e843f45f8da9e99bb2365126a56be9) | A476 |
-| 2026/2/18 |        远控_.exe        |  **Win32/Mikey.HNC**  | 7cb4dab5ab63a160849187ad0de3c926216fc0c3d5d08613ec88e244e1fc0f42 | a7a32059-e903-453c-af2a-f3a6340480e3 | [VirusTotal](https://www.virustotal.com/gui/file/7cb4dab5ab63a160849187ad0de3c926216fc0c3d5d08613ec88e244e1fc0f42) (15) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/7cb4dab5ab63a160849187ad0de3c926216fc0c3d5d08613ec88e244e1fc0f42) | A477 |
-| 2026/2/18 |        KCode.exe        | **Win32/Malgent!MSR** | fd240ad6909c795fbf63c4974cbfb7cef100d8ff431f4cc2d5f0a44f6567f598 | 63085ba3-409d-447b-aebf-009558e04fe2 | [VirusTotal](https://www.virustotal.com/gui/file/fd240ad6909c795fbf63c4974cbfb7cef100d8ff431f4cc2d5f0a44f6567f598) (12) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/fd240ad6909c795fbf63c4974cbfb7cef100d8ff431f4cc2d5f0a44f6567f598) | A478 |
-| 2026/2/18 |         pl.exe          | **Win32/Sonbokli.A**  | 42e3e4c5097c46efeb107426bd33b359dc6eb93e4f524fd8441706b3f5563b3a |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/42e3e4c5097c46efeb107426bd33b359dc6eb93e4f524fd8441706b3f5563b3a) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/42e3e4c5097c46efeb107426bd33b359dc6eb93e4f524fd8441706b3f5563b3a) | A479 |
-| 2026/2/19 |  Clash.for.Windows.msi  |   **Win32/Kepavll**   | 822681e669666fe00b0dc735971d0f1891da3d7ae39f290a1e34365d28490fd7 | 4b7fa5f4-bbd3-4e89-9cb6-7b4940741275 | [VirusTotal](https://www.virustotal.com/gui/file/822681e669666fe00b0dc735971d0f1891da3d7ae39f290a1e34365d28490fd7) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/822681e669666fe00b0dc735971d0f1891da3d7ae39f290a1e34365d28490fd7) | A480 |
 | 2026/2/19 |    clash0.20.39.exe     | **Win32/Malgent!MSR** | 93dc23aac6771621ff743b5c17e3550532df31dcc576b06090fe1a3342060910 | 53cb0256-c828-4352-874c-d496a6157671 | [VirusTotal](https://www.virustotal.com/gui/file/93dc23aac6771621ff743b5c17e3550532df31dcc576b06090fe1a3342060910) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/93dc23aac6771621ff743b5c17e3550532df31dcc576b06090fe1a3342060910) | A481 |
 | 2026/2/19 |     ClashSetup.exe      |    **Win32/Etset**    | f0b0b82e444289ca38356b898589c1882b12808bad1e0bdfca467685d4ea350a | 33ed48d3-8c9d-40e4-87b2-8aeda93d4928 | [VirusTotal](https://www.virustotal.com/gui/file/f0b0b82e444289ca38356b898589c1882b12808bad1e0bdfca467685d4ea350a) (35) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/f0b0b82e444289ca38356b898589c1882b12808bad1e0bdfca467685d4ea350a) | A482 |
 | 2026/2/19 |   2.19anSogou···.exe    | **Win32/Malgent!MSR** | d635ad5ba66925c17b63e6d1d6fae58d6ecfc0be0806064907b564861f033489 | dbd20078-0221-4a39-a2f2-422c8dd5dde7 | [VirusTotal](https://www.virustotal.com/gui/file/d635ad5ba66925c17b63e6d1d6fae58d6ecfc0be0806064907b564861f033489) (5) |                              无                              | A483 |
@@ -109,6 +103,10 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/24 |    UpdataThemes.exe     | **Win64/Malgent!MSR** | af607e275da4a3bc9bfd365e262addf5d17e5ac83c9cef9bc9e535394a3ef59f | 2c79cc9a-e773-4d27-a165-51a625778abf | [VirusTotal](https://www.virustotal.com/gui/file/af607e275da4a3bc9bfd365e262addf5d17e5ac83c9cef9bc9e535394a3ef59f) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/af607e275da4a3bc9bfd365e262addf5d17e5ac83c9cef9bc9e535394a3ef59f) | A499 |
 | 2026/2/24 |     Chrone-x64.exe      | **Win32/Malgent!MSR** | 8302d69e3db2911961aec5dd230e84abe38d9d048c08f77a37969ede9be822df | 53780450-4dba-4299-be86-94b8f8bff174 | [VirusTotal](https://www.virustotal.com/gui/file/8302d69e3db2911961aec5dd230e84abe38d9d048c08f77a37969ede9be822df) (6) |                              无                              | A500 |
 | 2026/2/25 |  googlechrome64位.msi   |  **Win32/Etset!rfn**  | 084239ba4742045424ecd68e60a1bef04d1e9f2d61ff10ff703026c4bb7e121c | 4d89f3f3-feaa-4b63-a142-83b53778a043 | [VirusTotal](https://www.virustotal.com/gui/file/084239ba4742045424ecd68e60a1bef04d1e9f2d61ff10ff703026c4bb7e121c) (14) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/084239ba4742045424ecd68e60a1bef04d1e9f2d61ff10ff703026c4bb7e121c) | A501 |
+| 2026/2/25 |   生存战争内核外挂.sh   |  **Win32/Vigorf.A**   | 805eae7b8aec30ec087800ee50825cf2a64dcd8d78ebe27e7aeb7839962bb450 | 450b43be-8f15-46ad-9395-bbc2ea8a2dba | [VirusTotal](https://www.virustotal.com/gui/file/805eae7b8aec30ec087800ee50825cf2a64dcd8d78ebe27e7aeb7839962bb450) (0) |                              无                              | A502 |
+| 2026/2/25 |                         |                       |                                                              |                                      |                                                              |                                                              | A503 |
+| 2026/2/25 |                         |                       |                                                              |                                      |                                                              |                                                              | A504 |
+| 2026/2/25 |                         |                       |                                                              |                                      |                                                              |                                                              | A505 |
 |  ——————   |      ————————————       |     ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -125,9 +123,6 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 |   日期    |                    URL                    |           类别            |                           有效载荷                           |                         URLhaus                          | 编号 |
 | :-------: | :---------------------------------------: | :-----------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
-| 2026/2/14 |          hxxps://lu-da-shi[.]top          |   仿冒鲁大师、传播病毒    | hxxps://lu-da-shi[.]top/cdn_download/ludashi/setuploader[.]exe |                            无                            | Z135 |
-| 2026/2/14 |         hxxps://ludashi-cn[.]com          |   仿冒鲁大师、传播病毒    | hxxps://ludashi-cn[.]com/cdn_download/ludashi/setuploader[.]exe |                            无                            | Z136 |
-| 2026/2/14 |         hxxps://ludashi-zh[.]com          |   仿冒鲁大师、传播病毒    | hxxps://ludashi-zh[.]com/cdn_download/ludashi/setuploader[.]exe |                            无                            | Z137 |
 | 2026/2/15 |          hxxps://web-google[.]cn          |   仿冒 Chrome、传播病毒   |                              有                              |                            无                            | Z138 |
 | 2026/2/16 |  hxxps://web[.]chrorome-google[.]hl[.]cn  |   仿冒 Chrome、传播病毒   | hxxps://tpuexd-1362557240[.]cos[.]ap-hongkong[.]myqcloud[.]com/Chorme_Setup_1858_1[.]3[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3779077) | Z139 |
 | 2026/2/16 |     hxxps://chrorme-google[.]hl[.]cn      |   仿冒 Chrome、传播病毒   | hxxps://www[.]up3me[.]cc/?c=cGXvEgv949Hv4SreY2v_OTs8Z-7n5Cqw9l9jPJG65GC3A1riBz4JRBlKnIFs-IqV | [URLhaus Database](https://urlhaus.abuse.ch/url/3778875) | Z140 |
@@ -151,6 +146,8 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/24 |     hxxps://chrome-gooogle[.]com[.]cn     |   仿冒 Chrome、传播病毒   | hxxps://dawang-1390785885[.]cos[.]ap-hongkong[.]myqcloud[.]com/BiyGu2[.]zip |                            无                            | Z158 |
 | 2026/2/25 | hxxps://web[.]chrorome-gooogle[.]com[.]cn |   仿冒 Chrome、传播病毒   |    hxxps://xiazaijd[.]click/googlechrome64%E4%BD%8D[.]zip    | [URLhaus Database](https://urlhaus.abuse.ch/url/3784999) | Z159 |
 | 2026/2/25 |         hxxps://xiazaijd[.]click          |   仿冒 Chrome、传播病毒   |    hxxps://xiazaijd[.]click/googlechrome64%E4%BD%8D[.]zip    | [URLhaus Database](https://urlhaus.abuse.ch/url/3784999) | Z160 |
+| 2026/2/25 |         https://tbtool.dawnstd.cn         | 仿冒图吧工具箱、传播病毒  | https://apac.tualatin.club/%E5%9B%BE%E5%90%A7%E5%B7%A5%E5%85%B7%E7%AE%B1202601.1%E5%AE%89%E8%A3%85%E5%8C%85.exe |                            无                            | Z161 |
+| 2026/2/25 |           https://80868088.xyz            | 仿冒图吧工具箱、传播病毒  | https://apac.tualatin.club/%E5%9B%BE%E5%90%A7%E5%B7%A5%E5%85%B7%E7%AE%B1202601.1%E5%AE%89%E8%A3%85%E5%8C%85.exe |                            无                            | Z162 |
 |  ——————   |           ————————————————————            |      ———————————————      |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]

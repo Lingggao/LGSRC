@@ -144,6 +144,9 @@
 | 2026/2/13 |         hxxps://apps-huorong[.]com          |     仿冒火绒、传播病毒      | hxxps://xinjiapox[.]oss-ap-southeast-1[.]aliyuncs[.]com/sysidiag6[.]0[.]225[.]zip |                            无                            | Z132 |
 | 2026/2/13 |      hxxps://huorong-zh[.]com/download      |     仿冒火绒、传播病毒      | hxxps://xinjiapox[.]oss-ap-southeast-1[.]aliyuncs[.]com/sysidiag6[.]0[.]225[.]zip |                            无                            | Z133 |
 | 2026/2/13 |          hxxps://huorong-ch[.]com           |     仿冒火绒、传播病毒      |                              无                              |                            无                            | Z134 |
+| 2026/2/14 |           hxxps://lu-da-shi[.]top           |    仿冒鲁大师、传播病毒     | hxxps://lu-da-shi[.]top/cdn_download/ludashi/setuploader[.]exe |                            无                            | Z135 |
+| 2026/2/14 |          hxxps://ludashi-cn[.]com           |    仿冒鲁大师、传播病毒     | hxxps://ludashi-cn[.]com/cdn_download/ludashi/setuploader[.]exe |                            无                            | Z136 |
+| 2026/2/14 |          hxxps://ludashi-zh[.]com           |    仿冒鲁大师、传播病毒     | hxxps://ludashi-zh[.]com/cdn_download/ludashi/setuploader[.]exe |                            无                            | Z137 |
 |  ——————   |            ————————————————————             |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
