@@ -70,7 +70,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 &emsp;&emsp;上次更新时间：2026 年 2 月 27 日 11:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 2 月 27 日，已打击计算机病毒 / 恶意软件 514 个、恶意网站 162 个**。
+&emsp;&emsp;**截至 2026 年 2 月 27 日，已打击计算机病毒 / 恶意软件 517 个、恶意网站 162 个**。
 
 ---
 
@@ -108,6 +108,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/26 |   win32-telegram.exe   | **Win32/Malgent!MSR** | 7ece344101454d23e7e2e01f23b2a7c77d19b1e0a7d3057fae36935ba8680521 | 595b2f10-9e0c-45f5-b93d-b5b2493f1dd7 | [VirusTotal](https://www.virustotal.com/gui/file/7ece344101454d23e7e2e01f23b2a7c77d19b1e0a7d3057fae36935ba8680521) (3) |                              无                              | A512 |
 | 2026/2/26 |    XshellA-7183.msi    | **Win32/Malgent!MSR** | 52ce13dd318a59976a03e9ac99e486f7398591be50a6da78ad7636c2adab3149 | 530b2407-8c46-4553-91c0-fff821ba60be | [VirusTotal](https://www.virustotal.com/gui/file/52ce13dd318a59976a03e9ac99e486f7398591be50a6da78ad7636c2adab3149) (18) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/52ce13dd318a59976a03e9ac99e486f7398591be50a6da78ad7636c2adab3149) | A513 |
 | 2026/2/27 |       Chrome.exe       |        研究中         | 4fb7a10d9a7f7001d8c5e867f442ee346577709b55a388ab9f49a3a3e91250a1 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/4fb7a10d9a7f7001d8c5e867f442ee346577709b55a388ab9f49a3a3e91250a1) (11) |                              无                              | A514 |
+| 2026/2/27 |      $RU4EMY7.exe      |        研究中         | d62ed041dfc60b5af31df905830684942bd99c1ff934959d094118eca9a74732 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/d62ed041dfc60b5af31df905830684942bd99c1ff934959d094118eca9a74732) (34) |                  [MalwareBazaar Database]()                  | A515 |
+| 2026/2/27 |      ···B360.exe       |        研究中         | b511d6e13c1d4b90ebff10d21c6f6d689b9c07b8377a21f63d1c6895525ffbc8 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/b511d6e13c1d4b90ebff10d21c6f6d689b9c07b8377a21f63d1c6895525ffbc8) (63) |                  [MalwareBazaar Database]()                  | A516 |
+| 2026/2/27 | ···简体中文语言包.exe  |        研究中         | b403a4b946c7fbed1151e2377b55f471bba10897969f8695fbcb85fe7b06065e |                                      | [VirusTotal](https://www.virustotal.com/gui/file/b403a4b946c7fbed1151e2377b55f471bba10897969f8695fbcb85fe7b06065e) (3) |                  [MalwareBazaar Database]()                  | A517 |
 |  ——————   |      ————————————      |     ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
