@@ -68,9 +68,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 2 月 27 日 6:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 2 月 27 日 11:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 2 月 27 日，已打击计算机病毒 / 恶意软件 513 个、恶意网站 162 个**。
+&emsp;&emsp;**截至 2026 年 2 月 27 日，已打击计算机病毒 / 恶意软件 514 个、恶意网站 162 个**。
 
 ---
 
@@ -107,6 +107,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/26 |      gknqtxAD.exe      | **Win32/Malgent!MSR** | 3c4f10d6973fbbda4d78aba0f7d3a81721f85607fa8944af710343f70724cd66 | 1fe5450c-2cea-418c-856b-6f2459537e39 | [VirusTotal](https://www.virustotal.com/gui/file/3c4f10d6973fbbda4d78aba0f7d3a81721f85607fa8944af710343f70724cd66) (12) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/3c4f10d6973fbbda4d78aba0f7d3a81721f85607fa8944af710343f70724cd66) | A511 |
 | 2026/2/26 |   win32-telegram.exe   | **Win32/Malgent!MSR** | 7ece344101454d23e7e2e01f23b2a7c77d19b1e0a7d3057fae36935ba8680521 | 595b2f10-9e0c-45f5-b93d-b5b2493f1dd7 | [VirusTotal](https://www.virustotal.com/gui/file/7ece344101454d23e7e2e01f23b2a7c77d19b1e0a7d3057fae36935ba8680521) (3) |                              无                              | A512 |
 | 2026/2/26 |    XshellA-7183.msi    | **Win32/Malgent!MSR** | 52ce13dd318a59976a03e9ac99e486f7398591be50a6da78ad7636c2adab3149 | 530b2407-8c46-4553-91c0-fff821ba60be | [VirusTotal](https://www.virustotal.com/gui/file/52ce13dd318a59976a03e9ac99e486f7398591be50a6da78ad7636c2adab3149) (18) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/52ce13dd318a59976a03e9ac99e486f7398591be50a6da78ad7636c2adab3149) | A513 |
+| 2026/2/27 |       Chrome.exe       |        研究中         | 4fb7a10d9a7f7001d8c5e867f442ee346577709b55a388ab9f49a3a3e91250a1 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/4fb7a10d9a7f7001d8c5e867f442ee346577709b55a388ab9f49a3a3e91250a1) (11) |                              无                              | A514 |
 |  ——————   |      ————————————      |     ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
