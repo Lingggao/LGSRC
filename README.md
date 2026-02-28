@@ -68,9 +68,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 2 月 28 日 13:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 2 月 28 日 19:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 2 月 28 日，已打击计算机病毒 / 恶意软件 520 个、恶意网站 163 个**。
+&emsp;&emsp;**截至 2026 年 2 月 28 日，已打击计算机病毒 / 恶意软件 521 个、恶意网站 163 个**。
 
 ---
 
@@ -106,8 +106,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/27 |      ···B360.exe      |   **Win32/AutoRun**    | b511d6e13c1d4b90ebff10d21c6f6d689b9c07b8377a21f63d1c6895525ffbc8 | ded484a3-70d2-4ad2-bab8-41a7b6bdf8ad | [VirusTotal](https://www.virustotal.com/gui/file/b511d6e13c1d4b90ebff10d21c6f6d689b9c07b8377a21f63d1c6895525ffbc8) (63) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b511d6e13c1d4b90ebff10d21c6f6d689b9c07b8377a21f63d1c6895525ffbc8) | A516 |
 | 2026/2/27 | ···简体中文语言包.exe | **Win64/Malgent!MSR**  | b403a4b946c7fbed1151e2377b55f471bba10897969f8695fbcb85fe7b06065e | b48368dd-11cc-4741-8bac-ed32409ab677 | [VirusTotal](https://www.virustotal.com/gui/file/b403a4b946c7fbed1151e2377b55f471bba10897969f8695fbcb85fe7b06065e) (3) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b403a4b946c7fbed1151e2377b55f471bba10897969f8695fbcb85fe7b06065e) | A517 |
 | 2026/2/27 |     pycharm64.exe     | **Win32/Malgent!MSR**  | a0a1266c8af6131c5da672ed4029023ca2dda40fc27f9a86029ec59a3c28eb00 | f349a45f-11a4-4c46-a32a-62441dee40fe | [VirusTotal](https://www.virustotal.com/gui/file/a0a1266c8af6131c5da672ed4029023ca2dda40fc27f9a86029ec59a3c28eb00) (12) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a0a1266c8af6131c5da672ed4029023ca2dda40fc27f9a86029ec59a3c28eb00) | A518 |
-| 2026/2/28 |     chromasc.exe      | **Win64/TurtleLoader** | 5d4b0b9b6bf4deb806e3736124051b720be9acb5fe316d4cdb66e93808a8b026 | 2ed87a9e-b4fa-4a07-aa23-382eab5819ee | [VirusTotal](https://www.virustotal.com/gui/file/5d4b0b9b6bf4deb806e3736124051b720be9acb5fe316d4cdb66e93808a8b026) (6) |                              无                              | A519 |
-| 2026/2/28 |    devicelearn.exe    | **Win32/Malgent!MSR**  | 1ace2c48573aa62bf0cf258b223d45e7cc9b6e21b441fd2ee8d93a87e7cf0f9e | c26d8f09-9239-4906-9c00-a98cf1963571 | [VirusTotal](https://www.virustotal.com/gui/file/1ace2c48573aa62bf0cf258b223d45e7cc9b6e21b441fd2ee8d93a87e7cf0f9e) (27) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/1ace2c48573aa62bf0cf258b223d45e7cc9b6e21b441fd2ee8d93a87e7cf0f9e) | A520 |
+| 2026/2/28 |     chromasc.exe      | **Win32/Malgent!MSR**  | 5d4b0b9b6bf4deb806e3736124051b720be9acb5fe316d4cdb66e93808a8b026 | 2ed87a9e-b4fa-4a07-aa23-382eab5819ee | [VirusTotal](https://www.virustotal.com/gui/file/5d4b0b9b6bf4deb806e3736124051b720be9acb5fe316d4cdb66e93808a8b026) (6) |                              无                              | A519 |
+| 2026/2/28 |    devicelearn.exe    | **Win64/TurtleLoader** | 1ace2c48573aa62bf0cf258b223d45e7cc9b6e21b441fd2ee8d93a87e7cf0f9e | c26d8f09-9239-4906-9c00-a98cf1963571 | [VirusTotal](https://www.virustotal.com/gui/file/1ace2c48573aa62bf0cf258b223d45e7cc9b6e21b441fd2ee8d93a87e7cf0f9e) (27) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/1ace2c48573aa62bf0cf258b223d45e7cc9b6e21b441fd2ee8d93a87e7cf0f9e) | A520 |
+| 2026/2/28 |     MBRKiller.exe     | **Win64/Malgent!MSR**  | f79efc8a7b635cc8a56185f067d93b6a77cea63a7820d73068c7a6f45adc7626 | c6c01937-55ed-43bc-8661-f0fc7c604553 | [VirusTotal](https://www.virustotal.com/gui/file/f79efc8a7b635cc8a56185f067d93b6a77cea63a7820d73068c7a6f45adc7626) (15) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/f79efc8a7b635cc8a56185f067d93b6a77cea63a7820d73068c7a6f45adc7626) | A521 |
 |  ——————   |     ————————————      |      ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -149,7 +150,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/25 |         hxxps://xiazaijd[.]click          |   仿冒 Chrome、传播病毒   |    hxxps://xiazaijd[.]click/googlechrome64%E4%BD%8D[.]zip    | [URLhaus Database](https://urlhaus.abuse.ch/url/3784999) | Z160 |
 | 2026/2/25 |       hxxps://tbtool[.]dawnstd[.]cn       | 仿冒图吧工具箱、传播病毒  | hxxps://apac[.]tualatin[.]club/%E5%9B%BE%E5%90%A7%E5%B7%A5%E5%85%B7%E7%AE%B1202601[.]1%E5%AE%89%E8%A3%85%E5%8C%85[.]exe |                            无                            | Z161 |
 | 2026/2/25 |          hxxps://80868088[.]xyz           | 仿冒图吧工具箱、传播病毒  | hxxps://apac[.]tualatin[.]club/%E5%9B%BE%E5%90%A7%E5%B7%A5%E5%85%B7%E7%AE%B1202601[.]1%E5%AE%89%E8%A3%85%E5%8C%85[.]exe |                            无                            | Z162 |
-| 2026/2/27 |     hxxps://chhrome-google[.]hl[.]cn      |   仿冒 Chrome、传播病毒   | hxxps://download[.]x64-google[.]cn/Chorme_Setup_1858_1[.]9[.]zip |                            无                            | Z163 |
+| 2026/2/27 |     hxxps://chhrome-google[.]hl[.]cn      |   仿冒 Chrome、传播病毒   | hxxps://download[.]x64-google[.]cn/Chorme_Setup_1858_1[.]9[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3787379) | Z163 |
 |  ——————   |           ————————————————————            |      ———————————————      |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
