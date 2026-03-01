@@ -68,9 +68,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 1 日 12:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 1 日 22:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 3 月 1 日，已打击计算机病毒 / 恶意软件 524 个、恶意网站 163 个**。
+&emsp;&emsp;**截至 2026 年 3 月 1 日，已打击计算机病毒 / 恶意软件 525 个、恶意网站 163 个**。
 
 ---
 
@@ -105,9 +105,10 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/28 |     chromasc.exe      | **Win32/Malgent!MSR**  | 5d4b0b9b6bf4deb806e3736124051b720be9acb5fe316d4cdb66e93808a8b026 | 2ed87a9e-b4fa-4a07-aa23-382eab5819ee | [VirusTotal](https://www.virustotal.com/gui/file/5d4b0b9b6bf4deb806e3736124051b720be9acb5fe316d4cdb66e93808a8b026) (6) |                              无                              | A519 |
 | 2026/2/28 |    devicelearn.exe    | **Win64/TurtleLoader** | 1ace2c48573aa62bf0cf258b223d45e7cc9b6e21b441fd2ee8d93a87e7cf0f9e | c26d8f09-9239-4906-9c00-a98cf1963571 | [VirusTotal](https://www.virustotal.com/gui/file/1ace2c48573aa62bf0cf258b223d45e7cc9b6e21b441fd2ee8d93a87e7cf0f9e) (27) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/1ace2c48573aa62bf0cf258b223d45e7cc9b6e21b441fd2ee8d93a87e7cf0f9e) | A520 |
 | 2026/2/28 |     MBRKiller.exe     | **Win64/Malgent!MSR**  | f79efc8a7b635cc8a56185f067d93b6a77cea63a7820d73068c7a6f45adc7626 | c6c01937-55ed-43bc-8661-f0fc7c604553 | [VirusTotal](https://www.virustotal.com/gui/file/f79efc8a7b635cc8a56185f067d93b6a77cea63a7820d73068c7a6f45adc7626) (15) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/f79efc8a7b635cc8a56185f067d93b6a77cea63a7820d73068c7a6f45adc7626) | A521 |
-| 2026/3/1  |   165-018gx安装.exe   |     **SilverFox**      | 30577961b8385513744ff7dadade82b2a63f8fb2f4355dfa7ff13a067119d281 | 25d23077-cc6e-4282-96f4-e2dea28bf0d3 | [VirusTotal](https://www.virustotal.com/gui/file/30577961b8385513744ff7dadade82b2a63f8fb2f4355dfa7ff13a067119d281) (19) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/30577961b8385513744ff7dadade82b2a63f8fb2f4355dfa7ff13a067119d281) | A522 |
-| 2026/3/1  |       Svnb.exe        |         研究中         | 187398dbad83c137a8f5cec3575252bd5b65aa554356fc67e0a27e6dce31af6e | f650ecf9-b696-47f7-a315-e165301c9ee5 | [VirusTotal](https://www.virustotal.com/gui/file/187398dbad83c137a8f5cec3575252bd5b65aa554356fc67e0a27e6dce31af6e) (4) |                              无                              | A523 |
-| 2026/3/1  |     chromasc.exe      |         研究中         | b1101fa4bd9ff7318e77d13614e4187eaf5b31c64b09764a19fd6540e6521fb4 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/b1101fa4bd9ff7318e77d13614e4187eaf5b31c64b09764a19fd6540e6521fb4) (2) |                              无                              | A524 |
+| 2026/3/1  |   165-018gx安装.exe   |  **银狐 (SilverFox)**  | 30577961b8385513744ff7dadade82b2a63f8fb2f4355dfa7ff13a067119d281 | 25d23077-cc6e-4282-96f4-e2dea28bf0d3 | [VirusTotal](https://www.virustotal.com/gui/file/30577961b8385513744ff7dadade82b2a63f8fb2f4355dfa7ff13a067119d281) (19) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/30577961b8385513744ff7dadade82b2a63f8fb2f4355dfa7ff13a067119d281) | A522 |
+| 2026/3/1  |       Svnb.exe        | **Win32/Malgent!MSR**  | 187398dbad83c137a8f5cec3575252bd5b65aa554356fc67e0a27e6dce31af6e | f650ecf9-b696-47f7-a315-e165301c9ee5 | [VirusTotal](https://www.virustotal.com/gui/file/187398dbad83c137a8f5cec3575252bd5b65aa554356fc67e0a27e6dce31af6e) (4) |                              无                              | A523 |
+| 2026/3/1  |     chromasc.exe      | **Win32/Malgent!MSR**  | b1101fa4bd9ff7318e77d13614e4187eaf5b31c64b09764a19fd6540e6521fb4 | 53a6cc2a-374a-43d3-9d7c-fca4b3c59363 | [VirusTotal](https://www.virustotal.com/gui/file/b1101fa4bd9ff7318e77d13614e4187eaf5b31c64b09764a19fd6540e6521fb4) (2) |                              无                              | A524 |
+| 2026/3/1  | wangshangliao···.exe  |  **银狐 (SilverFox)**  | eb470f2d5f1609cb6ab48361ba0e774953ea7cb594e3e2496b8389cb2daaf3ff | 903f1bdf-818e-4709-ab98-189137ff2428 | [VirusTotal](https://www.virustotal.com/gui/file/eb470f2d5f1609cb6ab48361ba0e774953ea7cb594e3e2496b8389cb2daaf3ff) (14) |                              无                              | A525 |
 |  ——————   |     ————————————      |      ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
