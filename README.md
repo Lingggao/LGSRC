@@ -68,7 +68,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 2 日 3:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 2 日 6:00 (GMT+8)
 
 &emsp;&emsp;**截至 2026 年 3 月 2 日，已打击计算机病毒 / 恶意软件 529 个、恶意网站 167 个**。
 
@@ -108,7 +108,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/2  |    GoodMeV3.4.exe     |  **Win64/Malgent!MSR**  | 075eff4f83b0a2267697d6d12db4cf4fa2c232b8f3938516ac4771fe95b9e630 | 57de454b-fd8d-4621-9870-64641643fc85 | [VirusTotal](https://www.virustotal.com/gui/file/075eff4f83b0a2267697d6d12db4cf4fa2c232b8f3938516ac4771fe95b9e630) (15) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/075eff4f83b0a2267697d6d12db4cf4fa2c232b8f3938516ac4771fe95b9e630) | A526 |
 | 2026/3/2  |  可以过kehuduan.exe   | **银狐 (SilverFox.se)** | 20d256c2349fdda5ad309728c721275f5b9e6ead89cb4d6e391b58a99bb845bc | 9bee360b-d1c7-4244-9831-bac33bb284ad | [VirusTotal](https://www.virustotal.com/gui/file/20d256c2349fdda5ad309728c721275f5b9e6ead89cb4d6e391b58a99bb845bc) (18) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/20d256c2349fdda5ad309728c721275f5b9e6ead89cb4d6e391b58a99bb845bc) | A527 |
 | 2026/3/2  | SB360-1010-2.vmp.exe  |  **Win32/Malgent!MSR**  | cf50fc54c8edce69fe5efd7e0cc14367b951b4661e653ce47f1280220f356217 | a167fdd5-89e0-45a0-b2dd-0aa8bec08870 | [VirusTotal](https://www.virustotal.com/gui/file/cf50fc54c8edce69fe5efd7e0cc14367b951b4661e653ce47f1280220f356217) (31) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/cf50fc54c8edce69fe5efd7e0cc14367b951b4661e653ce47f1280220f356217) | A528 |
-| 2026/3/2  | WPS_off11.2-5814.msi  |  **银狐 (SilverFox)**   | 53b0f9520d471435a7c779de75c4b8b178896ff423c14f087f4e450329e89769 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/53b0f9520d471435a7c779de75c4b8b178896ff423c14f087f4e450329e89769) (0) |                              无                              | A529 |
+| 2026/3/2  | WPS_off11.2-5814.msi  |  **银狐 (SilverFox)**   | 53b0f9520d471435a7c779de75c4b8b178896ff423c14f087f4e450329e89769 | 084f7d67-373e-45a4-8fb0-7931bce03de8 | [VirusTotal](https://www.virustotal.com/gui/file/53b0f9520d471435a7c779de75c4b8b178896ff423c14f087f4e450329e89769) (0) |                              无                              | A529 |
 |  ——————   |     ————————————      |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
