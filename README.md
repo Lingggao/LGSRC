@@ -68,9 +68,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 1 日 22:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 1 日 23:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 3 月 1 日，已打击计算机病毒 / 恶意软件 525 个、恶意网站 163 个**。
+&emsp;&emsp;**截至 2026 年 3 月 1 日，已打击计算机病毒 / 恶意软件 527 个、恶意网站 163 个**。
 
 ---
 
@@ -109,6 +109,8 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/1  |       Svnb.exe        | **Win32/Malgent!MSR**  | 187398dbad83c137a8f5cec3575252bd5b65aa554356fc67e0a27e6dce31af6e | f650ecf9-b696-47f7-a315-e165301c9ee5 | [VirusTotal](https://www.virustotal.com/gui/file/187398dbad83c137a8f5cec3575252bd5b65aa554356fc67e0a27e6dce31af6e) (4) |                              无                              | A523 |
 | 2026/3/1  |     chromasc.exe      | **Win32/Malgent!MSR**  | b1101fa4bd9ff7318e77d13614e4187eaf5b31c64b09764a19fd6540e6521fb4 | 53a6cc2a-374a-43d3-9d7c-fca4b3c59363 | [VirusTotal](https://www.virustotal.com/gui/file/b1101fa4bd9ff7318e77d13614e4187eaf5b31c64b09764a19fd6540e6521fb4) (2) |                              无                              | A524 |
 | 2026/3/1  | wangshangliao···.exe  |  **银狐 (SilverFox)**  | eb470f2d5f1609cb6ab48361ba0e774953ea7cb594e3e2496b8389cb2daaf3ff | 903f1bdf-818e-4709-ab98-189137ff2428 | [VirusTotal](https://www.virustotal.com/gui/file/eb470f2d5f1609cb6ab48361ba0e774953ea7cb594e3e2496b8389cb2daaf3ff) (14) |                              无                              | A525 |
+| 2026/3/1  |    GoodMeV3.4.exe     |         研究中         | 075eff4f83b0a2267697d6d12db4cf4fa2c232b8f3938516ac4771fe95b9e630 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/075eff4f83b0a2267697d6d12db4cf4fa2c232b8f3938516ac4771fe95b9e630) (15) |                  [MalwareBazaar Database]()                  | A526 |
+| 2026/3/1  |  可以过kehuduan.exe   |         研究中         | 20d256c2349fdda5ad309728c721275f5b9e6ead89cb4d6e391b58a99bb845bc |                                      | [VirusTotal](https://www.virustotal.com/gui/file/20d256c2349fdda5ad309728c721275f5b9e6ead89cb4d6e391b58a99bb845bc) (18) |                  [MalwareBazaar Database]()                  | A527 |
 |  ——————   |     ————————————      |      ————————————      |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
