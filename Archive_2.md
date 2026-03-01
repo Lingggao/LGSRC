@@ -147,6 +147,12 @@
 | 2026/2/14 |           hxxps://lu-da-shi[.]top           |    仿冒鲁大师、传播病毒     | hxxps://lu-da-shi[.]top/cdn_download/ludashi/setuploader[.]exe |                            无                            | Z135 |
 | 2026/2/14 |          hxxps://ludashi-cn[.]com           |    仿冒鲁大师、传播病毒     | hxxps://ludashi-cn[.]com/cdn_download/ludashi/setuploader[.]exe |                            无                            | Z136 |
 | 2026/2/14 |          hxxps://ludashi-zh[.]com           |    仿冒鲁大师、传播病毒     | hxxps://ludashi-zh[.]com/cdn_download/ludashi/setuploader[.]exe |                            无                            | Z137 |
+| 2026/2/15 |           hxxps://web-google[.]cn           |    仿冒 Chrome、传播病毒    |                              有                              |                            无                            | Z138 |
+| 2026/2/16 |   hxxps://web[.]chrorome-google[.]hl[.]cn   |    仿冒 Chrome、传播病毒    | hxxps://tpuexd-1362557240[.]cos[.]ap-hongkong[.]myqcloud[.]com/Chorme_Setup_1858_1[.]3[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3779077) | Z139 |
+| 2026/2/16 |      hxxps://chrorme-google[.]hl[.]cn       |    仿冒 Chrome、传播病毒    | hxxps://www[.]up3me[.]cc/?c=cGXvEgv949Hv4SreY2v_OTs8Z-7n5Cqw9l9jPJG65GC3A1riBz4JRBlKnIFs-IqV | [URLhaus Database](https://urlhaus.abuse.ch/url/3778875) | Z140 |
+| 2026/2/16 |      hxxps://chromme-google[.]com[.]cn      |    仿冒 Chrome、传播病毒    | hxxps://download[.]chrome-google[.]sbs/downloads/clnrorne[.]php |                            无                            | Z141 |
+| 2026/2/16 |   hxxps://cn[.]pc-chrome-google[.]hl[.]cn   |    仿冒 Chrome、传播病毒    | hxxps://tpuexd-1362557240[.]cos[.]ap-hongkong[.]myqcloud[.]com/Chorme_Setup_1858_1[.]3[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3779077) | Z142 |
+| 2026/2/16 |  hxxps://zh[.]cn-chroome-google[.]hl[.]cn   |    仿冒 Chrome、传播病毒    | hxxps://tpuexd-1362557240[.]cos[.]ap-hongkong[.]myqcloud[.]com/Chorme_Setup_1858_1[.]3[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3779077) | Z143 |
 |  ——————   |            ————————————————————             |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---

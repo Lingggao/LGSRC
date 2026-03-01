@@ -68,9 +68,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 2 日 2:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 2 日 3:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 3 月 2 日，已打击计算机病毒 / 恶意软件 528 个、恶意网站 163 个**。
+&emsp;&emsp;**截至 2026 年 3 月 2 日，已打击计算机病毒 / 恶意软件 529 个、恶意网站 167 个**。
 
 ---
 
@@ -108,6 +108,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/2  |    GoodMeV3.4.exe     |  **Win64/Malgent!MSR**  | 075eff4f83b0a2267697d6d12db4cf4fa2c232b8f3938516ac4771fe95b9e630 | 57de454b-fd8d-4621-9870-64641643fc85 | [VirusTotal](https://www.virustotal.com/gui/file/075eff4f83b0a2267697d6d12db4cf4fa2c232b8f3938516ac4771fe95b9e630) (15) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/075eff4f83b0a2267697d6d12db4cf4fa2c232b8f3938516ac4771fe95b9e630) | A526 |
 | 2026/3/2  |  可以过kehuduan.exe   | **银狐 (SilverFox.se)** | 20d256c2349fdda5ad309728c721275f5b9e6ead89cb4d6e391b58a99bb845bc | 9bee360b-d1c7-4244-9831-bac33bb284ad | [VirusTotal](https://www.virustotal.com/gui/file/20d256c2349fdda5ad309728c721275f5b9e6ead89cb4d6e391b58a99bb845bc) (18) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/20d256c2349fdda5ad309728c721275f5b9e6ead89cb4d6e391b58a99bb845bc) | A527 |
 | 2026/3/2  | SB360-1010-2.vmp.exe  |  **Win32/Malgent!MSR**  | cf50fc54c8edce69fe5efd7e0cc14367b951b4661e653ce47f1280220f356217 | a167fdd5-89e0-45a0-b2dd-0aa8bec08870 | [VirusTotal](https://www.virustotal.com/gui/file/cf50fc54c8edce69fe5efd7e0cc14367b951b4661e653ce47f1280220f356217) (31) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/cf50fc54c8edce69fe5efd7e0cc14367b951b4661e653ce47f1280220f356217) | A528 |
+| 2026/3/2  | WPS_off11.2-5814.msi  |  **银狐 (SilverFox)**   | 53b0f9520d471435a7c779de75c4b8b178896ff423c14f087f4e450329e89769 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/53b0f9520d471435a7c779de75c4b8b178896ff423c14f087f4e450329e89769) (0) |                              无                              | A529 |
 |  ——————   |     ————————————      |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -124,12 +125,6 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 |   日期    |                    URL                    |           类别            |                           有效载荷                           |                         URLhaus                          | 编号 |
 | :-------: | :---------------------------------------: | :-----------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
-| 2026/2/15 |          hxxps://web-google[.]cn          |   仿冒 Chrome、传播病毒   |                              有                              |                            无                            | Z138 |
-| 2026/2/16 |  hxxps://web[.]chrorome-google[.]hl[.]cn  |   仿冒 Chrome、传播病毒   | hxxps://tpuexd-1362557240[.]cos[.]ap-hongkong[.]myqcloud[.]com/Chorme_Setup_1858_1[.]3[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3779077) | Z139 |
-| 2026/2/16 |     hxxps://chrorme-google[.]hl[.]cn      |   仿冒 Chrome、传播病毒   | hxxps://www[.]up3me[.]cc/?c=cGXvEgv949Hv4SreY2v_OTs8Z-7n5Cqw9l9jPJG65GC3A1riBz4JRBlKnIFs-IqV | [URLhaus Database](https://urlhaus.abuse.ch/url/3778875) | Z140 |
-| 2026/2/16 |     hxxps://chromme-google[.]com[.]cn     |   仿冒 Chrome、传播病毒   | hxxps://download[.]chrome-google[.]sbs/downloads/clnrorne[.]php |                            无                            | Z141 |
-| 2026/2/16 |  hxxps://cn[.]pc-chrome-google[.]hl[.]cn  |   仿冒 Chrome、传播病毒   | hxxps://tpuexd-1362557240[.]cos[.]ap-hongkong[.]myqcloud[.]com/Chorme_Setup_1858_1[.]3[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3779077) | Z142 |
-| 2026/2/16 | hxxps://zh[.]cn-chroome-google[.]hl[.]cn  |   仿冒 Chrome、传播病毒   | hxxps://tpuexd-1362557240[.]cos[.]ap-hongkong[.]myqcloud[.]com/Chorme_Setup_1858_1[.]3[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3779077) | Z143 |
 | 2026/2/18 |       hxxps://clash-org[.]com[.]cn        |   借助 VPN 工具传播病毒   |   hxxps://clash-org[.]com[.]cn/Clash[.]for[.]Windows[.]zip   | [URLhaus Database](https://urlhaus.abuse.ch/url/3781032) | Z144 |
 | 2026/2/18 |        hxxps://ip-clash[.]com[.]cn        |   借助 VPN 工具传播病毒   |           hxxps://ip-clash[.]com[.]cn/down[.]html            |                            无                            | Z145 |
 | 2026/2/18 |       hxxps://app-clash[.]com[.]cn        |   借助 VPN 工具传播病毒   |     hxxps://app-clash[.]com[.]cn/clash0[.]20[.]39[.]zip      | [URLhaus Database](https://urlhaus.abuse.ch/url/3781030) | Z146 |
@@ -150,6 +145,10 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/2/25 |       hxxps://tbtool[.]dawnstd[.]cn       | 仿冒图吧工具箱、传播病毒  | hxxps://apac[.]tualatin[.]club/%E5%9B%BE%E5%90%A7%E5%B7%A5%E5%85%B7%E7%AE%B1202601[.]1%E5%AE%89%E8%A3%85%E5%8C%85[.]exe |                            无                            | Z161 |
 | 2026/2/25 |          hxxps://80868088[.]xyz           | 仿冒图吧工具箱、传播病毒  | hxxps://apac[.]tualatin[.]club/%E5%9B%BE%E5%90%A7%E5%B7%A5%E5%85%B7%E7%AE%B1202601[.]1%E5%AE%89%E8%A3%85%E5%8C%85[.]exe |                            无                            | Z162 |
 | 2026/2/27 |     hxxps://chhrome-google[.]hl[.]cn      |   仿冒 Chrome、传播病毒   | hxxps://download[.]x64-google[.]cn/Chorme_Setup_1858_1[.]9[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3787379) | Z163 |
+| 2026/3/2  |          https://wsp-wps.com.cn           |    仿冒 WPS、传播病毒     |          https://hjekd8c.huowdy.com/WPS_off11.2.zip          |                            无                            | Z164 |
+| 2026/3/2  |         https://ofice-wps.com.cn          |    仿冒 WPS、传播病毒     |          https://hjekd8c.huowdy.com/WPS_off11.2.zip          |                            无                            | Z165 |
+| 2026/3/2  |       https://bdsem.platform.wps.cn       |    仿冒 WPS、传播病毒     |                              无                              |                            无                            | Z166 |
+| 2026/3/2  |         https://w-wpsoffice.hl.cn         |    仿冒 WPS、传播病毒     |                              无                              |                            无                            | Z167 |
 |  ——————   |           ————————————————————            |      ———————————————      |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
