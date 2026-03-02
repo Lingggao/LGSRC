@@ -153,6 +153,11 @@
 | 2026/2/16 |      hxxps://chromme-google[.]com[.]cn      |    仿冒 Chrome、传播病毒    | hxxps://download[.]chrome-google[.]sbs/downloads/clnrorne[.]php |                            无                            | Z141 |
 | 2026/2/16 |   hxxps://cn[.]pc-chrome-google[.]hl[.]cn   |    仿冒 Chrome、传播病毒    | hxxps://tpuexd-1362557240[.]cos[.]ap-hongkong[.]myqcloud[.]com/Chorme_Setup_1858_1[.]3[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3779077) | Z142 |
 | 2026/2/16 |  hxxps://zh[.]cn-chroome-google[.]hl[.]cn   |    仿冒 Chrome、传播病毒    | hxxps://tpuexd-1362557240[.]cos[.]ap-hongkong[.]myqcloud[.]com/Chorme_Setup_1858_1[.]3[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3779077) | Z143 |
+| 2026/2/18 |        hxxps://clash-org[.]com[.]cn         |    借助 VPN 工具传播病毒    |   hxxps://clash-org[.]com[.]cn/Clash[.]for[.]Windows[.]zip   | [URLhaus Database](https://urlhaus.abuse.ch/url/3781032) | Z144 |
+| 2026/2/18 |         hxxps://ip-clash[.]com[.]cn         |    借助 VPN 工具传播病毒    |           hxxps://ip-clash[.]com[.]cn/down[.]html            |                            无                            | Z145 |
+| 2026/2/18 |        hxxps://app-clash[.]com[.]cn         |    借助 VPN 工具传播病毒    |     hxxps://app-clash[.]com[.]cn/clash0[.]20[.]39[.]zip      | [URLhaus Database](https://urlhaus.abuse.ch/url/3781030) | Z146 |
+| 2026/2/18 |         hxxps://kc-clash[.]com[.]cn         |    借助 VPN 工具传播病毒    |           hxxps://ip-clash[.]com[.]cn/down[.]html            |                            无                            | Z147 |
+| 2026/2/18 |    hxxps://www[.]clash-github[.]com[.]cn    |    借助 VPN 工具传播病毒    | hxxps://www[.]clash-github[.]com[.]cn/downloads/windows/ClashSetup[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3781031) | Z148 |
 |  ——————   |            ————————————————————             |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
