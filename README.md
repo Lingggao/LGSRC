@@ -68,9 +68,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 2 日 6:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 2 日 12:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 3 月 2 日，已打击计算机病毒 / 恶意软件 529 个、恶意网站 167 个**。
+&emsp;&emsp;**截至 2026 年 3 月 2 日，已打击计算机病毒 / 恶意软件 530 个、恶意网站 167 个**。
 
 ---
 
@@ -82,9 +82,6 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 |   日期    |        文件名         |          检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :-------------------: | :---------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/2/26 |     Destroyer.bat     |   **BAT/Malgent!MSR**   | b2339dfd67a0987753c0c6142aade3a21d6575f23f63c880cf56f00afcc762f4 | 9353dfd6-69dd-4dc2-979d-37c6e03f5459 | [VirusTotal](https://www.virustotal.com/gui/file/b2339dfd67a0987753c0c6142aade3a21d6575f23f63c880cf56f00afcc762f4) (9) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b2339dfd67a0987753c0c6142aade3a21d6575f23f63c880cf56f00afcc762f4) | A503 |
-| 2026/2/26 |       Test.exe        |  **Win32/Malgent!MSR**  | 8cdffe6a426c8eb9499b596e390ae20102b7ed6219c82e700ed351784d589500 | f483c79b-6945-4a90-bda8-1faf5dc8e22e | [VirusTotal](https://www.virustotal.com/gui/file/8cdffe6a426c8eb9499b596e390ae20102b7ed6219c82e700ed351784d589500) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/8cdffe6a426c8eb9499b596e390ae20102b7ed6219c82e700ed351784d589500) | A504 |
-| 2026/2/26 |       getP.dll        |  **Win32/Malgent!MSR**  | 3b2deece9e74a0235ee16ea0e571d114671395eefac8b5b5eb66e7224844e644 | f483c79b-6945-4a90-bda8-1faf5dc8e22e | [VirusTotal](https://www.virustotal.com/gui/file/3b2deece9e74a0235ee16ea0e571d114671395eefac8b5b5eb66e7224844e644) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/3b2deece9e74a0235ee16ea0e571d114671395eefac8b5b5eb66e7224844e644) | A505 |
 | 2026/2/26 | gg_windesktop···.msi  |    **Win32/Kepavll**    | 5d9c68bc9a6852770106805cc6af72009d39e2e1564ae63f35e1b8759640fe21 | 053f3059-ebe7-4c62-ad9b-3a56a6deb324 | [VirusTotal](https://www.virustotal.com/gui/file/5d9c68bc9a6852770106805cc6af72009d39e2e1564ae63f35e1b8759640fe21) (14) |                              无                              | A506 |
 | 2026/2/26 |    SystemStart.exe    |  **Win32/Malgent!MSR**  | 5b4ef24afe75340ec782ea1a18fd7777d239e67b0e042ad90bdbbbe0f1a08569 | 8b1cfb27-1dfe-413d-80db-464bc071204c | [VirusTotal](https://www.virustotal.com/gui/file/5b4ef24afe75340ec782ea1a18fd7777d239e67b0e042ad90bdbbbe0f1a08569) (21) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5b4ef24afe75340ec782ea1a18fd7777d239e67b0e042ad90bdbbbe0f1a08569) | A507 |
 | 2026/2/26 |    Chrome-x64.exe     |   **Win32/Microjoin**   | 4ff3ce11ecc591dbcd331ae8d10bede96519d706678ab483aa0169cbbbaa4f47 | 878a05da-b6c3-41cb-9226-545ef367fbe1 | [VirusTotal](https://www.virustotal.com/gui/search/4ff3ce11ecc591dbcd331ae8d10bede96519d706678ab483aa0169cbbbaa4f47) (28) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/4ff3ce11ecc591dbcd331ae8d10bede96519d706678ab483aa0169cbbbaa4f47) | A508 |
@@ -109,6 +106,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/2  |  可以过kehuduan.exe   | **银狐 (SilverFox.se)** | 20d256c2349fdda5ad309728c721275f5b9e6ead89cb4d6e391b58a99bb845bc | 9bee360b-d1c7-4244-9831-bac33bb284ad | [VirusTotal](https://www.virustotal.com/gui/file/20d256c2349fdda5ad309728c721275f5b9e6ead89cb4d6e391b58a99bb845bc) (18) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/20d256c2349fdda5ad309728c721275f5b9e6ead89cb4d6e391b58a99bb845bc) | A527 |
 | 2026/3/2  | SB360-1010-2.vmp.exe  |  **Win32/Malgent!MSR**  | cf50fc54c8edce69fe5efd7e0cc14367b951b4661e653ce47f1280220f356217 | a167fdd5-89e0-45a0-b2dd-0aa8bec08870 | [VirusTotal](https://www.virustotal.com/gui/file/cf50fc54c8edce69fe5efd7e0cc14367b951b4661e653ce47f1280220f356217) (31) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/cf50fc54c8edce69fe5efd7e0cc14367b951b4661e653ce47f1280220f356217) | A528 |
 | 2026/3/2  | WPS_off11.2-5814.msi  |  **银狐 (SilverFox)**   | 53b0f9520d471435a7c779de75c4b8b178896ff423c14f087f4e450329e89769 | 084f7d67-373e-45a4-8fb0-7931bce03de8 | [VirusTotal](https://www.virustotal.com/gui/file/53b0f9520d471435a7c779de75c4b8b178896ff423c14f087f4e450329e89769) (0) |                              无                              | A529 |
+| 2026/3/2  |    c878508f54.exe     | **银狐 (SilverFox.sa)** | c878508f5476df6e84aeb153408fec8a760fbecfa0d122468bef1a18fd473064 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/c878508f5476df6e84aeb153408fec8a760fbecfa0d122468bef1a18fd473064) (18) |                  [MalwareBazaar Database]()                  | A530 |
 |  ——————   |     ————————————      |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
