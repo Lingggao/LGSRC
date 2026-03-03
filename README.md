@@ -68,9 +68,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 3 日 15:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 3 日 20:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 3 月 3 日，已打击计算机病毒 / 恶意软件 538 个、恶意网站 173 个**。
+&emsp;&emsp;**截至 2026 年 3 月 3 日，已打击计算机病毒 / 恶意软件 539 个、恶意网站 173 个**。
 
 ---
 
@@ -104,8 +104,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/2  |   win32-googele.msi   | **银狐 (SilverFox.al)** | 93c60ddd1cafeb14d566a6b8981cfcd1aa65fc20b9a24edb141467e7a821db38 | ac2eb193-d4b1-4012-9f79-43a0daf6a25d | [VirusTotal](https://www.virustotal.com/gui/file/93c60ddd1cafeb14d566a6b8981cfcd1aa65fc20b9a24edb141467e7a821db38) (9) |                              无                              | A534 |
 | 2026/3/2  |   Zh···Chromex.exe    |  **银狐 (SilverFox)**   | c89c7987b1f3826282ec09e74b9e080d0fc82d72656f8890f4e58339a82b2a3c | fe64f124-9d49-43fb-84c4-20719cec4c00 | [VirusTotal](https://www.virustotal.com/gui/file/c89c7987b1f3826282ec09e74b9e080d0fc82d72656f8890f4e58339a82b2a3c) (3) |                              无                              | A535 |
 | 2026/3/2  | ➜点我启动PCL2···.exe  |      **Backdoor**       | 9270444c315379d8a84f5519bcd16ab76b05fb5abc83dbc3268c0c27765bbf23 | 79c5ad05-0932-402e-9ffd-892c5ea14e11 | [VirusTotal](https://www.virustotal.com/gui/file/9270444c315379d8a84f5519bcd16ab76b05fb5abc83dbc3268c0c27765bbf23) (47) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/9270444c315379d8a84f5519bcd16ab76b05fb5abc83dbc3268c0c27765bbf23) | A536 |
-| 2026/3/3  |   3.2新bbb火绒.exe    | **银狐 (SilverFox.sa)** | d27508a2c6b2467093f38be807df572d2181d10548cbb24433b2cba4a3b9f81c |                                      | [VirusTotal](https://www.virustotal.com/gui/file/d27508a2c6b2467093f38be807df572d2181d10548cbb24433b2cba4a3b9f81c) (6) |                              无                              | A537 |
-| 2026/3/3  | ···chrome16853···.exe |     **Cybercrime**      | 091cde24197b6e4f6bb701a8c06b1b3f09103c3f0ff445734d88d958f490c61a |                                      | [VirusTotal](https://www.virustotal.com/gui/file/091cde24197b6e4f6bb701a8c06b1b3f09103c3f0ff445734d88d958f490c61a) (4) |                              无                              | A538 |
+| 2026/3/3  |   3.2新bbb火绒.exe    | **银狐 (SilverFox.sa)** | d27508a2c6b2467093f38be807df572d2181d10548cbb24433b2cba4a3b9f81c | 6c05123b-bcb5-47df-a940-eae6f89f7261 | [VirusTotal](https://www.virustotal.com/gui/file/d27508a2c6b2467093f38be807df572d2181d10548cbb24433b2cba4a3b9f81c) (6) |                              无                              | A537 |
+| 2026/3/3  | ···chrome16853···.exe |     **Cybercrime**      | 091cde24197b6e4f6bb701a8c06b1b3f09103c3f0ff445734d88d958f490c61a | ac0bd7cf-df05-4890-964d-65f11a8d025c | [VirusTotal](https://www.virustotal.com/gui/file/091cde24197b6e4f6bb701a8c06b1b3f09103c3f0ff445734d88d958f490c61a) (4) |                              无                              | A538 |
+| 2026/3/3  |  Clnrome64d0-x64.exe  |  **银狐 (SilverFox)**   | 2f0c2610f4d617f8a29d0538de4d6792a439fafad8476fada0df369f56d5f5c9 | 55fcb3a4-eb27-4465-b615-ec22d9004b5c | [VirusTotal](https://www.virustotal.com/gui/file/2f0c2610f4d617f8a29d0538de4d6792a439fafad8476fada0df369f56d5f5c9) (22) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/2f0c2610f4d617f8a29d0538de4d6792a439fafad8476fada0df369f56d5f5c9) | A539 |
 |  ——————   |     ————————————      |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
