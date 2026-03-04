@@ -68,9 +68,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 3 日 20:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 4 日 10:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 3 月 3 日，已打击计算机病毒 / 恶意软件 539 个、恶意网站 173 个**。
+&emsp;&emsp;**截至 2026 年 3 月 4 日，已打击计算机病毒 / 恶意软件 540 个、恶意网站 175 个**。
 
 ---
 
@@ -107,6 +107,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/3  |   3.2新bbb火绒.exe    | **银狐 (SilverFox.sa)** | d27508a2c6b2467093f38be807df572d2181d10548cbb24433b2cba4a3b9f81c | 6c05123b-bcb5-47df-a940-eae6f89f7261 | [VirusTotal](https://www.virustotal.com/gui/file/d27508a2c6b2467093f38be807df572d2181d10548cbb24433b2cba4a3b9f81c) (6) |                              无                              | A537 |
 | 2026/3/3  | ···chrome16853···.exe |     **Cybercrime**      | 091cde24197b6e4f6bb701a8c06b1b3f09103c3f0ff445734d88d958f490c61a | ac0bd7cf-df05-4890-964d-65f11a8d025c | [VirusTotal](https://www.virustotal.com/gui/file/091cde24197b6e4f6bb701a8c06b1b3f09103c3f0ff445734d88d958f490c61a) (4) |                              无                              | A538 |
 | 2026/3/3  |  Clnrome64d0-x64.exe  |  **银狐 (SilverFox)**   | 2f0c2610f4d617f8a29d0538de4d6792a439fafad8476fada0df369f56d5f5c9 | 55fcb3a4-eb27-4465-b615-ec22d9004b5c | [VirusTotal](https://www.virustotal.com/gui/file/2f0c2610f4d617f8a29d0538de4d6792a439fafad8476fada0df369f56d5f5c9) (22) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/2f0c2610f4d617f8a29d0538de4d6792a439fafad8476fada0df369f56d5f5c9) | A539 |
+| 2026/3/4  |  搜狗拼音输入法.exe   |  **银狐 (SilverFox)**   | 0f89eb7b51026e3e1f0054f613ae56eaafb8693d39fec19ab72519d5a044208b | 8c6e53c4-2b5d-4031-9f00-2b5c46a48b32 | [VirusTotal](https://www.virustotal.com/gui/file/0f89eb7b51026e3e1f0054f613ae56eaafb8693d39fec19ab72519d5a044208b) (5) |                              无                              | A540 |
 |  ——————   |     ————————————      |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -148,6 +149,8 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/2  |     hxxps://chrome-gooogle[.]com[.]cn     |   仿冒 Chrome、传播病毒   |             hxxps://dowsws[.]top/chromasc[.]zip              |                            无                            | Z171 |
 | 2026/3/2  |     hxxps://www[.]zh-chrome[.]hl[.]cn     |   仿冒 Chrome、传播病毒   | hxxps://chromitem[.]oss-cn-hongkong[.]aliyuncs[.]com/Chrome_Setnp222[.]zip |                            无                            | Z172 |
 | 2026/3/2  |       hxxps://bing-google[.]hl[.]cn       |   仿冒 Chrome、传播病毒   |                              有                              |                            无                            | Z173 |
+| 2026/3/4  |       hxxps://cn-sogoushurufa[.]com       | 仿冒搜狗输入法、传播病毒  | hxxps://www[.]sogou-shurufa[.]help/%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95[.]exe |                            无                            | Z174 |
+| 2026/3/4  |        hxxps://sogoushurufa5[.]com        | 仿冒搜狗输入法、传播病毒  | hxxps://www[.]sogou-shurufa[.]help/%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95[.]exe |                            无                            | Z175 |
 |  ——————   |           ————————————————————            |      ———————————————      |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
