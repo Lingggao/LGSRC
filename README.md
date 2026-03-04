@@ -68,9 +68,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 4 日 10:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 4 日 16:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 3 月 4 日，已打击计算机病毒 / 恶意软件 540 个、恶意网站 175 个**。
+&emsp;&emsp;**截至 2026 年 3 月 4 日，已打击计算机病毒 / 恶意软件 542 个、恶意网站 175 个**。
 
 ---
 
@@ -82,8 +82,6 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 |   日期    |        文件名         |          检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :-------------------: | :---------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/2/27 |     $RU4EMY7.exe      |  **Win64/Malgent!MSR**  | d62ed041dfc60b5af31df905830684942bd99c1ff934959d094118eca9a74732 | f046cdcc-f9fe-44d6-808f-9fa4691ac7ed | [VirusTotal](https://www.virustotal.com/gui/file/d62ed041dfc60b5af31df905830684942bd99c1ff934959d094118eca9a74732) (34) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/d62ed041dfc60b5af31df905830684942bd99c1ff934959d094118eca9a74732) | A515 |
-| 2026/2/27 |      ···B360.exe      |    **Win32/AutoRun**    | b511d6e13c1d4b90ebff10d21c6f6d689b9c07b8377a21f63d1c6895525ffbc8 | ded484a3-70d2-4ad2-bab8-41a7b6bdf8ad | [VirusTotal](https://www.virustotal.com/gui/file/b511d6e13c1d4b90ebff10d21c6f6d689b9c07b8377a21f63d1c6895525ffbc8) (63) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b511d6e13c1d4b90ebff10d21c6f6d689b9c07b8377a21f63d1c6895525ffbc8) | A516 |
 | 2026/2/27 | ···简体中文语言包.exe |  **Win64/Malgent!MSR**  | b403a4b946c7fbed1151e2377b55f471bba10897969f8695fbcb85fe7b06065e | b48368dd-11cc-4741-8bac-ed32409ab677 | [VirusTotal](https://www.virustotal.com/gui/file/b403a4b946c7fbed1151e2377b55f471bba10897969f8695fbcb85fe7b06065e) (3) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b403a4b946c7fbed1151e2377b55f471bba10897969f8695fbcb85fe7b06065e) | A517 |
 | 2026/2/27 |     pycharm64.exe     |  **Win32/Malgent!MSR**  | a0a1266c8af6131c5da672ed4029023ca2dda40fc27f9a86029ec59a3c28eb00 | f349a45f-11a4-4c46-a32a-62441dee40fe | [VirusTotal](https://www.virustotal.com/gui/file/a0a1266c8af6131c5da672ed4029023ca2dda40fc27f9a86029ec59a3c28eb00) (12) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a0a1266c8af6131c5da672ed4029023ca2dda40fc27f9a86029ec59a3c28eb00) | A518 |
 | 2026/2/28 |     chromasc.exe      |  **Win32/Malgent!MSR**  | 5d4b0b9b6bf4deb806e3736124051b720be9acb5fe316d4cdb66e93808a8b026 | 2ed87a9e-b4fa-4a07-aa23-382eab5819ee | [VirusTotal](https://www.virustotal.com/gui/file/5d4b0b9b6bf4deb806e3736124051b720be9acb5fe316d4cdb66e93808a8b026) (6) |                              无                              | A519 |
@@ -108,6 +106,8 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/3  | ···chrome16853···.exe |     **Cybercrime**      | 091cde24197b6e4f6bb701a8c06b1b3f09103c3f0ff445734d88d958f490c61a | ac0bd7cf-df05-4890-964d-65f11a8d025c | [VirusTotal](https://www.virustotal.com/gui/file/091cde24197b6e4f6bb701a8c06b1b3f09103c3f0ff445734d88d958f490c61a) (4) |                              无                              | A538 |
 | 2026/3/3  |  Clnrome64d0-x64.exe  |  **银狐 (SilverFox)**   | 2f0c2610f4d617f8a29d0538de4d6792a439fafad8476fada0df369f56d5f5c9 | 55fcb3a4-eb27-4465-b615-ec22d9004b5c | [VirusTotal](https://www.virustotal.com/gui/file/2f0c2610f4d617f8a29d0538de4d6792a439fafad8476fada0df369f56d5f5c9) (22) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/2f0c2610f4d617f8a29d0538de4d6792a439fafad8476fada0df369f56d5f5c9) | A539 |
 | 2026/3/4  |  搜狗拼音输入法.exe   |  **银狐 (SilverFox)**   | 0f89eb7b51026e3e1f0054f613ae56eaafb8693d39fec19ab72519d5a044208b | 8c6e53c4-2b5d-4031-9f00-2b5c46a48b32 | [VirusTotal](https://www.virustotal.com/gui/file/0f89eb7b51026e3e1f0054f613ae56eaafb8693d39fec19ab72519d5a044208b) (5) |                              无                              | A540 |
+| 2026/3/4  |  win32-googelog.exe   |     **Cybercrime**      | 9c1d65d3d1ddf5787b554a46134ab31079c7a5f56f842aa2f92f2c56ffa6a542 | 27d29d88-2ded-42dc-8fc7-3bd4a81cd540 | [VirusTotal](https://www.virustotal.com/gui/file/9c1d65d3d1ddf5787b554a46134ab31079c7a5f56f842aa2f92f2c56ffa6a542) (4) |                              无                              | A541 |
+| 2026/3/4  |   sun_oray_x64.msi    |  **Win32/Malgent!MSR**  | 81d1e25d612f998bc2d580af72928c6b76b2b958d529f989db131df3798e31b3 | e25cc6f2-baf4-43ed-ba5d-69e2d19dcc5c | [VirusTotal](https://www.virustotal.com/gui/file/81d1e25d612f998bc2d580af72928c6b76b2b958d529f989db131df3798e31b3) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/81d1e25d612f998bc2d580af72928c6b76b2b958d529f989db131df3798e31b3) | A542 |
 |  ——————   |     ————————————      |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -124,8 +124,6 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 |   日期    |                    URL                    |           类别            |                           有效载荷                           |                         URLhaus                          | 编号 |
 | :-------: | :---------------------------------------: | :-----------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
-| 2026/2/18 |        hxxps://clashos[.]com[.]cn         |   借助 VPN 工具传播病毒   |                              无                              |                            无                            | Z149 |
-| 2026/2/18 |         hxxps://clashi[.]com[.]cn         |   借助 VPN 工具传播病毒   |                              无                              |                            无                            | Z150 |
 | 2026/2/19 |       hxxps://www[.]huoronga[.]com        | 仿冒火绒 / 搜狗、传播病毒 | hxxps://pub-085644fd7c304ed49d4ff78a323bd506[.]r2[.]dev/2[.]19anSogouExplorer[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3781232) | Z151 |
 | 2026/2/19 |     hxxps://hndqiuebgibuiwqdhr[.]cyou     | 仿冒火绒 / 搜狗、传播病毒 | hxxps://pub-085644fd7c304ed49d4ff78a323bd506[.]r2[.]dev/2[.]19anSogouExplorer[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3781232) | Z152 |
 | 2026/2/20 |   hxxps://www[.]ohyewang[.]com/hardware   |         传播病毒          |                              有                              |                            无                            | Z153 |

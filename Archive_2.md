@@ -158,6 +158,8 @@
 | 2026/2/18 |        hxxps://app-clash[.]com[.]cn         |    借助 VPN 工具传播病毒    |     hxxps://app-clash[.]com[.]cn/clash0[.]20[.]39[.]zip      | [URLhaus Database](https://urlhaus.abuse.ch/url/3781030) | Z146 |
 | 2026/2/18 |         hxxps://kc-clash[.]com[.]cn         |    借助 VPN 工具传播病毒    |           hxxps://ip-clash[.]com[.]cn/down[.]html            |                            无                            | Z147 |
 | 2026/2/18 |    hxxps://www[.]clash-github[.]com[.]cn    |    借助 VPN 工具传播病毒    | hxxps://www[.]clash-github[.]com[.]cn/downloads/windows/ClashSetup[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3781031) | Z148 |
+| 2026/2/18 |         hxxps://clashos[.]com[.]cn          |    借助 VPN 工具传播病毒    |                              无                              |                            无                            | Z149 |
+| 2026/2/18 |          hxxps://clashi[.]com[.]cn          |    借助 VPN 工具传播病毒    |                              无                              |                            无                            | Z150 |
 |  ——————   |            ————————————————————             |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
