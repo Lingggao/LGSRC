@@ -68,9 +68,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 4 日 20:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 5 日 11:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 3 月 4 日，已打击计算机病毒 / 恶意软件 546 个、恶意网站 177 个**。
+&emsp;&emsp;**截至 2026 年 3 月 5 日，已打击计算机病毒 / 恶意软件 544 个、恶意网站 177 个**。
 
 ---
 
@@ -103,10 +103,8 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/4 |  搜狗拼音输入法.exe   |  **银狐 (SilverFox)**   | 0f89eb7b51026e3e1f0054f613ae56eaafb8693d39fec19ab72519d5a044208b | 8c6e53c4-2b5d-4031-9f00-2b5c46a48b32 | [VirusTotal](https://www.virustotal.com/gui/file/0f89eb7b51026e3e1f0054f613ae56eaafb8693d39fec19ab72519d5a044208b) (5) |                              无                              | A540 |
 | 2026/3/4 |  win32-googelog.exe   |     **Cybercrime**      | 9c1d65d3d1ddf5787b554a46134ab31079c7a5f56f842aa2f92f2c56ffa6a542 | 27d29d88-2ded-42dc-8fc7-3bd4a81cd540 | [VirusTotal](https://www.virustotal.com/gui/file/9c1d65d3d1ddf5787b554a46134ab31079c7a5f56f842aa2f92f2c56ffa6a542) (4) |                              无                              | A541 |
 | 2026/3/4 |   sun_oray_x64.msi    |  **Win32/Malgent!MSR**  | 81d1e25d612f998bc2d580af72928c6b76b2b958d529f989db131df3798e31b3 | e25cc6f2-baf4-43ed-ba5d-69e2d19dcc5c | [VirusTotal](https://www.virustotal.com/gui/file/81d1e25d612f998bc2d580af72928c6b76b2b958d529f989db131df3798e31b3) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/81d1e25d612f998bc2d580af72928c6b76b2b958d529f989db131df3798e31b3) | A542 |
-| 2026/3/4 | Musicqishui-9550.msi  |         研究中          | 9ed8ceb923a7aa8764fbd2055f527d3db6f8b9e111429b06a28065aabf002450 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/9ed8ceb923a7aa8764fbd2055f527d3db6f8b9e111429b06a28065aabf002450) (2) |                              无                              | A543 |
-| 2026/3/4 |    7112c737d9.exe     | **银狐 (SilverFox.sa)** | 7112c737d9bbc46441932ca6cf7e5427fbd041f7883c3f3bee16ad2226841f39 | 3fa08d61-7ecf-4c4c-91b3-3e0d77064938 | [VirusTotal](https://www.virustotal.com/gui/file/7112c737d9bbc46441932ca6cf7e5427fbd041f7883c3f3bee16ad2226841f39) (30) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/7112c737d9bbc46441932ca6cf7e5427fbd041f7883c3f3bee16ad2226841f39) | A544 |
-| 2026/3/4 | ReserverAnalysis.exe  |         研究中          | 69e1fc4afde39a946cf4e7a63230022a1fc84d3dc2ff88d9e88290b7a14f2193 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/69e1fc4afde39a946cf4e7a63230022a1fc84d3dc2ff88d9e88290b7a14f2193) (9) |                  [MalwareBazaar Database]()                  | A545 |
-| 2026/3/4 | AweSun_16.0.0···.exe  |         研究中          | eecee2e5b52422e02de519a2b646a33b211a16a0ae8a9e7ee16a9d01eeb0b9bc |                                      | [VirusTotal](https://www.virustotal.com/gui/file/eecee2e5b52422e02de519a2b646a33b211a16a0ae8a9e7ee16a9d01eeb0b9bc) (27) |                              无                              | A546 |
+| 2026/3/4 |    7112c737d9.exe     | **银狐 (SilverFox.sa)** | 7112c737d9bbc46441932ca6cf7e5427fbd041f7883c3f3bee16ad2226841f39 | 3fa08d61-7ecf-4c4c-91b3-3e0d77064938 | [VirusTotal](https://www.virustotal.com/gui/file/7112c737d9bbc46441932ca6cf7e5427fbd041f7883c3f3bee16ad2226841f39) (30) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/7112c737d9bbc46441932ca6cf7e5427fbd041f7883c3f3bee16ad2226841f39) | A543 |
+| 2026/3/4 | AweSun_16.0.0···.exe  | **银狐 (SilverFox.cz)** | eecee2e5b52422e02de519a2b646a33b211a16a0ae8a9e7ee16a9d01eeb0b9bc | e31cc52a-1e78-497b-a701-acecc0d86f9f | [VirusTotal](https://www.virustotal.com/gui/file/eecee2e5b52422e02de519a2b646a33b211a16a0ae8a9e7ee16a9d01eeb0b9bc) (27) |                              无                              | A544 |
 |  ——————  |     ————————————      |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -146,8 +144,8 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/2  |       hxxps://bing-google[.]hl[.]cn       |  仿冒 Chrome、传播病毒   |                              有                              |                            无                            | Z173 |
 | 2026/3/4  |       hxxps://cn-sogoushurufa[.]com       | 仿冒搜狗输入法、传播病毒 | hxxps://www[.]sogou-shurufa[.]help/%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95[.]exe | [URLhaus Database](https://urlhaus.abuse.ch/url/3789357) | Z174 |
 | 2026/3/4  |        hxxps://sogoushurufa5[.]com        | 仿冒搜狗输入法、传播病毒 | hxxps://www[.]sogou-shurufa[.]help/%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95[.]exe | [URLhaus Database](https://urlhaus.abuse.ch/url/3789357) | Z175 |
-| 2026/3/4  |         hxxps://oraypc[.]com[.]cn         |   仿冒向日葵、传播病毒   |         hxxps://oraypc[.]com[.]cn/sun_oray_x64[.]zip         |                            无                            | Z176 |
-| 2026/3/4  |            hxxps://orayz[.]com            |   仿冒向日葵、传播病毒   | hxxps://orayz[.]com/AweSun_16[.]0[.]0[.]22931_x64_patched[.]exe |                            无                            | Z177 |
+| 2026/3/4  |         hxxps://oraypc[.]com[.]cn         |   仿冒向日葵、传播病毒   |         hxxps://oraypc[.]com[.]cn/sun_oray_x64[.]zip         | [URLhaus Database](https://urlhaus.abuse.ch/url/3789483) | Z176 |
+| 2026/3/4  |            hxxps://orayz[.]com            |   仿冒向日葵、传播病毒   | hxxps://orayz[.]com/AweSun_16[.]0[.]0[.]22931_x64_patched[.]exe | [URLhaus Database](https://urlhaus.abuse.ch/url/3789482) | Z177 |
 |  ——————   |           ————————————————————            |     ———————————————      |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
