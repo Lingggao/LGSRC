@@ -70,7 +70,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 &emsp;&emsp;上次更新时间：2026 年 3 月 5 日 11:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 3 月 5 日，已打击计算机病毒 / 恶意软件 544 个、恶意网站 177 个**。
+&emsp;&emsp;**截至 2026 年 3 月 5 日，已打击计算机病毒 / 恶意软件 546 个、恶意网站 177 个**。
 
 ---
 
@@ -105,6 +105,8 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/4 |   sun_oray_x64.msi    |  **Win32/Malgent!MSR**  | 81d1e25d612f998bc2d580af72928c6b76b2b958d529f989db131df3798e31b3 | e25cc6f2-baf4-43ed-ba5d-69e2d19dcc5c | [VirusTotal](https://www.virustotal.com/gui/file/81d1e25d612f998bc2d580af72928c6b76b2b958d529f989db131df3798e31b3) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/81d1e25d612f998bc2d580af72928c6b76b2b958d529f989db131df3798e31b3) | A542 |
 | 2026/3/4 |    7112c737d9.exe     | **银狐 (SilverFox.sa)** | 7112c737d9bbc46441932ca6cf7e5427fbd041f7883c3f3bee16ad2226841f39 | 3fa08d61-7ecf-4c4c-91b3-3e0d77064938 | [VirusTotal](https://www.virustotal.com/gui/file/7112c737d9bbc46441932ca6cf7e5427fbd041f7883c3f3bee16ad2226841f39) (30) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/7112c737d9bbc46441932ca6cf7e5427fbd041f7883c3f3bee16ad2226841f39) | A543 |
 | 2026/3/4 | AweSun_16.0.0···.exe  | **银狐 (SilverFox.cz)** | eecee2e5b52422e02de519a2b646a33b211a16a0ae8a9e7ee16a9d01eeb0b9bc | e31cc52a-1e78-497b-a701-acecc0d86f9f | [VirusTotal](https://www.virustotal.com/gui/file/eecee2e5b52422e02de519a2b646a33b211a16a0ae8a9e7ee16a9d01eeb0b9bc) (27) |                              无                              | A544 |
+| 2026/3/5 |      3.3火绒.exe      |  **银狐 (SilverFox)**   | 7c9a33ad5180d60e2693967786c00efe42453bb375df4225db39b37d81f91df5 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/7c9a33ad5180d60e2693967786c00efe42453bb375df4225db39b37d81f91df5) (6) |                              无                              | A545 |
+| 2026/3/5 |    SteamLogin.exe     |         研究中          | 80dfc97ba057cce74b7cac5e71a545624a0d59a3a8605640ab2f3434e0111468 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/80dfc97ba057cce74b7cac5e71a545624a0d59a3a8605640ab2f3434e0111468) (45) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/80dfc97ba057cce74b7cac5e71a545624a0d59a3a8605640ab2f3434e0111468) | A546 |
 |  ——————  |     ————————————      |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
