@@ -68,9 +68,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 5 日 21:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 5 日 22:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 3 月 5 日，已打击计算机病毒 / 恶意软件 546 个、恶意网站 177 个**。
+&emsp;&emsp;**截至 2026 年 3 月 5 日，已打击计算机病毒 / 恶意软件 547 个、恶意网站 178 个**。
 
 ---
 
@@ -107,6 +107,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/4 | AweSun_16.0.0···.exe  | **银狐 (SilverFox.cz)** | eecee2e5b52422e02de519a2b646a33b211a16a0ae8a9e7ee16a9d01eeb0b9bc | e31cc52a-1e78-497b-a701-acecc0d86f9f | [VirusTotal](https://www.virustotal.com/gui/file/eecee2e5b52422e02de519a2b646a33b211a16a0ae8a9e7ee16a9d01eeb0b9bc) (27) |                              无                              | A544 |
 | 2026/3/5 |      3.3火绒.exe      |  **银狐 (SilverFox)**   | 7c9a33ad5180d60e2693967786c00efe42453bb375df4225db39b37d81f91df5 | 62c7ac8e-21d4-4db0-b09d-88fa36809a2f | [VirusTotal](https://www.virustotal.com/gui/file/7c9a33ad5180d60e2693967786c00efe42453bb375df4225db39b37d81f91df5) (6) |                              无                              | A545 |
 | 2026/3/5 |    SteamLogin.exe     |  **Win32/Malgent!MSR**  | 80dfc97ba057cce74b7cac5e71a545624a0d59a3a8605640ab2f3434e0111468 | f8d6065a-5180-4900-ae46-e034d306982f | [VirusTotal](https://www.virustotal.com/gui/file/80dfc97ba057cce74b7cac5e71a545624a0d59a3a8605640ab2f3434e0111468) (45) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/80dfc97ba057cce74b7cac5e71a545624a0d59a3a8605640ab2f3434e0111468) | A546 |
+| 2026/3/5 | ChoneSetup_clodjk.exe |  **银狐 (SilverFox)**   | e4dd40d90041ee1da4cdaab373eac657a56f2538ed578b305d0f5d3a7bb4fa8e |                                      | [VirusTotal](https://www.virustotal.com/gui/file/e4dd40d90041ee1da4cdaab373eac657a56f2538ed578b305d0f5d3a7bb4fa8e) (17) |                              无                              | A547 |
 |  ——————  |     ————————————      |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -148,6 +149,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/4  |        hxxps://sogoushurufa5[.]com        | 仿冒搜狗输入法、传播病毒 | hxxps://www[.]sogou-shurufa[.]help/%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95[.]exe | [URLhaus Database](https://urlhaus.abuse.ch/url/3789357) | Z175 |
 | 2026/3/4  |         hxxps://oraypc[.]com[.]cn         |   仿冒向日葵、传播病毒   |         hxxps://oraypc[.]com[.]cn/sun_oray_x64[.]zip         | [URLhaus Database](https://urlhaus.abuse.ch/url/3789483) | Z176 |
 | 2026/3/4  |            hxxps://orayz[.]com            |   仿冒向日葵、传播病毒   | hxxps://orayz[.]com/AweSun_16[.]0[.]0[.]22931_x64_patched[.]exe | [URLhaus Database](https://urlhaus.abuse.ch/url/3789482) | Z177 |
+| 2026/3/5  |      hxxps://zh-cn-google[.]hl[.]cn       |  仿冒 Chrome、传播病毒   |           hxxps://tenyunat-99viplawt[.]com/QQGSYLX           |                            无                            | Z178 |
 |  ——————   |           ————————————————————            |     ———————————————      |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
