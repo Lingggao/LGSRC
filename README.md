@@ -68,9 +68,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 6 日 22:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 7 日 2:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 3 月 6 日，已打击计算机病毒 / 恶意软件 554 个、恶意网站 179 个**。
+&emsp;&emsp;**截至 2026 年 3 月 7 日，已打击计算机病毒 / 恶意软件 555 个、恶意网站 181 个**。
 
 ---
 
@@ -108,6 +108,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/6 |  2026中国公安···.exe   | **银狐 (SilverFox.wos)** | d16696ece5eb6833f6497b70a5bc894a32479a52f19b1f5dd49be5473f8d2ba5 | 27dc3d07-e39d-45e8-88df-e2b2624ef0a8 | [VirusTotal](https://www.virustotal.com/gui/file/d16696ece5eb6833f6497b70a5bc894a32479a52f19b1f5dd49be5473f8d2ba5) (20) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/d16696ece5eb6833f6497b70a5bc894a32479a52f19b1f5dd49be5473f8d2ba5) | A552 |
 | 2026/3/6 |   cloudflared···.exe   |      **Cybercrime**      | e7ded2c57b7c2fe62525454d832a7cf02c65f897d963fc6a8a1feeb163ddc0be | 62f81294-51fd-4725-aa73-87af132dd544 | [VirusTotal](https://www.virustotal.com/gui/file/e7ded2c57b7c2fe62525454d832a7cf02c65f897d963fc6a8a1feeb163ddc0be) (28) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/e7ded2c57b7c2fe62525454d832a7cf02c65f897d963fc6a8a1feeb163ddc0be) | A553 |
 | 2026/3/6 |      main_Cry.exe      |       **WannaCry**       | b547dc7a77af8022abbf19a7006213342444caea1cede20ea2409ce9bc9790bf |                                      | [VirusTotal](https://www.virustotal.com/gui/file/b547dc7a77af8022abbf19a7006213342444caea1cede20ea2409ce9bc9790bf) (19) |                  [MalwareBazaar Database]()                  | A554 |
+| 2026/3/7 |    3.600Hnevsak.exe    | **银狐 (SilverFox.sa)**  | 3022cae75e8846f1a46541cfe78460c3bacc10f0d8807652451a7f0951aa68c2 | de2c8c11-9027-4a50-84c8-ca4e49bc4fd4 | [VirusTotal](https://www.virustotal.com/gui/file/3022cae75e8846f1a46541cfe78460c3bacc10f0d8807652451a7f0951aa68c2) (3) |                              无                              | A555 |
 |  ——————  |      ————————————      |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -124,8 +125,6 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 |   日期    |                    URL                    |           类别           |                           有效载荷                           |                         URLhaus                          | 编号 |
 | :-------: | :---------------------------------------: | :----------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
-| 2026/2/21 |         hxxps://huorong-ch[.]com          |    仿冒火绒、传播病毒    |                              无                              |                            无                            | Z155 |
-| 2026/2/24 |   hxxps://cnzh-googlechrome[.]com[.]cn    |  仿冒 Chrome、传播病毒   |                              无                              |                            无                            | Z156 |
 | 2026/2/24 |     hxxps://chromea-google[.]com[.]cn     |  仿冒 Chrome、传播病毒   | hxxps://googdownload[.]googcdngoogchromeleownload[.]top/download/googdownload/chroome[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3784688) | Z157 |
 | 2026/2/24 |     hxxps://chrome-gooogle[.]com[.]cn     |  仿冒 Chrome、传播病毒   | hxxps://dawang-1390785885[.]cos[.]ap-hongkong[.]myqcloud[.]com/BiyGu2[.]zip |                            无                            | Z158 |
 | 2026/2/25 | hxxps://web[.]chrorome-gooogle[.]com[.]cn |  仿冒 Chrome、传播病毒   |    hxxps://xiazaijd[.]click/googlechrome64%E4%BD%8D[.]zip    | [URLhaus Database](https://urlhaus.abuse.ch/url/3784999) | Z159 |
@@ -149,6 +148,8 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/4  |            hxxps://orayz[.]com            |   仿冒向日葵、传播病毒   | hxxps://orayz[.]com/AweSun_16[.]0[.]0[.]22931_x64_patched[.]exe | [URLhaus Database](https://urlhaus.abuse.ch/url/3789482) | Z177 |
 | 2026/3/5  |      hxxps://zh-cn-google[.]hl[.]cn       |  仿冒 Chrome、传播病毒   |           hxxps://tenyunat-99viplawt[.]com/QQGSYLX           | [URLhaus Database](https://urlhaus.abuse.ch/url/3790137) | Z178 |
 | 2026/3/6  |          hxxps://kdocs-cn[.]com           |  仿冒金山文档、传播病毒  |     hxxps://down[.]wps-kdocs[.]com/jinshandocs-x86[.]zip     | [URLhaus Database](https://urlhaus.abuse.ch/url/3790481) | Z179 |
+| 2026/3/7  |       hxxps://www[.]huoronga[.]com        |    仿冒火绒、传播病毒    | hxxps://pub-826b2258a9f74a40abe9ee543f2409a4[.]r2[.]dev/3[.]600Hnevsak[.]zip |                            无                            | Z180 |
+| 2026/3/7  |  hxxps://hnieodfnoibgnuiowwirodnm[.]com   |    仿冒火绒、传播病毒    | hxxps://pub-826b2258a9f74a40abe9ee543f2409a4[.]r2[.]dev/3[.]600Hnevsak[.]zip |                            无                            | Z181 |
 |  ——————   |           ————————————————————            |     ———————————————      |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
