@@ -68,9 +68,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 6 日 16:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 6 日 18:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 3 月 6 日，已打击计算机病毒 / 恶意软件 548 个、恶意网站 179 个**。
+&emsp;&emsp;**截至 2026 年 3 月 6 日，已打击计算机病毒 / 恶意软件 549 个、恶意网站 179 个**。
 
 ---
 
@@ -106,7 +106,8 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/5 |      3.3火绒.exe      |  **银狐 (SilverFox)**   | 7c9a33ad5180d60e2693967786c00efe42453bb375df4225db39b37d81f91df5 | 62c7ac8e-21d4-4db0-b09d-88fa36809a2f | [VirusTotal](https://www.virustotal.com/gui/file/7c9a33ad5180d60e2693967786c00efe42453bb375df4225db39b37d81f91df5) (6) |                              无                              | A545 |
 | 2026/3/5 |    SteamLogin.exe     |  **Win32/Malgent!MSR**  | 80dfc97ba057cce74b7cac5e71a545624a0d59a3a8605640ab2f3434e0111468 | f8d6065a-5180-4900-ae46-e034d306982f | [VirusTotal](https://www.virustotal.com/gui/file/80dfc97ba057cce74b7cac5e71a545624a0d59a3a8605640ab2f3434e0111468) (45) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/80dfc97ba057cce74b7cac5e71a545624a0d59a3a8605640ab2f3434e0111468) | A546 |
 | 2026/3/5 | ChoneSetup_clodjk.exe |  **银狐 (SilverFox)**   | e4dd40d90041ee1da4cdaab373eac657a56f2538ed578b305d0f5d3a7bb4fa8e | aa3a3914-cf08-4c87-9527-dc4f13f1ff2a | [VirusTotal](https://www.virustotal.com/gui/file/e4dd40d90041ee1da4cdaab373eac657a56f2538ed578b305d0f5d3a7bb4fa8e) (17) |                              无                              | A547 |
-| 2026/3/6 |  jinshandocs-x86.exe  | **银狐 (SilverFox.u)**  | f370789e627e868474a6222d192dd68176fbb5738cff41f6418bf8dac63ec84a |                                      | [VirusTotal](https://www.virustotal.com/gui/file/f370789e627e868474a6222d192dd68176fbb5738cff41f6418bf8dac63ec84a) (14) |                              无                              | A548 |
+| 2026/3/6 |  jinshandocs-x86.exe  | **银狐 (SilverFox.u)**  | f370789e627e868474a6222d192dd68176fbb5738cff41f6418bf8dac63ec84a | d4be4bd2-934a-469f-b572-88c5e20dc7e6 | [VirusTotal](https://www.virustotal.com/gui/file/f370789e627e868474a6222d192dd68176fbb5738cff41f6418bf8dac63ec84a) (14) |                              无                              | A548 |
+| 2026/3/6 |        宏.doc         |  **O97M/Malgent!MSR**   | 9786fd636d0411329aaae1e7a0fd4807940bf26753d826cab1817b7213fb51cb | 9a3fc123-8884-4769-9e32-ced91051c9ff | [VirusTotal](https://www.virustotal.com/gui/file/9786fd636d0411329aaae1e7a0fd4807940bf26753d826cab1817b7213fb51cb) (37) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/9786fd636d0411329aaae1e7a0fd4807940bf26753d826cab1817b7213fb51cb) | A549 |
 |  ——————  |     ————————————      |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -147,7 +148,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/4  |         hxxps://oraypc[.]com[.]cn         |   仿冒向日葵、传播病毒   |         hxxps://oraypc[.]com[.]cn/sun_oray_x64[.]zip         | [URLhaus Database](https://urlhaus.abuse.ch/url/3789483) | Z176 |
 | 2026/3/4  |            hxxps://orayz[.]com            |   仿冒向日葵、传播病毒   | hxxps://orayz[.]com/AweSun_16[.]0[.]0[.]22931_x64_patched[.]exe | [URLhaus Database](https://urlhaus.abuse.ch/url/3789482) | Z177 |
 | 2026/3/5  |      hxxps://zh-cn-google[.]hl[.]cn       |  仿冒 Chrome、传播病毒   |           hxxps://tenyunat-99viplawt[.]com/QQGSYLX           | [URLhaus Database](https://urlhaus.abuse.ch/url/3790137) | Z178 |
-| 2026/3/6  |          hxxps://kdocs-cn[.]com           |  仿冒金山文档、传播病毒  |     hxxps://down[.]wps-kdocs[.]com/jinshandocs-x86[.]zip     |                            无                            | Z179 |
+| 2026/3/6  |          hxxps://kdocs-cn[.]com           |  仿冒金山文档、传播病毒  |     hxxps://down[.]wps-kdocs[.]com/jinshandocs-x86[.]zip     | [URLhaus Database](https://urlhaus.abuse.ch/url/3790481) | Z179 |
 |  ——————   |           ————————————————————            |     ———————————————      |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
