@@ -68,9 +68,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 5 日 22:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 6 日 16:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 3 月 5 日，已打击计算机病毒 / 恶意软件 547 个、恶意网站 178 个**。
+&emsp;&emsp;**截至 2026 年 3 月 6 日，已打击计算机病毒 / 恶意软件 548 个、恶意网站 179 个**。
 
 ---
 
@@ -82,8 +82,6 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 |   日期   |        文件名         |          检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :------: | :-------------------: | :---------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/3/1 |   165-018gx安装.exe   |  **银狐 (SilverFox)**   | 30577961b8385513744ff7dadade82b2a63f8fb2f4355dfa7ff13a067119d281 | 25d23077-cc6e-4282-96f4-e2dea28bf0d3 | [VirusTotal](https://www.virustotal.com/gui/file/30577961b8385513744ff7dadade82b2a63f8fb2f4355dfa7ff13a067119d281) (19) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/30577961b8385513744ff7dadade82b2a63f8fb2f4355dfa7ff13a067119d281) | A522 |
-| 2026/3/1 |       Svnb.exe        |  **Win32/Malgent!MSR**  | 187398dbad83c137a8f5cec3575252bd5b65aa554356fc67e0a27e6dce31af6e | f650ecf9-b696-47f7-a315-e165301c9ee5 | [VirusTotal](https://www.virustotal.com/gui/file/187398dbad83c137a8f5cec3575252bd5b65aa554356fc67e0a27e6dce31af6e) (4) |                              无                              | A523 |
 | 2026/3/1 |     chromasc.exe      |  **Win32/Malgent!MSR**  | b1101fa4bd9ff7318e77d13614e4187eaf5b31c64b09764a19fd6540e6521fb4 | 53a6cc2a-374a-43d3-9d7c-fca4b3c59363 | [VirusTotal](https://www.virustotal.com/gui/file/b1101fa4bd9ff7318e77d13614e4187eaf5b31c64b09764a19fd6540e6521fb4) (2) |                              无                              | A524 |
 | 2026/3/1 | wangshangliao···.exe  |  **银狐 (SilverFox)**   | eb470f2d5f1609cb6ab48361ba0e774953ea7cb594e3e2496b8389cb2daaf3ff | 903f1bdf-818e-4709-ab98-189137ff2428 | [VirusTotal](https://www.virustotal.com/gui/file/eb470f2d5f1609cb6ab48361ba0e774953ea7cb594e3e2496b8389cb2daaf3ff) (14) |                              无                              | A525 |
 | 2026/3/2 |    GoodMeV3.4.exe     |  **Win64/Malgent!MSR**  | 075eff4f83b0a2267697d6d12db4cf4fa2c232b8f3938516ac4771fe95b9e630 | 57de454b-fd8d-4621-9870-64641643fc85 | [VirusTotal](https://www.virustotal.com/gui/file/075eff4f83b0a2267697d6d12db4cf4fa2c232b8f3938516ac4771fe95b9e630) (15) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/075eff4f83b0a2267697d6d12db4cf4fa2c232b8f3938516ac4771fe95b9e630) | A526 |
@@ -107,7 +105,8 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/4 | AweSun_16.0.0···.exe  | **银狐 (SilverFox.cz)** | eecee2e5b52422e02de519a2b646a33b211a16a0ae8a9e7ee16a9d01eeb0b9bc | e31cc52a-1e78-497b-a701-acecc0d86f9f | [VirusTotal](https://www.virustotal.com/gui/file/eecee2e5b52422e02de519a2b646a33b211a16a0ae8a9e7ee16a9d01eeb0b9bc) (27) |                              无                              | A544 |
 | 2026/3/5 |      3.3火绒.exe      |  **银狐 (SilverFox)**   | 7c9a33ad5180d60e2693967786c00efe42453bb375df4225db39b37d81f91df5 | 62c7ac8e-21d4-4db0-b09d-88fa36809a2f | [VirusTotal](https://www.virustotal.com/gui/file/7c9a33ad5180d60e2693967786c00efe42453bb375df4225db39b37d81f91df5) (6) |                              无                              | A545 |
 | 2026/3/5 |    SteamLogin.exe     |  **Win32/Malgent!MSR**  | 80dfc97ba057cce74b7cac5e71a545624a0d59a3a8605640ab2f3434e0111468 | f8d6065a-5180-4900-ae46-e034d306982f | [VirusTotal](https://www.virustotal.com/gui/file/80dfc97ba057cce74b7cac5e71a545624a0d59a3a8605640ab2f3434e0111468) (45) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/80dfc97ba057cce74b7cac5e71a545624a0d59a3a8605640ab2f3434e0111468) | A546 |
-| 2026/3/5 | ChoneSetup_clodjk.exe |  **银狐 (SilverFox)**   | e4dd40d90041ee1da4cdaab373eac657a56f2538ed578b305d0f5d3a7bb4fa8e |                                      | [VirusTotal](https://www.virustotal.com/gui/file/e4dd40d90041ee1da4cdaab373eac657a56f2538ed578b305d0f5d3a7bb4fa8e) (17) |                              无                              | A547 |
+| 2026/3/5 | ChoneSetup_clodjk.exe |  **银狐 (SilverFox)**   | e4dd40d90041ee1da4cdaab373eac657a56f2538ed578b305d0f5d3a7bb4fa8e | aa3a3914-cf08-4c87-9527-dc4f13f1ff2a | [VirusTotal](https://www.virustotal.com/gui/file/e4dd40d90041ee1da4cdaab373eac657a56f2538ed578b305d0f5d3a7bb4fa8e) (17) |                              无                              | A547 |
+| 2026/3/6 |  jinshandocs-x86.exe  | **银狐 (SilverFox.u)**  | f370789e627e868474a6222d192dd68176fbb5738cff41f6418bf8dac63ec84a |                                      | [VirusTotal](https://www.virustotal.com/gui/file/f370789e627e868474a6222d192dd68176fbb5738cff41f6418bf8dac63ec84a) (14) |                              无                              | A548 |
 |  ——————  |     ————————————      |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -124,8 +123,6 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 |   日期    |                    URL                    |           类别           |                           有效载荷                           |                         URLhaus                          | 编号 |
 | :-------: | :---------------------------------------: | :----------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
-| 2026/2/20 |   hxxps://www[.]ohyewang[.]com/hardware   |         传播病毒         |                              有                              |                            无                            | Z153 |
-| 2026/2/21 |     hxxps://huorong-zh[.]com/download     |    仿冒火绒、传播病毒    | hxxps://xinjiapox[.]oss-ap-southeast-1[.]aliyuncs[.]com/sysidiag6[.]0[.]225[.]zip |                            无                            | Z154 |
 | 2026/2/21 |         hxxps://huorong-ch[.]com          |    仿冒火绒、传播病毒    |                              无                              |                            无                            | Z155 |
 | 2026/2/24 |   hxxps://cnzh-googlechrome[.]com[.]cn    |  仿冒 Chrome、传播病毒   |                              无                              |                            无                            | Z156 |
 | 2026/2/24 |     hxxps://chromea-google[.]com[.]cn     |  仿冒 Chrome、传播病毒   | hxxps://googdownload[.]googcdngoogchromeleownload[.]top/download/googdownload/chroome[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3784688) | Z157 |
@@ -149,7 +146,8 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/4  |        hxxps://sogoushurufa5[.]com        | 仿冒搜狗输入法、传播病毒 | hxxps://www[.]sogou-shurufa[.]help/%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95[.]exe | [URLhaus Database](https://urlhaus.abuse.ch/url/3789357) | Z175 |
 | 2026/3/4  |         hxxps://oraypc[.]com[.]cn         |   仿冒向日葵、传播病毒   |         hxxps://oraypc[.]com[.]cn/sun_oray_x64[.]zip         | [URLhaus Database](https://urlhaus.abuse.ch/url/3789483) | Z176 |
 | 2026/3/4  |            hxxps://orayz[.]com            |   仿冒向日葵、传播病毒   | hxxps://orayz[.]com/AweSun_16[.]0[.]0[.]22931_x64_patched[.]exe | [URLhaus Database](https://urlhaus.abuse.ch/url/3789482) | Z177 |
-| 2026/3/5  |      hxxps://zh-cn-google[.]hl[.]cn       |  仿冒 Chrome、传播病毒   |           hxxps://tenyunat-99viplawt[.]com/QQGSYLX           |                            无                            | Z178 |
+| 2026/3/5  |      hxxps://zh-cn-google[.]hl[.]cn       |  仿冒 Chrome、传播病毒   |           hxxps://tenyunat-99viplawt[.]com/QQGSYLX           | [URLhaus Database](https://urlhaus.abuse.ch/url/3790137) | Z178 |
+| 2026/3/6  |          hxxps://kdocs-cn[.]com           |  仿冒金山文档、传播病毒  |     hxxps://down[.]wps-kdocs[.]com/jinshandocs-x86[.]zip     |                            无                            | Z179 |
 |  ——————   |           ————————————————————            |     ———————————————      |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]

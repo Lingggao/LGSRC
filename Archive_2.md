@@ -162,6 +162,8 @@
 | 2026/2/18 |          hxxps://clashi[.]com[.]cn          |    借助 VPN 工具传播病毒    |                              无                              |                            无                            | Z150 |
 | 2026/2/19 |        hxxps://www[.]huoronga[.]com         |  仿冒火绒 / 搜狗、传播病毒  | hxxps://pub-085644fd7c304ed49d4ff78a323bd506[.]r2[.]dev/2[.]19anSogouExplorer[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3781232) | Z151 |
 | 2026/2/19 |      hxxps://hndqiuebgibuiwqdhr[.]cyou      |  仿冒火绒 / 搜狗、传播病毒  | hxxps://pub-085644fd7c304ed49d4ff78a323bd506[.]r2[.]dev/2[.]19anSogouExplorer[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3781232) | Z152 |
+| 2026/2/20 |    hxxps://www[.]ohyewang[.]com/hardware    |          传播病毒           |                              有                              |                            无                            | Z153 |
+| 2026/2/21 |      hxxps://huorong-zh[.]com/download      |     仿冒火绒、传播病毒      | hxxps://xinjiapox[.]oss-ap-southeast-1[.]aliyuncs[.]com/sysidiag6[.]0[.]225[.]zip |                            无                            | Z154 |
 |  ——————   |            ————————————————————             |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
