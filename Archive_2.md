@@ -166,6 +166,8 @@
 | 2026/2/21 |      hxxps://huorong-zh[.]com/download      |     仿冒火绒、传播病毒      | hxxps://xinjiapox[.]oss-ap-southeast-1[.]aliyuncs[.]com/sysidiag6[.]0[.]225[.]zip |                            无                            | Z154 |
 | 2026/2/21 |          hxxps://huorong-ch[.]com           |     仿冒火绒、传播病毒      |                              无                              |                            无                            | Z155 |
 | 2026/2/24 |    hxxps://cnzh-googlechrome[.]com[.]cn     |    仿冒 Chrome、传播病毒    |                              无                              |                            无                            | Z156 |
+| 2026/2/24 |      hxxps://chromea-google[.]com[.]cn      |    仿冒 Chrome、传播病毒    | hxxps://googdownload[.]googcdngoogchromeleownload[.]top/download/googdownload/chroome[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3784688) | Z157 |
+| 2026/2/24 |      hxxps://chrome-gooogle[.]com[.]cn      |    仿冒 Chrome、传播病毒    | hxxps://dawang-1390785885[.]cos[.]ap-hongkong[.]myqcloud[.]com/BiyGu2[.]zip |                            无                            | Z158 |
 |  ——————   |            ————————————————————             |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---

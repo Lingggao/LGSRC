@@ -68,9 +68,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 7 日 7:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 8 日 2:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 3 月 7 日，已打击计算机病毒 / 恶意软件 558 个、恶意网站 181 个**。
+&emsp;&emsp;**截至 2026 年 3 月 8 日，已打击计算机病毒 / 恶意软件 561 个、恶意网站 182 个**。
 
 ---
 
@@ -82,10 +82,6 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 |   日期   |         文件名         |           检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :------: | :--------------------: | :----------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/3/2 |    Chrome_back.exe     |  **Win32/Malgent!MSR**   | 4abc685214d962d34f8214138e5ab030c7412e792ef1b3e7ca339fcf91b6aed7 | 857594a4-c6ea-4025-ad1b-c2df7d60fc7d | [VirusTotal](https://www.virustotal.com/gui/file/4abc685214d962d34f8214138e5ab030c7412e792ef1b3e7ca339fcf91b6aed7) (6) |                              无                              | A533 |
-| 2026/3/2 |   win32-googele.msi    | **银狐 (SilverFox.al)**  | 93c60ddd1cafeb14d566a6b8981cfcd1aa65fc20b9a24edb141467e7a821db38 | ac2eb193-d4b1-4012-9f79-43a0daf6a25d | [VirusTotal](https://www.virustotal.com/gui/file/93c60ddd1cafeb14d566a6b8981cfcd1aa65fc20b9a24edb141467e7a821db38) (9) |                              无                              | A534 |
-| 2026/3/2 |    Zh···Chromex.exe    |   **银狐 (SilverFox)**   | c89c7987b1f3826282ec09e74b9e080d0fc82d72656f8890f4e58339a82b2a3c | fe64f124-9d49-43fb-84c4-20719cec4c00 | [VirusTotal](https://www.virustotal.com/gui/file/c89c7987b1f3826282ec09e74b9e080d0fc82d72656f8890f4e58339a82b2a3c) (3) |                              无                              | A535 |
-| 2026/3/2 |  ➜点我启动PCL2···.exe  |       **Backdoor**       | 9270444c315379d8a84f5519bcd16ab76b05fb5abc83dbc3268c0c27765bbf23 | 79c5ad05-0932-402e-9ffd-892c5ea14e11 | [VirusTotal](https://www.virustotal.com/gui/file/9270444c315379d8a84f5519bcd16ab76b05fb5abc83dbc3268c0c27765bbf23) (47) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/9270444c315379d8a84f5519bcd16ab76b05fb5abc83dbc3268c0c27765bbf23) | A536 |
 | 2026/3/3 |    3.2新bbb火绒.exe    | **银狐 (SilverFox.sa)**  | d27508a2c6b2467093f38be807df572d2181d10548cbb24433b2cba4a3b9f81c | 6c05123b-bcb5-47df-a940-eae6f89f7261 | [VirusTotal](https://www.virustotal.com/gui/file/d27508a2c6b2467093f38be807df572d2181d10548cbb24433b2cba4a3b9f81c) (6) |                              无                              | A537 |
 | 2026/3/3 | ···chrome16853···.exe  |      **Cybercrime**      | 091cde24197b6e4f6bb701a8c06b1b3f09103c3f0ff445734d88d958f490c61a | ac0bd7cf-df05-4890-964d-65f11a8d025c | [VirusTotal](https://www.virustotal.com/gui/file/091cde24197b6e4f6bb701a8c06b1b3f09103c3f0ff445734d88d958f490c61a) (4) |                              无                              | A538 |
 | 2026/3/3 |  Clnrome64d0-x64.exe   |   **银狐 (SilverFox)**   | 2f0c2610f4d617f8a29d0538de4d6792a439fafad8476fada0df369f56d5f5c9 | 55fcb3a4-eb27-4465-b615-ec22d9004b5c | [VirusTotal](https://www.virustotal.com/gui/file/2f0c2610f4d617f8a29d0538de4d6792a439fafad8476fada0df369f56d5f5c9) (22) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/2f0c2610f4d617f8a29d0538de4d6792a439fafad8476fada0df369f56d5f5c9) | A539 |
@@ -108,6 +104,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/7 |     9aa07cfb51.exe     |   **银狐 (SilverFox)**   | 9aa07cfb51a90dc71c495b85bc65743abf79b40b1010b63de2f85ece82966ba0 | 7830947e-2cf3-4a18-b329-7c813b47f2b7 | [VirusTotal](https://www.virustotal.com/gui/file/9aa07cfb51a90dc71c495b85bc65743abf79b40b1010b63de2f85ece82966ba0) (22) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/9aa07cfb51a90dc71c495b85bc65743abf79b40b1010b63de2f85ece82966ba0) | A556 |
 | 2026/3/7 |  2026第一季度···.exe   | **银狐 (SilverFox.bg)**  | 529c9f56c17eeb7f5f49fb924562da572c3eb2a291b33740476b9bafa3abb966 | 56682235-2659-4c99-820e-aa9f205f3349 | [VirusTotal](https://www.virustotal.com/gui/file/529c9f56c17eeb7f5f49fb924562da572c3eb2a291b33740476b9bafa3abb966) (13) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/529c9f56c17eeb7f5f49fb924562da572c3eb2a291b33740476b9bafa3abb966) | A557 |
 | 2026/3/7 |        PPT.exe         |   **银狐 (SilverFox)**   | 9e92ca9e42081b0932a120476028a60cc4770522dd1c9b7394d697f3e36e5bd6 | 26b5ec81-91b5-45ca-8441-f5a216b1548b | [VirusTotal](https://www.virustotal.com/gui/file/9e92ca9e42081b0932a120476028a60cc4770522dd1c9b7394d697f3e36e5bd6) (19) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/9e92ca9e42081b0932a120476028a60cc4770522dd1c9b7394d697f3e36e5bd6) | A558 |
+| 2026/3/7 |    WPS_Setup64.exe     |   **银狐 (SilverFox)**   | 8a041e2a792d15c5bd48e77342838d524ff4d86ea42562c409a1f5468f1df60e | befdd5c2-1f5d-42c8-9bc5-09d2db65096c | [VirusTotal](https://www.virustotal.com/gui/file/8a041e2a792d15c5bd48e77342838d524ff4d86ea42562c409a1f5468f1df60e) (6) |                              无                              | A559 |
+| 2026/3/7 |    Run_62172143.exe    | **银狐 (SilverFox.sj)**  | c2ecef24d949afba2cc697f5eb6fa23f52b09ae2522cd3eaf7b3ede38fa926f7 | b0163c62-4079-47de-946d-2780afab492d | [VirusTotal](https://www.virustotal.com/gui/file/c2ecef24d949afba2cc697f5eb6fa23f52b09ae2522cd3eaf7b3ede38fa926f7) (40) |                  [MalwareBazaar Database]()                  | A560 |
+| 2026/3/7 |   新建 文本文档.exe    |  **Win32/Malgent!MSR**   | c7f250f5b35a0d5865ca56ef4d03b9b608ab5e8695ee0bcd2f743818b0a37d24 | 5d06827a-de06-4cf9-af22-00984dd5b864 | [VirusTotal](https://www.virustotal.com/gui/file/c7f250f5b35a0d5865ca56ef4d03b9b608ab5e8695ee0bcd2f743818b0a37d24) (19) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c7f250f5b35a0d5865ca56ef4d03b9b608ab5e8695ee0bcd2f743818b0a37d24) | A561 |
 |  ——————  |      ————————————      |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -124,8 +123,6 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 |   日期    |                    URL                    |           类别           |                           有效载荷                           |                         URLhaus                          | 编号 |
 | :-------: | :---------------------------------------: | :----------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
-| 2026/2/24 |     hxxps://chromea-google[.]com[.]cn     |  仿冒 Chrome、传播病毒   | hxxps://googdownload[.]googcdngoogchromeleownload[.]top/download/googdownload/chroome[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3784688) | Z157 |
-| 2026/2/24 |     hxxps://chrome-gooogle[.]com[.]cn     |  仿冒 Chrome、传播病毒   | hxxps://dawang-1390785885[.]cos[.]ap-hongkong[.]myqcloud[.]com/BiyGu2[.]zip |                            无                            | Z158 |
 | 2026/2/25 | hxxps://web[.]chrorome-gooogle[.]com[.]cn |  仿冒 Chrome、传播病毒   |    hxxps://xiazaijd[.]click/googlechrome64%E4%BD%8D[.]zip    | [URLhaus Database](https://urlhaus.abuse.ch/url/3784999) | Z159 |
 | 2026/2/25 |         hxxps://xiazaijd[.]click          |  仿冒 Chrome、传播病毒   |    hxxps://xiazaijd[.]click/googlechrome64%E4%BD%8D[.]zip    | [URLhaus Database](https://urlhaus.abuse.ch/url/3784999) | Z160 |
 | 2026/2/25 |       hxxps://tbtool[.]dawnstd[.]cn       | 仿冒图吧工具箱、传播病毒 | hxxps://apac[.]tualatin[.]club/%E5%9B%BE%E5%90%A7%E5%B7%A5%E5%85%B7%E7%AE%B1202601[.]1%E5%AE%89%E8%A3%85%E5%8C%85[.]exe |                            无                            | Z161 |
@@ -147,8 +144,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/4  |            hxxps://orayz[.]com            |   仿冒向日葵、传播病毒   | hxxps://orayz[.]com/AweSun_16[.]0[.]0[.]22931_x64_patched[.]exe | [URLhaus Database](https://urlhaus.abuse.ch/url/3789482) | Z177 |
 | 2026/3/5  |      hxxps://zh-cn-google[.]hl[.]cn       |  仿冒 Chrome、传播病毒   |           hxxps://tenyunat-99viplawt[.]com/QQGSYLX           | [URLhaus Database](https://urlhaus.abuse.ch/url/3790137) | Z178 |
 | 2026/3/6  |          hxxps://kdocs-cn[.]com           |  仿冒金山文档、传播病毒  |     hxxps://down[.]wps-kdocs[.]com/jinshandocs-x86[.]zip     | [URLhaus Database](https://urlhaus.abuse.ch/url/3790481) | Z179 |
-| 2026/3/7  |       hxxps://www[.]huoronga[.]com        |    仿冒火绒、传播病毒    | hxxps://pub-826b2258a9f74a40abe9ee543f2409a4[.]r2[.]dev/3[.]600Hnevsak[.]zip |                            无                            | Z180 |
-| 2026/3/7  |  hxxps://hnieodfnoibgnuiowwirodnm[.]com   |    仿冒火绒、传播病毒    | hxxps://pub-826b2258a9f74a40abe9ee543f2409a4[.]r2[.]dev/3[.]600Hnevsak[.]zip |                            无                            | Z181 |
+| 2026/3/7  |       hxxps://www[.]huoronga[.]com        |    仿冒火绒、传播病毒    | hxxps://pub-826b2258a9f74a40abe9ee543f2409a4[.]r2[.]dev/3[.]600Hnevsak[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3791281) | Z180 |
+| 2026/3/7  |  hxxps://hnieodfnoibgnuiowwirodnm[.]com   |    仿冒火绒、传播病毒    | hxxps://pub-826b2258a9f74a40abe9ee543f2409a4[.]r2[.]dev/3[.]600Hnevsak[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3791281) | Z181 |
+| 2026/3/7  |         hxxps://lk-wps[.]com[.]cn         |    仿冒 WPS、传播病毒    |       hxxps://www[.]irbis2000[.]com/WPS_Setup64[.]exe        | [URLhaus Database](https://urlhaus.abuse.ch/url/3791536) | Z182 |
 |  ——————   |           ————————————————————            |     ———————————————      |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
