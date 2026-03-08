@@ -68,9 +68,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 8 日 13:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 8 日 16:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 3 月 8 日，已打击计算机病毒 / 恶意软件 563 个、恶意网站 182 个**。
+&emsp;&emsp;**截至 2026 年 3 月 8 日，已打击计算机病毒 / 恶意软件 564 个、恶意网站 182 个**。
 
 ---
 
@@ -109,6 +109,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/7 |   新建 文本文档.exe    |  **Win32/Malgent!MSR**   | c7f250f5b35a0d5865ca56ef4d03b9b608ab5e8695ee0bcd2f743818b0a37d24 | 5d06827a-de06-4cf9-af22-00984dd5b864 | [VirusTotal](https://www.virustotal.com/gui/file/c7f250f5b35a0d5865ca56ef4d03b9b608ab5e8695ee0bcd2f743818b0a37d24) (19) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c7f250f5b35a0d5865ca56ef4d03b9b608ab5e8695ee0bcd2f743818b0a37d24) | A561 |
 | 2026/3/8 |    LHDN_2026 -3.pdf    |     **Win32/Vigorf**     | 06328e27d906ef067bd0cbb6822ae4f9dd0d6e13f4e209c948ad0b0919b0b9c8 | 02cdccf2-ad0b-4eea-af52-8b49478cf8fb | [VirusTotal](https://www.virustotal.com/gui/file/06328e27d906ef067bd0cbb6822ae4f9dd0d6e13f4e209c948ad0b0919b0b9c8) (0) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/06328e27d906ef067bd0cbb6822ae4f9dd0d6e13f4e209c948ad0b0919b0b9c8) | A562 |
 | 2026/3/8 |     PowerPoint.exe     |  **Win64/Malgent!MSR**   | b43f405eb92d14c18bc9c4c28207ae3d53bca89077d74acdddcc433857aecd95 | 361af049-8ef4-47f0-962e-2820a3b799d5 | [VirusTotal](https://www.virustotal.com/gui/file/b43f405eb92d14c18bc9c4c28207ae3d53bca89077d74acdddcc433857aecd95) (39) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b43f405eb92d14c18bc9c4c28207ae3d53bca89077d74acdddcc433857aecd95) | A563 |
+| 2026/3/8 |      Arma SE7.exe      | **银狐 (SilverFox.sae)** | 66406a9f58f42fb6f7d1e31e3aee159641ca5e257521dc325e49ccaec4aeba22 | 876318a4-2b92-41c3-86a9-f4b6cc291a4e | [VirusTotal](https://www.virustotal.com/gui/file/66406a9f58f42fb6f7d1e31e3aee159641ca5e257521dc325e49ccaec4aeba22) (0) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/66406a9f58f42fb6f7d1e31e3aee159641ca5e257521dc325e49ccaec4aeba22) | A564 |
 |  ——————  |      ————————————      |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
