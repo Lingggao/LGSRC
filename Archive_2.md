@@ -168,6 +168,8 @@
 | 2026/2/24 |    hxxps://cnzh-googlechrome[.]com[.]cn     |    仿冒 Chrome、传播病毒    |                              无                              |                            无                            | Z156 |
 | 2026/2/24 |      hxxps://chromea-google[.]com[.]cn      |    仿冒 Chrome、传播病毒    | hxxps://googdownload[.]googcdngoogchromeleownload[.]top/download/googdownload/chroome[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3784688) | Z157 |
 | 2026/2/24 |      hxxps://chrome-gooogle[.]com[.]cn      |    仿冒 Chrome、传播病毒    | hxxps://dawang-1390785885[.]cos[.]ap-hongkong[.]myqcloud[.]com/BiyGu2[.]zip |                            无                            | Z158 |
+| 2026/2/25 |  hxxps://web[.]chrorome-gooogle[.]com[.]cn  |    仿冒 Chrome、传播病毒    |    hxxps://xiazaijd[.]click/googlechrome64%E4%BD%8D[.]zip    | [URLhaus Database](https://urlhaus.abuse.ch/url/3784999) | Z159 |
+| 2026/2/25 |          hxxps://xiazaijd[.]click           |    仿冒 Chrome、传播病毒    |    hxxps://xiazaijd[.]click/googlechrome64%E4%BD%8D[.]zip    | [URLhaus Database](https://urlhaus.abuse.ch/url/3784999) | Z160 |
 |  ——————   |            ————————————————————             |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
