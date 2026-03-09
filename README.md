@@ -68,9 +68,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 9 日 8:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 9 日 12:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 3 月 9 日，已打击计算机病毒 / 恶意软件 574 个、恶意网站 185 个**。
+&emsp;&emsp;**截至 2026 年 3 月 9 日，已打击计算机病毒 / 恶意软件 576 个、恶意网站 186 个**。
 
 ---
 
@@ -107,6 +107,8 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/9 |       3.8sogou.exe       |          研究中          | 7675b52552c3f93cc85f245392d3c54cac54a9ee3ee2cc48ad849a78328eabc6 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/7675b52552c3f93cc85f245392d3c54cac54a9ee3ee2cc48ad849a78328eabc6) (3) |                              无                              | A572 |
 | 2026/3/9 |  ChoneSetup_lkg···.msi   |   **银狐 (SilverFox)**   | 810e90336d4a719bb885e7fc77de370e5d69987d95988a8f8a354a53c88161b5 | 9de30c17-fa8f-4d73-9f85-e952ddc50666 | [VirusTotal](https://www.virustotal.com/gui/file/810e90336d4a719bb885e7fc77de370e5d69987d95988a8f8a354a53c88161b5) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/810e90336d4a719bb885e7fc77de370e5d69987d95988a8f8a354a53c88161b5) | A573 |
 | 2026/3/9 |   win32-Chronme···.exe   |   **银狐 (SilverFox)**   | a238c729fddbc25f6523b45e6463dd54521d42e364bed3f811b84454b54d8b44 | f62854ee-867d-4fcb-9fb9-b08f41706ca1 | [VirusTotal](https://www.virustotal.com/gui/file/a238c729fddbc25f6523b45e6463dd54521d42e364bed3f811b84454b54d8b44) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a238c729fddbc25f6523b45e6463dd54521d42e364bed3f811b84454b54d8b44) | A574 |
+| 2026/3/9 |     encrypted···.exe     |          研究中          | e0de127224a470cf45fcb79f0daf04aa70a1d170982bb871793e43fd45babbcc |                                      | [VirusTotal](https://www.virustotal.com/gui/file/e0de127224a470cf45fcb79f0daf04aa70a1d170982bb871793e43fd45babbcc) (9) |                  [MalwareBazaar Database]()                  | A575 |
+| 2026/3/9 |     Wps···win888.exe     |   **银狐 (SilverFox)**   | 5ee234b6c82556cb1b64fdcc2f48f8f7020831050d9de2202f4ab03861eaf6ea |                                      | [VirusTotal](https://www.virustotal.com/gui/file/5ee234b6c82556cb1b64fdcc2f48f8f7020831050d9de2202f4ab03861eaf6ea) (5) |                              无                              | A576 |
 |  ——————  |       ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -148,6 +150,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/9  |     hxxps://zh-cn-google[.]hl[.]cn      |  仿冒 Chrome、传播病毒   |           hxxps://tenyunat-99viplawt[.]com/QQGSYLX           |                            无                            | Z183 |
 | 2026/3/9  |    hxxps://chrroome-google[.]hl[.]cn    |  仿冒 Chrome、传播病毒   | hxxps://www[.]upclouds[.]world/?c=uRrMbiqnQzpXGOE69R5LpRLFN9WsRMGBtn8tmwafDNl3hN2DWS4UNjejTxnBRVb4 |                            无                            | Z184 |
 | 2026/3/9  | hxxps://google-google-google[.]com[.]cn |  仿冒 Chrome、传播病毒   |                              无                              |                            无                            | Z185 |
+| 2026/3/9  |        hxxps://im-wps[.]com[.]cn        |    仿冒 WPS、传播病毒    | hxxps://www[.]asdfgsdfgxcvbvcxasd-oss[.]top/WpsOffice_x64%20_v10_win888[.]zip |                            无                            | Z186 |
 |  ——————   |          ————————————————————           |     ———————————————      |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
