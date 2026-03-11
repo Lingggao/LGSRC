@@ -170,6 +170,8 @@
 | 2026/2/24 |      hxxps://chrome-gooogle[.]com[.]cn      |    仿冒 Chrome、传播病毒    | hxxps://dawang-1390785885[.]cos[.]ap-hongkong[.]myqcloud[.]com/BiyGu2[.]zip |                            无                            | Z158 |
 | 2026/2/25 |  hxxps://web[.]chrorome-gooogle[.]com[.]cn  |    仿冒 Chrome、传播病毒    |    hxxps://xiazaijd[.]click/googlechrome64%E4%BD%8D[.]zip    | [URLhaus Database](https://urlhaus.abuse.ch/url/3784999) | Z159 |
 | 2026/2/25 |          hxxps://xiazaijd[.]click           |    仿冒 Chrome、传播病毒    |    hxxps://xiazaijd[.]click/googlechrome64%E4%BD%8D[.]zip    | [URLhaus Database](https://urlhaus.abuse.ch/url/3784999) | Z160 |
+| 2026/2/25 |        hxxps://tbtool[.]dawnstd[.]cn        |  仿冒图吧工具箱、传播病毒   | hxxps://apac[.]tualatin[.]club/%E5%9B%BE%E5%90%A7%E5%B7%A5%E5%85%B7%E7%AE%B1202601[.]1%E5%AE%89%E8%A3%85%E5%8C%85[.]exe |                            无                            | Z161 |
+| 2026/2/25 |           hxxps://80868088[.]xyz            |  仿冒图吧工具箱、传播病毒   | hxxps://apac[.]tualatin[.]club/%E5%9B%BE%E5%90%A7%E5%B7%A5%E5%85%B7%E7%AE%B1202601[.]1%E5%AE%89%E8%A3%85%E5%8C%85[.]exe |                            无                            | Z162 |
 |  ——————   |            ————————————————————             |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---

@@ -68,9 +68,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 11 日 12:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 11 日 19:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 3 月 11 日，已打击计算机病毒 / 恶意软件 585 个、恶意网站 186 个**。
+&emsp;&emsp;**截至 2026 年 3 月 11 日，已打击计算机病毒 / 恶意软件 586 个、恶意网站 187 个**。
 
 ---
 
@@ -82,9 +82,6 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 |   日期    |          文件名          |           检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :----------------------: | :----------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/3/7  |     WPS_Setup64.exe      |   **银狐 (SilverFox)**   | 8a041e2a792d15c5bd48e77342838d524ff4d86ea42562c409a1f5468f1df60e | befdd5c2-1f5d-42c8-9bc5-09d2db65096c | [VirusTotal](https://www.virustotal.com/gui/file/8a041e2a792d15c5bd48e77342838d524ff4d86ea42562c409a1f5468f1df60e) (6) |                              无                              | A559 |
-| 2026/3/7  |     Run_62172143.exe     | **银狐 (SilverFox.sj)**  | c2ecef24d949afba2cc697f5eb6fa23f52b09ae2522cd3eaf7b3ede38fa926f7 | b0163c62-4079-47de-946d-2780afab492d | [VirusTotal](https://www.virustotal.com/gui/file/c2ecef24d949afba2cc697f5eb6fa23f52b09ae2522cd3eaf7b3ede38fa926f7) (40) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c2ecef24d949afba2cc697f5eb6fa23f52b09ae2522cd3eaf7b3ede38fa926f7) | A560 |
-| 2026/3/7  |    新建 文本文档.exe     |  **Win32/Malgent!MSR**   | c7f250f5b35a0d5865ca56ef4d03b9b608ab5e8695ee0bcd2f743818b0a37d24 | 5d06827a-de06-4cf9-af22-00984dd5b864 | [VirusTotal](https://www.virustotal.com/gui/file/c7f250f5b35a0d5865ca56ef4d03b9b608ab5e8695ee0bcd2f743818b0a37d24) (19) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c7f250f5b35a0d5865ca56ef4d03b9b608ab5e8695ee0bcd2f743818b0a37d24) | A561 |
 | 2026/3/8  |     LHDN_2026 -3.pdf     |     **Win32/Vigorf**     | 06328e27d906ef067bd0cbb6822ae4f9dd0d6e13f4e209c948ad0b0919b0b9c8 | 02cdccf2-ad0b-4eea-af52-8b49478cf8fb | [VirusTotal](https://www.virustotal.com/gui/file/06328e27d906ef067bd0cbb6822ae4f9dd0d6e13f4e209c948ad0b0919b0b9c8) (0) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/06328e27d906ef067bd0cbb6822ae4f9dd0d6e13f4e209c948ad0b0919b0b9c8) | A562 |
 | 2026/3/8  |      PowerPoint.exe      |  **Win64/Malgent!MSR**   | b43f405eb92d14c18bc9c4c28207ae3d53bca89077d74acdddcc433857aecd95 | 361af049-8ef4-47f0-962e-2820a3b799d5 | [VirusTotal](https://www.virustotal.com/gui/file/b43f405eb92d14c18bc9c4c28207ae3d53bca89077d74acdddcc433857aecd95) (39) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b43f405eb92d14c18bc9c4c28207ae3d53bca89077d74acdddcc433857aecd95) | A563 |
 | 2026/3/8  |       Arma SE7.exe       | **银狐 (SilverFox.sae)** | 66406a9f58f42fb6f7d1e31e3aee159641ca5e257521dc325e49ccaec4aeba22 | 876318a4-2b92-41c3-86a9-f4b6cc291a4e | [VirusTotal](https://www.virustotal.com/gui/file/66406a9f58f42fb6f7d1e31e3aee159641ca5e257521dc325e49ccaec4aeba22) (0) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/66406a9f58f42fb6f7d1e31e3aee159641ca5e257521dc325e49ccaec4aeba22) | A564 |
@@ -109,6 +106,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/10 |       PoisonX.exe        |  **银狐 (SilverFox.e)**  | 95e30af4532ebb0ee8062c05414f5827c2c0c0880c9c28612eb03fd268683f42 | ee9ed292-7ed1-486b-92fb-2f3f1cac12a3 | [VirusTotal](https://www.virustotal.com/gui/file/95e30af4532ebb0ee8062c05414f5827c2c0c0880c9c28612eb03fd268683f42) (15) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/95e30af4532ebb0ee8062c05414f5827c2c0c0880c9c28612eb03fd268683f42) | A583 |
 | 2026/3/11 | ···裁员名单及补偿···.exe | **银狐 (SilverFox.sx)**  | 0576ce6546d7d0c2d22603d956ef49b0197e9fd0fd82409b132b6427b5128058 | e62466fe-e8d8-4c8c-94fa-3ed63dbc0789 | [VirusTotal](https://www.virustotal.com/gui/file/0576ce6546d7d0c2d22603d956ef49b0197e9fd0fd82409b132b6427b5128058) (14) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/0576ce6546d7d0c2d22603d956ef49b0197e9fd0fd82409b132b6427b5128058) | A584 |
 | 2026/3/11 |  小黑屋残忍殴打···.exe   |   **银狐 (SilverFox)**   | 5981f5bb23790380033b1eb9f6030ecd81b1280d885525e58b1b49939f98dcc5 | 0be39412-d798-46f2-8191-425d9bf06ea3 | [VirusTotal](https://www.virustotal.com/gui/file/5981f5bb23790380033b1eb9f6030ecd81b1280d885525e58b1b49939f98dcc5) (24) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5981f5bb23790380033b1eb9f6030ecd81b1280d885525e58b1b49939f98dcc5) | A585 |
+| 2026/3/11 |    openclawAI···.exe     |      **Cybercrime**      | 9ed5dc32d9ce2e7b49cd50141c15702bf2a21b769dd47ce32c460e41814fb055 | ec8233e5-9673-4dc9-a5f3-8b0da1fdb2d3 | [VirusTotal](https://www.virustotal.com/gui/file/9ed5dc32d9ce2e7b49cd50141c15702bf2a21b769dd47ce32c460e41814fb055) (5) |                  [MalwareBazaar Database]()                  | A586 |
 |  ——————   |       ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -125,8 +123,6 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 |   日期    |                   URL                   |           类别           |                           有效载荷                           |                         URLhaus                          | 编号 |
 | :-------: | :-------------------------------------: | :----------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
-| 2026/2/25 |      hxxps://tbtool[.]dawnstd[.]cn      | 仿冒图吧工具箱、传播病毒 | hxxps://apac[.]tualatin[.]club/%E5%9B%BE%E5%90%A7%E5%B7%A5%E5%85%B7%E7%AE%B1202601[.]1%E5%AE%89%E8%A3%85%E5%8C%85[.]exe |                            无                            | Z161 |
-| 2026/2/25 |         hxxps://80868088[.]xyz          | 仿冒图吧工具箱、传播病毒 | hxxps://apac[.]tualatin[.]club/%E5%9B%BE%E5%90%A7%E5%B7%A5%E5%85%B7%E7%AE%B1202601[.]1%E5%AE%89%E8%A3%85%E5%8C%85[.]exe |                            无                            | Z162 |
 | 2026/2/27 |    hxxps://chhrome-google[.]hl[.]cn     |  仿冒 Chrome、传播病毒   | hxxps://download[.]x64-google[.]cn/Chorme_Setup_1858_1[.]9[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3787379) | Z163 |
 | 2026/3/2  |       hxxps://wsp-wps[.]com[.]cn        |    仿冒 WPS、传播病毒    |      hxxps://hjekd8c[.]huowdy[.]com/WPS_off11[.]2[.]zip      |                            无                            | Z164 |
 | 2026/3/2  |      hxxps://ofice-wps[.]com[.]cn       |    仿冒 WPS、传播病毒    |      hxxps://hjekd8c[.]huowdy[.]com/WPS_off11[.]2[.]zip      |                            无                            | Z165 |
@@ -151,6 +147,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/9  |    hxxps://chrroome-google[.]hl[.]cn    |  仿冒 Chrome、传播病毒   | hxxps://www[.]upclouds[.]world/?c=uRrMbiqnQzpXGOE69R5LpRLFN9WsRMGBtn8tmwafDNl3hN2DWS4UNjejTxnBRVb4 |                            无                            | Z184 |
 | 2026/3/9  | hxxps://google-google-google[.]com[.]cn |  仿冒 Chrome、传播病毒   |                              无                              |                            无                            | Z185 |
 | 2026/3/9  |        hxxps://im-wps[.]com[.]cn        |    仿冒 WPS、传播病毒    | hxxps://www[.]asdfgsdfgxcvbvcxasd-oss[.]top/WpsOffice_x64%20_v10_win888[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3792813) | Z186 |
+| 2026/3/11 |     hxxps://ai-openclaw[.]com[.]cn      |   仿冒 OpenClaw “龙虾”   | https://www.nmysq.top/oss/usha/ope/openclawAI%207beAolenc.zip |                            无                            | Z187 |
 |  ——————   |          ————————————————————           |     ———————————————      |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
