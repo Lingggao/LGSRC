@@ -58,7 +58,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 7. (可选) 针对仿冒正规软件投放病毒事件，向受害企业方共享线索
 8. 将样本数据填写至下方表格
 
-**二、满足以下条件时，样本数据不会填写至表格**
+**二、满足以下任一条件时，样本数据不会填写至表格**
 
 1. Microsoft Defender 可以查杀样本，无需人工分析
 2. 经前期分析，可 100% 确认是正常文件
@@ -68,7 +68,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 11 日 19:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 11 日 21:00 (GMT+8)
 
 &emsp;&emsp;**截至 2026 年 3 月 11 日，已打击计算机病毒 / 恶意软件 586 个、恶意网站 187 个**。
 
@@ -106,7 +106,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/10 |       PoisonX.exe        |  **银狐 (SilverFox.e)**  | 95e30af4532ebb0ee8062c05414f5827c2c0c0880c9c28612eb03fd268683f42 | ee9ed292-7ed1-486b-92fb-2f3f1cac12a3 | [VirusTotal](https://www.virustotal.com/gui/file/95e30af4532ebb0ee8062c05414f5827c2c0c0880c9c28612eb03fd268683f42) (15) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/95e30af4532ebb0ee8062c05414f5827c2c0c0880c9c28612eb03fd268683f42) | A583 |
 | 2026/3/11 | ···裁员名单及补偿···.exe | **银狐 (SilverFox.sx)**  | 0576ce6546d7d0c2d22603d956ef49b0197e9fd0fd82409b132b6427b5128058 | e62466fe-e8d8-4c8c-94fa-3ed63dbc0789 | [VirusTotal](https://www.virustotal.com/gui/file/0576ce6546d7d0c2d22603d956ef49b0197e9fd0fd82409b132b6427b5128058) (14) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/0576ce6546d7d0c2d22603d956ef49b0197e9fd0fd82409b132b6427b5128058) | A584 |
 | 2026/3/11 |  小黑屋残忍殴打···.exe   |   **银狐 (SilverFox)**   | 5981f5bb23790380033b1eb9f6030ecd81b1280d885525e58b1b49939f98dcc5 | 0be39412-d798-46f2-8191-425d9bf06ea3 | [VirusTotal](https://www.virustotal.com/gui/file/5981f5bb23790380033b1eb9f6030ecd81b1280d885525e58b1b49939f98dcc5) (24) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5981f5bb23790380033b1eb9f6030ecd81b1280d885525e58b1b49939f98dcc5) | A585 |
-| 2026/3/11 |    openclawAI···.exe     |      **Cybercrime**      | 9ed5dc32d9ce2e7b49cd50141c15702bf2a21b769dd47ce32c460e41814fb055 | ec8233e5-9673-4dc9-a5f3-8b0da1fdb2d3 | [VirusTotal](https://www.virustotal.com/gui/file/9ed5dc32d9ce2e7b49cd50141c15702bf2a21b769dd47ce32c460e41814fb055) (5) |                  [MalwareBazaar Database]()                  | A586 |
+| 2026/3/11 |    openclawAI···.exe     |      **Cybercrime**      | 9ed5dc32d9ce2e7b49cd50141c15702bf2a21b769dd47ce32c460e41814fb055 | ec8233e5-9673-4dc9-a5f3-8b0da1fdb2d3 | [VirusTotal](https://www.virustotal.com/gui/file/9ed5dc32d9ce2e7b49cd50141c15702bf2a21b769dd47ce32c460e41814fb055) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/9ed5dc32d9ce2e7b49cd50141c15702bf2a21b769dd47ce32c460e41814fb055) | A586 |
 |  ——————   |       ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -147,7 +147,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/9  |    hxxps://chrroome-google[.]hl[.]cn    |  仿冒 Chrome、传播病毒   | hxxps://www[.]upclouds[.]world/?c=uRrMbiqnQzpXGOE69R5LpRLFN9WsRMGBtn8tmwafDNl3hN2DWS4UNjejTxnBRVb4 |                            无                            | Z184 |
 | 2026/3/9  | hxxps://google-google-google[.]com[.]cn |  仿冒 Chrome、传播病毒   |                              无                              |                            无                            | Z185 |
 | 2026/3/9  |        hxxps://im-wps[.]com[.]cn        |    仿冒 WPS、传播病毒    | hxxps://www[.]asdfgsdfgxcvbvcxasd-oss[.]top/WpsOffice_x64%20_v10_win888[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3792813) | Z186 |
-| 2026/3/11 |     hxxps://ai-openclaw[.]com[.]cn      |   仿冒 OpenClaw “龙虾”   | https://www.nmysq.top/oss/usha/ope/openclawAI%207beAolenc.zip |                            无                            | Z187 |
+| 2026/3/11 |     hxxps://ai-openclaw[.]com[.]cn      |   仿冒 OpenClaw “龙虾”   | hxxps://www[.]nmysq[.]top/oss/usha/ope/openclawAI%207beAolenc[.]zip |                            无                            | Z187 |
 |  ——————   |          ————————————————————           |     ———————————————      |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
