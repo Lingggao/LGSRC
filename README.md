@@ -68,9 +68,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 11 日 23:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 12 日 1:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 3 月 11 日，已打击计算机病毒 / 恶意软件 589 个、恶意网站 187 个**。
+&emsp;&emsp;**截至 2026 年 3 月 12 日，已打击计算机病毒 / 恶意软件 589 个、恶意网站 187 个**。
 
 ---
 
@@ -104,9 +104,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/11 |  ···裁员名单及补偿···.exe  | **银狐 (SilverFox.sx)**  | 0576ce6546d7d0c2d22603d956ef49b0197e9fd0fd82409b132b6427b5128058 | e62466fe-e8d8-4c8c-94fa-3ed63dbc0789 | [VirusTotal](https://www.virustotal.com/gui/file/0576ce6546d7d0c2d22603d956ef49b0197e9fd0fd82409b132b6427b5128058) (14) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/0576ce6546d7d0c2d22603d956ef49b0197e9fd0fd82409b132b6427b5128058) | A584 |
 | 2026/3/11 |   小黑屋残忍殴打···.exe    |   **银狐 (SilverFox)**   | 5981f5bb23790380033b1eb9f6030ecd81b1280d885525e58b1b49939f98dcc5 | 0be39412-d798-46f2-8191-425d9bf06ea3 | [VirusTotal](https://www.virustotal.com/gui/file/5981f5bb23790380033b1eb9f6030ecd81b1280d885525e58b1b49939f98dcc5) (24) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5981f5bb23790380033b1eb9f6030ecd81b1280d885525e58b1b49939f98dcc5) | A585 |
 | 2026/3/11 |     openclawAI···.exe      |      **Cybercrime**      | 9ed5dc32d9ce2e7b49cd50141c15702bf2a21b769dd47ce32c460e41814fb055 | ec8233e5-9673-4dc9-a5f3-8b0da1fdb2d3 | [VirusTotal](https://www.virustotal.com/gui/file/9ed5dc32d9ce2e7b49cd50141c15702bf2a21b769dd47ce32c460e41814fb055) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/9ed5dc32d9ce2e7b49cd50141c15702bf2a21b769dd47ce32c460e41814fb055) | A586 |
-| 2026/3/11 |  ···03.11裁员名单···.exe   | **银狐 (SilverFox.bg)**  | a85188389fe806216a778fa48b5dd1af1b41afcf735a10c8efa22784de801445 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/a85188389fe806216a778fa48b5dd1af1b41afcf735a10c8efa22784de801445) (24) |                  [MalwareBazaar Database]()                  | A587 |
-| 2026/3/11 |    2026···人员信息.exe     | **银狐 (SilverFox.bg)**  | 7c4bbb982d99092e3afa1ea99f0b5b4b24126800db166389f870a335c1ab55cd |                                      | [VirusTotal](https://www.virustotal.com/gui/file/7c4bbb982d99092e3afa1ea99f0b5b4b24126800db166389f870a335c1ab55cd) (10) |                  [MalwareBazaar Database]()                  | A588 |
-| 2026/3/11 | ···03.11···人员信息···.exe | **银狐 (SilverFox.sx)**  | 5cd729cc2f286beb8bc76e55971f6efb7e960f83536f2bee7671c30cb3bb5e96 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/5cd729cc2f286beb8bc76e55971f6efb7e960f83536f2bee7671c30cb3bb5e96) (11) |                  [MalwareBazaar Database]()                  | A589 |
+| 2026/3/11 |  ···03.11裁员名单···.exe   | **银狐 (SilverFox.bg)**  | a85188389fe806216a778fa48b5dd1af1b41afcf735a10c8efa22784de801445 | cf7db410-bba9-4e16-a4be-eb8a541f09f9 | [VirusTotal](https://www.virustotal.com/gui/file/a85188389fe806216a778fa48b5dd1af1b41afcf735a10c8efa22784de801445) (24) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a85188389fe806216a778fa48b5dd1af1b41afcf735a10c8efa22784de801445) | A587 |
+| 2026/3/11 |    2026···人员信息.exe     | **银狐 (SilverFox.bg)**  | 7c4bbb982d99092e3afa1ea99f0b5b4b24126800db166389f870a335c1ab55cd | eca2a4a3-251f-4fcc-a6c0-af5676017e1a | [VirusTotal](https://www.virustotal.com/gui/file/7c4bbb982d99092e3afa1ea99f0b5b4b24126800db166389f870a335c1ab55cd) (10) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/7c4bbb982d99092e3afa1ea99f0b5b4b24126800db166389f870a335c1ab55cd) | A588 |
+| 2026/3/11 | ···03.11···人员信息···.exe | **银狐 (SilverFox.sx)**  | 5cd729cc2f286beb8bc76e55971f6efb7e960f83536f2bee7671c30cb3bb5e96 | 6769b84c-8405-49c6-9334-c0141b0a3a37 | [VirusTotal](https://www.virustotal.com/gui/file/5cd729cc2f286beb8bc76e55971f6efb7e960f83536f2bee7671c30cb3bb5e96) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5cd729cc2f286beb8bc76e55971f6efb7e960f83536f2bee7671c30cb3bb5e96) | A589 |
 |  ——————   |        ————————————        |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
