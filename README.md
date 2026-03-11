@@ -68,7 +68,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 11 日 2:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 11 日 12:00 (GMT+8)
 
 &emsp;&emsp;**截至 2026 年 3 月 11 日，已打击计算机病毒 / 恶意软件 585 个、恶意网站 186 个**。
 
@@ -107,8 +107,8 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/10 |      Glnstaller.exe      |   **银狐 (SilverFox)**   | 525b4900ffc072129610dd162567bf8d66358799e760573e3fd44d3c65c3dc05 | cf2600e2-0aa5-4cc9-8d4b-7c263b66f76a | [VirusTotal](https://www.virustotal.com/gui/file/525b4900ffc072129610dd162567bf8d66358799e760573e3fd44d3c65c3dc05) (10) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/525b4900ffc072129610dd162567bf8d66358799e760573e3fd44d3c65c3dc05) | A581 |
 | 2026/3/10 |        jinyou.exe        | **银狐 (SilverFox.sa)**  | cf4203625b4ac409c4aacd78e0db6db3a8afe67b6f8fd1dcc263ed49d12274f6 | 98664393-5687-4e17-9bbe-1048df23a1e7 | [VirusTotal](https://www.virustotal.com/gui/file/cf4203625b4ac409c4aacd78e0db6db3a8afe67b6f8fd1dcc263ed49d12274f6) (25) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/cf4203625b4ac409c4aacd78e0db6db3a8afe67b6f8fd1dcc263ed49d12274f6) | A582 |
 | 2026/3/10 |       PoisonX.exe        |  **银狐 (SilverFox.e)**  | 95e30af4532ebb0ee8062c05414f5827c2c0c0880c9c28612eb03fd268683f42 | ee9ed292-7ed1-486b-92fb-2f3f1cac12a3 | [VirusTotal](https://www.virustotal.com/gui/file/95e30af4532ebb0ee8062c05414f5827c2c0c0880c9c28612eb03fd268683f42) (15) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/95e30af4532ebb0ee8062c05414f5827c2c0c0880c9c28612eb03fd268683f42) | A583 |
-| 2026/3/11 | ···裁员名单及补偿···.exe | **银狐 (SilverFox.sx)**  | 0576ce6546d7d0c2d22603d956ef49b0197e9fd0fd82409b132b6427b5128058 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/0576ce6546d7d0c2d22603d956ef49b0197e9fd0fd82409b132b6427b5128058) (14) |                  [MalwareBazaar Database]()                  | A584 |
-| 2026/3/11 |  小黑屋残忍殴打···.exe   |   **银狐 (SilverFox)**   | 5981f5bb23790380033b1eb9f6030ecd81b1280d885525e58b1b49939f98dcc5 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/5981f5bb23790380033b1eb9f6030ecd81b1280d885525e58b1b49939f98dcc5) (24) |                  [MalwareBazaar Database]()                  | A585 |
+| 2026/3/11 | ···裁员名单及补偿···.exe | **银狐 (SilverFox.sx)**  | 0576ce6546d7d0c2d22603d956ef49b0197e9fd0fd82409b132b6427b5128058 | e62466fe-e8d8-4c8c-94fa-3ed63dbc0789 | [VirusTotal](https://www.virustotal.com/gui/file/0576ce6546d7d0c2d22603d956ef49b0197e9fd0fd82409b132b6427b5128058) (14) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/0576ce6546d7d0c2d22603d956ef49b0197e9fd0fd82409b132b6427b5128058) | A584 |
+| 2026/3/11 |  小黑屋残忍殴打···.exe   |   **银狐 (SilverFox)**   | 5981f5bb23790380033b1eb9f6030ecd81b1280d885525e58b1b49939f98dcc5 | 0be39412-d798-46f2-8191-425d9bf06ea3 | [VirusTotal](https://www.virustotal.com/gui/file/5981f5bb23790380033b1eb9f6030ecd81b1280d885525e58b1b49939f98dcc5) (24) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5981f5bb23790380033b1eb9f6030ecd81b1280d885525e58b1b49939f98dcc5) | A585 |
 |  ——————   |       ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
