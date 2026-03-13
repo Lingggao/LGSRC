@@ -172,6 +172,12 @@
 | 2026/2/25 |          hxxps://xiazaijd[.]click           |    仿冒 Chrome、传播病毒    |    hxxps://xiazaijd[.]click/googlechrome64%E4%BD%8D[.]zip    | [URLhaus Database](https://urlhaus.abuse.ch/url/3784999) | Z160 |
 | 2026/2/25 |        hxxps://tbtool[.]dawnstd[.]cn        |  仿冒图吧工具箱、传播病毒   | hxxps://apac[.]tualatin[.]club/%E5%9B%BE%E5%90%A7%E5%B7%A5%E5%85%B7%E7%AE%B1202601[.]1%E5%AE%89%E8%A3%85%E5%8C%85[.]exe |                            无                            | Z161 |
 | 2026/2/25 |           hxxps://80868088[.]xyz            |  仿冒图吧工具箱、传播病毒   | hxxps://apac[.]tualatin[.]club/%E5%9B%BE%E5%90%A7%E5%B7%A5%E5%85%B7%E7%AE%B1202601[.]1%E5%AE%89%E8%A3%85%E5%8C%85[.]exe |                            无                            | Z162 |
+| 2026/2/27 |      hxxps://chhrome-google[.]hl[.]cn       |    仿冒 Chrome、传播病毒    | hxxps://download[.]x64-google[.]cn/Chorme_Setup_1858_1[.]9[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3787379) | Z163 |
+| 2026/3/2  |         hxxps://wsp-wps[.]com[.]cn          |     仿冒 WPS、传播病毒      |      hxxps://hjekd8c[.]huowdy[.]com/WPS_off11[.]2[.]zip      |                            无                            | Z164 |
+| 2026/3/2  |        hxxps://ofice-wps[.]com[.]cn         |     仿冒 WPS、传播病毒      |      hxxps://hjekd8c[.]huowdy[.]com/WPS_off11[.]2[.]zip      |                            无                            | Z165 |
+| 2026/3/2  |     hxxps://bdsem[.]platform[.]wps[.]cn     |     仿冒 WPS、传播病毒      |                              无                              |                            无                            | Z166 |
+| 2026/3/2  |        hxxps://w-wpsoffice[.]hl[.]cn        |     仿冒 WPS、传播病毒      |                              无                              |                            无                            | Z167 |
+| 2026/3/2  |   hxxps://www[.]chromeme-google[.]hl[.]cn   |    仿冒 Chrome、传播病毒    | hxxps://backgundchrome[.]oss-cn-hongkong[.]aliyuncs[.]com/Chrome_back[.]zip |                            无                            | Z168 |
 |  ——————   |            ————————————————————             |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
