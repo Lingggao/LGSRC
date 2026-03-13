@@ -68,9 +68,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 13 日 18:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 13 日 19:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 3 月 13 日，已打击计算机病毒 / 恶意软件 598 个、恶意网站 187 个**。
+&emsp;&emsp;**截至 2026 年 3 月 13 日，已打击计算机病毒 / 恶意软件 599 个、恶意网站 187 个**。
 
 ---
 
@@ -109,6 +109,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/13 |         setup.exe          |  **Win32/Malgent!MSR**   | cf4cd720b311a42ee34ee8a33de6b2b26dc29598657e599b5b8d30b19eec3cc0 | d0eac2ba-f8e6-4970-9fac-0de27d45065f | [VirusTotal](https://www.virustotal.com/gui/file/cf4cd720b311a42ee34ee8a33de6b2b26dc29598657e599b5b8d30b19eec3cc0) (1) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/cf4cd720b311a42ee34ee8a33de6b2b26dc29598657e599b5b8d30b19eec3cc0) | A596 |
 | 2026/3/13 |          2026.exe          | **银狐 (SilverFox.bg)**  | 4ef898d0d5611c920bd3d8922e4298c35363734d933c3280bfef30a7ee1407fa | d13e2973-9ad0-43eb-a435-d6685ad3e4dc | [VirusTotal](https://www.virustotal.com/gui/file/4ef898d0d5611c920bd3d8922e4298c35363734d933c3280bfef30a7ee1407fa) (24) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/4ef898d0d5611c920bd3d8922e4298c35363734d933c3280bfef30a7ee1407fa) | A597 |
 | 2026/3/13 |    【人事異動···】.exe     |   **银狐 (SilverFox)**   | 4bbb0a2ffafe6043860e41c12ba1c0e1dd9f1486cc6f1487d7053043233f8a72 | 1e040bee-8a70-480c-8615-808e3a8fefeb | [VirusTotal](https://www.virustotal.com/gui/file/4bbb0a2ffafe6043860e41c12ba1c0e1dd9f1486cc6f1487d7053043233f8a72) (31) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/4bbb0a2ffafe6043860e41c12ba1c0e1dd9f1486cc6f1487d7053043233f8a72) | A598 |
+| 2026/3/13 |     openclawAI···.exe      |   **银狐 (SilverFox)**   | 98a34bd5670ce59926d308cb1dd7d183fe23bfcf5266df023fca4963374624e9 | 80a80345-e5c1-4191-98bc-16d6e243dced | [VirusTotal](https://www.virustotal.com/gui/file/98a34bd5670ce59926d308cb1dd7d183fe23bfcf5266df023fca4963374624e9) (6) |                  [MalwareBazaar Database]()                  | A599 |
 |  ——————   |        ————————————        |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
