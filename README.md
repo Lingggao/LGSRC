@@ -71,9 +71,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 14 日 3:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 14 日 5:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 3 月 14 日，已打击计算机病毒 / 恶意软件 609 个、恶意网站 192 个**。
+&emsp;&emsp;**截至 2026 年 3 月 14 日，已打击计算机病毒 / 恶意软件 610 个、恶意网站 193 个**。
 
 ---
 
@@ -111,6 +111,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/14 |    wps_Installer···.msi    |  **银狐 (SilverFox.l)**  | 32863ce083f952eca0219842f4c187ea418f82e42ff28650e711ad0d63046783 | 7230a2bc-1338-4db7-90c0-e200cdbb45d3 | [VirusTotal](https://www.virustotal.com/gui/file/32863ce083f952eca0219842f4c187ea418f82e42ff28650e711ad0d63046783) (7) |                              无                              | A607 |
 | 2026/3/14 |       wps···HH1.msi        |  **银狐 (SilverFox.l)**  | 62d591cab5cb3532737e4449382cd77ab231da8e4b8c2225749eea8cea0baa57 | 7777a533-45cf-44d8-bd15-d564dcf1cc71 | [VirusTotal](https://www.virustotal.com/gui/file/62d591cab5cb3532737e4449382cd77ab231da8e4b8c2225749eea8cea0baa57) (10) |                              无                              | A608 |
 | 2026/3/14 |    WpsSetup_office.exe     |  **Win32/Malgent!MSR**   | b07741be8853bf69e3da74a3bb66bc3242473ec399ac96e524f971467bea9284 | 3a15df4a-3b9e-4e87-94b9-547a17bd258c | [VirusTotal](https://www.virustotal.com/gui/file/b07741be8853bf69e3da74a3bb66bc3242473ec399ac96e524f971467bea9284) (16) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b07741be8853bf69e3da74a3bb66bc3242473ec399ac96e524f971467bea9284) | A609 |
+| 2026/3/14 |    opealeAi_7be···.exe     |   **银狐 (SilverFox)**   | c8fe0393370dd2bd85c1c85bae3815d5bf352961504710ca1e58b34b0ea71c11 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/c8fe0393370dd2bd85c1c85bae3815d5bf352961504710ca1e58b34b0ea71c11) (4) |                              无                              | A610 |
 |  ——————   |        ————————————        |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -151,6 +152,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/14 |        hxxps://lk-wps[.]com[.]cn        |    仿冒 WPS、传播病毒    | hxxps://wps10[.]oss-cn-hongkong[.]aliyuncs[.]com/wps_Installer_Setup_HH[.]zip |                            无                            | Z190 |
 | 2026/3/14 |        hxxps://pw-wps[.]com[.]cn        |    仿冒 WPS、传播病毒    | hxxps://wps04[.]oss-cn-hongkong[.]aliyuncs[.]com/wps_Installer_Setup_HH[.]zip |                            无                            | Z191 |
 | 2026/3/14 |        hxxps://ps-wps[.]hl[.]cn         |    仿冒 WPS、传播病毒    | hxxps://download[.]xiaodiqiyi[.]com/WPS%20Office%20Setup[.]zip |                            无                            | Z192 |
+| 2026/3/14 |  hxxps://www[.]web-openclaw[.]com[.]cn  |   仿冒 OpenClaw “龙虾”   |   hxxps://www[.]web-openclaw[.]com[.]cn/pc/openclaw[.]zip    |                            无                            | Z193 |
 |  ——————   |          ————————————————————           |     ———————————————      |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
