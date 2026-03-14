@@ -178,6 +178,15 @@
 | 2026/3/2  |     hxxps://bdsem[.]platform[.]wps[.]cn     |     仿冒 WPS、传播病毒      |                              无                              |                            无                            | Z166 |
 | 2026/3/2  |        hxxps://w-wpsoffice[.]hl[.]cn        |     仿冒 WPS、传播病毒      |                              无                              |                            无                            | Z167 |
 | 2026/3/2  |   hxxps://www[.]chromeme-google[.]hl[.]cn   |    仿冒 Chrome、传播病毒    | hxxps://backgundchrome[.]oss-cn-hongkong[.]aliyuncs[.]com/Chrome_back[.]zip |                            无                            | Z168 |
+| 2026/3/2  |         hxxps://g-google[.]hl[.]cn          |    仿冒 Chrome、传播病毒    | hxxps://onesevenonenine[.]oss-us-east-1[.]aliyuncs[.]com/win32-chrome[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3788421) | Z169 |
+| 2026/3/2  |         hxxps://l-google[.]hl[.]cn          |    仿冒 Chrome、传播病毒    | hxxps://360uvip[.]com/?explorer/share/file&hash=3f5eM-IqMGcGte_hYnxM_evOFVY95DSUW_KjFyh0LztgMeTkZBnxu9lE9ax_W-XCSw&name=/Zh_Google_Chromex[.]zip |                            无                            | Z170 |
+| 2026/3/2  |      hxxps://chrome-gooogle[.]com[.]cn      |    仿冒 Chrome、传播病毒    |             hxxps://dowsws[.]top/chromasc[.]zip              |                            无                            | Z171 |
+| 2026/3/2  |      hxxps://www[.]zh-chrome[.]hl[.]cn      |    仿冒 Chrome、传播病毒    | hxxps://chromitem[.]oss-cn-hongkong[.]aliyuncs[.]com/Chrome_Setnp222[.]zip |                            无                            | Z172 |
+| 2026/3/2  |        hxxps://bing-google[.]hl[.]cn        |    仿冒 Chrome、传播病毒    |                              有                              |                            无                            | Z173 |
+| 2026/3/4  |        hxxps://cn-sogoushurufa[.]com        |  仿冒搜狗输入法、传播病毒   | hxxps://www[.]sogou-shurufa[.]help/%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95[.]exe | [URLhaus Database](https://urlhaus.abuse.ch/url/3789357) | Z174 |
+| 2026/3/4  |         hxxps://sogoushurufa5[.]com         |  仿冒搜狗输入法、传播病毒   | hxxps://www[.]sogou-shurufa[.]help/%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95[.]exe | [URLhaus Database](https://urlhaus.abuse.ch/url/3789357) | Z175 |
+| 2026/3/4  |          hxxps://oraypc[.]com[.]cn          |    仿冒向日葵、传播病毒     |         hxxps://oraypc[.]com[.]cn/sun_oray_x64[.]zip         | [URLhaus Database](https://urlhaus.abuse.ch/url/3789483) | Z176 |
+| 2026/3/4  |             hxxps://orayz[.]com             |    仿冒向日葵、传播病毒     | hxxps://orayz[.]com/AweSun_16[.]0[.]0[.]22931_x64_patched[.]exe | [URLhaus Database](https://urlhaus.abuse.ch/url/3789482) | Z177 |
 |  ——————   |            ————————————————————             |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
