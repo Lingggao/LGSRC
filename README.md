@@ -71,7 +71,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 15 日 11:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 15 日 17:00 (GMT+8)
 
 &emsp;&emsp;**截至 2026 年 3 月 15 日，已打击计算机病毒 / 恶意软件 621 个、恶意网站 200 个**。
 
@@ -108,9 +108,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/15 |        test10.exe        |  **Win64/Malgent!MSR**   | a4ed49e3cc91c3856fd927ecaabdc1b99ef8541a111239f6a9ee6a65a271f74f | b9b26547-7c78-43b8-b649-7943b07b7ca8 | [VirusTotal](https://www.virustotal.com/gui/file/a4ed49e3cc91c3856fd927ecaabdc1b99ef8541a111239f6a9ee6a65a271f74f) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a4ed49e3cc91c3856fd927ecaabdc1b99ef8541a111239f6a9ee6a65a271f74f) | A616 |
 | 2026/3/15 |   ChoneSetup···win.msi   |   **银狐 (SilverFox)**   | 2530025bd1fced9443a32079db97f9023a11968ec353f52adf73a8da0edd9daa | 3844cc65-3b6f-4d05-aa68-a6992ad78136 | [VirusTotal](https://www.virustotal.com/gui/file/2530025bd1fced9443a32079db97f9023a11968ec353f52adf73a8da0edd9daa) (21) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/2530025bd1fced9443a32079db97f9023a11968ec353f52adf73a8da0edd9daa) | A617 |
 | 2026/3/15 |    Chrome333-x64.exe     |   **银狐 (SilverFox)**   | a777e1f816f6554cce97f5d71dc6814c30e6806ca6337ca04fd08f9e94b65e90 | 213803c2-fb3b-4c04-9692-5d1bba7a4f88 | [VirusTotal](https://www.virustotal.com/gui/file/a777e1f816f6554cce97f5d71dc6814c30e6806ca6337ca04fd08f9e94b65e90) (29) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a777e1f816f6554cce97f5d71dc6814c30e6806ca6337ca04fd08f9e94b65e90) | A618 |
-| 2026/3/15 |   goodgle-chome···.msi   |      **Agent_AGen**      | 44ebe9b37b600f533b1d15e068829289251b85248752a213327236d2e4081493 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/44ebe9b37b600f533b1d15e068829289251b85248752a213327236d2e4081493) (9) |                  [MalwareBazaar Database]()                  | A619 |
+| 2026/3/15 |   goodgle-chome···.msi   |  **Win64/Malgent!MSR**   | 44ebe9b37b600f533b1d15e068829289251b85248752a213327236d2e4081493 | ca2b7e63-9300-45a0-a44b-4c0cffae526b | [VirusTotal](https://www.virustotal.com/gui/file/44ebe9b37b600f533b1d15e068829289251b85248752a213327236d2e4081493) (9) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/44ebe9b37b600f533b1d15e068829289251b85248752a213327236d2e4081493) | A619 |
 | 2026/3/15 |   googlechr1.18···.msi   |   **银狐 (SilverFox)**   | d0655d9aa00a1e92b6b66ae9818b9e75234a515e550db729f6754443d5991324 | 4829b095-365c-48be-bf79-a96afaccde38 | [VirusTotal](https://www.virustotal.com/gui/file/d0655d9aa00a1e92b6b66ae9818b9e75234a515e550db729f6754443d5991324) (17) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/d0655d9aa00a1e92b6b66ae9818b9e75234a515e550db729f6754443d5991324) | A620 |
-| 2026/3/15 |       YnA2FjA.zip        |   **银狐 (SilverFox)**   | e23585aefbb887977440af86195fe0ebf7763e10f2255217dbde7c1545de0a27 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/e23585aefbb887977440af86195fe0ebf7763e10f2255217dbde7c1545de0a27) (4) |                  [MalwareBazaar Database]()                  | A621 |
+| 2026/3/15 |       YnA2FjA.zip        |   **银狐 (SilverFox)**   | e23585aefbb887977440af86195fe0ebf7763e10f2255217dbde7c1545de0a27 | dce0d68f-4775-405e-9319-4695942247c8 | [VirusTotal](https://www.virustotal.com/gui/file/e23585aefbb887977440af86195fe0ebf7763e10f2255217dbde7c1545de0a27) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/e23585aefbb887977440af86195fe0ebf7763e10f2255217dbde7c1545de0a27) | A621 |
 |  ——————   |       ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
