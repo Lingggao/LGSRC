@@ -71,7 +71,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 16 日 3:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 16 日 8:00 (GMT+8)
 
 &emsp;&emsp;**截至 2026 年 3 月 16 日，已打击计算机病毒 / 恶意软件 626 个、恶意网站 201 个**。
 
@@ -110,7 +110,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/15 |    WPS_Setup-unui.exe    |      **Cybercrime**      | 16fe8aaf86bc90b885dd8de046ad0c63d701bd24994e2358465ada973f77f0ea | 8b2e4a6c-c92f-45c6-9c3a-7ed2083727f1 | [VirusTotal](https://www.virustotal.com/gui/file/16fe8aaf86bc90b885dd8de046ad0c63d701bd24994e2358465ada973f77f0ea) (2) |                              无                              | A623 |
 | 2026/3/15 |   WPSoffice···2192.exe   |   **银狐 (SilverFox)**   | cdb22eef3c6ca456de12db3346833f7a8a97fa74bfe63b3bb9a2550278ec5a66 | d5dcd2b0-f297-47c4-be27-33185a192ed4 | [VirusTotal](https://www.virustotal.com/gui/file/cdb22eef3c6ca456de12db3346833f7a8a97fa74bfe63b3bb9a2550278ec5a66) (5) |                              无                              | A624 |
 | 2026/3/15 |    通道账单错误b.exe     |         **XRed**         | 9b2dd6b539336506d71d98f840e902cdf0f60b1cabf3d163a725453a8eb97aca | efcfe552-480c-4b77-bdd0-af1a65c7718a | [VirusTotal](https://www.virustotal.com/gui/file/9b2dd6b539336506d71d98f840e902cdf0f60b1cabf3d163a725453a8eb97aca) (62) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/9b2dd6b539336506d71d98f840e902cdf0f60b1cabf3d163a725453a8eb97aca) | A625 |
-| 2026/3/16 |          10.exe          | **银狐 (SilverFox.se)**  | ad892972e9788fff31f5f166da937d1229c7970d6e0c693164b2f484dd0c9aba |                                      | [VirusTotal](https://www.virustotal.com/gui/file/ad892972e9788fff31f5f166da937d1229c7970d6e0c693164b2f484dd0c9aba) (9) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/ad892972e9788fff31f5f166da937d1229c7970d6e0c693164b2f484dd0c9aba) | A626 |
+| 2026/3/16 |          10.exe          | **银狐 (SilverFox.se)**  | ad892972e9788fff31f5f166da937d1229c7970d6e0c693164b2f484dd0c9aba | 2c9617ad-c02a-48ad-b619-88c21d9cacbf | [VirusTotal](https://www.virustotal.com/gui/file/ad892972e9788fff31f5f166da937d1229c7970d6e0c693164b2f484dd0c9aba) (9) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/ad892972e9788fff31f5f166da937d1229c7970d6e0c693164b2f484dd0c9aba) | A626 |
 |  ——————   |       ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
