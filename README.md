@@ -71,9 +71,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 16 日 2:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 16 日 3:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 3 月 16 日，已打击计算机病毒 / 恶意软件 626 个、恶意网站 200 个**。
+&emsp;&emsp;**截至 2026 年 3 月 16 日，已打击计算机病毒 / 恶意软件 626 个、恶意网站 201 个**。
 
 ---
 
@@ -107,9 +107,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/15 |   googlechr1.18···.msi   |   **银狐 (SilverFox)**   | d0655d9aa00a1e92b6b66ae9818b9e75234a515e550db729f6754443d5991324 | 4829b095-365c-48be-bf79-a96afaccde38 | [VirusTotal](https://www.virustotal.com/gui/file/d0655d9aa00a1e92b6b66ae9818b9e75234a515e550db729f6754443d5991324) (17) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/d0655d9aa00a1e92b6b66ae9818b9e75234a515e550db729f6754443d5991324) | A620 |
 | 2026/3/15 |       YnA2FjA.zip        |   **银狐 (SilverFox)**   | e23585aefbb887977440af86195fe0ebf7763e10f2255217dbde7c1545de0a27 | dce0d68f-4775-405e-9319-4695942247c8 | [VirusTotal](https://www.virustotal.com/gui/file/e23585aefbb887977440af86195fe0ebf7763e10f2255217dbde7c1545de0a27) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/e23585aefbb887977440af86195fe0ebf7763e10f2255217dbde7c1545de0a27) | A621 |
 | 2026/3/15 |       LetsVPN.exe        |   **银狐 (SilverFox)**   | 8f4140708cdf0fe3b39a055c4d55539e3e46202eb684f723855d34150783f73c | b988cc0a-a891-4b7d-99ca-5a254c907fec | [VirusTotal](https://www.virustotal.com/gui/file/8f4140708cdf0fe3b39a055c4d55539e3e46202eb684f723855d34150783f73c) (3) |                              无                              | A622 |
-| 2026/3/15 |    WPS_Setup-unui.exe    |      **Cybercrime**      | 16fe8aaf86bc90b885dd8de046ad0c63d701bd24994e2358465ada973f77f0ea |                                      | [VirusTotal](https://www.virustotal.com/gui/file/16fe8aaf86bc90b885dd8de046ad0c63d701bd24994e2358465ada973f77f0ea) (2) |                              无                              | A623 |
+| 2026/3/15 |    WPS_Setup-unui.exe    |      **Cybercrime**      | 16fe8aaf86bc90b885dd8de046ad0c63d701bd24994e2358465ada973f77f0ea | 8b2e4a6c-c92f-45c6-9c3a-7ed2083727f1 | [VirusTotal](https://www.virustotal.com/gui/file/16fe8aaf86bc90b885dd8de046ad0c63d701bd24994e2358465ada973f77f0ea) (2) |                              无                              | A623 |
 | 2026/3/15 |   WPSoffice···2192.exe   |   **银狐 (SilverFox)**   | cdb22eef3c6ca456de12db3346833f7a8a97fa74bfe63b3bb9a2550278ec5a66 | d5dcd2b0-f297-47c4-be27-33185a192ed4 | [VirusTotal](https://www.virustotal.com/gui/file/cdb22eef3c6ca456de12db3346833f7a8a97fa74bfe63b3bb9a2550278ec5a66) (5) |                              无                              | A624 |
-| 2026/3/15 |    通道账单错误b.exe     |         **XRed**         | 9b2dd6b539336506d71d98f840e902cdf0f60b1cabf3d163a725453a8eb97aca |                                      | [VirusTotal](https://www.virustotal.com/gui/file/9b2dd6b539336506d71d98f840e902cdf0f60b1cabf3d163a725453a8eb97aca) (62) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/9b2dd6b539336506d71d98f840e902cdf0f60b1cabf3d163a725453a8eb97aca) | A625 |
+| 2026/3/15 |    通道账单错误b.exe     |         **XRed**         | 9b2dd6b539336506d71d98f840e902cdf0f60b1cabf3d163a725453a8eb97aca | efcfe552-480c-4b77-bdd0-af1a65c7718a | [VirusTotal](https://www.virustotal.com/gui/file/9b2dd6b539336506d71d98f840e902cdf0f60b1cabf3d163a725453a8eb97aca) (62) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/9b2dd6b539336506d71d98f840e902cdf0f60b1cabf3d163a725453a8eb97aca) | A625 |
 | 2026/3/16 |          10.exe          | **银狐 (SilverFox.se)**  | ad892972e9788fff31f5f166da937d1229c7970d6e0c693164b2f484dd0c9aba |                                      | [VirusTotal](https://www.virustotal.com/gui/file/ad892972e9788fff31f5f166da937d1229c7970d6e0c693164b2f484dd0c9aba) (9) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/ad892972e9788fff31f5f166da937d1229c7970d6e0c693164b2f484dd0c9aba) | A626 |
 |  ——————   |       ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
@@ -150,6 +150,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/15 |   hxxps://zh[.]support-google[.]hl[.]cn    | 仿冒 Chrome、传播病毒  | hxxps://sgnfyn[.]oss-cn-shenzhen[.]aliyuncs[.]com/googlechr1[.]18[.]9[.]83[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3796606) | Z198 |
 | 2026/3/15 |       hxxps://zh-cn-google[.]hl[.]cn       | 仿冒 Chrome、传播病毒  |           hxxps://tenyunat-99viplawt[.]com/QQGSYLX           |                            无                            | Z199 |
 | 2026/3/15 |     hxxps://cn[.]google-zhcn[.]hl[.]cn     | 仿冒 Chrome、传播病毒  | hxxps://sgnfyn[.]oss-cn-shenzhen[.]aliyuncs[.]com/goodgle-chomex16[.]83[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3796605) | Z200 |
+| 2026/3/16 |    hxxps://www[.]cc-openclaw[.]com[.]cn    |  仿冒 OpenClaw “龙虾”  |    hxxp://www[.]web-openclaw[.]com[.]cn/pc/openclaw[.]zip    |                            无                            | Z201 |
 |  ——————   |            ————————————————————            |    ———————————————     |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
