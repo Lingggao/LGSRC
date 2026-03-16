@@ -71,7 +71,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 16 日 19:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 16 日 22:00 (GMT+8)
 
 &emsp;&emsp;**截至 2026 年 3 月 16 日，已打击计算机病毒 / 恶意软件 629 个、恶意网站 201 个**。
 
@@ -106,8 +106,8 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/15 |  WPSoffice···2192.exe  |   **银狐 (SilverFox)**   | cdb22eef3c6ca456de12db3346833f7a8a97fa74bfe63b3bb9a2550278ec5a66 | d5dcd2b0-f297-47c4-be27-33185a192ed4 | [VirusTotal](https://www.virustotal.com/gui/file/cdb22eef3c6ca456de12db3346833f7a8a97fa74bfe63b3bb9a2550278ec5a66) (5) |                              无                              | A624 |
 | 2026/3/15 |   通道账单错误b.exe    |         **XRed**         | 9b2dd6b539336506d71d98f840e902cdf0f60b1cabf3d163a725453a8eb97aca | efcfe552-480c-4b77-bdd0-af1a65c7718a | [VirusTotal](https://www.virustotal.com/gui/file/9b2dd6b539336506d71d98f840e902cdf0f60b1cabf3d163a725453a8eb97aca) (62) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/9b2dd6b539336506d71d98f840e902cdf0f60b1cabf3d163a725453a8eb97aca) | A625 |
 | 2026/3/16 |         10.exe         | **银狐 (SilverFox.se)**  | ad892972e9788fff31f5f166da937d1229c7970d6e0c693164b2f484dd0c9aba | 2c9617ad-c02a-48ad-b619-88c21d9cacbf | [VirusTotal](https://www.virustotal.com/gui/file/ad892972e9788fff31f5f166da937d1229c7970d6e0c693164b2f484dd0c9aba) (9) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/ad892972e9788fff31f5f166da937d1229c7970d6e0c693164b2f484dd0c9aba) | A626 |
-| 2026/3/16 | ···违纪人员内部···.exe | **银狐 (SilverFox.bg)**  | e6d8944deced4b6ec228cb1af210eb19d527107af2688b401de5503174bc1fbe |                                      | [VirusTotal](https://www.virustotal.com/gui/file/e6d8944deced4b6ec228cb1af210eb19d527107af2688b401de5503174bc1fbe) (10) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/e6d8944deced4b6ec228cb1af210eb19d527107af2688b401de5503174bc1fbe) | A627 |
-| 2026/3/16 |  GoogleDesktop···.exe  |      **Cybercrime**      | f9e250e824d18723366085f451f84c21d6db5ffed876ce0474018840c783f2fc |                                      | [VirusTotal](https://www.virustotal.com/gui/file/f9e250e824d18723366085f451f84c21d6db5ffed876ce0474018840c783f2fc) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/f9e250e824d18723366085f451f84c21d6db5ffed876ce0474018840c783f2fc) | A628 |
+| 2026/3/16 | ···违纪人员内部···.exe | **银狐 (SilverFox.bg)**  | e6d8944deced4b6ec228cb1af210eb19d527107af2688b401de5503174bc1fbe | eec84c4f-3100-4270-bee0-e9103eef688a | [VirusTotal](https://www.virustotal.com/gui/file/e6d8944deced4b6ec228cb1af210eb19d527107af2688b401de5503174bc1fbe) (10) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/e6d8944deced4b6ec228cb1af210eb19d527107af2688b401de5503174bc1fbe) | A627 |
+| 2026/3/16 |  GoogleDesktop···.exe  |      **Cybercrime**      | f9e250e824d18723366085f451f84c21d6db5ffed876ce0474018840c783f2fc | 8388fa70-cc58-4675-bbcc-0abe17b0b055 | [VirusTotal](https://www.virustotal.com/gui/file/f9e250e824d18723366085f451f84c21d6db5ffed876ce0474018840c783f2fc) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/f9e250e824d18723366085f451f84c21d6db5ffed876ce0474018840c783f2fc) | A628 |
 | 2026/3/16 | ···违规内职人员···.exe | **银狐 (SilverFox.bg)**  | 2619cce529ebb02892ccad1587de1d113d76a6bcb5d9a5f8fa1187b7105435f3 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/2619cce529ebb02892ccad1587de1d113d76a6bcb5d9a5f8fa1187b7105435f3) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/2619cce529ebb02892ccad1587de1d113d76a6bcb5d9a5f8fa1187b7105435f3) | A629 |
 |  ——————   |      ————————————      |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
