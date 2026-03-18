@@ -71,7 +71,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 18 日 20:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 18 日 23:00 (GMT+8)
 
 &emsp;&emsp;**截至 2026 年 3 月 18 日，已打击计算机病毒 / 恶意软件 645 个、恶意网站 207 个**。
 
@@ -108,8 +108,8 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/18 |        Dwglq.msi        |      **MalGeneric**      | 5075629ddefbf08fbe8f75fb61007ef8ca5c73a146d9832a961b5c0b5832f96f | 32450b3e-f247-4f94-8da2-e6f40f92094a | [VirusTotal](https://www.virustotal.com/gui/file/5075629ddefbf08fbe8f75fb61007ef8ca5c73a146d9832a961b5c0b5832f96f) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5075629ddefbf08fbe8f75fb61007ef8ca5c73a146d9832a961b5c0b5832f96f) | A641 |
 | 2026/3/18 |       Google.msi        | **银狐 (SilverFox.cw)**  | 1c38dde07bc7b0367f7bc0386d7f3e2b1114eb70e83f7224efc0b2b2aac09eee | 065d111a-ea4b-47ab-a40f-ea1ca34d3e69 | [VirusTotal](https://www.virustotal.com/gui/file/1c38dde07bc7b0367f7bc0386d7f3e2b1114eb70e83f7224efc0b2b2aac09eee) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/1c38dde07bc7b0367f7bc0386d7f3e2b1114eb70e83f7224efc0b2b2aac09eee) | A642 |
 | 2026/3/18 |  liulanSetup-1263.msi   | **银狐 (SilverFox.cw)**  | b533d1c8a7e56f703c78fb58f2327489cf3b4141e0d0305a9e1f636f886ab2da | 4e3b8658-f707-4496-84b4-e3366842faea | [VirusTotal](https://www.virustotal.com/gui/file/b533d1c8a7e56f703c78fb58f2327489cf3b4141e0d0305a9e1f636f886ab2da) (3) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b533d1c8a7e56f703c78fb58f2327489cf3b4141e0d0305a9e1f636f886ab2da) | A643 |
-| 2026/3/18 |    SystemMain···.zip    |          研究中          | 94cad288a51b1aec90e69238e04c076d70139945cb2b5c44c437642b83318638 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/94cad288a51b1aec90e69238e04c076d70139945cb2b5c44c437642b83318638) (43) |                  [MalwareBazaar Database]()                  | A644 |
-| 2026/3/18 |   データレポート.zip    | **银狐 (SilverFox.so)**  | aa87d8ffd707a18c3ea048dec53bf5f952ccf97c810448d5ac22fffecd99397d |                                      | [VirusTotal](https://www.virustotal.com/gui/file/aa87d8ffd707a18c3ea048dec53bf5f952ccf97c810448d5ac22fffecd99397d) (24) |                  [MalwareBazaar Database]()                  | A645 |
+| 2026/3/18 |    SystemMain···.zip    |         **Tedy**         | 94cad288a51b1aec90e69238e04c076d70139945cb2b5c44c437642b83318638 | e072a945-bd24-470b-baaa-119b112b507f | [VirusTotal](https://www.virustotal.com/gui/file/94cad288a51b1aec90e69238e04c076d70139945cb2b5c44c437642b83318638) (43) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/94cad288a51b1aec90e69238e04c076d70139945cb2b5c44c437642b83318638) | A644 |
+| 2026/3/18 |   データレポート.zip    | **银狐 (SilverFox.so)**  | aa87d8ffd707a18c3ea048dec53bf5f952ccf97c810448d5ac22fffecd99397d | 90247b8e-e290-42cd-b63a-3843e4f94c32 | [VirusTotal](https://www.virustotal.com/gui/file/aa87d8ffd707a18c3ea048dec53bf5f952ccf97c810448d5ac22fffecd99397d) (24) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/aa87d8ffd707a18c3ea048dec53bf5f952ccf97c810448d5ac22fffecd99397d) | A645 |
 |  ——————   |      ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
