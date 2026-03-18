@@ -187,6 +187,13 @@
 | 2026/3/4  |         hxxps://sogoushurufa5[.]com         |  仿冒搜狗输入法、传播病毒   | hxxps://www[.]sogou-shurufa[.]help/%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95[.]exe | [URLhaus Database](https://urlhaus.abuse.ch/url/3789357) | Z175 |
 | 2026/3/4  |          hxxps://oraypc[.]com[.]cn          |    仿冒向日葵、传播病毒     |         hxxps://oraypc[.]com[.]cn/sun_oray_x64[.]zip         | [URLhaus Database](https://urlhaus.abuse.ch/url/3789483) | Z176 |
 | 2026/3/4  |             hxxps://orayz[.]com             |    仿冒向日葵、传播病毒     | hxxps://orayz[.]com/AweSun_16[.]0[.]0[.]22931_x64_patched[.]exe | [URLhaus Database](https://urlhaus.abuse.ch/url/3789482) | Z177 |
+| 2026/3/5  |       hxxps://zh-cn-google[.]hl[.]cn        |    仿冒 Chrome、传播病毒    |           hxxps://tenyunat-99viplawt[.]com/QQGSYLX           | [URLhaus Database](https://urlhaus.abuse.ch/url/3790137) | Z178 |
+| 2026/3/6  |           hxxps://kdocs-cn[.]com            |   仿冒金山文档、传播病毒    |     hxxps://down[.]wps-kdocs[.]com/jinshandocs-x86[.]zip     | [URLhaus Database](https://urlhaus.abuse.ch/url/3790481) | Z179 |
+| 2026/3/7  |        hxxps://www[.]huoronga[.]com         |     仿冒火绒、传播病毒      | hxxps://pub-826b2258a9f74a40abe9ee543f2409a4[.]r2[.]dev/3[.]600Hnevsak[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3791281) | Z180 |
+| 2026/3/7  |   hxxps://hnieodfnoibgnuiowwirodnm[.]com    |     仿冒火绒、传播病毒      | hxxps://pub-826b2258a9f74a40abe9ee543f2409a4[.]r2[.]dev/3[.]600Hnevsak[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3791281) | Z181 |
+| 2026/3/7  |          hxxps://lk-wps[.]com[.]cn          |     仿冒 WPS、传播病毒      |       hxxps://www[.]irbis2000[.]com/WPS_Setup64[.]exe        | [URLhaus Database](https://urlhaus.abuse.ch/url/3791536) | Z182 |
+| 2026/3/9  |       hxxps://zh-cn-google[.]hl[.]cn        |    仿冒 Chrome、传播病毒    |           hxxps://tenyunat-99viplawt[.]com/QQGSYLX           |                            无                            | Z183 |
+| 2026/3/9  |      hxxps://chrroome-google[.]hl[.]cn      |    仿冒 Chrome、传播病毒    | hxxps://www[.]upclouds[.]world/?c=uRrMbiqnQzpXGOE69R5LpRLFN9WsRMGBtn8tmwafDNl3hN2DWS4UNjejTxnBRVb4 |                            无                            | Z184 |
 |  ——————   |            ————————————————————             |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---

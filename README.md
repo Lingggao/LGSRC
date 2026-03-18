@@ -71,9 +71,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 18 日 13:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 18 日 14:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 3 月 18 日，已打击计算机病毒 / 恶意软件 639 个、恶意网站 201 个**。
+&emsp;&emsp;**截至 2026 年 3 月 18 日，已打击计算机病毒 / 恶意软件 643 个、恶意网站 207 个**。
 
 ---
 
@@ -85,11 +85,6 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 |   日期    |         文件名          |           检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :---------------------: | :----------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/3/15 |         aes.exe         |  **Win64/Malgent!MSR**   | 606da9e8d627a1c95a90f876fcc465a741a1750a2c15cf4700f307f4ae108fe9 | aa744150-8f4b-4ea7-a1d8-23e3dc11f9ac | [VirusTotal](https://www.virustotal.com/gui/file/606da9e8d627a1c95a90f876fcc465a741a1750a2c15cf4700f307f4ae108fe9) (19) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/606da9e8d627a1c95a90f876fcc465a741a1750a2c15cf4700f307f4ae108fe9) | A614 |
-| 2026/3/15 |         150.exe         | **银狐 (SilverFox.saf)** | 9c36c34fb6c1bd7af0f8c75ce999cb36a46b90789aca21d0a23167c1db468883 | 6ff29206-1119-4231-a23c-8b2eadb11b97 | [VirusTotal](https://www.virustotal.com/gui/file/9c36c34fb6c1bd7af0f8c75ce999cb36a46b90789aca21d0a23167c1db468883) (19) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/9c36c34fb6c1bd7af0f8c75ce999cb36a46b90789aca21d0a23167c1db468883) | A615 |
-| 2026/3/15 |       test10.exe        |  **Win64/Malgent!MSR**   | a4ed49e3cc91c3856fd927ecaabdc1b99ef8541a111239f6a9ee6a65a271f74f | b9b26547-7c78-43b8-b649-7943b07b7ca8 | [VirusTotal](https://www.virustotal.com/gui/file/a4ed49e3cc91c3856fd927ecaabdc1b99ef8541a111239f6a9ee6a65a271f74f) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a4ed49e3cc91c3856fd927ecaabdc1b99ef8541a111239f6a9ee6a65a271f74f) | A616 |
-| 2026/3/15 |  ChoneSetup···win.msi   |   **银狐 (SilverFox)**   | 2530025bd1fced9443a32079db97f9023a11968ec353f52adf73a8da0edd9daa | 3844cc65-3b6f-4d05-aa68-a6992ad78136 | [VirusTotal](https://www.virustotal.com/gui/file/2530025bd1fced9443a32079db97f9023a11968ec353f52adf73a8da0edd9daa) (21) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/2530025bd1fced9443a32079db97f9023a11968ec353f52adf73a8da0edd9daa) | A617 |
-| 2026/3/15 |    Chrome333-x64.exe    |   **银狐 (SilverFox)**   | a777e1f816f6554cce97f5d71dc6814c30e6806ca6337ca04fd08f9e94b65e90 | 213803c2-fb3b-4c04-9692-5d1bba7a4f88 | [VirusTotal](https://www.virustotal.com/gui/file/a777e1f816f6554cce97f5d71dc6814c30e6806ca6337ca04fd08f9e94b65e90) (29) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a777e1f816f6554cce97f5d71dc6814c30e6806ca6337ca04fd08f9e94b65e90) | A618 |
 | 2026/3/15 |  goodgle-chome···.msi   |  **Win64/Malgent!MSR**   | 44ebe9b37b600f533b1d15e068829289251b85248752a213327236d2e4081493 | ca2b7e63-9300-45a0-a44b-4c0cffae526b | [VirusTotal](https://www.virustotal.com/gui/file/44ebe9b37b600f533b1d15e068829289251b85248752a213327236d2e4081493) (9) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/44ebe9b37b600f533b1d15e068829289251b85248752a213327236d2e4081493) | A619 |
 | 2026/3/15 |  googlechr1.18···.msi   |   **银狐 (SilverFox)**   | d0655d9aa00a1e92b6b66ae9818b9e75234a515e550db729f6754443d5991324 | 4829b095-365c-48be-bf79-a96afaccde38 | [VirusTotal](https://www.virustotal.com/gui/file/d0655d9aa00a1e92b6b66ae9818b9e75234a515e550db729f6754443d5991324) (17) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/d0655d9aa00a1e92b6b66ae9818b9e75234a515e550db729f6754443d5991324) | A620 |
 | 2026/3/15 |       YnA2FjA.zip       |   **银狐 (SilverFox)**   | e23585aefbb887977440af86195fe0ebf7763e10f2255217dbde7c1545de0a27 | dce0d68f-4775-405e-9319-4695942247c8 | [VirusTotal](https://www.virustotal.com/gui/file/e23585aefbb887977440af86195fe0ebf7763e10f2255217dbde7c1545de0a27) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/e23585aefbb887977440af86195fe0ebf7763e10f2255217dbde7c1545de0a27) | A621 |
@@ -111,6 +106,10 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/18 |       asdads.exe        | **银狐 (SilverFox.se)**  | 82135c88fd0af3de7551f55d6cf7670e206b9383fc0a0d0b4166fbbc8c5ace27 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/82135c88fd0af3de7551f55d6cf7670e206b9383fc0a0d0b4166fbbc8c5ace27) (21) |                  [MalwareBazaar Database]()                  | A637 |
 | 2026/3/18 |       wanfeng.exe       |        **Vshell**        | cbbdc9c1a02a8a63fefe971bc390c02e168b41eed5ab81d303c935c7c4b26cee |                                      | [VirusTotal](https://www.virustotal.com/gui/file/cbbdc9c1a02a8a63fefe971bc390c02e168b41eed5ab81d303c935c7c4b26cee) (8) |                  [MalwareBazaar Database]()                  | A638 |
 | 2026/3/18 | ···03.18裁员名单···.exe | **银狐 (SilverFox.bg)**  | 7c2a081ae59caa21bb4cdc56e7ce6f4fe947c75f5ee9a0411787930452cda6a0 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/7c2a081ae59caa21bb4cdc56e7ce6f4fe947c75f5ee9a0411787930452cda6a0) (10) |                  [MalwareBazaar Database]()                  | A639 |
+| 2026/3/18 |    Chro_Setup64.exe     |   **银狐 (SilverFox)**   | e25b887f27c56853d940c58d1fd00eb4db75f7d3831bded6ff5d07514c3c889a |                                      | [VirusTotal](https://www.virustotal.com/gui/file/e25b887f27c56853d940c58d1fd00eb4db75f7d3831bded6ff5d07514c3c889a) (10) |                              无                              | A640 |
+| 2026/3/18 |        Dwglq.msi        |      **MalGeneric**      | 5075629ddefbf08fbe8f75fb61007ef8ca5c73a146d9832a961b5c0b5832f96f |                                      | [VirusTotal](https://www.virustotal.com/gui/file/5075629ddefbf08fbe8f75fb61007ef8ca5c73a146d9832a961b5c0b5832f96f) (6) |                  [MalwareBazaar Database]()                  | A641 |
+| 2026/3/18 |       Google.msi        | **银狐 (SilverFox.cw)**  | 1c38dde07bc7b0367f7bc0386d7f3e2b1114eb70e83f7224efc0b2b2aac09eee |                                      | [VirusTotal](https://www.virustotal.com/gui/file/1c38dde07bc7b0367f7bc0386d7f3e2b1114eb70e83f7224efc0b2b2aac09eee) (5) |                  [MalwareBazaar Database]()                  | A642 |
+| 2026/3/18 |  liulanSetup-1263.msi   | **银狐 (SilverFox.cw)**  | b533d1c8a7e56f703c78fb58f2327489cf3b4141e0d0305a9e1f636f886ab2da |                                      | [VirusTotal](https://www.virustotal.com/gui/file/b533d1c8a7e56f703c78fb58f2327489cf3b4141e0d0305a9e1f636f886ab2da) (3) |                  [MalwareBazaar Database]()                  | A643 |
 |  ——————   |      ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -125,33 +124,32 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 >
 > &emsp;为确保安全，网站地址将用 “hxxps://” 与 “[.]” 进行替换。**切勿尝试访问表格中列出的任何网址**。
 
-|   日期    |                    URL                     |          类别          |                           有效载荷                           |                         URLhaus                          | 编号 |
-| :-------: | :----------------------------------------: | :--------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
-| 2026/3/5  |       hxxps://zh-cn-google[.]hl[.]cn       | 仿冒 Chrome、传播病毒  |           hxxps://tenyunat-99viplawt[.]com/QQGSYLX           | [URLhaus Database](https://urlhaus.abuse.ch/url/3790137) | Z178 |
-| 2026/3/6  |           hxxps://kdocs-cn[.]com           | 仿冒金山文档、传播病毒 |     hxxps://down[.]wps-kdocs[.]com/jinshandocs-x86[.]zip     | [URLhaus Database](https://urlhaus.abuse.ch/url/3790481) | Z179 |
-| 2026/3/7  |        hxxps://www[.]huoronga[.]com        |   仿冒火绒、传播病毒   | hxxps://pub-826b2258a9f74a40abe9ee543f2409a4[.]r2[.]dev/3[.]600Hnevsak[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3791281) | Z180 |
-| 2026/3/7  |   hxxps://hnieodfnoibgnuiowwirodnm[.]com   |   仿冒火绒、传播病毒   | hxxps://pub-826b2258a9f74a40abe9ee543f2409a4[.]r2[.]dev/3[.]600Hnevsak[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3791281) | Z181 |
-| 2026/3/7  |         hxxps://lk-wps[.]com[.]cn          |   仿冒 WPS、传播病毒   |       hxxps://www[.]irbis2000[.]com/WPS_Setup64[.]exe        | [URLhaus Database](https://urlhaus.abuse.ch/url/3791536) | Z182 |
-| 2026/3/9  |       hxxps://zh-cn-google[.]hl[.]cn       | 仿冒 Chrome、传播病毒  |           hxxps://tenyunat-99viplawt[.]com/QQGSYLX           |                            无                            | Z183 |
-| 2026/3/9  |     hxxps://chrroome-google[.]hl[.]cn      | 仿冒 Chrome、传播病毒  | hxxps://www[.]upclouds[.]world/?c=uRrMbiqnQzpXGOE69R5LpRLFN9WsRMGBtn8tmwafDNl3hN2DWS4UNjejTxnBRVb4 |                            无                            | Z184 |
-| 2026/3/9  |  hxxps://google-google-google[.]com[.]cn   | 仿冒 Chrome、传播病毒  |                              无                              |                            无                            | Z185 |
-| 2026/3/9  |         hxxps://im-wps[.]com[.]cn          |   仿冒 WPS、传播病毒   | hxxps://www[.]asdfgsdfgxcvbvcxasd-oss[.]top/WpsOffice_x64%20_v10_win888[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3792813) | Z186 |
-| 2026/3/11 |       hxxps://ai-openclaw[.]com[.]cn       |  仿冒 OpenClaw “龙虾”  | hxxps://www[.]nmysq[.]top/oss/usha/ope/openclawAI%207beAolenc[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3794716) | Z187 |
-| 2026/3/14 |         hxxps://aps-wps[.]com[.]cn         |   仿冒 WPS、传播病毒   |  hxxps://mapt[.]oss-cn-hongkong[.]aliyuncs[.]com/WPS[.]zip   |                            无                            | Z188 |
-| 2026/3/14 |         hxxps://iin-wps[.]com[.]cn         |   仿冒 WPS、传播病毒   | hxxps://www[.]aliyunnorth-oss[.]top/Wps%20Office_x64_%20v1[.]0_win[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3795617) | Z189 |
-| 2026/3/14 |         hxxps://lk-wps[.]com[.]cn          |   仿冒 WPS、传播病毒   | hxxps://wps10[.]oss-cn-hongkong[.]aliyuncs[.]com/wps_Installer_Setup_HH[.]zip |                            无                            | Z190 |
-| 2026/3/14 |         hxxps://pw-wps[.]com[.]cn          |   仿冒 WPS、传播病毒   | hxxps://wps04[.]oss-cn-hongkong[.]aliyuncs[.]com/wps_Installer_Setup_HH[.]zip |                            无                            | Z191 |
-| 2026/3/14 |          hxxps://ps-wps[.]hl[.]cn          |   仿冒 WPS、传播病毒   | hxxps://download[.]xiaodiqiyi[.]com/WPS%20Office%20Setup[.]zip |                            无                            | Z192 |
-| 2026/3/14 |   hxxps://www[.]web-openclaw[.]com[.]cn    |  仿冒 OpenClaw “龙虾”  |   hxxps://www[.]web-openclaw[.]com[.]cn/pc/openclaw[.]zip    |                            无                            | Z193 |
-| 2026/3/15 |    hxxps://cn-google-google[.]com[.]cn     | 仿冒 Chrome、传播病毒  | hxxps://bf-chromefdghd[.]oss-cn-hongkong[.]aliyuncs[.]com/bf-chrome-03-12-01[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3796607) | Z194 |
-| 2026/3/15 |  hxxps://cn[.]cn-chhrome-google[.]hl[.]cn  | 仿冒 Chrome、传播病毒  | hxxps://download[.]google-chrome[.]cyou/downloads/chrome[.]php | [URLhaus Database](https://urlhaus.abuse.ch/url/3796599) | Z195 |
-| 2026/3/15 |    hxxps://zh[.]cn-google-zh[.]hl[.]cn     | 仿冒 Chrome、传播病毒  | hxxps://sgnfyn[.]oss-cn-shenzhen[.]aliyuncs[.]com/goodgle-chomex16[.]83[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3796605) | Z196 |
-| 2026/3/15 | hxxps://www[.]zhcn-google-chrome[.]hl[.]cn | 仿冒 Chrome、传播病毒  | hxxps://download[.]google-chrome[.]cyou/downloads/chrome[.]php | [URLhaus Database](https://urlhaus.abuse.ch/url/3796599) | Z197 |
-| 2026/3/15 |   hxxps://zh[.]support-google[.]hl[.]cn    | 仿冒 Chrome、传播病毒  | hxxps://sgnfyn[.]oss-cn-shenzhen[.]aliyuncs[.]com/googlechr1[.]18[.]9[.]83[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3796606) | Z198 |
-| 2026/3/15 |       hxxps://zh-cn-google[.]hl[.]cn       | 仿冒 Chrome、传播病毒  |           hxxps://tenyunat-99viplawt[.]com/QQGSYLX           |                            无                            | Z199 |
-| 2026/3/15 |     hxxps://cn[.]google-zhcn[.]hl[.]cn     | 仿冒 Chrome、传播病毒  | hxxps://sgnfyn[.]oss-cn-shenzhen[.]aliyuncs[.]com/goodgle-chomex16[.]83[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3796605) | Z200 |
-| 2026/3/16 |    hxxps://www[.]cc-openclaw[.]com[.]cn    |  仿冒 OpenClaw “龙虾”  |    hxxp://www[.]web-openclaw[.]com[.]cn/pc/openclaw[.]zip    |                            无                            | Z201 |
-|  ——————   |            ————————————————————            |    ———————————————     |                ——————————————————————————————                |                        ——————————                        | ———  |
+|   日期    |                    URL                     |         类别          |                           有效载荷                           |                         URLhaus                          | 编号 |
+| :-------: | :----------------------------------------: | :-------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
+| 2026/3/9  |  hxxps://google-google-google[.]com[.]cn   | 仿冒 Chrome、传播病毒 |                              无                              |                            无                            | Z185 |
+| 2026/3/9  |         hxxps://im-wps[.]com[.]cn          |  仿冒 WPS、传播病毒   | hxxps://www[.]asdfgsdfgxcvbvcxasd-oss[.]top/WpsOffice_x64%20_v10_win888[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3792813) | Z186 |
+| 2026/3/11 |       hxxps://ai-openclaw[.]com[.]cn       | 仿冒 OpenClaw “龙虾”  | hxxps://www[.]nmysq[.]top/oss/usha/ope/openclawAI%207beAolenc[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3794716) | Z187 |
+| 2026/3/14 |         hxxps://aps-wps[.]com[.]cn         |  仿冒 WPS、传播病毒   |  hxxps://mapt[.]oss-cn-hongkong[.]aliyuncs[.]com/WPS[.]zip   |                            无                            | Z188 |
+| 2026/3/14 |         hxxps://iin-wps[.]com[.]cn         |  仿冒 WPS、传播病毒   | hxxps://www[.]aliyunnorth-oss[.]top/Wps%20Office_x64_%20v1[.]0_win[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3795617) | Z189 |
+| 2026/3/14 |         hxxps://lk-wps[.]com[.]cn          |  仿冒 WPS、传播病毒   | hxxps://wps10[.]oss-cn-hongkong[.]aliyuncs[.]com/wps_Installer_Setup_HH[.]zip |                            无                            | Z190 |
+| 2026/3/14 |         hxxps://pw-wps[.]com[.]cn          |  仿冒 WPS、传播病毒   | hxxps://wps04[.]oss-cn-hongkong[.]aliyuncs[.]com/wps_Installer_Setup_HH[.]zip |                            无                            | Z191 |
+| 2026/3/14 |          hxxps://ps-wps[.]hl[.]cn          |  仿冒 WPS、传播病毒   | hxxps://download[.]xiaodiqiyi[.]com/WPS%20Office%20Setup[.]zip |                            无                            | Z192 |
+| 2026/3/14 |   hxxps://www[.]web-openclaw[.]com[.]cn    | 仿冒 OpenClaw “龙虾”  |   hxxps://www[.]web-openclaw[.]com[.]cn/pc/openclaw[.]zip    |                            无                            | Z193 |
+| 2026/3/15 |    hxxps://cn-google-google[.]com[.]cn     | 仿冒 Chrome、传播病毒 | hxxps://bf-chromefdghd[.]oss-cn-hongkong[.]aliyuncs[.]com/bf-chrome-03-12-01[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3796607) | Z194 |
+| 2026/3/15 |  hxxps://cn[.]cn-chhrome-google[.]hl[.]cn  | 仿冒 Chrome、传播病毒 | hxxps://download[.]google-chrome[.]cyou/downloads/chrome[.]php | [URLhaus Database](https://urlhaus.abuse.ch/url/3796599) | Z195 |
+| 2026/3/15 |    hxxps://zh[.]cn-google-zh[.]hl[.]cn     | 仿冒 Chrome、传播病毒 | hxxps://sgnfyn[.]oss-cn-shenzhen[.]aliyuncs[.]com/goodgle-chomex16[.]83[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3796605) | Z196 |
+| 2026/3/15 | hxxps://www[.]zhcn-google-chrome[.]hl[.]cn | 仿冒 Chrome、传播病毒 | hxxps://download[.]google-chrome[.]cyou/downloads/chrome[.]php | [URLhaus Database](https://urlhaus.abuse.ch/url/3796599) | Z197 |
+| 2026/3/15 |   hxxps://zh[.]support-google[.]hl[.]cn    | 仿冒 Chrome、传播病毒 | hxxps://sgnfyn[.]oss-cn-shenzhen[.]aliyuncs[.]com/googlechr1[.]18[.]9[.]83[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3796606) | Z198 |
+| 2026/3/15 |       hxxps://zh-cn-google[.]hl[.]cn       | 仿冒 Chrome、传播病毒 |           hxxps://tenyunat-99viplawt[.]com/QQGSYLX           |                            无                            | Z199 |
+| 2026/3/15 |     hxxps://cn[.]google-zhcn[.]hl[.]cn     | 仿冒 Chrome、传播病毒 | hxxps://sgnfyn[.]oss-cn-shenzhen[.]aliyuncs[.]com/goodgle-chomex16[.]83[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3796605) | Z200 |
+| 2026/3/16 |    hxxps://www[.]cc-openclaw[.]com[.]cn    | 仿冒 OpenClaw “龙虾”  |    hxxp://www[.]web-openclaw[.]com[.]cn/pc/openclaw[.]zip    |                            无                            | Z201 |
+| 2026/3/18 |    hxxps://google-google-web[.]hl[.]cn     | 仿冒 Chrome、传播病毒 |          https://www.irbis2000.com/Chro_Setup64.exe          |                            无                            | Z202 |
+| 2026/3/18 |    hxxps://chromeapps-google[.]com[.]cn    | 仿冒 Chrome、传播病毒 |                              无                              |                            无                            | Z203 |
+| 2026/3/18 |      hxxps://chrom-gooogle[.]com[.]cn      | 仿冒 Chrome、传播病毒 |          https://hjendcs.x98665.com/liulanSetup.zip          |                            无                            | Z204 |
+| 2026/3/18 |    hxxps://ad-google-google[.]com[.]cn     | 仿冒 Chrome、传播病毒 |              https://tranyasy.com.cn/Google.zip              |                            无                            | Z205 |
+| 2026/3/18 |      hxxps://cn-gooogle-zh[.]hl[.]cn       | 仿冒 Chrome、传播病毒 |       https://daw.tos-cn-hongkong.volces.com/Dwglq.zip       |                            无                            | Z206 |
+| 2026/3/18 |  hxxps://cn[.]h-google-google[.]com[.]cn   | 仿冒 Chrome、传播病毒 |                              无                              |                            无                            | Z207 |
+|  ——————   |            ————————————————————            |    ———————————————    |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
 >
