@@ -2,7 +2,9 @@ VT-Insight_OpenClaw Skill_ZH-CN.md
 
 请将本文档作为 Skill 在 OpenClaw 中安装。
 
-Skill 版本：1.0.0
+作者：Ling Gao (微软安全顾问)
+
+Skill 版本：1.0.1
 
 # VirusTotal 样本查询技能
 
