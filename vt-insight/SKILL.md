@@ -6,7 +6,7 @@ vt-insight_OpenClaw_Skill_ZH-CN
 
 作者：Ling Gao (微软安全顾问)
 
-Skill 版本：1.2.6
+Skill 版本：1.2.7
 
 作者声明拥有此技能的所有权，并同意遵循 MIT-0 许可协议进行发布。
 
@@ -45,7 +45,9 @@ The author holds the rights to this skill and agrees to publish it under MIT-0.
 |    ESET-NOD32    | {results} |       Avast        | {results} |
 |   BitDefender    | {results} | CrowdStrike Falcon | {results} |
 
-要求 3：{conclusion} 位置需整理并输出 VirusTotal 平台中所有可能对安全研究员有重要价值的关键信息，由 AI 模型自行甄别并整理。
+要求 3：需特别留意上方表格排版，确保检测结果已正确加粗，避免露出星号。
+
+要求 4：{conclusion} 位置需整理并输出 VirusTotal 平台中所有可能对安全研究员有重要价值的关键信息，由 AI 模型自行甄别并整理。
 
 **必须严格按照以下格式输出**：
 
