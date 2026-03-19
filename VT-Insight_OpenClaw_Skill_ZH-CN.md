@@ -2,9 +2,11 @@ VT-Insight_OpenClaw Skill_ZH-CN.md
 
 请将本文档作为 Skill 在 OpenClaw 中安装。
 
+名称：VT-Insight
+
 作者：Ling Gao (微软安全顾问)
 
-Skill 版本：1.1.0
+Skill 版本：1.1.2
 
 # VirusTotal 样本查询技能
 
@@ -26,7 +28,7 @@ Skill 版本：1.1.0
 
 ## 输出格式
 
-要求 1：{family} 只用一串字符说明家族。{family profile} 则用几句话总结家族，一般不超过 50 汉字。
+要求 1：{family} 只用一串字符说明家族；{family profile} 则用几句话总结家族，一般不超过 50 汉字。
 
 要求 2：{statistical table} 格式要求如下。表格中仅列出如下 12 个杀毒引擎，不得自行增删。如果对应引擎未检出或不可用，则应填写 “未检出” 或 “不可用” (不加粗)。如果检出，需将检测结果加粗。
 
