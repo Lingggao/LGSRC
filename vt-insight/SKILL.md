@@ -6,7 +6,7 @@ vt-insight_OpenClaw_Skill_ZH-CN
 
 作者：Ling Gao (微软安全顾问)
 
-Skill 版本：1.2.0
+Skill 版本：1.2.5
 
 作者声明拥有此技能的所有权，并同意遵循 MIT-0 许可协议进行发布。
 
@@ -16,10 +16,10 @@ The author holds the rights to this skill and agrees to publish it under MIT-0.
 
 根据用户提供的 SHA256 / MD5，自动在 VirusTotal 平台查询样本信息。
 
-1. 检测统计：测试了多少个杀毒引擎，其中多少个报毒
+1. 检测统计：测试了多少个反病毒引擎，其中多少个报毒
 2. 家族标签：各杀毒软件厂商普遍判定的恶意软件家族
 3. 文件名：样本首次提交时的原始文件名
-4. 沙箱分析：提取对安全研究员有价值的信息
+4. 行为分析：提取对安全研究员有价值的信息
 
 ## 使用方式
 
@@ -32,9 +32,9 @@ The author holds the rights to this skill and agrees to publish it under MIT-0.
 
 ## 输出格式
 
-要求 1：{family} 只用一串字符说明家族；{family profile} 则用几句话总结家族，一般不超过 50 个汉字。
+要求 1：{family} 只用一串字符说明家族；{family profile} 用几句话总结家族，一般不超过 50 个汉字。
 
-要求 2：{statistical table} 格式要求如下。表格中仅列出以下 12 个杀毒引擎，不得自行增删。如果对应引擎未检出或不可用，则应填入 “未检出” 或 “不可用” (不加粗)。如果检出，需将检测结果加粗。
+要求 2：{statistical table} 格式要求如下。表格中仅列出以下 12 款反病毒引擎，不得自行增删。如果对应引擎未检出或不可用，则填入 “未检出” 或 “不可用” (不加粗)。如果检出，需将检测结果加粗。
 
 |       引擎       |   检测    |        引擎        |   检测    |
 | :--------------: | :-------: | :----------------: | :-------: |
@@ -50,34 +50,38 @@ The author holds the rights to this skill and agrees to publish it under MIT-0.
 **必须严格按以下格式输出**：
 
 ```
-(换行)
-
-# 查询报告 (注：一级标题)
+--- (注：分隔线，下同)
+**查询报告**
 
 原始文件名：{filename}
 MD5：{MD5 hash}
 SHA256：{SHA256 hash}
-VirusTotal：www.virustotal.com/gui/search/{hash}
+上次分析日期：{date}
+VirusTotal：virustotal.com/gui/search/{hash}
 
-## 检测统计 (注：二级标题)
+---
+**检测统计**
 
-共测试 {total} (需加粗) 个安全引擎，其中 {malicious} (需加粗) 个将其判定为恶意软件。
+共测试 {total} (需加粗) 款反病毒引擎，其中 {malicious} (需加粗) 款将其判定为恶意软件。
 
 部分引擎检测结果 (需加粗)
 
 {statistical table}
 
-## 家族判定 (注：二级标题)
+---
+**家族判定**
 
 {family} (需加粗)
 
 {family profile} (无需加粗)
 
-## 沙箱分析 (注：二级标题)
+---
+**行为分析**
 
-{behavior} (注：由 AI 模型自行斟酌，可对重点内容加粗)
+{behavior} (注：由 AI 模型自行斟酌，可对重点内容加粗，但占比不宜过多)
 
-## 总结 (注：二级标题)
+---
+**总结**
 
-{conclusion} (注：由 AI 模型自行斟酌，可对重点内容加粗)
+{conclusion} (注：由 AI 模型自行斟酌，可对重点内容加粗，但占比不宜过多)
 ```

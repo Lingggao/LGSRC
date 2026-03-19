@@ -71,9 +71,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 19 日 23:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 20 日 2:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 3 月 19 日，已打击计算机病毒 / 恶意软件 649 个、恶意网站 207 个**。
+&emsp;&emsp;**截至 2026 年 3 月 20 日，已打击计算机病毒 / 恶意软件 650 个、恶意网站 207 个**。
 
 ---
 
@@ -110,6 +110,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/19 |  ···03.18人员名单.exe   | **银狐 (SilverFox.bg)**  | a00ca25dc338e58587f4e260cc6d5bf59999cdfe71f575ed50c9c805dde18cf0 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/a00ca25dc338e58587f4e260cc6d5bf59999cdfe71f575ed50c9c805dde18cf0) (20) |                  [MalwareBazaar Database]()                  | A647 |
 | 2026/3/19 |     abbef9af94.exe      | **银狐 (SilverFox.sa)**  | abbef9af947ab757f9d1f1149db7e622d2977ac3fc1a194ea8463388af4ea2e4 | 69a45e37-013b-4228-9e90-feb21ece21c5 | [VirusTotal](https://www.virustotal.com/gui/file/abbef9af947ab757f9d1f1149db7e622d2977ac3fc1a194ea8463388af4ea2e4) (17) |                  [MalwareBazaar Database]()                  | A648 |
 | 2026/3/19 |    安装包_220.15.exe    |  **银狐 (SilverFox.a)**  | c34b5313c165c6aa89044e9a3f81a2cc0367cdad81e12e8e6c4d7ff93c0fef41 | 68390d26-8099-406b-ad69-52b85294e600 | [VirusTotal](https://www.virustotal.com/gui/file/c34b5313c165c6aa89044e9a3f81a2cc0367cdad81e12e8e6c4d7ff93c0fef41) (20) |                  [MalwareBazaar Database]()                  | A649 |
+| 2026/3/20 |       LetsVPN.exe       |   **ShellcodeRunner**    | 06ce77ff596c35c7c8fadbf45d5b5928c57af9a5bc3afd4592a0a8836572aa3e |                                      | [VirusTotal](https://www.virustotal.com/gui/file/06ce77ff596c35c7c8fadbf45d5b5928c57af9a5bc3afd4592a0a8836572aa3e) (4) |                              无                              | A650 |
 |  ——————   |      ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
