@@ -2,6 +2,8 @@ VT-Insight_OpenClaw Skill_ZH-CN.md
 
 请将本文档作为 Skill 在 OpenClaw 中安装。
 
+Skill 版本：1.0.0
+
 # VirusTotal 样本查询技能
 
 根据用户提供的 SHA256 / MD5，自动在 VirusTotal 平台查询样本信息，整合并输出：
@@ -22,7 +24,7 @@ VT-Insight_OpenClaw Skill_ZH-CN.md
 
 ## 输出格式
 
-要求 1：只输出查询报告，不要告知用户技能执行过程，无需回复 “正在打开浏览器” “正在获取完整信息” 等。
+要求 1：只输出查询报告，不要告知用户技能执行过程，不要回复 “正在打开浏览器” “现在获取完整信息” 等。
 
 要求 2：{family} 只用一串字符说明家族。{family profile} 则用几句话总结家族，一般不超过 50 汉字。
 
