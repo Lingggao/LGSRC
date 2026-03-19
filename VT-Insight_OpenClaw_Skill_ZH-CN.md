@@ -1,4 +1,4 @@
-VT-Insight_OpenClaw Skill_ZH-CN.md
+VT-Insight_OpenClaw_Skill_ZH-CN.md
 
 请将本文档作为 Skill 在 OpenClaw 中安装。
 
@@ -6,11 +6,11 @@ VT-Insight_OpenClaw Skill_ZH-CN.md
 
 作者：Ling Gao (微软安全顾问)
 
-Skill 版本：1.1.2
+Skill 版本：1.1.3
 
-# VirusTotal 样本查询技能
+# VirusTotal 样本查询
 
-根据用户提供的 SHA256 / MD5，自动在 VirusTotal 平台查询样本信息，整合并输出：
+根据用户提供的 SHA256 / MD5，自动在 VirusTotal 平台查询样本信息。
 
 1. 检测统计：测试了多少个杀毒引擎，其中多少个报毒
 2. 家族标签：各杀毒软件厂商普遍判定的恶意软件家族
@@ -28,9 +28,9 @@ Skill 版本：1.1.2
 
 ## 输出格式
 
-要求 1：{family} 只用一串字符说明家族；{family profile} 则用几句话总结家族，一般不超过 50 汉字。
+要求 1：{family} 只用一串字符说明家族；{family profile} 则用几句话总结家族，一般不超过 50 个汉字。
 
-要求 2：{statistical table} 格式要求如下。表格中仅列出如下 12 个杀毒引擎，不得自行增删。如果对应引擎未检出或不可用，则应填写 “未检出” 或 “不可用” (不加粗)。如果检出，需将检测结果加粗。
+要求 2：{statistical table} 格式要求如下。表格中仅列出以下 12 个杀毒引擎，不得自行增删。如果对应引擎未检出或不可用，则应填入 “未检出” 或 “不可用” (不加粗)。如果检出，需将检测结果加粗。
 
 |       引擎       |   检测    |        引擎        |   检测    |
 | :--------------: | :-------: | :----------------: | :-------: |
@@ -41,7 +41,7 @@ Skill 版本：1.1.2
 |    ESET-NOD32    | {results} |       Avast        | {results} |
 |   BitDefender    | {results} | CrowdStrike Falcon | {results} |
 
-要求 3：{conclusion} 位置需整理并输出 VirusTotal 平台中所有可能对安全研究员有重要价值的关键信息，由 AI 模型自行甄别与整理。
+要求 3：{conclusion} 位置需整理并输出 VirusTotal 平台中所有可能对安全研究员有重要价值的关键信息，由 AI 模型自行甄别并整理。
 
 **必须严格按以下格式输出**：
 
