@@ -1,4 +1,4 @@
-# VT-Insight (OpenClaw Skill) ZH-CN.md
+VT-Insight (OpenClaw Skill) ZH-CN.md
 
 # VirusTotal 样本查询技能
 
@@ -11,7 +11,7 @@
 
 ## 使用方式
 
-用户输入 `查询 [hash]` 即可自动查询并格式化输出结果。
+用户输入 `VT-Insight /hash` 即可自动查询并格式化输出结果。
 
 ## 工具依赖
 
@@ -20,23 +20,30 @@
 
 ## 输出格式
 
+需严格按以下格式输出：
+
 ```
-## 查询报告：{hash}
+## 查询报告 - {hash}
 
 ### 1. 检测统计
-- 共测试 {total} (需加粗) 家安全引擎
-- 其中 {malicious} (需加粗) 家将其判定为恶意软件
+
+共测试 {total} (需加粗) 个安全引擎，其中 {malicious} (需加粗) 个将其判定为恶意软件
 
 ### 2. 家族判定
+
 {family}
 
 ### 3. 文件名称
+
 {filename}
 
 ### 4. 沙箱分析
+
 {behavior}
 
-### 结论
+### 5. 总结
+
 {conclusion}
-注：整理并输出 VirusTotal 平台中所有对安全研究员有重要价值的关键信息，由 AI 模型自行甄别。
 ```
+
+注：{conclusion} 位置需整理并输出 VirusTotal 平台中所有对安全研究员有重要价值的关键信息，由 AI 模型自行甄别。
