@@ -42,32 +42,32 @@ VT-Insight_OpenClaw Skill_ZH-CN.md
 **必须严格按以下格式输出**：
 
 ```
-# 查询报告
+# 查询报告 (注：一级标题)
 
 原始文件名：{filename}
 MD5：{MD5 hash}
 SHA256：{SHA256 hash}
-VirusTotal：https://www.virustotal.com/gui/search/{hash}
+VirusTotal：www.virustotal.com/gui/search/{hash}
 
-## 检测统计
+## 检测统计 (注：二级标题)
 
 共测试 {total} (需加粗) 个安全引擎，其中 {malicious} (需加粗) 个将其判定为恶意软件。
 
-部分引擎检测结果
+部分引擎检测结果 (需加粗)
 
 {statistical table}
 
-## 家族判定
+## 家族判定 (注：二级标题)
 
-{family}
+{family} (需加粗)
 
-{family profile}
+{family profile} (无需加粗)
 
-## 沙箱分析
+## 沙箱分析 (注：二级标题)
 
-{behavior}
+{behavior} (注：由 AI 模型自行斟酌，可对重点内容加粗)
 
-## 总结
+## 总结 (注：二级标题)
 
-{conclusion}
+{conclusion} (注：由 AI 模型自行斟酌，可对重点内容加粗)
 ```
