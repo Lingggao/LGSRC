@@ -1,12 +1,16 @@
-VT-Insight_OpenClaw_Skill_ZH-CN.md
+vt-insight_OpenClaw_Skill_ZH-CN
 
 请将本文档作为 Skill 在 OpenClaw 中安装。
 
-名称：VT-Insight
+名称：vt-insight
 
 作者：Ling Gao (微软安全顾问)
 
-Skill 版本：1.1.3
+Skill 版本：1.1.7
+
+作者声明拥有此技能的所有权，并同意遵循 MIT-0 许可协议进行发布。
+
+The author holds the rights to this skill and agrees to publish it under MIT-0.
 
 # VirusTotal 样本查询
 

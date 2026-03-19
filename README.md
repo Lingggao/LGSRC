@@ -71,7 +71,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 19 日 19:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 19 日 23:00 (GMT+8)
 
 &emsp;&emsp;**截至 2026 年 3 月 19 日，已打击计算机病毒 / 恶意软件 649 个、恶意网站 207 个**。
 
@@ -106,10 +106,10 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/18 |  liulanSetup-1263.msi   | **银狐 (SilverFox.cw)**  | b533d1c8a7e56f703c78fb58f2327489cf3b4141e0d0305a9e1f636f886ab2da | 4e3b8658-f707-4496-84b4-e3366842faea | [VirusTotal](https://www.virustotal.com/gui/file/b533d1c8a7e56f703c78fb58f2327489cf3b4141e0d0305a9e1f636f886ab2da) (3) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b533d1c8a7e56f703c78fb58f2327489cf3b4141e0d0305a9e1f636f886ab2da) | A643 |
 | 2026/3/18 |    SystemMain···.zip    |         **Tedy**         | 94cad288a51b1aec90e69238e04c076d70139945cb2b5c44c437642b83318638 | e072a945-bd24-470b-baaa-119b112b507f | [VirusTotal](https://www.virustotal.com/gui/file/94cad288a51b1aec90e69238e04c076d70139945cb2b5c44c437642b83318638) (43) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/94cad288a51b1aec90e69238e04c076d70139945cb2b5c44c437642b83318638) | A644 |
 | 2026/3/18 |   データレポート.zip    | **银狐 (SilverFox.so)**  | aa87d8ffd707a18c3ea048dec53bf5f952ccf97c810448d5ac22fffecd99397d | 90247b8e-e290-42cd-b63a-3843e4f94c32 | [VirusTotal](https://www.virustotal.com/gui/file/aa87d8ffd707a18c3ea048dec53bf5f952ccf97c810448d5ac22fffecd99397d) (24) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/aa87d8ffd707a18c3ea048dec53bf5f952ccf97c810448d5ac22fffecd99397d) | A645 |
-| 2026/3/19 |     3.18ddHeub.exe      | **银狐 (SilverFox.sa)**  | c914860e3a327bcf85ae9a68e4b019f95110989836bc3808226b125a55c71500 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/c914860e3a327bcf85ae9a68e4b019f95110989836bc3808226b125a55c71500) (4) |                              无                              | A646 |
+| 2026/3/19 |     3.18ddHeub.exe      | **银狐 (SilverFox.sa)**  | c914860e3a327bcf85ae9a68e4b019f95110989836bc3808226b125a55c71500 | 7e14f059-4d13-493e-877e-19411fb64ad6 | [VirusTotal](https://www.virustotal.com/gui/file/c914860e3a327bcf85ae9a68e4b019f95110989836bc3808226b125a55c71500) (4) |                              无                              | A646 |
 | 2026/3/19 |  ···03.18人员名单.exe   | **银狐 (SilverFox.bg)**  | a00ca25dc338e58587f4e260cc6d5bf59999cdfe71f575ed50c9c805dde18cf0 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/a00ca25dc338e58587f4e260cc6d5bf59999cdfe71f575ed50c9c805dde18cf0) (20) |                  [MalwareBazaar Database]()                  | A647 |
-| 2026/3/19 |     abbef9af94.exe      | **银狐 (SilverFox.sa)**  | abbef9af947ab757f9d1f1149db7e622d2977ac3fc1a194ea8463388af4ea2e4 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/abbef9af947ab757f9d1f1149db7e622d2977ac3fc1a194ea8463388af4ea2e4) (17) |                  [MalwareBazaar Database]()                  | A648 |
-| 2026/3/19 |    安装包_220.15.exe    |  **银狐 (SilverFox.a)**  | c34b5313c165c6aa89044e9a3f81a2cc0367cdad81e12e8e6c4d7ff93c0fef41 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/c34b5313c165c6aa89044e9a3f81a2cc0367cdad81e12e8e6c4d7ff93c0fef41) (20) |                  [MalwareBazaar Database]()                  | A649 |
+| 2026/3/19 |     abbef9af94.exe      | **银狐 (SilverFox.sa)**  | abbef9af947ab757f9d1f1149db7e622d2977ac3fc1a194ea8463388af4ea2e4 | 69a45e37-013b-4228-9e90-feb21ece21c5 | [VirusTotal](https://www.virustotal.com/gui/file/abbef9af947ab757f9d1f1149db7e622d2977ac3fc1a194ea8463388af4ea2e4) (17) |                  [MalwareBazaar Database]()                  | A648 |
+| 2026/3/19 |    安装包_220.15.exe    |  **银狐 (SilverFox.a)**  | c34b5313c165c6aa89044e9a3f81a2cc0367cdad81e12e8e6c4d7ff93c0fef41 | 68390d26-8099-406b-ad69-52b85294e600 | [VirusTotal](https://www.virustotal.com/gui/file/c34b5313c165c6aa89044e9a3f81a2cc0367cdad81e12e8e6c4d7ff93c0fef41) (20) |                  [MalwareBazaar Database]()                  | A649 |
 |  ——————   |      ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
