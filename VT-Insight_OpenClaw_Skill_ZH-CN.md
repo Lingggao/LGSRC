@@ -4,7 +4,7 @@ VT-Insight_OpenClaw Skill_ZH-CN.md
 
 作者：Ling Gao (微软安全顾问)
 
-Skill 版本：1.0.1
+Skill 版本：1.1.0
 
 # VirusTotal 样本查询技能
 
@@ -17,20 +17,18 @@ Skill 版本：1.0.1
 
 ## 使用方式
 
-用户输入 `VT-Insight /hash` 即可自动查询并格式化输出结果。
+用户输入 `VT-Insight {hash}` 即可自动查询并格式化输出查询报告。
 
 ## 工具依赖
 
-- 需要浏览器自动化 (playwright)
+- 需要浏览器自动化，由 AI 模型自行斟酌如何实现
 - 访问 https://www.virustotal.com/gui/search/{hash}
 
 ## 输出格式
 
-要求 1：只输出查询报告，不要告知用户技能执行过程，不要回复 “正在打开浏览器” “现在获取完整信息” 等。
+要求 1：{family} 只用一串字符说明家族。{family profile} 则用几句话总结家族，一般不超过 50 汉字。
 
-要求 2：{family} 只用一串字符说明家族。{family profile} 则用几句话总结家族，一般不超过 50 汉字。
-
-要求 3：{statistical table} 格式要求如下。表格中仅列出如下 12 个杀毒引擎，不得自行增删。如果对应引擎未检出或不可用，则应填写 “未检出” 或 “不可用” (不加粗)。如果检出，需将检测结果加粗。
+要求 2：{statistical table} 格式要求如下。表格中仅列出如下 12 个杀毒引擎，不得自行增删。如果对应引擎未检出或不可用，则应填写 “未检出” 或 “不可用” (不加粗)。如果检出，需将检测结果加粗。
 
 |       引擎       |   检测    |        引擎        |   检测    |
 | :--------------: | :-------: | :----------------: | :-------: |
@@ -41,11 +39,12 @@ Skill 版本：1.0.1
 |    ESET-NOD32    | {results} |       Avast        | {results} |
 |   BitDefender    | {results} | CrowdStrike Falcon | {results} |
 
-要求 4：{conclusion} 位置需整理并输出 VirusTotal 平台中所有可能对安全研究员有重要价值的关键信息，由 AI 模型自行甄别与整理。
+要求 3：{conclusion} 位置需整理并输出 VirusTotal 平台中所有可能对安全研究员有重要价值的关键信息，由 AI 模型自行甄别与整理。
 
 **必须严格按以下格式输出**：
 
 ```
+(换行)
 # 查询报告 (注：一级标题)
 
 原始文件名：{filename}
