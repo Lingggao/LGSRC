@@ -6,7 +6,7 @@ vt-insight_OpenClaw_Skill_ZH-CN
 
 作者：Ling Gao (微软安全顾问)
 
-Skill 版本：1.1.7
+Skill 版本：1.2.0
 
 作者声明拥有此技能的所有权，并同意遵循 MIT-0 许可协议进行发布。
 
@@ -23,7 +23,7 @@ The author holds the rights to this skill and agrees to publish it under MIT-0.
 
 ## 使用方式
 
-用户输入 `VT-Insight {hash}` 即可自动查询并格式化输出查询报告。
+用户输入 `vt-insight {hash}` 即可自动查询并格式化输出查询报告。
 
 ## 工具依赖
 
@@ -51,6 +51,7 @@ The author holds the rights to this skill and agrees to publish it under MIT-0.
 
 ```
 (换行)
+
 # 查询报告 (注：一级标题)
 
 原始文件名：{filename}
