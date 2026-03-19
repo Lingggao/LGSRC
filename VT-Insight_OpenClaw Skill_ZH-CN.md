@@ -1,4 +1,4 @@
-VT-Insight (OpenClaw Skill) ZH-CN.md
+VT-Insight_OpenClaw Skill_ZH-CN.md
 
 请将本文档作为 Skill 在 OpenClaw 中安装。
 
