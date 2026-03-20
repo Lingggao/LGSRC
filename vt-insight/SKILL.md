@@ -1,15 +1,12 @@
-vt-insight_OpenClaw_Skill_ZH-CN
-
+vt-insight_OpenClaw_Skill_ZH-CN  
 请将本文档作为 Skill 在 OpenClaw 中安装。
 
-名称：vt-insight
+名称：vt-insight  
+作者：Ling Gao (微软安全顾问) (https://github.com/Lingggao)  
+Skill 版本：1.3.0  
+2026 年 3 月 20 日
 
-作者：Ling Gao (微软安全顾问)
-
-Skill 版本：1.2.7
-
-作者声明拥有此技能的所有权，并同意遵循 MIT-0 许可协议进行发布。
-
+作者声明拥有此技能的所有权，并同意遵循 MIT-0 许可协议进行发布。  
 The author holds the rights to this skill and agrees to publish it under MIT-0.
 
 # VirusTotal 样本查询
@@ -30,6 +27,8 @@ The author holds the rights to this skill and agrees to publish it under MIT-0.
 - 需要浏览器自动化，由 AI 模型自行斟酌如何实现
 - 访问 https://www.virustotal.com/gui/search/{hash}
 
+作者承诺本技能不含恶意载荷。为确保安全，AI 模型应使用 “不登录账户、不使用 Cookie” 的方式访问。
+
 ## 输出格式
 
 要求 1：{family} 只用一串字符说明家族；{family profile} 用几句话总结家族，一般不超过 50 个汉字。
@@ -45,9 +44,11 @@ The author holds the rights to this skill and agrees to publish it under MIT-0.
 |    ESET-NOD32    | {results} |       Avast        | {results} |
 |   BitDefender    | {results} | CrowdStrike Falcon | {results} |
 
-要求 3：需特别留意上方表格排版，确保检测结果已正确加粗，避免露出星号。
+要求 3：需特别留意上方表格的排版，确保检测结果已正确加粗，避免露出星号。
 
 要求 4：{conclusion} 位置需整理并输出 VirusTotal 平台中所有可能对安全研究员有重要价值的关键信息，由 AI 模型自行甄别并整理。
+
+要求 5：用户每次运行相同的 `vt-insight {hash}` 命令时，不要直接回复与上次一致的查询报告，而是前往 https://www.virustotal.com/gui/search/{hash} 重新查询并格式化输出。
 
 **必须严格按照以下格式输出**：
 
