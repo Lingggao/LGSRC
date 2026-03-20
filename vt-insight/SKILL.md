@@ -3,7 +3,7 @@ vt-insight_OpenClaw_Skill_ZH-CN
 
 名称：vt-insight  
 作者：Ling Gao (微软安全顾问) (https://github.com/Lingggao)  
-Skill 版本：1.3.6  
+Skill 版本：1.3.7  
 2026 年 3 月 20 日
 
 作者声明拥有此技能的所有权，并同意遵循 MIT-0 许可协议进行发布。  
@@ -62,13 +62,13 @@ The author holds the rights to this skill and agrees to publish it under MIT-0.
 
 ```
 --- (注：分隔线，下同)
-**查询报告** (需加粗)
+**VirusTotal 查询报告** (需加粗)
 
 原始文件名：{filename}
-MD5：{MD5 hash}
-SHA256：{SHA256 hash}
-上次分析日期：{date}
-网址：virustotal.com/gui/search/{hash}
+MD5：{md5 hash}
+SHA256：{sha256 hash}
+上次分析日期：{date} (注：使用 GMT+8 北京时间)
+地址：virustotal.com/gui/search/{hash} (注：使用 Markdown 链接语法)
 
 ---
 **统计** (需加粗)
