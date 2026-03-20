@@ -4,8 +4,8 @@ https://clawhub.ai/Lingggao/vt-insight
 
 名称：vt-insight  
 作者：Ling Gao (微软安全顾问) (https://github.com/Lingggao)  
-Skill 版本：1.4.1  
-2026 年 3 月 20 日
+Skill 版本：1.4.2  
+2026 年 3 月 19 日
 
 作者声明拥有此技能的所有权，并同意遵循 MIT-0 许可协议进行发布。  
 The author holds the rights to this skill and agrees to publish it under MIT-0.
