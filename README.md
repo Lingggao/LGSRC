@@ -71,9 +71,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 20 日 17:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 20 日 18:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 3 月 20 日，已打击计算机病毒 / 恶意软件 650 个、恶意网站 207 个**。
+&emsp;&emsp;**截至 2026 年 3 月 20 日，已打击计算机病毒 / 恶意软件 651 个、恶意网站 207 个**。
 
 ---
 
@@ -111,6 +111,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/19 |     abbef9af94.exe      | **银狐 (SilverFox.sa)**  | abbef9af947ab757f9d1f1149db7e622d2977ac3fc1a194ea8463388af4ea2e4 | 69a45e37-013b-4228-9e90-feb21ece21c5 | [VirusTotal](https://www.virustotal.com/gui/file/abbef9af947ab757f9d1f1149db7e622d2977ac3fc1a194ea8463388af4ea2e4) (17) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/abbef9af947ab757f9d1f1149db7e622d2977ac3fc1a194ea8463388af4ea2e4) | A648 |
 | 2026/3/19 |    安装包_220.15.exe    |  **银狐 (SilverFox.a)**  | c34b5313c165c6aa89044e9a3f81a2cc0367cdad81e12e8e6c4d7ff93c0fef41 | 68390d26-8099-406b-ad69-52b85294e600 | [VirusTotal](https://www.virustotal.com/gui/file/c34b5313c165c6aa89044e9a3f81a2cc0367cdad81e12e8e6c4d7ff93c0fef41) (20) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c34b5313c165c6aa89044e9a3f81a2cc0367cdad81e12e8e6c4d7ff93c0fef41) | A649 |
 | 2026/3/20 |       LetsVPN.exe       |   **ShellcodeRunner**    | 06ce77ff596c35c7c8fadbf45d5b5928c57af9a5bc3afd4592a0a8836572aa3e | aca6ba30-f40f-4717-a6c7-1f6734e78b78 | [VirusTotal](https://www.virustotal.com/gui/file/06ce77ff596c35c7c8fadbf45d5b5928c57af9a5bc3afd4592a0a8836572aa3e) (4) |                              无                              | A650 |
+| 2026/3/20 |    letsvp_setup.exe     | **银狐 (SilverFox.sa)**  | c0fcad0ba982fd95958248c73ee12f1732229632fde97d645e2e479cc664bf84 | 9b65f7ea-bdda-40c4-9406-fbc2e6f53752 | [VirusTotal](https://www.virustotal.com/gui/file/c0fcad0ba982fd95958248c73ee12f1732229632fde97d645e2e479cc664bf84) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c0fcad0ba982fd95958248c73ee12f1732229632fde97d645e2e479cc664bf84) | A651 |
 |  ——————   |      ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
