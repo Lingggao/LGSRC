@@ -3,7 +3,7 @@ vt-insight_OpenClaw_Skill_ZH-CN
 
 名称：vt-insight  
 作者：Ling Gao (微软安全顾问) (https://github.com/Lingggao)  
-Skill 版本：1.3.1  
+Skill 版本：1.3.5  
 2026 年 3 月 20 日
 
 作者声明拥有此技能的所有权，并同意遵循 MIT-0 许可协议进行发布。  
@@ -16,7 +16,7 @@ The author holds the rights to this skill and agrees to publish it under MIT-0.
 1. 检测统计：测试了多少个反病毒引擎，其中多少个报毒
 2. 家族标签：各杀毒软件厂商普遍判定的恶意软件家族
 3. 文件名：样本首次提交时的原始文件名
-4. 行为分析：提取对安全研究员有价值的信息
+4. 行为 + 社区：提取对安全研究员有价值的信息
 
 ## 使用方式
 
@@ -48,7 +48,13 @@ The author holds the rights to this skill and agrees to publish it under MIT-0.
 
 要求 4：{conclusion} 位置需整理并输出 VirusTotal 平台中所有可能对安全研究员有重要价值的关键信息，由 AI 模型自行甄别并整理。
 
-要求 5：用户每次运行相同的 `vt-insight {hash}` 命令时，不要直接回复与上次一致的查询报告，而是前往 https://www.virustotal.com/gui/search/{hash} 重新查询并格式化输出。
+要求 5：仔细研读并提取 Behavior 板块中的有价值信息。
+
+要求 6：Community 板块可能也有关键信息，如其他安全研究员的评论，要一并整理。
+
+要求 7：用户每次运行相同的 `vt-insight {hash}` 命令时，不要直接回复与上次一致的查询报告，而是前往 https://www.virustotal.com/gui/search/{hash} 重新查询并格式化输出。
+
+---
 
 **必须严格按照以下格式输出**：
 
@@ -63,7 +69,7 @@ SHA256：{SHA256 hash}
 网址：virustotal.com/gui/search/{hash}
 
 ---
-**检测统计** (需加粗)
+**统计** (需加粗)
 
 共测试 {total} (无需加粗) 款反病毒引擎，其中 {malicious} (需加粗) 款将其判定为恶意软件。
 
@@ -72,16 +78,18 @@ SHA256：{SHA256 hash}
 {statistical table}
 
 ---
-**家族判定** (需加粗)
+**判定** (需加粗)
 
 {family} (需加粗)
 
 {family profile} (无需加粗)
 
 ---
-**行为分析** (需加粗)
+**研究** (需加粗)
 
 {behavior} (注：由 AI 模型自行斟酌，可对重点内容加粗，但占比越少越好)
+
+{community} (注：由 AI 模型自行斟酌，可对重点内容加粗，但占比越少越好)
 
 ---
 **总结** (需加粗)
