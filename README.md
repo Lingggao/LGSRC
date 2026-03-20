@@ -71,9 +71,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 20 日 23:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 21 日 1:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 3 月 20 日，已打击计算机病毒 / 恶意软件 655 个、恶意网站 207 个**。
+&emsp;&emsp;**截至 2026 年 3 月 21 日，已打击计算机病毒 / 恶意软件 655 个、恶意网站 207 个**。
 
 ---
 
@@ -107,10 +107,10 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/19 |    安装包_220.15.exe    |  **银狐 (SilverFox.a)**  | c34b5313c165c6aa89044e9a3f81a2cc0367cdad81e12e8e6c4d7ff93c0fef41 | 68390d26-8099-406b-ad69-52b85294e600 | [VirusTotal](https://www.virustotal.com/gui/file/c34b5313c165c6aa89044e9a3f81a2cc0367cdad81e12e8e6c4d7ff93c0fef41) (20) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c34b5313c165c6aa89044e9a3f81a2cc0367cdad81e12e8e6c4d7ff93c0fef41) | A649 |
 | 2026/3/20 |       LetsVPN.exe       |   **ShellcodeRunner**    | 06ce77ff596c35c7c8fadbf45d5b5928c57af9a5bc3afd4592a0a8836572aa3e | aca6ba30-f40f-4717-a6c7-1f6734e78b78 | [VirusTotal](https://www.virustotal.com/gui/file/06ce77ff596c35c7c8fadbf45d5b5928c57af9a5bc3afd4592a0a8836572aa3e) (4) |                              无                              | A650 |
 | 2026/3/20 |    letsvp_setup.exe     | **银狐 (SilverFox.sa)**  | c0fcad0ba982fd95958248c73ee12f1732229632fde97d645e2e479cc664bf84 | 9b65f7ea-bdda-40c4-9406-fbc2e6f53752 | [VirusTotal](https://www.virustotal.com/gui/file/c0fcad0ba982fd95958248c73ee12f1732229632fde97d645e2e479cc664bf84) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c0fcad0ba982fd95958248c73ee12f1732229632fde97d645e2e479cc664bf84) | A651 |
-| 2026/3/20 |    %e6%96···048.exe     | **银狐 (SilverFox.sa)**  | d02ca30fbc880b849ef53cfb14fd5c8c2afc246ee9350fc7ab1793d5588d11b9 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/d02ca30fbc880b849ef53cfb14fd5c8c2afc246ee9350fc7ab1793d5588d11b9) (3) |                  [MalwareBazaar Database]()                  | A652 |
-| 2026/3/20 |        danma.exe        | **银狐 (SilverFox.wos)** | 0f07ad05a0f1c0f0c232ed50bc56de228f1500c98be8bacda16035c318709ca9 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/0f07ad05a0f1c0f0c232ed50bc56de228f1500c98be8bacda16035c318709ca9) (17) |                  [MalwareBazaar Database]()                  | A653 |
-| 2026/3/20 |    QQ截图···.png.com    |      **Cybercrime**      | c0861f5be19ead006864f44bbf542572ebf35ab3da3a547ec06770a5685d8b29 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/c0861f5be19ead006864f44bbf542572ebf35ab3da3a547ec06770a5685d8b29) (5) |                  [MalwareBazaar Database]()                  | A654 |
-| 2026/3/20 | 苹果···快递单号···.exe  |   **银狐 (SilverFox)**   | d4c7157d593e6ac6c4afc9a466f731d577caee271a29ca8ef0bc9acd12322c4e |                                      | [VirusTotal](https://www.virustotal.com/gui/file/d4c7157d593e6ac6c4afc9a466f731d577caee271a29ca8ef0bc9acd12322c4e) (21) |                  [MalwareBazaar Database]()                  | A655 |
+| 2026/3/20 |    %e6%96···048.exe     | **银狐 (SilverFox.sa)**  | d02ca30fbc880b849ef53cfb14fd5c8c2afc246ee9350fc7ab1793d5588d11b9 | 3a2d13d9-2983-484d-b282-bf1b7353bad0 | [VirusTotal](https://www.virustotal.com/gui/file/d02ca30fbc880b849ef53cfb14fd5c8c2afc246ee9350fc7ab1793d5588d11b9) (3) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/d02ca30fbc880b849ef53cfb14fd5c8c2afc246ee9350fc7ab1793d5588d11b9) | A652 |
+| 2026/3/20 |        danma.exe        | **银狐 (SilverFox.wos)** | 0f07ad05a0f1c0f0c232ed50bc56de228f1500c98be8bacda16035c318709ca9 | 44ff83dc-45db-4f53-9865-86611995f27e | [VirusTotal](https://www.virustotal.com/gui/file/0f07ad05a0f1c0f0c232ed50bc56de228f1500c98be8bacda16035c318709ca9) (17) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/0f07ad05a0f1c0f0c232ed50bc56de228f1500c98be8bacda16035c318709ca9) | A653 |
+| 2026/3/20 |    QQ截图···.png.com    |      **Cybercrime**      | c0861f5be19ead006864f44bbf542572ebf35ab3da3a547ec06770a5685d8b29 | 8f956777-f7c3-4c98-821d-8a4e38e5c4e9 | [VirusTotal](https://www.virustotal.com/gui/file/c0861f5be19ead006864f44bbf542572ebf35ab3da3a547ec06770a5685d8b29) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c0861f5be19ead006864f44bbf542572ebf35ab3da3a547ec06770a5685d8b29) | A654 |
+| 2026/3/20 | 苹果···快递单号···.exe  |   **银狐 (SilverFox)**   | d4c7157d593e6ac6c4afc9a466f731d577caee271a29ca8ef0bc9acd12322c4e | db621112-52fa-49af-b568-eeda10f39c4f | [VirusTotal](https://www.virustotal.com/gui/file/d4c7157d593e6ac6c4afc9a466f731d577caee271a29ca8ef0bc9acd12322c4e) (21) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/d4c7157d593e6ac6c4afc9a466f731d577caee271a29ca8ef0bc9acd12322c4e) | A655 |
 |  ——————   |      ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
