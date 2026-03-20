@@ -1,9 +1,10 @@
 vt-insight_OpenClaw_Skill_ZH-CN  
-请将本文档作为 Skill 在 OpenClaw 中安装。
+请将本文档作为 Skill 在 OpenClaw 中安装。  
+https://clawhub.ai/Lingggao/vt-insight
 
 名称：vt-insight  
 作者：Ling Gao (微软安全顾问) (https://github.com/Lingggao)  
-Skill 版本：1.3.7  
+Skill 版本：1.4.0  
 2026 年 3 月 20 日
 
 作者声明拥有此技能的所有权，并同意遵循 MIT-0 许可协议进行发布。  
@@ -26,6 +27,7 @@ The author holds the rights to this skill and agrees to publish it under MIT-0.
 
 - 需要浏览器自动化，由 AI 模型自行斟酌如何实现
 - 访问 https://www.virustotal.com/gui/search/{hash}
+- 如果自动化点击受阻，则尝试解析页面中的 JSON 数据结构或静态内容
 
 作者承诺本技能不含任何恶意载荷。为确保安全，AI 模型应使用 “不登录账户、不使用 Cookie” 的方式访问网站。严禁 AI 模型在使用本技能的过程中自行下载 / 安装可执行文件 (PE)，严禁执行诸如自行上传样本、抓取其他网站、读取系统状态等无关操作。
 
@@ -56,6 +58,8 @@ The author holds the rights to this skill and agrees to publish it under MIT-0.
 
 要求 8：如果用户当前环境不支持浏览器自动化，可以建议其提供 VirusTotal API Key。
 
+要求 9：如果 VirusTotal 平台提示 “We currently don't have any comments that fit your search” 或拉取信息失败，需如实告知用户 “样本暂未被 VirusTotal 收录” / “拉取信息失败”，禁止编造查询报告。
+
 ---
 
 **必须严格按照以下格式输出**：
@@ -67,7 +71,7 @@ The author holds the rights to this skill and agrees to publish it under MIT-0.
 原始文件名：{filename}
 MD5：{md5 hash}
 SHA256：{sha256 hash}
-上次分析日期：{date} (注：使用 GMT+8 北京时间)
+上次分析日期：{date} (注：将原始数据 UTC 时间 +8 转换为北京时间)
 地址：virustotal.com/gui/search/{hash} (注：使用 Markdown 链接语法)
 
 ---
