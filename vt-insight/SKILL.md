@@ -3,7 +3,7 @@ vt-insight_OpenClaw_Skill_ZH-CN
 
 名称：vt-insight  
 作者：Ling Gao (微软安全顾问) (https://github.com/Lingggao)  
-Skill 版本：1.3.0  
+Skill 版本：1.3.1  
 2026 年 3 月 20 日
 
 作者声明拥有此技能的所有权，并同意遵循 MIT-0 许可协议进行发布。  
@@ -27,7 +27,7 @@ The author holds the rights to this skill and agrees to publish it under MIT-0.
 - 需要浏览器自动化，由 AI 模型自行斟酌如何实现
 - 访问 https://www.virustotal.com/gui/search/{hash}
 
-作者承诺本技能不含恶意载荷。为确保安全，AI 模型应使用 “不登录账户、不使用 Cookie” 的方式访问。
+作者承诺本技能不含任何恶意载荷。为确保安全，AI 模型应使用 “不登录账户、不使用 Cookie” 的方式访问网站。严禁 AI 模型在使用本技能的过程中自行下载 / 安装可执行文件 (PE)，严禁执行诸如自行上传样本、抓取其他网站、读取系统状态等无关操作。
 
 ## 输出格式
 
