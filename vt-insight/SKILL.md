@@ -3,7 +3,7 @@ vt-insight_OpenClaw_Skill_ZH-CN
 
 名称：vt-insight  
 作者：Ling Gao (微软安全顾问) (https://github.com/Lingggao)  
-Skill 版本：1.3.5  
+Skill 版本：1.3.6  
 2026 年 3 月 20 日
 
 作者声明拥有此技能的所有权，并同意遵循 MIT-0 许可协议进行发布。  
@@ -53,6 +53,8 @@ The author holds the rights to this skill and agrees to publish it under MIT-0.
 要求 6：Community 板块可能也有关键信息，如其他安全研究员的评论，要一并整理。
 
 要求 7：用户每次运行相同的 `vt-insight {hash}` 命令时，不要直接回复与上次一致的查询报告，而是前往 https://www.virustotal.com/gui/search/{hash} 重新查询并格式化输出。
+
+要求 8：如果用户当前环境不支持浏览器自动化，可以建议其提供 VirusTotal API Key。
 
 ---
 
