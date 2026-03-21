@@ -194,6 +194,13 @@
 | 2026/3/7  |          hxxps://lk-wps[.]com[.]cn          |     仿冒 WPS、传播病毒      |       hxxps://www[.]irbis2000[.]com/WPS_Setup64[.]exe        | [URLhaus Database](https://urlhaus.abuse.ch/url/3791536) | Z182 |
 | 2026/3/9  |       hxxps://zh-cn-google[.]hl[.]cn        |    仿冒 Chrome、传播病毒    |           hxxps://tenyunat-99viplawt[.]com/QQGSYLX           |                            无                            | Z183 |
 | 2026/3/9  |      hxxps://chrroome-google[.]hl[.]cn      |    仿冒 Chrome、传播病毒    | hxxps://www[.]upclouds[.]world/?c=uRrMbiqnQzpXGOE69R5LpRLFN9WsRMGBtn8tmwafDNl3hN2DWS4UNjejTxnBRVb4 |                            无                            | Z184 |
+| 2026/3/9  |   hxxps://google-google-google[.]com[.]cn   |    仿冒 Chrome、传播病毒    |                              无                              |                            无                            | Z185 |
+| 2026/3/9  |          hxxps://im-wps[.]com[.]cn          |     仿冒 WPS、传播病毒      | hxxps://www[.]asdfgsdfgxcvbvcxasd-oss[.]top/WpsOffice_x64%20_v10_win888[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3792813) | Z186 |
+| 2026/3/11 |       hxxps://ai-openclaw[.]com[.]cn        |    仿冒 OpenClaw “龙虾”     | hxxps://www[.]nmysq[.]top/oss/usha/ope/openclawAI%207beAolenc[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3794716) | Z187 |
+| 2026/3/14 |         hxxps://aps-wps[.]com[.]cn          |     仿冒 WPS、传播病毒      |  hxxps://mapt[.]oss-cn-hongkong[.]aliyuncs[.]com/WPS[.]zip   |                            无                            | Z188 |
+| 2026/3/14 |         hxxps://iin-wps[.]com[.]cn          |     仿冒 WPS、传播病毒      | hxxps://www[.]aliyunnorth-oss[.]top/Wps%20Office_x64_%20v1[.]0_win[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3795617) | Z189 |
+| 2026/3/14 |          hxxps://lk-wps[.]com[.]cn          |     仿冒 WPS、传播病毒      | hxxps://wps10[.]oss-cn-hongkong[.]aliyuncs[.]com/wps_Installer_Setup_HH[.]zip |                            无                            | Z190 |
+| 2026/3/14 |          hxxps://pw-wps[.]com[.]cn          |     仿冒 WPS、传播病毒      | hxxps://wps04[.]oss-cn-hongkong[.]aliyuncs[.]com/wps_Installer_Setup_HH[.]zip |                            无                            | Z191 |
 |  ——————   |            ————————————————————             |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
