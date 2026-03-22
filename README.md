@@ -71,9 +71,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 22 日 23:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 23 日 1:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 3 月 22 日，已打击计算机病毒 / 恶意软件 662 个、恶意网站 212 个**。
+&emsp;&emsp;**截至 2026 年 3 月 23 日，已打击计算机病毒 / 恶意软件 663 个、恶意网站 212 个**。
 
 ---
 
@@ -109,6 +109,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/22 |    KuaiLianLets.exe     | **银狐 (SilverFox.sa)**  | f14deb920da627d47f205163fc2c9002c598fbc6e5233d91ab185294cb9a38ef |                                      | [VirusTotal](https://www.virustotal.com/gui/file/f14deb920da627d47f205163fc2c9002c598fbc6e5233d91ab185294cb9a38ef) (7) |                              无                              | A660 |
 | 2026/3/22 |    ···简体语言包.exe    | **银狐 (SilverFox.sae)** | a47803a514f65e1c94a01f3ba83baaf2547a94ec266b92def5df8232ddee5cdf |                                      | [VirusTotal](https://www.virustotal.com/gui/file/a47803a514f65e1c94a01f3ba83baaf2547a94ec266b92def5df8232ddee5cdf) (4) |                  [MalwareBazaar Database]()                  | A661 |
 | 2026/3/22 |  柬埔寨警方通告···.exe  |          研究中          | 1447b57a09a8759ab98c8958b655ed082388bf562261477664f9e90ce87ac2a9 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/1447b57a09a8759ab98c8958b655ed082388bf562261477664f9e90ce87ac2a9) (17) |                  [MalwareBazaar Database]()                  | A662 |
+| 2026/3/22 |   AisiTools···x64.exe   | **银狐 (SilverFox.wos)** | 7570f4c001af6efd19899e178aadf7a6ca9b3ab140f84050182a395e1fb496a8 |                                      |                      [VirusTotal]() ()                       |                              无                              | A663 |
 |  ——————   |      ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]

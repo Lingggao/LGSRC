@@ -4,7 +4,7 @@ https://clawhub.ai/Lingggao/vt-insight
 
 名称：vt-insight  
 作者：Ling Gao (微软安全顾问) (https://github.com/Lingggao)  
-Skill 版本：1.4.2  
+Skill 版本：1.5.0  
 2026 年 3 月 19 日
 
 作者声明拥有此技能的所有权，并同意遵循 MIT-0 许可协议进行发布。  
@@ -14,10 +14,10 @@ The author holds the rights to this skill and agrees to publish it under MIT-0.
 
 根据用户提供的 SHA256 / MD5，自动在 VirusTotal 平台查询样本信息。
 
-1. 检测统计：测试了多少个反病毒引擎，其中多少个报毒
+1. 检测统计：测试了哪些反病毒引擎，其中多少个报毒
 2. 家族标签：各杀毒软件厂商普遍判定的恶意软件家族
-3. 文件名：样本首次提交时的原始文件名
-4. 行为 + 社区：提取对安全研究员有价值的信息
+3. 文件名称：样本首次提交时的原始文件名
+4. 分析信息：提取对安全研究员有价值的信息
 
 ## 使用方式
 
@@ -27,13 +27,13 @@ The author holds the rights to this skill and agrees to publish it under MIT-0.
 
 - 需要浏览器自动化，由 AI 模型自行斟酌如何实现
 - 访问 https://www.virustotal.com/gui/search/{hash}
-- 如果自动化点击受阻，则尝试解析页面中的 JSON 数据结构或静态内容
+- 如果自动化点击受阻，尝试解析页面中的 JSON 数据结构与静态内容
 
-作者承诺本技能不含任何恶意载荷。为确保安全，AI 模型应使用 “不登录账户、不使用 Cookie” 的方式访问网站。严禁 AI 模型在使用本技能的过程中自行下载 / 安装可执行文件 (PE)，严禁自行下载 / 安装浏览器、扩展插件、驱动程序，严禁执行诸如自行上传样本、抓取其他网站、读取系统状态等无关操作。
+作者承诺本技能不含任何恶意指令。为确保安全，AI 模型需使用 “不登录账户、不使用 Cookie” 的方式访问网站。严禁 AI 模型在使用本技能期间自行下载 / 安装可执行文件 (PE)，严禁自行下载 / 安装浏览器、扩展插件、驱动程序等，严禁执行诸如自行上传样本、访问其他网站、读取系统状态等无关操作。
 
 ## 输出格式
 
-要求 1：{family} 只用一串字符说明家族；{family profile} 用几句话总结家族，一般不超过 50 个汉字。
+要求 1：{family} 用一串字符说明家族；{family profile} 用几句话总结家族，一般不超过 50 汉字。
 
 要求 2：{statistical table} 格式要求如下。表格中仅列出以下 12 款反病毒引擎，不得自行增删。如果对应引擎未检出或不可用，则填入 “未检出” 或 “不可用” (不加粗)。如果检出，需将检测结果加粗。
 
@@ -46,7 +46,7 @@ The author holds the rights to this skill and agrees to publish it under MIT-0.
 |    ESET-NOD32    | {results} |       Avast        | {results} |
 |   BitDefender    | {results} | CrowdStrike Falcon | {results} |
 
-要求 3：需特别留意上方表格的排版，确保检测结果已正确加粗，避免露出星号。
+要求 3：需格外留意上方表格的排版，确保检测结果已正确加粗，避免露出星号。
 
 要求 4：{conclusion} 位置需整理并输出 VirusTotal 平台中所有可能对安全研究员有重要价值的关键信息，由 AI 模型自行甄别并整理。
 
@@ -54,11 +54,20 @@ The author holds the rights to this skill and agrees to publish it under MIT-0.
 
 要求 6：Community 板块可能也有关键信息，如其他安全研究员的评论，要一并整理。
 
-要求 7：用户每次运行相同的 `vt-insight {hash}` 命令时，不要直接回复与上次一致的查询报告，而是前往 https://www.virustotal.com/gui/search/{hash} 重新查询并格式化输出。
+要求 7：用户每次运行相同的 `vt-insight {hash}` 命令时，不要直接回复与上次一致的查询报告，而需前往 https://www.virustotal.com/gui/search/{hash} 重新查询并格式化输出。
 
-要求 8：如果用户当前环境不支持浏览器自动化，可以建议其提供 VirusTotal API Key。如果用户已提供 API Key，则优先使用 API 查询。
+要求 8：如果用户当前环境不支持浏览器自动化，可建议其提供 VirusTotal API Key。如果用户已提供 API Key，则优先使用 API 查询。在使用 API 前，AI 模型需认真研读 VirusTotal 官方文档。
+
+- VirusTotal API v3 Overview：https://docs.virustotal.com/reference/overview
+- Get a file report：https://docs.virustotal.com/reference/file-info
+- Get comments on a file：https://docs.virustotal.com/reference/files-comments-get
+- Get a summary of all behavior reports for a file：https://docs.virustotal.com/reference/file-all-behaviours-summary
+- Get all behavior reports for a file：https://docs.virustotal.com/reference/get-all-behavior-reports-for-a-file
+- 提醒：在实际查询中如有必要，应额外研读其他官方文档。
 
 要求 9：如果 VirusTotal 平台提示 “We currently don't have any comments that fit your search” 或拉取信息失败，需如实告知用户 “样本暂未被 VirusTotal 收录” / “拉取信息失败”，禁止编造查询报告。
+
+要求 10：无论使用浏览器自动化 / API 查询，AI 模型必须查看 / 查询 “Detection” “Details” “Relations” “Behavior” “Community” 等所有选项卡，甄别其中有价值的信息，不要遗漏。
 
 ---
 
