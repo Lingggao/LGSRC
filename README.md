@@ -71,9 +71,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 23 日 1:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 23 日 2:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 3 月 23 日，已打击计算机病毒 / 恶意软件 663 个、恶意网站 212 个**。
+&emsp;&emsp;**截至 2026 年 3 月 23 日，已打击计算机病毒 / 恶意软件 665 个、恶意网站 212 个**。
 
 ---
 
@@ -106,10 +106,12 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/21 |   qishui64x···192.exe   |   **银狐 (SilverFox)**   | 0a4824698404f31c692ed4867716efa290575c277139f291a23c2a52d1a5ac32 | 9f29ebe7-ad63-45b0-a85d-8ff5172e534f | [VirusTotal](https://www.virustotal.com/gui/file/0a4824698404f31c692ed4867716efa290575c277139f291a23c2a52d1a5ac32) (9) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/0a4824698404f31c692ed4867716efa290575c277139f291a23c2a52d1a5ac32) | A657 |
 | 2026/3/21 |     qishuiyy3.5.exe     |   **银狐 (SilverFox)**   | 1d60335eb78ecb9d8069e1c902e9914e31c64e513370e0dbb579f2544dc49835 | 19c1e3dd-0da0-43df-8b61-bfdf564a5048 | [VirusTotal](https://www.virustotal.com/gui/file/1d60335eb78ecb9d8069e1c902e9914e31c64e513370e0dbb579f2544dc49835) (8) |                              无                              | A658 |
 | 2026/3/22 |        77979.exe        |   **银狐 (SilverFox)**   | ff53f6208eb91890aedfc7e51b769f2c2aca95c985000ef9ddcb32e16d2a6788 | 31dfd708-d20d-4c20-936d-76a2ffef9117 | [VirusTotal](https://www.virustotal.com/gui/file/ff53f6208eb91890aedfc7e51b769f2c2aca95c985000ef9ddcb32e16d2a6788) (29) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/ff53f6208eb91890aedfc7e51b769f2c2aca95c985000ef9ddcb32e16d2a6788) | A659 |
-| 2026/3/22 |    KuaiLianLets.exe     | **银狐 (SilverFox.sa)**  | f14deb920da627d47f205163fc2c9002c598fbc6e5233d91ab185294cb9a38ef |                                      | [VirusTotal](https://www.virustotal.com/gui/file/f14deb920da627d47f205163fc2c9002c598fbc6e5233d91ab185294cb9a38ef) (7) |                              无                              | A660 |
-| 2026/3/22 |    ···简体语言包.exe    | **银狐 (SilverFox.sae)** | a47803a514f65e1c94a01f3ba83baaf2547a94ec266b92def5df8232ddee5cdf |                                      | [VirusTotal](https://www.virustotal.com/gui/file/a47803a514f65e1c94a01f3ba83baaf2547a94ec266b92def5df8232ddee5cdf) (4) |                  [MalwareBazaar Database]()                  | A661 |
-| 2026/3/22 |  柬埔寨警方通告···.exe  |          研究中          | 1447b57a09a8759ab98c8958b655ed082388bf562261477664f9e90ce87ac2a9 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/1447b57a09a8759ab98c8958b655ed082388bf562261477664f9e90ce87ac2a9) (17) |                  [MalwareBazaar Database]()                  | A662 |
-| 2026/3/22 |   AisiTools···x64.exe   | **银狐 (SilverFox.wos)** | 7570f4c001af6efd19899e178aadf7a6ca9b3ab140f84050182a395e1fb496a8 |                                      |                      [VirusTotal]() ()                       |                              无                              | A663 |
+| 2026/3/22 |    KuaiLianLets.exe     | **银狐 (SilverFox.sa)**  | f14deb920da627d47f205163fc2c9002c598fbc6e5233d91ab185294cb9a38ef | 92373710-0fac-4662-9f85-5d5619c70b92 | [VirusTotal](https://www.virustotal.com/gui/file/f14deb920da627d47f205163fc2c9002c598fbc6e5233d91ab185294cb9a38ef) (7) |                              无                              | A660 |
+| 2026/3/22 |    ···简体语言包.exe    | **银狐 (SilverFox.sae)** | a47803a514f65e1c94a01f3ba83baaf2547a94ec266b92def5df8232ddee5cdf |                                      | [VirusTotal](https://www.virustotal.com/gui/file/a47803a514f65e1c94a01f3ba83baaf2547a94ec266b92def5df8232ddee5cdf) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a47803a514f65e1c94a01f3ba83baaf2547a94ec266b92def5df8232ddee5cdf) | A661 |
+| 2026/3/22 |  柬埔寨警方通告···.exe  |  **Win32/Malgent!MSR**   | 1447b57a09a8759ab98c8958b655ed082388bf562261477664f9e90ce87ac2a9 | 07781c45-6264-4f64-ad4a-4d2900b4c30f | [VirusTotal](https://www.virustotal.com/gui/file/1447b57a09a8759ab98c8958b655ed082388bf562261477664f9e90ce87ac2a9) (17) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/1447b57a09a8759ab98c8958b655ed082388bf562261477664f9e90ce87ac2a9) | A662 |
+| 2026/3/22 |   AisiTools···x64.exe   | **银狐 (SilverFox.wos)** | 7570f4c001af6efd19899e178aadf7a6ca9b3ab140f84050182a395e1fb496a8 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/7570f4c001af6efd19899e178aadf7a6ca9b3ab140f84050182a395e1fb496a8) (14) |                              无                              | A663 |
+| 2026/3/23 |      infected.exe       |   **银狐 (SilverFox)**   | 9e35b8217ae4cc4c77db3eeb0303eeef9e614500202b76377b8a2c7b52de3220 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/9e35b8217ae4cc4c77db3eeb0303eeef9e614500202b76377b8a2c7b52de3220) (8) |                              无                              | A664 |
+| 2026/3/23 |  sun_oray_v16.2.0.msi   |   **银狐 (SilverFox)**   | d39c9c034e5ac5023060995c0393b090ecb69f288d41aecad6227f8bb5df2931 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/d39c9c034e5ac5023060995c0393b090ecb69f288d41aecad6227f8bb5df2931) (13) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/d39c9c034e5ac5023060995c0393b090ecb69f288d41aecad6227f8bb5df2931) | A665 |
 |  ——————   |      ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
