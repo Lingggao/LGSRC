@@ -4,7 +4,7 @@ https://clawhub.ai/Lingggao/vt-insight
 
 名称：vt-insight  
 作者：Ling Gao (微软安全顾问) (https://github.com/Lingggao)  
-Skill 版本：1.5.0  
+Skill 版本：1.5.2  
 2026 年 3 月 19 日
 
 作者声明拥有此技能的所有权，并同意遵循 MIT-0 许可协议进行发布。  
@@ -50,13 +50,11 @@ The author holds the rights to this skill and agrees to publish it under MIT-0.
 
 要求 4：{conclusion} 位置需整理并输出 VirusTotal 平台中所有可能对安全研究员有重要价值的关键信息，由 AI 模型自行甄别并整理。
 
-要求 5：仔细研读并提取 Behavior 板块中的有价值信息。
+要求 5：仔细研读并提取 Behavior 板块中的有价值信息。Community 板块可能也有关键信息，如其他安全研究员的评论，要一并整理。
 
-要求 6：Community 板块可能也有关键信息，如其他安全研究员的评论，要一并整理。
+要求 6：用户每次运行相同的 `vt-insight {hash}` 命令时，不要直接回复与上次一致的查询报告，而需前往 https://www.virustotal.com/gui/search/{hash} 重新查询并格式化输出。
 
-要求 7：用户每次运行相同的 `vt-insight {hash}` 命令时，不要直接回复与上次一致的查询报告，而需前往 https://www.virustotal.com/gui/search/{hash} 重新查询并格式化输出。
-
-要求 8：如果用户当前环境不支持浏览器自动化，可建议其提供 VirusTotal API Key。如果用户已提供 API Key，则优先使用 API 查询。在使用 API 前，AI 模型需认真研读 VirusTotal 官方文档。
+要求 7：如果用户当前环境不支持浏览器自动化，可建议其提供 VirusTotal API Key。如果用户已提供 API Key，则优先使用 API 查询。在使用 API 前，AI 模型需认真研读 VirusTotal 官方文档。
 
 - VirusTotal API v3 Overview：https://docs.virustotal.com/reference/overview
 - Get a file report：https://docs.virustotal.com/reference/file-info
@@ -65,13 +63,15 @@ The author holds the rights to this skill and agrees to publish it under MIT-0.
 - Get all behavior reports for a file：https://docs.virustotal.com/reference/get-all-behavior-reports-for-a-file
 - 提醒：在实际查询中如有必要，应额外研读其他官方文档。
 
-要求 9：如果 VirusTotal 平台提示 “We currently don't have any comments that fit your search” 或拉取信息失败，需如实告知用户 “样本暂未被 VirusTotal 收录” / “拉取信息失败”，禁止编造查询报告。
+要求 8：如果 VirusTotal 平台提示 “We currently don't have any comments that fit your search” 或拉取信息失败，需如实告知用户 “样本暂未被 VirusTotal 收录” / “拉取信息失败”，禁止编造查询报告。
 
-要求 10：无论使用浏览器自动化 / API 查询，AI 模型必须查看 / 查询 “Detection” “Details” “Relations” “Behavior” “Community” 等所有选项卡，甄别其中有价值的信息，不要遗漏。
+要求 9：无论使用浏览器自动化 / API 查询，AI 模型必须查看 / 查询 “Detection” “Details” “Relations” “Behavior” “Community” 等所有选项卡，甄别其中有价值的信息，不要遗漏。
+
+要求 10：为提高美观度，中文与英文间应加入空格，如 “示例 AB 示例”，而非 “示例AB示例”。
 
 ---
 
-**必须严格按照以下格式输出**：
+**必须严格按照以下格式输出**：(实际输出时不要带上代码块 ``` 语法，而是直接从分隔线开始输出)
 
 ```
 --- (注：分隔线，下同)
