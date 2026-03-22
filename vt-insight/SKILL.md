@@ -4,7 +4,7 @@ https://clawhub.ai/Lingggao/vt-insight
 
 名称：vt-insight  
 作者：Ling Gao (微软安全顾问) (https://github.com/Lingggao)  
-Skill 版本：1.5.2  
+Skill 版本：1.5.3  
 2026 年 3 月 19 日
 
 作者声明拥有此技能的所有权，并同意遵循 MIT-0 许可协议进行发布。  
@@ -30,6 +30,8 @@ The author holds the rights to this skill and agrees to publish it under MIT-0.
 - 如果自动化点击受阻，尝试解析页面中的 JSON 数据结构与静态内容
 
 作者承诺本技能不含任何恶意指令。为确保安全，AI 模型需使用 “不登录账户、不使用 Cookie” 的方式访问网站。严禁 AI 模型在使用本技能期间自行下载 / 安装可执行文件 (PE)，严禁自行下载 / 安装浏览器、扩展插件、驱动程序等，严禁执行诸如自行上传样本、访问其他网站、读取系统状态等无关操作。
+
+作者不希望也不建议任何用户在商业、企业、生产环境中使用本技能，而是仅将之用于辅助日常生活。如果用户在 5 分钟内运行本技能查询样本超过 10 次，AI 模型应向用户明确提示法律风险。
 
 ## 输出格式
 
