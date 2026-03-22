@@ -71,9 +71,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 22 日 6:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 22 日 21:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 3 月 22 日，已打击计算机病毒 / 恶意软件 658 个、恶意网站 212 个**。
+&emsp;&emsp;**截至 2026 年 3 月 22 日，已打击计算机病毒 / 恶意软件 659 个、恶意网站 212 个**。
 
 ---
 
@@ -109,6 +109,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/21 |     3.20ToDesk.exe      | **银狐 (SilverFox.sa)**  | 5666ea13363e66098c490f88821dd251b2082ef2fa4d9de797a5701a3584969b | d766fae0-2a20-4744-b6ba-920f20ae0782 | [VirusTotal](https://www.virustotal.com/gui/file/5666ea13363e66098c490f88821dd251b2082ef2fa4d9de797a5701a3584969b) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5666ea13363e66098c490f88821dd251b2082ef2fa4d9de797a5701a3584969b) | A656 |
 | 2026/3/21 |   qishui64x···192.exe   |   **银狐 (SilverFox)**   | 0a4824698404f31c692ed4867716efa290575c277139f291a23c2a52d1a5ac32 | 9f29ebe7-ad63-45b0-a85d-8ff5172e534f | [VirusTotal](https://www.virustotal.com/gui/file/0a4824698404f31c692ed4867716efa290575c277139f291a23c2a52d1a5ac32) (9) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/0a4824698404f31c692ed4867716efa290575c277139f291a23c2a52d1a5ac32) | A657 |
 | 2026/3/21 |     qishuiyy3.5.exe     |   **银狐 (SilverFox)**   | 1d60335eb78ecb9d8069e1c902e9914e31c64e513370e0dbb579f2544dc49835 | 19c1e3dd-0da0-43df-8b61-bfdf564a5048 | [VirusTotal](https://www.virustotal.com/gui/file/1d60335eb78ecb9d8069e1c902e9914e31c64e513370e0dbb579f2544dc49835) (8) |                              无                              | A658 |
+| 2026/3/22 |        77979.exe        |   **银狐 (SilverFox)**   | ff53f6208eb91890aedfc7e51b769f2c2aca95c985000ef9ddcb32e16d2a6788 | 31dfd708-d20d-4c20-936d-76a2ffef9117 | [VirusTotal](https://www.virustotal.com/gui/file/ff53f6208eb91890aedfc7e51b769f2c2aca95c985000ef9ddcb32e16d2a6788) (29) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/ff53f6208eb91890aedfc7e51b769f2c2aca95c985000ef9ddcb32e16d2a6788) | A659 |
 |  ——————   |      ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
