@@ -71,7 +71,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 23 日 9:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 23 日 15:00 (GMT+8)
 
 &emsp;&emsp;**截至 2026 年 3 月 23 日，已打击计算机病毒 / 恶意软件 669 个、恶意网站 221 个**。
 
@@ -108,7 +108,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/23 |  sun_oray_v16.2.0.msi  |   **银狐 (SilverFox)**   | d39c9c034e5ac5023060995c0393b090ecb69f288d41aecad6227f8bb5df2931 | 81a1a3c4-760e-4d20-86b4-1a0c1e234c00 | [VirusTotal](https://www.virustotal.com/gui/file/d39c9c034e5ac5023060995c0393b090ecb69f288d41aecad6227f8bb5df2931) (13) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/d39c9c034e5ac5023060995c0393b090ecb69f288d41aecad6227f8bb5df2931) | A665 |
 | 2026/3/23 |    3.210ToDesk.exe     | **银狐 (SilverFox.sa)**  | b7ee0c399d6706c799d38cc79e72710875f13917bd0763ab07cad806d44b16ad | 3a3de9af-b5a4-43c4-a92c-5480f21ea0a6 | [VirusTotal](https://www.virustotal.com/gui/file/b7ee0c399d6706c799d38cc79e72710875f13917bd0763ab07cad806d44b16ad) (3) |                              无                              | A666 |
 | 2026/3/23 |      TD-Setup.msi      | **银狐 (SilverFox.cw)**  | 42588b248c62d435629ef601eab4e1f984791154ad43be9347aa400a63708c77 | 15cbc31a-8bda-4708-8f38-93d64e54b3b0 | [VirusTotal](https://www.virustotal.com/gui/file/42588b248c62d435629ef601eab4e1f984791154ad43be9347aa400a63708c77) (3) |                              无                              | A667 |
-| 2026/3/23 |    ToDesk_Setup.exe    |          研究中          | 922facf46d6d16e6553cb5e2c62dfb84bda37c3d285ef6b83a527b2e8caed0b9 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/922facf46d6d16e6553cb5e2c62dfb84bda37c3d285ef6b83a527b2e8caed0b9) (1) |                              无                              | A668 |
+| 2026/3/23 |    ToDesk_Setup.exe    |  **Win32/Malgent!MSR**   | 922facf46d6d16e6553cb5e2c62dfb84bda37c3d285ef6b83a527b2e8caed0b9 | 33228810-3d80-46da-9f3f-18cef1a747d0 | [VirusTotal](https://www.virustotal.com/gui/file/922facf46d6d16e6553cb5e2c62dfb84bda37c3d285ef6b83a527b2e8caed0b9) (1) |                              无                              | A668 |
 | 2026/3/23 |  ToDsored···x6.2.msi   |   **银狐 (SilverFox)**   | 88ec0aa0210d9dfb6ad524bd46e2386a535bd139a459d7add3e6f51b5c2debea | 5a53600d-45ca-4c80-bccc-408cbfebb8bd | [VirusTotal](https://www.virustotal.com/gui/file/88ec0aa0210d9dfb6ad524bd46e2386a535bd139a459d7add3e6f51b5c2debea) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/88ec0aa0210d9dfb6ad524bd46e2386a535bd139a459d7add3e6f51b5c2debea) | A669 |
 |  ——————   |      ————————————      |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
