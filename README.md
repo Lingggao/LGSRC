@@ -71,9 +71,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 23 日 23:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 24 日 10:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 3 月 23 日，已打击计算机病毒 / 恶意软件 676 个、恶意网站 223 个**。
+&emsp;&emsp;**截至 2026 年 3 月 24 日，已打击计算机病毒 / 恶意软件 676 个、恶意网站 223 个**。
 
 ---
 
@@ -110,8 +110,8 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/23 |        temp!_.exe        |      **Cybercrime**      | 20d4833af9c6c79a3758c5a71c1332966c44783de0070444f93814a91fec5dbb | 54cddb59-e902-4c79-ab18-5c7fb23e643d | [VirusTotal](https://www.virustotal.com/gui/file/20d4833af9c6c79a3758c5a71c1332966c44783de0070444f93814a91fec5dbb) (12) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/20d4833af9c6c79a3758c5a71c1332966c44783de0070444f93814a91fec5dbb) | A672 |
 | 2026/3/23 |   接码用户端2.0版s.exe   |    **Backdoor/Gh0st**    | 6b4038f0a5e9a245e0cfadcf3c92da10b84129841b5ce007b056206e79af08b0 | 7e9bf04c-7200-42b2-8e05-e80ef0035404 | [VirusTotal](https://www.virustotal.com/gui/file/6b4038f0a5e9a245e0cfadcf3c92da10b84129841b5ce007b056206e79af08b0) (21) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/6b4038f0a5e9a245e0cfadcf3c92da10b84129841b5ce007b056206e79af08b0) | A673 |
 | 2026/3/23 |        loader.exe        |   **银狐 (SilverFox)**   | c092e3b047c6173359e3e9d870de4db19c494de42d7ef511b822e301860e56a3 | 0ffea019-f146-463a-959c-354bf33e84c8 | [VirusTotal](https://www.virustotal.com/gui/file/c092e3b047c6173359e3e9d870de4db19c494de42d7ef511b822e301860e56a3) (8) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c092e3b047c6173359e3e9d870de4db19c494de42d7ef511b822e301860e56a3) | A674 |
-| 2026/3/23 |    Eal-cnnqot···.exe     |   **银狐 (SilverFox)**   | ee596eba614770d22d93e5c588ba8e56613bb6900b2706396707508e5a868baa |                                      | [VirusTotal](https://www.virustotal.com/gui/file/ee596eba614770d22d93e5c588ba8e56613bb6900b2706396707508e5a868baa) (4) |                              无                              | A675 |
-| 2026/3/23 |   uardian_gogle···.exe   | **银狐 (SilverFox.sa)**  | 0c881c61077d2931bd9d5cb60507e44eee7165b79c47a8206fa309c499c11b08 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/0c881c61077d2931bd9d5cb60507e44eee7165b79c47a8206fa309c499c11b08) (6) |                              无                              | A676 |
+| 2026/3/23 |    Eal-cnnqot···.exe     |   **银狐 (SilverFox)**   | ee596eba614770d22d93e5c588ba8e56613bb6900b2706396707508e5a868baa | a4182eac-46eb-4744-9885-26a5862ca16d | [VirusTotal](https://www.virustotal.com/gui/file/ee596eba614770d22d93e5c588ba8e56613bb6900b2706396707508e5a868baa) (4) |                              无                              | A675 |
+| 2026/3/23 |   uardian_gogle···.exe   | **银狐 (SilverFox.sa)**  | 0c881c61077d2931bd9d5cb60507e44eee7165b79c47a8206fa309c499c11b08 |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/0c881c61077d2931bd9d5cb60507e44eee7165b79c47a8206fa309c499c11b08) (6) |                              无                              | A676 |
 |  ——————   |       ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
