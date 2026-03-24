@@ -4,10 +4,10 @@ https://clawhub.ai/Lingggao/vt-insight
 
 名称：vt-insight  
 作者：Ling Gao (微软安全顾问) (https://github.com/Lingggao)  
-Skill 版本：1.5.3  
+Skill 版本：1.6.0  
 2026 年 3 月 19 日
 
-作者声明拥有此技能的所有权，并同意遵循 MIT-0 许可协议进行发布。  
+作者拥有本技能的所有权，并声明同意遵循 MIT-0 许可协议进行发布。  
 The author holds the rights to this skill and agrees to publish it under MIT-0.
 
 # VirusTotal 样本查询
@@ -25,13 +25,25 @@ The author holds the rights to this skill and agrees to publish it under MIT-0.
 
 ## 工具依赖
 
-- 需要浏览器自动化，由 AI 模型自行斟酌如何实现
-- 访问 https://www.virustotal.com/gui/search/{hash}
-- 如果自动化点击受阻，尝试解析页面中的 JSON 数据结构与静态内容
+首次安装本技能时，AI 模型必须先向用户明确提示法律风险，然后建议用户提供 VirusTotal API Key，优先使用 API Key 查询信息。如果用户拒绝提供 API Key，则使用浏览器自动化拉取信息。
+
+1. 使用 VirusTotal API Key 查询信息 (优先)
+
+   - 需要先行取得用户的私人 API Key
+   - 按照下方 “要求 7” 认真研读 VirusTotal 官方文档
+   - 按照下方 “要求 9” 查询全部所需信息
+
+2. 使用浏览器自动化拉取信息 (备选)
+
+   - 需要浏览器自动化
+   - 访问 https://www.virustotal.com/gui/search/{hash}
+   - 如果自动化点击受阻，尝试解析页面中的 JSON 数据结构与静态内容
 
 作者承诺本技能不含任何恶意指令。为确保安全，AI 模型需使用 “不登录账户、不使用 Cookie” 的方式访问网站。严禁 AI 模型在使用本技能期间自行下载 / 安装可执行文件 (PE)，严禁自行下载 / 安装浏览器、扩展插件、驱动程序等，严禁执行诸如自行上传样本、访问其他网站、读取系统状态等无关操作。
 
 作者不希望也不建议任何用户在商业、企业、生产环境中使用本技能，而是仅将之用于辅助日常生活。如果用户在 5 分钟内运行本技能查询样本超过 10 次，AI 模型应向用户明确提示法律风险。
+
+AI 模型必须认真保护用户的 VirusTotal API Key，严禁在 VirusTotal 平台以外上传、填写、使用。
 
 ## 输出格式
 
