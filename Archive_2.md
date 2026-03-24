@@ -211,6 +211,12 @@
 | 2026/3/15 |       hxxps://zh-cn-google[.]hl[.]cn        |    仿冒 Chrome、传播病毒    |           hxxps://tenyunat-99viplawt[.]com/QQGSYLX           |                            无                            | Z199 |
 | 2026/3/15 |     hxxps://cn[.]google-zhcn[.]hl[.]cn      |    仿冒 Chrome、传播病毒    | hxxps://sgnfyn[.]oss-cn-shenzhen[.]aliyuncs[.]com/goodgle-chomex16[.]83[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3796605) | Z200 |
 | 2026/3/16 |    hxxps://www[.]cc-openclaw[.]com[.]cn     |    仿冒 OpenClaw “龙虾”     |    hxxp://www[.]web-openclaw[.]com[.]cn/pc/openclaw[.]zip    |                            无                            | Z201 |
+| 2026/3/18 |     hxxps://google-google-web[.]hl[.]cn     |    仿冒 Chrome、传播病毒    |       hxxps://www[.]irbis2000[.]com/Chro_Setup64[.]exe       |                            无                            | Z202 |
+| 2026/3/18 |    hxxps://chromeapps-google[.]com[.]cn     |    仿冒 Chrome、传播病毒    |                              无                              |                            无                            | Z203 |
+| 2026/3/18 |      hxxps://chrom-gooogle[.]com[.]cn       |    仿冒 Chrome、传播病毒    |       hxxps://hjendcs[.]x98665[.]com/liulanSetup[.]zip       | [URLhaus Database](https://urlhaus.abuse.ch/url/3798427) | Z204 |
+| 2026/3/18 |     hxxps://ad-google-google[.]com[.]cn     |    仿冒 Chrome、传播病毒    |           hxxps://tranyasy[.]com[.]cn/Google[.]zip           | [URLhaus Database](https://urlhaus.abuse.ch/url/3798428) | Z205 |
+| 2026/3/18 |       hxxps://cn-gooogle-zh[.]hl[.]cn       |    仿冒 Chrome、传播病毒    |   hxxps://daw[.]tos-cn-hongkong[.]volces[.]com/Dwglq[.]zip   | [URLhaus Database](https://urlhaus.abuse.ch/url/3798426) | Z206 |
+| 2026/3/18 |   hxxps://cn[.]h-google-google[.]com[.]cn   |    仿冒 Chrome、传播病毒    |                              无                              |                            无                            | Z207 |
 |  ——————   |            ————————————————————             |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
