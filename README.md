@@ -71,9 +71,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 24 日 10:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 24 日 13:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 3 月 24 日，已打击计算机病毒 / 恶意软件 676 个、恶意网站 223 个**。
+&emsp;&emsp;**截至 2026 年 3 月 24 日，已打击计算机病毒 / 恶意软件 678 个、恶意网站 223 个**。
 
 ---
 
@@ -85,11 +85,6 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 |   日期    |          文件名          |           检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :----------------------: | :----------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/3/20 |       LetsVPN.exe        |   **ShellcodeRunner**    | 06ce77ff596c35c7c8fadbf45d5b5928c57af9a5bc3afd4592a0a8836572aa3e | aca6ba30-f40f-4717-a6c7-1f6734e78b78 | [VirusTotal](https://www.virustotal.com/gui/file/06ce77ff596c35c7c8fadbf45d5b5928c57af9a5bc3afd4592a0a8836572aa3e) (4) |                              无                              | A650 |
-| 2026/3/20 |     letsvp_setup.exe     | **银狐 (SilverFox.sa)**  | c0fcad0ba982fd95958248c73ee12f1732229632fde97d645e2e479cc664bf84 | 9b65f7ea-bdda-40c4-9406-fbc2e6f53752 | [VirusTotal](https://www.virustotal.com/gui/file/c0fcad0ba982fd95958248c73ee12f1732229632fde97d645e2e479cc664bf84) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c0fcad0ba982fd95958248c73ee12f1732229632fde97d645e2e479cc664bf84) | A651 |
-| 2026/3/20 |     %e6%96···048.exe     | **银狐 (SilverFox.sa)**  | d02ca30fbc880b849ef53cfb14fd5c8c2afc246ee9350fc7ab1793d5588d11b9 | 3a2d13d9-2983-484d-b282-bf1b7353bad0 | [VirusTotal](https://www.virustotal.com/gui/file/d02ca30fbc880b849ef53cfb14fd5c8c2afc246ee9350fc7ab1793d5588d11b9) (3) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/d02ca30fbc880b849ef53cfb14fd5c8c2afc246ee9350fc7ab1793d5588d11b9) | A652 |
-| 2026/3/20 |        danma.exe         | **银狐 (SilverFox.wos)** | 0f07ad05a0f1c0f0c232ed50bc56de228f1500c98be8bacda16035c318709ca9 | 44ff83dc-45db-4f53-9865-86611995f27e | [VirusTotal](https://www.virustotal.com/gui/file/0f07ad05a0f1c0f0c232ed50bc56de228f1500c98be8bacda16035c318709ca9) (17) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/0f07ad05a0f1c0f0c232ed50bc56de228f1500c98be8bacda16035c318709ca9) | A653 |
-| 2026/3/20 |    QQ截图···.png.com     |      **Cybercrime**      | c0861f5be19ead006864f44bbf542572ebf35ab3da3a547ec06770a5685d8b29 | 8f956777-f7c3-4c98-821d-8a4e38e5c4e9 | [VirusTotal](https://www.virustotal.com/gui/file/c0861f5be19ead006864f44bbf542572ebf35ab3da3a547ec06770a5685d8b29) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c0861f5be19ead006864f44bbf542572ebf35ab3da3a547ec06770a5685d8b29) | A654 |
 | 2026/3/20 |  苹果···快递单号···.exe  |   **银狐 (SilverFox)**   | d4c7157d593e6ac6c4afc9a466f731d577caee271a29ca8ef0bc9acd12322c4e | db621112-52fa-49af-b568-eeda10f39c4f | [VirusTotal](https://www.virustotal.com/gui/file/d4c7157d593e6ac6c4afc9a466f731d577caee271a29ca8ef0bc9acd12322c4e) (21) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/d4c7157d593e6ac6c4afc9a466f731d577caee271a29ca8ef0bc9acd12322c4e) | A655 |
 | 2026/3/21 |      3.20ToDesk.exe      | **银狐 (SilverFox.sa)**  | 5666ea13363e66098c490f88821dd251b2082ef2fa4d9de797a5701a3584969b | d766fae0-2a20-4744-b6ba-920f20ae0782 | [VirusTotal](https://www.virustotal.com/gui/file/5666ea13363e66098c490f88821dd251b2082ef2fa4d9de797a5701a3584969b) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5666ea13363e66098c490f88821dd251b2082ef2fa4d9de797a5701a3584969b) | A656 |
 | 2026/3/21 |   qishui64x···192.exe    |   **银狐 (SilverFox)**   | 0a4824698404f31c692ed4867716efa290575c277139f291a23c2a52d1a5ac32 | 9f29ebe7-ad63-45b0-a85d-8ff5172e534f | [VirusTotal](https://www.virustotal.com/gui/file/0a4824698404f31c692ed4867716efa290575c277139f291a23c2a52d1a5ac32) (9) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/0a4824698404f31c692ed4867716efa290575c277139f291a23c2a52d1a5ac32) | A657 |
@@ -112,6 +107,8 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/23 |        loader.exe        |   **银狐 (SilverFox)**   | c092e3b047c6173359e3e9d870de4db19c494de42d7ef511b822e301860e56a3 | 0ffea019-f146-463a-959c-354bf33e84c8 | [VirusTotal](https://www.virustotal.com/gui/file/c092e3b047c6173359e3e9d870de4db19c494de42d7ef511b822e301860e56a3) (8) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c092e3b047c6173359e3e9d870de4db19c494de42d7ef511b822e301860e56a3) | A674 |
 | 2026/3/23 |    Eal-cnnqot···.exe     |   **银狐 (SilverFox)**   | ee596eba614770d22d93e5c588ba8e56613bb6900b2706396707508e5a868baa | a4182eac-46eb-4744-9885-26a5862ca16d | [VirusTotal](https://www.virustotal.com/gui/file/ee596eba614770d22d93e5c588ba8e56613bb6900b2706396707508e5a868baa) (4) |                              无                              | A675 |
 | 2026/3/23 |   uardian_gogle···.exe   | **银狐 (SilverFox.sa)**  | 0c881c61077d2931bd9d5cb60507e44eee7165b79c47a8206fa309c499c11b08 |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/0c881c61077d2931bd9d5cb60507e44eee7165b79c47a8206fa309c499c11b08) (6) |                              无                              | A676 |
+| 2026/3/24 |  ···03-24 最新名单.exe   | **银狐 (SilverFox.bg)**  | 076690774391f4d46a325e97df0a60b8dff87be9a8e99452d9ca07576c6aa9c4 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/076690774391f4d46a325e97df0a60b8dff87be9a8e99452d9ca07576c6aa9c4) (9) |                  [MalwareBazaar Database]()                  | A677 |
+| 2026/3/24 |      GameRepair.exe      | **银狐 (SilverFox.se)**  | 229e38d5c7989e3dfa2ccd5b3a4ea9412ec35038d6571943945a9ad68ef229ba |                                      | [VirusTotal](https://www.virustotal.com/gui/file/229e38d5c7989e3dfa2ccd5b3a4ea9412ec35038d6571943945a9ad68ef229ba) (20) |                  [MalwareBazaar Database]()                  | A678 |
 |  ——————   |       ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -128,7 +125,6 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 |   日期    |                   URL                   |          类别          |                           有效载荷                           |                         URLhaus                          | 编号 |
 | :-------: | :-------------------------------------: | :--------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
-| 2026/3/16 |  hxxps://www[.]cc-openclaw[.]com[.]cn   |  仿冒 OpenClaw “龙虾”  |    hxxp://www[.]web-openclaw[.]com[.]cn/pc/openclaw[.]zip    |                            无                            | Z201 |
 | 2026/3/18 |   hxxps://google-google-web[.]hl[.]cn   | 仿冒 Chrome、传播病毒  |       hxxps://www[.]irbis2000[.]com/Chro_Setup64[.]exe       |                            无                            | Z202 |
 | 2026/3/18 |  hxxps://chromeapps-google[.]com[.]cn   | 仿冒 Chrome、传播病毒  |                              无                              |                            无                            | Z203 |
 | 2026/3/18 |    hxxps://chrom-gooogle[.]com[.]cn     | 仿冒 Chrome、传播病毒  |       hxxps://hjendcs[.]x98665[.]com/liulanSetup[.]zip       | [URLhaus Database](https://urlhaus.abuse.ch/url/3798427) | Z204 |

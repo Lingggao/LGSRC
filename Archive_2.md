@@ -210,6 +210,7 @@
 | 2026/3/15 |    hxxps://zh[.]support-google[.]hl[.]cn    |    仿冒 Chrome、传播病毒    | hxxps://sgnfyn[.]oss-cn-shenzhen[.]aliyuncs[.]com/googlechr1[.]18[.]9[.]83[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3796606) | Z198 |
 | 2026/3/15 |       hxxps://zh-cn-google[.]hl[.]cn        |    仿冒 Chrome、传播病毒    |           hxxps://tenyunat-99viplawt[.]com/QQGSYLX           |                            无                            | Z199 |
 | 2026/3/15 |     hxxps://cn[.]google-zhcn[.]hl[.]cn      |    仿冒 Chrome、传播病毒    | hxxps://sgnfyn[.]oss-cn-shenzhen[.]aliyuncs[.]com/goodgle-chomex16[.]83[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3796605) | Z200 |
+| 2026/3/16 |    hxxps://www[.]cc-openclaw[.]com[.]cn     |    仿冒 OpenClaw “龙虾”     |    hxxp://www[.]web-openclaw[.]com[.]cn/pc/openclaw[.]zip    |                            无                            | Z201 |
 |  ——————   |            ————————————————————             |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
