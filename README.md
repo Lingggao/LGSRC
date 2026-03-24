@@ -71,9 +71,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 24 日 17:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 24 日 23:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 3 月 24 日，已打击计算机病毒 / 恶意软件 679 个、恶意网站 227 个**。
+&emsp;&emsp;**截至 2026 年 3 月 24 日，已打击计算机病毒 / 恶意软件 681 个、恶意网站 227 个**。
 
 ---
 
@@ -85,8 +85,6 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 |   日期    |          文件名          |           检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :----------------------: | :----------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/3/20 |  苹果···快递单号···.exe  |   **银狐 (SilverFox)**   | d4c7157d593e6ac6c4afc9a466f731d577caee271a29ca8ef0bc9acd12322c4e | db621112-52fa-49af-b568-eeda10f39c4f | [VirusTotal](https://www.virustotal.com/gui/file/d4c7157d593e6ac6c4afc9a466f731d577caee271a29ca8ef0bc9acd12322c4e) (21) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/d4c7157d593e6ac6c4afc9a466f731d577caee271a29ca8ef0bc9acd12322c4e) | A655 |
-| 2026/3/21 |      3.20ToDesk.exe      | **银狐 (SilverFox.sa)**  | 5666ea13363e66098c490f88821dd251b2082ef2fa4d9de797a5701a3584969b | d766fae0-2a20-4744-b6ba-920f20ae0782 | [VirusTotal](https://www.virustotal.com/gui/file/5666ea13363e66098c490f88821dd251b2082ef2fa4d9de797a5701a3584969b) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5666ea13363e66098c490f88821dd251b2082ef2fa4d9de797a5701a3584969b) | A656 |
 | 2026/3/21 |   qishui64x···192.exe    |   **银狐 (SilverFox)**   | 0a4824698404f31c692ed4867716efa290575c277139f291a23c2a52d1a5ac32 | 9f29ebe7-ad63-45b0-a85d-8ff5172e534f | [VirusTotal](https://www.virustotal.com/gui/file/0a4824698404f31c692ed4867716efa290575c277139f291a23c2a52d1a5ac32) (9) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/0a4824698404f31c692ed4867716efa290575c277139f291a23c2a52d1a5ac32) | A657 |
 | 2026/3/21 |     qishuiyy3.5.exe      |   **银狐 (SilverFox)**   | 1d60335eb78ecb9d8069e1c902e9914e31c64e513370e0dbb579f2544dc49835 | 19c1e3dd-0da0-43df-8b61-bfdf564a5048 | [VirusTotal](https://www.virustotal.com/gui/file/1d60335eb78ecb9d8069e1c902e9914e31c64e513370e0dbb579f2544dc49835) (8) |                              无                              | A658 |
 | 2026/3/22 |        77979.exe         |   **银狐 (SilverFox)**   | ff53f6208eb91890aedfc7e51b769f2c2aca95c985000ef9ddcb32e16d2a6788 | 31dfd708-d20d-4c20-936d-76a2ffef9117 | [VirusTotal](https://www.virustotal.com/gui/file/ff53f6208eb91890aedfc7e51b769f2c2aca95c985000ef9ddcb32e16d2a6788) (29) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/ff53f6208eb91890aedfc7e51b769f2c2aca95c985000ef9ddcb32e16d2a6788) | A659 |
@@ -109,7 +107,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/23 |   uardian_gogle···.exe   | **银狐 (SilverFox.sa)**  | 0c881c61077d2931bd9d5cb60507e44eee7165b79c47a8206fa309c499c11b08 |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/0c881c61077d2931bd9d5cb60507e44eee7165b79c47a8206fa309c499c11b08) (6) |                              无                              | A676 |
 | 2026/3/24 |  ···03-24 最新名单.exe   | **银狐 (SilverFox.bg)**  | 076690774391f4d46a325e97df0a60b8dff87be9a8e99452d9ca07576c6aa9c4 | 0e0b3513-7f45-487a-9296-313450bd4f01 | [VirusTotal](https://www.virustotal.com/gui/file/076690774391f4d46a325e97df0a60b8dff87be9a8e99452d9ca07576c6aa9c4) (9) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/076690774391f4d46a325e97df0a60b8dff87be9a8e99452d9ca07576c6aa9c4) | A677 |
 | 2026/3/24 |      GameRepair.exe      | **银狐 (SilverFox.se)**  | 229e38d5c7989e3dfa2ccd5b3a4ea9412ec35038d6571943945a9ad68ef229ba | 4f1bfd45-6648-4d08-b785-d13298c597a8 | [VirusTotal](https://www.virustotal.com/gui/file/229e38d5c7989e3dfa2ccd5b3a4ea9412ec35038d6571943945a9ad68ef229ba) (20) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/229e38d5c7989e3dfa2ccd5b3a4ea9412ec35038d6571943945a9ad68ef229ba) | A678 |
-| 2026/3/24 |  ···人员违纪名单···.exe  | **银狐 (SilverFox.bg)**  | c8bafdc9b010a5d0ea4d1bebe404e1f824e2cc31c7485aa2acf70df5a4f5f3fa |                                      | [VirusTotal](https://www.virustotal.com/gui/file/c8bafdc9b010a5d0ea4d1bebe404e1f824e2cc31c7485aa2acf70df5a4f5f3fa) (9) |                  [MalwareBazaar Database]()                  | A679 |
+| 2026/3/24 |  ···人员违纪名单···.exe  | **银狐 (SilverFox.bg)**  | c8bafdc9b010a5d0ea4d1bebe404e1f824e2cc31c7485aa2acf70df5a4f5f3fa | 82c67177-1b5e-4545-84cd-a44958ea9103 | [VirusTotal](https://www.virustotal.com/gui/file/c8bafdc9b010a5d0ea4d1bebe404e1f824e2cc31c7485aa2acf70df5a4f5f3fa) (9) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c8bafdc9b010a5d0ea4d1bebe404e1f824e2cc31c7485aa2acf70df5a4f5f3fa) | A679 |
+| 2026/3/24 |    Clash.Verge···.exe    |      **Cybercrime**      | 3cd05fd21e40144f7b5b3b58a6567cadbcf9f84421920867e5f142fb6711d6da |                                      | [VirusTotal](https://www.virustotal.com/gui/file/3cd05fd21e40144f7b5b3b58a6567cadbcf9f84421920867e5f142fb6711d6da) (7) |                  [MalwareBazaar Database]()                  | A680 |
+| 2026/3/24 |    cloudflared···.exe    |   **银狐 (SilverFox)**   | a1d4ad89f895677d116bfac0379a0525390a221666311a295d4aa64ce0685a6d |                                      | [VirusTotal](https://www.virustotal.com/gui/file/a1d4ad89f895677d116bfac0379a0525390a221666311a295d4aa64ce0685a6d) (17) |                  [MalwareBazaar Database]()                  | A681 |
 |  ——————   |       ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -142,7 +142,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/23 |          hxxps://toamndkf[.]cyou          | 仿冒 ToDesk、传播病毒  |    hxxps://xiazguawanzhuanbao[.]com/1/3[.]210ToDesk[.]zip    |                            无                            | Z221 |
 | 2026/3/23 |   hxxps://cn[.]cn-google-com[.]com[.]cn   | 仿冒 Chrome、传播病毒  | hxxps://googelfasdjkta[.]s3[.]ap-south-1[.]amazonaws[.]com/uardian_gogletipam[.]zip |                            无                            | Z222 |
 | 2026/3/23 |      hxxps://cn-www-google[.]hl[.]cn      | 仿冒 Chrome、传播病毒  | hxxps://googelfasdjkta[.]s3[.]ap-south-1[.]amazonaws[.]com/Eal-cnnqotbstueiakll[.]zip |                            无                            | Z223 |
-| 2026/3/24 |         hxxps://openclawcn[.]net          |  仿冒 OpenClaw “龙虾”  | https://cdn.openclawcn.net/update/artifacts/OpenClaw%E6%A1%8C%E9%9D%A2%E7%89%88_0.2.8_x64-setup.exe |                            无                            | Z224 |
+| 2026/3/24 |         hxxps://openclawcn[.]net          |  仿冒 OpenClaw “龙虾”  | hxxps://cdn[.]openclawcn[.]net/update/artifacts/OpenClaw%E6%A1%8C%E9%9D%A2%E7%89%88_0[.]2[.]8_x64-setup[.]exe |                            无                            | Z224 |
 | 2026/3/24 |     hxxps://cn[.]opencllaw[.]com[.]cn     |  仿冒 OpenClaw “龙虾”  |                              无                              |                            无                            | Z225 |
 | 2026/3/24 | hxxps://www[.]app-cn-opencllaw[.]com[.]cn |  仿冒 OpenClaw “龙虾”  |                              无                              |                            无                            | Z226 |
 | 2026/3/24 |     hxxps://apps-openclaw[.]com[.]cn      |  仿冒 OpenClaw “龙虾”  |                              无                              |                            无                            | Z227 |
