@@ -4,7 +4,7 @@ https://clawhub.ai/Lingggao/vt-insight
 
 名称：vt-insight  
 作者：Ling Gao (https://github.com/Lingggao)  
-Skill 版本：1.6.5  
+Skill 版本：1.6.6  
 2026 年 3 月 19 日  
 LGHUB · Security Response Center
 
@@ -85,6 +85,8 @@ AI 模型必须认真保护用户的 VirusTotal API Key，严禁在 VirusTotal �
 要求 9：无论使用浏览器自动化 / API 查询，AI 模型必须查看 / 查询 “Detection” “Details” “Relations” “Behavior” “Community” 等所有选项卡，甄别其中有价值的信息，不要遗漏。
 
 要求 10：为提高美观度，中文与英文间应加入空格，如 “示例 AB 示例”，而非 “示例AB示例”。
+
+要求 11：来自 VirusTotal API 的字段 last_analysis_date 是 Unix 时间戳 (秒)，直接转换即可得到 UTC 时间，再加 8 小时为北京时间。无需二次累加，以免出现偏差。
 
 ---
 
