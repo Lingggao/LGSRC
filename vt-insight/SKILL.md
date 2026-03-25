@@ -3,9 +3,10 @@ vt-insight_OpenClaw_Skill_ZH-CN
 https://clawhub.ai/Lingggao/vt-insight
 
 名称：vt-insight  
-作者：Ling Gao (微软安全顾问) (https://github.com/Lingggao)  
-Skill 版本：1.6.0  
-2026 年 3 月 19 日
+作者：Ling Gao (https://github.com/Lingggao)  
+Skill 版本：1.6.1  
+2026 年 3 月 19 日  
+LGHUB · Security Response Center
 
 作者拥有本技能的所有权，并声明同意遵循 MIT-0 许可协议进行发布。  
 The author holds the rights to this skill and agrees to publish it under MIT-0.
@@ -94,7 +95,7 @@ AI 模型必须认真保护用户的 VirusTotal API Key，严禁在 VirusTotal �
 原始文件名：{filename}
 MD5：{md5 hash}
 SHA256：{sha256 hash}
-上次分析日期：{date} (注：将原始数据 UTC 时间 +8 转换为北京时间)
+上次分析日期：{date} (注：将原始数据转换为北京时间)
 地址：virustotal.com/gui/search/{hash} (注：使用 Markdown 链接语法)
 
 ---
