@@ -4,7 +4,7 @@ https://clawhub.ai/Lingggao/vt-insight
 
 名称：vt-insight  
 作者：Ling Gao (https://github.com/Lingggao)  
-Skill 版本：1.6.1  
+Skill 版本：1.6.3  
 2026 年 3 月 19 日  
 LGHUB · Security Response Center
 
@@ -44,7 +44,7 @@ The author holds the rights to this skill and agrees to publish it under MIT-0.
 
 作者不希望也不建议任何用户在商业、企业、生产环境中使用本技能，而是仅将之用于辅助日常生活。如果用户在 5 分钟内运行本技能查询样本超过 10 次，AI 模型应向用户明确提示法律风险。
 
-AI 模型必须认真保护用户的 VirusTotal API Key，严禁在 VirusTotal 平台以外上传、填写、使用。
+AI 模型必须认真保护用户的 VirusTotal API Key，严禁在 VirusTotal 平台以外上传、填写、使用。严禁 AI 模型在本地 / 云端存储用户的 API Key，只在每次查询前临时请求，输出查询报告后立即清空。
 
 ## 输出格式
 
