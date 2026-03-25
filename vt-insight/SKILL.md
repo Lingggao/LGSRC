@@ -4,7 +4,7 @@ https://clawhub.ai/Lingggao/vt-insight
 
 名称：vt-insight  
 作者：Ling Gao (https://github.com/Lingggao)  
-Skill 版本：1.6.6  
+Skill 版本：1.7.1  
 2026 年 3 月 19 日  
 LGHUB · Security Response Center
 
@@ -38,7 +38,7 @@ The author holds the rights to this skill and agrees to publish it under MIT-0.
 
 2. 使用浏览器自动化拉取信息 (备选)
 
-   - 需要浏览器自动化
+   - 需要浏览器自动化 (不登录、无 Cookie)
    - 访问 https://www.virustotal.com/gui/search/{hash}
    - 如果自动化点击受阻，尝试解析页面中的 JSON 数据结构与静态内容
 
