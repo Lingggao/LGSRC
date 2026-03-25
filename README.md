@@ -71,7 +71,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 25 日 19:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 25 日 21:00 (GMT+8)
 
 &emsp;&emsp;**截至 2026 年 3 月 25 日，已打击计算机病毒 / 恶意软件 685 个、恶意网站 227 个**。
 
@@ -109,7 +109,8 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/25 |       解封软件.exe       | **银狐 (SilverFox.sae)** | 1543b9b955e4de15261dff926dbcb21ba40e22fc3be7d2fbad2b3af95b3c93d9 | a6e6d2a0-2b5a-42ce-aa18-898e2f09c26e | [VirusTotal](https://www.virustotal.com/gui/file/1543b9b955e4de15261dff926dbcb21ba40e22fc3be7d2fbad2b3af95b3c93d9) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/1543b9b955e4de15261dff926dbcb21ba40e22fc3be7d2fbad2b3af95b3c93d9) | A682 |
 | 2026/3/25 |     litellm_init.pth     |  **Python/Malgent!MSR**  | 71e35aef03099cd1f2d6446734273025a163597de93912df321ef118bf135238 | 49d3564d-3231-4f93-8139-868390f2b4b7 | [VirusTotal](https://www.virustotal.com/gui/file/71e35aef03099cd1f2d6446734273025a163597de93912df321ef118bf135238) (2) |                              无                              | A683 |
 | 2026/3/25 |  ···违规乱纪人员···.exe  |       **Gh0stRAT**       | ab4eaf919e2860ce69cbda84bf29c12c6087d069b20dc04dc4ca62d9ae811df9 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/ab4eaf919e2860ce69cbda84bf29c12c6087d069b20dc04dc4ca62d9ae811df9) (9) |                  [MalwareBazaar Database]()                  | A684 |
-| 2026/3/25 | ···中文语言···翻译包.exe |     **CryptInject**      | 11c58a8c42d81d4f4993e00b1c7daaba03247b3cb4796e281571582e7568a2a7 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/11c58a8c42d81d4f4993e00b1c7daaba03247b3cb4796e281571582e7568a2a7) (15) |                  [MalwareBazaar Database]()                  | A685 |
+| 2026/3/25 | ···中文语言···翻译包.exe |     **CryptInject**      | 11c58a8c42d81d4f4993e00b1c7daaba03247b3cb4796e281571582e7568a2a7 | 51b6f822-d703-448c-96fd-9fc1cceb0bbf | [VirusTotal](https://www.virustotal.com/gui/file/11c58a8c42d81d4f4993e00b1c7daaba03247b3cb4796e281571582e7568a2a7) (15) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/11c58a8c42d81d4f4993e00b1c7daaba03247b3cb4796e281571582e7568a2a7) | A685 |
+| 2026/3/25 |       windo64x.exe       |   **银狐 (SilverFox)**   | 0541a48f9d2650cb7a2182a75011adf0d8dcf498ede16c69808209a0ca5cdf35 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/0541a48f9d2650cb7a2182a75011adf0d8dcf498ede16c69808209a0ca5cdf35) (3) |                              无                              | A686 |
 |  ——————   |       ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
