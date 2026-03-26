@@ -17,7 +17,7 @@
 </div>
 
 <div align="center">
-<img src="Images/Microsoft MCI.png" width = "12%" /><img src="Images/LING_2.png" width = "25%" /> <img src="Images/WCC2024_2.png" width = "12%" />
+<img src="Images/LING_2.png" width = "25%" />
 </div>
 
 <h1 align="center">灵糕中心 · 安全响应分中心</h1>
@@ -26,11 +26,11 @@
 
 [github.com/Lingggao/LGSRC](https://github.com/Lingggao/LGSRC) (GitHub)
 
-&emsp;&emsp;**用于打击计算机病毒与恶意软件的 “[灵糕中心](https://github.com/Lingggao/LGHUB) · 安全响应分中心”**。由 2026 Microsoft Security Advisor (微软安全顾问) · [**Ling Gao**](https://github.com/Lingggao) 先生领导。灵糕中心 · 安全响应分中心创立于 2025 年 12 月 20 日。
+&emsp;&emsp;**用于打击计算机病毒与恶意软件的 “[灵糕中心](https://github.com/Lingggao/LGHUB) · 安全响应分中心”**。由上海市网络清朗空间守护志愿者 [**Ling Gao**](https://github.com/Lingggao) 领导。灵糕中心 · 安全响应分中心创立于 2025 年 12 月 20 日。
 
 > [!IMPORTANT]
 >
-> &emsp;灵糕中心为独立非营利组织，与 Microsoft 公司无关，不存在合作、代理、雇佣等关系。
+> &emsp;灵糕中心为独立非营利组织，与其他企业不存在隶属、雇佣、代理等关系。
 
 &emsp;&emsp;**宗旨**：独立管理、放眼全球、数据精确、打击迅速
 
