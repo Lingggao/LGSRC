@@ -154,9 +154,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 >
 > &emsp;只显示最近约 30 条数据，更早数据详见 LGSRC/[Archive_2.md](https://github.com/Lingggao/LGSRC/blob/main/Archive_2.md) (恶意网站归档)。
 
-## 如何提交文件进行分析？
+## 互动与合作
 
-&emsp;&emsp;如需联系 Ling Gao 共享信息，请发送电子邮件至 **Ling@LGHUB.org**。谢谢！😀
+&emsp;&emsp;如需联系 Ling Gao，请发送电子邮件至 **Ling@LGHUB.org**。谢谢！😀
 
 ---
 
