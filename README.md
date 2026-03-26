@@ -71,9 +71,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 26 日 5:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 26 日 21:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 3 月 26 日，已打击计算机病毒 / 恶意软件 688 个、恶意网站 227 个**。
+&emsp;&emsp;**截至 2026 年 3 月 26 日，已打击计算机病毒 / 恶意软件 691 个、恶意网站 227 个**。
 
 ---
 
@@ -108,8 +108,11 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 | 2026/3/25 |  ···违规乱纪人员···.exe  |       **Gh0stRAT**       | ab4eaf919e2860ce69cbda84bf29c12c6087d069b20dc04dc4ca62d9ae811df9 | feeaa506-5f65-4a74-91a5-e5af0406b15a | [VirusTotal](https://www.virustotal.com/gui/file/ab4eaf919e2860ce69cbda84bf29c12c6087d069b20dc04dc4ca62d9ae811df9) (9) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/ab4eaf919e2860ce69cbda84bf29c12c6087d069b20dc04dc4ca62d9ae811df9) | A684 |
 | 2026/3/25 | ···中文语言···翻译包.exe |     **CryptInject**      | 11c58a8c42d81d4f4993e00b1c7daaba03247b3cb4796e281571582e7568a2a7 | 51b6f822-d703-448c-96fd-9fc1cceb0bbf | [VirusTotal](https://www.virustotal.com/gui/file/11c58a8c42d81d4f4993e00b1c7daaba03247b3cb4796e281571582e7568a2a7) (15) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/11c58a8c42d81d4f4993e00b1c7daaba03247b3cb4796e281571582e7568a2a7) | A685 |
 | 2026/3/25 |       windo64x.exe       |   **银狐 (SilverFox)**   | 0541a48f9d2650cb7a2182a75011adf0d8dcf498ede16c69808209a0ca5cdf35 | 9466c84a-55e3-48ec-b483-0ca74dd4b3b9 | [VirusTotal](https://www.virustotal.com/gui/file/0541a48f9d2650cb7a2182a75011adf0d8dcf498ede16c69808209a0ca5cdf35) (3) |                              无                              | A686 |
-| 2026/3/26 |      client_x86.exe      | **银狐 (SilverFox.cz)**  | c74c147c2df99c3035927ba97ed562d0fd22309c3dad7f6a09553571bcc6581d |                                      | [VirusTotal](https://www.virustotal.com/gui/file/c74c147c2df99c3035927ba97ed562d0fd22309c3dad7f6a09553571bcc6581d) (13) |                  [MalwareBazaar Database]()                  | A687 |
-| 2026/3/26 |    NetHelper6B33.exe     |      **Cybercrime**      | de236e286591901aaece3c1748179e059e6842ca005e9cf9ab3b3c1de3557935 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/de236e286591901aaece3c1748179e059e6842ca005e9cf9ab3b3c1de3557935) (22) |                  [MalwareBazaar Database]()                  | A688 |
+| 2026/3/26 |      client_x86.exe      | **银狐 (SilverFox.cz)**  | c74c147c2df99c3035927ba97ed562d0fd22309c3dad7f6a09553571bcc6581d | 1d8f132e-36a5-4a31-95cb-5b11164b4f7c | [VirusTotal](https://www.virustotal.com/gui/file/c74c147c2df99c3035927ba97ed562d0fd22309c3dad7f6a09553571bcc6581d) (13) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c74c147c2df99c3035927ba97ed562d0fd22309c3dad7f6a09553571bcc6581d) | A687 |
+| 2026/3/26 |    NetHelper6B33.exe     |      **Cybercrime**      | de236e286591901aaece3c1748179e059e6842ca005e9cf9ab3b3c1de3557935 | c0967a2d-2ed7-4cfa-aae0-b12d392613b7 | [VirusTotal](https://www.virustotal.com/gui/file/de236e286591901aaece3c1748179e059e6842ca005e9cf9ab3b3c1de3557935) (22) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/de236e286591901aaece3c1748179e059e6842ca005e9cf9ab3b3c1de3557935) | A688 |
+| 2026/3/26 |       Telegram.exe       |   **银狐 (SilverFox)**   | 9331024c6b144b0c6f134617af05725227180d718b3ed3826a174f3f8f1465bd |                                      | [VirusTotal](https://www.virustotal.com/gui/file/9331024c6b144b0c6f134617af05725227180d718b3ed3826a174f3f8f1465bd) (27) |                  [MalwareBazaar Database]()                  | A689 |
+| 2026/3/26 |        文档2.exe         | **银狐 (SilverFox.bg)**  | 9c50cdf3a03174b3ede792aafcb7881f4b590b551721fd27e2805dc8fdf5090f |                                      | [VirusTotal](https://www.virustotal.com/gui/file/9c50cdf3a03174b3ede792aafcb7881f4b590b551721fd27e2805dc8fdf5090f) (8) |                  [MalwareBazaar Database]()                  | A690 |
+| 2026/3/26 |     ···AI过人脸F.exe     | **银狐 (SilverFox.sae)** | 5d3ed49be2509f865cf7d10aa51c28d51713a3ba9dfeb96a928ff763bbd8307c |                                      | [VirusTotal](https://www.virustotal.com/gui/file/5d3ed49be2509f865cf7d10aa51c28d51713a3ba9dfeb96a928ff763bbd8307c) (5) |                  [MalwareBazaar Database]()                  | A691 |
 |  ——————   |       ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
