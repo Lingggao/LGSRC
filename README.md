@@ -53,9 +53,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 **一、工作流程概述**
 
 1. 发现 / 获得疑似恶意软件样本
-2. 使用 Microsoft Defender (最新[安全智能](https://learn.microsoft.com/zh-cn/defender-endpoint/microsoft-defender-antivirus-updates)) 测试能否查杀
+2. 测试国内外主流杀毒软件 (最新反病毒数据库) 能否查杀
 3. 如果不能，按工作流程开展前期研究
-4. 请求 Microsoft 等公司研究员人工分析样本
+4. 邀请 Microsoft 与 Kaspersky 安全研究员人工分析样本
 5. 如果判断为恶意软件，则向全球信息安全社区、杀毒软件厂商、威胁情报提供商共享信息
 6. (可选) 向国家有关部门提供线索
 7. (可选) 针对仿冒正规软件投放病毒事件，向受害企业方共享线索
@@ -63,9 +63,9 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 **二、满足以下任一条件时，样本数据不会填写至表格**
 
-1. Microsoft Defender 可以查杀样本，无需人工分析
+1. 多数杀毒软件可以查杀样本，无需人工分析
 2. 经前期分析，可 100% 确认是正常文件
-3. Microsoft 研究员判断样本干净 (Clean)
+3. Microsoft / Kaspersky 研究员判断样本干净 (Clean)
 4. 样本首次发现日期距今已超过 30 天
 5. 由其他从业人员 / 志愿者发现、分析、上报，本中心全程未参与
 
