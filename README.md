@@ -20,13 +20,13 @@
 <img src="Images/LING_2.png" width = "25%" />
 </div>
 
-<h1 align="center">灵糕中心 · 安全响应分中心</h1>
+<h1 align="center">灵糕中心 · 安全响应中心</h1>
 
 <h3 align="center">(LGHUB · Security Response Center)</h3>
 
 [github.com/Lingggao/LGSRC](https://github.com/Lingggao/LGSRC) (GitHub)
 
-&emsp;&emsp;**用于打击计算机病毒与恶意软件的 “[灵糕中心](https://github.com/Lingggao/LGHUB) · 安全响应分中心”**。由上海市网络清朗空间守护志愿者 [**Ling Gao**](https://github.com/Lingggao) 先生领导。灵糕中心 · 安全响应分中心创立于 2025 年 12 月 20 日。
+&emsp;&emsp;**用于打击计算机病毒与恶意软件的 “[灵糕中心](https://github.com/Lingggao/LGHUB) · 安全响应中心”**。由上海市网络清朗空间守护志愿者 [**Ling Gao**](https://github.com/Lingggao) 先生领导。灵糕中心 · 安全响应中心创立于 2025 年 12 月 20 日。
 
 > [!IMPORTANT]
 >
@@ -73,7 +73,7 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 &emsp;&emsp;上次更新时间：2026 年 3 月 27 日 7:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 3 月 27 日，已打击计算机病毒 / 恶意软件 690 个、恶意网站 227 个**。
+&emsp;&emsp;**截至 2026 年 3 月 27 日，本中心已打击计算机病毒 / 恶意软件 690 个、恶意网站 227 个**。
 
 ---
 
@@ -168,6 +168,6 @@ Microsoft - [Microsoft 安全响应中心](https://msrc.microsoft.com) | [Micros
 
 在 “[署名 - 相同方式共享 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode.zh-Hans)” (CC BY-SA 4.0) 协议之条款下提供。
 
-2025 - 2026, [Ling Gao](https://github.com/Lingggao), 灵糕中心 · 安全响应分中心, [github.com/Lingggao/LGSRC](https://github.com/Lingggao/LGSRC)
+2025 - 2026, [Ling Gao](https://github.com/Lingggao), 灵糕中心 · 安全响应中心, [github.com/Lingggao/LGSRC](https://github.com/Lingggao/LGSRC)
 
 [字体许可使用授权书](https://github.com/Lingggao/LGSRC/blob/main/Images/%E5%AD%97%E4%BD%93%E8%AE%B8%E5%8F%AF%E4%BD%BF%E7%94%A8%E6%8E%88%E6%9D%83%E4%B9%A6.png?raw=true) | [Windows Insider 最有价值专家](https://github.com/Lingggao/LGSRC/blob/main/Images/Windows%20Insider%20MVP.png?raw=true)
