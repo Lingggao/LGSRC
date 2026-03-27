@@ -8,9 +8,9 @@
 
 参数释义
 
-- $E$：一个计算机病毒 / 恶意软件造成的预期经济损失
-- $W_i$ (Weight)：某一技术层级在整体大盘中的占比
-- $P_{exec}$ (Probability of Execution)：在覆盖范围内病毒成功绕过防御的概率
-- $N_{victim}$ (Number of Victims)：
-- $P_{monetize}$ (Probability of Monetization)：
-- $V_{loss}$ (Value of Loss)：
+- **$E$**：一个计算机病毒 / 恶意软件造成的预期经济损失
+- **$W_i$ (Weight)**：某一技术层级 / 攻击方式在整体大盘中的占比
+- **$P_{exec}$ (Probability of Execution)**：在覆盖范围内其成功绕过防御的概率
+- **$N_{victim}$ (Number of Victims)**：单次攻击活动中平均成功控制的有效终端数量
+- **$P_{monetize}$ (Probability of Monetization)**：取得控制权后攻击者能够成功将之转化为经济利益的概率
+- **$V_{loss}$ (Value of Loss)**：成功变现时的平均人民币经济损失 (含资产盗窃、勒索、企业停工、电信诈骗转账等)
