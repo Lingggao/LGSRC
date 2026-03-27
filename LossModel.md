@@ -9,8 +9,13 @@
 <p align="center">参数释义</p>
 
 $E$：一个计算机病毒 / 恶意软件造成的预期经济损失
+
 $W_i$ (Weight)：
+
 $P_{exec}$ (Probability of Execution)：
+
 $N_{victim}$ (Number of Victims)：
+
 $P_{monetize}$ (Probability of Monetization)：
+
 $V_{loss}$ (Value of Loss)：
