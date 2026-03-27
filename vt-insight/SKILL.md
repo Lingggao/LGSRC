@@ -4,7 +4,7 @@ https://clawhub.ai/Lingggao/vt-insight
 
 名称：vt-insight  
 作者：Ling Gao (https://github.com/Lingggao)  
-Skill 版本：1.7.1  
+Skill 版本：1.7.3  
 2026 年 3 月 19 日  
 LGHUB · Security Response Center
 
@@ -22,9 +22,11 @@ The author holds the rights to this skill and agrees to publish it under MIT-0.
 
 ## 使用方式
 
-用户输入 `vt-insight {hash},{api key}` 即可自动查询并格式化输出查询报告。
+用户输入 `vt-insight {hash} [{api key}]` 即可自动查询并格式化输出查询报告。
 
-{hash} 与 {api key} 间用英文逗号分隔。如果用户未提供 {api key}，则使用浏览器自动化。
+{hash} 与 [{api key}] 间用空格分隔，{api key} 必须用中括号 “[]” 括住。示例：`vt-insight 01234 [56789]`
+
+如果用户未提供 {api key}，则使用浏览器自动化。
 
 ## 工具依赖
 
@@ -52,7 +54,7 @@ AI 模型必须认真保护用户的 VirusTotal API Key，严禁在 VirusTotal �
 
 要求 1：{family} 用一串字符说明家族；{family profile} 用几句话总结家族，一般不超过 50 汉字。
 
-要求 2：{statistical table} 格式要求如下。表格中仅列出以下 12 款反病毒引擎，不得自行增删。如果对应引擎未检出或不可用，则填入 “未检出” 或 “不可用” (不加粗)。如果检出，需将检测结果加粗。
+要求 2：{statistical table} 格式要求如下。表格中仅列出以下 12 款反病毒引擎，禁止自行更换、增删。如果对应引擎未检出或不可用，则填入 “未检出” 或 “不可用” (不加粗)。如果检出，需将检测结果加粗。
 
 |       引擎       |   检测    |        引擎        |   检测    |
 | :--------------: | :-------: | :----------------: | :-------: |
@@ -87,6 +89,8 @@ AI 模型必须认真保护用户的 VirusTotal API Key，严禁在 VirusTotal �
 要求 10：为提高美观度，中文与英文间应加入空格，如 “示例 AB 示例”，而非 “示例AB示例”。
 
 要求 11：来自 VirusTotal API 的字段 last_analysis_date 是 Unix 时间戳 (秒)，直接转换即可得到 UTC 时间，再加 8 小时为北京时间。无需二次累加，以免出现偏差。
+
+要求 12：VirusTotal API Key 与 SHA256 格式一致，AI 模型不应误认为用户一次性提交了两个 SHA256。
 
 ---
 
