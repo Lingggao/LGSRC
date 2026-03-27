@@ -42,7 +42,7 @@
 
 社区 - [卡饭论坛 病毒样本 分享&分析区](https://bbs.kafan.cn/forum-31-1.html) | [火绒安全论坛 病毒查杀问题反馈](https://bbs.huorong.cn/forum-44-1.html) | [百度贴吧 病毒吧](https://tieba.baidu.com/f?ie=utf-8&kw=%E7%97%85%E6%AF%92)
 
-学习 - [Microsoft 认证：网络安全架构师专家](https://learn.microsoft.com/zh-cn/credentials/certifications/cybersecurity-architect-expert) | [看雪学苑](https://www.kanxue.com) | [ISC.AI 学苑](https://study.360.net/frontend/home/home) | [阿里云 云安全高级工程师 ACP 认证](https://edu.aliyun.com/certification/acp04)
+学习 - [Microsoft 认证：网络安全架构师专家](https://learn.microsoft.com/zh-cn/credentials/certifications/cybersecurity-architect-expert) | [阿里云 云安全高级工程师 ACP 认证](https://edu.aliyun.com/certification/acp04) | [看雪学苑](https://www.kanxue.com) | [ISC.AI 学苑](https://study.360.net/frontend/home/home)
 
 ## 工作流程
 
@@ -63,13 +63,13 @@
 
 1. 多数杀毒软件可以查杀样本，无需人工分析
 2. 经前期分析，可 100% 确认是正常文件
-3. Microsoft / Kaspersky 研究员判断样本干净 (Clean)
+3. Microsoft 与 Kaspersky 安全研究员判断样本干净
 4. 样本首次发现日期距今已超过 30 天
 5. 由其他从业人员 / 志愿者发现、分析、上报，本中心全程未参与
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 27 日 7:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 27 日 14:00 (GMT+8)
 
 &emsp;&emsp;**截至 2026 年 3 月 27 日，本中心已打击计算机病毒 / 恶意软件 690 个、恶意网站 227 个**。
 
