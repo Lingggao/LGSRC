@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 28 日 3:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 28 日 6:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 3 月 28 日，本中心已打击计算机病毒 / 恶意软件 696 个、恶意网站 227 个，累计为潜在受害者规避经济损失约 4,759,452 元人民币**。[ $$E = \sum (W_i \times P_{exec} \times N_{victim} \times P_{monetize} \times V_{loss})$$ ] ([何意味？](LossModel.md))
+&emsp;&emsp;**截至 2026 年 3 月 28 日，本中心已打击计算机病毒 / 恶意软件 697 个、恶意网站 231 个，累计为潜在受害者规避经济损失约 4,773,168 元人民币**。[ $$E = \sum (W_i \times P_{exec} \times N_{victim} \times P_{monetize} \times V_{loss})$$ ] ([何意味？](LossModel.md))
 
 ---
 
@@ -83,10 +83,6 @@
 
 |   日期    |          文件名          |           检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :----------------------: | :----------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/3/23 | ···最 新 人 员 信 息.exe | **银狐 (SilverFox.sad)** | f6c99db6a66da81b103dbcbc984c8ad4f2878b0a3e561bd8a1a38c7578db48ed | 6fd054cc-81e7-4a4c-bb33-d09e70b64fd0 | [VirusTotal](https://www.virustotal.com/gui/file/f6c99db6a66da81b103dbcbc984c8ad4f2878b0a3e561bd8a1a38c7578db48ed) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/f6c99db6a66da81b103dbcbc984c8ad4f2878b0a3e561bd8a1a38c7578db48ed) | A670 |
-| 2026/3/23 | ···03.23裁员名单···.exe  | **银狐 (SilverFox.bg)**  | 44e525ee84e2b8d8429dfa4acff55e8c4aec790e348d02a1b834358787d19616 | 30a43ae2-0d99-4281-b03b-3e593a94bbdf | [VirusTotal](https://www.virustotal.com/gui/file/44e525ee84e2b8d8429dfa4acff55e8c4aec790e348d02a1b834358787d19616) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/44e525ee84e2b8d8429dfa4acff55e8c4aec790e348d02a1b834358787d19616) | A671 |
-| 2026/3/23 |        temp!_.exe        |      **Cybercrime**      | 20d4833af9c6c79a3758c5a71c1332966c44783de0070444f93814a91fec5dbb | 54cddb59-e902-4c79-ab18-5c7fb23e643d | [VirusTotal](https://www.virustotal.com/gui/file/20d4833af9c6c79a3758c5a71c1332966c44783de0070444f93814a91fec5dbb) (12) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/20d4833af9c6c79a3758c5a71c1332966c44783de0070444f93814a91fec5dbb) | A672 |
-| 2026/3/23 |   接码用户端2.0版s.exe   |    **Backdoor/Gh0st**    | 6b4038f0a5e9a245e0cfadcf3c92da10b84129841b5ce007b056206e79af08b0 | 7e9bf04c-7200-42b2-8e05-e80ef0035404 | [VirusTotal](https://www.virustotal.com/gui/file/6b4038f0a5e9a245e0cfadcf3c92da10b84129841b5ce007b056206e79af08b0) (21) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/6b4038f0a5e9a245e0cfadcf3c92da10b84129841b5ce007b056206e79af08b0) | A673 |
 | 2026/3/23 |        loader.exe        |   **银狐 (SilverFox)**   | c092e3b047c6173359e3e9d870de4db19c494de42d7ef511b822e301860e56a3 | 0ffea019-f146-463a-959c-354bf33e84c8 | [VirusTotal](https://www.virustotal.com/gui/file/c092e3b047c6173359e3e9d870de4db19c494de42d7ef511b822e301860e56a3) (8) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c092e3b047c6173359e3e9d870de4db19c494de42d7ef511b822e301860e56a3) | A674 |
 | 2026/3/23 |    Eal-cnnqot···.exe     |   **银狐 (SilverFox)**   | ee596eba614770d22d93e5c588ba8e56613bb6900b2706396707508e5a868baa | a4182eac-46eb-4744-9885-26a5862ca16d | [VirusTotal](https://www.virustotal.com/gui/file/ee596eba614770d22d93e5c588ba8e56613bb6900b2706396707508e5a868baa) (4) |                              无                              | A675 |
 | 2026/3/23 |   uardian_gogle···.exe   | **银狐 (SilverFox.sa)**  | 0c881c61077d2931bd9d5cb60507e44eee7165b79c47a8206fa309c499c11b08 |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/0c881c61077d2931bd9d5cb60507e44eee7165b79c47a8206fa309c499c11b08) (6) |                              无                              | A676 |
@@ -108,8 +104,9 @@
 | 2026/3/27 |  ···违规乱纪人员···.exe  | **银狐 (SilverFox.sad)** | 71a0e232b4d8734e8c201e8b84e153c37e2d6444720d12b945db5b128690bab2 | 9f63038d-4478-4eca-9176-8e3bcbeea0cf | [VirusTotal](https://www.virustotal.com/gui/file/71a0e232b4d8734e8c201e8b84e153c37e2d6444720d12b945db5b128690bab2) (2) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/71a0e232b4d8734e8c201e8b84e153c37e2d6444720d12b945db5b128690bab2) | A692 |
 | 2026/3/27 |       svchost.exe        |      **Downloader**      | 929cf7a15968a4e38eccb852a72874d58c3962f52dcac97cc69b5a6aa113c2d4 | 2190ebe9-7a52-43aa-8dce-be2cedba15c7 | [VirusTotal](https://www.virustotal.com/gui/file/929cf7a15968a4e38eccb852a72874d58c3962f52dcac97cc69b5a6aa113c2d4) (18) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/929cf7a15968a4e38eccb852a72874d58c3962f52dcac97cc69b5a6aa113c2d4) | A693 |
 | 2026/3/27 | yb0327.docx_____.pdf.exe |         **Hzcn**         | a5ec2bb312181b03c770e5c670d539cad796b8e6a8004ba0cf82a92e08d6e859 | bb1aea9a-7954-40b6-a5c2-81b9c4f48aad | [VirusTotal](https://www.virustotal.com/gui/file/a5ec2bb312181b03c770e5c670d539cad796b8e6a8004ba0cf82a92e08d6e859) (7) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a5ec2bb312181b03c770e5c670d539cad796b8e6a8004ba0cf82a92e08d6e859) | A694 |
-| 2026/3/28 |        updata.exe        |   **银狐 (SilverFox)**   | 15b4253c76e24e55f9e79233c5b0068837c25f9250a38357e87375ce216c0f9b |                                      | [VirusTotal](https://www.virustotal.com/gui/file/15b4253c76e24e55f9e79233c5b0068837c25f9250a38357e87375ce216c0f9b) (6) |                  [MalwareBazaar Database]()                  | A695 |
+| 2026/3/28 |        updata.exe        |   **银狐 (SilverFox)**   | 15b4253c76e24e55f9e79233c5b0068837c25f9250a38357e87375ce216c0f9b | 7e843503-65ec-4a4d-bb1f-c9920919c698 | [VirusTotal](https://www.virustotal.com/gui/file/15b4253c76e24e55f9e79233c5b0068837c25f9250a38357e87375ce216c0f9b) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/15b4253c76e24e55f9e79233c5b0068837c25f9250a38357e87375ce216c0f9b) | A695 |
 | 2026/3/28 |    WPS_Setup-mvys.exe    |      **Cybercrime**      | 069ef3ab90b4b6070ef36a755fa2bff4629d9c1aae00a7654da9ebce43c23766 | fa7aa9cc-0c1b-45b3-a121-24fbd299871b | [VirusTotal](https://www.virustotal.com/gui/file/069ef3ab90b4b6070ef36a755fa2bff4629d9c1aae00a7654da9ebce43c23766) (6) |                              无                              | A696 |
+| 2026/3/28 |      g_win64_3.exe       |   **银狐 (SilverFox)**   | d295d56c60161a0dae8cef29d5af1bf1588d7c48be4b0725a6288e62233e5d5f |                                      | [VirusTotal](https://www.virustotal.com/gui/file/d295d56c60161a0dae8cef29d5af1bf1588d7c48be4b0725a6288e62233e5d5f) (5) |                              无                              | A697 |
 |  ——————   |       ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -124,29 +121,33 @@
 >
 > &emsp;为确保安全，网站地址将用 “hxxps://” 与 “[.]” 进行替换。**切勿尝试访问表格中列出的任何网址**。
 
-|   日期    |                    URL                    |          类别          |                           有效载荷                           |                         URLhaus                          | 编号 |
-| :-------: | :---------------------------------------: | :--------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
-| 2026/3/21 |   hxxps://qishuimusic-music[.]com[.]cn    | 仿冒汽水音乐、传播病毒 |                              无                              |                            无                            | Z208 |
-| 2026/3/21 |        hxxps://qishui-zh[.]hl[.]cn        | 仿冒汽水音乐、传播病毒 | hxxps://klsmw[.]oss-cn-hongkong[.]aliyuncs[.]com/qishui0317_setup154[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3802100) | Z209 |
-| 2026/3/21 |       hxxps://www-qishui[.]com[.]cn       | 仿冒汽水音乐、传播病毒 |                              有                              |                            无                            | Z210 |
-| 2026/3/21 |     hxxps://qiishuiyinyue[.]com[.]cn      | 仿冒汽水音乐、传播病毒 |    hxxps://j3hednc[.]x98665[.]com/Sodaqishui14[.]2[.]zip     |                            无                            | Z211 |
-| 2026/3/21 |    hxxps://qishuimusic-music[.]hl[.]cn    | 仿冒汽水音乐、传播病毒 |                              无                              |                            无                            | Z212 |
-| 2026/3/23 |           hxxps://todesk[.]app            | 仿冒 ToDesk、传播病毒  |   hxxps://download-pc[.]us/ToDesk_Setup[.]exe_FCzpH[.]zip    |                            无                            | Z213 |
-| 2026/3/23 |         hxxps://www[.]todesk[.]im         | 仿冒 ToDesk、传播病毒  |                              有                              |                            无                            | Z214 |
-| 2026/3/23 |       hxxps://apd-todesk[.]com[.]cn       | 仿冒 ToDesk、传播病毒  |          hxxps://tranyasy[.]com[.]cn/TD-Setup[.]zip          | [URLhaus Database](https://urlhaus.abuse.ch/url/3802588) | Z215 |
-| 2026/3/23 |       hxxps://www[.]todeskapp[.]com       | 仿冒 ToDesk、传播病毒  |                              有                              |                            无                            | Z216 |
-| 2026/3/23 |        hxxps://www[.]todeski[.]com        | 仿冒 ToDesk、传播病毒  |    hxxps://xiazguawanzhuanbao[.]com/1/3[.]210ToDesk[.]zip    |                            无                            | Z217 |
-| 2026/3/23 |        hxxps://www[.]todeske[.]com        | 仿冒 ToDesk、传播病毒  |    hxxps://xiazguawanzhuanbao[.]com/1/3[.]210ToDesk[.]zip    |                            无                            | Z218 |
-| 2026/3/23 |       hxxps://www[.]zh-todesk[.]com       | 仿冒 ToDesk、传播病毒  |                              无                              |                            无                            | Z219 |
-| 2026/3/23 |     hxxps://www[.]to-desk[.]com[.]cn      | 仿冒 ToDesk、传播病毒  |                              无                              |                            无                            | Z220 |
-| 2026/3/23 |          hxxps://toamndkf[.]cyou          | 仿冒 ToDesk、传播病毒  |    hxxps://xiazguawanzhuanbao[.]com/1/3[.]210ToDesk[.]zip    |                            无                            | Z221 |
-| 2026/3/23 |   hxxps://cn[.]cn-google-com[.]com[.]cn   | 仿冒 Chrome、传播病毒  | hxxps://googelfasdjkta[.]s3[.]ap-south-1[.]amazonaws[.]com/uardian_gogletipam[.]zip |                            无                            | Z222 |
-| 2026/3/23 |      hxxps://cn-www-google[.]hl[.]cn      | 仿冒 Chrome、传播病毒  | hxxps://googelfasdjkta[.]s3[.]ap-south-1[.]amazonaws[.]com/Eal-cnnqotbstueiakll[.]zip |                            无                            | Z223 |
-| 2026/3/24 |         hxxps://openclawcn[.]net          |  仿冒 OpenClaw “龙虾”  | hxxps://cdn[.]openclawcn[.]net/update/artifacts/OpenClaw%E6%A1%8C%E9%9D%A2%E7%89%88_0[.]2[.]8_x64-setup[.]exe |                            无                            | Z224 |
-| 2026/3/24 |     hxxps://cn[.]opencllaw[.]com[.]cn     |  仿冒 OpenClaw “龙虾”  |                              无                              |                            无                            | Z225 |
-| 2026/3/24 | hxxps://www[.]app-cn-opencllaw[.]com[.]cn |  仿冒 OpenClaw “龙虾”  |                              无                              |                            无                            | Z226 |
-| 2026/3/24 |     hxxps://apps-openclaw[.]com[.]cn      |  仿冒 OpenClaw “龙虾”  |                              无                              |                            无                            | Z227 |
-|  ——————   |           ————————————————————            |    ———————————————     |                ——————————————————————————————                |                        ——————————                        | ———  |
+|   日期    |                       URL                       |          类别          |                           有效载荷                           |                         URLhaus                          | 编号 |
+| :-------: | :---------------------------------------------: | :--------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
+| 2026/3/21 |      hxxps://qishuimusic-music[.]com[.]cn       | 仿冒汽水音乐、传播病毒 |                              无                              |                            无                            | Z208 |
+| 2026/3/21 |           hxxps://qishui-zh[.]hl[.]cn           | 仿冒汽水音乐、传播病毒 | hxxps://klsmw[.]oss-cn-hongkong[.]aliyuncs[.]com/qishui0317_setup154[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3802100) | Z209 |
+| 2026/3/21 |          hxxps://www-qishui[.]com[.]cn          | 仿冒汽水音乐、传播病毒 |                              有                              |                            无                            | Z210 |
+| 2026/3/21 |        hxxps://qiishuiyinyue[.]com[.]cn         | 仿冒汽水音乐、传播病毒 |    hxxps://j3hednc[.]x98665[.]com/Sodaqishui14[.]2[.]zip     |                            无                            | Z211 |
+| 2026/3/21 |       hxxps://qishuimusic-music[.]hl[.]cn       | 仿冒汽水音乐、传播病毒 |                              无                              |                            无                            | Z212 |
+| 2026/3/23 |              hxxps://todesk[.]app               | 仿冒 ToDesk、传播病毒  |   hxxps://download-pc[.]us/ToDesk_Setup[.]exe_FCzpH[.]zip    |                            无                            | Z213 |
+| 2026/3/23 |            hxxps://www[.]todesk[.]im            | 仿冒 ToDesk、传播病毒  |                              有                              |                            无                            | Z214 |
+| 2026/3/23 |          hxxps://apd-todesk[.]com[.]cn          | 仿冒 ToDesk、传播病毒  |          hxxps://tranyasy[.]com[.]cn/TD-Setup[.]zip          | [URLhaus Database](https://urlhaus.abuse.ch/url/3802588) | Z215 |
+| 2026/3/23 |          hxxps://www[.]todeskapp[.]com          | 仿冒 ToDesk、传播病毒  |                              有                              |                            无                            | Z216 |
+| 2026/3/23 |           hxxps://www[.]todeski[.]com           | 仿冒 ToDesk、传播病毒  |    hxxps://xiazguawanzhuanbao[.]com/1/3[.]210ToDesk[.]zip    |                            无                            | Z217 |
+| 2026/3/23 |           hxxps://www[.]todeske[.]com           | 仿冒 ToDesk、传播病毒  |    hxxps://xiazguawanzhuanbao[.]com/1/3[.]210ToDesk[.]zip    |                            无                            | Z218 |
+| 2026/3/23 |          hxxps://www[.]zh-todesk[.]com          | 仿冒 ToDesk、传播病毒  |                              无                              |                            无                            | Z219 |
+| 2026/3/23 |        hxxps://www[.]to-desk[.]com[.]cn         | 仿冒 ToDesk、传播病毒  |                              无                              |                            无                            | Z220 |
+| 2026/3/23 |             hxxps://toamndkf[.]cyou             | 仿冒 ToDesk、传播病毒  |    hxxps://xiazguawanzhuanbao[.]com/1/3[.]210ToDesk[.]zip    |                            无                            | Z221 |
+| 2026/3/23 |      hxxps://cn[.]cn-google-com[.]com[.]cn      | 仿冒 Chrome、传播病毒  | hxxps://googelfasdjkta[.]s3[.]ap-south-1[.]amazonaws[.]com/uardian_gogletipam[.]zip |                            无                            | Z222 |
+| 2026/3/23 |         hxxps://cn-www-google[.]hl[.]cn         | 仿冒 Chrome、传播病毒  | hxxps://googelfasdjkta[.]s3[.]ap-south-1[.]amazonaws[.]com/Eal-cnnqotbstueiakll[.]zip |                            无                            | Z223 |
+| 2026/3/24 |            hxxps://openclawcn[.]net             |  仿冒 OpenClaw “龙虾”  | hxxps://cdn[.]openclawcn[.]net/update/artifacts/OpenClaw%E6%A1%8C%E9%9D%A2%E7%89%88_0[.]2[.]8_x64-setup[.]exe |                            无                            | Z224 |
+| 2026/3/24 |        hxxps://cn[.]opencllaw[.]com[.]cn        |  仿冒 OpenClaw “龙虾”  |                              无                              |                            无                            | Z225 |
+| 2026/3/24 |    hxxps://www[.]app-cn-opencllaw[.]com[.]cn    |  仿冒 OpenClaw “龙虾”  |                              无                              |                            无                            | Z226 |
+| 2026/3/24 |        hxxps://apps-openclaw[.]com[.]cn         |  仿冒 OpenClaw “龙虾”  |                              无                              |                            无                            | Z227 |
+| 2026/3/28 | hxxps://2006web[.]zh-yd-google-chrome[.]hl[.]cn | 仿冒 Chrome、传播病毒  |                              有                              |                            无                            | Z228 |
+| 2026/3/28 |       hxxps://google-google-com[.]hl[.]cn       | 仿冒 Chrome、传播病毒  |                              无                              |                            无                            | Z229 |
+| 2026/3/28 |    hxxps://zh[.]google-chrome-apps[.]hl[.]cn    | 仿冒 Chrome、传播病毒  |                              有                              |                            无                            | Z230 |
+| 2026/3/28 |       hxxps://google-google-web[.]hl[.]cn       | 仿冒 Chrome、传播病毒  |                              无                              |                            无                            | Z231 |
+|  ——————   |              ————————————————————               |    ———————————————     |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
 >
