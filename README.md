@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 28 日 2:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 28 日 3:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 3 月 28 日，本中心已打击计算机病毒 / 恶意软件 696 个、恶意网站 227 个，累计为潜在受害者规避经济损失约 4,759,452 元人民币** [ $$E = \sum (W_i \times P_{exec} \times N_{victim} \times P_{monetize} \times V_{loss})$$ ]。
+&emsp;&emsp;**截至 2026 年 3 月 28 日，本中心已打击计算机病毒 / 恶意软件 696 个、恶意网站 227 个，累计为潜在受害者规避经济损失约 4,759,452 元人民币**。[ $$E = \sum (W_i \times P_{exec} \times N_{victim} \times P_{monetize} \times V_{loss})$$ ] ([何意味？]())
 
 ---
 
@@ -79,7 +79,7 @@
 
 > [!CAUTION]
 >
-> &emsp;为确保安全，本中心**不提供**病毒 / 恶意软件样本下载服务。
+> &emsp;为确保安全，本中心**不提供**计算机病毒 / 恶意软件样本下载服务。
 
 |   日期    |          文件名          |           检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :----------------------: | :----------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
@@ -109,7 +109,7 @@
 | 2026/3/27 |       svchost.exe        |      **Downloader**      | 929cf7a15968a4e38eccb852a72874d58c3962f52dcac97cc69b5a6aa113c2d4 | 2190ebe9-7a52-43aa-8dce-be2cedba15c7 | [VirusTotal](https://www.virustotal.com/gui/file/929cf7a15968a4e38eccb852a72874d58c3962f52dcac97cc69b5a6aa113c2d4) (18) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/929cf7a15968a4e38eccb852a72874d58c3962f52dcac97cc69b5a6aa113c2d4) | A693 |
 | 2026/3/27 | yb0327.docx_____.pdf.exe |         **Hzcn**         | a5ec2bb312181b03c770e5c670d539cad796b8e6a8004ba0cf82a92e08d6e859 | bb1aea9a-7954-40b6-a5c2-81b9c4f48aad | [VirusTotal](https://www.virustotal.com/gui/file/a5ec2bb312181b03c770e5c670d539cad796b8e6a8004ba0cf82a92e08d6e859) (7) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a5ec2bb312181b03c770e5c670d539cad796b8e6a8004ba0cf82a92e08d6e859) | A694 |
 | 2026/3/28 |        updata.exe        |   **银狐 (SilverFox)**   | 15b4253c76e24e55f9e79233c5b0068837c25f9250a38357e87375ce216c0f9b |                                      | [VirusTotal](https://www.virustotal.com/gui/file/15b4253c76e24e55f9e79233c5b0068837c25f9250a38357e87375ce216c0f9b) (6) |                  [MalwareBazaar Database]()                  | A695 |
-| 2026/3/28 |    WPS_Setup-mvys.exe    |      **Cybercrime**      | 069ef3ab90b4b6070ef36a755fa2bff4629d9c1aae00a7654da9ebce43c23766 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/069ef3ab90b4b6070ef36a755fa2bff4629d9c1aae00a7654da9ebce43c23766) (6) |                              无                              | A696 |
+| 2026/3/28 |    WPS_Setup-mvys.exe    |      **Cybercrime**      | 069ef3ab90b4b6070ef36a755fa2bff4629d9c1aae00a7654da9ebce43c23766 | fa7aa9cc-0c1b-45b3-a121-24fbd299871b | [VirusTotal](https://www.virustotal.com/gui/file/069ef3ab90b4b6070ef36a755fa2bff4629d9c1aae00a7654da9ebce43c23766) (6) |                              无                              | A696 |
 |  ——————   |       ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
