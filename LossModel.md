@@ -6,16 +6,11 @@
 
 **$$E = \sum (W_i \times P_{exec} \times N_{victim} \times P_{monetize} \times V_{loss})$$**
 
-<p align="center">参数释义</p>
+参数释义
 
-$E$：一个计算机病毒 / 恶意软件造成的预期经济损失
-
-$W_i$ (Weight)：
-
-$P_{exec}$ (Probability of Execution)：
-
-$N_{victim}$ (Number of Victims)：
-
-$P_{monetize}$ (Probability of Monetization)：
-
-$V_{loss}$ (Value of Loss)：
+- $E$：一个计算机病毒 / 恶意软件造成的预期经济损失
+- $W_i$ (Weight)：某一技术层级在整体大盘中的占比
+- $P_{exec}$ (Probability of Execution)：在覆盖范围内病毒成功绕过防御的概率
+- $N_{victim}$ (Number of Victims)：
+- $P_{monetize}$ (Probability of Monetization)：
+- $V_{loss}$ (Value of Loss)：
