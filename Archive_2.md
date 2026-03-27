@@ -217,6 +217,11 @@
 | 2026/3/18 |     hxxps://ad-google-google[.]com[.]cn     |    仿冒 Chrome、传播病毒    |           hxxps://tranyasy[.]com[.]cn/Google[.]zip           | [URLhaus Database](https://urlhaus.abuse.ch/url/3798428) | Z205 |
 | 2026/3/18 |       hxxps://cn-gooogle-zh[.]hl[.]cn       |    仿冒 Chrome、传播病毒    |   hxxps://daw[.]tos-cn-hongkong[.]volces[.]com/Dwglq[.]zip   | [URLhaus Database](https://urlhaus.abuse.ch/url/3798426) | Z206 |
 | 2026/3/18 |   hxxps://cn[.]h-google-google[.]com[.]cn   |    仿冒 Chrome、传播病毒    |                              无                              |                            无                            | Z207 |
+| 2026/3/21 |    hxxps://qishuimusic-music[.]com[.]cn     |   仿冒汽水音乐、传播病毒    |                              无                              |                            无                            | Z208 |
+| 2026/3/21 |         hxxps://qishui-zh[.]hl[.]cn         |   仿冒汽水音乐、传播病毒    | hxxps://klsmw[.]oss-cn-hongkong[.]aliyuncs[.]com/qishui0317_setup154[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3802100) | Z209 |
+| 2026/3/21 |        hxxps://www-qishui[.]com[.]cn        |   仿冒汽水音乐、传播病毒    |                              有                              |                            无                            | Z210 |
+| 2026/3/21 |      hxxps://qiishuiyinyue[.]com[.]cn       |   仿冒汽水音乐、传播病毒    |    hxxps://j3hednc[.]x98665[.]com/Sodaqishui14[.]2[.]zip     |                            无                            | Z211 |
+| 2026/3/21 |     hxxps://qishuimusic-music[.]hl[.]cn     |   仿冒汽水音乐、传播病毒    |                              无                              |                            无                            | Z212 |
 |  ——————   |            ————————————————————             |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
