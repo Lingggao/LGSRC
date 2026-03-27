@@ -71,7 +71,9 @@
 
 &emsp;&emsp;上次更新时间：2026 年 3 月 28 日 1:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 3 月 28 日，本中心已打击计算机病毒 / 恶意软件 694 个、恶意网站 227 个**。
+&emsp;&emsp;**截至 2026 年 3 月 28 日，本中心已打击计算机病毒 / 恶意软件 694 个、恶意网站 227 个，累计为潜在受害者规避经济损失约 X 元人民币** $$E = \sum (W_i \times P_{exec} \times N_{victim} \times P_{monetize} \times V_{loss})$$。
+
+$$E = \sum (W_i \times P_{exec} \times N_{victim} \times P_{monetize} \times V_{loss})$$
 
 ---
 
