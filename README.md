@@ -52,9 +52,9 @@
 
 1. 发现 / 获得疑似恶意软件样本
 2. 测试国内外主流杀毒软件 (最新反病毒数据库) 能否查杀
-3. 如果不能，按工作流程开展前期研究
+3. 如果不能，借助自动化工具开展前期研究
 4. 邀请 Microsoft 与 Kaspersky 安全研究员人工分析样本
-5. 如果判断为恶意软件，则向全球信息安全社区、杀毒软件厂商、威胁情报提供商共享信息
+5. 如果判断为恶意软件，向全球信息安全社区、杀毒软件厂商、威胁情报提供商共享信息
 6. (可选) 向国家有关部门提供线索
 7. (可选) 针对仿冒正规软件投放病毒事件，向受害企业方共享线索
 8. 将样本数据填写至下方表格
@@ -62,14 +62,14 @@
 **二、满足以下任一条件时，样本数据不会填写至表格**
 
 1. 多数杀毒软件可以查杀样本，无需人工分析
-2. 经前期分析，可 100% 确认是正常文件
+2. 经前期分析，可 100% 确认为正常文件
 3. Microsoft 与 Kaspersky 安全研究员判断样本安全
 4. 样本首次发现日期距今已超过 30 天
 5. 由其他从业人员 / 志愿者发现、分析、上报，本中心全程未参与
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 27 日 15:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 27 日 23:00 (GMT+8)
 
 &emsp;&emsp;**截至 2026 年 3 月 27 日，本中心已打击计算机病毒 / 恶意软件 694 个、恶意网站 227 个**。
 
@@ -104,10 +104,10 @@
 | 2026/3/26 |    NetHelper6B33.exe     |      **Cybercrime**      | de236e286591901aaece3c1748179e059e6842ca005e9cf9ab3b3c1de3557935 | c0967a2d-2ed7-4cfa-aae0-b12d392613b7 | [VirusTotal](https://www.virustotal.com/gui/file/de236e286591901aaece3c1748179e059e6842ca005e9cf9ab3b3c1de3557935) (22) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/de236e286591901aaece3c1748179e059e6842ca005e9cf9ab3b3c1de3557935) | A688 |
 | 2026/3/26 |       Telegram.exe       |   **银狐 (SilverFox)**   | 9331024c6b144b0c6f134617af05725227180d718b3ed3826a174f3f8f1465bd | 95e70a7d-7d49-488c-af87-def78fd44cf2 | [VirusTotal](https://www.virustotal.com/gui/file/9331024c6b144b0c6f134617af05725227180d718b3ed3826a174f3f8f1465bd) (27) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/9331024c6b144b0c6f134617af05725227180d718b3ed3826a174f3f8f1465bd) | A689 |
 | 2026/3/26 |        文档2.exe         | **银狐 (SilverFox.bg)**  | 9c50cdf3a03174b3ede792aafcb7881f4b590b551721fd27e2805dc8fdf5090f | a5916ca3-6818-4573-ae5b-87bf6083992e | [VirusTotal](https://www.virustotal.com/gui/file/9c50cdf3a03174b3ede792aafcb7881f4b590b551721fd27e2805dc8fdf5090f) (8) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/9c50cdf3a03174b3ede792aafcb7881f4b590b551721fd27e2805dc8fdf5090f) | A690 |
-| 2026/3/27 |     3月26日名单.exe      | **银狐 (SilverFox.bg)**  | 5973d05643897671584fae16c567ba9d1aab5e30e6ea8ad5fbe7e60c4005ac07 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/5973d05643897671584fae16c567ba9d1aab5e30e6ea8ad5fbe7e60c4005ac07) (6) |                  [MalwareBazaar Database]()                  | A691 |
-| 2026/3/27 |  ···违规乱纪人员···.exe  | **银狐 (SilverFox.sad)** | 71a0e232b4d8734e8c201e8b84e153c37e2d6444720d12b945db5b128690bab2 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/71a0e232b4d8734e8c201e8b84e153c37e2d6444720d12b945db5b128690bab2) (2) |                  [MalwareBazaar Database]()                  | A692 |
-| 2026/3/27 |       svchost.exe        |      **Downloader**      | 929cf7a15968a4e38eccb852a72874d58c3962f52dcac97cc69b5a6aa113c2d4 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/929cf7a15968a4e38eccb852a72874d58c3962f52dcac97cc69b5a6aa113c2d4) (18) |                  [MalwareBazaar Database]()                  | A693 |
-| 2026/3/27 | yb0327.docx_____.pdf.exe |         **Hzcn**         | a5ec2bb312181b03c770e5c670d539cad796b8e6a8004ba0cf82a92e08d6e859 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/a5ec2bb312181b03c770e5c670d539cad796b8e6a8004ba0cf82a92e08d6e859) (7) |                  [MalwareBazaar Database]()                  | A694 |
+| 2026/3/27 |     3月26日名单.exe      | **银狐 (SilverFox.bg)**  | 5973d05643897671584fae16c567ba9d1aab5e30e6ea8ad5fbe7e60c4005ac07 | 4133a22b-9b81-48a5-8664-ed449298e7a2 | [VirusTotal](https://www.virustotal.com/gui/file/5973d05643897671584fae16c567ba9d1aab5e30e6ea8ad5fbe7e60c4005ac07) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5973d05643897671584fae16c567ba9d1aab5e30e6ea8ad5fbe7e60c4005ac07) | A691 |
+| 2026/3/27 |  ···违规乱纪人员···.exe  | **银狐 (SilverFox.sad)** | 71a0e232b4d8734e8c201e8b84e153c37e2d6444720d12b945db5b128690bab2 | 9f63038d-4478-4eca-9176-8e3bcbeea0cf | [VirusTotal](https://www.virustotal.com/gui/file/71a0e232b4d8734e8c201e8b84e153c37e2d6444720d12b945db5b128690bab2) (2) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/71a0e232b4d8734e8c201e8b84e153c37e2d6444720d12b945db5b128690bab2) | A692 |
+| 2026/3/27 |       svchost.exe        |      **Downloader**      | 929cf7a15968a4e38eccb852a72874d58c3962f52dcac97cc69b5a6aa113c2d4 | 2190ebe9-7a52-43aa-8dce-be2cedba15c7 | [VirusTotal](https://www.virustotal.com/gui/file/929cf7a15968a4e38eccb852a72874d58c3962f52dcac97cc69b5a6aa113c2d4) (18) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/929cf7a15968a4e38eccb852a72874d58c3962f52dcac97cc69b5a6aa113c2d4) | A693 |
+| 2026/3/27 | yb0327.docx_____.pdf.exe |         **Hzcn**         | a5ec2bb312181b03c770e5c670d539cad796b8e6a8004ba0cf82a92e08d6e859 | bb1aea9a-7954-40b6-a5c2-81b9c4f48aad | [VirusTotal](https://www.virustotal.com/gui/file/a5ec2bb312181b03c770e5c670d539cad796b8e6a8004ba0cf82a92e08d6e859) (7) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a5ec2bb312181b03c770e5c670d539cad796b8e6a8004ba0cf82a92e08d6e859) | A694 |
 |  ——————   |       ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
