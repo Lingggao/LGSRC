@@ -123,32 +123,32 @@
 >
 > &emsp;为确保安全，网站地址将用 “hxxps://” 与 “[.]” 进行替换。**切勿尝试访问表格中列出的任何网址**。
 
-|   日期    |                       URL                       |         类别          |                           有效载荷                           |  URLhaus   | 编号 |
-| :-------: | :---------------------------------------------: | :-------------------: | :----------------------------------------------------------: | :--------: | :--: |
-| 2026/3/23 |           hxxps://www[.]todeski[.]com           | 仿冒 ToDesk、传播病毒 |    hxxps://xiazguawanzhuanbao[.]com/1/3[.]210ToDesk[.]zip    |     无     | Z217 |
-| 2026/3/23 |           hxxps://www[.]todeske[.]com           | 仿冒 ToDesk、传播病毒 |    hxxps://xiazguawanzhuanbao[.]com/1/3[.]210ToDesk[.]zip    |     无     | Z218 |
-| 2026/3/23 |          hxxps://www[.]zh-todesk[.]com          | 仿冒 ToDesk、传播病毒 |                              无                              |     无     | Z219 |
-| 2026/3/23 |        hxxps://www[.]to-desk[.]com[.]cn         | 仿冒 ToDesk、传播病毒 |                              无                              |     无     | Z220 |
-| 2026/3/23 |             hxxps://toamndkf[.]cyou             | 仿冒 ToDesk、传播病毒 |    hxxps://xiazguawanzhuanbao[.]com/1/3[.]210ToDesk[.]zip    |     无     | Z221 |
-| 2026/3/23 |      hxxps://cn[.]cn-google-com[.]com[.]cn      | 仿冒 Chrome、传播病毒 | hxxps://googelfasdjkta[.]s3[.]ap-south-1[.]amazonaws[.]com/uardian_gogletipam[.]zip |     无     | Z222 |
-| 2026/3/23 |         hxxps://cn-www-google[.]hl[.]cn         | 仿冒 Chrome、传播病毒 | hxxps://googelfasdjkta[.]s3[.]ap-south-1[.]amazonaws[.]com/Eal-cnnqotbstueiakll[.]zip |     无     | Z223 |
-| 2026/3/24 |            hxxps://openclawcn[.]net             | 仿冒 OpenClaw “龙虾”  | hxxps://cdn[.]openclawcn[.]net/update/artifacts/OpenClaw%E6%A1%8C%E9%9D%A2%E7%89%88_0[.]2[.]8_x64-setup[.]exe |     无     | Z224 |
-| 2026/3/24 |        hxxps://cn[.]opencllaw[.]com[.]cn        | 仿冒 OpenClaw “龙虾”  |                              无                              |     无     | Z225 |
-| 2026/3/24 |    hxxps://www[.]app-cn-opencllaw[.]com[.]cn    | 仿冒 OpenClaw “龙虾”  |                              无                              |     无     | Z226 |
-| 2026/3/24 |        hxxps://apps-openclaw[.]com[.]cn         | 仿冒 OpenClaw “龙虾”  |                              无                              |     无     | Z227 |
-| 2026/3/28 | hxxps://2006web[.]zh-yd-google-chrome[.]hl[.]cn | 仿冒 Chrome、传播病毒 |                              有                              |     无     | Z228 |
-| 2026/3/28 |       hxxps://google-google-com[.]hl[.]cn       | 仿冒 Chrome、传播病毒 |                              无                              |     无     | Z229 |
-| 2026/3/28 |    hxxps://zh[.]google-chrome-apps[.]hl[.]cn    | 仿冒 Chrome、传播病毒 |                              有                              |     无     | Z230 |
-| 2026/3/28 |       hxxps://google-google-web[.]hl[.]cn       | 仿冒 Chrome、传播病毒 |                              无                              |     无     | Z231 |
-| 2026/3/28 |            hxxps://360-browser[.]com            |  仿冒 360 安全浏览器  |                              有                              |     无     | Z232 |
-| 2026/3/28 |               hxxp://360edge[.]cn               |  仿冒 360 安全浏览器  |                              无                              |     无     | Z233 |
-| 2026/3/28 |           hxxps://chromiumx-360[.]cn            |  仿冒 360 安全浏览器  |                              无                              |     无     | Z234 |
-| 2026/3/28 |           hxxps://360browser-app[.]cn           |  仿冒 360 安全浏览器  |                              有                              |     无     | Z235 |
-| 2026/3/29 |          hxxps://offie-wps[.]com[.]cn           |  仿冒 WPS、传播病毒   | hxxps://www[.]shanmaocnhingkong-oss[.]top/Wps_Office_x64_v10_win[.]zip |     无     | Z236 |
-| 2026/3/29 |              hxxps://we-wps[.]com               |  仿冒 WPS、传播病毒   |                              有                              |     无     | Z237 |
-| 2026/3/29 |            hxxps://wps-q[.]com[.]cn             |  仿冒 WPS、传播病毒   |                              无                              |     无     | Z238 |
-| 2026/3/30 |            hxxps://doubao[.]com[.]co            |  仿冒 WPS、传播病毒   |                              有                              |     无     | Z239 |
-|  ——————   |              ————————————————————               |    ———————————————    |                ——————————————————————————————                | —————————— | ———  |
+|   日期    |                       URL                       |           类别           |                           有效载荷                           |  URLhaus   | 编号 |
+| :-------: | :---------------------------------------------: | :----------------------: | :----------------------------------------------------------: | :--------: | :--: |
+| 2026/3/23 |           hxxps://www[.]todeski[.]com           |  仿冒 ToDesk、传播病毒   |    hxxps://xiazguawanzhuanbao[.]com/1/3[.]210ToDesk[.]zip    |     无     | Z217 |
+| 2026/3/23 |           hxxps://www[.]todeske[.]com           |  仿冒 ToDesk、传播病毒   |    hxxps://xiazguawanzhuanbao[.]com/1/3[.]210ToDesk[.]zip    |     无     | Z218 |
+| 2026/3/23 |          hxxps://www[.]zh-todesk[.]com          |  仿冒 ToDesk、传播病毒   |                              无                              |     无     | Z219 |
+| 2026/3/23 |        hxxps://www[.]to-desk[.]com[.]cn         |  仿冒 ToDesk、传播病毒   |                              无                              |     无     | Z220 |
+| 2026/3/23 |             hxxps://toamndkf[.]cyou             |  仿冒 ToDesk、传播病毒   |    hxxps://xiazguawanzhuanbao[.]com/1/3[.]210ToDesk[.]zip    |     无     | Z221 |
+| 2026/3/23 |      hxxps://cn[.]cn-google-com[.]com[.]cn      |  仿冒 Chrome、传播病毒   | hxxps://googelfasdjkta[.]s3[.]ap-south-1[.]amazonaws[.]com/uardian_gogletipam[.]zip |     无     | Z222 |
+| 2026/3/23 |         hxxps://cn-www-google[.]hl[.]cn         |  仿冒 Chrome、传播病毒   | hxxps://googelfasdjkta[.]s3[.]ap-south-1[.]amazonaws[.]com/Eal-cnnqotbstueiakll[.]zip |     无     | Z223 |
+| 2026/3/24 |            hxxps://openclawcn[.]net             |   仿冒 OpenClaw “龙虾”   | hxxps://cdn[.]openclawcn[.]net/update/artifacts/OpenClaw%E6%A1%8C%E9%9D%A2%E7%89%88_0[.]2[.]8_x64-setup[.]exe |     无     | Z224 |
+| 2026/3/24 |        hxxps://cn[.]opencllaw[.]com[.]cn        |   仿冒 OpenClaw “龙虾”   |                              无                              |     无     | Z225 |
+| 2026/3/24 |    hxxps://www[.]app-cn-opencllaw[.]com[.]cn    |   仿冒 OpenClaw “龙虾”   |                              无                              |     无     | Z226 |
+| 2026/3/24 |        hxxps://apps-openclaw[.]com[.]cn         |   仿冒 OpenClaw “龙虾”   |                              无                              |     无     | Z227 |
+| 2026/3/28 | hxxps://2006web[.]zh-yd-google-chrome[.]hl[.]cn |  仿冒 Chrome、传播病毒   |                              有                              |     无     | Z228 |
+| 2026/3/28 |       hxxps://google-google-com[.]hl[.]cn       |  仿冒 Chrome、传播病毒   |                              无                              |     无     | Z229 |
+| 2026/3/28 |    hxxps://zh[.]google-chrome-apps[.]hl[.]cn    |  仿冒 Chrome、传播病毒   |                              有                              |     无     | Z230 |
+| 2026/3/28 |       hxxps://google-google-web[.]hl[.]cn       |  仿冒 Chrome、传播病毒   |                              无                              |     无     | Z231 |
+| 2026/3/28 |            hxxps://360-browser[.]com            |   仿冒 360 安全浏览器    |                              有                              |     无     | Z232 |
+| 2026/3/28 |               hxxp://360edge[.]cn               |   仿冒 360 安全浏览器    |                              无                              |     无     | Z233 |
+| 2026/3/28 |           hxxps://chromiumx-360[.]cn            |   仿冒 360 安全浏览器    |                              无                              |     无     | Z234 |
+| 2026/3/28 |           hxxps://360browser-app[.]cn           |   仿冒 360 安全浏览器    |                              有                              |     无     | Z235 |
+| 2026/3/29 |          hxxps://offie-wps[.]com[.]cn           |    仿冒 WPS、传播病毒    | hxxps://www[.]shanmaocnhingkong-oss[.]top/Wps_Office_x64_v10_win[.]zip |     无     | Z236 |
+| 2026/3/29 |              hxxps://we-wps[.]com               |    仿冒 WPS、传播病毒    |                              有                              |     无     | Z237 |
+| 2026/3/29 |            hxxps://wps-q[.]com[.]cn             |    仿冒 WPS、传播病毒    |                              无                              |     无     | Z238 |
+| 2026/3/30 |            hxxps://doubao[.]com[.]co            | 仿冒豆包客户端、传播病毒 |                              有                              |     无     | Z239 |
+|  ——————   |              ————————————————————               |     ———————————————      |                ——————————————————————————————                | —————————— | ———  |
 
 > [!NOTE]
 >
