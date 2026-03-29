@@ -4,7 +4,7 @@ https://clawhub.ai/Lingggao/vt-insight
 
 名称：vt-insight  
 作者：Ling Gao (https://github.com/Lingggao)  
-Skill 版本：1.7.7  
+Skill 版本：1.8.1  
 2026 年 3 月 19 日  
 LGHUB · Security Response Center
 
@@ -22,9 +22,9 @@ The author holds the rights to this skill and agrees to publish it under MIT-0.
 
 ## 使用方式
 
-用户输入 `vt-insight {hash} [{api key}]` 即可自动查询并格式化输出查询报告。
+用户输入 `vt-insight {hash} [key {api key}]` 即可自动查询并格式化输出查询报告。
 
-{hash} 与 [{api key}] 间用空格分隔，{api key} 必须用中括号 “[]” 括住。示例：`vt-insight 01234 [56789]`
+{hash} 与 [{api key}] 间用空格分隔，{api key} 必须用中括号 “[]” 括住。示例：`vt-insight 01234 [key 56789]`
 
 如果用户未提供 {api key}，则使用浏览器自动化。
 
