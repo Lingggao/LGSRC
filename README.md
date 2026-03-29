@@ -71,7 +71,7 @@
 
 &emsp;&emsp;上次更新时间：2026 年 3 月 30 日 5:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 3 月 30 日，本中心已打击计算机病毒 / 恶意软件 709 个、恶意网站 238 个，累计为潜在受害者规避经济损失约 4,874,322 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/LossModel.md))
+&emsp;&emsp;**截至 2026 年 3 月 30 日，本中心已打击计算机病毒 / 恶意软件 710 个、恶意网站 239 个，累计为潜在受害者规避经济损失约 4,874,322 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/LossModel.md))
 
 ---
 
@@ -108,6 +108,7 @@
 | 2026/3/29 |   1.5亿···聊天记录.exe   |      **Cybercrime**      | e11a71c65ab4eb2c2ca0d780cefa239d9f939755e010b144fd27e1e20470bfca | bf7454bb-56f6-4b6f-b44c-4d8f2105f184 | [VirusTotal](https://www.virustotal.com/gui/file/e11a71c65ab4eb2c2ca0d780cefa239d9f939755e010b144fd27e1e20470bfca) (13) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/e11a71c65ab4eb2c2ca0d780cefa239d9f939755e010b144fd27e1e20470bfca) | A707 |
 | 2026/3/29 |      ···doubao.exe       | **银狐 (SilverFox.bg)**  | 4bf8707ee3eae011e239dca5f7dd1c79e6c564542f3fa9427e3657b35c578c9d |                                      | [VirusTotal](https://www.virustotal.com/gui/file/4bf8707ee3eae011e239dca5f7dd1c79e6c564542f3fa9427e3657b35c578c9d) (8) |                  [MalwareBazaar Database]()                  | A708 |
 | 2026/3/29 |  柬埔寨···视频流出.exe   |         **AGEN**         | 3940f7f953c71aedee15ca53e2a5aab82721cd3b7bb1d54bf4493036f5207343 | e984acdb-7c20-46ef-b9ee-91d75cf65d0b | [VirusTotal](https://www.virustotal.com/gui/file/3940f7f953c71aedee15ca53e2a5aab82721cd3b7bb1d54bf4493036f5207343) (12) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/3940f7f953c71aedee15ca53e2a5aab82721cd3b7bb1d54bf4493036f5207343) | A709 |
+| 2026/3/30 |  ···doubao2026.zip.exe   | **银狐 (SilverFox.bg)**  | a76879e7320bf59ad2da99d24b0b20a03a1d9807092ab5409e3e514fd549e773 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/a76879e7320bf59ad2da99d24b0b20a03a1d9807092ab5409e3e514fd549e773) (15) |                  [MalwareBazaar Database]()                  | A710 |
 |  ——————   |       ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -146,6 +147,7 @@
 | 2026/3/29 |          hxxps://offie-wps[.]com[.]cn           |  仿冒 WPS、传播病毒   | hxxps://www[.]shanmaocnhingkong-oss[.]top/Wps_Office_x64_v10_win[.]zip |     无     | Z236 |
 | 2026/3/29 |              hxxps://we-wps[.]com               |  仿冒 WPS、传播病毒   |                              有                              |     无     | Z237 |
 | 2026/3/29 |            hxxps://wps-q[.]com[.]cn             |  仿冒 WPS、传播病毒   |                              无                              |     无     | Z238 |
+| 2026/3/30 |            hxxps://doubao[.]com[.]co            |  仿冒 WPS、传播病毒   |                              有                              |     无     | Z239 |
 |  ——————   |              ————————————————————               |    ———————————————    |                ——————————————————————————————                | —————————— | ———  |
 
 > [!NOTE]
