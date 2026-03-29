@@ -222,6 +222,10 @@
 | 2026/3/21 |        hxxps://www-qishui[.]com[.]cn        |   仿冒汽水音乐、传播病毒    |                              有                              |                            无                            | Z210 |
 | 2026/3/21 |      hxxps://qiishuiyinyue[.]com[.]cn       |   仿冒汽水音乐、传播病毒    |    hxxps://j3hednc[.]x98665[.]com/Sodaqishui14[.]2[.]zip     |                            无                            | Z211 |
 | 2026/3/21 |     hxxps://qishuimusic-music[.]hl[.]cn     |   仿冒汽水音乐、传播病毒    |                              无                              |                            无                            | Z212 |
+| 2026/3/23 |            hxxps://todesk[.]app             |    仿冒 ToDesk、传播病毒    |   hxxps://download-pc[.]us/ToDesk_Setup[.]exe_FCzpH[.]zip    |                            无                            | Z213 |
+| 2026/3/23 |          hxxps://www[.]todesk[.]im          |    仿冒 ToDesk、传播病毒    |                              有                              |                            无                            | Z214 |
+| 2026/3/23 |        hxxps://apd-todesk[.]com[.]cn        |    仿冒 ToDesk、传播病毒    |          hxxps://tranyasy[.]com[.]cn/TD-Setup[.]zip          | [URLhaus Database](https://urlhaus.abuse.ch/url/3802588) | Z215 |
+| 2026/3/23 |        hxxps://www[.]todeskapp[.]com        |    仿冒 ToDesk、传播病毒    |                              有                              |                            无                            | Z216 |
 |  ——————   |            ————————————————————             |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---

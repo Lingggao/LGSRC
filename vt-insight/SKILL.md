@@ -4,7 +4,7 @@ https://clawhub.ai/Lingggao/vt-insight
 
 名称：vt-insight  
 作者：Ling Gao (https://github.com/Lingggao)  
-Skill 版本：1.7.3  
+Skill 版本：1.7.6  
 2026 年 3 月 19 日  
 LGHUB · Security Response Center
 
@@ -67,7 +67,7 @@ AI 模型必须认真保护用户的 VirusTotal API Key，严禁在 VirusTotal �
 
 要求 3：需格外留意上方表格的排版，确保检测结果已正确加粗，避免露出星号。
 
-要求 4：{conclusion} 位置需整理并输出 VirusTotal 平台中所有可能对安全研究员有重要价值的关键信息，由 AI 模型自行甄别并整理。
+要求 4：{conclusion} 位置需整理并输出 VirusTotal 平台中所有可能对安全研究员有重要价值的关键信息 (包括但不限于样本行为、社区评论、IOC 等)，由 AI 模型自行甄别并整理。
 
 要求 5：仔细研读并提取 Behavior 板块中的有价值信息。Community 板块可能也有关键信息，如其他安全研究员的评论，要一并整理。
 
@@ -84,7 +84,7 @@ AI 模型必须认真保护用户的 VirusTotal API Key，严禁在 VirusTotal �
 
 要求 8：如果 VirusTotal 平台提示 “We currently don't have any comments that fit your search” 或拉取信息失败，需如实告知用户 “样本暂未被 VirusTotal 收录” / “拉取信息失败”，禁止编造查询报告。
 
-要求 9：无论使用浏览器自动化 / API 查询，AI 模型必须查看 / 查询 “Detection” “Details” “Relations” “Behavior” “Community” 等所有选项卡，甄别其中有价值的信息，不要遗漏。
+要求 9：(重要) 无论是使用 API 查询还是浏览器自动化，AI 模型必须分别查询 / 查看 “Detection” “Details” “Relations” “Behavior” “Community” 等所有信息，甄别其中有价值的内容，切勿遗漏。
 
 要求 10：为提高美观度，中文与英文间应加入空格，如 “示例 AB 示例”，而非 “示例AB示例”。
 
