@@ -4,7 +4,7 @@ https://clawhub.ai/Lingggao/vt-insight
 
 名称：vt-insight  
 作者：Ling Gao (https://github.com/Lingggao)  
-Skill 版本：1.7.6  
+Skill 版本：1.7.7  
 2026 年 3 月 19 日  
 LGHUB · Security Response Center
 
@@ -67,7 +67,7 @@ AI 模型必须认真保护用户的 VirusTotal API Key，严禁在 VirusTotal �
 
 要求 3：需格外留意上方表格的排版，确保检测结果已正确加粗，避免露出星号。
 
-要求 4：{conclusion} 位置需整理并输出 VirusTotal 平台中所有可能对安全研究员有重要价值的关键信息 (包括但不限于样本行为、社区评论、IOC 等)，由 AI 模型自行甄别并整理。
+要求 4：{conclusion} 位置需整理并输出 VirusTotal 平台中所有可能对安全研究员有重要价值的关键信息 (包括但不限于样本行为、社区评论、IOC 等)，由 AI 模型自行甄别并整理。建议字数：100 - 200 字。
 
 要求 5：仔细研读并提取 Behavior 板块中的有价值信息。Community 板块可能也有关键信息，如其他安全研究员的评论，要一并整理。
 
@@ -88,7 +88,7 @@ AI 模型必须认真保护用户的 VirusTotal API Key，严禁在 VirusTotal �
 
 要求 10：为提高美观度，中文与英文间应加入空格，如 “示例 AB 示例”，而非 “示例AB示例”。
 
-要求 11：来自 VirusTotal API 的字段 last_analysis_date 是 Unix 时间戳 (秒)，直接转换即可得到 UTC 时间，再加 8 小时为北京时间。无需二次累加，以免出现偏差。
+要求 11：(重要) 来自 VirusTotal API 的字段 last_analysis_date 是 Unix 时间戳 (秒)，直接转换即可得到 UTC 时间，再加 8 小时为北京时间，切勿忘记 +8。无需两次累加，以免出现偏差。
 
 要求 12：VirusTotal API Key 与 SHA256 格式一致，AI 模型不应误认为用户一次性提交了两个 SHA256。
 
@@ -120,17 +120,17 @@ SHA256：{sha256 hash}
 
 {family} (需加粗)
 
-{family profile} (无需加粗)
+{family profile} (无需加粗) (建议字数：约 100 字)
 
 ---
 **研究** (需加粗)
 
-{behavior} (注：由 AI 模型自行斟酌，可对重点内容加粗，但占比越少越好)
+{behavior} (注：由 AI 模型自行斟酌，可对重点内容加粗，但占比越少越好) (建议字数：100 - 200 字)
 
-{community} (注：由 AI 模型自行斟酌，可对重点内容加粗，但占比越少越好)
+{community} (注：由 AI 模型自行斟酌，可对重点内容加粗，但占比越少越好) (建议字数：100 - 200 字)
 
 ---
 **总结** (需加粗)
 
-{conclusion} (注：由 AI 模型自行斟酌，可对重点内容加粗，但占比越少越好)
+{conclusion} (注：由 AI 模型自行斟酌，可对重点内容加粗，但占比越少越好) (建议字数：100 - 200 字)
 ```
