@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 29 日 21:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 30 日 1:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 3 月 29 日，本中心已打击计算机病毒 / 恶意软件 706 个、恶意网站 238 个，累计为潜在受害者规避经济损失约 4,821,174 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/LossModel.md))
+&emsp;&emsp;**截至 2026 年 3 月 30 日，本中心已打击计算机病毒 / 恶意软件 709 个、恶意网站 238 个，累计为潜在受害者规避经济损失约 4,821,174 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/LossModel.md))
 
 ---
 
@@ -83,9 +83,6 @@
 
 |   日期    |          文件名          |           检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :----------------------: | :----------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/3/25 |       解封软件.exe       | **银狐 (SilverFox.sae)** | 1543b9b955e4de15261dff926dbcb21ba40e22fc3be7d2fbad2b3af95b3c93d9 | a6e6d2a0-2b5a-42ce-aa18-898e2f09c26e | [VirusTotal](https://www.virustotal.com/gui/file/1543b9b955e4de15261dff926dbcb21ba40e22fc3be7d2fbad2b3af95b3c93d9) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/1543b9b955e4de15261dff926dbcb21ba40e22fc3be7d2fbad2b3af95b3c93d9) | A682 |
-| 2026/3/25 |     litellm_init.pth     |  **Python/Malgent!MSR**  | 71e35aef03099cd1f2d6446734273025a163597de93912df321ef118bf135238 | 49d3564d-3231-4f93-8139-868390f2b4b7 | [VirusTotal](https://www.virustotal.com/gui/file/71e35aef03099cd1f2d6446734273025a163597de93912df321ef118bf135238) (2) |                              无                              | A683 |
-| 2026/3/25 |  ···违规乱纪人员···.exe  |       **Gh0stRAT**       | ab4eaf919e2860ce69cbda84bf29c12c6087d069b20dc04dc4ca62d9ae811df9 | feeaa506-5f65-4a74-91a5-e5af0406b15a | [VirusTotal](https://www.virustotal.com/gui/file/ab4eaf919e2860ce69cbda84bf29c12c6087d069b20dc04dc4ca62d9ae811df9) (9) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/ab4eaf919e2860ce69cbda84bf29c12c6087d069b20dc04dc4ca62d9ae811df9) | A684 |
 | 2026/3/25 | ···中文语言···翻译包.exe |     **CryptInject**      | 11c58a8c42d81d4f4993e00b1c7daaba03247b3cb4796e281571582e7568a2a7 | 51b6f822-d703-448c-96fd-9fc1cceb0bbf | [VirusTotal](https://www.virustotal.com/gui/file/11c58a8c42d81d4f4993e00b1c7daaba03247b3cb4796e281571582e7568a2a7) (15) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/11c58a8c42d81d4f4993e00b1c7daaba03247b3cb4796e281571582e7568a2a7) | A685 |
 | 2026/3/25 |       windo64x.exe       |   **银狐 (SilverFox)**   | 0541a48f9d2650cb7a2182a75011adf0d8dcf498ede16c69808209a0ca5cdf35 | 9466c84a-55e3-48ec-b483-0ca74dd4b3b9 | [VirusTotal](https://www.virustotal.com/gui/file/0541a48f9d2650cb7a2182a75011adf0d8dcf498ede16c69808209a0ca5cdf35) (3) |                              无                              | A686 |
 | 2026/3/26 |      client_x86.exe      | **银狐 (SilverFox.cz)**  | c74c147c2df99c3035927ba97ed562d0fd22309c3dad7f6a09553571bcc6581d | 1d8f132e-36a5-4a31-95cb-5b11164b4f7c | [VirusTotal](https://www.virustotal.com/gui/file/c74c147c2df99c3035927ba97ed562d0fd22309c3dad7f6a09553571bcc6581d) (13) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c74c147c2df99c3035927ba97ed562d0fd22309c3dad7f6a09553571bcc6581d) | A687 |
@@ -108,6 +105,9 @@
 | 2026/3/29 |      wp_win_x64.exe      |       **Kryptik**        | 7cf0437ffd5f397fc4c8927b16c26a73e25710d75827c10eabec418150b1f5d7 | f1847290-923a-49ad-94b5-effccc96cfac | [VirusTotal](https://www.virustotal.com/gui/file/7cf0437ffd5f397fc4c8927b16c26a73e25710d75827c10eabec418150b1f5d7) (7) |                              无                              | A704 |
 | 2026/3/29 |    Wps_Office···.exe     |   **银狐 (SilverFox)**   | 52c0d87c76a1bf56f112b84158a165ef7bb9bef4b8e67455b594df3a345c6e44 | 05cc4a54-3976-4c91-9f10-2c70e7dbeb66 | [VirusTotal](https://www.virustotal.com/gui/file/52c0d87c76a1bf56f112b84158a165ef7bb9bef4b8e67455b594df3a345c6e44) (9) |                              无                              | A705 |
 | 2026/3/29 |  三角洲解除冻结···.zip   |   **银狐 (SilverFox)**   | b73a44b3e686b95807d1dd9cc109cb7fb2618e882a7d9ea162bb6ae2832fbe34 | d2b6ae91-3c0f-441c-97eb-1ba7027caf05 | [VirusTotal](https://www.virustotal.com/gui/file/b73a44b3e686b95807d1dd9cc109cb7fb2618e882a7d9ea162bb6ae2832fbe34) (10) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b73a44b3e686b95807d1dd9cc109cb7fb2618e882a7d9ea162bb6ae2832fbe34) | A706 |
+| 2026/3/29 |   1.5亿···聊天记录.exe   |      **Cybercrime**      | e11a71c65ab4eb2c2ca0d780cefa239d9f939755e010b144fd27e1e20470bfca |                                      | [VirusTotal](https://www.virustotal.com/gui/file/e11a71c65ab4eb2c2ca0d780cefa239d9f939755e010b144fd27e1e20470bfca) (13) |                  [MalwareBazaar Database]()                  | A707 |
+| 2026/3/29 |      ···doubao.exe       | **银狐 (SilverFox.bg)**  | 4bf8707ee3eae011e239dca5f7dd1c79e6c564542f3fa9427e3657b35c578c9d |                                      | [VirusTotal](https://www.virustotal.com/gui/file/4bf8707ee3eae011e239dca5f7dd1c79e6c564542f3fa9427e3657b35c578c9d) (8) |                  [MalwareBazaar Database]()                  | A708 |
+| 2026/3/29 |  柬埔寨···视频流出.exe   |         **AGEN**         | 3940f7f953c71aedee15ca53e2a5aab82721cd3b7bb1d54bf4493036f5207343 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/3940f7f953c71aedee15ca53e2a5aab82721cd3b7bb1d54bf4493036f5207343) (12) |                  [MalwareBazaar Database]()                  | A709 |
 |  ——————   |       ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
