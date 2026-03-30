@@ -69,7 +69,7 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 30 日 5:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 30 日 9:00 (GMT+8)
 
 &emsp;&emsp;**截至 2026 年 3 月 30 日，本中心已打击计算机病毒 / 恶意软件 710 个、恶意网站 239 个，累计为潜在受害者规避经济损失约 4,874,322 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/LossModel.md))
 
@@ -106,9 +106,9 @@
 | 2026/3/29 |    Wps_Office···.exe     |   **银狐 (SilverFox)**   | 52c0d87c76a1bf56f112b84158a165ef7bb9bef4b8e67455b594df3a345c6e44 | 05cc4a54-3976-4c91-9f10-2c70e7dbeb66 | [VirusTotal](https://www.virustotal.com/gui/file/52c0d87c76a1bf56f112b84158a165ef7bb9bef4b8e67455b594df3a345c6e44) (9) |                              无                              | A705 |
 | 2026/3/29 |  三角洲解除冻结···.zip   |   **银狐 (SilverFox)**   | b73a44b3e686b95807d1dd9cc109cb7fb2618e882a7d9ea162bb6ae2832fbe34 | d2b6ae91-3c0f-441c-97eb-1ba7027caf05 | [VirusTotal](https://www.virustotal.com/gui/file/b73a44b3e686b95807d1dd9cc109cb7fb2618e882a7d9ea162bb6ae2832fbe34) (10) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b73a44b3e686b95807d1dd9cc109cb7fb2618e882a7d9ea162bb6ae2832fbe34) | A706 |
 | 2026/3/29 |   1.5亿···聊天记录.exe   |      **Cybercrime**      | e11a71c65ab4eb2c2ca0d780cefa239d9f939755e010b144fd27e1e20470bfca | bf7454bb-56f6-4b6f-b44c-4d8f2105f184 | [VirusTotal](https://www.virustotal.com/gui/file/e11a71c65ab4eb2c2ca0d780cefa239d9f939755e010b144fd27e1e20470bfca) (13) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/e11a71c65ab4eb2c2ca0d780cefa239d9f939755e010b144fd27e1e20470bfca) | A707 |
-| 2026/3/29 |      ···doubao.exe       | **银狐 (SilverFox.bg)**  | 4bf8707ee3eae011e239dca5f7dd1c79e6c564542f3fa9427e3657b35c578c9d |                                      | [VirusTotal](https://www.virustotal.com/gui/file/4bf8707ee3eae011e239dca5f7dd1c79e6c564542f3fa9427e3657b35c578c9d) (8) |                  [MalwareBazaar Database]()                  | A708 |
+| 2026/3/29 |      ···doubao.exe       | **银狐 (SilverFox.bg)**  | 4bf8707ee3eae011e239dca5f7dd1c79e6c564542f3fa9427e3657b35c578c9d | 42809f46-d948-4231-88a8-118233ae7543 | [VirusTotal](https://www.virustotal.com/gui/file/4bf8707ee3eae011e239dca5f7dd1c79e6c564542f3fa9427e3657b35c578c9d) (8) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/4bf8707ee3eae011e239dca5f7dd1c79e6c564542f3fa9427e3657b35c578c9d) | A708 |
 | 2026/3/29 |  柬埔寨···视频流出.exe   |         **AGEN**         | 3940f7f953c71aedee15ca53e2a5aab82721cd3b7bb1d54bf4493036f5207343 | e984acdb-7c20-46ef-b9ee-91d75cf65d0b | [VirusTotal](https://www.virustotal.com/gui/file/3940f7f953c71aedee15ca53e2a5aab82721cd3b7bb1d54bf4493036f5207343) (12) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/3940f7f953c71aedee15ca53e2a5aab82721cd3b7bb1d54bf4493036f5207343) | A709 |
-| 2026/3/30 |  ···doubao2026.zip.exe   | **银狐 (SilverFox.bg)**  | a76879e7320bf59ad2da99d24b0b20a03a1d9807092ab5409e3e514fd549e773 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/a76879e7320bf59ad2da99d24b0b20a03a1d9807092ab5409e3e514fd549e773) (15) |                  [MalwareBazaar Database]()                  | A710 |
+| 2026/3/30 |  ···doubao2026.zip.exe   | **银狐 (SilverFox.bg)**  | a76879e7320bf59ad2da99d24b0b20a03a1d9807092ab5409e3e514fd549e773 | 256f2e7b-bb29-4fe2-9b26-bf5df505586c | [VirusTotal](https://www.virustotal.com/gui/file/a76879e7320bf59ad2da99d24b0b20a03a1d9807092ab5409e3e514fd549e773) (15) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a76879e7320bf59ad2da99d24b0b20a03a1d9807092ab5409e3e514fd549e773) | A710 |
 |  ——————   |       ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
