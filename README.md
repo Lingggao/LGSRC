@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 3 月 31 日 18:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 3 月 31 日 20:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 3 月 31 日，本中心已打击计算机病毒 / 恶意软件 725 个、恶意网站 253 个，累计为潜在受害者规避经济损失约 4,972,050 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/LossModel.md))
+&emsp;&emsp;**截至 2026 年 3 月 31 日，本中心已打击计算机病毒 / 恶意软件 726 个、恶意网站 253 个，累计为潜在受害者规避经济损失约 4,972,050 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/LossModel.md))
 
 ---
 
@@ -108,6 +108,7 @@
 | 2026/3/31 | 2026 年第二季度···.exe | **银狐 (SilverFox.sad)** | c709ed855b596e46c4df8eb3ff6d50ca55869ae9deb59e04a49fd2df31f77c71 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/c709ed855b596e46c4df8eb3ff6d50ca55869ae9deb59e04a49fd2df31f77c71) (4) |                  [MalwareBazaar Database]()                  | A723 |
 | 2026/3/31 |  ···违纪名单信息.exe   | **银狐 (SilverFox.bg)**  | 7f707cb02409b31b80cf4428fbc882cde513e20d105391b8cec298940579e23b |                                      | [VirusTotal](https://www.virustotal.com/gui/file/7f707cb02409b31b80cf4428fbc882cde513e20d105391b8cec298940579e23b) (6) |                  [MalwareBazaar Database]()                  | A724 |
 | 2026/3/31 |    glqchoiding.msi     |  **Win32/Malgent!MSR**   | 899a461c8a9fdef19c89c4a83e44a0d56097c1c856299584ac4e164394741362 | 870a8b43-6a79-4c15-91e7-532d7afd21a7 | [VirusTotal](https://www.virustotal.com/gui/file/899a461c8a9fdef19c89c4a83e44a0d56097c1c856299584ac4e164394741362) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/899a461c8a9fdef19c89c4a83e44a0d56097c1c856299584ac4e164394741362) | A725 |
+| 2026/3/31 |       r6mrA.exe        | **银狐 (SilverFox.bg)**  | a1a0f35f0ac483a6c5649f6fa338952c2d2c457d2cb1b2fcef16bdc96fdfdb8b |                                      | [VirusTotal](https://www.virustotal.com/gui/file/a1a0f35f0ac483a6c5649f6fa338952c2d2c457d2cb1b2fcef16bdc96fdfdb8b) (32) |                  [MalwareBazaar Database]()                  | A726 |
 |  ——————   |      ————————————      |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -145,7 +146,7 @@
 | 2026/3/30 |       hxxps://www[.]win-sogou[.]com       | 仿冒搜狗输入法、传播病毒 | hxxps://62c013c91f7f8152044efae44a432404[.]r2[.]cloudflarestorage[.]com/urllink/www-win-sogou-com/windows/SG[.]Setupbiyi[.]5[.]16[.]11[.]5lln[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3808325) | Z250 |
 | 2026/3/30 |        hxxps://soougou[.]com[.]cn         | 仿冒搜狗输入法、传播病毒 | hxxps://pesktop1[.]oss-cn-hongkong[.]aliyuncs[.]com/sougou-3[.]6[.]zip |                            无                            | Z251 |
 | 2026/3/30 |       hxxps://int-sougou[.]com[.]cn       | 仿冒搜狗输入法、传播病毒 |                              无                              |                            无                            | Z252 |
-| 2026/3/31 |    hxxps://google-cn-chrom[.]com[.]cn     |  仿冒 Chrome、传播病毒   | https://dingdong-1399351730.cos.ap-hongkong.myqcloud.com/glqchoiding.zip |                            无                            | Z253 |
+| 2026/3/31 |    hxxps://google-cn-chrom[.]com[.]cn     |  仿冒 Chrome、传播病毒   | hxxps://dingdong-1399351730[.]cos[.]ap-hongkong[.]myqcloud[.]com/glqchoiding[.]zip |                            无                            | Z253 |
 |  ——————   |           ————————————————————            |     ———————————————      |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
