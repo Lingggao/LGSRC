@@ -6,7 +6,7 @@ https://clawhub.ai/Lingggao/vt-insight
 作者：Ling Gao (https://github.com/Lingggao)  
 Skill 版本：1.8.1  
 2026 年 3 月 19 日  
-LGHUB · Security Response Center
+LGHUB · Security Response Center (LGSRC)
 
 作者拥有本技能的所有权，并声明同意遵循 MIT-0 许可协议进行发布。  
 The author holds the rights to this skill and agrees to publish it under MIT-0.
