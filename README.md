@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 4 月 1 日 10:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 4 月 1 日 11:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 4 月 1 日，本中心已打击计算机病毒 / 恶意软件 726 个、恶意网站 253 个，累计为潜在受害者规避经济损失约 4,978,908 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/LossModel.md))
+&emsp;&emsp;**截至 2026 年 4 月 1 日，本中心已打击计算机病毒 / 恶意软件 727 个、恶意网站 253 个，累计为潜在受害者规避经济损失约 4,978,908 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/LossModel.md))
 
 ---
 
@@ -83,9 +83,6 @@
 
 |   日期    |         文件名         |           检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :--------------------: | :----------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/3/29 |      LetsVPN.exe       |   **银狐 (SilverFox)**   | b8efc36b4635d1ad8875922c3bbe090c7c6d1efaa1bc409baf7420bd8dedc3e8 | 6046297a-5e2c-4f94-9951-6ec98847f139 | [VirusTotal](https://www.virustotal.com/gui/file/b8efc36b4635d1ad8875922c3bbe090c7c6d1efaa1bc409baf7420bd8dedc3e8) (6) |                              无                              | A701 |
-| 2026/3/29 |    dingtalk_x64.exe    |  **Win64/Malgent!MSR**   | 0953e4227c3f8a5a834fa821fd542a1c948dab9aacbb4e2f7b494fedf98a1ba1 | 578f119c-24fd-478c-a1ad-7d47e957db84 | [VirusTotal](https://www.virustotal.com/gui/file/0953e4227c3f8a5a834fa821fd542a1c948dab9aacbb4e2f7b494fedf98a1ba1) (22) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/0953e4227c3f8a5a834fa821fd542a1c948dab9aacbb4e2f7b494fedf98a1ba1) | A702 |
-| 2026/3/29 |     迷你反合集.zip     |  **Win32/Malgent!MSR**   | c65332f378d5c69ed94dd30d833174903b5db4c1521d0cc598dd7bae6e7898c3 | e5886d2a-76f1-46db-9d3a-0f3f4fd5a2b9 | [VirusTotal](https://www.virustotal.com/gui/file/c65332f378d5c69ed94dd30d833174903b5db4c1521d0cc598dd7bae6e7898c3) (36) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c65332f378d5c69ed94dd30d833174903b5db4c1521d0cc598dd7bae6e7898c3) | A703 |
 | 2026/3/29 |     wp_win_x64.exe     |       **Kryptik**        | 7cf0437ffd5f397fc4c8927b16c26a73e25710d75827c10eabec418150b1f5d7 | f1847290-923a-49ad-94b5-effccc96cfac | [VirusTotal](https://www.virustotal.com/gui/file/7cf0437ffd5f397fc4c8927b16c26a73e25710d75827c10eabec418150b1f5d7) (7) |                              无                              | A704 |
 | 2026/3/29 |   Wps_Office···.exe    |   **银狐 (SilverFox)**   | 52c0d87c76a1bf56f112b84158a165ef7bb9bef4b8e67455b594df3a345c6e44 | 05cc4a54-3976-4c91-9f10-2c70e7dbeb66 | [VirusTotal](https://www.virustotal.com/gui/file/52c0d87c76a1bf56f112b84158a165ef7bb9bef4b8e67455b594df3a345c6e44) (9) |                              无                              | A705 |
 | 2026/3/29 | 三角洲解除冻结···.zip  |   **银狐 (SilverFox)**   | b73a44b3e686b95807d1dd9cc109cb7fb2618e882a7d9ea162bb6ae2832fbe34 | d2b6ae91-3c0f-441c-97eb-1ba7027caf05 | [VirusTotal](https://www.virustotal.com/gui/file/b73a44b3e686b95807d1dd9cc109cb7fb2618e882a7d9ea162bb6ae2832fbe34) (10) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b73a44b3e686b95807d1dd9cc109cb7fb2618e882a7d9ea162bb6ae2832fbe34) | A706 |
@@ -109,6 +106,7 @@
 | 2026/3/31 |  ···违纪名单信息.exe   | **银狐 (SilverFox.bg)**  | 7f707cb02409b31b80cf4428fbc882cde513e20d105391b8cec298940579e23b | 8c588b13-9707-4069-88b7-3ccb295f6cff | [VirusTotal](https://www.virustotal.com/gui/file/7f707cb02409b31b80cf4428fbc882cde513e20d105391b8cec298940579e23b) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/7f707cb02409b31b80cf4428fbc882cde513e20d105391b8cec298940579e23b) | A724 |
 | 2026/3/31 |    glqchoiding.msi     |  **Win32/Malgent!MSR**   | 899a461c8a9fdef19c89c4a83e44a0d56097c1c856299584ac4e164394741362 | 870a8b43-6a79-4c15-91e7-532d7afd21a7 | [VirusTotal](https://www.virustotal.com/gui/file/899a461c8a9fdef19c89c4a83e44a0d56097c1c856299584ac4e164394741362) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/899a461c8a9fdef19c89c4a83e44a0d56097c1c856299584ac4e164394741362) | A725 |
 | 2026/3/31 |       r6mrA.exe        | **银狐 (SilverFox.bg)**  | a1a0f35f0ac483a6c5649f6fa338952c2d2c457d2cb1b2fcef16bdc96fdfdb8b | 600ce938-a1fd-4292-9fe1-27def99c26ad | [VirusTotal](https://www.virustotal.com/gui/file/a1a0f35f0ac483a6c5649f6fa338952c2d2c457d2cb1b2fcef16bdc96fdfdb8b) (32) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a1a0f35f0ac483a6c5649f6fa338952c2d2c457d2cb1b2fcef16bdc96fdfdb8b) | A726 |
+| 2026/4/1  | ···黑园区男子殴打.exe  |          研究中          | 74edf6950c62bc4cfbaeb1a101316f231ca010cc9777d2e42d46a174cbdac598 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/74edf6950c62bc4cfbaeb1a101316f231ca010cc9777d2e42d46a174cbdac598) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/74edf6950c62bc4cfbaeb1a101316f231ca010cc9777d2e42d46a174cbdac598) | A727 |
 |  ——————   |      ————————————      |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
