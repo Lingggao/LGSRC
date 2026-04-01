@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 4 月 2 日 6:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 4 月 2 日 7:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 4 月 2 日，本中心已打击计算机病毒 / 恶意软件 731 个、恶意网站 253 个，累计为潜在受害者规避经济损失约 5,006,340 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/LossModel.md))
+&emsp;&emsp;**截至 2026 年 4 月 2 日，本中心已打击计算机病毒 / 恶意软件 732 个、恶意网站 253 个，累计为潜在受害者规避经济损失约 5,020,056 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/LossModel.md))
 
 ---
 
@@ -109,6 +109,7 @@
 | 2026/4/1  |       krita.dll        |   **银狐 (SilverFox)**   | 0c12a02d00900e8429083881f181548420dfe2dc9041c477b636cddcfb3eaa71 | 8f794cc6-1b29-4e7d-8fac-487ee12c7967 | [VirusTotal](https://www.virustotal.com/gui/file/0c12a02d00900e8429083881f181548420dfe2dc9041c477b636cddcfb3eaa71) (13) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/0c12a02d00900e8429083881f181548420dfe2dc9041c477b636cddcfb3eaa71) | A729 |
 | 2026/4/1  | ···不扣款秒发货···.exe |   **银狐 (SilverFox)**   | 63003891ef2a0c2901b1e21126f2c45ad68d30f1d7a791aaa1631f0b4b232aef | 495269e6-8ae8-4bbd-9bac-a57eeaa3469c | [VirusTotal](https://www.virustotal.com/gui/file/63003891ef2a0c2901b1e21126f2c45ad68d30f1d7a791aaa1631f0b4b232aef) (16) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/63003891ef2a0c2901b1e21126f2c45ad68d30f1d7a791aaa1631f0b4b232aef) | A730 |
 | 2026/4/1  | 黑园区死者身份···.exe  |   **银狐 (SilverFox)**   | d8cc8d586cd3c1fc102fc882c901e0a53c0809747121a061202d0294bb1a2b75 | 58163b23-76f5-4943-981d-f6a4919e38bd | [VirusTotal](https://www.virustotal.com/gui/file/d8cc8d586cd3c1fc102fc882c901e0a53c0809747121a061202d0294bb1a2b75) (27) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/d8cc8d586cd3c1fc102fc882c901e0a53c0809747121a061202d0294bb1a2b75) | A731 |
+| 2026/4/2  |     GameRepair.exe     | **银狐 (SilverFox.se)**  | a2185f723af4f4e6daf60350bb74d3747d6c9af51a27bc3ace646a79d7931d7e |                                      | [VirusTotal](https://www.virustotal.com/gui/file/a2185f723af4f4e6daf60350bb74d3747d6c9af51a27bc3ace646a79d7931d7e) (23) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a2185f723af4f4e6daf60350bb74d3747d6c9af51a27bc3ace646a79d7931d7e) | A732 |
 |  ——————   |      ————————————      |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
