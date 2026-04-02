@@ -32,17 +32,17 @@
 >
 > &emsp;灵糕中心为独立非营利组织，与其他企业不构成隶属、雇佣、代理等关系。
 
-&emsp;&emsp;**宗旨**：独立管理、放眼全球、数据精确、打击迅速
+&emsp;&emsp;**宗旨**：独立管理、放眼全国、数据精确、打击迅速
 
 ---
 
-研究 - [微步云沙箱](https://s.threatbook.com) | [安天文件分析服务](https://fenxi.antiy.cn) | [安恒云沙箱](https://sandbox.dbappsecurity.com.cn) | [奇安信威胁情报中心](https://ti.qianxin.com) | [天穹智能分析平台](https://sandbox.qianxin.com/sscc-tq-web) | [深信服威胁情报中心](https://ti.sangfor.com.cn/analysis-platform?lang=ZH-CN) | [国家计算机病毒协同分析平台 (国家计算机病毒应急处理中心)](http://110.41.132.165/#/entirety/upload) | [可疑文件分析云 (计算机病毒防御技术国家工程实验室)](https://cloud.vdnel.cn) | [VirusTotal](https://www.virustotal.com/gui/home/upload) | [MalwareBazaar](https://bazaar.abuse.ch) | [Microsoft 安全情报](https://www.microsoft.com/en-us/wdsi) | [Kaspersky OpenTIP](https://opentip.kaspersky.com) | [Hybrid Analysis](https://hybrid-analysis.com) | [ANY.RUN](https://app.any.run)
+研究 - [国家计算机病毒协同分析平台 (国家计算机病毒应急处理中心)](http://110.41.132.165/#/entirety/upload) | [可疑文件分析云 (计算机病毒防御技术国家工程实验室)](https://cloud.vdnel.cn) | [微步云沙箱](https://s.threatbook.com) | [安天文件分析服务](https://fenxi.antiy.cn) | [安恒云沙箱](https://sandbox.dbappsecurity.com.cn) | [奇安信威胁情报中心](https://ti.qianxin.com) | [天穹智能分析平台](https://sandbox.qianxin.com/sscc-tq-web) | [深信服威胁情报中心](https://ti.sangfor.com.cn/analysis-platform?lang=ZH-CN) | [VirusTotal](https://www.virustotal.com/gui/home/upload) | [MalwareBazaar](https://bazaar.abuse.ch) | [Microsoft 安全情报](https://www.microsoft.com/en-us/wdsi) | [Kaspersky OpenTIP](https://opentip.kaspersky.com) | [Hybrid Analysis](https://hybrid-analysis.com) | [ANY.RUN](https://app.any.run)
 
 举报 - [中央网信办 违法和不良信息举报中心](https://www.12377.cn/index.html) | [网络违法犯罪信息举报网站](https://cyberpolice.mps.gov.cn/wfjb/#) | [网络不良与垃圾信息举报受理中心](https://www.12321.cn)
 
 社区 - [卡饭论坛 病毒样本 分享&分析区](https://bbs.kafan.cn/forum-31-1.html) | [火绒安全论坛 病毒查杀问题反馈](https://bbs.huorong.cn/forum-44-1.html) | [百度贴吧 病毒吧](https://tieba.baidu.com/f?ie=utf-8&kw=%E7%97%85%E6%AF%92)
 
-学习 - [Microsoft 认证：网络安全架构师专家](https://learn.microsoft.com/zh-cn/credentials/certifications/cybersecurity-architect-expert) | [阿里云 云安全高级工程师 ACP 认证](https://edu.aliyun.com/certification/acp04) | [看雪学苑](https://www.kanxue.com) | [ISC.AI 学苑](https://study.360.net/frontend/home/home)
+学习 - [看雪学苑](https://www.kanxue.com) | [ISC.AI 学苑](https://study.360.net/frontend/home/home) | [阿里云 云安全高级工程师 ACP 认证](https://edu.aliyun.com/certification/acp04) | [Microsoft 认证：网络安全架构师专家](https://learn.microsoft.com/zh-cn/credentials/certifications/cybersecurity-architect-expert)
 
 ## 工作流程
 
@@ -69,7 +69,7 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 4 月 2 日 7:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 4 月 2 日 23:00 (GMT+8)
 
 &emsp;&emsp;**截至 2026 年 4 月 2 日，本中心已打击计算机病毒 / 恶意软件 732 个、恶意网站 253 个，累计为潜在受害者规避经济损失约 5,020,056 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/LossModel.md))
 
@@ -109,7 +109,7 @@
 | 2026/4/1  |       krita.dll        |   **银狐 (SilverFox)**   | 0c12a02d00900e8429083881f181548420dfe2dc9041c477b636cddcfb3eaa71 | 8f794cc6-1b29-4e7d-8fac-487ee12c7967 | [VirusTotal](https://www.virustotal.com/gui/file/0c12a02d00900e8429083881f181548420dfe2dc9041c477b636cddcfb3eaa71) (13) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/0c12a02d00900e8429083881f181548420dfe2dc9041c477b636cddcfb3eaa71) | A729 |
 | 2026/4/1  | ···不扣款秒发货···.exe |   **银狐 (SilverFox)**   | 63003891ef2a0c2901b1e21126f2c45ad68d30f1d7a791aaa1631f0b4b232aef | 495269e6-8ae8-4bbd-9bac-a57eeaa3469c | [VirusTotal](https://www.virustotal.com/gui/file/63003891ef2a0c2901b1e21126f2c45ad68d30f1d7a791aaa1631f0b4b232aef) (16) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/63003891ef2a0c2901b1e21126f2c45ad68d30f1d7a791aaa1631f0b4b232aef) | A730 |
 | 2026/4/1  | 黑园区死者身份···.exe  |   **银狐 (SilverFox)**   | d8cc8d586cd3c1fc102fc882c901e0a53c0809747121a061202d0294bb1a2b75 | 58163b23-76f5-4943-981d-f6a4919e38bd | [VirusTotal](https://www.virustotal.com/gui/file/d8cc8d586cd3c1fc102fc882c901e0a53c0809747121a061202d0294bb1a2b75) (27) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/d8cc8d586cd3c1fc102fc882c901e0a53c0809747121a061202d0294bb1a2b75) | A731 |
-| 2026/4/2  |     GameRepair.exe     | **银狐 (SilverFox.se)**  | a2185f723af4f4e6daf60350bb74d3747d6c9af51a27bc3ace646a79d7931d7e |                                      | [VirusTotal](https://www.virustotal.com/gui/file/a2185f723af4f4e6daf60350bb74d3747d6c9af51a27bc3ace646a79d7931d7e) (23) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a2185f723af4f4e6daf60350bb74d3747d6c9af51a27bc3ace646a79d7931d7e) | A732 |
+| 2026/4/2  |     GameRepair.exe     | **银狐 (SilverFox.se)**  | a2185f723af4f4e6daf60350bb74d3747d6c9af51a27bc3ace646a79d7931d7e | 29390cfd-3b84-4e06-abdd-50df8ac91fdf | [VirusTotal](https://www.virustotal.com/gui/file/a2185f723af4f4e6daf60350bb74d3747d6c9af51a27bc3ace646a79d7931d7e) (23) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a2185f723af4f4e6daf60350bb74d3747d6c9af51a27bc3ace646a79d7931d7e) | A732 |
 |  ——————   |      ————————————      |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -167,5 +167,3 @@
 在 “[署名 - 相同方式共享 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode.zh-Hans)” (CC BY-SA 4.0) 协议之条款下提供。
 
 2025 - 2026, [Ling Gao](https://github.com/Lingggao), 灵糕中心 · 安全响应中心, [github.com/Lingggao/LGSRC](https://github.com/Lingggao/LGSRC)
-
-[字体许可使用授权书](https://github.com/Lingggao/LGSRC/blob/main/Images/%E5%AD%97%E4%BD%93%E8%AE%B8%E5%8F%AF%E4%BD%BF%E7%94%A8%E6%8E%88%E6%9D%83%E4%B9%A6.png?raw=true)
