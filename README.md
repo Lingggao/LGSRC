@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 4 月 2 日 23:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 4 月 3 日 11:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 4 月 2 日，本中心已打击计算机病毒 / 恶意软件 735 个、恶意网站 253 个，累计为潜在受害者规避经济损失约 5,040,630 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/LossModel.md))
+&emsp;&emsp;**截至 2026 年 4 月 3 日，本中心已打击计算机病毒 / 恶意软件 735 个、恶意网站 253 个，累计为潜在受害者规避经济损失约 5,040,630 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/LossModel.md))
 
 ---
 
@@ -105,9 +105,9 @@
 | 2026/4/1  | ···不扣款秒发货···.exe |   **银狐 (SilverFox)**   | 63003891ef2a0c2901b1e21126f2c45ad68d30f1d7a791aaa1631f0b4b232aef | 495269e6-8ae8-4bbd-9bac-a57eeaa3469c | [VirusTotal](https://www.virustotal.com/gui/file/63003891ef2a0c2901b1e21126f2c45ad68d30f1d7a791aaa1631f0b4b232aef) (16) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/63003891ef2a0c2901b1e21126f2c45ad68d30f1d7a791aaa1631f0b4b232aef) | A730 |
 | 2026/4/1  | 黑园区死者身份···.exe  |   **银狐 (SilverFox)**   | d8cc8d586cd3c1fc102fc882c901e0a53c0809747121a061202d0294bb1a2b75 | 58163b23-76f5-4943-981d-f6a4919e38bd | [VirusTotal](https://www.virustotal.com/gui/file/d8cc8d586cd3c1fc102fc882c901e0a53c0809747121a061202d0294bb1a2b75) (27) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/d8cc8d586cd3c1fc102fc882c901e0a53c0809747121a061202d0294bb1a2b75) | A731 |
 | 2026/4/2  |     GameRepair.exe     | **银狐 (SilverFox.se)**  | a2185f723af4f4e6daf60350bb74d3747d6c9af51a27bc3ace646a79d7931d7e | 29390cfd-3b84-4e06-abdd-50df8ac91fdf | [VirusTotal](https://www.virustotal.com/gui/file/a2185f723af4f4e6daf60350bb74d3747d6c9af51a27bc3ace646a79d7931d7e) (23) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a2185f723af4f4e6daf60350bb74d3747d6c9af51a27bc3ace646a79d7931d7e) | A732 |
-| 2026/4/2  |     68IEY-安装.exe     |   **银狐 (SilverFox)**   | c0a738bc221d179d788329e18996be3f53717c14f71cce3e1f4de4f316f61320 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/c0a738bc221d179d788329e18996be3f53717c14f71cce3e1f4de4f316f61320) (12) |                  [MalwareBazaar Database]()                  | A733 |
-| 2026/4/2  |  2026年04.01名单.exe   | **银狐 (SilverFox.sx)**  | 437816447dd69f712003ef332ff71e1a23e7ead9d5b7eff39c547159cfb60697 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/437816447dd69f712003ef332ff71e1a23e7ead9d5b7eff39c547159cfb60697) (5) |                  [MalwareBazaar Database]()                  | A734 |
-| 2026/4/2  |      LetsVPN.exe       | **银狐 (SilverFox.sz)**  | 91d15b3e6836b112cc7507af46553e95fcb40960c6d71494a20513ce3d552d94 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/91d15b3e6836b112cc7507af46553e95fcb40960c6d71494a20513ce3d552d94) (4) |                  [MalwareBazaar Database]()                  | A735 |
+| 2026/4/2  |     68IEY-安装.exe     |   **银狐 (SilverFox)**   | c0a738bc221d179d788329e18996be3f53717c14f71cce3e1f4de4f316f61320 | 6ed74056-5a7c-4e42-a76e-d7a4f41acf9f | [VirusTotal](https://www.virustotal.com/gui/file/c0a738bc221d179d788329e18996be3f53717c14f71cce3e1f4de4f316f61320) (12) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c0a738bc221d179d788329e18996be3f53717c14f71cce3e1f4de4f316f61320) | A733 |
+| 2026/4/2  |  2026年04.01名单.exe   | **银狐 (SilverFox.sx)**  | 437816447dd69f712003ef332ff71e1a23e7ead9d5b7eff39c547159cfb60697 | 87f5cdf6-b69c-40d5-989f-3471b9b89cef | [VirusTotal](https://www.virustotal.com/gui/file/437816447dd69f712003ef332ff71e1a23e7ead9d5b7eff39c547159cfb60697) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/437816447dd69f712003ef332ff71e1a23e7ead9d5b7eff39c547159cfb60697) | A734 |
+| 2026/4/2  |      LetsVPN.exe       | **银狐 (SilverFox.sz)**  | 91d15b3e6836b112cc7507af46553e95fcb40960c6d71494a20513ce3d552d94 |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/91d15b3e6836b112cc7507af46553e95fcb40960c6d71494a20513ce3d552d94) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/91d15b3e6836b112cc7507af46553e95fcb40960c6d71494a20513ce3d552d94) | A735 |
 |  ——————   |      ————————————      |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
