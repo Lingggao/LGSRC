@@ -69,7 +69,7 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 4 月 4 日 5:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 4 月 4 日 7:00 (GMT+8)
 
 &emsp;&emsp;**截至 2026 年 4 月 4 日，本中心已打击计算机病毒 / 恶意软件 748 个、恶意网站 266 个，累计为潜在受害者规避经济损失约 5,129,784 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/LossModel.md))
 
@@ -107,7 +107,7 @@
 | 2026/4/3  |   64x.2.5._setup.exe   | **银狐 (SilverFox.sw)**  | 0dc35c7d039cbd947630d7915022df44c9b5c6e849f93b5d597c1c93f171e79e | cf727643-3ca1-4c22-b3cb-7ca619a8fa8a | [VirusTotal](https://www.virustotal.com/gui/file/0dc35c7d039cbd947630d7915022df44c9b5c6e849f93b5d597c1c93f171e79e) (22) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/0dc35c7d039cbd947630d7915022df44c9b5c6e849f93b5d597c1c93f171e79e) | A744 |
 | 2026/4/3  |  Wps_Office···x64.exe  |      **Cybercrime**      | 373370e394785ccffa4e0980c2c990278277677da75f9d4c8b57dab7a8b2d367 | 7e9c2428-0845-455f-91e4-77770e7d4807 | [VirusTotal](https://www.virustotal.com/gui/file/373370e394785ccffa4e0980c2c990278277677da75f9d4c8b57dab7a8b2d367) (2) |                              无                              | A745 |
 | 2026/4/4  |    Cla-tup-x64.exe     | **银狐 (SilverFox.sa)**  | 1e6442c61a754fd3e81e50ff7f2e1efc2d8fb59a1b3a08120512eb2c0d40a783 |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/1e6442c61a754fd3e81e50ff7f2e1efc2d8fb59a1b3a08120512eb2c0d40a783) (4) |                              无                              | A746 |
-| 2026/4/4  |    三角洲和平op.exe    | **银狐 (SilverFox.wos)** | 59b65b4f5058e38b42ec3fe79c5f05b4c29a61d00ddc6052bbbf074c99f75fef |                                      | [VirusTotal](https://www.virustotal.com/gui/file/59b65b4f5058e38b42ec3fe79c5f05b4c29a61d00ddc6052bbbf074c99f75fef) (52) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/59b65b4f5058e38b42ec3fe79c5f05b4c29a61d00ddc6052bbbf074c99f75fef) | A747 |
+| 2026/4/4  |    三角洲和平op.exe    | **银狐 (SilverFox.wos)** | 59b65b4f5058e38b42ec3fe79c5f05b4c29a61d00ddc6052bbbf074c99f75fef | cba315f8-24dd-42a7-b72f-e43a34ca73d2 | [VirusTotal](https://www.virustotal.com/gui/file/59b65b4f5058e38b42ec3fe79c5f05b4c29a61d00ddc6052bbbf074c99f75fef) (52) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/59b65b4f5058e38b42ec3fe79c5f05b4c29a61d00ddc6052bbbf074c99f75fef) | A747 |
 | 2026/4/4  |         7z.zip         |  **Win32/Malgent!MSR**   | 89e61df4394e3c3dc11cdb293aeb00155f371b0f1c2ade5f07fbc8732d86ba17 | e9b5758a-ae3b-4afe-be84-4ac61250f30d | [VirusTotal](https://www.virustotal.com/gui/file/89e61df4394e3c3dc11cdb293aeb00155f371b0f1c2ade5f07fbc8732d86ba17) (3) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/89e61df4394e3c3dc11cdb293aeb00155f371b0f1c2ade5f07fbc8732d86ba17) | A748 |
 |  ——————   |      ————————————      |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
