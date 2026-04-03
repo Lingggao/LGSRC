@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 4 月 3 日 12:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 4 月 3 日 13:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 4 月 3 日，本中心已打击计算机病毒 / 恶意软件 737 个、恶意网站 253 个，累计为潜在受害者规避经济损失约 5,040,630 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/LossModel.md))
+&emsp;&emsp;**截至 2026 年 4 月 3 日，本中心已打击计算机病毒 / 恶意软件 738 个、恶意网站 258 个，累计为潜在受害者规避经济损失约 5,061,204 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/LossModel.md))
 
 ---
 
@@ -83,9 +83,6 @@
 
 |   日期    |         文件名         |           检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :--------------------: | :----------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/3/30 |   gou_pinyin_582.msi   |   **Script/Wacatac.C**   | b2a167fc2b280420e9765c4d93b696b658cb32fb3afb8a896e208fb0b18c27d2 | c06e31f2-a485-4d90-96e2-c64966237109 | [VirusTotal](https://www.virustotal.com/gui/file/b2a167fc2b280420e9765c4d93b696b658cb32fb3afb8a896e208fb0b18c27d2) (2) |                              无                              | A711 |
-| 2026/3/30 |  SG.Setupbiyi···.exe   |   **银狐 (SilverFox)**   | cf5323cbad4ef8a78d5f78b02fb210559fc842ba72436f254868247cd9fd0e9d | e4e320bf-1bb0-45f3-8454-072797446557 | [VirusTotal](https://www.virustotal.com/gui/file/cf5323cbad4ef8a78d5f78b02fb210559fc842ba72436f254868247cd9fd0e9d) (8) |                              无                              | A712 |
-| 2026/3/30 |  soggou_ofice···.exe   |   **银狐 (SilverFox)**   | ca8a4b25737bf69d9833abade73fcc39ba03816fd79221ea5b39a704e86135f5 | c7845443-4f76-4bad-ac60-b22e38c9d4a7 | [VirusTotal](https://www.virustotal.com/gui/file/ca8a4b25737bf69d9833abade73fcc39ba03816fd79221ea5b39a704e86135f5) (3) |                              无                              | A713 |
 | 2026/3/30 |   sogou···15.3a.exe    |  **Win32/Malgent!MSR**   | 0afa1a6da5c59d1893a8de62b13abd93497df34d85bcf35de62326d888c7c4d6 | 5af5ff0f-fc79-4825-ac7b-bf35c99cc1c7 | [VirusTotal](https://www.virustotal.com/gui/file/0afa1a6da5c59d1893a8de62b13abd93497df34d85bcf35de62326d888c7c4d6) (1) |                              无                              | A714 |
 | 2026/3/30 |  sogou···v20_win.exe   |      **Cybercrime**      | a05a99b477f5d72b7f236e3505197af3440b1e6d07ad48eaa8d36bafb3162a86 | e8cbf307-fc2e-47e2-b432-813b0b775f01 | [VirusTotal](https://www.virustotal.com/gui/file/a05a99b477f5d72b7f236e3505197af3440b1e6d07ad48eaa8d36bafb3162a86) (4) |                              无                              | A715 |
 | 2026/3/30 |     sougou-3.6.exe     |  **Win32/Malgent!MSR**   | 29d9200666026a482919dfa6d233f6eabb9f435332b0cb010de194810f49bf3a | 2b3494b2-d609-43fb-9fc1-ccb2ede05b90 | [VirusTotal](https://www.virustotal.com/gui/file/29d9200666026a482919dfa6d233f6eabb9f435332b0cb010de194810f49bf3a) (4) |                              无                              | A716 |
@@ -109,7 +106,8 @@
 | 2026/4/2  |  2026年04.01名单.exe   | **银狐 (SilverFox.sx)**  | 437816447dd69f712003ef332ff71e1a23e7ead9d5b7eff39c547159cfb60697 | 87f5cdf6-b69c-40d5-989f-3471b9b89cef | [VirusTotal](https://www.virustotal.com/gui/file/437816447dd69f712003ef332ff71e1a23e7ead9d5b7eff39c547159cfb60697) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/437816447dd69f712003ef332ff71e1a23e7ead9d5b7eff39c547159cfb60697) | A734 |
 | 2026/4/2  |      LetsVPN.exe       | **银狐 (SilverFox.sz)**  | 91d15b3e6836b112cc7507af46553e95fcb40960c6d71494a20513ce3d552d94 |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/91d15b3e6836b112cc7507af46553e95fcb40960c6d71494a20513ce3d552d94) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/91d15b3e6836b112cc7507af46553e95fcb40960c6d71494a20513ce3d552d94) | A735 |
 | 2026/4/3  |     64_install.exe     | **银狐 (SilverFox.sa)**  | 5c5ec5d6dfd71e58caea479080fa48b5cfa8aba80cb35c7f0418f5006d7076ce |                                      | [VirusTotal](https://www.virustotal.com/gui/file/5c5ec5d6dfd71e58caea479080fa48b5cfa8aba80cb35c7f0418f5006d7076ce) (13) |                  [MalwareBazaar Database]()                  | A736 |
-| 2026/4/3  |    xy_game_31B.exe     |      **Cybercrime**      | b6e6dc4ff0e24d915692b113a1f1414518503e92ff21a394e9f38d1ca2ab4275 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/b6e6dc4ff0e24d915692b113a1f1414518503e92ff21a394e9f38d1ca2ab4275) (21) |                  [MalwareBazaar Database]()                  | A737 |
+| 2026/4/3  |    xy_game_31B.exe     |      **Cybercrime**      | b6e6dc4ff0e24d915692b113a1f1414518503e92ff21a394e9f38d1ca2ab4275 | cd87b14c-91d9-4af1-95b6-f0f3bbda9f39 | [VirusTotal](https://www.virustotal.com/gui/file/b6e6dc4ff0e24d915692b113a1f1414518503e92ff21a394e9f38d1ca2ab4275) (21) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b6e6dc4ff0e24d915692b113a1f1414518503e92ff21a394e9f38d1ca2ab4275) | A737 |
+| 2026/4/3  |    goog_win64_6.exe    |   **银狐 (SilverFox)**   | e783ed4181fa657b8202d840c7cd0b997ed6c234aa0827d2658794145e94187c |                                      | [VirusTotal](https://www.virustotal.com/gui/file/e783ed4181fa657b8202d840c7cd0b997ed6c234aa0827d2658794145e94187c) (4) |                              无                              | A738 |
 |  ——————   |      ————————————      |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -124,31 +122,32 @@
 >
 > &emsp;为确保安全，网站地址将用 “hxxps://” 与 “[.]” 进行替换。**切勿尝试访问表格中列出的任何网址**。
 
-|   日期    |                    URL                    |           类别           |                           有效载荷                           |                         URLhaus                          | 编号 |
-| :-------: | :---------------------------------------: | :----------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
-| 2026/3/28 |         hxxps://360-browser[.]com         |   仿冒 360 安全浏览器    |                              有                              |                            无                            | Z232 |
-| 2026/3/28 |            hxxp://360edge[.]cn            |   仿冒 360 安全浏览器    |                              无                              |                            无                            | Z233 |
-| 2026/3/28 |        hxxps://chromiumx-360[.]cn         |   仿冒 360 安全浏览器    |                              无                              |                            无                            | Z234 |
-| 2026/3/28 |        hxxps://360browser-app[.]cn        |   仿冒 360 安全浏览器    |                              有                              |                            无                            | Z235 |
-| 2026/3/29 |       hxxps://offie-wps[.]com[.]cn        |    仿冒 WPS、传播病毒    | hxxps://www[.]shanmaocnhingkong-oss[.]top/Wps_Office_x64_v10_win[.]zip |                            无                            | Z236 |
-| 2026/3/29 |           hxxps://we-wps[.]com            |    仿冒 WPS、传播病毒    |                              有                              |                            无                            | Z237 |
-| 2026/3/29 |         hxxps://wps-q[.]com[.]cn          |    仿冒 WPS、传播病毒    |                              无                              |                            无                            | Z238 |
-| 2026/3/30 |         hxxps://doubao[.]com[.]co         | 仿冒豆包客户端、传播病毒 |                              有                              |                            无                            | Z239 |
-| 2026/3/30 |     hxxps://apps-openclaw[.]com[.]cn      |   仿冒 OpenClaw “龙虾”   |                              无                              |                            无                            | Z240 |
-| 2026/3/30 | hxxps://www[.]app-cn-opencllaw[.]com[.]cn |   仿冒 OpenClaw “龙虾”   |                              无                              |                            无                            | Z241 |
-| 2026/3/30 |       hxxps://opencllaw[.]com[.]cn        |   仿冒 OpenClaw “龙虾”   |                              无                              |                            无                            | Z242 |
-| 2026/3/30 |   hxxps://cn[.]gu-opencllaw[.]com[.]cn    |   仿冒 OpenClaw “龙虾”   |                              无                              |                            无                            | Z243 |
-| 2026/3/30 |     hxxps://cn[.]opencllaw[.]com[.]cn     |   仿冒 OpenClaw “龙虾”   |                              无                              |                            无                            | Z244 |
-| 2026/3/30 |        hxxps://bp-sogou[.]com[.]cn        | 仿冒搜狗输入法、传播病毒 | hxxps://tyuiyyuiuwee[.]oss-ap-southeast-1[.]aliyuncs[.]com/so%D1%87geu_pimyin__15[.]3a[.]zip |                            无                            | Z245 |
-| 2026/3/30 |      hxxps://apps-sougoupinyin[.]com      | 仿冒搜狗输入法、传播病毒 | hxxps://wwiiss[.]oss-eu-west-1[.]aliyuncs[.]com/soggou_ofice_word[.]zip |                            无                            | Z246 |
-| 2026/3/30 |         hxxps://pinyin-sogou[.]cn         | 仿冒搜狗输入法、传播病毒 |                              无                              |                            无                            | Z247 |
-| 2026/3/30 |        hxxps://pc-sogou[.]com[.]cn        | 仿冒搜狗输入法、传播病毒 | hxxps://www[.]shanmaocnhingkong-oss[.]top/sogou_pinyin_x64_v20_win[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3808329) | Z248 |
-| 2026/3/30 |        hxxps://ai-sogou[.]com[.]cn        | 仿冒搜狗输入法、传播病毒 |    hxxps://jkem45[.]x98665[.]com/gou_pinyin15[.]4a[.]zip     |                            无                            | Z249 |
-| 2026/3/30 |       hxxps://www[.]win-sogou[.]com       | 仿冒搜狗输入法、传播病毒 | hxxps://62c013c91f7f8152044efae44a432404[.]r2[.]cloudflarestorage[.]com/urllink/www-win-sogou-com/windows/SG[.]Setupbiyi[.]5[.]16[.]11[.]5lln[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3808325) | Z250 |
-| 2026/3/30 |        hxxps://soougou[.]com[.]cn         | 仿冒搜狗输入法、传播病毒 | hxxps://pesktop1[.]oss-cn-hongkong[.]aliyuncs[.]com/sougou-3[.]6[.]zip |                            无                            | Z251 |
-| 2026/3/30 |       hxxps://int-sougou[.]com[.]cn       | 仿冒搜狗输入法、传播病毒 |                              无                              |                            无                            | Z252 |
-| 2026/3/31 |    hxxps://google-cn-chrom[.]com[.]cn     |  仿冒 Chrome、传播病毒   | hxxps://dingdong-1399351730[.]cos[.]ap-hongkong[.]myqcloud[.]com/glqchoiding[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3809083) | Z253 |
-|  ——————   |           ————————————————————            |     ———————————————      |                ——————————————————————————————                |                        ——————————                        | ———  |
+|   日期    |                       URL                       |           类别           |                           有效载荷                           |                         URLhaus                          | 编号 |
+| :-------: | :---------------------------------------------: | :----------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
+| 2026/3/29 |          hxxps://offie-wps[.]com[.]cn           |    仿冒 WPS、传播病毒    | hxxps://www[.]shanmaocnhingkong-oss[.]top/Wps_Office_x64_v10_win[.]zip |                            无                            | Z236 |
+| 2026/3/29 |              hxxps://we-wps[.]com               |    仿冒 WPS、传播病毒    |                              有                              |                            无                            | Z237 |
+| 2026/3/29 |            hxxps://wps-q[.]com[.]cn             |    仿冒 WPS、传播病毒    |                              无                              |                            无                            | Z238 |
+| 2026/3/30 |            hxxps://doubao[.]com[.]co            | 仿冒豆包客户端、传播病毒 |                              有                              |                            无                            | Z239 |
+| 2026/3/30 |        hxxps://apps-openclaw[.]com[.]cn         |   仿冒 OpenClaw “龙虾”   |                              无                              |                            无                            | Z240 |
+| 2026/3/30 |    hxxps://www[.]app-cn-opencllaw[.]com[.]cn    |   仿冒 OpenClaw “龙虾”   |                              无                              |                            无                            | Z241 |
+| 2026/3/30 |          hxxps://opencllaw[.]com[.]cn           |   仿冒 OpenClaw “龙虾”   |                              无                              |                            无                            | Z242 |
+| 2026/3/30 |      hxxps://cn[.]gu-opencllaw[.]com[.]cn       |   仿冒 OpenClaw “龙虾”   |                              无                              |                            无                            | Z243 |
+| 2026/3/30 |        hxxps://cn[.]opencllaw[.]com[.]cn        |   仿冒 OpenClaw “龙虾”   |                              无                              |                            无                            | Z244 |
+| 2026/3/30 |           hxxps://bp-sogou[.]com[.]cn           | 仿冒搜狗输入法、传播病毒 | hxxps://tyuiyyuiuwee[.]oss-ap-southeast-1[.]aliyuncs[.]com/so%D1%87geu_pimyin__15[.]3a[.]zip |                            无                            | Z245 |
+| 2026/3/30 |         hxxps://apps-sougoupinyin[.]com         | 仿冒搜狗输入法、传播病毒 | hxxps://wwiiss[.]oss-eu-west-1[.]aliyuncs[.]com/soggou_ofice_word[.]zip |                            无                            | Z246 |
+| 2026/3/30 |            hxxps://pinyin-sogou[.]cn            | 仿冒搜狗输入法、传播病毒 |                              无                              |                            无                            | Z247 |
+| 2026/3/30 |           hxxps://pc-sogou[.]com[.]cn           | 仿冒搜狗输入法、传播病毒 | hxxps://www[.]shanmaocnhingkong-oss[.]top/sogou_pinyin_x64_v20_win[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3808329) | Z248 |
+| 2026/3/30 |           hxxps://ai-sogou[.]com[.]cn           | 仿冒搜狗输入法、传播病毒 |    hxxps://jkem45[.]x98665[.]com/gou_pinyin15[.]4a[.]zip     |                            无                            | Z249 |
+| 2026/3/30 |          hxxps://www[.]win-sogou[.]com          | 仿冒搜狗输入法、传播病毒 | hxxps://62c013c91f7f8152044efae44a432404[.]r2[.]cloudflarestorage[.]com/urllink/www-win-sogou-com/windows/SG[.]Setupbiyi[.]5[.]16[.]11[.]5lln[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3808325) | Z250 |
+| 2026/3/30 |           hxxps://soougou[.]com[.]cn            | 仿冒搜狗输入法、传播病毒 | hxxps://pesktop1[.]oss-cn-hongkong[.]aliyuncs[.]com/sougou-3[.]6[.]zip |                            无                            | Z251 |
+| 2026/3/30 |          hxxps://int-sougou[.]com[.]cn          | 仿冒搜狗输入法、传播病毒 |                              无                              |                            无                            | Z252 |
+| 2026/3/31 |       hxxps://google-cn-chrom[.]com[.]cn        |  仿冒 Chrome、传播病毒   | hxxps://dingdong-1399351730[.]cos[.]ap-hongkong[.]myqcloud[.]com/glqchoiding[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3809083) | Z253 |
+| 2026/4/3  | hxxps://2928web[.]zh-yd-google-chrome[.]hl[.]cn |  仿冒 Chrome、传播病毒   |                              有                              |                            无                            | Z254 |
+| 2026/4/3  |     hxxps://www[.]apps-chrome-zh[.]hl[.]cn      |  仿冒 Chrome、传播病毒   |                              有                              |                            无                            | Z255 |
+| 2026/4/3  | hxxps://2765web[.]zh-yd-google-chrome[.]hl[.]cn |  仿冒 Chrome、传播病毒   |                              有                              |                            无                            | Z256 |
+| 2026/4/3  |       hxxps://zh-googlle-chrome[.]hl[.]cn       |  仿冒 Chrome、传播病毒   |                              有                              |                            无                            | Z257 |
+| 2026/4/3  |     hxxps://www[.]googlle-chroome[.]hl[.]cn     |  仿冒 Chrome、传播病毒   |                              无                              |                            无                            | Z258 |
+|  ——————   |              ————————————————————               |     ———————————————      |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
 >
