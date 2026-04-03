@@ -245,6 +245,16 @@
 | 2026/3/28 |               hxxp://360edge[.]cn               |     仿冒 360 安全浏览器     |                              无                              |                            无                            | Z233 |
 | 2026/3/28 |           hxxps://chromiumx-360[.]cn            |     仿冒 360 安全浏览器     |                              无                              |                            无                            | Z234 |
 | 2026/3/28 |           hxxps://360browser-app[.]cn           |     仿冒 360 安全浏览器     |                              有                              |                            无                            | Z235 |
+| 2026/3/29 |          hxxps://offie-wps[.]com[.]cn           |     仿冒 WPS、传播病毒      | hxxps://www[.]shanmaocnhingkong-oss[.]top/Wps_Office_x64_v10_win[.]zip |                            无                            | Z236 |
+| 2026/3/29 |              hxxps://we-wps[.]com               |     仿冒 WPS、传播病毒      |                              有                              |                            无                            | Z237 |
+| 2026/3/29 |            hxxps://wps-q[.]com[.]cn             |     仿冒 WPS、传播病毒      |                              无                              |                            无                            | Z238 |
+| 2026/3/30 |            hxxps://doubao[.]com[.]co            |  仿冒豆包客户端、传播病毒   |                              有                              |                            无                            | Z239 |
+| 2026/3/30 |        hxxps://apps-openclaw[.]com[.]cn         |    仿冒 OpenClaw “龙虾”     |                              无                              |                            无                            | Z240 |
+| 2026/3/30 |    hxxps://www[.]app-cn-opencllaw[.]com[.]cn    |    仿冒 OpenClaw “龙虾”     |                              无                              |                            无                            | Z241 |
+| 2026/3/30 |          hxxps://opencllaw[.]com[.]cn           |    仿冒 OpenClaw “龙虾”     |                              无                              |                            无                            | Z242 |
+| 2026/3/30 |      hxxps://cn[.]gu-opencllaw[.]com[.]cn       |    仿冒 OpenClaw “龙虾”     |                              无                              |                            无                            | Z243 |
+| 2026/3/30 |        hxxps://cn[.]opencllaw[.]com[.]cn        |    仿冒 OpenClaw “龙虾”     |                              无                              |                            无                            | Z244 |
+| 2026/3/30 |           hxxps://bp-sogou[.]com[.]cn           |  仿冒搜狗输入法、传播病毒   | hxxps://tyuiyyuiuwee[.]oss-ap-southeast-1[.]aliyuncs[.]com/so%D1%87geu_pimyin__15[.]3a[.]zip |                            无                            | Z245 |
 |  ——————   |              ————————————————————               |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
