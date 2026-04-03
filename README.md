@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 4 月 3 日 23:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 4 月 4 日 3:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 4 月 3 日，本中心已打击计算机病毒 / 恶意软件 745 个、恶意网站 265 个，累计为潜在受害者规避经济损失约 5,095,494 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/LossModel.md))
+&emsp;&emsp;**截至 2026 年 4 月 4 日，本中心已打击计算机病毒 / 恶意软件 746 个、恶意网站 266 个，累计为潜在受害者规避经济损失约 5,109,210 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/LossModel.md))
 
 ---
 
@@ -108,8 +108,9 @@
 | 2026/4/3  |    wps_win64_1.exe     |   **银狐 (SilverFox)**   | 7fd43a89b37871ccedde914be87991b05f73f1e1ebb97692d35c4f8a8baafd94 | a2e7e68b-4b11-4f1c-8796-e4f3532a6b7a | [VirusTotal](https://www.virustotal.com/gui/file/7fd43a89b37871ccedde914be87991b05f73f1e1ebb97692d35c4f8a8baafd94) (13) |                              无                              | A741 |
 | 2026/4/3  |  WPS···x64.6.3.7.exe   |        **Agent**         | 9715295726ac03d77c3a9ad2d5f202859c1d13be250fe3c015c3104409e1244c | cbd72287-f1ef-4440-b328-a19c5d34a5f0 | [VirusTotal](https://www.virustotal.com/gui/file/9715295726ac03d77c3a9ad2d5f202859c1d13be250fe3c015c3104409e1244c) (8) |                              无                              | A742 |
 | 2026/4/3  |     wps821-x64.exe     |        **SAgent**        | 047c3868cdd7347e2886ab146d6960027809874f8ce9e2e8d206afe15fc1bc3b | 9ce857ef-adf2-48d7-afb2-a66c2ec2b211 | [VirusTotal](https://www.virustotal.com/gui/file/047c3868cdd7347e2886ab146d6960027809874f8ce9e2e8d206afe15fc1bc3b) (18) |                              无                              | A743 |
-| 2026/4/3  |   64x.2.5._setup.exe   | **银狐 (SilverFox.sw)**  | 0dc35c7d039cbd947630d7915022df44c9b5c6e849f93b5d597c1c93f171e79e |                                      | [VirusTotal](https://www.virustotal.com/gui/file/0dc35c7d039cbd947630d7915022df44c9b5c6e849f93b5d597c1c93f171e79e) (22) |                  [MalwareBazaar Database]()                  | A744 |
-| 2026/4/3  |  Wps_Office···x64.exe  |      **Cybercrime**      | 373370e394785ccffa4e0980c2c990278277677da75f9d4c8b57dab7a8b2d367 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/373370e394785ccffa4e0980c2c990278277677da75f9d4c8b57dab7a8b2d367) (2) |                                                              | A745 |
+| 2026/4/3  |   64x.2.5._setup.exe   | **银狐 (SilverFox.sw)**  | 0dc35c7d039cbd947630d7915022df44c9b5c6e849f93b5d597c1c93f171e79e | cf727643-3ca1-4c22-b3cb-7ca619a8fa8a | [VirusTotal](https://www.virustotal.com/gui/file/0dc35c7d039cbd947630d7915022df44c9b5c6e849f93b5d597c1c93f171e79e) (22) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/0dc35c7d039cbd947630d7915022df44c9b5c6e849f93b5d597c1c93f171e79e) | A744 |
+| 2026/4/3  |  Wps_Office···x64.exe  |      **Cybercrime**      | 373370e394785ccffa4e0980c2c990278277677da75f9d4c8b57dab7a8b2d367 | 7e9c2428-0845-455f-91e4-77770e7d4807 | [VirusTotal](https://www.virustotal.com/gui/file/373370e394785ccffa4e0980c2c990278277677da75f9d4c8b57dab7a8b2d367) (2) |                              无                              | A745 |
+| 2026/4/4  |    Cla-tup-x64.exe     | **银狐 (SilverFox.sa)**  | 1e6442c61a754fd3e81e50ff7f2e1efc2d8fb59a1b3a08120512eb2c0d40a783 |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/1e6442c61a754fd3e81e50ff7f2e1efc2d8fb59a1b3a08120512eb2c0d40a783) (4) |                              无                              | A746 |
 |  ——————   |      ————————————      |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -146,6 +147,7 @@
 | 2026/4/3  |           hxxps://wpss-www[.]com[.]cn           |    仿冒 WPS、传播病毒    |                              有                              |                            无                            | Z263 |
 | 2026/4/3  |      hxxps://zh[.]ch-office-wps[.]com[.]cn      |    仿冒 WPS、传播病毒    |                              有                              |                            无                            | Z264 |
 | 2026/4/3  |       hxxps://www[.]wps-zh-com[.]com[.]cn       |    仿冒 WPS、传播病毒    |                              无                              |                            无                            | Z265 |
+| 2026/4/4  |    hxxps://www[.]google-chrrome-zh[.]hl[.]cn    |  仿冒 Chrome、传播病毒   |                              无                              |                            无                            | Z266 |
 |  ——————   |              ————————————————————               |     ———————————————      |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
