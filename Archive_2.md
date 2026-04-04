@@ -255,6 +255,8 @@
 | 2026/3/30 |      hxxps://cn[.]gu-opencllaw[.]com[.]cn       |    仿冒 OpenClaw “龙虾”     |                              无                              |                            无                            | Z243 |
 | 2026/3/30 |        hxxps://cn[.]opencllaw[.]com[.]cn        |    仿冒 OpenClaw “龙虾”     |                              无                              |                            无                            | Z244 |
 | 2026/3/30 |           hxxps://bp-sogou[.]com[.]cn           |  仿冒搜狗输入法、传播病毒   | hxxps://tyuiyyuiuwee[.]oss-ap-southeast-1[.]aliyuncs[.]com/so%D1%87geu_pimyin__15[.]3a[.]zip |                            无                            | Z245 |
+| 2026/3/30 |         hxxps://apps-sougoupinyin[.]com         |  仿冒搜狗输入法、传播病毒   | hxxps://wwiiss[.]oss-eu-west-1[.]aliyuncs[.]com/soggou_ofice_word[.]zip |                            无                            | Z246 |
+| 2026/3/30 |            hxxps://pinyin-sogou[.]cn            |  仿冒搜狗输入法、传播病毒   |                              无                              |                            无                            | Z247 |
 |  ——————   |              ————————————————————               |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
