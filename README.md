@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 4 月 4 日 21:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 4 月 5 日 1:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 4 月 4 日，本中心已打击计算机病毒 / 恶意软件 751 个、恶意网站 266 个，累计为潜在受害者规避经济损失约 5,129,784 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/LossModel.md))
+&emsp;&emsp;**截至 2026 年 4 月 5 日，本中心已打击计算机病毒 / 恶意软件 751 个、恶意网站 266 个，累计为潜在受害者规避经济损失约 5,150,358 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/LossModel.md))
 
 ---
 
@@ -105,9 +105,9 @@
 | 2026/4/4 |    Cla-tup-x64.exe     | **银狐 (SilverFox.sa)**  | 1e6442c61a754fd3e81e50ff7f2e1efc2d8fb59a1b3a08120512eb2c0d40a783 |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/1e6442c61a754fd3e81e50ff7f2e1efc2d8fb59a1b3a08120512eb2c0d40a783) (4) |                              无                              | A746 |
 | 2026/4/4 |    三角洲和平op.exe    | **银狐 (SilverFox.wos)** | 59b65b4f5058e38b42ec3fe79c5f05b4c29a61d00ddc6052bbbf074c99f75fef | cba315f8-24dd-42a7-b72f-e43a34ca73d2 | [VirusTotal](https://www.virustotal.com/gui/file/59b65b4f5058e38b42ec3fe79c5f05b4c29a61d00ddc6052bbbf074c99f75fef) (52) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/59b65b4f5058e38b42ec3fe79c5f05b4c29a61d00ddc6052bbbf074c99f75fef) | A747 |
 | 2026/4/4 |         7z.zip         |  **Win32/Malgent!MSR**   | 89e61df4394e3c3dc11cdb293aeb00155f371b0f1c2ade5f07fbc8732d86ba17 | e9b5758a-ae3b-4afe-be84-4ac61250f30d | [VirusTotal](https://www.virustotal.com/gui/file/89e61df4394e3c3dc11cdb293aeb00155f371b0f1c2ade5f07fbc8732d86ba17) (3) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/89e61df4394e3c3dc11cdb293aeb00155f371b0f1c2ade5f07fbc8732d86ba17) | A748 |
-| 2026/4/4 |      $RNILUEV.exe      |          研究中          | efdf5db823eaea4ed3482b497f47663ebbc3294ecf2b99b977293055905be31f |                                      | [VirusTotal](https://www.virustotal.com/gui/file/efdf5db823eaea4ed3482b497f47663ebbc3294ecf2b99b977293055905be31f) (8) |                  [MalwareBazaar Database]()                  | A749 |
-| 2026/4/4 |      LetsVPN.exe       |   **银狐 (SilverFox)**   | 1afde761465f44472849a5d0ce18612f7e046c11104d07a97baa62a9189e80a2 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/1afde761465f44472849a5d0ce18612f7e046c11104d07a97baa62a9189e80a2) (7) |                              无                              | A750 |
-| 2026/4/4 |  电话信息轰炸···.exe   | **银狐 (SilverFox.sa)**  | 38da37ac0707b4ca7a688715b06182dc8ce3ec9f51c0eb4c6190379555dafbca |                                      | [VirusTotal](https://www.virustotal.com/gui/file/38da37ac0707b4ca7a688715b06182dc8ce3ec9f51c0eb4c6190379555dafbca) (13) |                  [MalwareBazaar Database]()                  | A751 |
+| 2026/4/4 |      $RNILUEV.exe      |        **GH0ST**         | efdf5db823eaea4ed3482b497f47663ebbc3294ecf2b99b977293055905be31f | e6fa57df-a06c-40d1-b4ad-24b2a45818c3 | [VirusTotal](https://www.virustotal.com/gui/file/efdf5db823eaea4ed3482b497f47663ebbc3294ecf2b99b977293055905be31f) (8) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/efdf5db823eaea4ed3482b497f47663ebbc3294ecf2b99b977293055905be31f) | A749 |
+| 2026/4/4 |      LetsVPN.exe       |   **银狐 (SilverFox)**   | 1afde761465f44472849a5d0ce18612f7e046c11104d07a97baa62a9189e80a2 | 92e00c93-fb1f-46e6-8c98-026aa6eecbb8 | [VirusTotal](https://www.virustotal.com/gui/file/1afde761465f44472849a5d0ce18612f7e046c11104d07a97baa62a9189e80a2) (7) |                              无                              | A750 |
+| 2026/4/4 |  电话信息轰炸···.exe   | **银狐 (SilverFox.sa)**  | 38da37ac0707b4ca7a688715b06182dc8ce3ec9f51c0eb4c6190379555dafbca | 85e500c4-cf0e-41c2-a59e-f7d287055756 | [VirusTotal](https://www.virustotal.com/gui/file/38da37ac0707b4ca7a688715b06182dc8ce3ec9f51c0eb4c6190379555dafbca) (13) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/38da37ac0707b4ca7a688715b06182dc8ce3ec9f51c0eb4c6190379555dafbca) | A751 |
 |  ——————  |      ————————————      |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
