@@ -69,7 +69,7 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 4 月 6 日 2:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 4 月 6 日 3:00 (GMT+8)
 
 &emsp;&emsp;**截至 2026 年 4 月 6 日，本中心已打击计算机病毒 / 恶意软件 760 个、恶意网站 269 个，累计为潜在受害者规避经济损失约 5,212,080 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/LossModel.md))
 
@@ -105,9 +105,9 @@
 | 2026/4/5 |   爱翻译—zR15.exe    |   **银狐 (SilverFox)**   | 37bad853faf9e1b96f152d66018187d3762d14f625b6d52e3ab8a93000560dd4 | 2093b98e-81ad-47be-a80f-1ef3910e495b | [VirusTotal](https://www.virustotal.com/gui/file/37bad853faf9e1b96f152d66018187d3762d14f625b6d52e3ab8a93000560dd4) (12) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/37bad853faf9e1b96f152d66018187d3762d14f625b6d52e3ab8a93000560dd4) | A755 |
 | 2026/4/5 | 群星 [DLC 解锁].exe  |          研究中          | d624ab457a04786acbaf847d64770e34f340ef8df0c72d8439b55af1e97e9355 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/d624ab457a04786acbaf847d64770e34f340ef8df0c72d8439b55af1e97e9355) (9) |                  [MalwareBazaar Database]()                  | A756 |
 | 2026/4/5 |   Password···.exe    |        **Agent**         | 159b0a681a8e9addafec86615c815a0269a330d5337b6975bc5659296e4d29b0 | 107ab19f-3bc9-418c-a053-13dacf508f23 | [VirusTotal](https://www.virustotal.com/gui/file/159b0a681a8e9addafec86615c815a0269a330d5337b6975bc5659296e4d29b0) (13) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/159b0a681a8e9addafec86615c815a0269a330d5337b6975bc5659296e4d29b0) | A757 |
-| 2026/4/5 |   PDFConverter.exe   |          研究中          | f175f872691e65df0e1bac09da2683817c9884cc568d69ae9b2ab1f5b9c24ead |                                      | [VirusTotal](https://www.virustotal.com/gui/file/f175f872691e65df0e1bac09da2683817c9884cc568d69ae9b2ab1f5b9c24ead) (23) |                  [MalwareBazaar Database]()                  | A758 |
+| 2026/4/5 |   PDFConverter.exe   |        **Agent**         | f175f872691e65df0e1bac09da2683817c9884cc568d69ae9b2ab1f5b9c24ead | 63a9632d-faff-4885-9f9e-742ce00c1370 | [VirusTotal](https://www.virustotal.com/gui/file/f175f872691e65df0e1bac09da2683817c9884cc568d69ae9b2ab1f5b9c24ead) (23) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/f175f872691e65df0e1bac09da2683817c9884cc568d69ae9b2ab1f5b9c24ead) | A758 |
 | 2026/4/5 |    VSMan6.0S.exe     |        **XPACK**         | 9a22cd8476fafe30840f285f37c9ef0dc2f42336b644e8bd607020dbe93d1bf6 | 23342f26-5489-46af-a337-887dc8c4254e | [VirusTotal](https://www.virustotal.com/gui/file/9a22cd8476fafe30840f285f37c9ef0dc2f42336b644e8bd607020dbe93d1bf6) (32) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/9a22cd8476fafe30840f285f37c9ef0dc2f42336b644e8bd607020dbe93d1bf6) | A759 |
-| 2026/4/6 |    Uninstall.exe     | **银狐 (SilverFox.saf)** | 0e9ecad8c7ebf9a3bf40ca53180c344a4a25fd8b415609607e6aaf05c7ae7b03 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/0e9ecad8c7ebf9a3bf40ca53180c344a4a25fd8b415609607e6aaf05c7ae7b03) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/0e9ecad8c7ebf9a3bf40ca53180c344a4a25fd8b415609607e6aaf05c7ae7b03) | A760 |
+| 2026/4/6 |    Uninstall.exe     | **银狐 (SilverFox.saf)** | 0e9ecad8c7ebf9a3bf40ca53180c344a4a25fd8b415609607e6aaf05c7ae7b03 |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/0e9ecad8c7ebf9a3bf40ca53180c344a4a25fd8b415609607e6aaf05c7ae7b03) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/0e9ecad8c7ebf9a3bf40ca53180c344a4a25fd8b415609607e6aaf05c7ae7b03) | A760 |
 |  ——————  |     ————————————     |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
