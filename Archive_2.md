@@ -257,6 +257,24 @@
 | 2026/3/30 |           hxxps://bp-sogou[.]com[.]cn           |  仿冒搜狗输入法、传播病毒   | hxxps://tyuiyyuiuwee[.]oss-ap-southeast-1[.]aliyuncs[.]com/so%D1%87geu_pimyin__15[.]3a[.]zip |                            无                            | Z245 |
 | 2026/3/30 |         hxxps://apps-sougoupinyin[.]com         |  仿冒搜狗输入法、传播病毒   | hxxps://wwiiss[.]oss-eu-west-1[.]aliyuncs[.]com/soggou_ofice_word[.]zip |                            无                            | Z246 |
 | 2026/3/30 |            hxxps://pinyin-sogou[.]cn            |  仿冒搜狗输入法、传播病毒   |                              无                              |                            无                            | Z247 |
+| 2026/3/30 |           hxxps://pc-sogou[.]com[.]cn           |  仿冒搜狗输入法、传播病毒   | hxxps://www[.]shanmaocnhingkong-oss[.]top/sogou_pinyin_x64_v20_win[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3808329) | Z248 |
+| 2026/3/30 |           hxxps://ai-sogou[.]com[.]cn           |  仿冒搜狗输入法、传播病毒   |    hxxps://jkem45[.]x98665[.]com/gou_pinyin15[.]4a[.]zip     |                            无                            | Z249 |
+| 2026/3/30 |          hxxps://www[.]win-sogou[.]com          |  仿冒搜狗输入法、传播病毒   | hxxps://62c013c91f7f8152044efae44a432404[.]r2[.]cloudflarestorage[.]com/urllink/www-win-sogou-com/windows/SG[.]Setupbiyi[.]5[.]16[.]11[.]5lln[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3808325) | Z250 |
+| 2026/3/30 |           hxxps://soougou[.]com[.]cn            |  仿冒搜狗输入法、传播病毒   | hxxps://pesktop1[.]oss-cn-hongkong[.]aliyuncs[.]com/sougou-3[.]6[.]zip |                            无                            | Z251 |
+| 2026/3/30 |          hxxps://int-sougou[.]com[.]cn          |  仿冒搜狗输入法、传播病毒   |                              无                              |                            无                            | Z252 |
+| 2026/3/31 |       hxxps://google-cn-chrom[.]com[.]cn        |    仿冒 Chrome、传播病毒    | hxxps://dingdong-1399351730[.]cos[.]ap-hongkong[.]myqcloud[.]com/glqchoiding[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3809083) | Z253 |
+| 2026/4/3  | hxxps://2928web[.]zh-yd-google-chrome[.]hl[.]cn |    仿冒 Chrome、传播病毒    |                              有                              |                            无                            | Z254 |
+| 2026/4/3  |     hxxps://www[.]apps-chrome-zh[.]hl[.]cn      |    仿冒 Chrome、传播病毒    |                              有                              |                            无                            | Z255 |
+| 2026/4/3  | hxxps://2765web[.]zh-yd-google-chrome[.]hl[.]cn |    仿冒 Chrome、传播病毒    |                              有                              |                            无                            | Z256 |
+| 2026/4/3  |       hxxps://zh-googlle-chrome[.]hl[.]cn       |    仿冒 Chrome、传播病毒    |                              有                              |                            无                            | Z257 |
+| 2026/4/3  |     hxxps://www[.]googlle-chroome[.]hl[.]cn     |    仿冒 Chrome、传播病毒    |                              无                              |                            无                            | Z258 |
+| 2026/4/3  |              hxxps://ai-wps[.]org               |     仿冒 WPS、传播病毒      | hxxps://youdownload[.]oss-cn-hongkong[.]aliyuncs[.]com/WPS_win_Installer_PC_x64[.]zip |                            无                            | Z259 |
+| 2026/4/3  |           hxxps://www-wpsa[.]com[.]cn           |     仿冒 WPS、传播病毒      |                              无                              |                            无                            | Z260 |
+| 2026/4/3  |          hxxps://offico-wps[.]com[.]cn          |     仿冒 WPS、传播病毒      | hxxps://www[.]ubvbksdf-oss[.]top/Szc_Wps_Office_x64_v2[.]1_win[.]zip[.]zip |                            无                            | Z261 |
+| 2026/4/3  |          hxxps://www-cn-wps[.]com[.]cn          |     仿冒 WPS、传播病毒      |                              有                              |                            无                            | Z262 |
+| 2026/4/3  |           hxxps://wpss-www[.]com[.]cn           |     仿冒 WPS、传播病毒      |                              有                              |                            无                            | Z263 |
+| 2026/4/3  |      hxxps://zh[.]ch-office-wps[.]com[.]cn      |     仿冒 WPS、传播病毒      |                              有                              |                            无                            | Z264 |
+| 2026/4/3  |       hxxps://www[.]wps-zh-com[.]com[.]cn       |     仿冒 WPS、传播病毒      |                              无                              |                            无                            | Z265 |
 |  ——————   |              ————————————————————               |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
