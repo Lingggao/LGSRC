@@ -69,7 +69,7 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 4 月 7 日 1:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 4 月 7 日 3:00 (GMT+8)
 
 &emsp;&emsp;**截至 2026 年 4 月 7 日，本中心已打击计算机病毒 / 恶意软件 769 个、恶意网站 287 个，累计为潜在受害者规避经济损失约 5,273,802 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/LossModel.md))
 
@@ -105,7 +105,7 @@
 | 2026/4/6 |  yfanyi···3.3.9.exe   |       **Kryplod**        | 1af25e279d932849b69264e346e899c550056b226e381ac0b052be470680a059 | 3cbba31d-fe90-4c6a-89a5-9191baeb0231 | [VirusTotal](https://www.virustotal.com/gui/file/1af25e279d932849b69264e346e899c550056b226e381ac0b052be470680a059) (9) |                              无                              | A765 |
 | 2026/4/6 |      yfanyiy.exe      |   **银狐 (SilverFox)**   | 87aff0c602a1d2cec401ad3a66b46cfd345401e6849c51e0a9145106b0ee50cd | cfdef228-1bd3-4661-a354-7ebeb9ae1df8 | [VirusTotal](https://www.virustotal.com/gui/file/87aff0c602a1d2cec401ad3a66b46cfd345401e6849c51e0a9145106b0ee50cd) (7) |                              无                              | A766 |
 | 2026/4/6 |   yifanyi3.12.1.exe   |       **Kryptik**        | aae3c79d14236b83bc36adbddf2ed39029efd814bb0bc876e133dee32cea4db9 | 46dd6d05-0ea4-4105-8f6d-d189d7210862 | [VirusTotal](https://www.virustotal.com/gui/file/aae3c79d14236b83bc36adbddf2ed39029efd814bb0bc876e133dee32cea4db9) (2) |                              无                              | A767 |
-| 2026/4/6 |    yifanyi3.12.exe    |   **银狐 (SilverFox)**   | c8d07cbcfa664262f0e481d0fbe6f447e00283b6f1afdea4c409d2160620eedd |                                      | [VirusTotal](https://www.virustotal.com/gui/file/c8d07cbcfa664262f0e481d0fbe6f447e00283b6f1afdea4c409d2160620eedd) (1) |                              无                              | A768 |
+| 2026/4/6 |    yifanyi3.12.exe    |   **银狐 (SilverFox)**   | c8d07cbcfa664262f0e481d0fbe6f447e00283b6f1afdea4c409d2160620eedd | b9f8c640-1b07-4c49-93d5-c4e808551f5f | [VirusTotal](https://www.virustotal.com/gui/file/c8d07cbcfa664262f0e481d0fbe6f447e00283b6f1afdea4c409d2160620eedd) (1) |                              无                              | A768 |
 | 2026/4/6 |  yifanyi-6734···.exe  |       **Gh0stRAT**       | 1ac386dd4ad1578143109b211a286fda218513604d49c7df744fee13e9bb22b8 | 63d839c2-78e3-45f2-bdf2-4d74946c6a04 | [VirusTotal](https://www.virustotal.com/gui/file/1ac386dd4ad1578143109b211a286fda218513604d49c7df744fee13e9bb22b8) (4) |                              无                              | A769 |
 |  ——————  |     ————————————      |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
