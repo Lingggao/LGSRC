@@ -69,7 +69,7 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 4 月 8 日 22:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 4 月 8 日 23:00 (GMT+8)
 
 &emsp;&emsp;**截至 2026 年 4 月 8 日，本中心已打击计算机病毒 / 恶意软件 794 个、恶意网站 288 个，累计为潜在受害者规避经济损失约 5,445,252 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/LossModel.md))
 
@@ -108,7 +108,7 @@
 | 2026/4/8 |       SetupAPP3.exe       |  **银狐 (SilverFox)**   | 507eca36144b1a080fce72d2a6ad164fe76a33571e1f4574451a7ca135588087 | 1f59d4d8-baf5-4eab-9c52-bd6f1a1e131c | [VirusTotal](https://www.virustotal.com/gui/file/507eca36144b1a080fce72d2a6ad164fe76a33571e1f4574451a7ca135588087) (13) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/507eca36144b1a080fce72d2a6ad164fe76a33571e1f4574451a7ca135588087) | A791 |
 | 2026/4/8 |  @所有人···自查一下.exe   | **银狐 (SilverFox.bg)** | bf961d1076e38262ffb9cbb52afd4b1fa5254c9f38de5e43ae97bd382dcf2151 | 69a1a055-d585-48c6-a02b-97de51a26716 | [VirusTotal](https://www.virustotal.com/gui/file/bf961d1076e38262ffb9cbb52afd4b1fa5254c9f38de5e43ae97bd382dcf2151) (12) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/bf961d1076e38262ffb9cbb52afd4b1fa5254c9f38de5e43ae97bd382dcf2151) | A792 |
 | 2026/4/8 |   DeepSeekV20.66···.exe   |  **Win32/Malgent!MSR**  | ec1dc8b0f6b6921a9d93769aeacb193ea513d390ae25eedad383fde2e3be661a | a684cb3f-bcd2-40b6-80d9-0a18f220ebe6 | [VirusTotal](https://www.virustotal.com/gui/file/ec1dc8b0f6b6921a9d93769aeacb193ea513d390ae25eedad383fde2e3be661a) (12) |                              无                              | A793 |
-| 2026/4/8 |    venroy···widovs.exe    |       **Dapato**        | f3432499bb2716d0aabcdd186e890adbe5d4b9f2dc3a89b02b08d62440d8e0e6 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/f3432499bb2716d0aabcdd186e890adbe5d4b9f2dc3a89b02b08d62440d8e0e6) (16) |                  [MalwareBazaar Database]()                  | A794 |
+| 2026/4/8 |    venroy···widovs.exe    |       **Dapato**        | f3432499bb2716d0aabcdd186e890adbe5d4b9f2dc3a89b02b08d62440d8e0e6 | 88a72998-1df1-480e-a43e-76c1ef42dd3a | [VirusTotal](https://www.virustotal.com/gui/file/f3432499bb2716d0aabcdd186e890adbe5d4b9f2dc3a89b02b08d62440d8e0e6) (16) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/f3432499bb2716d0aabcdd186e890adbe5d4b9f2dc3a89b02b08d62440d8e0e6) | A794 |
 |  ——————  |       ————————————        |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
