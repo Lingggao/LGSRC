@@ -275,6 +275,10 @@
 | 2026/4/3  |           hxxps://wpss-www[.]com[.]cn           |     仿冒 WPS、传播病毒      |                              有                              |                            无                            | Z263 |
 | 2026/4/3  |      hxxps://zh[.]ch-office-wps[.]com[.]cn      |     仿冒 WPS、传播病毒      |                              有                              |                            无                            | Z264 |
 | 2026/4/3  |       hxxps://www[.]wps-zh-com[.]com[.]cn       |     仿冒 WPS、传播病毒      |                              无                              |                            无                            | Z265 |
+| 2026/4/4  |    hxxps://www[.]google-chrrome-zh[.]hl[.]cn    |    仿冒 Chrome、传播病毒    |                              无                              |                            无                            | Z266 |
+| 2026/4/5  |             hxxps://fanyi-ai[.]com              |    仿冒爱翻译、传播病毒     | hxxps://soft2down[.]oss-ap-southeast-1[.]aliyuncs[.]com/AiFanyi_Installer_win[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3812783) | Z267 |
+| 2026/4/5  |            hxxps://aifanyicrm[.]com             |    仿冒爱翻译、传播病毒     | hxxps://youdownload[.]oss-cn-hongkong[.]aliyuncs[.]com/AIfanyi_win_Installer_PC_x64[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3812784) | Z268 |
+| 2026/4/5  |             hxxps://e-ifanyi[.]com              |    仿冒爱翻译、传播病毒     | hxxps://e-ifanyi[.]com/%E7%88%B1%E7%BF%BB%E8%AF%91-20260404[.]rar | [URLhaus Database](https://urlhaus.abuse.ch/url/3812785) | Z269 |
 |  ——————   |              ————————————————————               |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
