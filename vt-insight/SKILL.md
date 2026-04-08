@@ -4,7 +4,7 @@ https://clawhub.ai/Lingggao/vt-insight
 
 名称：vt-insight  
 作者：Ling Gao (https://github.com/Lingggao)  
-Skill 版本：1.8.5  
+Skill 版本：1.8.6  
 2026 年 3 月 19 日  
 LGHUB · Security Response Center (LGSRC)
 
