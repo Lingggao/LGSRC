@@ -279,6 +279,18 @@
 | 2026/4/5  |             hxxps://fanyi-ai[.]com              |    仿冒爱翻译、传播病毒     | hxxps://soft2down[.]oss-ap-southeast-1[.]aliyuncs[.]com/AiFanyi_Installer_win[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3812783) | Z267 |
 | 2026/4/5  |            hxxps://aifanyicrm[.]com             |    仿冒爱翻译、传播病毒     | hxxps://youdownload[.]oss-cn-hongkong[.]aliyuncs[.]com/AIfanyi_win_Installer_PC_x64[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3812784) | Z268 |
 | 2026/4/5  |             hxxps://e-ifanyi[.]com              |    仿冒爱翻译、传播病毒     | hxxps://e-ifanyi[.]com/%E7%88%B1%E7%BF%BB%E8%AF%91-20260404[.]rar | [URLhaus Database](https://urlhaus.abuse.ch/url/3812785) | Z269 |
+| 2026/4/6  |           hxxps://www[.]meiqiay[.]com           |     仿冒美洽、传播病毒      |                       有，载荷提取失败                       |                            无                            | Z270 |
+| 2026/4/6  |           hxxps://www[.]meiqiaq[.]com           |     仿冒美洽、传播病毒      |                       有，载荷提取失败                       |                            无                            | Z271 |
+| 2026/4/6  |           hxxps://cn[.]e-meiqia[.]cc            |     仿冒美洽、传播病毒      |                              无                              |                            无                            | Z272 |
+| 2026/4/6  |           hxxps://www[.]meiqiaw[.]com           |     仿冒美洽、传播病毒      | hxxps://maiqiaqia1[.]s3[.]ap-east-1[.]amazonaws[.]com/Win-malqla-x64[.]zip |                            无                            | Z273 |
+| 2026/4/6  |           hxxps://www[.]meiqiag[.]com           |     仿冒美洽、传播病毒      |                       有，载荷提取失败                       |                            无                            | Z274 |
+| 2026/4/6  |           hxxps://www[.]meiqiaz[.]com           |     仿冒美洽、传播病毒      |                              无                              |                            无                            | Z275 |
+| 2026/4/6  |             hxxps://meiqiagw[.]cyou             |     仿冒美洽、传播病毒      | hxxps://pub-3f298b361d774ae0a68be902f3ed9d89[.]r2[.]dev/4.31507MQ[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3813118) | Z276 |
+| 2026/4/6  |        hxxps://www[.]meiqiacc[.]com[.]cn        |     仿冒美洽、传播病毒      |                              无                              |                            无                            | Z277 |
+| 2026/4/6  |      hxxps://www[.]qishuiyinyue[.]org[.]cn      |   仿冒汽水音乐、传播病毒    |                       有，载荷提取失败                       |                            无                            | Z278 |
+| 2026/4/6  |       hxxps://www[.]yifanyicc[.]com[.]cn        |    仿冒易翻译、传播病毒     | hxxps://yifanyisetup32[.]oss-cn-hongkong[.]aliyuncs[.]com/yifanyi3[.]12[.]zip |                            无                            | Z279 |
+| 2026/4/6  |               hxxps://efyi[.]org                |    仿冒易翻译、传播病毒     | hxxps://youdownload[.]oss-cn-hongkong[.]aliyuncs[.]com/yfanyi_win_Installer_PC_x64[.]zip |                            无                            | Z280 |
+| 2026/4/6  |            hxxps://pc1-yifanyi[.]com            |    仿冒易翻译、传播病毒     | hxxps://yifanyi-67349x32[.]oss-cn-hongkong[.]aliyuncs[.]com/yifanyi-67349x32[.]zip |                            无                            | Z281 |
 |  ——————   |              ————————————————————               |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
