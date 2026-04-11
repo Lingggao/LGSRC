@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 4 月 11 日 20:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 4 月 12 日 3:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 4 月 11 日，本中心已打击计算机病毒 / 恶意软件 819 个、恶意网站 300 个，累计为潜在受害者规避经济损失约 5,616,702 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/LossModel.md))
+&emsp;&emsp;**截至 2026 年 4 月 12 日，本中心已打击计算机病毒 / 恶意软件 823 个、恶意网站 300 个，累计为潜在受害者规避经济损失约 5,644,134 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/LossModel.md))
 
 ---
 
@@ -108,7 +108,11 @@
 | 2026/4/11 |   Lets-VPN5.0.exe.exe   |   **银狐 (SilverFox)**   | e6115f0a0448a612d72a2c5ea86fd7a90f630887998415d7309ad91b3da4648e | b690d2fe-dfdc-4e91-9b3c-5b707d6e72ce | [VirusTotal](https://www.virustotal.com/gui/file/e6115f0a0448a612d72a2c5ea86fd7a90f630887998415d7309ad91b3da4648e) (4) |                              无                              | A816 |
 | 2026/4/11 |   letsvpn···Setup.exe   |   **银狐 (SilverFox)**   | a7b809c33052dc7d354bd6e5053279f6233ee6c15ff5ede9ffdd7ffa241b559f | 808dbf03-4012-4dfa-92cd-f9014c4c9557 | [VirusTotal](https://www.virustotal.com/gui/file/a7b809c33052dc7d354bd6e5053279f6233ee6c15ff5ede9ffdd7ffa241b559f) (6) |                              无                              | A817 |
 | 2026/4/11 |   leuxtrogxre_x64.exe   |      **MalGeneric**      | 7f19424517943542a577c24229894deecbf79f8209a8397a05aaa339469ccd30 | 410deb22-93e8-47a3-8bc7-098cf25d2257 | [VirusTotal](https://www.virustotal.com/gui/file/7f19424517943542a577c24229894deecbf79f8209a8397a05aaa339469ccd30) (5) |                              无                              | A818 |
-| 2026/4/11 |     wps651-x64.exe      |        **SAgent**        | c954790bbbb3944beb4625e2bffbed29452af6a1cb8b5629e4ad4ae1ae7f2c1e |                                      | [VirusTotal](https://www.virustotal.com/gui/file/c954790bbbb3944beb4625e2bffbed29452af6a1cb8b5629e4ad4ae1ae7f2c1e) (9) |                              无                              | A819 |
+| 2026/4/11 |     wps651-x64.exe      |        **SAgent**        | c954790bbbb3944beb4625e2bffbed29452af6a1cb8b5629e4ad4ae1ae7f2c1e | 16c88249-09a8-4d32-a868-5367780d798b | [VirusTotal](https://www.virustotal.com/gui/file/c954790bbbb3944beb4625e2bffbed29452af6a1cb8b5629e4ad4ae1ae7f2c1e) (9) |                              无                              | A819 |
+| 2026/4/11 |        2028.exe         |   **银狐 (SilverFox)**   | e9612cdd6fad265a81c95dc7b8b1b9e0caf1a850a19db9b91b87979673ebf76f | c0d79327-74ad-4e80-88d1-0720c6e885ed | [VirusTotal](https://www.virustotal.com/gui/file/e9612cdd6fad265a81c95dc7b8b1b9e0caf1a850a19db9b91b87979673ebf76f) (20) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/e9612cdd6fad265a81c95dc7b8b1b9e0caf1a850a19db9b91b87979673ebf76f) | A820 |
+| 2026/4/11 |   Idfddt···SETUP.exe    |       **PureHVNC**       | 4350ef1a476ba590c6322276be502d335e0f2d4972945b34306bcd3e96ff3f27 | 521ed7d8-0535-4269-9763-47493b68e6f1 | [VirusTotal](https://www.virustotal.com/gui/file/4350ef1a476ba590c6322276be502d335e0f2d4972945b34306bcd3e96ff3f27) (12) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/4350ef1a476ba590c6322276be502d335e0f2d4972945b34306bcd3e96ff3f27) | A821 |
+| 2026/4/11 |       LetsVPN.exe       |   **银狐 (SilverFox)**   | e34fed678302c144ab655ebfb54a2493551266bfdf66fd35c7e85c3c6000b592 | 6a8395c3-5f60-4202-b28e-14cced3f81f3 | [VirusTotal](https://www.virustotal.com/gui/file/e34fed678302c144ab655ebfb54a2493551266bfdf66fd35c7e85c3c6000b592) (2) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/e34fed678302c144ab655ebfb54a2493551266bfdf66fd35c7e85c3c6000b592) | A822 |
+| 2026/4/11 |     抖音提号器q.exe     |   **银狐 (SilverFox)**   | a46b201cff1ac3871d66c2451a7b23269fc33941b15745ad458a0156d6d7e2c9 | 5a6e4417-c824-4bba-bf6f-423590fe005f | [VirusTotal](https://www.virustotal.com/gui/file/a46b201cff1ac3871d66c2451a7b23269fc33941b15745ad458a0156d6d7e2c9) (13) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a46b201cff1ac3871d66c2451a7b23269fc33941b15745ad458a0156d6d7e2c9) | A823 |
 |  ——————   |      ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -123,28 +127,28 @@
 >
 > &emsp;为确保安全，网站地址将用 “hxxps://” 与 “[.]” 进行替换。**切勿尝试访问表格中列出的任何网址**。
 
-|   日期    |                  URL                  |          类别           |                           有效载荷                           |  URLhaus   | 编号 |
-| :-------: | :-----------------------------------: | :---------------------: | :----------------------------------------------------------: | :--------: | :--: |
-| 2026/4/6  |   hxxps://www[.]yifanyi[.]com[.]cn    |  仿冒易翻译、传播病毒   |                              无                              |     无     | Z282 |
-| 2026/4/6  |     hxxps://yifanyipc[.]com[.]cn      |  仿冒易翻译、传播病毒   |                       有，载荷提取失败                       |     无     | Z283 |
-| 2026/4/6  |      hxxps://www[.]efanyi[.]org       |  仿冒易翻译、传播病毒   |                              无                              |     无     | Z284 |
-| 2026/4/6  |  hxxps://www[.]yifanyiya[.]com[.]cn   |  仿冒易翻译、传播病毒   | hxxps://yiyikxcmasndfaf56433145334461asdas[.]oss-ap-southeast-1[.]aliyuncs[.]com/fy_yifanyi_fanyiweb_22356145[.]zip |     无     | Z285 |
-| 2026/4/6  |  hxxps://www[.]webyifanyi[.]com[.]cn  |  仿冒易翻译、传播病毒   | hxxps://2026yifanyi[.]oss-cn-hongkong[.]aliyuncs[.]com/yifanyi3[.]12[.]1[.]zip |     无     | Z286 |
-| 2026/4/6  |    hxxps://www[.]traneasily[.]com     |  仿冒易翻译、传播病毒   |      hxxps://seonn199[.]bj[.]bcebos[.]com/yfanyiy[.]zip      |     无     | Z287 |
-| 2026/4/8  |  hxxps://www[.]deepseepk[.]com[.]cn   | 仿冒 DeepSeek、传播病毒 | hxxps://ssowindows[.]oss-cn-hongkong[.]aliyuncs[.]com/DeepSeekV20[.]66-Setup[.]zip |     无     | Z288 |
-| 2026/4/9  |  hxxps://www[.]i-openclaw[.]com[.]cn  | 仿冒 OpenClaw、传播病毒 | hxxps://www[.]iuiouernb-oss[.]top/Szc_OpenClaw_v1[.]0_x64_win[.]zip |     无     | Z289 |
-| 2026/4/9  |  hxxps://www[.]i-openclaw[.]com[.]cn  | 仿冒 OpenClaw、传播病毒 | hxxps://www[.]iuiouernb-oss[.]top/Szc_OpenClaw_v2[.]0_x64_win[.]zip |     无     | Z290 |
-| 2026/4/11 |      hxxps://letsmvpn[.]com[.]cn      |  借助 VPN 工具传播病毒  | hxxps://yl9vr1j[.]oss-ap-southeast-1[.]aliyuncs[.]com/LetsPR03[.]5[.]1[.]zip |     无     | Z291 |
-| 2026/4/11 |  hxxps://www[.]letsesvpn[.]com[.]cn   |  借助 VPN 工具传播病毒  |                           同 Z291                            |     无     | Z292 |
-| 2026/4/11 |      hxxps://www[.]letsvpns[.]cn      |  借助 VPN 工具传播病毒  | hxxps://caifulai[.]oss-accelerate[.]aliyuncs[.]com/leuxtrogxre_x64[.]zip |     无     | Z293 |
-| 2026/4/11 |     hxxps://letsvpn-service[.]com     |  借助 VPN 工具传播病毒  |                       有，载荷提取失败                       |     无     | Z294 |
-| 2026/4/11 |   hxxps://www[.]letskuai[.]com[.]cn   |  借助 VPN 工具传播病毒  |                              无                              |     无     | Z295 |
-| 2026/4/11 |   hxxps://www[.]letvpns[.]com[.]cn    |  借助 VPN 工具传播病毒  |     hxxps://dows[.]1v5s[.]com/zh/letsvpn-latestX64[.]zip     |     无     | Z296 |
-| 2026/4/11 |     hxxps://lets-vpn3[.]com[.]cn      |  借助 VPN 工具传播病毒  |                              无                              |     无     | Z297 |
-| 2026/4/11 | hxxps://www[.]kuailianevpn[.]com[.]cn |  借助 VPN 工具传播病毒  | hxxps://kkk-214125124[.]s3[.]ap-southeast-1[.]amazonaws[.]com/Lets-VPN5[.]0[.]zip |     无     | Z298 |
-| 2026/4/11 |     hxxps://ghkuailian[.]com[.]cn     |  借助 VPN 工具传播病毒  | hxxps://yangyangoss8[.]oss-cn-hongkong[.]aliyuncs[.]com/Letslat2[.]5[.]zip |     无     | Z299 |
-| 2026/4/11 |     hxxps://hukuailian[.]com[.]cn     |  借助 VPN 工具传播病毒  |                           同 Z299                            |     无     | Z300 |
-|  ——————   |         ————————————————————          |     ———————————————     |                ——————————————————————————————                | —————————— | ———  |
+|   日期    |                  URL                  |          类别           |                           有效载荷                           |                         URLhaus                          | 编号 |
+| :-------: | :-----------------------------------: | :---------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
+| 2026/4/6  |   hxxps://www[.]yifanyi[.]com[.]cn    |  仿冒易翻译、传播病毒   |                              无                              |                            无                            | Z282 |
+| 2026/4/6  |     hxxps://yifanyipc[.]com[.]cn      |  仿冒易翻译、传播病毒   |                       有，载荷提取失败                       |                            无                            | Z283 |
+| 2026/4/6  |      hxxps://www[.]efanyi[.]org       |  仿冒易翻译、传播病毒   |                              无                              |                            无                            | Z284 |
+| 2026/4/6  |  hxxps://www[.]yifanyiya[.]com[.]cn   |  仿冒易翻译、传播病毒   | hxxps://yiyikxcmasndfaf56433145334461asdas[.]oss-ap-southeast-1[.]aliyuncs[.]com/fy_yifanyi_fanyiweb_22356145[.]zip |                            无                            | Z285 |
+| 2026/4/6  |  hxxps://www[.]webyifanyi[.]com[.]cn  |  仿冒易翻译、传播病毒   | hxxps://2026yifanyi[.]oss-cn-hongkong[.]aliyuncs[.]com/yifanyi3[.]12[.]1[.]zip |                            无                            | Z286 |
+| 2026/4/6  |    hxxps://www[.]traneasily[.]com     |  仿冒易翻译、传播病毒   |      hxxps://seonn199[.]bj[.]bcebos[.]com/yfanyiy[.]zip      |                            无                            | Z287 |
+| 2026/4/8  |  hxxps://www[.]deepseepk[.]com[.]cn   | 仿冒 DeepSeek、传播病毒 | hxxps://ssowindows[.]oss-cn-hongkong[.]aliyuncs[.]com/DeepSeekV20[.]66-Setup[.]zip |                            无                            | Z288 |
+| 2026/4/9  |  hxxps://www[.]i-openclaw[.]com[.]cn  | 仿冒 OpenClaw、传播病毒 | hxxps://www[.]iuiouernb-oss[.]top/Szc_OpenClaw_v1[.]0_x64_win[.]zip |                            无                            | Z289 |
+| 2026/4/9  |  hxxps://www[.]i-openclaw[.]com[.]cn  | 仿冒 OpenClaw、传播病毒 | hxxps://www[.]iuiouernb-oss[.]top/Szc_OpenClaw_v2[.]0_x64_win[.]zip |                            无                            | Z290 |
+| 2026/4/11 |      hxxps://letsmvpn[.]com[.]cn      |  借助 VPN 工具传播病毒  | hxxps://yl9vr1j[.]oss-ap-southeast-1[.]aliyuncs[.]com/LetsPR03[.]5[.]1[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3816010) | Z291 |
+| 2026/4/11 |  hxxps://www[.]letsesvpn[.]com[.]cn   |  借助 VPN 工具传播病毒  |                           同 Z291                            |                            无                            | Z292 |
+| 2026/4/11 |      hxxps://www[.]letsvpns[.]cn      |  借助 VPN 工具传播病毒  | hxxps://caifulai[.]oss-accelerate[.]aliyuncs[.]com/leuxtrogxre_x64[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3816013) | Z293 |
+| 2026/4/11 |     hxxps://letsvpn-service[.]com     |  借助 VPN 工具传播病毒  |                       有，载荷提取失败                       |                            无                            | Z294 |
+| 2026/4/11 |   hxxps://www[.]letskuai[.]com[.]cn   |  借助 VPN 工具传播病毒  |                              无                              |                            无                            | Z295 |
+| 2026/4/11 |   hxxps://www[.]letvpns[.]com[.]cn    |  借助 VPN 工具传播病毒  |     hxxps://dows[.]1v5s[.]com/zh/letsvpn-latestX64[.]zip     | [URLhaus Database](https://urlhaus.abuse.ch/url/3816011) | Z296 |
+| 2026/4/11 |     hxxps://lets-vpn3[.]com[.]cn      |  借助 VPN 工具传播病毒  |                              无                              |                            无                            | Z297 |
+| 2026/4/11 | hxxps://www[.]kuailianevpn[.]com[.]cn |  借助 VPN 工具传播病毒  | hxxps://kkk-214125124[.]s3[.]ap-southeast-1[.]amazonaws[.]com/Lets-VPN5[.]0[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3816014) | Z298 |
+| 2026/4/11 |     hxxps://ghkuailian[.]com[.]cn     |  借助 VPN 工具传播病毒  | hxxps://yangyangoss8[.]oss-cn-hongkong[.]aliyuncs[.]com/Letslat2[.]5[.]zip |                            无                            | Z299 |
+| 2026/4/11 |     hxxps://hukuailian[.]com[.]cn     |  借助 VPN 工具传播病毒  |                           同 Z299                            |                            无                            | Z300 |
+|  ——————   |         ————————————————————          |     ———————————————     |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
 >
