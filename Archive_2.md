@@ -291,6 +291,8 @@
 | 2026/4/6  |       hxxps://www[.]yifanyicc[.]com[.]cn        |    仿冒易翻译、传播病毒     | hxxps://yifanyisetup32[.]oss-cn-hongkong[.]aliyuncs[.]com/yifanyi3[.]12[.]zip |                            无                            | Z279 |
 | 2026/4/6  |               hxxps://efyi[.]org                |    仿冒易翻译、传播病毒     | hxxps://youdownload[.]oss-cn-hongkong[.]aliyuncs[.]com/yfanyi_win_Installer_PC_x64[.]zip |                            无                            | Z280 |
 | 2026/4/6  |            hxxps://pc1-yifanyi[.]com            |    仿冒易翻译、传播病毒     | hxxps://yifanyi-67349x32[.]oss-cn-hongkong[.]aliyuncs[.]com/yifanyi-67349x32[.]zip |                            无                            | Z281 |
+| 2026/4/6  |        hxxps://www[.]yifanyi[.]com[.]cn         |    仿冒易翻译、传播病毒     |                              无                              |                            无                            | Z282 |
+| 2026/4/6  |          hxxps://yifanyipc[.]com[.]cn           |    仿冒易翻译、传播病毒     |                       有，载荷提取失败                       |                            无                            | Z283 |
 |  ——————   |              ————————————————————               |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
