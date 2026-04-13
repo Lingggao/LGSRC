@@ -69,9 +69,11 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 4 月 13 日 3:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 4 月 13 日 13:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 4 月 13 日，本中心已打击计算机病毒 / 恶意软件 830 个、恶意网站 303 个，累计为潜在受害者规避经济损失约 5,692,140 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/LossModel.md))
+&emsp;&emsp;**截至 2026 年 4 月 13 日，本中心已打击计算机病毒 / 恶意软件 831 个、恶意网站 303 个，累计为潜在受害者规避经济损失约 5,698,998 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/LossModel.md))
+
+&emsp;&emsp;**每打击 1 个计算机病毒、恶意软件或恶意网站，本中心将向联合国儿童基金会 “爱心为救灾” 计划捐赠 1 元人民币**。(“爱心为救灾” 计划旨在支持中国及其他国家实现可持续发展目标，特别是为困境儿童提供援助。)
 
 ---
 
@@ -108,7 +110,8 @@
 | 2026/4/12 |       Quick.exe        | **银狐 (SilverFox.aaa)** | 26ce7bf6adb9e0906016c1c427425dcff27c2ffd8bf319c462f81d3fd03e01c5 | 61edfa6e-9c0f-45ef-a244-7b74632ae028 | [VirusTotal](https://www.virustotal.com/gui/file/26ce7bf6adb9e0906016c1c427425dcff27c2ffd8bf319c462f81d3fd03e01c5) (36) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/26ce7bf6adb9e0906016c1c427425dcff27c2ffd8bf319c462f81d3fd03e01c5) | A827 |
 | 2026/4/12 |  Yflabmd···SETUP.exe   |   **银狐 (SilverFox)**   | 352e6eb7fe4e1b568aabd0c8e272a8cbff55937082ef72d66a7ea1e67ef4bbde | 2cc577f1-0a5c-4c94-b724-b4eeeeef7648 | [VirusTotal](https://www.virustotal.com/gui/file/352e6eb7fe4e1b568aabd0c8e272a8cbff55937082ef72d66a7ea1e67ef4bbde) (14) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/352e6eb7fe4e1b568aabd0c8e272a8cbff55937082ef72d66a7ea1e67ef4bbde) | A828 |
 | 2026/4/12 |  TencentMeetig···.exe  |      **Shellcode**       | fd06a3b51cad7f516fbda8ce1ef1a49881445a8dffd1819d75a007d253ac4141 |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/fd06a3b51cad7f516fbda8ce1ef1a49881445a8dffd1819d75a007d253ac4141) (2) |                              无                              | A829 |
-| 2026/4/12 | TencentMeeting···.exe  |        **Agent**         | c6f5bbfe87c1e48d802d43fb010694ecc01f9a44b8facdfa9c02011fb8f3755e |                                      | [VirusTotal](https://www.virustotal.com/gui/file/c6f5bbfe87c1e48d802d43fb010694ecc01f9a44b8facdfa9c02011fb8f3755e) (2) |                              无                              | A830 |
+| 2026/4/12 | TencentMeeting···.exe  |        **Agent**         | c6f5bbfe87c1e48d802d43fb010694ecc01f9a44b8facdfa9c02011fb8f3755e |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/c6f5bbfe87c1e48d802d43fb010694ecc01f9a44b8facdfa9c02011fb8f3755e) (2) |                              无                              | A830 |
+| 2026/4/13 |  VolumeController.exe  | **银狐 (SilverFox.sb)**  | 0d9e6c88ea00a3eb737ac99c7da52b413d2d7cfdd890f3075d17dfe0b327d0e6 | 58a378d5-9b5d-419c-9eca-da4a643245f8 | [VirusTotal](https://www.virustotal.com/gui/file/0d9e6c88ea00a3eb737ac99c7da52b413d2d7cfdd890f3075d17dfe0b327d0e6) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/0d9e6c88ea00a3eb737ac99c7da52b413d2d7cfdd890f3075d17dfe0b327d0e6) | A831 |
 |  ——————   |      ————————————      |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
