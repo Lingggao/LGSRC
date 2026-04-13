@@ -293,6 +293,16 @@
 | 2026/4/6  |            hxxps://pc1-yifanyi[.]com            |    仿冒易翻译、传播病毒     | hxxps://yifanyi-67349x32[.]oss-cn-hongkong[.]aliyuncs[.]com/yifanyi-67349x32[.]zip |                            无                            | Z281 |
 | 2026/4/6  |        hxxps://www[.]yifanyi[.]com[.]cn         |    仿冒易翻译、传播病毒     |                              无                              |                            无                            | Z282 |
 | 2026/4/6  |          hxxps://yifanyipc[.]com[.]cn           |    仿冒易翻译、传播病毒     |                       有，载荷提取失败                       |                            无                            | Z283 |
+| 2026/4/6  |           hxxps://www[.]efanyi[.]org            |    仿冒易翻译、传播病毒     |                              无                              |                            无                            | Z284 |
+| 2026/4/6  |       hxxps://www[.]yifanyiya[.]com[.]cn        |    仿冒易翻译、传播病毒     | hxxps://yiyikxcmasndfaf56433145334461asdas[.]oss-ap-southeast-1[.]aliyuncs[.]com/fy_yifanyi_fanyiweb_22356145[.]zip |                            无                            | Z285 |
+| 2026/4/6  |       hxxps://www[.]webyifanyi[.]com[.]cn       |    仿冒易翻译、传播病毒     | hxxps://2026yifanyi[.]oss-cn-hongkong[.]aliyuncs[.]com/yifanyi3[.]12[.]1[.]zip |                            无                            | Z286 |
+| 2026/4/6  |         hxxps://www[.]traneasily[.]com          |    仿冒易翻译、传播病毒     |      hxxps://seonn199[.]bj[.]bcebos[.]com/yfanyiy[.]zip      |                            无                            | Z287 |
+| 2026/4/8  |       hxxps://www[.]deepseepk[.]com[.]cn        |   仿冒 DeepSeek、传播病毒   | hxxps://ssowindows[.]oss-cn-hongkong[.]aliyuncs[.]com/DeepSeekV20[.]66-Setup[.]zip |                            无                            | Z288 |
+| 2026/4/9  |       hxxps://www[.]i-openclaw[.]com[.]cn       |   仿冒 OpenClaw、传播病毒   | hxxps://www[.]iuiouernb-oss[.]top/Szc_OpenClaw_v1[.]0_x64_win[.]zip |                            无                            | Z289 |
+| 2026/4/9  |       hxxps://www[.]i-openclaw[.]com[.]cn       |   仿冒 OpenClaw、传播病毒   | hxxps://www[.]iuiouernb-oss[.]top/Szc_OpenClaw_v2[.]0_x64_win[.]zip |                            无                            | Z290 |
+| 2026/4/11 |           hxxps://letsmvpn[.]com[.]cn           |    借助 VPN 工具传播病毒    | hxxps://yl9vr1j[.]oss-ap-southeast-1[.]aliyuncs[.]com/LetsPR03[.]5[.]1[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3816010) | Z291 |
+| 2026/4/11 |       hxxps://www[.]letsesvpn[.]com[.]cn        |    借助 VPN 工具传播病毒    |                           同 Z291                            |                            无                            | Z292 |
+| 2026/4/11 |           hxxps://www[.]letsvpns[.]cn           |    借助 VPN 工具传播病毒    | hxxps://caifulai[.]oss-accelerate[.]aliyuncs[.]com/leuxtrogxre_x64[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3816013) | Z293 |
 |  ——————   |              ————————————————————               |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---

@@ -71,7 +71,7 @@
 
 &emsp;&emsp;上次更新时间：2026 年 4 月 14 日 7:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 4 月 14 日，本中心已打击计算机病毒 / 恶意软件 839 个、恶意网站 303 个，累计为潜在受害者规避经济损失约 5,753,862 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/LossModel.md))
+&emsp;&emsp;**截至 2026 年 4 月 14 日，本中心已打击计算机病毒 / 恶意软件 841 个、恶意网站 310 个，累计为潜在受害者规避经济损失约 5,767,578 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/LossModel.md))
 
 &emsp;&emsp;**本中心每打击 1 个计算机病毒、恶意软件或恶意网站，将同步向联合国儿童基金会 “爱心为救灾” 计划捐赠 1 元人民币** (该计划旨在支持中国及其他国家实现可持续发展目标，特别是为困境儿童提供援助)。
 
@@ -109,6 +109,8 @@
 | 2026/4/13 |  ···安装中文语言包.exe  |      **ValleyRAT**       | b7002aa3750f1558f84702faf82416d3dbb5cd3b77c26bd577d14778c5acdb9b | 54a317a8-b236-4471-9e72-c56edb2e03aa | [VirusTotal](https://www.virustotal.com/gui/file/b7002aa3750f1558f84702faf82416d3dbb5cd3b77c26bd577d14778c5acdb9b) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b7002aa3750f1558f84702faf82416d3dbb5cd3b77c26bd577d14778c5acdb9b) | A837 |
 | 2026/4/13 |    ···中文语音包.EXE    |  **Win32/Malgent!MSR**   | 9eb087907901201235571b5d6bf04c18260c6f219f33dde1a64faa6169db478f | 8f63c6ff-ad2e-42ea-8ae4-2eafa80f41a2 | [VirusTotal](https://www.virustotal.com/gui/file/9eb087907901201235571b5d6bf04c18260c6f219f33dde1a64faa6169db478f) (7) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/9eb087907901201235571b5d6bf04c18260c6f219f33dde1a64faa6169db478f) | A838 |
 | 2026/4/13 |  ···中文语言包zzl.exe   |   **银狐 (SilverFox)**   | 0e2f9ad8b25420aeee57a0f244730a94102695f43b292dd445ac6fc926d8aeb7 | 666a9d4d-edd1-49c3-836e-fc13697726cc | [VirusTotal](https://www.virustotal.com/gui/file/0e2f9ad8b25420aeee57a0f244730a94102695f43b292dd445ac6fc926d8aeb7) (7) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/0e2f9ad8b25420aeee57a0f244730a94102695f43b292dd445ac6fc926d8aeb7) | A839 |
+| 2026/4/14 |      chronmwin.msi      |   **银狐 (SilverFox)**   | d457af10c19d93d98dc299be7caba09c15aaf06e2ef3a5b86bb95bf369c07222 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/d457af10c19d93d98dc299be7caba09c15aaf06e2ef3a5b86bb95bf369c07222) (17) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/d457af10c19d93d98dc299be7caba09c15aaf06e2ef3a5b86bb95bf369c07222) | A840 |
+| 2026/4/14 |    gogle_win64_5.exe    |   **银狐 (SilverFox)**   | 265265600f51996bfcafe07b45bff31ffced25322396208cd87743485eb2640f |                                      | [VirusTotal](https://www.virustotal.com/gui/file/265265600f51996bfcafe07b45bff31ffced25322396208cd87743485eb2640f) (6) |                              无                              | A841 |
 |  ——————   |      ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -123,29 +125,26 @@
 >
 > &emsp;为确保安全，网站地址将用 “hxxps://” 与 “[.]” 进行替换。**切勿尝试访问表格中列出的任何网址**。
 
-|   日期    |                  URL                  |          类别           |                           有效载荷                           |                         URLhaus                          | 编号 |
-| :-------: | :-----------------------------------: | :---------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
-| 2026/4/6  |      hxxps://www[.]efanyi[.]org       |  仿冒易翻译、传播病毒   |                              无                              |                            无                            | Z284 |
-| 2026/4/6  |  hxxps://www[.]yifanyiya[.]com[.]cn   |  仿冒易翻译、传播病毒   | hxxps://yiyikxcmasndfaf56433145334461asdas[.]oss-ap-southeast-1[.]aliyuncs[.]com/fy_yifanyi_fanyiweb_22356145[.]zip |                            无                            | Z285 |
-| 2026/4/6  |  hxxps://www[.]webyifanyi[.]com[.]cn  |  仿冒易翻译、传播病毒   | hxxps://2026yifanyi[.]oss-cn-hongkong[.]aliyuncs[.]com/yifanyi3[.]12[.]1[.]zip |                            无                            | Z286 |
-| 2026/4/6  |    hxxps://www[.]traneasily[.]com     |  仿冒易翻译、传播病毒   |      hxxps://seonn199[.]bj[.]bcebos[.]com/yfanyiy[.]zip      |                            无                            | Z287 |
-| 2026/4/8  |  hxxps://www[.]deepseepk[.]com[.]cn   | 仿冒 DeepSeek、传播病毒 | hxxps://ssowindows[.]oss-cn-hongkong[.]aliyuncs[.]com/DeepSeekV20[.]66-Setup[.]zip |                            无                            | Z288 |
-| 2026/4/9  |  hxxps://www[.]i-openclaw[.]com[.]cn  | 仿冒 OpenClaw、传播病毒 | hxxps://www[.]iuiouernb-oss[.]top/Szc_OpenClaw_v1[.]0_x64_win[.]zip |                            无                            | Z289 |
-| 2026/4/9  |  hxxps://www[.]i-openclaw[.]com[.]cn  | 仿冒 OpenClaw、传播病毒 | hxxps://www[.]iuiouernb-oss[.]top/Szc_OpenClaw_v2[.]0_x64_win[.]zip |                            无                            | Z290 |
-| 2026/4/11 |      hxxps://letsmvpn[.]com[.]cn      |  借助 VPN 工具传播病毒  | hxxps://yl9vr1j[.]oss-ap-southeast-1[.]aliyuncs[.]com/LetsPR03[.]5[.]1[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3816010) | Z291 |
-| 2026/4/11 |  hxxps://www[.]letsesvpn[.]com[.]cn   |  借助 VPN 工具传播病毒  |                           同 Z291                            |                            无                            | Z292 |
-| 2026/4/11 |      hxxps://www[.]letsvpns[.]cn      |  借助 VPN 工具传播病毒  | hxxps://caifulai[.]oss-accelerate[.]aliyuncs[.]com/leuxtrogxre_x64[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3816013) | Z293 |
-| 2026/4/11 |     hxxps://letsvpn-service[.]com     |  借助 VPN 工具传播病毒  |                       有，载荷提取失败                       |                            无                            | Z294 |
-| 2026/4/11 |   hxxps://www[.]letskuai[.]com[.]cn   |  借助 VPN 工具传播病毒  |                              无                              |                            无                            | Z295 |
-| 2026/4/11 |   hxxps://www[.]letvpns[.]com[.]cn    |  借助 VPN 工具传播病毒  |     hxxps://dows[.]1v5s[.]com/zh/letsvpn-latestX64[.]zip     | [URLhaus Database](https://urlhaus.abuse.ch/url/3816011) | Z296 |
-| 2026/4/11 |     hxxps://lets-vpn3[.]com[.]cn      |  借助 VPN 工具传播病毒  |                              无                              |                            无                            | Z297 |
-| 2026/4/11 | hxxps://www[.]kuailianevpn[.]com[.]cn |  借助 VPN 工具传播病毒  | hxxps://kkk-214125124[.]s3[.]ap-southeast-1[.]amazonaws[.]com/Lets-VPN5[.]0[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3816014) | Z298 |
-| 2026/4/11 |     hxxps://ghkuailian[.]com[.]cn     |  借助 VPN 工具传播病毒  | hxxps://yangyangoss8[.]oss-cn-hongkong[.]aliyuncs[.]com/Letslat2[.]5[.]zip |                            无                            | Z299 |
-| 2026/4/11 |     hxxps://hukuailian[.]com[.]cn     |  借助 VPN 工具传播病毒  |                           同 Z299                            |                            无                            | Z300 |
-| 2026/4/12 |      hxxps://apps-tencent[.]com       | 仿冒腾讯会议、传播病毒  | hxxps://download[.]i19d9[.]top/TencentMeetig_03h_offiwebsite[.]zip |                            无                            | Z301 |
-| 2026/4/12 |     hxxps://meeting-tencent[.]org     | 仿冒腾讯会议、传播病毒  | hxxps://youdownnet[.]oss-cn-hongkong[.]aliyuncs[.]com/TencentMeeting_setup_airPC_x64[.]zip |                            无                            | Z302 |
-| 2026/4/12 |        hxxps://zh-tenxun[.]com        | 仿冒腾讯会议、传播病毒  |                           同 Z301                            |                            无                            | Z303 |
-|  ——————   |         ————————————————————          |     ———————————————     |                ——————————————————————————————                |                        ——————————                        | ———  |
+|   日期    |                       URL                       |          类别          |                           有效载荷                           |                         URLhaus                          | 编号 |
+| :-------: | :---------------------------------------------: | :--------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
+| 2026/4/11 |          hxxps://letsvpn-service[.]com          | 借助 VPN 工具传播病毒  |                       有，载荷提取失败                       |                            无                            | Z294 |
+| 2026/4/11 |        hxxps://www[.]letskuai[.]com[.]cn        | 借助 VPN 工具传播病毒  |                              无                              |                            无                            | Z295 |
+| 2026/4/11 |        hxxps://www[.]letvpns[.]com[.]cn         | 借助 VPN 工具传播病毒  |     hxxps://dows[.]1v5s[.]com/zh/letsvpn-latestX64[.]zip     | [URLhaus Database](https://urlhaus.abuse.ch/url/3816011) | Z296 |
+| 2026/4/11 |          hxxps://lets-vpn3[.]com[.]cn           | 借助 VPN 工具传播病毒  |                              无                              |                            无                            | Z297 |
+| 2026/4/11 |      hxxps://www[.]kuailianevpn[.]com[.]cn      | 借助 VPN 工具传播病毒  | hxxps://kkk-214125124[.]s3[.]ap-southeast-1[.]amazonaws[.]com/Lets-VPN5[.]0[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3816014) | Z298 |
+| 2026/4/11 |          hxxps://ghkuailian[.]com[.]cn          | 借助 VPN 工具传播病毒  | hxxps://yangyangoss8[.]oss-cn-hongkong[.]aliyuncs[.]com/Letslat2[.]5[.]zip |                            无                            | Z299 |
+| 2026/4/11 |          hxxps://hukuailian[.]com[.]cn          | 借助 VPN 工具传播病毒  |                           同 Z299                            |                            无                            | Z300 |
+| 2026/4/12 |           hxxps://apps-tencent[.]com            | 仿冒腾讯会议、传播病毒 | hxxps://download[.]i19d9[.]top/TencentMeetig_03h_offiwebsite[.]zip |                            无                            | Z301 |
+| 2026/4/12 |          hxxps://meeting-tencent[.]org          | 仿冒腾讯会议、传播病毒 | hxxps://youdownnet[.]oss-cn-hongkong[.]aliyuncs[.]com/TencentMeeting_setup_airPC_x64[.]zip |                            无                            | Z302 |
+| 2026/4/12 |             hxxps://zh-tenxun[.]com             | 仿冒腾讯会议、传播病毒 |                           同 Z301                            |                            无                            | Z303 |
+| 2026/4/14 |      hxxps://zh[.]apps-google-hl[.]hl[.]cn      | 仿冒 Chrome、传播病毒  | hxxps://dindong[.]tos-cn-hongkong[.]volces[.]com/chronmwin[.]zip |                            无                            | Z304 |
+| 2026/4/14 | hxxps://1981web[.]zh-yd-google-chrome[.]hl[.]cn | 仿冒 Chrome、传播病毒  |                       有，载荷提取失败                       |                            无                            | Z305 |
+| 2026/4/14 | hxxps://501web[.]zh-yd-google-chrome[.]hl[.]cn  | 仿冒 Chrome、传播病毒  |                           同 Z305                            |                            无                            | Z306 |
+| 2026/4/14 | hxxps://2523web[.]zh-yd-google-chrome[.]hl[.]cn | 仿冒 Chrome、传播病毒  |                           同 Z305                            |                            无                            | Z307 |
+| 2026/4/14 | hxxps://2513web[.]zh-yd-google-chrome[.]hl[.]cn | 仿冒 Chrome、传播病毒  |                           同 Z305                            |                            无                            | Z308 |
+| 2026/4/14 | hxxps://2758web[.]zh-yd-google-chrome[.]hl[.]cn | 仿冒 Chrome、传播病毒  |                           同 Z305                            |                            无                            | Z309 |
+| 2026/4/14 | hxxps://2586web[.]zh-yd-google-chrome[.]hl[.]cn | 仿冒 Chrome、传播病毒  |                           同 Z305                            |                            无                            | Z310 |
+|  ——————   |              ————————————————————               |    ———————————————     |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
 >
