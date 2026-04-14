@@ -3,7 +3,7 @@
 ## 📊 执行摘要
 
 - **审计对象**: vt-insight（VirusTotal 样本查询技能）
-- **审计路径**: `C:\Users\hnist\.workbuddy\skills\vt-insight\SKILL.md`
+- **审计路径**: `C:\Users\xxxxx\.workbuddy\skills\vt-insight\SKILL.md`
 - **审计时间**: 2026-04-14 07:40
 - **发现问题总数**: 0个
   - 🔴 P0 阻断级: 0个
