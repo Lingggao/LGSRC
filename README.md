@@ -20,7 +20,6 @@
 <img src="Images/LING_3.png" width = "35%" />
 </div>
 
-
 <h1 align="center">灵糕中心 · 安全响应中心</h1>
 
 <h3 align="center">(LGHUB · Security Response Center)</h3>
@@ -72,7 +71,7 @@
 
 &emsp;&emsp;上次更新时间：2026 年 4 月 15 日 8:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 4 月 15 日，本中心已打击计算机病毒 / 恶意软件 848 个、恶意网站 310 个，累计为潜在受害者规避经济损失约 5,808,726 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 4 月 15 日，本中心已打击计算机病毒 / 恶意软件 848 个、恶意网站 310 个，累计为潜在受害者规避经济损失约 5,815,584 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;**本中心每打击 1 个计算机病毒、恶意软件或恶意网站，将同步向联合国儿童基金会 “爱心为救灾” 计划捐赠 1 元人民币**。该计划旨在支持中国及其他国家实现可持续发展目标，特别是为困境儿童提供援助。
 
@@ -110,7 +109,7 @@
 | 2026/4/14 |  youkuclient···80.exe   |       **LockBit**        | 4b0b22299315c31d97f823dce6da039fcc9c9d2dbcf141feb218f9939164a1a3 | fb5f93df-7aca-4a0e-91e5-b21907f1b133 | [VirusTotal](https://www.virustotal.com/gui/file/4b0b22299315c31d97f823dce6da039fcc9c9d2dbcf141feb218f9939164a1a3) (47) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/4b0b22299315c31d97f823dce6da039fcc9c9d2dbcf141feb218f9939164a1a3) | A845 |
 | 2026/4/14 |  速云网络 Setup···.exe  |        **QQPass**        | 00009f21c12d3c2d5c6bc2d556b8b2f45357e75cf0e149e20021784da377f829 |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/00009f21c12d3c2d5c6bc2d556b8b2f45357e75cf0e149e20021784da377f829) (5) |                              无                              | A846 |
 | 2026/4/15 |         123.exe         |   **银狐 (SilverFox)**   | 2ab48cf9bb3227de8475e8e120b30e91789df69d9c66883e947375593920983d | 55a10b5c-67f6-48c0-ba0a-99d613d06698 | [VirusTotal](https://www.virustotal.com/gui/file/2ab48cf9bb3227de8475e8e120b30e91789df69d9c66883e947375593920983d) (8) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/2ab48cf9bb3227de8475e8e120b30e91789df69d9c66883e947375593920983d) | A847 |
-| 2026/4/15 | OBS屏幕录制回放···.exe  |   **银狐 (SilverFox)**   | 2caa0eb6a0c179439afc256fb67bd611a70232aabbe11130858554f6b1f249c6 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/2caa0eb6a0c179439afc256fb67bd611a70232aabbe11130858554f6b1f249c6) (15) |                  [MalwareBazaar Database]()                  | A848 |
+| 2026/4/15 | OBS屏幕录制回放···.exe  |   **银狐 (SilverFox)**   | 2caa0eb6a0c179439afc256fb67bd611a70232aabbe11130858554f6b1f249c6 | 9e9f7dac-eb3f-43b6-a3da-496bb93513d1 | [VirusTotal](https://www.virustotal.com/gui/file/2caa0eb6a0c179439afc256fb67bd611a70232aabbe11130858554f6b1f249c6) (15) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/2caa0eb6a0c179439afc256fb67bd611a70232aabbe11130858554f6b1f249c6) | A848 |
 |  ——————   |      ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
