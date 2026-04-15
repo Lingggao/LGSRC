@@ -17,8 +17,9 @@
 </div>
 
 <div align="center">
-<img src="Images/LING_2.png" width = "25%" />
+<img src="Images/LING_3.png" width = "25%" />
 </div>
+
 
 <h1 align="center">灵糕中心 · 安全响应中心</h1>
 
