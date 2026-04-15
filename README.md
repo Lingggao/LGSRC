@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 4 月 15 日 5:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 4 月 15 日 8:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 4 月 15 日，本中心已打击计算机病毒 / 恶意软件 847 个、恶意网站 310 个，累计为潜在受害者规避经济损失约 5,808,726 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 4 月 15 日，本中心已打击计算机病毒 / 恶意软件 848 个、恶意网站 310 个，累计为潜在受害者规避经济损失约 5,808,726 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;**本中心每打击 1 个计算机病毒、恶意软件或恶意网站，将同步向联合国儿童基金会 “爱心为救灾” 计划捐赠 1 元人民币**。该计划旨在支持中国及其他国家实现可持续发展目标，特别是为困境儿童提供援助。
 
@@ -85,8 +85,6 @@
 
 |   日期    |         文件名          |           检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :---------------------: | :----------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/4/11 |       LetsVPN.exe       |   **银狐 (SilverFox)**   | e34fed678302c144ab655ebfb54a2493551266bfdf66fd35c7e85c3c6000b592 | 6a8395c3-5f60-4202-b28e-14cced3f81f3 | [VirusTotal](https://www.virustotal.com/gui/file/e34fed678302c144ab655ebfb54a2493551266bfdf66fd35c7e85c3c6000b592) (2) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/e34fed678302c144ab655ebfb54a2493551266bfdf66fd35c7e85c3c6000b592) | A822 |
-| 2026/4/11 |     抖音提号器q.exe     |   **银狐 (SilverFox)**   | a46b201cff1ac3871d66c2451a7b23269fc33941b15745ad458a0156d6d7e2c9 | 5a6e4417-c824-4bba-bf6f-423590fe005f | [VirusTotal](https://www.virustotal.com/gui/file/a46b201cff1ac3871d66c2451a7b23269fc33941b15745ad458a0156d6d7e2c9) (13) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a46b201cff1ac3871d66c2451a7b23269fc33941b15745ad458a0156d6d7e2c9) | A823 |
 | 2026/4/12 |  会所···上门价格表.exe  |   **银狐 (SilverFox)**   | a4b98f96d11162d515dd7426a1a43f6ed2c67a3d4c3b6832ebc36be3826efddb | a8f10b37-5df4-48db-bcb3-f8aa5e715a07 | [VirusTotal](https://www.virustotal.com/gui/file/a4b98f96d11162d515dd7426a1a43f6ed2c67a3d4c3b6832ebc36be3826efddb) (30) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a4b98f96d11162d515dd7426a1a43f6ed2c67a3d4c3b6832ebc36be3826efddb) | A824 |
 | 2026/4/12 |       LetsVPN.exe       |   **银狐 (SilverFox)**   | 3b82b24a851210b94f8db3db951b4a3a0ee48438c36f8c845827ef4bd67d1760 | 623421d2-b396-440e-a1de-64a38ed60e21 | [VirusTotal](https://www.virustotal.com/gui/file/3b82b24a851210b94f8db3db951b4a3a0ee48438c36f8c845827ef4bd67d1760) (7) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/3b82b24a851210b94f8db3db951b4a3a0ee48438c36f8c845827ef4bd67d1760) | A825 |
 | 2026/4/12 |    lightningx···.exe    | **银狐 (SilverFox.wos)** | c6ddc601a26d68c078bf906bf9c7cff9ef3642335728639ac73d00d1b0df6a5b | 9986f9fc-5cac-49e3-b398-c655eee4f7a1 | [VirusTotal](https://www.virustotal.com/gui/file/c6ddc601a26d68c078bf906bf9c7cff9ef3642335728639ac73d00d1b0df6a5b) (16) |                              无                              | A826 |
@@ -110,7 +108,8 @@
 | 2026/4/14 | ···乱纪人员名单pdf.exe  |        **RokRat**        | 07777df44654c84f4cf407d3338189d1c25e5e9f52d1df7c7603b430d7fc18f0 | 14126cd4-4a4e-4557-825e-185f329f6e51 | [VirusTotal](https://www.virustotal.com/gui/file/07777df44654c84f4cf407d3338189d1c25e5e9f52d1df7c7603b430d7fc18f0) (9) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/07777df44654c84f4cf407d3338189d1c25e5e9f52d1df7c7603b430d7fc18f0) | A844 |
 | 2026/4/14 |  youkuclient···80.exe   |       **LockBit**        | 4b0b22299315c31d97f823dce6da039fcc9c9d2dbcf141feb218f9939164a1a3 | fb5f93df-7aca-4a0e-91e5-b21907f1b133 | [VirusTotal](https://www.virustotal.com/gui/file/4b0b22299315c31d97f823dce6da039fcc9c9d2dbcf141feb218f9939164a1a3) (47) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/4b0b22299315c31d97f823dce6da039fcc9c9d2dbcf141feb218f9939164a1a3) | A845 |
 | 2026/4/14 |  速云网络 Setup···.exe  |        **QQPass**        | 00009f21c12d3c2d5c6bc2d556b8b2f45357e75cf0e149e20021784da377f829 |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/00009f21c12d3c2d5c6bc2d556b8b2f45357e75cf0e149e20021784da377f829) (5) |                              无                              | A846 |
-| 2026/4/15 |         123.exe         |   **银狐 (SilverFox)**   | 2ab48cf9bb3227de8475e8e120b30e91789df69d9c66883e947375593920983d |                                      | [VirusTotal](https://www.virustotal.com/gui/file/2ab48cf9bb3227de8475e8e120b30e91789df69d9c66883e947375593920983d) (8) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/2ab48cf9bb3227de8475e8e120b30e91789df69d9c66883e947375593920983d) | A847 |
+| 2026/4/15 |         123.exe         |   **银狐 (SilverFox)**   | 2ab48cf9bb3227de8475e8e120b30e91789df69d9c66883e947375593920983d | 55a10b5c-67f6-48c0-ba0a-99d613d06698 | [VirusTotal](https://www.virustotal.com/gui/file/2ab48cf9bb3227de8475e8e120b30e91789df69d9c66883e947375593920983d) (8) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/2ab48cf9bb3227de8475e8e120b30e91789df69d9c66883e947375593920983d) | A847 |
+| 2026/4/15 | OBS屏幕录制回放···.exe  |   **银狐 (SilverFox)**   | 2caa0eb6a0c179439afc256fb67bd611a70232aabbe11130858554f6b1f249c6 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/2caa0eb6a0c179439afc256fb67bd611a70232aabbe11130858554f6b1f249c6) (15) |                  [MalwareBazaar Database]()                  | A848 |
 |  ——————   |      ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -148,7 +147,7 @@
 
 > [!NOTE]
 >
-> &emsp;只显示最近约 30 条数据，更早数据详见 LGSRC/[Archive_2.md](https://github.com/Lingggao/LGSRC/blob/main/Archive_2.md) (恶意网站归档)。
+> &emsp;只显示最近约 20 条数据，更早数据详见 LGSRC/[Archive_2.md](https://github.com/Lingggao/LGSRC/blob/main/Archive_2.md) (恶意网站归档)。
 
 ## 交流与合作
 
