@@ -17,7 +17,7 @@
 </div>
 
 <div align="center">
-<img src="Images/LING_3.png" width = "25%" />
+<img src="Images/LING_3.png" width = "35%" />
 </div>
 
 
