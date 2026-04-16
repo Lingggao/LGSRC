@@ -69,7 +69,7 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 4 月 16 日 20:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 4 月 16 日 23:00 (GMT+8)
 
 &emsp;&emsp;**截至 2026 年 4 月 16 日，本中心已打击计算机病毒 / 恶意软件 858 个、恶意网站 313 个，累计为潜在受害者规避经济损失约 5,863,590 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
@@ -85,9 +85,6 @@
 
 |   日期    |         文件名          |           检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :---------------------: | :----------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/4/13 |  VolumeController.exe   | **银狐 (SilverFox.sb)**  | 0d9e6c88ea00a3eb737ac99c7da52b413d2d7cfdd890f3075d17dfe0b327d0e6 | 58a378d5-9b5d-419c-9eca-da4a643245f8 | [VirusTotal](https://www.virustotal.com/gui/file/0d9e6c88ea00a3eb737ac99c7da52b413d2d7cfdd890f3075d17dfe0b327d0e6) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/0d9e6c88ea00a3eb737ac99c7da52b413d2d7cfdd890f3075d17dfe0b327d0e6) | A831 |
-| 2026/4/13 |         tod.exe         | **银狐 (SilverFox.sa)**  | e0fa452c7672f34e7f92d0a6a43d51baadecbebc5b134fb1e83c80085a09f9bd | b73a334d-5cf1-4968-82f7-f3058028de12 | [VirusTotal](https://www.virustotal.com/gui/file/e0fa452c7672f34e7f92d0a6a43d51baadecbebc5b134fb1e83c80085a09f9bd) (24) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/e0fa452c7672f34e7f92d0a6a43d51baadecbebc5b134fb1e83c80085a09f9bd) | A832 |
-| 2026/4/13 |   ToDesk_4.8.8.0.exe    | **银狐 (SilverFox.sa)**  | cbeb53ac63b2bb3d5b4886c715953a550c46ef30cab5129cd2e97d581fb0cec9 | 0d0978bf-6f96-4fab-9280-340c458f6f82 | [VirusTotal](https://www.virustotal.com/gui/file/cbeb53ac63b2bb3d5b4886c715953a550c46ef30cab5129cd2e97d581fb0cec9) (11) |                              无                              | A833 |
 | 2026/4/13 | ···决策分析-冲刺班.EXE  |         **DRM**          | 7bef20308aa9c462faaf6baf088af0d2540ad67cd2181c5e221e5d7df84cf8de | 7a6e9c94-ae01-422e-8d7d-6337b69161b0 | [VirusTotal](https://www.virustotal.com/gui/file/7bef20308aa9c462faaf6baf088af0d2540ad67cd2181c5e221e5d7df84cf8de) (21) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/7bef20308aa9c462faaf6baf088af0d2540ad67cd2181c5e221e5d7df84cf8de) | A834 |
 | 2026/4/13 | ···话术套路去开单_l.exe |       **PureHVNC**       | c7512951e33b97996b2218af7039a60d766d1c1b197e93ea3843335f25eb29f6 | d2b9487b-6ab6-45ee-838e-194918c76cad | [VirusTotal](https://www.virustotal.com/gui/file/c7512951e33b97996b2218af7039a60d766d1c1b197e93ea3843335f25eb29f6) (13) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c7512951e33b97996b2218af7039a60d766d1c1b197e93ea3843335f25eb29f6) | A835 |
 | 2026/4/13 |    ···中文语言包.exe    |      **ValleyRAT**       | e2c72920b15258deaaef003cca1defdce6f6db00ad2f6c5e396a112815bea9eb | ddd6c0de-8f4c-43e5-a972-eba2378d9417 | [VirusTotal](https://www.virustotal.com/gui/file/e2c72920b15258deaaef003cca1defdce6f6db00ad2f6c5e396a112815bea9eb) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/e2c72920b15258deaaef003cca1defdce6f6db00ad2f6c5e396a112815bea9eb) | A836 |
@@ -157,7 +154,7 @@
 
 &emsp;&emsp;如需联系 Ling Gao，请发送电子邮件至 **Ling@LGHUB.org**。谢谢！😀
 
-&emsp;&emsp;欢迎体验我们编写的 **OpenClaw (龙虾 AI)** 技能 “[**vt-insight**](https://github.com/Lingggao/LGSRC/blob/main/vt-insight/SKILL.md)”！该技能可用于在 VirusTotal 网站查询样本信息，自动整理并格式化输出查询报告 ([效果图](https://github.com/Lingggao/LGSRC/blob/main/Images/Rendering.png))。向 AI 大模型发送指令 `“将此 .md 文档作为 OpenClaw 技能安装：https://github.com/Lingggao/LGSRC/blob/main/vt-insight/SKILL.md，安装成功后进行简要介绍”` 即可安装此技能，前往 [ClawHub](https://clawhub.ai/lingggao/vt-insight) 平台安装亦可。([vt-insight 技能安全审计报告](https://github.com/Lingggao/LGSRC/blob/main/Documents/vt-insight-security-audit-report%20(%E8%85%BE%E8%AE%AF%E5%AE%89%E5%85%A8%E4%BA%91%E9%BC%8E%E5%AE%9E%E9%AA%8C%E5%AE%A4).md))
+&emsp;&emsp;欢迎体验我们编写的 **OpenClaw (龙虾 AI Agent)** 技能 “[**vt-insight**](https://github.com/Lingggao/LGSRC/blob/main/vt-insight/SKILL.md)”！该技能可用于在 VirusTotal 网站查询样本信息，自动整理并格式化输出查询报告 ([效果图](https://github.com/Lingggao/LGSRC/blob/main/Images/Rendering.png))。向 AI 大模型发送指令 `“将此 .md 文档作为 OpenClaw Skill 安装：https://github.com/Lingggao/LGSRC/blob/main/vt-insight/SKILL.md，安装成功后进行简要介绍”` 即可安装此技能，前往 [**ClawHub**](https://clawhub.ai/lingggao/vt-insight) 平台安装亦可。([vt-insight 技能安全审计报告](https://github.com/Lingggao/LGSRC/blob/main/Documents/vt-insight-security-audit-report%20(%E8%85%BE%E8%AE%AF%E5%AE%89%E5%85%A8%E4%BA%91%E9%BC%8E%E5%AE%9E%E9%AA%8C%E5%AE%A4).md))
 
 ---
 
