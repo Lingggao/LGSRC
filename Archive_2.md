@@ -305,6 +305,7 @@
 | 2026/4/11 |           hxxps://www[.]letsvpns[.]cn           |    借助 VPN 工具传播病毒    | hxxps://caifulai[.]oss-accelerate[.]aliyuncs[.]com/leuxtrogxre_x64[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3816013) | Z293 |
 | 2026/4/11 |          hxxps://letsvpn-service[.]com          |    借助 VPN 工具传播病毒    |                       有，载荷提取失败                       |                            无                            | Z294 |
 | 2026/4/11 |        hxxps://www[.]letskuai[.]com[.]cn        |    借助 VPN 工具传播病毒    |                              无                              |                            无                            | Z295 |
+| 2026/4/11 |        hxxps://www[.]letvpns[.]com[.]cn         |    借助 VPN 工具传播病毒    |     hxxps://dows[.]1v5s[.]com/zh/letsvpn-latestX64[.]zip     | [URLhaus Database](https://urlhaus.abuse.ch/url/3816011) | Z296 |
 |  ——————   |              ————————————————————               |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
