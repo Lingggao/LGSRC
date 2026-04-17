@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 4 月 17 日 18:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 4 月 17 日 19:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 4 月 17 日，本中心已打击计算机病毒 / 恶意软件 861 个、恶意网站 313 个，累计为潜在受害者规避经济损失约 5,904,738 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 4 月 17 日，本中心已打击计算机病毒 / 恶意软件 863 个、恶意网站 313 个，累计为潜在受害者规避经济损失约 5,904,738 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;**本中心每打击 1 个计算机病毒、恶意软件或恶意网站，将同步向联合国儿童基金会 “爱心为救灾” 计划捐赠 1 元人民币**。该计划旨在支持中国及其他国家实现可持续发展目标，特别是为困境儿童提供援助。
 
@@ -85,8 +85,6 @@
 
 |   日期    |         文件名          |           检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :---------------------: | :----------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/4/13 |  ···安装中文语言包.exe  |      **ValleyRAT**       | b7002aa3750f1558f84702faf82416d3dbb5cd3b77c26bd577d14778c5acdb9b | 54a317a8-b236-4471-9e72-c56edb2e03aa | [VirusTotal](https://www.virustotal.com/gui/file/b7002aa3750f1558f84702faf82416d3dbb5cd3b77c26bd577d14778c5acdb9b) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b7002aa3750f1558f84702faf82416d3dbb5cd3b77c26bd577d14778c5acdb9b) | A837 |
-| 2026/4/13 |    ···中文语音包.EXE    |  **Win32/Malgent!MSR**   | 9eb087907901201235571b5d6bf04c18260c6f219f33dde1a64faa6169db478f | 8f63c6ff-ad2e-42ea-8ae4-2eafa80f41a2 | [VirusTotal](https://www.virustotal.com/gui/file/9eb087907901201235571b5d6bf04c18260c6f219f33dde1a64faa6169db478f) (7) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/9eb087907901201235571b5d6bf04c18260c6f219f33dde1a64faa6169db478f) | A838 |
 | 2026/4/13 |  ···中文语言包zzl.exe   |   **银狐 (SilverFox)**   | 0e2f9ad8b25420aeee57a0f244730a94102695f43b292dd445ac6fc926d8aeb7 | 666a9d4d-edd1-49c3-836e-fc13697726cc | [VirusTotal](https://www.virustotal.com/gui/file/0e2f9ad8b25420aeee57a0f244730a94102695f43b292dd445ac6fc926d8aeb7) (7) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/0e2f9ad8b25420aeee57a0f244730a94102695f43b292dd445ac6fc926d8aeb7) | A839 |
 | 2026/4/14 |      chronmwin.msi      |   **银狐 (SilverFox)**   | d457af10c19d93d98dc299be7caba09c15aaf06e2ef3a5b86bb95bf369c07222 | 583448ca-129b-45e0-89fe-ec724fe2db44 | [VirusTotal](https://www.virustotal.com/gui/file/d457af10c19d93d98dc299be7caba09c15aaf06e2ef3a5b86bb95bf369c07222) (17) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/d457af10c19d93d98dc299be7caba09c15aaf06e2ef3a5b86bb95bf369c07222) | A840 |
 | 2026/4/14 |    gogle_win64_5.exe    |   **银狐 (SilverFox)**   | 265265600f51996bfcafe07b45bff31ffced25322396208cd87743485eb2640f | 85b1744b-ea30-48e5-8f67-26034630ced9 | [VirusTotal](https://www.virustotal.com/gui/file/265265600f51996bfcafe07b45bff31ffced25322396208cd87743485eb2640f) (6) |                              无                              | A841 |
@@ -110,6 +108,8 @@
 | 2026/4/17 |    ···Bootstrap.dll     | **银狐 (SilverFox.ct)**  | 15b8d9cfaf97050ef3ec3f3850517d139f8f4908216830eb930d64a59e464a9e | b936ddff-41db-4641-a6ab-227f30132a11 | [VirusTotal](https://www.virustotal.com/gui/file/15b8d9cfaf97050ef3ec3f3850517d139f8f4908216830eb930d64a59e464a9e) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/15b8d9cfaf97050ef3ec3f3850517d139f8f4908216830eb930d64a59e464a9e) | A859 |
 | 2026/4/17 | 重庆···事业单位通知.exe |        **VShell**        | a3c44344c6cf05470bb2c65099bec2229152974e229011c51185e475f07c80cd | 097fbb12-6f89-48d2-bf8d-54556bf4ebaf | [VirusTotal](https://www.virustotal.com/gui/file/a3c44344c6cf05470bb2c65099bec2229152974e229011c51185e475f07c80cd) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a3c44344c6cf05470bb2c65099bec2229152974e229011c51185e475f07c80cd) | A860 |
 | 2026/4/17 |   CS2纯透视注入器.exe   |       **GameHack**       | 26be13b6798dc50c6dd01a5265e174610fe5136f6cf4fb6e2431780a1b3085e5 | 43b9f609-c68b-42f3-9b49-e9b82e37db67 | [VirusTotal](https://www.virustotal.com/gui/file/26be13b6798dc50c6dd01a5265e174610fe5136f6cf4fb6e2431780a1b3085e5) (13) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/26be13b6798dc50c6dd01a5265e174610fe5136f6cf4fb6e2431780a1b3085e5) | A861 |
+| 2026/4/17 |   Clnrome51b7-x64.exe   |   **银狐 (SilverFox)**   | b24ebf90587e25daa475f46f9d2650e84b125c8ff260aa673617d5c75cf04ad2 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/b24ebf90587e25daa475f46f9d2650e84b125c8ff260aa673617d5c75cf04ad2) (25) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b24ebf90587e25daa475f46f9d2650e84b125c8ff260aa673617d5c75cf04ad2) | A862 |
+| 2026/4/17 | lest-latest-0.12.4.exe  |      **Cybercrime**      | a4ac7e6a322f8ad738247897c50c4e272ee9b3ff331576b0ac5f86e389b34086 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/a4ac7e6a322f8ad738247897c50c4e272ee9b3ff331576b0ac5f86e389b34086) (8) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a4ac7e6a322f8ad738247897c50c4e272ee9b3ff331576b0ac5f86e389b34086) | A863 |
 |  ——————   |      ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
