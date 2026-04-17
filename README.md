@@ -69,7 +69,7 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 4 月 18 日 7:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 4 月 18 日 8:00 (GMT+8)
 
 &emsp;&emsp;**截至 2026 年 4 月 18 日，本中心已打击计算机病毒 / 恶意软件 870 个、恶意网站 322 个，累计为潜在受害者规避经济损失约 5,966,460 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
@@ -109,8 +109,8 @@
 | 2026/4/18 |    xianrikui.x64.exe    | **银狐 (SilverFox.sa)**  | 4c88c60dcd6d62f586dfe95887686f7db2a06d5ff34870e34dd252cc174ace73 | 49dc7f16-8b6d-4e44-8a02-d219f8734db6 | [VirusTotal](https://www.virustotal.com/gui/file/4c88c60dcd6d62f586dfe95887686f7db2a06d5ff34870e34dd252cc174ace73) (13) |                              无                              | A866 |
 | 2026/4/18 |    Youdaofy-as64.exe    |   **银狐 (SilverFox)**   | dfaaef3617dddba2c81c8b6872d5ca99aaf08f84b26818d883bb8f3de0e24169 | 6297bc02-fdc9-44e6-ad6b-088a004e4949 | [VirusTotal](https://www.virustotal.com/gui/file/dfaaef3617dddba2c81c8b6872d5ca99aaf08f84b26818d883bb8f3de0e24169) (6) |                              无                              | A867 |
 | 2026/4/18 |  精选收集整理-rR15.exe  |   **银狐 (SilverFox)**   | fa8b8c81b1c8727b78bd76a0a847582540df09fe77189c929dba1112317eed0c | 6b2eb481-9c50-4c41-9336-c2eb3fdd04fb | [VirusTotal](https://www.virustotal.com/gui/file/fa8b8c81b1c8727b78bd76a0a847582540df09fe77189c929dba1112317eed0c) (9) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/fa8b8c81b1c8727b78bd76a0a847582540df09fe77189c929dba1112317eed0c) | A868 |
-| 2026/4/18 |    sogou_win64_9.exe    |   **银狐 (SilverFox)**   | 5cac69e9743a9017bc618333ad5ca02941a21b35c58c796bf4006e246d83db0c |                                      | [VirusTotal](https://www.virustotal.com/gui/file/5cac69e9743a9017bc618333ad5ca02941a21b35c58c796bf4006e246d83db0c) (2) |                              无                              | A869 |
-| 2026/4/18 |   sougoshurufa···.exe   |                          | 7e52d7b057216417906784901f6991c2213bde3f8efc89d43964228f2b1d3c1a |                                      | [VirusTotal](https://www.virustotal.com/gui/file/7e52d7b057216417906784901f6991c2213bde3f8efc89d43964228f2b1d3c1a) (12) |                              无                              | A870 |
+| 2026/4/18 |    sogou_win64_9.exe    |   **银狐 (SilverFox)**   | 5cac69e9743a9017bc618333ad5ca02941a21b35c58c796bf4006e246d83db0c | 0534c4bb-a965-41a8-a861-aeff204fb90d | [VirusTotal](https://www.virustotal.com/gui/file/5cac69e9743a9017bc618333ad5ca02941a21b35c58c796bf4006e246d83db0c) (2) |                              无                              | A869 |
+| 2026/4/18 |   sougoshurufa···.exe   |        **Agent**         | 7e52d7b057216417906784901f6991c2213bde3f8efc89d43964228f2b1d3c1a | 4cc12ec9-81f7-47e7-8293-b9f34fa83551 | [VirusTotal](https://www.virustotal.com/gui/file/7e52d7b057216417906784901f6991c2213bde3f8efc89d43964228f2b1d3c1a) (12) |                              无                              | A870 |
 |  ——————   |      ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
