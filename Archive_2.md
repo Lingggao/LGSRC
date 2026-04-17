@@ -306,6 +306,13 @@
 | 2026/4/11 |          hxxps://letsvpn-service[.]com          |    借助 VPN 工具传播病毒    |                       有，载荷提取失败                       |                            无                            | Z294 |
 | 2026/4/11 |        hxxps://www[.]letskuai[.]com[.]cn        |    借助 VPN 工具传播病毒    |                              无                              |                            无                            | Z295 |
 | 2026/4/11 |        hxxps://www[.]letvpns[.]com[.]cn         |    借助 VPN 工具传播病毒    |     hxxps://dows[.]1v5s[.]com/zh/letsvpn-latestX64[.]zip     | [URLhaus Database](https://urlhaus.abuse.ch/url/3816011) | Z296 |
+| 2026/4/11 |          hxxps://lets-vpn3[.]com[.]cn           |    借助 VPN 工具传播病毒    |                              无                              |                            无                            | Z297 |
+| 2026/4/11 |      hxxps://www[.]kuailianevpn[.]com[.]cn      |    借助 VPN 工具传播病毒    | hxxps://kkk-214125124[.]s3[.]ap-southeast-1[.]amazonaws[.]com/Lets-VPN5[.]0[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3816014) | Z298 |
+| 2026/4/11 |          hxxps://ghkuailian[.]com[.]cn          |    借助 VPN 工具传播病毒    | hxxps://yangyangoss8[.]oss-cn-hongkong[.]aliyuncs[.]com/Letslat2[.]5[.]zip |                            无                            | Z299 |
+| 2026/4/11 |          hxxps://hukuailian[.]com[.]cn          |    借助 VPN 工具传播病毒    |                           同 Z299                            |                            无                            | Z300 |
+| 2026/4/12 |           hxxps://apps-tencent[.]com            |   仿冒腾讯会议、传播病毒    | hxxps://download[.]i19d9[.]top/TencentMeetig_03h_offiwebsite[.]zip |                            无                            | Z301 |
+| 2026/4/12 |          hxxps://meeting-tencent[.]org          |   仿冒腾讯会议、传播病毒    | hxxps://youdownnet[.]oss-cn-hongkong[.]aliyuncs[.]com/TencentMeeting_setup_airPC_x64[.]zip |                            无                            | Z302 |
+| 2026/4/12 |             hxxps://zh-tenxun[.]com             |   仿冒腾讯会议、传播病毒    |                           同 Z301                            |                            无                            | Z303 |
 |  ——————   |              ————————————————————               |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
