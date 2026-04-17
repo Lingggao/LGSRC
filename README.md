@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 4 月 17 日 8:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 4 月 17 日 10:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 4 月 17 日，本中心已打击计算机病毒 / 恶意软件 858 个、恶意网站 313 个，累计为潜在受害者规避经济损失约 5,891,022 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 4 月 17 日，本中心已打击计算机病毒 / 恶意软件 861 个、恶意网站 313 个，累计为潜在受害者规避经济损失约 5,904,738 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;**本中心每打击 1 个计算机病毒、恶意软件或恶意网站，将同步向联合国儿童基金会 “爱心为救灾” 计划捐赠 1 元人民币**。该计划旨在支持中国及其他国家实现可持续发展目标，特别是为困境儿童提供援助。
 
@@ -110,6 +110,9 @@
 | 2026/4/16 | ···4.16 人 员 信 息.exe | **银狐 (SilverFox.sad)** | f34480a8a761877e43253e2671518b5727d343fc9efc51023dbb5f4fb2d3548a | bfc691f1-e3b5-4d9d-84a0-f0ed371db7a3 | [VirusTotal](https://www.virustotal.com/gui/file/f34480a8a761877e43253e2671518b5727d343fc9efc51023dbb5f4fb2d3548a) (7) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/f34480a8a761877e43253e2671518b5727d343fc9efc51023dbb5f4fb2d3548a) | A856 |
 | 2026/4/16 |        Clsah.exe        |      **Cybercrime**      | 2964e261f65fe9f753f04f76db99d2c3104f118d10aa1132b5e87f9241bbcfa8 | 3099e79e-d932-468d-8819-36ea59cac763 | [VirusTotal](https://www.virustotal.com/gui/file/2964e261f65fe9f753f04f76db99d2c3104f118d10aa1132b5e87f9241bbcfa8) (18) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/2964e261f65fe9f753f04f76db99d2c3104f118d10aa1132b5e87f9241bbcfa8) | A857 |
 | 2026/4/16 |        公牛.exe         |        **Agentb**        | 348613c426f2eee074228716c0fe65bc9022c7a6e5cce117c9de260bbab2abd4 | cf3c8732-46ea-4e0c-a4ea-c61040cbed8b | [VirusTotal](https://www.virustotal.com/gui/file/348613c426f2eee074228716c0fe65bc9022c7a6e5cce117c9de260bbab2abd4) (16) |                              无                              | A858 |
+| 2026/4/17 |    ···Bootstrap.dll     | **银狐 (SilverFox.ct)**  | 15b8d9cfaf97050ef3ec3f3850517d139f8f4908216830eb930d64a59e464a9e |                                      | [VirusTotal](https://www.virustotal.com/gui/file/15b8d9cfaf97050ef3ec3f3850517d139f8f4908216830eb930d64a59e464a9e) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/15b8d9cfaf97050ef3ec3f3850517d139f8f4908216830eb930d64a59e464a9e) | A859 |
+| 2026/4/17 | 重庆···事业单位通知.exe |        **VShell**        | a3c44344c6cf05470bb2c65099bec2229152974e229011c51185e475f07c80cd |                                      | [VirusTotal](https://www.virustotal.com/gui/file/a3c44344c6cf05470bb2c65099bec2229152974e229011c51185e475f07c80cd) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a3c44344c6cf05470bb2c65099bec2229152974e229011c51185e475f07c80cd) | A860 |
+| 2026/4/17 |   CS2纯透视注入器.exe   |       **GameHack**       | 26be13b6798dc50c6dd01a5265e174610fe5136f6cf4fb6e2431780a1b3085e5 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/26be13b6798dc50c6dd01a5265e174610fe5136f6cf4fb6e2431780a1b3085e5) (13) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/26be13b6798dc50c6dd01a5265e174610fe5136f6cf4fb6e2431780a1b3085e5) | A861 |
 |  ——————   |      ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
