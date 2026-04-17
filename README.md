@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 4 月 17 日 23:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 4 月 18 日 1:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 4 月 17 日，本中心已打击计算机病毒 / 恶意软件 864 个、恶意网站 313 个，累计为潜在受害者规避经济损失约 5,925,312 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 4 月 18 日，本中心已打击计算机病毒 / 恶意软件 864 个、恶意网站 313 个，累计为潜在受害者规避经济损失约 5,925,312 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;**本中心每打击 1 个计算机病毒、恶意软件或恶意网站，将同步向联合国儿童基金会 “爱心为救灾” 计划捐赠 1 元人民币**。该计划旨在支持中国及其他国家实现可持续发展目标，特别是为困境儿童提供援助。
 
@@ -110,7 +110,7 @@
 | 2026/4/17 |   CS2纯透视注入器.exe   |       **GameHack**       | 26be13b6798dc50c6dd01a5265e174610fe5136f6cf4fb6e2431780a1b3085e5 | 43b9f609-c68b-42f3-9b49-e9b82e37db67 | [VirusTotal](https://www.virustotal.com/gui/file/26be13b6798dc50c6dd01a5265e174610fe5136f6cf4fb6e2431780a1b3085e5) (13) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/26be13b6798dc50c6dd01a5265e174610fe5136f6cf4fb6e2431780a1b3085e5) | A861 |
 | 2026/4/17 |   Clnrome51b7-x64.exe   |   **银狐 (SilverFox)**   | b24ebf90587e25daa475f46f9d2650e84b125c8ff260aa673617d5c75cf04ad2 | 5ba36f75-e42b-4ce7-b025-4a3b0e70cec6 | [VirusTotal](https://www.virustotal.com/gui/file/b24ebf90587e25daa475f46f9d2650e84b125c8ff260aa673617d5c75cf04ad2) (25) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b24ebf90587e25daa475f46f9d2650e84b125c8ff260aa673617d5c75cf04ad2) | A862 |
 | 2026/4/17 | lest-latest-0.12.4.exe  |      **Cybercrime**      | a4ac7e6a322f8ad738247897c50c4e272ee9b3ff331576b0ac5f86e389b34086 | a7f33486-212b-4939-a034-dcb8cf2f9dc6 | [VirusTotal](https://www.virustotal.com/gui/file/a4ac7e6a322f8ad738247897c50c4e272ee9b3ff331576b0ac5f86e389b34086) (8) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a4ac7e6a322f8ad738247897c50c4e272ee9b3ff331576b0ac5f86e389b34086) | A863 |
-| 2026/4/17 | ···美女动漫头像合集.exe |       **Generic**        | c2048e48933bf50ba92c595f15807c9b9b513ee284b0f05231ea5e52c2cc60e0 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/c2048e48933bf50ba92c595f15807c9b9b513ee284b0f05231ea5e52c2cc60e0) (3) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c2048e48933bf50ba92c595f15807c9b9b513ee284b0f05231ea5e52c2cc60e0) | A864 |
+| 2026/4/17 | ···美女动漫头像合集.exe |       **Generic**        | c2048e48933bf50ba92c595f15807c9b9b513ee284b0f05231ea5e52c2cc60e0 | 99864c98-d52f-4f60-a625-3f4caf950eb5 | [VirusTotal](https://www.virustotal.com/gui/file/c2048e48933bf50ba92c595f15807c9b9b513ee284b0f05231ea5e52c2cc60e0) (3) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c2048e48933bf50ba92c595f15807c9b9b513ee284b0f05231ea5e52c2cc60e0) | A864 |
 |  ——————   |      ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
