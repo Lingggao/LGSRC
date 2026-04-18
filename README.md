@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 4 月 19 日 3:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 4 月 19 日 5:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 4 月 19 日，本中心已打击计算机病毒 / 恶意软件 872 个、恶意网站 322 个，累计为潜在受害者规避经济损失约 5,980,176 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 4 月 19 日，本中心已打击计算机病毒 / 恶意软件 874 个、恶意网站 323 个，累计为潜在受害者规避经济损失约 5,993,892 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;**本中心每打击 1 个计算机病毒、恶意软件或恶意网站，将同步向联合国儿童基金会 “爱心为救灾” 计划捐赠 1 元人民币**。该计划旨在支持中国及其他国家实现可持续发展目标，特别是为困境儿童提供援助。
 
@@ -85,8 +85,6 @@
 
 |   日期    |         文件名          |           检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :---------------------: | :----------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/4/15 | OBS屏幕录制回放···.exe  |   **银狐 (SilverFox)**   | 2caa0eb6a0c179439afc256fb67bd611a70232aabbe11130858554f6b1f249c6 | 9e9f7dac-eb3f-43b6-a3da-496bb93513d1 | [VirusTotal](https://www.virustotal.com/gui/file/2caa0eb6a0c179439afc256fb67bd611a70232aabbe11130858554f6b1f249c6) (15) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/2caa0eb6a0c179439afc256fb67bd611a70232aabbe11130858554f6b1f249c6) | A848 |
-| 2026/4/15 |   ···人员名单pdf.exe    | **银狐 (SilverFox.bg)**  | 4fb9f4695f78e60b3e15dc069486dd899f816f88a13b69ac7e9e496c49134624 | e792ca0a-d0f5-407b-bc99-5c6eda564bed | [VirusTotal](https://www.virustotal.com/gui/file/4fb9f4695f78e60b3e15dc069486dd899f816f88a13b69ac7e9e496c49134624) (10) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/4fb9f4695f78e60b3e15dc069486dd899f816f88a13b69ac7e9e496c49134624) | A849 |
 | 2026/4/15 | 2026···违纪名单信息.exe |   **银狐 (SilverFox)**   | 3ad7da28ef1ba24f7724bf52425bc936f013b94f9e369ad84e1bcb860286f5e9 | b3ee965a-58e0-405d-8474-a8016cc60840 | [VirusTotal](https://www.virustotal.com/gui/file/3ad7da28ef1ba24f7724bf52425bc936f013b94f9e369ad84e1bcb860286f5e9) (21) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/3ad7da28ef1ba24f7724bf52425bc936f013b94f9e369ad84e1bcb860286f5e9) | A850 |
 | 2026/4/15 |       malware.exe       | **银狐 (SilverFox.sx)**  | 760f3242ffc9539dc12bd2c28b03f2ffcc43ccf8829aeaa3daeacd36a3950cf9 | cd83ae1c-1333-443b-8d9e-7053809d8afc | [VirusTotal](https://www.virustotal.com/gui/file/760f3242ffc9539dc12bd2c28b03f2ffcc43ccf8829aeaa3daeacd36a3950cf9) (22) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/760f3242ffc9539dc12bd2c28b03f2ffcc43ccf8829aeaa3daeacd36a3950cf9) | A851 |
 | 2026/4/15 | Hibit Uninstall···.zip  |       **Suschil**        | bc34200fe1f15f8acfd3cf5a192a500e5fb5ec159951a4b8342f4d6d3aa19015 | 8471f8c6-a543-4e96-99fd-907b9f158596 | [VirusTotal](https://www.virustotal.com/gui/file/bc34200fe1f15f8acfd3cf5a192a500e5fb5ec159951a4b8342f4d6d3aa19015) (15) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/bc34200fe1f15f8acfd3cf5a192a500e5fb5ec159951a4b8342f4d6d3aa19015) | A852 |
@@ -110,6 +108,8 @@
 | 2026/4/18 |   sougoshurufa···.exe   |        **Agent**         | 7e52d7b057216417906784901f6991c2213bde3f8efc89d43964228f2b1d3c1a | 4cc12ec9-81f7-47e7-8293-b9f34fa83551 | [VirusTotal](https://www.virustotal.com/gui/file/7e52d7b057216417906784901f6991c2213bde3f8efc89d43964228f2b1d3c1a) (12) |                              无                              | A870 |
 | 2026/4/18 |      Launcher.exe       |         **Lazy**         | b8ad7b9f2eed92ba0c5b755c769a55b33afd03263b39c654dd97126439990733 | 23901af9-65c7-4ddb-85fd-d4353ef9362e | [VirusTotal](https://www.virustotal.com/gui/file/b8ad7b9f2eed92ba0c5b755c769a55b33afd03263b39c654dd97126439990733) (29) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b8ad7b9f2eed92ba0c5b755c769a55b33afd03263b39c654dd97126439990733) | A871 |
 | 2026/4/18 |       LetsVPN.exe       |   **银狐 (SilverFox)**   | bb2f9c51f52fd3c6fd8b1b1e4f94281311bdcd30805cca441cb3aa869e508d9d | 13973387-84ba-451f-b4c3-e09a642c8ab1 | [VirusTotal](https://www.virustotal.com/gui/file/bb2f9c51f52fd3c6fd8b1b1e4f94281311bdcd30805cca441cb3aa869e508d9d) (4) |                              无                              | A872 |
+| 2026/4/19 |   DeepSeekV20.66.msi    |   **银狐 (SilverFox)**   | b1cdb5276164d20052ce3bdd33cb2f20aaf8b00b4fb0a413ded5c489a2689e2e |                                      | [VirusTotal](https://www.virustotal.com/gui/file/b1cdb5276164d20052ce3bdd33cb2f20aaf8b00b4fb0a413ded5c489a2689e2e) (9) |                              无                              | A873 |
+| 2026/4/19 |     wps_win64_9.exe     |   **银狐 (SilverFox)**   | 5ff5940b7e9d0b41ce0e12808f2c81f737a2d7d3a509691ab1904731edd4c914 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/5ff5940b7e9d0b41ce0e12808f2c81f737a2d7d3a509691ab1904731edd4c914) (3) |                              无                              | A874 |
 |  ——————   |      ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -124,28 +124,26 @@
 >
 > &emsp;为确保安全，网站地址将用 “hxxps://” 与 “[.]” 进行替换。**切勿尝试访问表格中列出的任何网址**。
 
-|   日期    |                       URL                       |           类别           |                           有效载荷                           |                         URLhaus                          | 编号 |
-| :-------: | :---------------------------------------------: | :----------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
-| 2026/4/14 |      hxxps://zh[.]apps-google-hl[.]hl[.]cn      |  仿冒 Chrome、传播病毒   | hxxps://dindong[.]tos-cn-hongkong[.]volces[.]com/chronmwin[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3821083) | Z304 |
-| 2026/4/14 | hxxps://1981web[.]zh-yd-google-chrome[.]hl[.]cn |  仿冒 Chrome、传播病毒   |                       有，载荷提取失败                       |                            无                            | Z305 |
-| 2026/4/14 | hxxps://501web[.]zh-yd-google-chrome[.]hl[.]cn  |  仿冒 Chrome、传播病毒   |                           同 Z305                            |                            无                            | Z306 |
-| 2026/4/14 | hxxps://2523web[.]zh-yd-google-chrome[.]hl[.]cn |  仿冒 Chrome、传播病毒   |                           同 Z305                            |                            无                            | Z307 |
-| 2026/4/14 | hxxps://2513web[.]zh-yd-google-chrome[.]hl[.]cn |  仿冒 Chrome、传播病毒   |                           同 Z305                            |                            无                            | Z308 |
-| 2026/4/14 | hxxps://2758web[.]zh-yd-google-chrome[.]hl[.]cn |  仿冒 Chrome、传播病毒   |                           同 Z305                            |                            无                            | Z309 |
-| 2026/4/14 | hxxps://2586web[.]zh-yd-google-chrome[.]hl[.]cn |  仿冒 Chrome、传播病毒   |                           同 Z305                            |                            无                            | Z310 |
-| 2026/4/15 |         hxxp://hibit-uninstaller[.]org          |  仿冒 HiBit Uninstaller  | hxxps://direct-downloads[.]giize[.]com/hibit-uninstaller/ofutxwccbapmjrrpd27p5 |                            无                            | Z311 |
-| 2026/4/15 |         hxxps://hibit-uninstaller[.]com         |  仿冒 HiBit Uninstaller  |                              无                              |                            无                            | Z312 |
-| 2026/4/15 |         hxxps://hibit-uninstaller[.]io          |  仿冒 HiBit Uninstaller  |                           同 Z311                            |                            无                            | Z313 |
-| 2026/4/18 |              hxxps://ww-sogou[.]cn              | 仿冒搜狗输入法、传播病毒 |                       有，载荷提取失败                       |                            无                            | Z314 |
-| 2026/4/18 |          hxxps://aii-sogou[.]com[.]cn           | 仿冒搜狗输入法、传播病毒 |                              无                              |                            无                            | Z315 |
-| 2026/4/18 |       hxxps://www[.]ime-sogou[.]com[.]cn        | 仿冒搜狗输入法、传播病毒 | hxxps://www[.]ime-sogou[.]com[.]cn/xz/sougoshurufa-win64[.]zip |                            无                            | Z316 |
-| 2026/4/18 |         hxxps://apps-sougou[.]com[.]cn          | 仿冒搜狗输入法、传播病毒 |                              无                              |                            无                            | Z317 |
-| 2026/4/18 |            hxxps://sogou-sogou[.]cn             | 仿冒搜狗输入法、传播病毒 |                           同 Z314                            |                            无                            | Z318 |
-| 2026/4/18 |           hxxps://q-sogou[.]com[.]cn            | 仿冒搜狗输入法、传播病毒 |                              无                              |                            无                            | Z319 |
-| 2026/4/18 |         hxxps://cn-sogou-com[.]com[.]cn         | 仿冒搜狗输入法、传播病毒 |                              无                              |                            无                            | Z320 |
-| 2026/4/18 |           hxxps://sogou-ai[.]com[.]cn           | 仿冒搜狗输入法、传播病毒 |                              无                              |                            无                            | Z321 |
-| 2026/4/18 |        hxxps://shurufa-sogou[.]org[.]cn         | 仿冒搜狗输入法、传播病毒 |                              无                              |                            无                            | Z322 |
-|  ——————   |              ————————————————————               |     ———————————————      |                ——————————————————————————————                |                        ——————————                        | ———  |
+|   日期    |                       URL                       |           类别           |                           有效载荷                           |  URLhaus   | 编号 |
+| :-------: | :---------------------------------------------: | :----------------------: | :----------------------------------------------------------: | :--------: | :--: |
+| 2026/4/14 | hxxps://2523web[.]zh-yd-google-chrome[.]hl[.]cn |  仿冒 Chrome、传播病毒   |                           同 Z305                            |     无     | Z307 |
+| 2026/4/14 | hxxps://2513web[.]zh-yd-google-chrome[.]hl[.]cn |  仿冒 Chrome、传播病毒   |                           同 Z305                            |     无     | Z308 |
+| 2026/4/14 | hxxps://2758web[.]zh-yd-google-chrome[.]hl[.]cn |  仿冒 Chrome、传播病毒   |                           同 Z305                            |     无     | Z309 |
+| 2026/4/14 | hxxps://2586web[.]zh-yd-google-chrome[.]hl[.]cn |  仿冒 Chrome、传播病毒   |                           同 Z305                            |     无     | Z310 |
+| 2026/4/15 |         hxxp://hibit-uninstaller[.]org          |  仿冒 HiBit Uninstaller  | hxxps://direct-downloads[.]giize[.]com/hibit-uninstaller/ofutxwccbapmjrrpd27p5 |     无     | Z311 |
+| 2026/4/15 |         hxxps://hibit-uninstaller[.]com         |  仿冒 HiBit Uninstaller  |                              无                              |     无     | Z312 |
+| 2026/4/15 |         hxxps://hibit-uninstaller[.]io          |  仿冒 HiBit Uninstaller  |                           同 Z311                            |     无     | Z313 |
+| 2026/4/18 |              hxxps://ww-sogou[.]cn              | 仿冒搜狗输入法、传播病毒 |                       有，载荷提取失败                       |     无     | Z314 |
+| 2026/4/18 |          hxxps://aii-sogou[.]com[.]cn           | 仿冒搜狗输入法、传播病毒 |                              无                              |     无     | Z315 |
+| 2026/4/18 |       hxxps://www[.]ime-sogou[.]com[.]cn        | 仿冒搜狗输入法、传播病毒 | hxxps://www[.]ime-sogou[.]com[.]cn/xz/sougoshurufa-win64[.]zip |     无     | Z316 |
+| 2026/4/18 |         hxxps://apps-sougou[.]com[.]cn          | 仿冒搜狗输入法、传播病毒 |                              无                              |     无     | Z317 |
+| 2026/4/18 |            hxxps://sogou-sogou[.]cn             | 仿冒搜狗输入法、传播病毒 |                           同 Z314                            |     无     | Z318 |
+| 2026/4/18 |           hxxps://q-sogou[.]com[.]cn            | 仿冒搜狗输入法、传播病毒 |                              无                              |     无     | Z319 |
+| 2026/4/18 |         hxxps://cn-sogou-com[.]com[.]cn         | 仿冒搜狗输入法、传播病毒 |                              无                              |     无     | Z320 |
+| 2026/4/18 |           hxxps://sogou-ai[.]com[.]cn           | 仿冒搜狗输入法、传播病毒 |                              无                              |     无     | Z321 |
+| 2026/4/18 |        hxxps://shurufa-sogou[.]org[.]cn         | 仿冒搜狗输入法、传播病毒 |                              无                              |     无     | Z322 |
+| 2026/4/19 |         hxxps://get-deepseek[.]com[.]cn         | 仿冒 DeepSeek、传播病毒  |                       有，载荷提取失败                       |     无     | Z323 |
+|  ——————   |              ————————————————————               |     ———————————————      |                ——————————————————————————————                | —————————— | ———  |
 
 > [!NOTE]
 >
@@ -157,7 +155,7 @@
 
 &emsp;&emsp;欢迎体验我们编写的 **OpenClaw** (龙虾 AI Agent) 技能 [**vt-insight**](https://github.com/Lingggao/LGSRC/blob/main/vt-insight/SKILL.md)！该技能可用于在 VirusTotal 网站查询样本信息，自动整理并格式化输出查询报告。([效果图 ①](https://github.com/Lingggao/LGSRC/blob/main/Images/Rendering%201.png)) ([效果图 ②](https://github.com/Lingggao/LGSRC/blob/main/Images/Rendering%202.png)) 向 AI 大模型发送指令 `“将此 .md 文档作为 OpenClaw 技能安装：https://github.com/Lingggao/LGSRC/blob/main/vt-insight/SKILL.md，安装成功后进行简要介绍。”` 即可安装此技能，前往 [**ClawHub**](https://clawhub.ai/lingggao/vt-insight) 平台安装亦可。([vt-insight 技能安全审计报告](https://github.com/Lingggao/LGSRC/blob/main/Documents/vt-insight-security-audit-report%20(%E8%85%BE%E8%AE%AF%E5%AE%89%E5%85%A8%E4%BA%91%E9%BC%8E%E5%AE%9E%E9%AA%8C%E5%AE%A4).md))
 
-&emsp;&emsp;[安全响应中心管理团队](https://github.com/Lingggao/LGSRC/blob/main/Documents/Leadership.md)
+&emsp;&emsp;[安全响应中心 管理团队](https://github.com/Lingggao/LGSRC/blob/main/Documents/Leadership.md)
 
 ---
 
@@ -167,4 +165,4 @@
 
 在 “[署名 - 相同方式共享 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode.zh-Hans)” (CC BY-SA 4.0) 协议之条款下提供。
 
-2025 - 2026, [Ling Gao](https://github.com/Lingggao), 灵糕中心 · 安全响应中心, [github.com/Lingggao/LGSRC](https://github.com/Lingggao/LGSRC)
+2025 - 2026, [Ling Gao](https://github.com/Lingggao/LGSRC/blob/main/Documents/Leadership.md), 灵糕中心 · 安全响应中心, [github.com/Lingggao/LGSRC](https://github.com/Lingggao/LGSRC)

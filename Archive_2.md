@@ -313,6 +313,9 @@
 | 2026/4/12 |           hxxps://apps-tencent[.]com            |   仿冒腾讯会议、传播病毒    | hxxps://download[.]i19d9[.]top/TencentMeetig_03h_offiwebsite[.]zip |                            无                            | Z301 |
 | 2026/4/12 |          hxxps://meeting-tencent[.]org          |   仿冒腾讯会议、传播病毒    | hxxps://youdownnet[.]oss-cn-hongkong[.]aliyuncs[.]com/TencentMeeting_setup_airPC_x64[.]zip |                            无                            | Z302 |
 | 2026/4/12 |             hxxps://zh-tenxun[.]com             |   仿冒腾讯会议、传播病毒    |                           同 Z301                            |                            无                            | Z303 |
+| 2026/4/14 |      hxxps://zh[.]apps-google-hl[.]hl[.]cn      |    仿冒 Chrome、传播病毒    | hxxps://dindong[.]tos-cn-hongkong[.]volces[.]com/chronmwin[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3821083) | Z304 |
+| 2026/4/14 | hxxps://1981web[.]zh-yd-google-chrome[.]hl[.]cn |    仿冒 Chrome、传播病毒    |                       有，载荷提取失败                       |                            无                            | Z305 |
+| 2026/4/14 | hxxps://501web[.]zh-yd-google-chrome[.]hl[.]cn  |    仿冒 Chrome、传播病毒    |                           同 Z305                            |                            无                            | Z306 |
 |  ——————   |              ————————————————————               |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
@@ -323,6 +326,4 @@
 
 在 “[署名 - 相同方式共享 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode.zh-Hans)” (CC BY-SA 4.0) 协议之条款下提供。
 
-2025 - 2026, [Ling Gao](https://github.com/Lingggao), 灵糕中心 · 安全响应分中心, [github.com/Lingggao/LGSRC](https://github.com/Lingggao/LGSRC)
-
-[字体许可使用授权书](https://github.com/Lingggao/LGSRC/blob/main/Images/%E5%AD%97%E4%BD%93%E8%AE%B8%E5%8F%AF%E4%BD%BF%E7%94%A8%E6%8E%88%E6%9D%83%E4%B9%A6.png?raw=true) | [Windows Insider 最有价值专家](https://github.com/Lingggao/LGSRC/blob/main/Images/Windows%20Insider%20MVP.png?raw=true)
+2025 - 2026, [Ling Gao](https://github.com/Lingggao/LGSRC/blob/main/Documents/Leadership.md), 灵糕中心 · 安全响应中心, [github.com/Lingggao/LGSRC](https://github.com/Lingggao/LGSRC)

@@ -862,6 +862,8 @@
 | 2026/4/14  |    youkuclient···80.exe    |        **LockBit**         | 4b0b22299315c31d97f823dce6da039fcc9c9d2dbcf141feb218f9939164a1a3 | fb5f93df-7aca-4a0e-91e5-b21907f1b133 | [VirusTotal](https://www.virustotal.com/gui/file/4b0b22299315c31d97f823dce6da039fcc9c9d2dbcf141feb218f9939164a1a3) (47) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/4b0b22299315c31d97f823dce6da039fcc9c9d2dbcf141feb218f9939164a1a3) | A845 |
 | 2026/4/14  |   速云网络 Setup···.exe    |         **QQPass**         | 00009f21c12d3c2d5c6bc2d556b8b2f45357e75cf0e149e20021784da377f829 |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/00009f21c12d3c2d5c6bc2d556b8b2f45357e75cf0e149e20021784da377f829) (5) |                              无                              | A846 |
 | 2026/4/15  |          123.exe           |    **银狐 (SilverFox)**    | 2ab48cf9bb3227de8475e8e120b30e91789df69d9c66883e947375593920983d | 55a10b5c-67f6-48c0-ba0a-99d613d06698 | [VirusTotal](https://www.virustotal.com/gui/file/2ab48cf9bb3227de8475e8e120b30e91789df69d9c66883e947375593920983d) (8) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/2ab48cf9bb3227de8475e8e120b30e91789df69d9c66883e947375593920983d) | A847 |
+| 2026/4/15  |   OBS屏幕录制回放···.exe   |    **银狐 (SilverFox)**    | 2caa0eb6a0c179439afc256fb67bd611a70232aabbe11130858554f6b1f249c6 | 9e9f7dac-eb3f-43b6-a3da-496bb93513d1 | [VirusTotal](https://www.virustotal.com/gui/file/2caa0eb6a0c179439afc256fb67bd611a70232aabbe11130858554f6b1f249c6) (15) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/2caa0eb6a0c179439afc256fb67bd611a70232aabbe11130858554f6b1f249c6) | A848 |
+| 2026/4/15  |     ···人员名单pdf.exe     |  **银狐 (SilverFox.bg)**   | 4fb9f4695f78e60b3e15dc069486dd899f816f88a13b69ac7e9e496c49134624 | e792ca0a-d0f5-407b-bc99-5c6eda564bed | [VirusTotal](https://www.virustotal.com/gui/file/4fb9f4695f78e60b3e15dc069486dd899f816f88a13b69ac7e9e496c49134624) (10) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/4fb9f4695f78e60b3e15dc069486dd899f816f88a13b69ac7e9e496c49134624) | A849 |
 |   ——————   |        ————————————        |        ————————————        |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 ---
@@ -872,6 +874,4 @@
 
 在 “[署名 - 相同方式共享 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode.zh-Hans)” (CC BY-SA 4.0) 协议之条款下提供。
 
-2025 - 2026, [Ling Gao](https://github.com/Lingggao), 灵糕中心 · 安全响应分中心, [github.com/Lingggao/LGSRC](https://github.com/Lingggao/LGSRC)
-
-[字体许可使用授权书](https://github.com/Lingggao/LGSRC/blob/main/Images/%E5%AD%97%E4%BD%93%E8%AE%B8%E5%8F%AF%E4%BD%BF%E7%94%A8%E6%8E%88%E6%9D%83%E4%B9%A6.png?raw=true) | [Windows Insider 最有价值专家](https://github.com/Lingggao/LGSRC/blob/main/Images/Windows%20Insider%20MVP.png?raw=true)
+2025 - 2026, [Ling Gao](https://github.com/Lingggao/LGSRC/blob/main/Documents/Leadership.md), 灵糕中心 · 安全响应中心, [github.com/Lingggao/LGSRC](https://github.com/Lingggao/LGSRC)
