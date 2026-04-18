@@ -111,7 +111,6 @@
 | 2026/4/18 |  精选收集整理-rR15.exe  |   **银狐 (SilverFox)**   | fa8b8c81b1c8727b78bd76a0a847582540df09fe77189c929dba1112317eed0c | 6b2eb481-9c50-4c41-9336-c2eb3fdd04fb | [VirusTotal](https://www.virustotal.com/gui/file/fa8b8c81b1c8727b78bd76a0a847582540df09fe77189c929dba1112317eed0c) (9) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/fa8b8c81b1c8727b78bd76a0a847582540df09fe77189c929dba1112317eed0c) | A868 |
 | 2026/4/18 |    sogou_win64_9.exe    |   **银狐 (SilverFox)**   | 5cac69e9743a9017bc618333ad5ca02941a21b35c58c796bf4006e246d83db0c | 0534c4bb-a965-41a8-a861-aeff204fb90d | [VirusTotal](https://www.virustotal.com/gui/file/5cac69e9743a9017bc618333ad5ca02941a21b35c58c796bf4006e246d83db0c) (2) |                              无                              | A869 |
 | 2026/4/18 |   sougoshurufa···.exe   |        **Agent**         | 7e52d7b057216417906784901f6991c2213bde3f8efc89d43964228f2b1d3c1a | 4cc12ec9-81f7-47e7-8293-b9f34fa83551 | [VirusTotal](https://www.virustotal.com/gui/file/7e52d7b057216417906784901f6991c2213bde3f8efc89d43964228f2b1d3c1a) (12) |                              无                              | A870 |
-|  ——————   |      ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
 >
@@ -146,7 +145,6 @@
 | 2026/4/18 |         hxxps://cn-sogou-com[.]com[.]cn         | 仿冒搜狗输入法、传播病毒 |                              无                              |                            无                            | Z320 |
 | 2026/4/18 |           hxxps://sogou-ai[.]com[.]cn           | 仿冒搜狗输入法、传播病毒 |                              无                              |                            无                            | Z321 |
 | 2026/4/18 |        hxxps://shurufa-sogou[.]org[.]cn         | 仿冒搜狗输入法、传播病毒 |                              无                              |                            无                            | Z322 |
-|  ——————   |              ————————————————————               |     ———————————————      |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
 >
