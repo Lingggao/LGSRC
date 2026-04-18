@@ -69,7 +69,7 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 4 月 19 日 1:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 4 月 19 日 3:00 (GMT+8)
 
 &emsp;&emsp;**截至 2026 年 4 月 19 日，本中心已打击计算机病毒 / 恶意软件 872 个、恶意网站 322 个，累计为潜在受害者规避经济损失约 5,980,176 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
@@ -109,7 +109,7 @@
 | 2026/4/18 |    sogou_win64_9.exe    |   **银狐 (SilverFox)**   | 5cac69e9743a9017bc618333ad5ca02941a21b35c58c796bf4006e246d83db0c | 0534c4bb-a965-41a8-a861-aeff204fb90d | [VirusTotal](https://www.virustotal.com/gui/file/5cac69e9743a9017bc618333ad5ca02941a21b35c58c796bf4006e246d83db0c) (2) |                              无                              | A869 |
 | 2026/4/18 |   sougoshurufa···.exe   |        **Agent**         | 7e52d7b057216417906784901f6991c2213bde3f8efc89d43964228f2b1d3c1a | 4cc12ec9-81f7-47e7-8293-b9f34fa83551 | [VirusTotal](https://www.virustotal.com/gui/file/7e52d7b057216417906784901f6991c2213bde3f8efc89d43964228f2b1d3c1a) (12) |                              无                              | A870 |
 | 2026/4/18 |      Launcher.exe       |         **Lazy**         | b8ad7b9f2eed92ba0c5b755c769a55b33afd03263b39c654dd97126439990733 | 23901af9-65c7-4ddb-85fd-d4353ef9362e | [VirusTotal](https://www.virustotal.com/gui/file/b8ad7b9f2eed92ba0c5b755c769a55b33afd03263b39c654dd97126439990733) (29) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b8ad7b9f2eed92ba0c5b755c769a55b33afd03263b39c654dd97126439990733) | A871 |
-| 2026/4/18 |       LetsVPN.exe       |   **银狐 (SilverFox)**   | bb2f9c51f52fd3c6fd8b1b1e4f94281311bdcd30805cca441cb3aa869e508d9d |                                      | [VirusTotal](https://www.virustotal.com/gui/file/bb2f9c51f52fd3c6fd8b1b1e4f94281311bdcd30805cca441cb3aa869e508d9d) (4) |                              无                              | A872 |
+| 2026/4/18 |       LetsVPN.exe       |   **银狐 (SilverFox)**   | bb2f9c51f52fd3c6fd8b1b1e4f94281311bdcd30805cca441cb3aa869e508d9d | 13973387-84ba-451f-b4c3-e09a642c8ab1 | [VirusTotal](https://www.virustotal.com/gui/file/bb2f9c51f52fd3c6fd8b1b1e4f94281311bdcd30805cca441cb3aa869e508d9d) (4) |                              无                              | A872 |
 |  ——————   |      ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
