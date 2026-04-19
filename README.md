@@ -69,7 +69,7 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 4 月 20 日 2:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 4 月 20 日 3:00 (GMT+8)
 
 &emsp;&emsp;**截至 2026 年 4 月 20 日，本中心已打击计算机病毒 / 恶意软件 887 个、恶意网站 323 个，累计为潜在受害者规避经济损失约 6,083,046 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
@@ -109,7 +109,7 @@
 | 2026/4/19 |    abn.866531006.exe    | **银狐 (SilverFox.bm)** | f0706aa4cf60a5f2056581091bee770e69b286c2a4ba003ef1ba43cc0bcde30d | 9018ded3-d74b-40d9-8ea2-9d1a03476e2f | [VirusTotal](https://www.virustotal.com/gui/file/f0706aa4cf60a5f2056581091bee770e69b286c2a4ba003ef1ba43cc0bcde30d) (3) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/f0706aa4cf60a5f2056581091bee770e69b286c2a4ba003ef1ba43cc0bcde30d) | A883 |
 | 2026/4/19 |    DJMAXToolbox.exe     |      **VMProtect**      | 49808e7a33aae40be712f7ba8b3667d1e54cbbe01631ece4a02addb2a6c74441 |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/49808e7a33aae40be712f7ba8b3667d1e54cbbe01631ece4a02addb2a6c74441) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/49808e7a33aae40be712f7ba8b3667d1e54cbbe01631ece4a02addb2a6c74441) | A884 |
 | 2026/4/19 |       Server.exe        |     **Obfuscator**      | b13aa04de5a3127d041a1f2e44d6b0ce42d99aec2dbf6278b06aeb634051f08d |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/b13aa04de5a3127d041a1f2e44d6b0ce42d99aec2dbf6278b06aeb634051f08d) (20) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b13aa04de5a3127d041a1f2e44d6b0ce42d99aec2dbf6278b06aeb634051f08d) | A885 |
-| 2026/4/19 |  ···被骗380万过程.exe   |  **银狐 (SilverFox)**   | c738c5f6aa0c66df3b114e87c18f4c0c5c507290b7bb87c4ed0d30a83e2c9b63 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/c738c5f6aa0c66df3b114e87c18f4c0c5c507290b7bb87c4ed0d30a83e2c9b63) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c738c5f6aa0c66df3b114e87c18f4c0c5c507290b7bb87c4ed0d30a83e2c9b63) | A886 |
+| 2026/4/19 |  ···被骗380万过程.exe   |  **银狐 (SilverFox)**   | c738c5f6aa0c66df3b114e87c18f4c0c5c507290b7bb87c4ed0d30a83e2c9b63 | 0994e652-0824-4660-ba25-607d0c58275a | [VirusTotal](https://www.virustotal.com/gui/file/c738c5f6aa0c66df3b114e87c18f4c0c5c507290b7bb87c4ed0d30a83e2c9b63) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c738c5f6aa0c66df3b114e87c18f4c0c5c507290b7bb87c4ed0d30a83e2c9b63) | A886 |
 | 2026/4/20 |    维持CK1.0.vmp.exe    | **银狐 (SilverFox.sa)** | 4ad5c94364e05c363bd8f03cc35acf6166c9a496503859344a4418f2ae845caf |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/4ad5c94364e05c363bd8f03cc35acf6166c9a496503859344a4418f2ae845caf) (51) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/4ad5c94364e05c363bd8f03cc35acf6166c9a496503859344a4418f2ae845caf) | A887 |
 |  ——————   |      ————————————       |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
