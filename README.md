@@ -69,7 +69,7 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 4 月 20 日 9:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 4 月 20 日 15:00 (GMT+8)
 
 &emsp;&emsp;**截至 2026 年 4 月 20 日，本中心已打击计算机病毒 / 恶意软件 889 个、恶意网站 329 个，累计为潜在受害者规避经济损失约 6,096,762 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
@@ -108,8 +108,8 @@
 | 2026/4/19 |       Server.exe       |     **Obfuscator**      | b13aa04de5a3127d041a1f2e44d6b0ce42d99aec2dbf6278b06aeb634051f08d |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/b13aa04de5a3127d041a1f2e44d6b0ce42d99aec2dbf6278b06aeb634051f08d) (20) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b13aa04de5a3127d041a1f2e44d6b0ce42d99aec2dbf6278b06aeb634051f08d) | A885 |
 | 2026/4/19 |  ···被骗380万过程.exe  |  **银狐 (SilverFox)**   | c738c5f6aa0c66df3b114e87c18f4c0c5c507290b7bb87c4ed0d30a83e2c9b63 | 0994e652-0824-4660-ba25-607d0c58275a | [VirusTotal](https://www.virustotal.com/gui/file/c738c5f6aa0c66df3b114e87c18f4c0c5c507290b7bb87c4ed0d30a83e2c9b63) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c738c5f6aa0c66df3b114e87c18f4c0c5c507290b7bb87c4ed0d30a83e2c9b63) | A886 |
 | 2026/4/20 |   维持CK1.0.vmp.exe    | **银狐 (SilverFox.sa)** | 4ad5c94364e05c363bd8f03cc35acf6166c9a496503859344a4418f2ae845caf |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/4ad5c94364e05c363bd8f03cc35acf6166c9a496503859344a4418f2ae845caf) (51) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/4ad5c94364e05c363bd8f03cc35acf6166c9a496503859344a4418f2ae845caf) | A887 |
-| 2026/4/20 |  qishuiyinyue_x64.exe  | **银狐 (SilverFox.sa)** | f57d9e5f927737880161b692ad6227f9b3e463632e6f819032f0888c840f790a |                                      | [VirusTotal](https://www.virustotal.com/gui/file/f57d9e5f927737880161b692ad6227f9b3e463632e6f819032f0888c840f790a) (6) |                              无                              | A888 |
-| 2026/4/20 |   Sodaqishui_514.msi   |  **银狐 (SilverFox)**   | c1d1d488ed4d0a69213c5c2c1d04dafe14dc2a95107523f6facb3a050745fa9f |                                      | [VirusTotal](https://www.virustotal.com/gui/file/c1d1d488ed4d0a69213c5c2c1d04dafe14dc2a95107523f6facb3a050745fa9f) (8) |                              无                              | A889 |
+| 2026/4/20 |  qishuiyinyue_x64.exe  | **银狐 (SilverFox.sa)** | f57d9e5f927737880161b692ad6227f9b3e463632e6f819032f0888c840f790a | b842a5ba-9d0d-481d-a1f3-a5a86115f4ef | [VirusTotal](https://www.virustotal.com/gui/file/f57d9e5f927737880161b692ad6227f9b3e463632e6f819032f0888c840f790a) (6) |                              无                              | A888 |
+| 2026/4/20 |   Sodaqishui_514.msi   |  **银狐 (SilverFox)**   | c1d1d488ed4d0a69213c5c2c1d04dafe14dc2a95107523f6facb3a050745fa9f | e4713b9d-87a5-46ec-9730-e3f86b380448 | [VirusTotal](https://www.virustotal.com/gui/file/c1d1d488ed4d0a69213c5c2c1d04dafe14dc2a95107523f6facb3a050745fa9f) (8) |                              无                              | A889 |
 |  ——————   |      ————————————      |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
