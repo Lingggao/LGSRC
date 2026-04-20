@@ -316,6 +316,11 @@
 | 2026/4/14 |      hxxps://zh[.]apps-google-hl[.]hl[.]cn      |    仿冒 Chrome、传播病毒    | hxxps://dindong[.]tos-cn-hongkong[.]volces[.]com/chronmwin[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3821083) | Z304 |
 | 2026/4/14 | hxxps://1981web[.]zh-yd-google-chrome[.]hl[.]cn |    仿冒 Chrome、传播病毒    |                       有，载荷提取失败                       |                            无                            | Z305 |
 | 2026/4/14 | hxxps://501web[.]zh-yd-google-chrome[.]hl[.]cn  |    仿冒 Chrome、传播病毒    |                           同 Z305                            |                            无                            | Z306 |
+| 2026/4/14 | hxxps://2523web[.]zh-yd-google-chrome[.]hl[.]cn |    仿冒 Chrome、传播病毒    |                           同 Z305                            |                            无                            | Z307 |
+| 2026/4/14 | hxxps://2513web[.]zh-yd-google-chrome[.]hl[.]cn |    仿冒 Chrome、传播病毒    |                           同 Z305                            |                            无                            | Z308 |
+| 2026/4/14 | hxxps://2758web[.]zh-yd-google-chrome[.]hl[.]cn |    仿冒 Chrome、传播病毒    |                           同 Z305                            |                            无                            | Z309 |
+| 2026/4/14 | hxxps://2586web[.]zh-yd-google-chrome[.]hl[.]cn |    仿冒 Chrome、传播病毒    |                           同 Z305                            |                            无                            | Z310 |
+| 2026/4/15 |         hxxp://hibit-uninstaller[.]org          |   仿冒 HiBit Uninstaller    | hxxps://direct-downloads[.]giize[.]com/hibit-uninstaller/ofutxwccbapmjrrpd27p5 |                            无                            | Z311 |
 |  ——————   |              ————————————————————               |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
