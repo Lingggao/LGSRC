@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 4 月 20 日 15:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 4 月 21 日 18:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 4 月 20 日，本中心已打击计算机病毒 / 恶意软件 889 个、恶意网站 329 个，累计为潜在受害者规避经济损失约 6,096,762 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 4 月 21 日，本中心已打击计算机病毒 / 恶意软件 889 个、恶意网站 329 个，累计为潜在受害者规避经济损失约 6,096,762 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;**本中心每打击 1 个计算机病毒、恶意软件或恶意网站，将同步向联合国儿童基金会 “爱心为救灾” 计划捐赠 1 元人民币**。该计划旨在支持中国及其他国家实现可持续发展目标，特别是为困境儿童提供援助。
 
