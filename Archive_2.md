@@ -321,6 +321,9 @@
 | 2026/4/14 | hxxps://2758web[.]zh-yd-google-chrome[.]hl[.]cn |    仿冒 Chrome、传播病毒    |                           同 Z305                            |                            无                            | Z309 |
 | 2026/4/14 | hxxps://2586web[.]zh-yd-google-chrome[.]hl[.]cn |    仿冒 Chrome、传播病毒    |                           同 Z305                            |                            无                            | Z310 |
 | 2026/4/15 |         hxxp://hibit-uninstaller[.]org          |   仿冒 HiBit Uninstaller    | hxxps://direct-downloads[.]giize[.]com/hibit-uninstaller/ofutxwccbapmjrrpd27p5 |                            无                            | Z311 |
+| 2026/4/15 |         hxxps://hibit-uninstaller[.]com         |   仿冒 HiBit Uninstaller    |                              无                              |                            无                            | Z312 |
+| 2026/4/15 |         hxxps://hibit-uninstaller[.]io          |   仿冒 HiBit Uninstaller    |                           同 Z311                            |                            无                            | Z313 |
+| 2026/4/18 |              hxxps://ww-sogou[.]cn              |  仿冒搜狗输入法、传播病毒   |                       有，载荷提取失败                       |                            无                            | Z314 |
 |  ——————   |              ————————————————————               |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---

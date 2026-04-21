@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 4 月 22 日 1:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 4 月 22 日 5:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 4 月 22 日，本中心已打击计算机病毒 / 恶意软件 894 个、恶意网站 329 个，累计为潜在受害者规避经济损失约 6,131,052 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 4 月 22 日，本中心已打击计算机病毒 / 恶意软件 895 个、恶意网站 331 个，累计为潜在受害者规避经济损失约 6,137,910 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;**本中心每打击 1 个计算机病毒、恶意软件或恶意网站，将同步向联合国儿童基金会 “爱心为救灾” 计划捐赠 1 元人民币**。该计划旨在支持中国及其他国家实现可持续发展目标，特别是为困境儿童提供援助。
 
@@ -110,6 +110,7 @@
 | 2026/4/21 |  Wifvymmj_2026···.exe  |      **AsyncRAT**       | 6a928dc991d2a39cbf6f3d80b21b18d2bbd7800ed2bbc150a093ae10ec1bd02a | cd6f720b-0ce1-48fe-9f0c-b6baa9261407 | [VirusTotal](https://www.virustotal.com/gui/file/6a928dc991d2a39cbf6f3d80b21b18d2bbd7800ed2bbc150a093ae10ec1bd02a) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/6a928dc991d2a39cbf6f3d80b21b18d2bbd7800ed2bbc150a093ae10ec1bd02a) | A892 |
 | 2026/4/21 |       3setup.exe       |      **BypassUAC**      | b735eae82bf30011c9f674e3e4698ad5c77481eccaf40436adbb36b49091acd7 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/b735eae82bf30011c9f674e3e4698ad5c77481eccaf40436adbb36b49091acd7) (2) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b735eae82bf30011c9f674e3e4698ad5c77481eccaf40436adbb36b49091acd7) | A893 |
 | 2026/4/21 |  fanyi_Youdao···.exe   |     **Cybercrime**      | b4c9450e25a28433f7c2f74c3fa031307ea9bf933634ab231f0aaa2a31bfa3ec |                                      | [VirusTotal](https://www.virustotal.com/gui/file/b4c9450e25a28433f7c2f74c3fa031307ea9bf933634ab231f0aaa2a31bfa3ec) (11) |                              无                              | A894 |
+| 2026/4/22 |    ggpc_win64_1.exe    |        **Agent**        | 7387085aeac2d091673a44039d26eeb2467be89a30b5cdf2e7e8c5364c8a689b |                                      | [VirusTotal](https://www.virustotal.com/gui/file/7387085aeac2d091673a44039d26eeb2467be89a30b5cdf2e7e8c5364c8a689b) (2) |                              无                              | A895 |
 |  ——————   |      ————————————      |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -124,27 +125,26 @@
 >
 > &emsp;为确保安全，网站地址将用 “hxxps://” 与 “[.]” 进行替换。**切勿尝试访问表格中列出的任何网址**。
 
-|   日期    |                  URL                  |           类别           |                           有效载荷                           |  URLhaus   | 编号 |
-| :-------: | :-----------------------------------: | :----------------------: | :----------------------------------------------------------: | :--------: | :--: |
-| 2026/4/15 |    hxxps://hibit-uninstaller[.]com    |  仿冒 HiBit Uninstaller  |                              无                              |     无     | Z312 |
-| 2026/4/15 |    hxxps://hibit-uninstaller[.]io     |  仿冒 HiBit Uninstaller  |                           同 Z311                            |     无     | Z313 |
-| 2026/4/18 |         hxxps://ww-sogou[.]cn         | 仿冒搜狗输入法、传播病毒 |                       有，载荷提取失败                       |     无     | Z314 |
-| 2026/4/18 |     hxxps://aii-sogou[.]com[.]cn      | 仿冒搜狗输入法、传播病毒 |                              无                              |     无     | Z315 |
-| 2026/4/18 |  hxxps://www[.]ime-sogou[.]com[.]cn   | 仿冒搜狗输入法、传播病毒 | hxxps://www[.]ime-sogou[.]com[.]cn/xz/sougoshurufa-win64[.]zip |     无     | Z316 |
-| 2026/4/18 |    hxxps://apps-sougou[.]com[.]cn     | 仿冒搜狗输入法、传播病毒 |                              无                              |     无     | Z317 |
-| 2026/4/18 |       hxxps://sogou-sogou[.]cn        | 仿冒搜狗输入法、传播病毒 |                           同 Z314                            |     无     | Z318 |
-| 2026/4/18 |      hxxps://q-sogou[.]com[.]cn       | 仿冒搜狗输入法、传播病毒 |                              无                              |     无     | Z319 |
-| 2026/4/18 |    hxxps://cn-sogou-com[.]com[.]cn    | 仿冒搜狗输入法、传播病毒 |                              无                              |     无     | Z320 |
-| 2026/4/18 |      hxxps://sogou-ai[.]com[.]cn      | 仿冒搜狗输入法、传播病毒 |                              无                              |     无     | Z321 |
-| 2026/4/18 |   hxxps://shurufa-sogou[.]org[.]cn    | 仿冒搜狗输入法、传播病毒 |                              无                              |     无     | Z322 |
-| 2026/4/19 |    hxxps://get-deepseek[.]com[.]cn    | 仿冒 DeepSeek、传播病毒  |                       有，载荷提取失败                       |     无     | Z323 |
-| 2026/4/20 |   hxxps://qi-qishuimusic[.]com[.]cn   |  仿冒汽水音乐、传播病毒  |   hxxps://uiejnnd[.]huzero[.]com/yinyueqishui14[.]1A[.]zip   |     无     | Z324 |
-| 2026/4/20 |  hxxps://www[.]qishuiapp[.]com[.]cn   |  仿冒汽水音乐、传播病毒  | hxxps://alibaba-cloud-azhi-oss[.]com/down[.]php/2b35c9488425728b2771f6950683740c[.]zip |     无     | Z325 |
-| 2026/4/20 |     hxxps://www-qishiu[.]com[.]cn     |  仿冒汽水音乐、传播病毒  |                              无                              |     无     | Z326 |
-| 2026/4/20 |  hxxps://www[.]qishmusic[.]com[.]cn   |  仿冒汽水音乐、传播病毒  |                              无                              |     无     | Z327 |
-| 2026/4/20 | hxxps://www[.]yy-qishuiapp[.]com[.]cn |  仿冒汽水音乐、传播病毒  |                              无                              |     无     | Z328 |
-| 2026/4/20 |   hxxps://www[.]qishuide[.]com[.]cn   |  仿冒汽水音乐、传播病毒  |                              无                              |     无     | Z329 |
-|  ——————   |         ————————————————————          |     ———————————————      |                ——————————————————————————————                | —————————— | ———  |
+|   日期    |                     URL                      |           类别           |                           有效载荷                           |  URLhaus   | 编号 |
+| :-------: | :------------------------------------------: | :----------------------: | :----------------------------------------------------------: | :--------: | :--: |
+| 2026/4/18 |         hxxps://aii-sogou[.]com[.]cn         | 仿冒搜狗输入法、传播病毒 |                              无                              |     无     | Z315 |
+| 2026/4/18 |      hxxps://www[.]ime-sogou[.]com[.]cn      | 仿冒搜狗输入法、传播病毒 | hxxps://www[.]ime-sogou[.]com[.]cn/xz/sougoshurufa-win64[.]zip |     无     | Z316 |
+| 2026/4/18 |        hxxps://apps-sougou[.]com[.]cn        | 仿冒搜狗输入法、传播病毒 |                              无                              |     无     | Z317 |
+| 2026/4/18 |           hxxps://sogou-sogou[.]cn           | 仿冒搜狗输入法、传播病毒 |                           同 Z314                            |     无     | Z318 |
+| 2026/4/18 |          hxxps://q-sogou[.]com[.]cn          | 仿冒搜狗输入法、传播病毒 |                              无                              |     无     | Z319 |
+| 2026/4/18 |       hxxps://cn-sogou-com[.]com[.]cn        | 仿冒搜狗输入法、传播病毒 |                              无                              |     无     | Z320 |
+| 2026/4/18 |         hxxps://sogou-ai[.]com[.]cn          | 仿冒搜狗输入法、传播病毒 |                              无                              |     无     | Z321 |
+| 2026/4/18 |       hxxps://shurufa-sogou[.]org[.]cn       | 仿冒搜狗输入法、传播病毒 |                              无                              |     无     | Z322 |
+| 2026/4/19 |       hxxps://get-deepseek[.]com[.]cn        | 仿冒 DeepSeek、传播病毒  |                       有，载荷提取失败                       |     无     | Z323 |
+| 2026/4/20 |      hxxps://qi-qishuimusic[.]com[.]cn       |  仿冒汽水音乐、传播病毒  |   hxxps://uiejnnd[.]huzero[.]com/yinyueqishui14[.]1A[.]zip   |     无     | Z324 |
+| 2026/4/20 |      hxxps://www[.]qishuiapp[.]com[.]cn      |  仿冒汽水音乐、传播病毒  | hxxps://alibaba-cloud-azhi-oss[.]com/down[.]php/2b35c9488425728b2771f6950683740c[.]zip |     无     | Z325 |
+| 2026/4/20 |        hxxps://www-qishiu[.]com[.]cn         |  仿冒汽水音乐、传播病毒  |                              无                              |     无     | Z326 |
+| 2026/4/20 |      hxxps://www[.]qishmusic[.]com[.]cn      |  仿冒汽水音乐、传播病毒  |                              无                              |     无     | Z327 |
+| 2026/4/20 |    hxxps://www[.]yy-qishuiapp[.]com[.]cn     |  仿冒汽水音乐、传播病毒  |                              无                              |     无     | Z328 |
+| 2026/4/20 |      hxxps://www[.]qishuide[.]com[.]cn       |  仿冒汽水音乐、传播病毒  |                              无                              |     无     | Z329 |
+| 2026/4/22 |  hxxps://cn[.]apps-google-chroome[.]hl[.]cn  |  仿冒 Chrome、传播病毒   |                       有，载荷提取失败                       |     无     | Z330 |
+| 2026/4/22 | hxxps://1869web[.]mb-google-chrome[.]hl[.]cn |  仿冒 Chrome、传播病毒   |                       有，载荷提取失败                       |     无     | Z331 |
+|  ——————   |             ————————————————————             |     ———————————————      |                ——————————————————————————————                | —————————— | ———  |
 
 > [!NOTE]
 >
