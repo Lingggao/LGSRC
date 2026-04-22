@@ -36,7 +36,7 @@
 
 ---
 
-研究 - [国家计算机病毒协同分析平台 (国家计算机病毒应急处理中心)](http://110.41.132.165/#/entirety/upload) | [可疑文件分析云 (计算机病毒防御技术国家工程实验室)](https://cloud.vdnel.cn) | [微步云沙箱](https://s.threatbook.com) | [安天文件分析服务](https://fenxi.antiy.cn) | [安恒云沙箱](https://sandbox.dbappsecurity.com.cn) | [奇安信威胁情报中心](https://ti.qianxin.com) | [天穹智能分析平台](https://sandbox.qianxin.com/sscc-tq-web) | [深信服威胁情报中心](https://ti.sangfor.com.cn/analysis-platform?lang=ZH-CN) | [VirusTotal](https://www.virustotal.com/gui/home/upload) | [MalwareBazaar](https://bazaar.abuse.ch) | [URLhaus](https://urlhaus.abuse.ch) | [Kaspersky OpenTIP](https://opentip.kaspersky.com) | [Microsoft 安全情报](https://www.microsoft.com/en-us/wdsi) | [Hybrid Analysis](https://hybrid-analysis.com) | [ANY.RUN](https://app.any.run)
+研究 - [国家计算机病毒协同分析平台 (国家计算机病毒应急处理中心)](https://virus.cverc.org.cn) | [可疑文件分析云 (计算机病毒防御技术国家工程实验室)](https://cloud.vdnel.cn) | [微步云沙箱](https://s.threatbook.com) | [安天文件分析服务](https://fenxi.antiy.cn) | [安恒云沙箱](https://sandbox.dbappsecurity.com.cn) | [奇安信威胁情报中心](https://ti.qianxin.com) | [天穹智能分析平台](https://sandbox.qianxin.com/sscc-tq-web) | [深信服威胁情报中心](https://ti.sangfor.com.cn/analysis-platform?lang=ZH-CN) | [VirusTotal](https://www.virustotal.com/gui/home/upload) | [MalwareBazaar](https://bazaar.abuse.ch) | [URLhaus](https://urlhaus.abuse.ch) | [Kaspersky OpenTIP](https://opentip.kaspersky.com) | [Microsoft 安全情报](https://www.microsoft.com/en-us/wdsi) | [Hybrid Analysis](https://hybrid-analysis.com) | [ANY.RUN](https://app.any.run)
 
 举报 - [中央网信办 违法和不良信息举报中心](https://www.12377.cn/index.html) | [网络违法犯罪信息举报网站](https://cyberpolice.mps.gov.cn/wfjb/#) | [网络不良与垃圾信息举报受理中心](https://www.12321.cn)
 
@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 4 月 22 日 12:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 4 月 22 日 15:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 4 月 22 日，本中心已打击计算机病毒 / 恶意软件 895 个、恶意网站 331 个，累计为潜在受害者规避经济损失约 6,137,910 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 4 月 22 日，本中心已打击计算机病毒 / 恶意软件 896 个、恶意网站 331 个，累计为潜在受害者规避经济损失约 6,144,768 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;**本中心每打击 1 个计算机病毒、恶意软件或恶意网站，将同步向联合国儿童基金会 “爱心为救灾” 计划捐赠 1 元人民币**。该计划旨在支持中国及其他国家实现可持续发展目标，特别是为困境儿童提供援助。
 
@@ -85,10 +85,6 @@
 
 |   日期    |         文件名         |          检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :--------------------: | :---------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/4/18 |  sougoshurufa···.exe   |        **Agent**        | 7e52d7b057216417906784901f6991c2213bde3f8efc89d43964228f2b1d3c1a | 4cc12ec9-81f7-47e7-8293-b9f34fa83551 | [VirusTotal](https://www.virustotal.com/gui/file/7e52d7b057216417906784901f6991c2213bde3f8efc89d43964228f2b1d3c1a) (12) |                              无                              | A870 |
-| 2026/4/18 |      Launcher.exe      |        **Lazy**         | b8ad7b9f2eed92ba0c5b755c769a55b33afd03263b39c654dd97126439990733 | 23901af9-65c7-4ddb-85fd-d4353ef9362e | [VirusTotal](https://www.virustotal.com/gui/file/b8ad7b9f2eed92ba0c5b755c769a55b33afd03263b39c654dd97126439990733) (29) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b8ad7b9f2eed92ba0c5b755c769a55b33afd03263b39c654dd97126439990733) | A871 |
-| 2026/4/18 |      LetsVPN.exe       |  **银狐 (SilverFox)**   | bb2f9c51f52fd3c6fd8b1b1e4f94281311bdcd30805cca441cb3aa869e508d9d | 13973387-84ba-451f-b4c3-e09a642c8ab1 | [VirusTotal](https://www.virustotal.com/gui/file/bb2f9c51f52fd3c6fd8b1b1e4f94281311bdcd30805cca441cb3aa869e508d9d) (4) |                              无                              | A872 |
-| 2026/4/19 |   DeepSeekV20.66.msi   |  **银狐 (SilverFox)**   | b1cdb5276164d20052ce3bdd33cb2f20aaf8b00b4fb0a413ded5c489a2689e2e | 7de2cc92-7ec2-4b30-9572-0f5e43fe39cb | [VirusTotal](https://www.virustotal.com/gui/file/b1cdb5276164d20052ce3bdd33cb2f20aaf8b00b4fb0a413ded5c489a2689e2e) (9) |                              无                              | A873 |
 | 2026/4/19 |    wps_win64_9.exe     |  **银狐 (SilverFox)**   | 5ff5940b7e9d0b41ce0e12808f2c81f737a2d7d3a509691ab1904731edd4c914 | b9f8c11a-13b3-4572-9e7d-f7b38484889d | [VirusTotal](https://www.virustotal.com/gui/file/5ff5940b7e9d0b41ce0e12808f2c81f737a2d7d3a509691ab1904731edd4c914) (3) |                              无                              | A874 |
 | 2026/4/19 |      FASEL-5.exe       |       **Kryptik**       | 5948a7d00a38b17941ade911a9a7d09d447a71683605df0530a6fef23bf45ec0 | e007c387-7fdb-45ee-a99c-77c35fa9cebb | [VirusTotal](https://www.virustotal.com/gui/file/5948a7d00a38b17941ade911a9a7d09d447a71683605df0530a6fef23bf45ec0) (2) |                              无                              | A875 |
 | 2026/4/19 |  haiwamg···20289.exe   |         **BHO**         | 688bf3ffdc820929acb1647866ac4dab245f3b3eeca6a448d69113d50b7ce6d1 | a66cee61-e4be-4f73-a482-c2e91d81ffd5 | [VirusTotal](https://www.virustotal.com/gui/file/688bf3ffdc820929acb1647866ac4dab245f3b3eeca6a448d69113d50b7ce6d1/detection) (5) |                              无                              | A876 |
@@ -111,6 +107,7 @@
 | 2026/4/21 |       3setup.exe       |      **BypassUAC**      | b735eae82bf30011c9f674e3e4698ad5c77481eccaf40436adbb36b49091acd7 | 50ec67c5-78d6-43bd-a71c-ebd409786e97 | [VirusTotal](https://www.virustotal.com/gui/file/b735eae82bf30011c9f674e3e4698ad5c77481eccaf40436adbb36b49091acd7) (2) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b735eae82bf30011c9f674e3e4698ad5c77481eccaf40436adbb36b49091acd7) | A893 |
 | 2026/4/21 |  fanyi_Youdao···.exe   |     **Cybercrime**      | b4c9450e25a28433f7c2f74c3fa031307ea9bf933634ab231f0aaa2a31bfa3ec |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/b4c9450e25a28433f7c2f74c3fa031307ea9bf933634ab231f0aaa2a31bfa3ec) (11) |                              无                              | A894 |
 | 2026/4/22 |    ggpc_win64_1.exe    |  **银狐 (SilverFox)**   | 7387085aeac2d091673a44039d26eeb2467be89a30b5cdf2e7e8c5364c8a689b | 9a0eda10-b737-432e-b474-6600b10ba88f | [VirusTotal](https://www.virustotal.com/gui/file/7387085aeac2d091673a44039d26eeb2467be89a30b5cdf2e7e8c5364c8a689b) (2) |                              无                              | A895 |
+| 2026/4/22 |   bcn.866151001.exe    |  **银狐 (SilverFox)**   | 3af0ee122f53fa4ba06293f4c942c5df9bbce1bdee31d1b41e58051c9183479b |                                      | [VirusTotal](https://www.virustotal.com/gui/file/3af0ee122f53fa4ba06293f4c942c5df9bbce1bdee31d1b41e58051c9183479b) (8) |                  [MalwareBazaar Database]()                  | A896 |
 |  ——————   |      ————————————      |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
