@@ -69,7 +69,7 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 4 月 22 日 15:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 4 月 22 日 16:00 (GMT+8)
 
 &emsp;&emsp;**截至 2026 年 4 月 22 日，本中心已打击计算机病毒 / 恶意软件 896 个、恶意网站 331 个，累计为潜在受害者规避经济损失约 6,144,768 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
@@ -107,7 +107,7 @@
 | 2026/4/21 |       3setup.exe       |      **BypassUAC**      | b735eae82bf30011c9f674e3e4698ad5c77481eccaf40436adbb36b49091acd7 | 50ec67c5-78d6-43bd-a71c-ebd409786e97 | [VirusTotal](https://www.virustotal.com/gui/file/b735eae82bf30011c9f674e3e4698ad5c77481eccaf40436adbb36b49091acd7) (2) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b735eae82bf30011c9f674e3e4698ad5c77481eccaf40436adbb36b49091acd7) | A893 |
 | 2026/4/21 |  fanyi_Youdao···.exe   |     **Cybercrime**      | b4c9450e25a28433f7c2f74c3fa031307ea9bf933634ab231f0aaa2a31bfa3ec |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/b4c9450e25a28433f7c2f74c3fa031307ea9bf933634ab231f0aaa2a31bfa3ec) (11) |                              无                              | A894 |
 | 2026/4/22 |    ggpc_win64_1.exe    |  **银狐 (SilverFox)**   | 7387085aeac2d091673a44039d26eeb2467be89a30b5cdf2e7e8c5364c8a689b | 9a0eda10-b737-432e-b474-6600b10ba88f | [VirusTotal](https://www.virustotal.com/gui/file/7387085aeac2d091673a44039d26eeb2467be89a30b5cdf2e7e8c5364c8a689b) (2) |                              无                              | A895 |
-| 2026/4/22 |   bcn.866151001.exe    |  **银狐 (SilverFox)**   | 3af0ee122f53fa4ba06293f4c942c5df9bbce1bdee31d1b41e58051c9183479b |                                      | [VirusTotal](https://www.virustotal.com/gui/file/3af0ee122f53fa4ba06293f4c942c5df9bbce1bdee31d1b41e58051c9183479b) (8) |                  [MalwareBazaar Database]()                  | A896 |
+| 2026/4/22 |   bcn.866151001.exe    |  **银狐 (SilverFox)**   | 3af0ee122f53fa4ba06293f4c942c5df9bbce1bdee31d1b41e58051c9183479b | 810e9047-9a0b-4b71-950e-54cbc69c819a | [VirusTotal](https://www.virustotal.com/gui/file/3af0ee122f53fa4ba06293f4c942c5df9bbce1bdee31d1b41e58051c9183479b) (8) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/3af0ee122f53fa4ba06293f4c942c5df9bbce1bdee31d1b41e58051c9183479b) | A896 |
 |  ——————   |      ————————————      |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
