@@ -324,6 +324,10 @@
 | 2026/4/15 |         hxxps://hibit-uninstaller[.]com         |   仿冒 HiBit Uninstaller    |                              无                              |                            无                            | Z312 |
 | 2026/4/15 |         hxxps://hibit-uninstaller[.]io          |   仿冒 HiBit Uninstaller    |                           同 Z311                            |                            无                            | Z313 |
 | 2026/4/18 |              hxxps://ww-sogou[.]cn              |  仿冒搜狗输入法、传播病毒   |                       有，载荷提取失败                       |                            无                            | Z314 |
+| 2026/4/18 |          hxxps://aii-sogou[.]com[.]cn           |  仿冒搜狗输入法、传播病毒   |                              无                              |                            无                            | Z315 |
+| 2026/4/18 |       hxxps://www[.]ime-sogou[.]com[.]cn        |  仿冒搜狗输入法、传播病毒   | hxxps://www[.]ime-sogou[.]com[.]cn/xz/sougoshurufa-win64[.]zip |                            无                            | Z316 |
+| 2026/4/18 |         hxxps://apps-sougou[.]com[.]cn          |  仿冒搜狗输入法、传播病毒   |                              无                              |                            无                            | Z317 |
+| 2026/4/18 |            hxxps://sogou-sogou[.]cn             |  仿冒搜狗输入法、传播病毒   |                           同 Z314                            |                            无                            | Z318 |
 |  ——————   |              ————————————————————               |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---

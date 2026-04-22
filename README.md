@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 4 月 22 日 16:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 4 月 22 日 17:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 4 月 22 日，本中心已打击计算机病毒 / 恶意软件 896 个、恶意网站 331 个，累计为潜在受害者规避经济损失约 6,144,768 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 4 月 22 日，本中心已打击计算机病毒 / 恶意软件 897 个、恶意网站 336 个，累计为潜在受害者规避经济损失约 6,151,626 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;**本中心每打击 1 个计算机病毒、恶意软件或恶意网站，将同步向联合国儿童基金会 “爱心为救灾” 计划捐赠 1 元人民币**。该计划旨在支持中国及其他国家实现可持续发展目标，特别是为困境儿童提供援助。
 
@@ -108,6 +108,7 @@
 | 2026/4/21 |  fanyi_Youdao···.exe   |     **Cybercrime**      | b4c9450e25a28433f7c2f74c3fa031307ea9bf933634ab231f0aaa2a31bfa3ec |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/b4c9450e25a28433f7c2f74c3fa031307ea9bf933634ab231f0aaa2a31bfa3ec) (11) |                              无                              | A894 |
 | 2026/4/22 |    ggpc_win64_1.exe    |  **银狐 (SilverFox)**   | 7387085aeac2d091673a44039d26eeb2467be89a30b5cdf2e7e8c5364c8a689b | 9a0eda10-b737-432e-b474-6600b10ba88f | [VirusTotal](https://www.virustotal.com/gui/file/7387085aeac2d091673a44039d26eeb2467be89a30b5cdf2e7e8c5364c8a689b) (2) |                              无                              | A895 |
 | 2026/4/22 |   bcn.866151001.exe    |  **银狐 (SilverFox)**   | 3af0ee122f53fa4ba06293f4c942c5df9bbce1bdee31d1b41e58051c9183479b | 810e9047-9a0b-4b71-950e-54cbc69c819a | [VirusTotal](https://www.virustotal.com/gui/file/3af0ee122f53fa4ba06293f4c942c5df9bbce1bdee31d1b41e58051c9183479b) (8) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/3af0ee122f53fa4ba06293f4c942c5df9bbce1bdee31d1b41e58051c9183479b) | A896 |
+| 2026/4/22 |    Snipaste-X64.msi    |  **银狐 (SilverFox)**   | 41e8effabc473eb7ed9b4ce15fa0d2ae47d3132310ba8b259ec9e38b1dc4ec89 | fe9e1d02-7063-4c8f-960f-d23f653ca9f6 | [VirusTotal](https://www.virustotal.com/gui/file/41e8effabc473eb7ed9b4ce15fa0d2ae47d3132310ba8b259ec9e38b1dc4ec89) (8) |                              无                              | A897 |
 |  ——————   |      ————————————      |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -124,10 +125,6 @@
 
 |   日期    |                     URL                      |           类别           |                           有效载荷                           |  URLhaus   | 编号 |
 | :-------: | :------------------------------------------: | :----------------------: | :----------------------------------------------------------: | :--------: | :--: |
-| 2026/4/18 |         hxxps://aii-sogou[.]com[.]cn         | 仿冒搜狗输入法、传播病毒 |                              无                              |     无     | Z315 |
-| 2026/4/18 |      hxxps://www[.]ime-sogou[.]com[.]cn      | 仿冒搜狗输入法、传播病毒 | hxxps://www[.]ime-sogou[.]com[.]cn/xz/sougoshurufa-win64[.]zip |     无     | Z316 |
-| 2026/4/18 |        hxxps://apps-sougou[.]com[.]cn        | 仿冒搜狗输入法、传播病毒 |                              无                              |     无     | Z317 |
-| 2026/4/18 |           hxxps://sogou-sogou[.]cn           | 仿冒搜狗输入法、传播病毒 |                           同 Z314                            |     无     | Z318 |
 | 2026/4/18 |          hxxps://q-sogou[.]com[.]cn          | 仿冒搜狗输入法、传播病毒 |                              无                              |     无     | Z319 |
 | 2026/4/18 |       hxxps://cn-sogou-com[.]com[.]cn        | 仿冒搜狗输入法、传播病毒 |                              无                              |     无     | Z320 |
 | 2026/4/18 |         hxxps://sogou-ai[.]com[.]cn          | 仿冒搜狗输入法、传播病毒 |                              无                              |     无     | Z321 |
@@ -141,6 +138,11 @@
 | 2026/4/20 |      hxxps://www[.]qishuide[.]com[.]cn       |  仿冒汽水音乐、传播病毒  |                              无                              |     无     | Z329 |
 | 2026/4/22 |  hxxps://cn[.]apps-google-chroome[.]hl[.]cn  |  仿冒 Chrome、传播病毒   |                       有，载荷提取失败                       |     无     | Z330 |
 | 2026/4/22 | hxxps://1869web[.]mb-google-chrome[.]hl[.]cn |  仿冒 Chrome、传播病毒   |                       有，载荷提取失败                       |     无     | Z331 |
+| 2026/4/22 |          hxxps://zh-snipaste[.]com           | 仿冒 Snipaste、传播病毒  |   hxxps://snipasten[.]com/Snipaste-3[.]7[.]5[.]v011[.]zip    |     无     | Z332 |
+| 2026/4/22 |       hxxps://www[.]pc-snipaste[.]com        | 仿冒 Snipaste、传播病毒  |         hxxps://guanwangxz[.]shop/Snipaste-X64[.]zip         |     无     | Z333 |
+| 2026/4/22 |           hxxps://snipasten[.]com            | 仿冒 Snipaste、传播病毒  |                           同 Z332                            |     无     | Z334 |
+| 2026/4/22 |        hxxps://snipaste-ai[.]com[.]cn        | 仿冒 Snipaste、传播病毒  |                              无                              |     无     | Z335 |
+| 2026/4/22 |        hxxps://www[.]snipastae[.]com         | 仿冒 Snipaste、传播病毒  |                           同 Z332                            |     无     | Z336 |
 |  ——————   |             ————————————————————             |     ———————————————      |                ——————————————————————————————                | —————————— | ———  |
 
 > [!NOTE]
