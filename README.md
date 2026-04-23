@@ -36,7 +36,7 @@
 
 ---
 
-研究 - [国家计算机病毒协同分析平台 (国家计算机病毒应急处理中心)](https://virus.cverc.org.cn) | [可疑文件分析云 (计算机病毒防御技术国家工程实验室)](https://cloud.vdnel.cn) | [微步云沙箱](https://s.threatbook.com) | [安天文件分析服务](https://fenxi.antiy.cn) | [安恒云沙箱](https://sandbox.dbappsecurity.com.cn) | [奇安信威胁情报中心](https://ti.qianxin.com) | [天穹智能分析平台](https://sandbox.qianxin.com/sscc-tq-web) | [深信服威胁情报中心](https://ti.sangfor.com.cn/analysis-platform?lang=ZH-CN) | [VirusTotal](https://www.virustotal.com/gui/home/upload) | [MalwareBazaar](https://bazaar.abuse.ch) | [URLhaus](https://urlhaus.abuse.ch) | [Kaspersky OpenTIP](https://opentip.kaspersky.com) | [Microsoft 安全情报](https://www.microsoft.com/en-us/wdsi) | [Hybrid Analysis](https://hybrid-analysis.com) | [ANY.RUN](https://app.any.run)
+研究 - [国家计算机病毒协同分析平台 (国家计算机病毒应急处理中心)](https://virus.cverc.org.cn) | [可疑文件分析云 (计算机病毒防御技术国家工程实验室)](https://cloud.vdnel.cn) | [微步云沙箱](https://s.threatbook.com) | [安天文件分析服务](https://fenxi.antiy.cn) | [安恒云沙箱](https://sandbox.dbappsecurity.com.cn) | [奇安信威胁情报中心](https://ti.qianxin.com) | [天穹智能分析平台](https://sandbox.qianxin.com/sscc-tq-web) | [深信服威胁情报中心](https://ti.sangfor.com.cn/analysis-platform?lang=ZH-CN) | [VirusTotal](https://www.virustotal.com) | [MalwareBazaar](https://bazaar.abuse.ch) | [URLhaus](https://urlhaus.abuse.ch) | [Kaspersky OpenTIP](https://opentip.kaspersky.com) | [Microsoft 安全情报](https://www.microsoft.com/en-us/wdsi) | [Hybrid Analysis](https://hybrid-analysis.com) | [ANY.RUN](https://app.any.run)
 
 举报 - [中央网信办 违法和不良信息举报中心](https://www.12377.cn/index.html) | [网络违法犯罪信息举报网站](https://cyberpolice.mps.gov.cn/wfjb/#) | [网络不良与垃圾信息举报受理中心](https://www.12321.cn)
 
@@ -69,7 +69,7 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 4 月 23 日 18:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 4 月 23 日 21:00 (GMT+8)
 
 &emsp;&emsp;**截至 2026 年 4 月 23 日，本中心已打击计算机病毒 / 恶意软件 910 个、恶意网站 336 个，累计为潜在受害者规避经济损失约 6,240,780 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
@@ -155,7 +155,7 @@
 
 &emsp;&emsp;如需联系 Ling Gao，请发送电子邮件至 **ling@lghub.org** 或 **ling_gao@acm.org**。谢谢！😀
 
-&emsp;&emsp;若需请求协助判断文件样本是否具有恶意行为，请将样本上传[微步云沙箱](https://s.threatbook.com)，并将 **SHA256** 发送至上方邮箱 (请勿直接发送文件本体)。本中心将开展独立研究，并在 1 个工作日内回复您的邮件。
+&emsp;&emsp;如需协助判断文件样本是否具有恶意行为，请将样本上传至[微步云沙箱](https://s.threatbook.com)和 [VirusTotal](https://www.virustotal.com)，并将 **SHA256** 发送至上述邮箱 (请勿直接发送文件本体)。本中心将独立开展分析，并在 1 个工作日内回复您的邮件。
 
 &emsp;&emsp;欢迎体验我们编写的 **OpenClaw** (龙虾 AI Agent) 技能 [**vt-insight**](https://github.com/Lingggao/LGSRC/blob/main/vt-insight/SKILL.md)！该技能可用于在 VirusTotal 网站查询样本信息，自动整理并格式化输出查询报告。([效果图 ①](https://github.com/Lingggao/LGSRC/blob/main/Images/Rendering%201.png)) ([效果图 ②](https://github.com/Lingggao/LGSRC/blob/main/Images/Rendering%202.png)) 向 AI 大模型发送指令 `“将此 .md 文档作为 OpenClaw 技能安装：https://github.com/Lingggao/LGSRC/blob/main/vt-insight/SKILL.md，安装成功后进行简要介绍。”` 即可安装此技能，前往 [**ClawHub**](https://clawhub.ai/lingggao/vt-insight) 平台安装亦可。([vt-insight 技能安全审计报告](https://github.com/Lingggao/LGSRC/blob/main/Documents/vt-insight-security-audit-report%20(%E8%85%BE%E8%AE%AF%E5%AE%89%E5%85%A8%E4%BA%91%E9%BC%8E%E5%AE%9E%E9%AA%8C%E5%AE%A4).md))
 
