@@ -69,7 +69,7 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 4 月 23 日 13:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 4 月 23 日 18:00 (GMT+8)
 
 &emsp;&emsp;**截至 2026 年 4 月 23 日，本中心已打击计算机病毒 / 恶意软件 910 个、恶意网站 336 个，累计为潜在受害者规避经济损失约 6,240,780 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
@@ -108,9 +108,9 @@
 | 2026/4/22 |   TencentMeet···.exe    |   **银狐 (SilverFox)**   | 8f2632c34b4ade7bea79bd613d66e5bbaa91a85bc389660ab3f5ac2098349b58 | 851f5168-062a-4e02-b5b6-f6fa4621c409 | [VirusTotal](https://www.virustotal.com/gui/file/8f2632c34b4ade7bea79bd613d66e5bbaa91a85bc389660ab3f5ac2098349b58) (12) |                              无                              | A905 |
 | 2026/4/22 |   ToDesk_4.8.8.0.exe    |        **Agent**         | a21a00eb662fb0d2cae0b2bae9483bde31d36c696ede68317613a17f082494b0 | 0664501d-7e9d-45ba-9d32-a9f7bda5d27c | [VirusTotal](https://www.virustotal.com/gui/file/a21a00eb662fb0d2cae0b2bae9483bde31d36c696ede68317613a17f082494b0) (15) |                              无                              | A906 |
 | 2026/4/22 |        zpig.exe         |        **Agent**         | 5a2460ddbff46018cd979b30f6af1a02ddfbd0d49d353633b141265d68fad517 | 9d1223b8-a9b8-466b-9d3e-e65ce34c7c1b | [VirusTotal](https://www.virustotal.com/gui/file/5a2460ddbff46018cd979b30f6af1a02ddfbd0d49d353633b141265d68fad517) (22) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5a2460ddbff46018cd979b30f6af1a02ddfbd0d49d353633b141265d68fad517) | A907 |
-| 2026/4/23 | ···离开中国就是为了.exe |   **银狐 (SilverFox)**   | af9299d62b91dad8c048aff657e9a1a81b7bff937f17151b89ad1c893a31bb07 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/af9299d62b91dad8c048aff657e9a1a81b7bff937f17151b89ad1c893a31bb07) (25) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/af9299d62b91dad8c048aff657e9a1a81b7bff937f17151b89ad1c893a31bb07) | A908 |
-| 2026/4/23 |     2025-11-11.exe      | **银狐 (SilverFox.saf)** | 2739c9cd5236203b885788d50f5562801da50ea2cc512290f2dd9bef7ef9a089 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/2739c9cd5236203b885788d50f5562801da50ea2cc512290f2dd9bef7ef9a089) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/2739c9cd5236203b885788d50f5562801da50ea2cc512290f2dd9bef7ef9a089) | A909 |
-| 2026/4/23 | Quick_protected···.exe  |      **ValleyRAT**       | 6379ae703811a9d8e65df53cb8cdc2902aae5af918ed8fe300e379360d4cfa99 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/6379ae703811a9d8e65df53cb8cdc2902aae5af918ed8fe300e379360d4cfa99) (25) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/6379ae703811a9d8e65df53cb8cdc2902aae5af918ed8fe300e379360d4cfa99) | A910 |
+| 2026/4/23 | ···离开中国就是为了.exe |   **银狐 (SilverFox)**   | af9299d62b91dad8c048aff657e9a1a81b7bff937f17151b89ad1c893a31bb07 | a08c3ba3-6070-46d1-bb37-8c41457a26b6 | [VirusTotal](https://www.virustotal.com/gui/file/af9299d62b91dad8c048aff657e9a1a81b7bff937f17151b89ad1c893a31bb07) (25) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/af9299d62b91dad8c048aff657e9a1a81b7bff937f17151b89ad1c893a31bb07) | A908 |
+| 2026/4/23 |     2025-11-11.exe      | **银狐 (SilverFox.saf)** | 2739c9cd5236203b885788d50f5562801da50ea2cc512290f2dd9bef7ef9a089 | 2be5d4a6-aa93-4a26-b94b-c991625d3ee1 | [VirusTotal](https://www.virustotal.com/gui/file/2739c9cd5236203b885788d50f5562801da50ea2cc512290f2dd9bef7ef9a089) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/2739c9cd5236203b885788d50f5562801da50ea2cc512290f2dd9bef7ef9a089) | A909 |
+| 2026/4/23 | Quick_protected···.exe  |      **ValleyRAT**       | 6379ae703811a9d8e65df53cb8cdc2902aae5af918ed8fe300e379360d4cfa99 | 86714cae-f983-4b35-8f07-eb9b2c25c3c5 | [VirusTotal](https://www.virustotal.com/gui/file/6379ae703811a9d8e65df53cb8cdc2902aae5af918ed8fe300e379360d4cfa99) (25) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/6379ae703811a9d8e65df53cb8cdc2902aae5af918ed8fe300e379360d4cfa99) | A910 |
 |  ——————   |      ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -154,6 +154,8 @@
 ## 交流与合作
 
 &emsp;&emsp;如需联系 Ling Gao，请发送电子邮件至 **ling@lghub.org** 或 **ling_gao@acm.org**。谢谢！😀
+
+&emsp;&emsp;若需请求协助判断文件样本是否具有恶意行为，请将样本上传[微步云沙箱](https://s.threatbook.com)，并将 **SHA256** 发送至上方邮箱 (请勿直接发送文件本体)。本中心将开展独立研究，并在 1 个工作日内回复您的邮件。
 
 &emsp;&emsp;欢迎体验我们编写的 **OpenClaw** (龙虾 AI Agent) 技能 [**vt-insight**](https://github.com/Lingggao/LGSRC/blob/main/vt-insight/SKILL.md)！该技能可用于在 VirusTotal 网站查询样本信息，自动整理并格式化输出查询报告。([效果图 ①](https://github.com/Lingggao/LGSRC/blob/main/Images/Rendering%201.png)) ([效果图 ②](https://github.com/Lingggao/LGSRC/blob/main/Images/Rendering%202.png)) 向 AI 大模型发送指令 `“将此 .md 文档作为 OpenClaw 技能安装：https://github.com/Lingggao/LGSRC/blob/main/vt-insight/SKILL.md，安装成功后进行简要介绍。”` 即可安装此技能，前往 [**ClawHub**](https://clawhub.ai/lingggao/vt-insight) 平台安装亦可。([vt-insight 技能安全审计报告](https://github.com/Lingggao/LGSRC/blob/main/Documents/vt-insight-security-audit-report%20(%E8%85%BE%E8%AE%AF%E5%AE%89%E5%85%A8%E4%BA%91%E9%BC%8E%E5%AE%9E%E9%AA%8C%E5%AE%A4).md))
 
