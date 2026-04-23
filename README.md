@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 4 月 23 日 12:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 4 月 23 日 13:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 4 月 23 日，本中心已打击计算机病毒 / 恶意软件 909 个、恶意网站 336 个，累计为潜在受害者规避经济损失约 6,233,922 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 4 月 23 日，本中心已打击计算机病毒 / 恶意软件 910 个、恶意网站 336 个，累计为潜在受害者规避经济损失约 6,240,780 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;**本中心每打击 1 个计算机病毒、恶意软件或恶意网站，将同步向联合国儿童基金会 “爱心为救灾” 计划捐赠 1 元人民币**。该计划旨在支持中国及其他国家实现可持续发展目标，特别是为困境儿童提供援助。
 
@@ -110,6 +110,7 @@
 | 2026/4/22 |        zpig.exe         |        **Agent**         | 5a2460ddbff46018cd979b30f6af1a02ddfbd0d49d353633b141265d68fad517 | 9d1223b8-a9b8-466b-9d3e-e65ce34c7c1b | [VirusTotal](https://www.virustotal.com/gui/file/5a2460ddbff46018cd979b30f6af1a02ddfbd0d49d353633b141265d68fad517) (22) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5a2460ddbff46018cd979b30f6af1a02ddfbd0d49d353633b141265d68fad517) | A907 |
 | 2026/4/23 | ···离开中国就是为了.exe |   **银狐 (SilverFox)**   | af9299d62b91dad8c048aff657e9a1a81b7bff937f17151b89ad1c893a31bb07 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/af9299d62b91dad8c048aff657e9a1a81b7bff937f17151b89ad1c893a31bb07) (25) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/af9299d62b91dad8c048aff657e9a1a81b7bff937f17151b89ad1c893a31bb07) | A908 |
 | 2026/4/23 |     2025-11-11.exe      | **银狐 (SilverFox.saf)** | 2739c9cd5236203b885788d50f5562801da50ea2cc512290f2dd9bef7ef9a089 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/2739c9cd5236203b885788d50f5562801da50ea2cc512290f2dd9bef7ef9a089) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/2739c9cd5236203b885788d50f5562801da50ea2cc512290f2dd9bef7ef9a089) | A909 |
+| 2026/4/23 | Quick_protected···.exe  |      **ValleyRAT**       | 6379ae703811a9d8e65df53cb8cdc2902aae5af918ed8fe300e379360d4cfa99 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/6379ae703811a9d8e65df53cb8cdc2902aae5af918ed8fe300e379360d4cfa99) (25) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/6379ae703811a9d8e65df53cb8cdc2902aae5af918ed8fe300e379360d4cfa99) | A910 |
 |  ——————   |      ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
