@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 4 月 25 日 23:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 4 月 26 日 6:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 4 月 25 日，本中心已打击计算机病毒 / 恶意软件 923 个、恶意网站 340 个，累计为潜在受害者规避经济损失约 6,329,934 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 4 月 26 日，本中心已打击计算机病毒 / 恶意软件 928 个、恶意网站 340 个，累计为潜在受害者规避经济损失约 6,364,224 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;**本中心每打击 1 个计算机病毒、恶意软件或恶意网站，将同步向联合国儿童基金会 “爱心为救灾” 计划捐赠 1 元人民币**。该计划旨在支持中国及其他国家实现可持续发展目标，特别是为困境儿童提供援助。
 
@@ -85,12 +85,6 @@
 
 |   日期    |         文件名          |           检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :---------------------: | :----------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/4/22 |      Chormex33.exe      |   **银狐 (SilverFox)**   | 2cae0bd8e9fc6d05239790712547a2e6b3a0eedc6b2e6e32282f44ff20b8da78 | 3b81e95e-f63b-4582-86bd-640c56d6f696 | [VirusTotal](https://www.virustotal.com/gui/file/2cae0bd8e9fc6d05239790712547a2e6b3a0eedc6b2e6e32282f44ff20b8da78) (16) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/2cae0bd8e9fc6d05239790712547a2e6b3a0eedc6b2e6e32282f44ff20b8da78) | A898 |
-| 2026/4/22 |   inst.880233900b.exe   | **银狐 (SilverFox.bm)**  | 6326aadda1ea3106cd9b0cf0ef428f9dd55f4be45c6a3416521d5504a248af27 | df9efd44-7412-43bd-91d1-fc9b6b1cb506 | [VirusTotal](https://www.virustotal.com/gui/file/6326aadda1ea3106cd9b0cf0ef428f9dd55f4be45c6a3416521d5504a248af27) (7) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/6326aadda1ea3106cd9b0cf0ef428f9dd55f4be45c6a3416521d5504a248af27) | A899 |
-| 2026/4/22 |       商家版.exe        |       **XRedRAT**        | 16f75af75110e7a9aafe0bf5b6e3727c628edae8e131fbe23d87f9b1866d0be1 | b1d66774-3d61-4f93-8f37-494d7b20725e | [VirusTotal](https://www.virustotal.com/gui/file/16f75af75110e7a9aafe0bf5b6e3727c628edae8e131fbe23d87f9b1866d0be1) (62) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/16f75af75110e7a9aafe0bf5b6e3727c628edae8e131fbe23d87f9b1866d0be1) | A900 |
-| 2026/4/22 | ···收菜软件 内部版.exe  |       **XRedRAT**        | 26d67030c87fe26194c0e77caaf0a4305d59081b25275af4d4b4b7f1c2403392 | a840576a-3195-4198-a6e3-58a56c59e215 | [VirusTotal](https://www.virustotal.com/gui/file/26d67030c87fe26194c0e77caaf0a4305d59081b25275af4d4b4b7f1c2403392) (63) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/26d67030c87fe26194c0e77caaf0a4305d59081b25275af4d4b4b7f1c2403392) | A901 |
-| 2026/4/22 |   ldplayer9···3.3.exe   |        **Agent**         | 2dfef0050dac212ceb9e8c91e31a7f6d229b2ccde1cf1d2eabc8d7d11d738324 | 305d6bdf-dbfd-4838-ba43-42bdf113fae9 | [VirusTotal](https://www.virustotal.com/gui/file/2dfef0050dac212ceb9e8c91e31a7f6d229b2ccde1cf1d2eabc8d7d11d738324) (9) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/2dfef0050dac212ceb9e8c91e31a7f6d229b2ccde1cf1d2eabc8d7d11d738324) | A902 |
-| 2026/4/22 |    ldplчayer9_ld.exe    |      **Shellcode**       | 89e382df6016199cbee7bd8732b517b36e2e9b0d3efc54e766d3485b67a46646 | 84dd504d-c89c-48eb-a0a4-fd8582c65475 | [VirusTotal](https://www.virustotal.com/gui/file/89e382df6016199cbee7bd8732b517b36e2e9b0d3efc54e766d3485b67a46646) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/89e382df6016199cbee7bd8732b517b36e2e9b0d3efc54e766d3485b67a46646) | A903 |
 | 2026/4/22 |      resources.msi      |        **Agent**         | 9165c05fa9dd0254721a8a44413f119e7702a7f6b825746ed3e9b7e92256ea2a | ed783fb9-2155-44e6-bb3e-bca02afbdd45 | [VirusTotal](https://www.virustotal.com/gui/file/9165c05fa9dd0254721a8a44413f119e7702a7f6b825746ed3e9b7e92256ea2a) (19) |                              无                              | A904 |
 | 2026/4/22 |   TencentMeet···.exe    |   **银狐 (SilverFox)**   | 8f2632c34b4ade7bea79bd613d66e5bbaa91a85bc389660ab3f5ac2098349b58 | 851f5168-062a-4e02-b5b6-f6fa4621c409 | [VirusTotal](https://www.virustotal.com/gui/file/8f2632c34b4ade7bea79bd613d66e5bbaa91a85bc389660ab3f5ac2098349b58) (12) |                              无                              | A905 |
 | 2026/4/22 |   ToDesk_4.8.8.0.exe    |        **Agent**         | a21a00eb662fb0d2cae0b2bae9483bde31d36c696ede68317613a17f082494b0 | 0664501d-7e9d-45ba-9d32-a9f7bda5d27c | [VirusTotal](https://www.virustotal.com/gui/file/a21a00eb662fb0d2cae0b2bae9483bde31d36c696ede68317613a17f082494b0) (15) |                              无                              | A906 |
@@ -111,6 +105,11 @@
 | 2026/4/24 |    bzvfZqmXNedca.exe    |      **KeyLogger**       | f3c37244ef4207075ef16bf3fe283afe07e491c46f6449252321aa9c01f98358 | 673cae91-a419-47fb-95b5-5a3792435a55 | [VirusTotal](https://www.virustotal.com/gui/file/f3c37244ef4207075ef16bf3fe283afe07e491c46f6449252321aa9c01f98358) (18) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/f3c37244ef4207075ef16bf3fe283afe07e491c46f6449252321aa9c01f98358) | A921 |
 | 2026/4/24 |      II-i-10_1.exe      |       **Gh0stRAT**       | f0fa6f0d76b9a6ce4fb13a5e2580e918044a274f93ec282421858546313ee94a | 94a7546f-bfa7-4798-9ffa-1ada8f4ef3d4 | [VirusTotal](https://www.virustotal.com/gui/file/f0fa6f0d76b9a6ce4fb13a5e2580e918044a274f93ec282421858546313ee94a) (5) |                              无                              | A922 |
 | 2026/4/25 |     xunlei.x64.exe      | **银狐 (SilverFox.sa)**  | 7ff04ab3e4e3f6943fd7ad5b302bb8f1eb1894bf26f5d39940541a9f8cab3f85 | 8ad128ea-8e55-4e82-9f5f-bd1544335dc4 | [VirusTotal](https://www.virustotal.com/gui/file/7ff04ab3e4e3f6943fd7ad5b302bb8f1eb1894bf26f5d39940541a9f8cab3f85) (8) |                              无                              | A923 |
+| 2026/4/26 |  裁员名单及补偿···.exe  | **银狐 (SilverFox.bg)**  | 60090a7079a37d7c55ec6aff11e52d37a1d032d06d21954d655dfa4acd7cedd3 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/60090a7079a37d7c55ec6aff11e52d37a1d032d06d21954d655dfa4acd7cedd3) (14) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/60090a7079a37d7c55ec6aff11e52d37a1d032d06d21954d655dfa4acd7cedd3) | A924 |
+| 2026/4/26 |       LetsVPN.exe       |   **银狐 (SilverFox)**   | 84e44959d7c5d545c17f4c874718296a4ed30436521690fd53c79ab662083445 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/84e44959d7c5d545c17f4c874718296a4ed30436521690fd53c79ab662083445) (7) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/84e44959d7c5d545c17f4c874718296a4ed30436521690fd53c79ab662083445) | A925 |
+| 2026/4/26 |        Quick.exe        | **银狐 (SilverFox.aaa)** | 5ef95ea03e9171d205d0f3fe1b9aff0e1933a38923385357e710949cc0b85b72 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/5ef95ea03e9171d205d0f3fe1b9aff0e1933a38923385357e710949cc0b85b72) (39) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5ef95ea03e9171d205d0f3fe1b9aff0e1933a38923385357e710949cc0b85b72) | A926 |
+| 2026/4/26 |  Vqqfw···19.26.23.exe   |      **Cybercrime**      | 0465fa4f081dd286191a6602fd6aebcda94d3362759192c36adb408729c4e3ce |                                      | [VirusTotal](https://www.virustotal.com/gui/file/0465fa4f081dd286191a6602fd6aebcda94d3362759192c36adb408729c4e3ce) (18) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/0465fa4f081dd286191a6602fd6aebcda94d3362759192c36adb408729c4e3ce) | A927 |
+| 2026/4/26 |        文档.exe         | **银狐 (SilverFox.bg)**  | 6357059ba1b68376b11311cd1679f93e3709f48c8e6e9e84e88d4c27ebc00e1a |                                      | [VirusTotal](https://www.virustotal.com/gui/file/6357059ba1b68376b11311cd1679f93e3709f48c8e6e9e84e88d4c27ebc00e1a) (17) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/6357059ba1b68376b11311cd1679f93e3709f48c8e6e9e84e88d4c27ebc00e1a) | A928 |
 |  ——————   |      ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -125,27 +124,27 @@
 >
 > &emsp;为确保安全，网站地址将用 “hxxps://” 与 “[.]” 进行替换。**切勿尝试访问表格中列出的任何网址**。
 
-|   日期    |                     URL                      |          类别           |                           有效载荷                           |  URLhaus   | 编号 |
-| :-------: | :------------------------------------------: | :---------------------: | :----------------------------------------------------------: | :--------: | :--: |
-| 2026/4/19 |       hxxps://get-deepseek[.]com[.]cn        | 仿冒 DeepSeek、传播病毒 |                       有，载荷提取失败                       |     无     | Z323 |
-| 2026/4/20 |      hxxps://qi-qishuimusic[.]com[.]cn       | 仿冒汽水音乐、传播病毒  |   hxxps://uiejnnd[.]huzero[.]com/yinyueqishui14[.]1A[.]zip   |     无     | Z324 |
-| 2026/4/20 |      hxxps://www[.]qishuiapp[.]com[.]cn      | 仿冒汽水音乐、传播病毒  | hxxps://alibaba-cloud-azhi-oss[.]com/down[.]php/2b35c9488425728b2771f6950683740c[.]zip |     无     | Z325 |
-| 2026/4/20 |        hxxps://www-qishiu[.]com[.]cn         | 仿冒汽水音乐、传播病毒  |                              无                              |     无     | Z326 |
-| 2026/4/20 |      hxxps://www[.]qishmusic[.]com[.]cn      | 仿冒汽水音乐、传播病毒  |                              无                              |     无     | Z327 |
-| 2026/4/20 |    hxxps://www[.]yy-qishuiapp[.]com[.]cn     | 仿冒汽水音乐、传播病毒  |                              无                              |     无     | Z328 |
-| 2026/4/20 |      hxxps://www[.]qishuide[.]com[.]cn       | 仿冒汽水音乐、传播病毒  |                              无                              |     无     | Z329 |
-| 2026/4/22 |  hxxps://cn[.]apps-google-chroome[.]hl[.]cn  |  仿冒 Chrome、传播病毒  |                       有，载荷提取失败                       |     无     | Z330 |
-| 2026/4/22 | hxxps://1869web[.]mb-google-chrome[.]hl[.]cn |  仿冒 Chrome、传播病毒  |                       有，载荷提取失败                       |     无     | Z331 |
-| 2026/4/22 |          hxxps://zh-snipaste[.]com           | 仿冒 Snipaste、传播病毒 |   hxxps://snipasten[.]com/Snipaste-3[.]7[.]5[.]v011[.]zip    |     无     | Z332 |
-| 2026/4/22 |       hxxps://www[.]pc-snipaste[.]com        | 仿冒 Snipaste、传播病毒 |         hxxps://guanwangxz[.]shop/Snipaste-X64[.]zip         |     无     | Z333 |
-| 2026/4/22 |           hxxps://snipasten[.]com            | 仿冒 Snipaste、传播病毒 |                           同 Z332                            |     无     | Z334 |
-| 2026/4/22 |        hxxps://snipaste-ai[.]com[.]cn        | 仿冒 Snipaste、传播病毒 |                              无                              |     无     | Z335 |
-| 2026/4/22 |        hxxps://www[.]snipastae[.]com         | 仿冒 Snipaste、传播病毒 |                           同 Z332                            |     无     | Z336 |
-| 2026/4/23 |      hxxps://crystal-diskinfo[.]com/cn       |  仿冒 CrystalDiskInfo   |                       有，载荷提取失败                       |     无     | Z337 |
-| 2026/4/25 |      hxxps://www[.]pc-xunlei[.]com[.]cn      |   仿冒迅雷、传播病毒    | hxxps://qhsd8888[.]com/down[.]php/bae7aa2acb876b53690a9e627f8ffdef[.]zip |     无     | Z338 |
-| 2026/4/25 |         hxxps://a-xunlei[.]com[.]cn          |   仿冒迅雷、传播病毒    |                              无                              |     无     | Z339 |
-| 2026/4/25 |      hxxps://www[.]gw-xunlei[.]com[.]cn      |   仿冒迅雷、传播病毒    |                              无                              |     无     | Z340 |
-|  ——————   |             ————————————————————             |     ———————————————     |                ——————————————————————————————                | —————————— | ———  |
+|   日期    |                     URL                      |          类别           |                           有效载荷                           |                         URLhaus                          | 编号 |
+| :-------: | :------------------------------------------: | :---------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
+| 2026/4/19 |       hxxps://get-deepseek[.]com[.]cn        | 仿冒 DeepSeek、传播病毒 |                       有，载荷提取失败                       |                            无                            | Z323 |
+| 2026/4/20 |      hxxps://qi-qishuimusic[.]com[.]cn       | 仿冒汽水音乐、传播病毒  |   hxxps://uiejnnd[.]huzero[.]com/yinyueqishui14[.]1A[.]zip   |                            无                            | Z324 |
+| 2026/4/20 |      hxxps://www[.]qishuiapp[.]com[.]cn      | 仿冒汽水音乐、传播病毒  | hxxps://alibaba-cloud-azhi-oss[.]com/down[.]php/2b35c9488425728b2771f6950683740c[.]zip |                            无                            | Z325 |
+| 2026/4/20 |        hxxps://www-qishiu[.]com[.]cn         | 仿冒汽水音乐、传播病毒  |                              无                              |                            无                            | Z326 |
+| 2026/4/20 |      hxxps://www[.]qishmusic[.]com[.]cn      | 仿冒汽水音乐、传播病毒  |                              无                              |                            无                            | Z327 |
+| 2026/4/20 |    hxxps://www[.]yy-qishuiapp[.]com[.]cn     | 仿冒汽水音乐、传播病毒  |                              无                              |                            无                            | Z328 |
+| 2026/4/20 |      hxxps://www[.]qishuide[.]com[.]cn       | 仿冒汽水音乐、传播病毒  |                              无                              |                            无                            | Z329 |
+| 2026/4/22 |  hxxps://cn[.]apps-google-chroome[.]hl[.]cn  |  仿冒 Chrome、传播病毒  |                       有，载荷提取失败                       |                            无                            | Z330 |
+| 2026/4/22 | hxxps://1869web[.]mb-google-chrome[.]hl[.]cn |  仿冒 Chrome、传播病毒  |                       有，载荷提取失败                       |                            无                            | Z331 |
+| 2026/4/22 |          hxxps://zh-snipaste[.]com           | 仿冒 Snipaste、传播病毒 |   hxxps://snipasten[.]com/Snipaste-3[.]7[.]5[.]v011[.]zip    |                            无                            | Z332 |
+| 2026/4/22 |       hxxps://www[.]pc-snipaste[.]com        | 仿冒 Snipaste、传播病毒 |         hxxps://guanwangxz[.]shop/Snipaste-X64[.]zip         |                            无                            | Z333 |
+| 2026/4/22 |           hxxps://snipasten[.]com            | 仿冒 Snipaste、传播病毒 |                           同 Z332                            |                            无                            | Z334 |
+| 2026/4/22 |        hxxps://snipaste-ai[.]com[.]cn        | 仿冒 Snipaste、传播病毒 |                              无                              |                            无                            | Z335 |
+| 2026/4/22 |        hxxps://www[.]snipastae[.]com         | 仿冒 Snipaste、传播病毒 |                           同 Z332                            |                            无                            | Z336 |
+| 2026/4/23 |      hxxps://crystal-diskinfo[.]com/cn       |  仿冒 CrystalDiskInfo   |                       有，载荷提取失败                       |                            无                            | Z337 |
+| 2026/4/25 |      hxxps://www[.]pc-xunlei[.]com[.]cn      |   仿冒迅雷、传播病毒    | hxxps://qhsd8888[.]com/down[.]php/bae7aa2acb876b53690a9e627f8ffdef[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3831553) | Z338 |
+| 2026/4/25 |         hxxps://a-xunlei[.]com[.]cn          |   仿冒迅雷、传播病毒    |                              无                              |                            无                            | Z339 |
+| 2026/4/25 |      hxxps://www[.]gw-xunlei[.]com[.]cn      |   仿冒迅雷、传播病毒    |                              无                              |                            无                            | Z340 |
+|  ——————   |             ————————————————————             |     ———————————————     |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
 >
