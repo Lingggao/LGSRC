@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 4 月 27 日 9:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 4 月 27 日 12:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 4 月 27 日，本中心已打击计算机病毒 / 恶意软件 935 个、恶意网站 340 个，累计为潜在受害者规避经济损失约 6,412,230 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 4 月 27 日，本中心已打击计算机病毒 / 恶意软件 936 个、恶意网站 340 个，累计为潜在受害者规避经济损失约 6,419,088 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;**本中心每打击 1 个计算机病毒、恶意软件或恶意网站，将同步向联合国儿童基金会 “爱心为救灾” 计划捐赠 1 元人民币**。该计划旨在支持中国及其他国家实现可持续发展目标，特别是为困境儿童提供援助。
 
@@ -110,6 +110,7 @@
 | 2026/4/27 |     AweSun-3952.msi     | **银狐 (SilverFox.cw)**  | a62a63a55b6257454301bcba043f6a059363ae3fe99b14c18b9ce73376644453 | de027653-fa3e-4c98-8cc2-971bbf55884d | [VirusTotal](https://www.virustotal.com/gui/file/a62a63a55b6257454301bcba043f6a059363ae3fe99b14c18b9ce73376644453) (4) |                              无                              | A933 |
 | 2026/4/27 |    signal_setup.exe     |      **BypassUAC**       | 0dfa212e5079288d9b337ab8eb2f9a0cb58149999ca343d14fd08039c3b355e0 | eeb64a1d-0324-46e5-b365-63566c8e7522 | [VirusTotal](https://www.virustotal.com/gui/file/0dfa212e5079288d9b337ab8eb2f9a0cb58149999ca343d14fd08039c3b355e0) (6) |                              无                              | A934 |
 | 2026/4/27 |      wps-otram.exe      |  **Win32/Malgent!MSR**   | 2aa5630ff7d63ba382124865358eba0b784a2a811e4c496ad781041a8fa7cdd6 | a6b192bc-6e45-4b69-b42e-ced1df387db6 | [VirusTotal](https://www.virustotal.com/gui/file/2aa5630ff7d63ba382124865358eba0b784a2a811e4c496ad781041a8fa7cdd6) (7) |                              无                              | A935 |
+| 2026/4/27 |    kiscldsrvupd.exe     |   **Ransomware 勒索**    | 42a1aded85892a80c83f741a7ac00e7e75015166c3be0bae29d93d3a4714711d |                                      | [VirusTotal](https://www.virustotal.com/gui/file/42a1aded85892a80c83f741a7ac00e7e75015166c3be0bae29d93d3a4714711d) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/42a1aded85892a80c83f741a7ac00e7e75015166c3be0bae29d93d3a4714711d) | A936 |
 |  ——————   |      ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
