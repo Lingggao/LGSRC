@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 4 月 28 日 15:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 4 月 29 日 3:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 4 月 28 日，本中心已打击计算机病毒 / 恶意软件 949 个、恶意网站 342 个，累计为潜在受害者规避经济损失约 6,508,242 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 4 月 29 日，本中心已打击计算机病毒 / 恶意软件 949 个、恶意网站 342 个，累计为潜在受害者规避经济损失约 6,508,242 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;**本中心每打击 1 个计算机病毒、恶意软件或恶意网站，将同步向联合国儿童基金会 “爱心为救灾” 计划捐赠 1 元人民币**。该计划旨在支持中国及其他国家实现可持续发展目标，特别是为困境儿童提供援助。
 
@@ -110,7 +110,7 @@
 | 2026/4/28 | ···安装简体中文包-.exe |  **Win32/Malgent!MSR**   | 1e0229d2616423c9e0d9f7a461e93c8a351de065b5ce1111c821dee9e75794d8 | 073d7621-aec5-44f5-b6df-fe15aa83ae32 | [VirusTotal](https://www.virustotal.com/gui/file/1e0229d2616423c9e0d9f7a461e93c8a351de065b5ce1111c821dee9e75794d8) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/1e0229d2616423c9e0d9f7a461e93c8a351de065b5ce1111c821dee9e75794d8) | A946 |
 | 2026/4/28 | ···汉化t语言zh-cn.exe  |   **银狐 (SilverFox)**   | 45126f4f4257f5ac9c9895800f01c1c7021deeca5a4ba8b43ed3fe1249a8a318 | 8aa4031c-f246-40b2-938a-5bfbca6d5d2e | [VirusTotal](https://www.virustotal.com/gui/file/45126f4f4257f5ac9c9895800f01c1c7021deeca5a4ba8b43ed3fe1249a8a318) (16) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/45126f4f4257f5ac9c9895800f01c1c7021deeca5a4ba8b43ed3fe1249a8a318) | A947 |
 | 2026/4/28 |    谷歌邮箱0112.exe    |   **银狐 (SilverFox)**   | 90303a988786b705b9991b11d62c236df9e4a072ecbec5d70cc07c8e917408c1 | 6ab7938a-f0dd-4d01-b434-f5aa5fce0f76 | [VirusTotal](https://www.virustotal.com/gui/file/90303a988786b705b9991b11d62c236df9e4a072ecbec5d70cc07c8e917408c1) (19) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/90303a988786b705b9991b11d62c236df9e4a072ecbec5d70cc07c8e917408c1) | A948 |
-| 2026/4/28 |   DeepSeekV20.66.msi   |   **银狐 (SilverFox)**   | 33bacaa5064f5c24fe6b2f2964cf58f301ad1ea04ab02c732dfdfb2da56ea6a7 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/33bacaa5064f5c24fe6b2f2964cf58f301ad1ea04ab02c732dfdfb2da56ea6a7) (2) |                              无                              | A949 |
+| 2026/4/28 |   DeepSeekV20.66.msi   |      **Cybercrime**      | 33bacaa5064f5c24fe6b2f2964cf58f301ad1ea04ab02c732dfdfb2da56ea6a7 | c9485150-3873-4f26-a403-6106184940ec | [VirusTotal](https://www.virustotal.com/gui/file/33bacaa5064f5c24fe6b2f2964cf58f301ad1ea04ab02c732dfdfb2da56ea6a7) (2) |                              无                              | A949 |
 |  ——————   |      ————————————      |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
