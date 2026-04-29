@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 4 月 29 日 23:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 4 月 30 日 1:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 4 月 29 日，本中心已打击计算机病毒 / 恶意软件 963 个、恶意网站 349 个，累计为潜在受害者规避经济损失约 6,604,254 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 4 月 30 日，本中心已打击计算机病毒 / 恶意软件 963 个、恶意网站 349 个，累计为潜在受害者规避经济损失约 4,092,750 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;**本中心每打击 1 个计算机病毒、恶意软件或恶意网站，将同步向联合国儿童基金会 “爱心为救灾” 计划捐赠 1 元人民币**。该计划旨在支持中国及其他国家实现可持续发展目标，特别是为困境儿童提供援助。
 
@@ -109,7 +109,7 @@
 | 2026/4/29 |  WPS_off11.2-3811.msi  |  **银狐 (SilverFox)**   | 55e59f79352411da73c2998a62019eab71b173f2eb3baa0f167a27ed8b045aae |                                      | [VirusTotal](https://www.virustotal.com/gui/file/55e59f79352411da73c2998a62019eab71b173f2eb3baa0f167a27ed8b045aae) (0) |                              无                              | A960 |
 | 2026/4/29 |  WPS_off11.2-7751.msi  |  **银狐 (SilverFox)**   | 629ac3c30eae35ec6ab289b775909af2a07692c6008006952fef627f1cc85f1e | ed5da4a0-e6bf-47fc-84a5-c06e4ebc28a5 | [VirusTotal](https://www.virustotal.com/gui/file/629ac3c30eae35ec6ab289b775909af2a07692c6008006952fef627f1cc85f1e) (1) |                              无                              | A961 |
 | 2026/4/29 |  WPS_Sewps安装包.msi   |  **银狐 (SilverFox)**   | 7bb25236bc9efeb77706c450fe8959826e353e9106a8ec1511c92eb8bb1c1069 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/7bb25236bc9efeb77706c450fe8959826e353e9106a8ec1511c92eb8bb1c1069) (11) |                              无                              | A962 |
-| 2026/4/29 |  wpsSetin_255477.exe   |  **银狐 (SilverFox)**   | b365190641c4891aa1beba3c3c852307152722f0c5876896562556b45d56c492 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/b365190641c4891aa1beba3c3c852307152722f0c5876896562556b45d56c492) (8) |                              无                              | A963 |
+| 2026/4/29 |  wpsSetin_255477.exe   |  **银狐 (SilverFox)**   | b365190641c4891aa1beba3c3c852307152722f0c5876896562556b45d56c492 | 29bcff87-fa66-433d-9ea3-5cbef511a0cc | [VirusTotal](https://www.virustotal.com/gui/file/b365190641c4891aa1beba3c3c852307152722f0c5876896562556b45d56c492) (8) |                              无                              | A963 |
 |  ——————   |      ————————————      |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
