@@ -332,6 +332,13 @@
 | 2026/4/18 |         hxxps://cn-sogou-com[.]com[.]cn         |  仿冒搜狗输入法、传播病毒   |                              无                              |                            无                            | Z320 |
 | 2026/4/18 |           hxxps://sogou-ai[.]com[.]cn           |  仿冒搜狗输入法、传播病毒   |                              无                              |                            无                            | Z321 |
 | 2026/4/18 |        hxxps://shurufa-sogou[.]org[.]cn         |  仿冒搜狗输入法、传播病毒   |                              无                              |                            无                            | Z322 |
+| 2026/4/19 |         hxxps://get-deepseek[.]com[.]cn         |   仿冒 DeepSeek、传播病毒   |                       有，载荷提取失败                       |                            无                            | Z323 |
+| 2026/4/20 |        hxxps://qi-qishuimusic[.]com[.]cn        |   仿冒汽水音乐、传播病毒    |   hxxps://uiejnnd[.]huzero[.]com/yinyueqishui14[.]1A[.]zip   |                            无                            | Z324 |
+| 2026/4/20 |       hxxps://www[.]qishuiapp[.]com[.]cn        |   仿冒汽水音乐、传播病毒    | hxxps://alibaba-cloud-azhi-oss[.]com/down[.]php/2b35c9488425728b2771f6950683740c[.]zip |                            无                            | Z325 |
+| 2026/4/20 |          hxxps://www-qishiu[.]com[.]cn          |   仿冒汽水音乐、传播病毒    |                              无                              |                            无                            | Z326 |
+| 2026/4/20 |       hxxps://www[.]qishmusic[.]com[.]cn        |   仿冒汽水音乐、传播病毒    |                              无                              |                            无                            | Z327 |
+| 2026/4/20 |      hxxps://www[.]yy-qishuiapp[.]com[.]cn      |   仿冒汽水音乐、传播病毒    |                              无                              |                            无                            | Z328 |
+| 2026/4/20 |        hxxps://www[.]qishuide[.]com[.]cn        |   仿冒汽水音乐、传播病毒    |                              无                              |                            无                            | Z329 |
 |  ——————   |              ————————————————————               |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
