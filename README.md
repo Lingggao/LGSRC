@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 5 月 1 日 7:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 5 月 1 日 13:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 5 月 1 日，本中心已打击计算机病毒 / 恶意软件 968 个、恶意网站 349 个，累计为潜在受害者规避经济损失约 4,114,000 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 5 月 1 日，本中心已打击计算机病毒 / 恶意软件 969 个、恶意网站 349 个，累计为潜在受害者规避经济损失约 4,118,250 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;**本中心每打击 1 个计算机病毒、恶意软件或恶意网站，将同步向联合国儿童基金会 “爱心为救灾” 计划捐赠 1 元人民币**。该计划旨在支持中国及其他国家实现可持续发展目标，特别是为困境儿童提供援助。
 
@@ -109,6 +109,7 @@
 | 2026/4/30 |  Chrome···886301.exe   |  **银狐 (SilverFox)**   | 9d4d400c573f5e3a3f96c9e5b10106fb82c5731f971c89381dad5f2b8ef6c3dc | 5db9cf1a-ec28-45a0-bcf6-75d8fabb05b7 | [VirusTotal](https://www.virustotal.com/gui/file/9d4d400c573f5e3a3f96c9e5b10106fb82c5731f971c89381dad5f2b8ef6c3dc) (15) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/9d4d400c573f5e3a3f96c9e5b10106fb82c5731f971c89381dad5f2b8ef6c3dc) | A966 |
 | 2026/4/30 |     内容setup.exe      |       **XAgent**        | e78de49fdee7b4b4ff7dad796718caf15b7f82961be4d3b6db9e4fb3efb0a689 | 8dc8b074-f0d9-4c9c-9693-2af6b3b8d12f | [VirusTotal](https://www.virustotal.com/gui/file/e78de49fdee7b4b4ff7dad796718caf15b7f82961be4d3b6db9e4fb3efb0a689) (8) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/e78de49fdee7b4b4ff7dad796718caf15b7f82961be4d3b6db9e4fb3efb0a689) | A967 |
 | 2026/4/30 |      文本文档.exe      | **银狐 (SilverFox.bg)** | 578bd0c6f467141c34e4cfa0f60319349c4bdd456c87649b2d64bf658e510ec6 | 80ebaa34-648e-4a75-99f4-7607be415ffa | [VirusTotal](https://www.virustotal.com/gui/file/578bd0c6f467141c34e4cfa0f60319349c4bdd456c87649b2d64bf658e510ec6) (13) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/578bd0c6f467141c34e4cfa0f60319349c4bdd456c87649b2d64bf658e510ec6) | A968 |
+| 2026/5/1  | Clash.Verge_2.4···.exe |  **银狐 (SilverFox)**   | fbdc52e893c216d9069764379d6b7d08f13c2572d8b92f30a8ea999421301918 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/fbdc52e893c216d9069764379d6b7d08f13c2572d8b92f30a8ea999421301918) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/fbdc52e893c216d9069764379d6b7d08f13c2572d8b92f30a8ea999421301918) | A969 |
 |  ——————   |      ————————————      |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
