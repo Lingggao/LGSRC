@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 5 月 1 日 23:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 5 月 2 日 1:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 5 月 1 日，本中心已打击计算机病毒 / 恶意软件 973 个、恶意网站 358 个，累计为潜在受害者规避经济损失约 4,135,250 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 5 月 2 日，本中心已打击计算机病毒 / 恶意软件 973 个、恶意网站 358 个，累计为潜在受害者规避经济损失约 4,135,250 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;**本中心每打击 1 个计算机病毒、恶意软件或恶意网站，将同步向联合国儿童基金会 “爱心为救灾” 计划捐赠 1 元人民币**。该计划旨在支持中国及其他国家实现可持续发展目标，特别是为困境儿童提供援助。
 
@@ -110,7 +110,7 @@
 | 2026/5/1  | Clash.Verge···9806.msi | **银狐 (SilverFox.cw)**  | 3d41180b98b1ccd9a6a1a1d971d84f609931c280223e9bed0952a8349b7439e5 | 01052518-1f47-47c1-a097-05a04f79a23a | [VirusTotal](https://www.virustotal.com/gui/file/3d41180b98b1ccd9a6a1a1d971d84f609931c280223e9bed0952a8349b7439e5) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/3d41180b98b1ccd9a6a1a1d971d84f609931c280223e9bed0952a8349b7439e5) | A970 |
 | 2026/5/1  | FlClash-0.8.92···.exe  |   **银狐 (SilverFox)**   | b73925ad59bfe5c08c029f740e196812cd89bb808789d4db47b979aa1935da77 | b1eb8c58-e7df-4af6-95e6-eb904b52e44f | [VirusTotal](https://www.virustotal.com/gui/file/b73925ad59bfe5c08c029f740e196812cd89bb808789d4db47b979aa1935da77) (15) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b73925ad59bfe5c08c029f740e196812cd89bb808789d4db47b979aa1935da77) | A971 |
 | 2026/5/1  |    latsvp_Kldmn.exe    | **银狐 (SilverFox.wos)** | 4d608c08ae1fd179dcbd0c445835d26eccd6f7e61efc44461048c28f7d1f330c | 54bec50c-1ea3-4609-9144-c1cbf29467cc | [VirusTotal](https://www.virustotal.com/gui/file/4d608c08ae1fd179dcbd0c445835d26eccd6f7e61efc44461048c28f7d1f330c) (22) |                              无                              | A972 |
-| 2026/5/1  |    dingtalk···.exe     |   **银狐 (SilverFox)**   | 733fd613c59206bc9d181e0611e35d9ad1517621751cc3c2dda30e248f5eaf53 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/733fd613c59206bc9d181e0611e35d9ad1517621751cc3c2dda30e248f5eaf53) (15) |                              无                              | A973 |
+| 2026/5/1  |    dingtalk···.exe     |   **银狐 (SilverFox)**   | 733fd613c59206bc9d181e0611e35d9ad1517621751cc3c2dda30e248f5eaf53 | afe9e1ae-a7fd-441d-80b5-342f9e1e6100 | [VirusTotal](https://www.virustotal.com/gui/file/733fd613c59206bc9d181e0611e35d9ad1517621751cc3c2dda30e248f5eaf53) (15) |                              无                              | A973 |
 |  ——————   |      ————————————      |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -155,7 +155,7 @@
 
 &emsp;&emsp;如需联系 Ling Gao，请发送电子邮件至 **ling@lghub.org** 或 **ling_gao@acm.org**。谢谢！🥰
 
-&emsp;&emsp;如需协助检测文件样本是否具有恶意行为，请将其上传至 [微步云沙箱](https://s.threatbook.com) 和 [VirusTotal](https://www.virustotal.com)，并将 **SHA256** 发送至上方邮箱 **(请勿直接发送文件本体)**。本中心将独立开展研究，并在 1 个工作日内回复您的邮件。
+&emsp;&emsp;如需协助检测文件样本是否具有恶意行为，请将其上传至 [微步云沙箱](https://s.threatbook.com) 和 [VirusTotal](https://www.virustotal.com)，并将 **SHA256** 填写至 [此表单](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=39DabECOEk2JZekK_Z5UjJJAHDqug_FNgSvl5TTF-MJUM1pISDk0VTFLNjhHVVpJQ0FHVDlLMjcwMi4u) **(请勿直接发送文件本体)**。本中心将独立开展研究，并在 1 个工作日内回复您的邮件。在第三方平台上传样本前，请认真阅读服务条款与隐私政策，文件中请勿包含个人信息。
 
 &emsp;&emsp;欢迎体验我们编写的 **OpenClaw** (龙虾 AI Agent) 技能 [**vt-insight**](https://github.com/Lingggao/LGSRC/blob/main/vt-insight/SKILL.md)！该技能可用于在 VirusTotal 网站查询样本信息，自动整理并格式化输出查询报告。([效果图 ①](https://github.com/Lingggao/LGSRC/blob/main/Images/Rendering%201.png)) ([效果图 ②](https://github.com/Lingggao/LGSRC/blob/main/Images/Rendering%202.png)) 向 AI 大模型发送指令 `“将此 .md 文档作为 OpenClaw 技能安装：https://github.com/Lingggao/LGSRC/blob/main/vt-insight/SKILL.md，安装成功后进行简要介绍。”` 即可安装此技能，前往 [**ClawHub**](https://clawhub.ai/lingggao/vt-insight) 平台安装亦可。([vt-insight 技能安全审计报告](https://github.com/Lingggao/LGSRC/blob/main/Documents/vt-insight-security-audit-report%20(%E8%85%BE%E8%AE%AF%E5%AE%89%E5%85%A8%E4%BA%91%E9%BC%8E%E5%AE%9E%E9%AA%8C%E5%AE%A4).md))
 
