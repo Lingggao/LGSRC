@@ -339,6 +339,14 @@
 | 2026/4/20 |       hxxps://www[.]qishmusic[.]com[.]cn        |   仿冒汽水音乐、传播病毒    |                              无                              |                            无                            | Z327 |
 | 2026/4/20 |      hxxps://www[.]yy-qishuiapp[.]com[.]cn      |   仿冒汽水音乐、传播病毒    |                              无                              |                            无                            | Z328 |
 | 2026/4/20 |        hxxps://www[.]qishuide[.]com[.]cn        |   仿冒汽水音乐、传播病毒    |                              无                              |                            无                            | Z329 |
+| 2026/4/22 |   hxxps://cn[.]apps-google-chroome[.]hl[.]cn    |    仿冒 Chrome、传播病毒    |                       有，载荷提取失败                       |                            无                            | Z330 |
+| 2026/4/22 |  hxxps://1869web[.]mb-google-chrome[.]hl[.]cn   |    仿冒 Chrome、传播病毒    |                       有，载荷提取失败                       |                            无                            | Z331 |
+| 2026/4/22 |            hxxps://zh-snipaste[.]com            |   仿冒 Snipaste、传播病毒   |   hxxps://snipasten[.]com/Snipaste-3[.]7[.]5[.]v011[.]zip    |                            无                            | Z332 |
+| 2026/4/22 |         hxxps://www[.]pc-snipaste[.]com         |   仿冒 Snipaste、传播病毒   |         hxxps://guanwangxz[.]shop/Snipaste-X64[.]zip         |                            无                            | Z333 |
+| 2026/4/22 |             hxxps://snipasten[.]com             |   仿冒 Snipaste、传播病毒   |                           同 Z332                            |                            无                            | Z334 |
+| 2026/4/22 |         hxxps://snipaste-ai[.]com[.]cn          |   仿冒 Snipaste、传播病毒   |                              无                              |                            无                            | Z335 |
+| 2026/4/22 |          hxxps://www[.]snipastae[.]com          |   仿冒 Snipaste、传播病毒   |                           同 Z332                            |                            无                            | Z336 |
+| 2026/4/23 |        hxxps://crystal-diskinfo[.]com/cn        |    仿冒 CrystalDiskInfo     |                       有，载荷提取失败                       |                            无                            | Z337 |
 |  ——————   |              ————————————————————               |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
