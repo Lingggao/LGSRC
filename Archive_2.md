@@ -347,6 +347,9 @@
 | 2026/4/22 |         hxxps://snipaste-ai[.]com[.]cn          |   仿冒 Snipaste、传播病毒   |                              无                              |                            无                            | Z335 |
 | 2026/4/22 |          hxxps://www[.]snipastae[.]com          |   仿冒 Snipaste、传播病毒   |                           同 Z332                            |                            无                            | Z336 |
 | 2026/4/23 |        hxxps://crystal-diskinfo[.]com/cn        |    仿冒 CrystalDiskInfo     |                       有，载荷提取失败                       |                            无                            | Z337 |
+| 2026/4/25 |       hxxps://www[.]pc-xunlei[.]com[.]cn        |     仿冒迅雷、传播病毒      | hxxps://qhsd8888[.]com/down[.]php/bae7aa2acb876b53690a9e627f8ffdef[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3831553) | Z338 |
+| 2026/4/25 |           hxxps://a-xunlei[.]com[.]cn           |     仿冒迅雷、传播病毒      |                              无                              |                            无                            | Z339 |
+| 2026/4/25 |       hxxps://www[.]gw-xunlei[.]com[.]cn        |     仿冒迅雷、传播病毒      |                              无                              |                            无                            | Z340 |
 |  ——————   |              ————————————————————               |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
