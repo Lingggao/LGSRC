@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 5 月 2 日 17:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 5 月 2 日 19:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 5 月 2 日，本中心已打击计算机病毒 / 恶意软件 977 个、恶意网站 358 个，累计为潜在受害者规避经济损失约 4,143,750 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 5 月 2 日，本中心已打击计算机病毒 / 恶意软件 977 个、恶意网站 358 个，累计为潜在受害者规避经济损失约 4,152,250 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;**本中心每打击 1 个计算机病毒、恶意软件或恶意网站，将同步向联合国儿童基金会 “爱心为救灾” 计划捐赠 1 元人民币**。该计划旨在支持中国及其他国家实现可持续发展目标，特别是为困境儿童提供援助。
 
@@ -108,7 +108,7 @@
 | 2026/5/1  |    dingtalk···.exe     |   **银狐 (SilverFox)**   | 733fd613c59206bc9d181e0611e35d9ad1517621751cc3c2dda30e248f5eaf53 | afe9e1ae-a7fd-441d-80b5-342f9e1e6100 | [VirusTotal](https://www.virustotal.com/gui/file/733fd613c59206bc9d181e0611e35d9ad1517621751cc3c2dda30e248f5eaf53) (15) |                              无                              | A973 |
 | 2026/5/2  |    AweSun-3801.msi     | **银狐 (SilverFox.cw)**  | 375d726bbc993730902ae65d83d19da09299a8d112c5491933ffba4ea8b12f58 | 8a88420f-6d2d-42bb-9c90-1b8833a041e0 | [VirusTotal](https://www.virustotal.com/gui/file/375d726bbc993730902ae65d83d19da09299a8d112c5491933ffba4ea8b12f58) (3) |                              无                              | A974 |
 | 2026/5/2  | ToDesk_4.8.7.5···.msi  | **银狐 (SilverFox.cw)**  | 9da3367f88c5fe622a7a737c4e771fd333722ff088dbd2f6cf61481dbe4ad93f | 37b949d2-702f-46f4-b8bc-6e396c8a3c8b | [VirusTotal](https://www.virustotal.com/gui/file/9da3367f88c5fe622a7a737c4e771fd333722ff088dbd2f6cf61481dbe4ad93f) (4) |                              无                              | A975 |
-| 2026/5/2  |   abn-826581000.exe    | **银狐 (SilverFox.bm)**  | 387a43c154fce792e97eebe9774ead6a10d8b71652c1752db4042a2702b3cd67 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/387a43c154fce792e97eebe9774ead6a10d8b71652c1752db4042a2702b3cd67) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/387a43c154fce792e97eebe9774ead6a10d8b71652c1752db4042a2702b3cd67) | A976 |
+| 2026/5/2  |   abn-826581000.exe    | **银狐 (SilverFox.bm)**  | 387a43c154fce792e97eebe9774ead6a10d8b71652c1752db4042a2702b3cd67 | d47b799f-dc55-4855-92f9-59d3d250dcad | [VirusTotal](https://www.virustotal.com/gui/file/387a43c154fce792e97eebe9774ead6a10d8b71652c1752db4042a2702b3cd67) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/387a43c154fce792e97eebe9774ead6a10d8b71652c1752db4042a2702b3cd67) | A976 |
 | 2026/5/2  |     NTInstall.exe      |  **银狐 (SilverFox.e)**  | 49e3b6fae519cf4c5091a37d6be6d8c343412de11c73993c494d29e905d2bb6f |                                      | [VirusTotal](https://www.virustotal.com/gui/file/49e3b6fae519cf4c5091a37d6be6d8c343412de11c73993c494d29e905d2bb6f) (8) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/49e3b6fae519cf4c5091a37d6be6d8c343412de11c73993c494d29e905d2bb6f) | A977 |
 |  ——————   |      ————————————      |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
