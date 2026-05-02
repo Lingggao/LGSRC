@@ -69,7 +69,7 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 5 月 2 日 22:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 5 月 2 日 23:00 (GMT+8)
 
 &emsp;&emsp;**截至 2026 年 5 月 2 日，本中心已打击计算机病毒 / 恶意软件 979 个、恶意网站 360 个，累计为潜在受害者规避经济损失约 4,160,750 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
@@ -108,8 +108,8 @@
 | 2026/5/2  | ToDesk_4.8.7.5···.msi  | **银狐 (SilverFox.cw)**  | 9da3367f88c5fe622a7a737c4e771fd333722ff088dbd2f6cf61481dbe4ad93f | 37b949d2-702f-46f4-b8bc-6e396c8a3c8b | [VirusTotal](https://www.virustotal.com/gui/file/9da3367f88c5fe622a7a737c4e771fd333722ff088dbd2f6cf61481dbe4ad93f) (4) |                              无                              | A975 |
 | 2026/5/2  |   abn-826581000.exe    | **银狐 (SilverFox.bm)**  | 387a43c154fce792e97eebe9774ead6a10d8b71652c1752db4042a2702b3cd67 | d47b799f-dc55-4855-92f9-59d3d250dcad | [VirusTotal](https://www.virustotal.com/gui/file/387a43c154fce792e97eebe9774ead6a10d8b71652c1752db4042a2702b3cd67) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/387a43c154fce792e97eebe9774ead6a10d8b71652c1752db4042a2702b3cd67) | A976 |
 | 2026/5/2  |     NTInstall.exe      |  **银狐 (SilverFox.e)**  | 49e3b6fae519cf4c5091a37d6be6d8c343412de11c73993c494d29e905d2bb6f |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/49e3b6fae519cf4c5091a37d6be6d8c343412de11c73993c494d29e905d2bb6f) (8) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/49e3b6fae519cf4c5091a37d6be6d8c343412de11c73993c494d29e905d2bb6f) | A977 |
-| 2026/5/2  |  QQBrowser···8.3.exe   |      **Shellcode**       | 0e559187739e84c8df48d0cd01328f46af55dbb7b93397c04a16f9d5dad62c19 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/0e559187739e84c8df48d0cd01328f46af55dbb7b93397c04a16f9d5dad62c19) (5) |                              无                              | A978 |
-| 2026/5/2  |   Potato Desktop.exe   |   **银狐 (SilverFox)**   | e8eb0541c9f492b2f32f80f3e244fe07ac1bd31ccde9e51e7de90568b258c66a |                                      | [VirusTotal](https://www.virustotal.com/gui/file/e8eb0541c9f492b2f32f80f3e244fe07ac1bd31ccde9e51e7de90568b258c66a) (10) |                  [MalwareBazaar Database]()                  | A979 |
+| 2026/5/2  |  QQBrowser···8.3.exe   |      **Shellcode**       | 0e559187739e84c8df48d0cd01328f46af55dbb7b93397c04a16f9d5dad62c19 |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/0e559187739e84c8df48d0cd01328f46af55dbb7b93397c04a16f9d5dad62c19) (5) |                              无                              | A978 |
+| 2026/5/2  |   Potato Desktop.exe   |   **银狐 (SilverFox)**   | e8eb0541c9f492b2f32f80f3e244fe07ac1bd31ccde9e51e7de90568b258c66a | a4b4a5fb-ce4d-4784-b984-8320f969a68a | [VirusTotal](https://www.virustotal.com/gui/file/e8eb0541c9f492b2f32f80f3e244fe07ac1bd31ccde9e51e7de90568b258c66a) (10) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/e8eb0541c9f492b2f32f80f3e244fe07ac1bd31ccde9e51e7de90568b258c66a) | A979 |
 |  ——————   |      ————————————      |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
