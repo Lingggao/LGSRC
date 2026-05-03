@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 5 月 3 日 20:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 5 月 4 日 3:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 5 月 3 日，本中心已打击计算机病毒 / 恶意软件 984 个、恶意网站 366 个，累计为潜在受害者规避经济损失约 4,182,000 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 5 月 4 日，本中心已打击计算机病毒 / 恶意软件 985 个、恶意网站 366 个，累计为潜在受害者规避经济损失约 4,186,250 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;**本中心每打击 1 个计算机病毒、恶意软件或恶意网站，将同步向联合国儿童基金会 “爱心为救灾” 计划捐赠 1 元人民币**。该计划旨在支持中国及其他国家实现可持续发展目标，特别是为困境儿童提供援助。
 
@@ -107,9 +107,10 @@
 | 2026/5/2  |   Potato Desktop.exe   |   **银狐 (SilverFox)**   | e8eb0541c9f492b2f32f80f3e244fe07ac1bd31ccde9e51e7de90568b258c66a | a4b4a5fb-ce4d-4784-b984-8320f969a68a | [VirusTotal](https://www.virustotal.com/gui/file/e8eb0541c9f492b2f32f80f3e244fe07ac1bd31ccde9e51e7de90568b258c66a) (10) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/e8eb0541c9f492b2f32f80f3e244fe07ac1bd31ccde9e51e7de90568b258c66a) | A979 |
 | 2026/5/3  |  Goole···7.1.1.3.exe   |      **Cybercrime**      | f43f8a7264b9c516560524627edf4843b94ff2fc4e09df58ea3b1d0fc7d2ba2c | 8cb48365-37f7-41ad-97f9-9bfcde5857df | [VirusTotal](https://www.virustotal.com/gui/file/f43f8a7264b9c516560524627edf4843b94ff2fc4e09df58ea3b1d0fc7d2ba2c) (9) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/f43f8a7264b9c516560524627edf4843b94ff2fc4e09df58ea3b1d0fc7d2ba2c) | A980 |
 | 2026/5/3  |     setup-64.6.exe     |   **银狐 (SilverFox)**   | 8bce48005277177ad76fec09635ac309fc0b25fbe67e5375ac22a49348a0a0f6 | 3084ce3b-ae81-464e-80b3-ab9ce7ade3de | [VirusTotal](https://www.virustotal.com/gui/file/8bce48005277177ad76fec09635ac309fc0b25fbe67e5375ac22a49348a0a0f6) (6) |                              无                              | A981 |
-| 2026/5/3  |    ···6.987邮箱.exe    | **银狐 (SilverFox.sa)**  | 851c3b66e43ec0883b4a6f89d7e347a5a7d53bb367cdd297d9be717428633d96 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/851c3b66e43ec0883b4a6f89d7e347a5a7d53bb367cdd297d9be717428633d96) (33) |                              无                              | A982 |
-| 2026/5/3  |   ···xioAjwio_yz.exe   | **银狐 (SilverFox.sa)**  | 9520144f252ba915c9282eed272c1d82288e1a9b2b52557bcd7ab150a995c3d7 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/9520144f252ba915c9282eed272c1d82288e1a9b2b52557bcd7ab150a995c3d7) (13) |                              无                              | A983 |
-| 2026/5/3  |    火绒安全软件.msi    |   **黑猫 (BlackCat)**    | 8b319742f9437db2f6c5fbd8d4ab2592e842e5d645aec2a02fce0bbb3bca64e8 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/8b319742f9437db2f6c5fbd8d4ab2592e842e5d645aec2a02fce0bbb3bca64e8) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/8b319742f9437db2f6c5fbd8d4ab2592e842e5d645aec2a02fce0bbb3bca64e8) | A984 |
+| 2026/5/3  |    ···6.987邮箱.exe    | **银狐 (SilverFox.sa)**  | 851c3b66e43ec0883b4a6f89d7e347a5a7d53bb367cdd297d9be717428633d96 | ac526b9d-b790-4096-bae1-3ec5c6af442d | [VirusTotal](https://www.virustotal.com/gui/file/851c3b66e43ec0883b4a6f89d7e347a5a7d53bb367cdd297d9be717428633d96) (33) |                              无                              | A982 |
+| 2026/5/3  |   ···xioAjwio_yz.exe   | **银狐 (SilverFox.sa)**  | 9520144f252ba915c9282eed272c1d82288e1a9b2b52557bcd7ab150a995c3d7 | f80ac78f-2aad-486f-8f88-0ba11ad2da45 | [VirusTotal](https://www.virustotal.com/gui/file/9520144f252ba915c9282eed272c1d82288e1a9b2b52557bcd7ab150a995c3d7) (13) |                              无                              | A983 |
+| 2026/5/3  |    火绒安全软件.msi    |   **黑猫 (BlackCat)**    | 8b319742f9437db2f6c5fbd8d4ab2592e842e5d645aec2a02fce0bbb3bca64e8 | 44250cea-de7f-467c-9ed4-f8d351b2e4e6 | [VirusTotal](https://www.virustotal.com/gui/file/8b319742f9437db2f6c5fbd8d4ab2592e842e5d645aec2a02fce0bbb3bca64e8) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/8b319742f9437db2f6c5fbd8d4ab2592e842e5d645aec2a02fce0bbb3bca64e8) | A984 |
+| 2026/5/4  |      LetsVPN.exe       | **银狐 (SilverFox.wos)** | edd75bdc847945ca20f520ea35a83579b154465274086cc7d2e1ea9c706de988 |                                      |                      [VirusTotal]() ()                       |                              无                              | A985 |
 |  ——————   |      ————————————      |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
