@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 5 月 2 日 23:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 5 月 3 日 14:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 5 月 2 日，本中心已打击计算机病毒 / 恶意软件 979 个、恶意网站 360 个，累计为潜在受害者规避经济损失约 4,160,750 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 5 月 3 日，本中心已打击计算机病毒 / 恶意软件 981 个、恶意网站 366 个，累计为潜在受害者规避经济损失约 4,169,250 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;**本中心每打击 1 个计算机病毒、恶意软件或恶意网站，将同步向联合国儿童基金会 “爱心为救灾” 计划捐赠 1 元人民币**。该计划旨在支持中国及其他国家实现可持续发展目标，特别是为困境儿童提供援助。
 
@@ -108,8 +108,10 @@
 | 2026/5/2  | ToDesk_4.8.7.5···.msi  | **银狐 (SilverFox.cw)**  | 9da3367f88c5fe622a7a737c4e771fd333722ff088dbd2f6cf61481dbe4ad93f | 37b949d2-702f-46f4-b8bc-6e396c8a3c8b | [VirusTotal](https://www.virustotal.com/gui/file/9da3367f88c5fe622a7a737c4e771fd333722ff088dbd2f6cf61481dbe4ad93f) (4) |                              无                              | A975 |
 | 2026/5/2  |   abn-826581000.exe    | **银狐 (SilverFox.bm)**  | 387a43c154fce792e97eebe9774ead6a10d8b71652c1752db4042a2702b3cd67 | d47b799f-dc55-4855-92f9-59d3d250dcad | [VirusTotal](https://www.virustotal.com/gui/file/387a43c154fce792e97eebe9774ead6a10d8b71652c1752db4042a2702b3cd67) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/387a43c154fce792e97eebe9774ead6a10d8b71652c1752db4042a2702b3cd67) | A976 |
 | 2026/5/2  |     NTInstall.exe      |  **银狐 (SilverFox.e)**  | 49e3b6fae519cf4c5091a37d6be6d8c343412de11c73993c494d29e905d2bb6f |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/49e3b6fae519cf4c5091a37d6be6d8c343412de11c73993c494d29e905d2bb6f) (8) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/49e3b6fae519cf4c5091a37d6be6d8c343412de11c73993c494d29e905d2bb6f) | A977 |
-| 2026/5/2  |  QQBrowser···8.3.exe   |      **Shellcode**       | 0e559187739e84c8df48d0cd01328f46af55dbb7b93397c04a16f9d5dad62c19 |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/0e559187739e84c8df48d0cd01328f46af55dbb7b93397c04a16f9d5dad62c19) (5) |                              无                              | A978 |
+| 2026/5/2  |  QQBrowser···8.3.exe   |      **Shellcode**       | 0e559187739e84c8df48d0cd01328f46af55dbb7b93397c04a16f9d5dad62c19 | 4e868a54-d694-4e19-bab7-fa0889a54bd8 | [VirusTotal](https://www.virustotal.com/gui/file/0e559187739e84c8df48d0cd01328f46af55dbb7b93397c04a16f9d5dad62c19) (5) |                              无                              | A978 |
 | 2026/5/2  |   Potato Desktop.exe   |   **银狐 (SilverFox)**   | e8eb0541c9f492b2f32f80f3e244fe07ac1bd31ccde9e51e7de90568b258c66a | a4b4a5fb-ce4d-4784-b984-8320f969a68a | [VirusTotal](https://www.virustotal.com/gui/file/e8eb0541c9f492b2f32f80f3e244fe07ac1bd31ccde9e51e7de90568b258c66a) (10) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/e8eb0541c9f492b2f32f80f3e244fe07ac1bd31ccde9e51e7de90568b258c66a) | A979 |
+| 2026/5/3  |  Goole···7.1.1.3.exe   |      **Cybercrime**      | f43f8a7264b9c516560524627edf4843b94ff2fc4e09df58ea3b1d0fc7d2ba2c |                                      | [VirusTotal](https://www.virustotal.com/gui/file/f43f8a7264b9c516560524627edf4843b94ff2fc4e09df58ea3b1d0fc7d2ba2c) (9) |                  [MalwareBazaar Database]()                  | A980 |
+| 2026/5/3  |     setup-64.6.exe     |   **银狐 (SilverFox)**   | 8bce48005277177ad76fec09635ac309fc0b25fbe67e5375ac22a49348a0a0f6 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/8bce48005277177ad76fec09635ac309fc0b25fbe67e5375ac22a49348a0a0f6) (6) |                              无                              | A981 |
 |  ——————   |      ————————————      |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -126,13 +128,6 @@
 
 |   日期    |                   URL                   |           类别           |                           有效载荷                           |  URLhaus   | 编号 |
 | :-------: | :-------------------------------------: | :----------------------: | :----------------------------------------------------------: | :--------: | :--: |
-| 2026/4/28 |      hxxps://deepseekz[.]com[.]cn       | 仿冒 DeepSeek、传播病毒  |                       有，载荷提取失败                       |     无     | Z341 |
-| 2026/4/28 |         hxxps://doubao-app[.]cn         |    仿冒豆包、传播病毒    |                              无                              |     无     | Z342 |
-| 2026/4/29 |        hxxps://zd-wps[.]com[.]cn        |    仿冒 WPS、传播病毒    |                              无                              |     无     | Z343 |
-| 2026/4/29 |    hxxps://110web[.]www-wps-cn[.]com    |    仿冒 WPS、传播病毒    | hxxps://aaaaa-oss-111222-a[.]oss-cn-hongkong[.]aliyuncs[.]com/wpsSetin_255477[.]zip |     无     | Z344 |
-| 2026/4/29 |        hxxps://hj-wps[.]com[.]cn        |    仿冒 WPS、传播病毒    |     hxxps://hjehncssw[.]huzero[.]com/WPS_off11[.]2[.]zip     |     无     | Z345 |
-| 2026/4/29 |   hxxps://2103web[.]www-wps-cn[.]com    |    仿冒 WPS、传播病毒    |                           同 Z344                            |     无     | Z346 |
-| 2026/4/29 |   hxxps://1939web[.]www-wps-cn[.]com    |    仿冒 WPS、传播病毒    | hxxps://dfsghfjghkgfkj-dfhgdsfsad[.]oss-ap-southeast-1[.]aliyuncs[.]com/WPS_Sewps256841[.]zip |     无     | Z347 |
 | 2026/4/29 | hxxps://2732web[.]tiaozhuanjs[.]eu[.]cc |    仿冒 WPS、传播病毒    |                              无                              |     无     | Z348 |
 | 2026/4/29 |       hxxps://owq-wps[.]com[.]cn        |    仿冒 WPS、传播病毒    |                              无                              |     无     | Z349 |
 | 2026/5/1  |        hxxps://cllash[.]com[.]cn        |  借助 VPN 工具传播病毒   | hxxps://hjjend33[.]huzero[.]com/Clash[.]Verge_2[.]4[.]2_x64[.]zip |     无     | Z350 |
@@ -146,6 +141,12 @@
 | 2026/5/1  |     hxxps://www-dingtalk[.]com[.]cn     |    仿冒钉钉、传播病毒    |      hxxps://clash-org[.]com/dingtalk_downloader[.]zip       |     无     | Z358 |
 | 2026/5/2  |        hxxps://browser-qq[.]org         | 仿冒 QQ 浏览器、传播病毒 | hxxps://ydaea[.]hongyangkj[.]top/QQBrowser_Setup_windos_x64[.]zip |     无     | Z359 |
 | 2026/5/2  |         hxxps://browser-qq[.]cn         | 仿冒 QQ 浏览器、传播病毒 |                              无                              |     无     | Z360 |
+| 2026/5/3  |        hxxps://one-chrome[.]com         |  仿冒 Chrome、传播病毒   |                              无                              |     无     | Z361 |
+| 2026/5/3  |       hxxps://local-chrome[.]com        |  仿冒 Chrome、传播病毒   |                              无                              |     无     | Z362 |
+| 2026/5/3  |   hxxps://v-google-chrome[.]com[.]cn    |  仿冒 Chrome、传播病毒   |                              无                              |     无     | Z363 |
+| 2026/5/3  |        hxxps://googlee-zh[.]com         |  仿冒 Chrome、传播病毒   |                              无                              |     无     | Z364 |
+| 2026/5/3  |       hxxps://www[.]chromef[.]com       |  仿冒 Chrome、传播病毒   | hxxps://juhau35[.]oss-ap-southeast-3[.]aliyuncs[.]com/setup-64[.]6[.]zip |     无     | Z365 |
+| 2026/5/3  |      hxxps://www-goole-apps[.]com       |  仿冒 Chrome、传播病毒   |                              无                              |     无     | Z366 |
 |  ——————   |          ————————————————————           |     ———————————————      |                ——————————————————————————————                | —————————— | ———  |
 
 > [!NOTE]

@@ -350,6 +350,13 @@
 | 2026/4/25 |       hxxps://www[.]pc-xunlei[.]com[.]cn        |     仿冒迅雷、传播病毒      | hxxps://qhsd8888[.]com/down[.]php/bae7aa2acb876b53690a9e627f8ffdef[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3831553) | Z338 |
 | 2026/4/25 |           hxxps://a-xunlei[.]com[.]cn           |     仿冒迅雷、传播病毒      |                              无                              |                            无                            | Z339 |
 | 2026/4/25 |       hxxps://www[.]gw-xunlei[.]com[.]cn        |     仿冒迅雷、传播病毒      |                              无                              |                            无                            | Z340 |
+| 2026/4/28 |          hxxps://deepseekz[.]com[.]cn           |   仿冒 DeepSeek、传播病毒   |                       有，载荷提取失败                       |                            无                            | Z341 |
+| 2026/4/28 |             hxxps://doubao-app[.]cn             |     仿冒豆包、传播病毒      |                              无                              |                            无                            | Z342 |
+| 2026/4/29 |            hxxps://zd-wps[.]com[.]cn            |     仿冒 WPS、传播病毒      |                              无                              |                            无                            | Z343 |
+| 2026/4/29 |        hxxps://110web[.]www-wps-cn[.]com        |     仿冒 WPS、传播病毒      | hxxps://aaaaa-oss-111222-a[.]oss-cn-hongkong[.]aliyuncs[.]com/wpsSetin_255477[.]zip |                            无                            | Z344 |
+| 2026/4/29 |            hxxps://hj-wps[.]com[.]cn            |     仿冒 WPS、传播病毒      |     hxxps://hjehncssw[.]huzero[.]com/WPS_off11[.]2[.]zip     |                            无                            | Z345 |
+| 2026/4/29 |       hxxps://2103web[.]www-wps-cn[.]com        |     仿冒 WPS、传播病毒      |                           同 Z344                            |                            无                            | Z346 |
+| 2026/4/29 |       hxxps://1939web[.]www-wps-cn[.]com        |     仿冒 WPS、传播病毒      | hxxps://dfsghfjghkgfkj-dfhgdsfsad[.]oss-ap-southeast-1[.]aliyuncs[.]com/WPS_Sewps256841[.]zip |                            无                            | Z347 |
 |  ——————   |              ————————————————————               |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
