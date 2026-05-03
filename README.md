@@ -69,7 +69,7 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 5 月 3 日 14:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 5 月 3 日 15:00 (GMT+8)
 
 &emsp;&emsp;**截至 2026 年 5 月 3 日，本中心已打击计算机病毒 / 恶意软件 981 个、恶意网站 366 个，累计为潜在受害者规避经济损失约 4,169,250 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
@@ -110,7 +110,7 @@
 | 2026/5/2  |     NTInstall.exe      |  **银狐 (SilverFox.e)**  | 49e3b6fae519cf4c5091a37d6be6d8c343412de11c73993c494d29e905d2bb6f |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/49e3b6fae519cf4c5091a37d6be6d8c343412de11c73993c494d29e905d2bb6f) (8) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/49e3b6fae519cf4c5091a37d6be6d8c343412de11c73993c494d29e905d2bb6f) | A977 |
 | 2026/5/2  |  QQBrowser···8.3.exe   |      **Shellcode**       | 0e559187739e84c8df48d0cd01328f46af55dbb7b93397c04a16f9d5dad62c19 | 4e868a54-d694-4e19-bab7-fa0889a54bd8 | [VirusTotal](https://www.virustotal.com/gui/file/0e559187739e84c8df48d0cd01328f46af55dbb7b93397c04a16f9d5dad62c19) (5) |                              无                              | A978 |
 | 2026/5/2  |   Potato Desktop.exe   |   **银狐 (SilverFox)**   | e8eb0541c9f492b2f32f80f3e244fe07ac1bd31ccde9e51e7de90568b258c66a | a4b4a5fb-ce4d-4784-b984-8320f969a68a | [VirusTotal](https://www.virustotal.com/gui/file/e8eb0541c9f492b2f32f80f3e244fe07ac1bd31ccde9e51e7de90568b258c66a) (10) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/e8eb0541c9f492b2f32f80f3e244fe07ac1bd31ccde9e51e7de90568b258c66a) | A979 |
-| 2026/5/3  |  Goole···7.1.1.3.exe   |      **Cybercrime**      | f43f8a7264b9c516560524627edf4843b94ff2fc4e09df58ea3b1d0fc7d2ba2c |                                      | [VirusTotal](https://www.virustotal.com/gui/file/f43f8a7264b9c516560524627edf4843b94ff2fc4e09df58ea3b1d0fc7d2ba2c) (9) |                  [MalwareBazaar Database]()                  | A980 |
+| 2026/5/3  |  Goole···7.1.1.3.exe   |      **Cybercrime**      | f43f8a7264b9c516560524627edf4843b94ff2fc4e09df58ea3b1d0fc7d2ba2c | 8cb48365-37f7-41ad-97f9-9bfcde5857df | [VirusTotal](https://www.virustotal.com/gui/file/f43f8a7264b9c516560524627edf4843b94ff2fc4e09df58ea3b1d0fc7d2ba2c) (9) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/f43f8a7264b9c516560524627edf4843b94ff2fc4e09df58ea3b1d0fc7d2ba2c) | A980 |
 | 2026/5/3  |     setup-64.6.exe     |   **银狐 (SilverFox)**   | 8bce48005277177ad76fec09635ac309fc0b25fbe67e5375ac22a49348a0a0f6 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/8bce48005277177ad76fec09635ac309fc0b25fbe67e5375ac22a49348a0a0f6) (6) |                              无                              | A981 |
 |  ——————   |      ————————————      |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
