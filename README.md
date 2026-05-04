@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 5 月 4 日 21:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 5 月 4 日 22:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 5 月 4 日，本中心已打击计算机病毒 / 恶意软件 987 个、恶意网站 366 个，累计为潜在受害者规避经济损失约 4,194,750 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 5 月 4 日，本中心已打击计算机病毒 / 恶意软件 988 个、恶意网站 366 个，累计为潜在受害者规避经济损失约 4,199,000 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;**本中心每打击 1 个计算机病毒、恶意软件或恶意网站，将同步向联合国儿童基金会 “爱心为救灾” 计划捐赠 1 元人民币**。该计划旨在支持中国及其他国家实现可持续发展目标，特别是为困境儿童提供援助。
 
@@ -85,7 +85,6 @@
 
 |   日期    |         文件名         |           检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :--------------------: | :----------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/4/29 |  wpsSetin_255477.exe   |   **银狐 (SilverFox)**   | b365190641c4891aa1beba3c3c852307152722f0c5876896562556b45d56c492 | 29bcff87-fa66-433d-9ea3-5cbef511a0cc | [VirusTotal](https://www.virustotal.com/gui/file/b365190641c4891aa1beba3c3c852307152722f0c5876896562556b45d56c492) (8) |                              无                              | A963 |
 | 2026/4/30 |  04.30裁员名单···.exe  | **银狐 (SilverFox.bg)**  | 7de487e28c9dee3ceb40fec5aca690e2128514ce26929e46fa5442f76ab2439a | 35ef5bc4-a216-405c-bccf-b4162ec969f3 | [VirusTotal](https://www.virustotal.com/gui/file/7de487e28c9dee3ceb40fec5aca690e2128514ce26929e46fa5442f76ab2439a) (18) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/7de487e28c9dee3ceb40fec5aca690e2128514ce26929e46fa5442f76ab2439a) | A964 |
 | 2026/4/30 |  ···第一季度名单.exe   | **银狐 (SilverFox.bg)**  | 4af9a96fbf6c751a7e2ceb297ec708e13136a0b076dad0f9ba335c68c8e8f33e | f9914d39-9fd9-468c-b6b8-a62198c57073 | [VirusTotal](https://www.virustotal.com/gui/file/4af9a96fbf6c751a7e2ceb297ec708e13136a0b076dad0f9ba335c68c8e8f33e) (12) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/4af9a96fbf6c751a7e2ceb297ec708e13136a0b076dad0f9ba335c68c8e8f33e) | A965 |
 | 2026/4/30 |  Chrome···886301.exe   |   **银狐 (SilverFox)**   | 9d4d400c573f5e3a3f96c9e5b10106fb82c5731f971c89381dad5f2b8ef6c3dc | 5db9cf1a-ec28-45a0-bcf6-75d8fabb05b7 | [VirusTotal](https://www.virustotal.com/gui/file/9d4d400c573f5e3a3f96c9e5b10106fb82c5731f971c89381dad5f2b8ef6c3dc) (15) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/9d4d400c573f5e3a3f96c9e5b10106fb82c5731f971c89381dad5f2b8ef6c3dc) | A966 |
@@ -110,6 +109,7 @@
 | 2026/5/4  |      LetsVPN.exe       | **银狐 (SilverFox.wos)** | edd75bdc847945ca20f520ea35a83579b154465274086cc7d2e1ea9c706de988 | 655e225f-860f-4031-89d5-b3edbe3402ed | [VirusTotal](https://www.virustotal.com/gui/file/edd75bdc847945ca20f520ea35a83579b154465274086cc7d2e1ea9c706de988) (14) |                              无                              | A985 |
 | 2026/5/4  |   instoll.3.2.2.exe    | **银狐 (SilverFox.bm)**  | d892a76c70b6d03c6da0732786ce695d97b3c07037a152b141b5c9c3495d6e67 | 6b36cc3b-888c-495f-bcbf-e1b9a11d02d4 | [VirusTotal](https://www.virustotal.com/gui/file/d892a76c70b6d03c6da0732786ce695d97b3c07037a152b141b5c9c3495d6e67) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/d892a76c70b6d03c6da0732786ce695d97b3c07037a152b141b5c9c3495d6e67) | A986 |
 | 2026/5/4  |      tspkbvpv.exe      | **银狐 (SilverFox.sa)**  | 96a67f1380ffcbbefa3789c269b6ed8faf6f02e9d3741c1a83127ce8dca199fa | 4198565e-f477-43b4-88f3-beef18cb3a20 | [VirusTotal](https://www.virustotal.com/gui/file/96a67f1380ffcbbefa3789c269b6ed8faf6f02e9d3741c1a83127ce8dca199fa) (12) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/96a67f1380ffcbbefa3789c269b6ed8faf6f02e9d3741c1a83127ce8dca199fa) | A987 |
+| 2026/5/4  |      Telegram.exe      |   **银狐 (SilverFox)**   | 47cf6beeea87c5ebcae91218b17c4c0f52e6efd691e5ac77bef6978baae86fb2 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/47cf6beeea87c5ebcae91218b17c4c0f52e6efd691e5ac77bef6978baae86fb2) (7) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/47cf6beeea87c5ebcae91218b17c4c0f52e6efd691e5ac77bef6978baae86fb2) | A988 |
 |  ——————   |      ————————————      |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
