@@ -69,7 +69,7 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 5 月 4 日 18:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 5 月 4 日 21:00 (GMT+8)
 
 &emsp;&emsp;**截至 2026 年 5 月 4 日，本中心已打击计算机病毒 / 恶意软件 987 个、恶意网站 366 个，累计为潜在受害者规避经济损失约 4,194,750 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
@@ -108,8 +108,8 @@
 | 2026/5/3  |   ···xioAjwio_yz.exe   | **银狐 (SilverFox.sa)**  | 9520144f252ba915c9282eed272c1d82288e1a9b2b52557bcd7ab150a995c3d7 | f80ac78f-2aad-486f-8f88-0ba11ad2da45 | [VirusTotal](https://www.virustotal.com/gui/file/9520144f252ba915c9282eed272c1d82288e1a9b2b52557bcd7ab150a995c3d7) (13) |                              无                              | A983 |
 | 2026/5/3  |    火绒安全软件.msi    |   **黑猫 (BlackCat)**    | 8b319742f9437db2f6c5fbd8d4ab2592e842e5d645aec2a02fce0bbb3bca64e8 | 44250cea-de7f-467c-9ed4-f8d351b2e4e6 | [VirusTotal](https://www.virustotal.com/gui/file/8b319742f9437db2f6c5fbd8d4ab2592e842e5d645aec2a02fce0bbb3bca64e8) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/8b319742f9437db2f6c5fbd8d4ab2592e842e5d645aec2a02fce0bbb3bca64e8) | A984 |
 | 2026/5/4  |      LetsVPN.exe       | **银狐 (SilverFox.wos)** | edd75bdc847945ca20f520ea35a83579b154465274086cc7d2e1ea9c706de988 | 655e225f-860f-4031-89d5-b3edbe3402ed | [VirusTotal](https://www.virustotal.com/gui/file/edd75bdc847945ca20f520ea35a83579b154465274086cc7d2e1ea9c706de988) (14) |                              无                              | A985 |
-| 2026/5/4  |   instoll.3.2.2.exe    | **银狐 (SilverFox.bm)**  | d892a76c70b6d03c6da0732786ce695d97b3c07037a152b141b5c9c3495d6e67 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/d892a76c70b6d03c6da0732786ce695d97b3c07037a152b141b5c9c3495d6e67) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/d892a76c70b6d03c6da0732786ce695d97b3c07037a152b141b5c9c3495d6e67) | A986 |
-| 2026/5/4  |      tspkbvpv.exe      | **银狐 (SilverFox.sa)**  | 96a67f1380ffcbbefa3789c269b6ed8faf6f02e9d3741c1a83127ce8dca199fa |                                      | [VirusTotal](https://www.virustotal.com/gui/file/96a67f1380ffcbbefa3789c269b6ed8faf6f02e9d3741c1a83127ce8dca199fa) (12) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/96a67f1380ffcbbefa3789c269b6ed8faf6f02e9d3741c1a83127ce8dca199fa) | A987 |
+| 2026/5/4  |   instoll.3.2.2.exe    | **银狐 (SilverFox.bm)**  | d892a76c70b6d03c6da0732786ce695d97b3c07037a152b141b5c9c3495d6e67 | 6b36cc3b-888c-495f-bcbf-e1b9a11d02d4 | [VirusTotal](https://www.virustotal.com/gui/file/d892a76c70b6d03c6da0732786ce695d97b3c07037a152b141b5c9c3495d6e67) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/d892a76c70b6d03c6da0732786ce695d97b3c07037a152b141b5c9c3495d6e67) | A986 |
+| 2026/5/4  |      tspkbvpv.exe      | **银狐 (SilverFox.sa)**  | 96a67f1380ffcbbefa3789c269b6ed8faf6f02e9d3741c1a83127ce8dca199fa | 4198565e-f477-43b4-88f3-beef18cb3a20 | [VirusTotal](https://www.virustotal.com/gui/file/96a67f1380ffcbbefa3789c269b6ed8faf6f02e9d3741c1a83127ce8dca199fa) (12) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/96a67f1380ffcbbefa3789c269b6ed8faf6f02e9d3741c1a83127ce8dca199fa) | A987 |
 |  ——————   |      ————————————      |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
