@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 5 月 4 日 12:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 5 月 4 日 18:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 5 月 4 日，本中心已打击计算机病毒 / 恶意软件 985 个、恶意网站 366 个，累计为潜在受害者规避经济损失约 4,186,250 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 5 月 4 日，本中心已打击计算机病毒 / 恶意软件 987 个、恶意网站 366 个，累计为潜在受害者规避经济损失约 4,194,750 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;**本中心每打击 1 个计算机病毒、恶意软件或恶意网站，将同步向联合国儿童基金会 “爱心为救灾” 计划捐赠 1 元人民币**。该计划旨在支持中国及其他国家实现可持续发展目标，特别是为困境儿童提供援助。
 
@@ -85,9 +85,6 @@
 
 |   日期    |         文件名         |           检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :--------------------: | :----------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/4/29 |  WPS_off11.2-3811.msi  |   **银狐 (SilverFox)**   | 55e59f79352411da73c2998a62019eab71b173f2eb3baa0f167a27ed8b045aae | 533f937a-8975-4391-b00b-e1186670615c | [VirusTotal](https://www.virustotal.com/gui/file/55e59f79352411da73c2998a62019eab71b173f2eb3baa0f167a27ed8b045aae) (0) |                              无                              | A960 |
-| 2026/4/29 |  WPS_off11.2-7751.msi  |   **银狐 (SilverFox)**   | 629ac3c30eae35ec6ab289b775909af2a07692c6008006952fef627f1cc85f1e | ed5da4a0-e6bf-47fc-84a5-c06e4ebc28a5 | [VirusTotal](https://www.virustotal.com/gui/file/629ac3c30eae35ec6ab289b775909af2a07692c6008006952fef627f1cc85f1e) (1) |                              无                              | A961 |
-| 2026/4/29 |  WPS_Sewps安装包.msi   |   **银狐 (SilverFox)**   | 7bb25236bc9efeb77706c450fe8959826e353e9106a8ec1511c92eb8bb1c1069 | ca791d3d-890b-41fb-90ea-6c083810b283 | [VirusTotal](https://www.virustotal.com/gui/file/7bb25236bc9efeb77706c450fe8959826e353e9106a8ec1511c92eb8bb1c1069) (11) |                              无                              | A962 |
 | 2026/4/29 |  wpsSetin_255477.exe   |   **银狐 (SilverFox)**   | b365190641c4891aa1beba3c3c852307152722f0c5876896562556b45d56c492 | 29bcff87-fa66-433d-9ea3-5cbef511a0cc | [VirusTotal](https://www.virustotal.com/gui/file/b365190641c4891aa1beba3c3c852307152722f0c5876896562556b45d56c492) (8) |                              无                              | A963 |
 | 2026/4/30 |  04.30裁员名单···.exe  | **银狐 (SilverFox.bg)**  | 7de487e28c9dee3ceb40fec5aca690e2128514ce26929e46fa5442f76ab2439a | 35ef5bc4-a216-405c-bccf-b4162ec969f3 | [VirusTotal](https://www.virustotal.com/gui/file/7de487e28c9dee3ceb40fec5aca690e2128514ce26929e46fa5442f76ab2439a) (18) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/7de487e28c9dee3ceb40fec5aca690e2128514ce26929e46fa5442f76ab2439a) | A964 |
 | 2026/4/30 |  ···第一季度名单.exe   | **银狐 (SilverFox.bg)**  | 4af9a96fbf6c751a7e2ceb297ec708e13136a0b076dad0f9ba335c68c8e8f33e | f9914d39-9fd9-468c-b6b8-a62198c57073 | [VirusTotal](https://www.virustotal.com/gui/file/4af9a96fbf6c751a7e2ceb297ec708e13136a0b076dad0f9ba335c68c8e8f33e) (12) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/4af9a96fbf6c751a7e2ceb297ec708e13136a0b076dad0f9ba335c68c8e8f33e) | A965 |
@@ -111,6 +108,8 @@
 | 2026/5/3  |   ···xioAjwio_yz.exe   | **银狐 (SilverFox.sa)**  | 9520144f252ba915c9282eed272c1d82288e1a9b2b52557bcd7ab150a995c3d7 | f80ac78f-2aad-486f-8f88-0ba11ad2da45 | [VirusTotal](https://www.virustotal.com/gui/file/9520144f252ba915c9282eed272c1d82288e1a9b2b52557bcd7ab150a995c3d7) (13) |                              无                              | A983 |
 | 2026/5/3  |    火绒安全软件.msi    |   **黑猫 (BlackCat)**    | 8b319742f9437db2f6c5fbd8d4ab2592e842e5d645aec2a02fce0bbb3bca64e8 | 44250cea-de7f-467c-9ed4-f8d351b2e4e6 | [VirusTotal](https://www.virustotal.com/gui/file/8b319742f9437db2f6c5fbd8d4ab2592e842e5d645aec2a02fce0bbb3bca64e8) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/8b319742f9437db2f6c5fbd8d4ab2592e842e5d645aec2a02fce0bbb3bca64e8) | A984 |
 | 2026/5/4  |      LetsVPN.exe       | **银狐 (SilverFox.wos)** | edd75bdc847945ca20f520ea35a83579b154465274086cc7d2e1ea9c706de988 | 655e225f-860f-4031-89d5-b3edbe3402ed | [VirusTotal](https://www.virustotal.com/gui/file/edd75bdc847945ca20f520ea35a83579b154465274086cc7d2e1ea9c706de988) (14) |                              无                              | A985 |
+| 2026/5/4  |   instoll.3.2.2.exe    | **银狐 (SilverFox.bm)**  | d892a76c70b6d03c6da0732786ce695d97b3c07037a152b141b5c9c3495d6e67 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/d892a76c70b6d03c6da0732786ce695d97b3c07037a152b141b5c9c3495d6e67) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/d892a76c70b6d03c6da0732786ce695d97b3c07037a152b141b5c9c3495d6e67) | A986 |
+| 2026/5/4  |      tspkbvpv.exe      | **银狐 (SilverFox.sa)**  | 96a67f1380ffcbbefa3789c269b6ed8faf6f02e9d3741c1a83127ce8dca199fa |                                      | [VirusTotal](https://www.virustotal.com/gui/file/96a67f1380ffcbbefa3789c269b6ed8faf6f02e9d3741c1a83127ce8dca199fa) (12) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/96a67f1380ffcbbefa3789c269b6ed8faf6f02e9d3741c1a83127ce8dca199fa) | A987 |
 |  ——————   |      ————————————      |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -156,7 +155,7 @@
 
 &emsp;&emsp;如需联系 Ling Gao，请发送电子邮件至 **ling@lghub.org** 或 **ling_gao@acm.org**。谢谢！🥰
 
-&emsp;&emsp;如需协助检测文件样本是否具有恶意行为，请将其上传至 [微步云沙箱](https://s.threatbook.com) 和 [VirusTotal](https://www.virustotal.com)，并将 **SHA256** 填写至 [此表单](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=39DabECOEk2JZekK_Z5UjJJAHDqug_FNgSvl5TTF-MJUM1pISDk0VTFLNjhHVVpJQ0FHVDlLMjcwMi4u) **(请勿直接发送文件本体)**。本中心将独立开展研究，并在 1 个工作日内回复您的邮件。在第三方平台上传样本前，请认真阅读服务条款与隐私政策，文件中请勿包含个人信息。
+&emsp;&emsp;如需协助检测文件样本是否具有恶意行为，请将其上传至[微步云沙箱](https://s.threatbook.com)和 [VirusTotal](https://www.virustotal.com)，并将 **SHA256** 填写至[此表单](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=39DabECOEk2JZekK_Z5UjJJAHDqug_FNgSvl5TTF-MJUM1pISDk0VTFLNjhHVVpJQ0FHVDlLMjcwMi4u) **(请勿直接发送文件本体)**。本中心将独立开展研究，并在 1 个工作日内回复您的邮件。在第三方平台上传样本前，请认真阅读服务条款与隐私政策，文件中请勿包含个人信息。
 
 &emsp;&emsp;欢迎体验我们编写的 **OpenClaw** (龙虾 AI Agent) 技能 [**vt-insight**](https://github.com/Lingggao/LGSRC/blob/main/vt-insight/SKILL.md)！该技能可用于在 VirusTotal 网站查询样本信息，自动整理并格式化输出查询报告。([效果图 ①](https://github.com/Lingggao/LGSRC/blob/main/Images/Rendering%201.png)) ([效果图 ②](https://github.com/Lingggao/LGSRC/blob/main/Images/Rendering%202.png)) 向 AI 大模型发送指令 `“将此 .md 文档作为 OpenClaw 技能安装：https://github.com/Lingggao/LGSRC/blob/main/vt-insight/SKILL.md，安装成功后进行简要介绍。”` 即可安装此技能，前往 [**ClawHub**](https://clawhub.ai/lingggao/vt-insight) 平台安装亦可。([vt-insight 技能安全审计报告](https://github.com/Lingggao/LGSRC/blob/main/Documents/vt-insight-security-audit-report%20(%E8%85%BE%E8%AE%AF%E5%AE%89%E5%85%A8%E4%BA%91%E9%BC%8E%E5%AE%9E%E9%AA%8C%E5%AE%A4).md))
 
