@@ -357,6 +357,13 @@
 | 2026/4/29 |            hxxps://hj-wps[.]com[.]cn            |     仿冒 WPS、传播病毒      |     hxxps://hjehncssw[.]huzero[.]com/WPS_off11[.]2[.]zip     |                            无                            | Z345 |
 | 2026/4/29 |       hxxps://2103web[.]www-wps-cn[.]com        |     仿冒 WPS、传播病毒      |                           同 Z344                            |                            无                            | Z346 |
 | 2026/4/29 |       hxxps://1939web[.]www-wps-cn[.]com        |     仿冒 WPS、传播病毒      | hxxps://dfsghfjghkgfkj-dfhgdsfsad[.]oss-ap-southeast-1[.]aliyuncs[.]com/WPS_Sewps256841[.]zip |                            无                            | Z347 |
+| 2026/4/29 |     hxxps://2732web[.]tiaozhuanjs[.]eu[.]cc     |     仿冒 WPS、传播病毒      |                              无                              |                            无                            | Z348 |
+| 2026/4/29 |           hxxps://owq-wps[.]com[.]cn            |     仿冒 WPS、传播病毒      |                              无                              |                            无                            | Z349 |
+| 2026/5/1  |            hxxps://cllash[.]com[.]cn            |    借助 VPN 工具传播病毒    | hxxps://hjjend33[.]huzero[.]com/Clash[.]Verge_2[.]4[.]2_x64[.]zip |                            无                            | Z350 |
+| 2026/5/1  |           hxxps://clashcnz[.]com[.]cn           |    借助 VPN 工具传播病毒    | hxxps://yangyangoss9[.]oss-cn-hongkong[.]aliyuncs[.]com/FlClash-0[.]8[.]92-amd64[.]zip |                            无                            | Z351 |
+| 2026/5/1  |       hxxps://www[.]clash-web[.]com[.]cn        |    借助 VPN 工具传播病毒    | hxxps://download[.]driverelf[.]xyz/Clash[.]Verge_2[.]4[.]4_x64-setup[.]rar |                            无                            | Z352 |
+| 2026/5/1  |           hxxps://tt-clasha[.]hl[.]cn           |    借助 VPN 工具传播病毒    |                              无                              |                            无                            | Z353 |
+| 2026/5/1  |          hxxps://acc-clash[.]com[.]cn           |    借助 VPN 工具传播病毒    |      hxxps://lestsvpn-htohwin[.]top/latsvp_Kldmn[.]zip       |                            无                            | Z354 |
 |  ——————   |              ————————————————————               |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
