@@ -364,6 +364,10 @@
 | 2026/5/1  |       hxxps://www[.]clash-web[.]com[.]cn        |    借助 VPN 工具传播病毒    | hxxps://download[.]driverelf[.]xyz/Clash[.]Verge_2[.]4[.]4_x64-setup[.]rar |                            无                            | Z352 |
 | 2026/5/1  |           hxxps://tt-clasha[.]hl[.]cn           |    借助 VPN 工具传播病毒    |                              无                              |                            无                            | Z353 |
 | 2026/5/1  |          hxxps://acc-clash[.]com[.]cn           |    借助 VPN 工具传播病毒    |      hxxps://lestsvpn-htohwin[.]top/latsvp_Kldmn[.]zip       |                            无                            | Z354 |
+| 2026/5/1  |          hxxps://clashgithub[.]hl[.]cn          |    借助 VPN 工具传播病毒    |                           同 Z351                            |                            无                            | Z355 |
+| 2026/5/1  |          hxxps://www[.]app-ding[.]com           |     仿冒钉钉、传播病毒      |                              无                              |                            无                            | Z356 |
+| 2026/5/1  |         hxxps://app-dingding[.]com[.]cn         |     仿冒钉钉、传播病毒      |                              无                              |                            无                            | Z357 |
+| 2026/5/1  |         hxxps://www-dingtalk[.]com[.]cn         |     仿冒钉钉、传播病毒      |      hxxps://clash-org[.]com/dingtalk_downloader[.]zip       |                            无                            | Z358 |
 |  ——————   |              ————————————————————               |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
