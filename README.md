@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 5 月 5 日 21:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 5 月 6 日 11:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 5 月 5 日，本中心已打击计算机病毒 / 恶意软件 991 个、恶意网站 373 个，累计为潜在受害者规避经济损失约 4,211,750 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 5 月 6 日，本中心已打击计算机病毒 / 恶意软件 993 个、恶意网站 373 个，累计为潜在受害者规避经济损失约 4,220,250 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;**本中心每打击 1 个计算机病毒、恶意软件或恶意网站，将同步向联合国儿童基金会 “爱心为救灾” 计划捐赠 1 元人民币**。该计划旨在支持中国及其他国家实现可持续发展目标，特别是为困境儿童提供援助。
 
@@ -109,8 +109,10 @@
 | 2026/5/4  |      tspkbvpv.exe      | **银狐 (SilverFox.sa)**  | 96a67f1380ffcbbefa3789c269b6ed8faf6f02e9d3741c1a83127ce8dca199fa | 4198565e-f477-43b4-88f3-beef18cb3a20 | [VirusTotal](https://www.virustotal.com/gui/file/96a67f1380ffcbbefa3789c269b6ed8faf6f02e9d3741c1a83127ce8dca199fa) (12) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/96a67f1380ffcbbefa3789c269b6ed8faf6f02e9d3741c1a83127ce8dca199fa) | A987 |
 | 2026/5/4  |      Telegram.exe      |   **银狐 (SilverFox)**   | 47cf6beeea87c5ebcae91218b17c4c0f52e6efd691e5ac77bef6978baae86fb2 | 2d75a754-2fd3-4ba7-80e6-bec56a933ec0 | [VirusTotal](https://www.virustotal.com/gui/file/47cf6beeea87c5ebcae91218b17c4c0f52e6efd691e5ac77bef6978baae86fb2) (7) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/47cf6beeea87c5ebcae91218b17c4c0f52e6efd691e5ac77bef6978baae86fb2) | A988 |
 | 2026/5/5  |  WPS···25865-pc64.exe  |  **Win32/Malgent!MSR**   | f541e49b2f2b1e615130dd1d1cea8d1951a105d53394c9a41262b67863805f92 | 4dc4db9c-5bbf-4542-a5b7-a7ac5ebcd662 | [VirusTotal](https://www.virustotal.com/gui/file/f541e49b2f2b1e615130dd1d1cea8d1951a105d53394c9a41262b67863805f92) (3) |                              无                              | A989 |
-| 2026/5/5  |  WPS_wps···安装包.msi  |   **银狐 (SilverFox)**   | 3225a3ab257fe8ffb46149fb3642338e6e61bfd18a6bff5f4382557c9e4ea909 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/3225a3ab257fe8ffb46149fb3642338e6e61bfd18a6bff5f4382557c9e4ea909) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/3225a3ab257fe8ffb46149fb3642338e6e61bfd18a6bff5f4382557c9e4ea909) | A990 |
-| 2026/5/5  |      GameBox.zip       | **银狐 (SilverFox.sa)**  | 74e9864359cb672c80b3a2c6f14dac4e68f924d28a043c9e9111b746268d2d34 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/74e9864359cb672c80b3a2c6f14dac4e68f924d28a043c9e9111b746268d2d34) (34) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/74e9864359cb672c80b3a2c6f14dac4e68f924d28a043c9e9111b746268d2d34) | A991 |
+| 2026/5/5  |  WPS_wps···安装包.msi  |   **银狐 (SilverFox)**   | 3225a3ab257fe8ffb46149fb3642338e6e61bfd18a6bff5f4382557c9e4ea909 | c4d15e1c-f680-4c08-a12e-23461bd0e5da | [VirusTotal](https://www.virustotal.com/gui/file/3225a3ab257fe8ffb46149fb3642338e6e61bfd18a6bff5f4382557c9e4ea909) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/3225a3ab257fe8ffb46149fb3642338e6e61bfd18a6bff5f4382557c9e4ea909) | A990 |
+| 2026/5/5  |      GameBox.zip       | **银狐 (SilverFox.sa)**  | 74e9864359cb672c80b3a2c6f14dac4e68f924d28a043c9e9111b746268d2d34 | 52c1ecda-9b1a-4685-b1dd-33de5d113c98 | [VirusTotal](https://www.virustotal.com/gui/file/74e9864359cb672c80b3a2c6f14dac4e68f924d28a043c9e9111b746268d2d34) (34) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/74e9864359cb672c80b3a2c6f14dac4e68f924d28a043c9e9111b746268d2d34) | A991 |
+| 2026/5/5  |      e89nv81d.exe      |     **PyInstaller**      | ea234fbcfc2a2af75bb80a34a0d624bb078c5322b160642977da79cdd9806783 | d7a0a84d-1f5f-4011-b1a0-facfb3a3ed94 | [VirusTotal](https://www.virustotal.com/gui/file/ea234fbcfc2a2af75bb80a34a0d624bb078c5322b160642977da79cdd9806783) (14) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/ea234fbcfc2a2af75bb80a34a0d624bb078c5322b160642977da79cdd9806783) | A992 |
+| 2026/5/5  |      vcapcha.ps1       |        **Agent**         | cab7f141fd6f2c58055b3731ef6a64b8a2d4d88a974770b047da19c0904322f0 | 28e959b4-600c-4664-b768-701d4101d3e4 | [VirusTotal](https://www.virustotal.com/gui/file/cab7f141fd6f2c58055b3731ef6a64b8a2d4d88a974770b047da19c0904322f0) (2) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/cab7f141fd6f2c58055b3731ef6a64b8a2d4d88a974770b047da19c0904322f0) | A993 |
 |  ——————   |      ————————————      |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
