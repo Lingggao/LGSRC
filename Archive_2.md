@@ -368,6 +368,14 @@
 | 2026/5/1  |          hxxps://www[.]app-ding[.]com           |     仿冒钉钉、传播病毒      |                              无                              |                            无                            | Z356 |
 | 2026/5/1  |         hxxps://app-dingding[.]com[.]cn         |     仿冒钉钉、传播病毒      |                              无                              |                            无                            | Z357 |
 | 2026/5/1  |         hxxps://www-dingtalk[.]com[.]cn         |     仿冒钉钉、传播病毒      |      hxxps://clash-org[.]com/dingtalk_downloader[.]zip       |                            无                            | Z358 |
+| 2026/5/2  |            hxxps://browser-qq[.]org             |  仿冒 QQ 浏览器、传播病毒   | hxxps://ydaea[.]hongyangkj[.]top/QQBrowser_Setup_windos_x64[.]zip |                            无                            | Z359 |
+| 2026/5/2  |             hxxps://browser-qq[.]cn             |  仿冒 QQ 浏览器、传播病毒   |                              无                              |                            无                            | Z360 |
+| 2026/5/3  |            hxxps://one-chrome[.]com             |    仿冒 Chrome、传播病毒    |                              无                              |                            无                            | Z361 |
+| 2026/5/3  |           hxxps://local-chrome[.]com            |    仿冒 Chrome、传播病毒    |                              无                              |                            无                            | Z362 |
+| 2026/5/3  |       hxxps://v-google-chrome[.]com[.]cn        |    仿冒 Chrome、传播病毒    |                              无                              |                            无                            | Z363 |
+| 2026/5/3  |            hxxps://googlee-zh[.]com             |    仿冒 Chrome、传播病毒    |                              无                              |                            无                            | Z364 |
+| 2026/5/3  |           hxxps://www[.]chromef[.]com           |    仿冒 Chrome、传播病毒    | hxxps://juhau35[.]oss-ap-southeast-3[.]aliyuncs[.]com/setup-64[.]6[.]zip |                            无                            | Z365 |
+| 2026/5/3  |          hxxps://www-goole-apps[.]com           |    仿冒 Chrome、传播病毒    |                              无                              |                            无                            | Z366 |
 |  ——————   |              ————————————————————               |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
