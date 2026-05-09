@@ -376,6 +376,15 @@
 | 2026/5/3  |            hxxps://googlee-zh[.]com             |    仿冒 Chrome、传播病毒    |                              无                              |                            无                            | Z364 |
 | 2026/5/3  |           hxxps://www[.]chromef[.]com           |    仿冒 Chrome、传播病毒    | hxxps://juhau35[.]oss-ap-southeast-3[.]aliyuncs[.]com/setup-64[.]6[.]zip |                            无                            | Z365 |
 | 2026/5/3  |          hxxps://www-goole-apps[.]com           |    仿冒 Chrome、传播病毒    |                              无                              |                            无                            | Z366 |
+| 2026/5/5  |            hxxps://sp-wps[.]com[.]cn            |     仿冒 WPS、传播病毒      |   hxxps://sp-wps[.]com[.]cn/xz/WPS_Setup_25865-pc64[.]zip    |                            无                            | Z367 |
+| 2026/5/5  |       hxxps://2350web[.]www-wps-cn[.]com        |     仿冒 WPS、传播病毒      |   hxxps://www[.]wps1xiazai[.]com/1/WPS_wpsoomm252418[.]zip   |                            无                            | Z368 |
+| 2026/5/5  |        hxxps://910web[.]www-wps-cn[.]com        |     仿冒 WPS、传播病毒      | hxxps://www[.]uinhjalsnd-oss[.]top/Szc_Wps_Office_v1[.]0_x64_win[.]zip |                            无                            | Z369 |
+| 2026/5/5  |        hxxps://603web[.]www-wps-cn[.]com        |     仿冒 WPS、传播病毒      |                           同 Z369                            |                            无                            | Z370 |
+| 2026/5/5  |        hxxps://89web[.]www-wps-cn[.]com         |     仿冒 WPS、传播病毒      |                           同 Z369                            |                            无                            | Z371 |
+| 2026/5/5  |         hxxps://www[.]w1-wps[.]com[.]cn         |     仿冒 WPS、传播病毒      | hxxps://www[.]w1-wps[.]com[.]cn/xz/WPS_Setup_25865-pc64[.]zip |                            无                            | Z372 |
+| 2026/5/5  |         hxxps://www[.]lp-wps[.]com[.]cn         |     仿冒 WPS、传播病毒      |                              无                              |                            无                            | Z373 |
+| 2026/5/6  |           hxxps://apps-tencent[.]com            |   仿冒腾讯会议、传播病毒    | hxxps://download[.]i19d9[.]top/TencentMeetig_03h_offiwebsite[.]zip |                            无                            | Z374 |
+| 2026/5/6  |             hxxps://zh-tenxun[.]com             |   仿冒腾讯会议、传播病毒    |                           同 Z374                            |                            无                            | Z375 |
 |  ——————   |              ————————————————————               |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---

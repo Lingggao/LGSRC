@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 5 月 9 日 1:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 5 月 9 日 10:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 5 月 9 日，本中心已打击计算机病毒 / 恶意软件 1022 个、恶意网站 384 个，累计为潜在受害者规避经济损失约 4,343,500 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 5 月 9 日，本中心已打击计算机病毒 / 恶意软件 1026 个、恶意网站 392 个，累计为潜在受害者规避经济损失约 4,360,500 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;**本中心每打击 1 个计算机病毒、恶意软件或恶意网站，将同步向联合国儿童基金会 “爱心为救灾” 计划捐赠 1 元人民币**。该计划旨在支持中国及其他国家实现可持续发展目标，特别是为困境儿童提供援助。
 
@@ -85,10 +85,6 @@
 
 |   日期   |         文件名         |          检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :------: | :--------------------: | :---------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/5/6 |  用户需求调研···.exe   |    **CobaltStrike**     | 123b6141959b472dbbf2f0e8fd0d1316d35866efe23ce8a354e3b0dacafa8fde | 3049b8fd-7d07-43f6-ad01-65c0cd6a87fa | [VirusTotal](https://www.virustotal.com/gui/file/123b6141959b472dbbf2f0e8fd0d1316d35866efe23ce8a354e3b0dacafa8fde) (18) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/123b6141959b472dbbf2f0e8fd0d1316d35866efe23ce8a354e3b0dacafa8fde) | A998 |
-| 2026/5/6 |  TencentMeetig···.exe  |       **Kepavll**       | d8949e124443c288538555ff03da63e10634b0546023381306781dd61096da99 | 0b49a74e-85e1-4a97-be6d-e1e9e6e146c9 | [VirusTotal](https://www.virustotal.com/gui/file/d8949e124443c288538555ff03da63e10634b0546023381306781dd61096da99) (13) |                              无                              | A999 |
-| 2026/5/6 |  Tencent···4.2.1.exe   |      **Shellcode**      | 9937854705c0e62099f31ca0b85805b358821c75bc1ae9bcdb595fd6a3b5f768 | cc4d9779-8823-40a8-8254-a4410c225e7a | [VirusTotal](https://www.virustotal.com/gui/file/9937854705c0e62099f31ca0b85805b358821c75bc1ae9bcdb595fd6a3b5f768) (9) |                              无                              | 1000 |
-| 2026/5/7 |      AnyDesk.exe       |    **Dropper.Agent**    | b0fb185461618e82915e7d701fc6dbe6164c45a7605f3110aff41ebc5c8447b1 | 91768627-e4bc-4a28-b753-b661adc1759a | [VirusTotal](https://www.virustotal.com/gui/file/b0fb185461618e82915e7d701fc6dbe6164c45a7605f3110aff41ebc5c8447b1) (19) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b0fb185461618e82915e7d701fc6dbe6164c45a7605f3110aff41ebc5c8447b1) | 1001 |
 | 2026/5/7 |     fakeAPP···.msi     |      **Shellcode**      | 31764537defcf83e23d756854357f2ac25b7c1cf14611cc1cc7b169aa0471e59 | 82935dff-430d-4e97-86aa-bd597857ef8d | [VirusTotal](https://www.virustotal.com/gui/file/31764537defcf83e23d756854357f2ac25b7c1cf14611cc1cc7b169aa0471e59) (7) |                              无                              | 1002 |
 | 2026/5/7 | KuromiSMP-1.20···.exe  |        **Agent**        | 251d6fbc93c64b2f5259dfe2d7d28b03ab67d47108e8139dba4f23e8e5707b98 | dc83e583-e51a-4b53-bade-65ad508ac781 | [VirusTotal](https://www.virustotal.com/gui/file/251d6fbc93c64b2f5259dfe2d7d28b03ab67d47108e8139dba4f23e8e5707b98) (1) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/251d6fbc93c64b2f5259dfe2d7d28b03ab67d47108e8139dba4f23e8e5707b98) | 1003 |
 | 2026/5/7 |     ToDesk_157.msi     |  **银狐 (SilverFox)**   | b55939708164d5f4ad1ca17b8d33a648f2432c9059e53939f22c9e14363cc508 | a28130f3-0599-44e2-82d8-71826c8c8502 | [VirusTotal](https://www.virustotal.com/gui/file/b55939708164d5f4ad1ca17b8d33a648f2432c9059e53939f22c9e14363cc508) (6) |                              无                              | 1004 |
@@ -105,11 +101,15 @@
 | 2026/5/8 |    WPS···25865.exe     |      **DLLhijack**      | f7e1530fd217884ff0f51e8ef363a6e44262a46e452973a284ba11270ded74bb | f0f32896-fd0c-4c2c-bddd-54a3572b4066 | [VirusTotal](https://www.virustotal.com/gui/file/f7e1530fd217884ff0f51e8ef363a6e44262a46e452973a284ba11270ded74bb) (4) |                              无                              | 1015 |
 | 2026/5/8 |   yfanyi···3.8.9.exe   |      **Shellcode**      | 022fbb7ba90b8725c67e5a27e40db07ca3e262481fd9fa5f86ab82b079640175 | 80efdc6c-a942-4ba1-8de9-155260ce6465 | [VirusTotal](https://www.virustotal.com/gui/file/022fbb7ba90b8725c67e5a27e40db07ca3e262481fd9fa5f86ab82b079640175) (17) |                              无                              | 1016 |
 | 2026/5/8 |    pubg公益清理.sh     |   **Win32/Vigorf.A**    | cfeaf2f628d293e4c6440a587398a47b4f6f938e4482a874b1f60ac99b819ac4 | c9a7fdf6-81be-4a82-9e11-53661f2dbe07 | [VirusTotal](https://www.virustotal.com/gui/file/cfeaf2f628d293e4c6440a587398a47b4f6f938e4482a874b1f60ac99b819ac4) (0) |                              无                              | 1017 |
-| 2026/5/8 |  ···违纪名单信息.exe   | **银狐 (SilverFox.bg)** | adc3207cc73d1e48c6d03eac056962eea8b6b61a68d0c5d7a80364bcddc715d5 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/adc3207cc73d1e48c6d03eac056962eea8b6b61a68d0c5d7a80364bcddc715d5) (18) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/adc3207cc73d1e48c6d03eac056962eea8b6b61a68d0c5d7a80364bcddc715d5) | 1018 |
-| 2026/5/8 |  2026年第2季度···.exe  | **银狐 (SilverFox.bg)** | 19ec8e73f0283d3fa09fc73d244b7087cd81318c212d722bd0483f92b216f28a |                                      | [VirusTotal](https://www.virustotal.com/gui/file/19ec8e73f0283d3fa09fc73d244b7087cd81318c212d722bd0483f92b216f28a) (28) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/19ec8e73f0283d3fa09fc73d244b7087cd81318c212d722bd0483f92b216f28a) | 1019 |
-| 2026/5/8 |  ···内职人员违纪.exe   | **银狐 (SilverFox.bg)** | 55cc92328ebc4ece766dc058268bb0659a796d0b3e271b032f7186e94493d3a0 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/55cc92328ebc4ece766dc058268bb0659a796d0b3e271b032f7186e94493d3a0) (26) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/55cc92328ebc4ece766dc058268bb0659a796d0b3e271b032f7186e94493d3a0) | 1020 |
-| 2026/5/8 |   ···人员名单pdf.exe   | **银狐 (SilverFox.bg)** | 1d54322168b05c28662453aaf2ddac6028364a138a55631f11f8c581eb01dac5 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/1d54322168b05c28662453aaf2ddac6028364a138a55631f11f8c581eb01dac5) (22) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/1d54322168b05c28662453aaf2ddac6028364a138a55631f11f8c581eb01dac5) | 1021 |
-| 2026/5/8 | 成长通···问题咨询.exe  |    **CobaltStrike**     | 20e8ac132992310f477965fc981e641eff5c6ee19e961e63eeb4e84635fcc7ea |                                      | [VirusTotal](https://www.virustotal.com/gui/file/20e8ac132992310f477965fc981e641eff5c6ee19e961e63eeb4e84635fcc7ea) (1) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/20e8ac132992310f477965fc981e641eff5c6ee19e961e63eeb4e84635fcc7ea) | 1022 |
+| 2026/5/8 |  ···违纪名单信息.exe   | **银狐 (SilverFox.bg)** | adc3207cc73d1e48c6d03eac056962eea8b6b61a68d0c5d7a80364bcddc715d5 | 7af7e6e0-f86f-4eef-ae81-88523b64a739 | [VirusTotal](https://www.virustotal.com/gui/file/adc3207cc73d1e48c6d03eac056962eea8b6b61a68d0c5d7a80364bcddc715d5) (18) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/adc3207cc73d1e48c6d03eac056962eea8b6b61a68d0c5d7a80364bcddc715d5) | 1018 |
+| 2026/5/8 |  2026年第2季度···.exe  | **银狐 (SilverFox.bg)** | 19ec8e73f0283d3fa09fc73d244b7087cd81318c212d722bd0483f92b216f28a | 7f6ce8cd-9312-405f-9bd7-b03172cdaa1a | [VirusTotal](https://www.virustotal.com/gui/file/19ec8e73f0283d3fa09fc73d244b7087cd81318c212d722bd0483f92b216f28a) (28) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/19ec8e73f0283d3fa09fc73d244b7087cd81318c212d722bd0483f92b216f28a) | 1019 |
+| 2026/5/8 |  ···内职人员违纪.exe   | **银狐 (SilverFox.bg)** | 55cc92328ebc4ece766dc058268bb0659a796d0b3e271b032f7186e94493d3a0 | 0f303dcf-17ff-4e1e-bd1b-2e6726dbba48 | [VirusTotal](https://www.virustotal.com/gui/file/55cc92328ebc4ece766dc058268bb0659a796d0b3e271b032f7186e94493d3a0) (26) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/55cc92328ebc4ece766dc058268bb0659a796d0b3e271b032f7186e94493d3a0) | 1020 |
+| 2026/5/8 |   ···人员名单pdf.exe   | **银狐 (SilverFox.bg)** | 1d54322168b05c28662453aaf2ddac6028364a138a55631f11f8c581eb01dac5 | d36cb6c8-4563-49f3-94d0-951130d43f2e | [VirusTotal](https://www.virustotal.com/gui/file/1d54322168b05c28662453aaf2ddac6028364a138a55631f11f8c581eb01dac5) (22) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/1d54322168b05c28662453aaf2ddac6028364a138a55631f11f8c581eb01dac5) | 1021 |
+| 2026/5/8 | 成长通···问题咨询.exe  |    **CobaltStrike**     | 20e8ac132992310f477965fc981e641eff5c6ee19e961e63eeb4e84635fcc7ea | 4ba612ba-93c4-4e6e-8420-84a461e81cb6 | [VirusTotal](https://www.virustotal.com/gui/file/20e8ac132992310f477965fc981e641eff5c6ee19e961e63eeb4e84635fcc7ea) (1) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/20e8ac132992310f477965fc981e641eff5c6ee19e961e63eeb4e84635fcc7ea) | 1022 |
+| 2026/5/9 |     Hello-GPT.msi      |   **黑猫 (BlackCat)**   | 9050949115c71569435c40e46508fa54bb005d90f250a4160dee281b2c378690 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/9050949115c71569435c40e46508fa54bb005d90f250a4160dee281b2c378690) (9) |                              无                              | 1023 |
+| 2026/5/9 |     Hello-GPT1.msi     |     **MalGeneric**      | 9478987af854faf114fc634b3176e2456b02f953187cfe6332a9ce3563e5341d |                                      | [VirusTotal](https://www.virustotal.com/gui/file/9478987af854faf114fc634b3176e2456b02f953187cfe6332a9ce3563e5341d) (1) |                              无                              | 1024 |
+| 2026/5/9 |   HelloGPTai···.exe    |         研究中          | 7de42525ec3b4c50536149404f8e1d5e6de3ddffa079489bed2593da7b483427 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/7de42525ec3b4c50536149404f8e1d5e6de3ddffa079489bed2593da7b483427) (1) |                  [MalwareBazaar Database]()                  | 1025 |
+| 2026/5/9 |   Helloч-GPT···.exe    |      **Shellcode**      | 6f8b23945c437d4701f699d3b24230d8ad9f5935c449a8af5ee7c63357dd3541 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/6f8b23945c437d4701f699d3b24230d8ad9f5935c449a8af5ee7c63357dd3541) (5) |                              无                              | 1026 |
 |  ——————  |      ————————————      |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -124,35 +124,26 @@
 >
 > &emsp;为确保安全，网站地址将用 “hxxps://” 与 “[.]” 进行替换。**切勿尝试访问表格中列出的任何网址**。
 
-|   日期   |                URL                 |           类别           |                           有效载荷                           |  URLhaus   | 编号 |
-| :------: | :--------------------------------: | :----------------------: | :----------------------------------------------------------: | :--------: | :--: |
-| 2026/5/5 |     hxxps://sp-wps[.]com[.]cn      |    仿冒 WPS、传播病毒    |   hxxps://sp-wps[.]com[.]cn/xz/WPS_Setup_25865-pc64[.]zip    |     无     | Z367 |
-| 2026/5/5 | hxxps://2350web[.]www-wps-cn[.]com |    仿冒 WPS、传播病毒    |   hxxps://www[.]wps1xiazai[.]com/1/WPS_wpsoomm252418[.]zip   |     无     | Z368 |
-| 2026/5/5 | hxxps://910web[.]www-wps-cn[.]com  |    仿冒 WPS、传播病毒    | hxxps://www[.]uinhjalsnd-oss[.]top/Szc_Wps_Office_v1[.]0_x64_win[.]zip |     无     | Z369 |
-| 2026/5/5 | hxxps://603web[.]www-wps-cn[.]com  |    仿冒 WPS、传播病毒    |                           同 Z369                            |     无     | Z370 |
-| 2026/5/5 |  hxxps://89web[.]www-wps-cn[.]com  |    仿冒 WPS、传播病毒    |                           同 Z369                            |     无     | Z371 |
-| 2026/5/5 |  hxxps://www[.]w1-wps[.]com[.]cn   |    仿冒 WPS、传播病毒    | hxxps://www[.]w1-wps[.]com[.]cn/xz/WPS_Setup_25865-pc64[.]zip |     无     | Z372 |
-| 2026/5/5 |  hxxps://www[.]lp-wps[.]com[.]cn   |    仿冒 WPS、传播病毒    |                              无                              |     无     | Z373 |
-| 2026/5/6 |     hxxps://apps-tencent[.]com     |  仿冒腾讯会议、传播病毒  | hxxps://download[.]i19d9[.]top/TencentMeetig_03h_offiwebsite[.]zip |     无     | Z374 |
-| 2026/5/6 |      hxxps://zh-tenxun[.]com       |  仿冒腾讯会议、传播病毒  |                           同 Z374                            |     无     | Z375 |
-| 2026/5/6 |   hxxps://meeting-tencent[.]org    |  仿冒腾讯会议、传播病毒  | hxxps://ydaea[.]hongyangkj[.]top/TencentMeeting_setup_windos_x64[.]zip |     无     | Z376 |
-| 2026/5/6 |      hxxps://of-tencent[.]com      |  仿冒腾讯会议、传播病毒  |                           同 Z374                            |     无     | Z377 |
-| 2026/5/7 | hxxps://xiangrikui-oray[.]com[.]cn |   仿冒向日葵、传播病毒   | hxxps://vitallacerda[.]com/down[.]php/655b070e6ecdc74cbf19a450bc18f044[.]zip |     无     | Z378 |
-| 2026/5/7 |     hxxps://orayuu[.]com[.]cn      |   仿冒向日葵、传播病毒   |        hxxps://oraysdown[.]huzero[.]com/AweSun[.]zip         |     无     | Z379 |
-| 2026/5/7 |    hxxps://ora-oray[.]com[.]cn     |   仿冒向日葵、传播病毒   |                              无                              |     无     | Z380 |
-| 2026/5/7 |     hxxps://oa-oray[.]com[.]cn     |   仿冒向日葵、传播病毒   |                           同 Z379                            |     无     | Z381 |
-| 2026/5/7 |     hxxps://oorayy[.]com[.]cn      |   仿冒向日葵、传播病毒   |                              无                              |     无     | Z382 |
-| 2026/5/7 |     hxxps://ch-oray[.]com[.]cn     |   仿冒向日葵、传播病毒   |                           同 Z379                            |     无     | Z383 |
-| 2026/5/7 |    hxxps://oray-web[.]com[.]cn     |   仿冒向日葵、传播病毒   |                              无                              |     无     | Z384 |
-| 2026/5/9 |     https://cn-hellogpt.com.cn     | 仿冒 Hello GPT、传播病毒 |                              无                              |     无     | Z385 |
-| 2026/5/9 |      https://mac-hellogpt.cn       | 仿冒 Hello GPT、传播病毒 | https://mac-hellogpt.cn/download/hellogpt-windows-setup.exe  |     无     | Z386 |
-| 2026/5/9 |        https://gellogpt.com        | 仿冒 Hello GPT、传播病毒 |           https://ios123.klnami.com/Hello-GPT.rar            |     无     | Z387 |
-| 2026/5/9 |   https://tool.hellogpts.com.cn    | 仿冒 Hello GPT、传播病毒 |                       有，载荷提取失败                       |     无     | Z388 |
-| 2026/5/9 |    https://app.hellogptc.com.cn    | 仿冒 Hello GPT、传播病毒 |                           同 Z388                            |     无     | Z389 |
-| 2026/5/9 |        https://hallogpt.com        | 仿冒 Hello GPT、传播病毒 | https://anewdown.oss-cn-hongkong.aliyuncs.com/HelloGPTai_v1124_installer_setup.zip |     无     | Z390 |
-| 2026/5/9 |       https://hello-gpt.org        | 仿冒 Hello GPT、传播病毒 | https://cdnfile0814-1366946264.cos.ap-tokyo.myqcloud.com/Hello-GPT.zip |     无     | Z391 |
-| 2026/5/9 |    https://win.hellogptc.com.cn    | 仿冒 Hello GPT、传播病毒 |                           同 Z388                            |     无     | Z392 |
-|  ——————  |        ————————————————————        |     ———————————————      |                ——————————————————————————————                | —————————— | ———  |
+|   日期   |                 URL                 |          类别           |                           有效载荷                           |  URLhaus   | 编号 |
+| :------: | :---------------------------------: | :---------------------: | :----------------------------------------------------------: | :--------: | :--: |
+| 2026/5/6 |    hxxps://meeting-tencent[.]org    | 仿冒腾讯会议、传播病毒  | hxxps://ydaea[.]hongyangkj[.]top/TencentMeeting_setup_windos_x64[.]zip |     无     | Z376 |
+| 2026/5/6 |      hxxps://of-tencent[.]com       | 仿冒腾讯会议、传播病毒  |                           同 Z374                            |     无     | Z377 |
+| 2026/5/7 | hxxps://xiangrikui-oray[.]com[.]cn  |  仿冒向日葵、传播病毒   | hxxps://vitallacerda[.]com/down[.]php/655b070e6ecdc74cbf19a450bc18f044[.]zip |     无     | Z378 |
+| 2026/5/7 |      hxxps://orayuu[.]com[.]cn      |  仿冒向日葵、传播病毒   |        hxxps://oraysdown[.]huzero[.]com/AweSun[.]zip         |     无     | Z379 |
+| 2026/5/7 |     hxxps://ora-oray[.]com[.]cn     |  仿冒向日葵、传播病毒   |                              无                              |     无     | Z380 |
+| 2026/5/7 |     hxxps://oa-oray[.]com[.]cn      |  仿冒向日葵、传播病毒   |                           同 Z379                            |     无     | Z381 |
+| 2026/5/7 |      hxxps://oorayy[.]com[.]cn      |  仿冒向日葵、传播病毒   |                              无                              |     无     | Z382 |
+| 2026/5/7 |     hxxps://ch-oray[.]com[.]cn      |  仿冒向日葵、传播病毒   |                           同 Z379                            |     无     | Z383 |
+| 2026/5/7 |     hxxps://oray-web[.]com[.]cn     |  仿冒向日葵、传播病毒   |                              无                              |     无     | Z384 |
+| 2026/5/9 |   hxxps://cn-hellogpt[.]com[.]cn    | 仿冒 HelloGPT、传播病毒 |                              无                              |     无     | Z385 |
+| 2026/5/9 |      hxxps://mac-hellogpt[.]cn      | 仿冒 HelloGPT、传播病毒 | hxxps://mac-hellogpt[.]cn/download/hellogpt-windows-setup[.]exe |     无     | Z386 |
+| 2026/5/9 |       hxxps://gellogpt[.]com        | 仿冒 HelloGPT、传播病毒 |        hxxps://ios123[.]klnami[.]com/Hello-GPT[.]rar         |     无     | Z387 |
+| 2026/5/9 | hxxps://tool[.]hellogpts[.]com[.]cn | 仿冒 HelloGPT、传播病毒 |                       有，载荷提取失败                       |     无     | Z388 |
+| 2026/5/9 | hxxps://app[.]hellogptc[.]com[.]cn  | 仿冒 HelloGPT、传播病毒 |                           同 Z388                            |     无     | Z389 |
+| 2026/5/9 |       hxxps://hallogpt[.]com        | 仿冒 HelloGPT、传播病毒 | hxxps://anewdown[.]oss-cn-hongkong[.]aliyuncs[.]com/HelloGPTai_v1124_installer_setup[.]zip |     无     | Z390 |
+| 2026/5/9 |       hxxps://hello-gpt[.]org       | 仿冒 HelloGPT、传播病毒 | hxxps://cdnfile0814-1366946264[.]cos[.]ap-tokyo[.]myqcloud[.]com/Hello-GPT[.]zip |     无     | Z391 |
+| 2026/5/9 | hxxps://win[.]hellogptc[.]com[.]cn  | 仿冒 HelloGPT、传播病毒 |                           同 Z388                            |     无     | Z392 |
+|  ——————  |        ————————————————————         |     ———————————————     |                ——————————————————————————————                | —————————— | ———  |
 
 > [!NOTE]
 >
