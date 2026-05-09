@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 5 月 9 日 10:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 5 月 9 日 19:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 5 月 9 日，本中心已打击计算机病毒 / 恶意软件 1026 个、恶意网站 392 个，累计为潜在受害者规避经济损失约 4,360,500 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 5 月 9 日，本中心已打击计算机病毒 / 恶意软件 1025 个、恶意网站 392 个，累计为潜在受害者规避经济损失约 4,356,250 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;**本中心每打击 1 个计算机病毒、恶意软件或恶意网站，将同步向联合国儿童基金会 “爱心为救灾” 计划捐赠 1 元人民币**。该计划旨在支持中国及其他国家实现可持续发展目标，特别是为困境儿童提供援助。
 
@@ -106,10 +106,9 @@
 | 2026/5/8 |  ···内职人员违纪.exe   | **银狐 (SilverFox.bg)** | 55cc92328ebc4ece766dc058268bb0659a796d0b3e271b032f7186e94493d3a0 | 0f303dcf-17ff-4e1e-bd1b-2e6726dbba48 | [VirusTotal](https://www.virustotal.com/gui/file/55cc92328ebc4ece766dc058268bb0659a796d0b3e271b032f7186e94493d3a0) (26) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/55cc92328ebc4ece766dc058268bb0659a796d0b3e271b032f7186e94493d3a0) | 1020 |
 | 2026/5/8 |   ···人员名单pdf.exe   | **银狐 (SilverFox.bg)** | 1d54322168b05c28662453aaf2ddac6028364a138a55631f11f8c581eb01dac5 | d36cb6c8-4563-49f3-94d0-951130d43f2e | [VirusTotal](https://www.virustotal.com/gui/file/1d54322168b05c28662453aaf2ddac6028364a138a55631f11f8c581eb01dac5) (22) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/1d54322168b05c28662453aaf2ddac6028364a138a55631f11f8c581eb01dac5) | 1021 |
 | 2026/5/8 | 成长通···问题咨询.exe  |    **CobaltStrike**     | 20e8ac132992310f477965fc981e641eff5c6ee19e961e63eeb4e84635fcc7ea | 4ba612ba-93c4-4e6e-8420-84a461e81cb6 | [VirusTotal](https://www.virustotal.com/gui/file/20e8ac132992310f477965fc981e641eff5c6ee19e961e63eeb4e84635fcc7ea) (1) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/20e8ac132992310f477965fc981e641eff5c6ee19e961e63eeb4e84635fcc7ea) | 1022 |
-| 2026/5/9 |     Hello-GPT.msi      |   **黑猫 (BlackCat)**   | 9050949115c71569435c40e46508fa54bb005d90f250a4160dee281b2c378690 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/9050949115c71569435c40e46508fa54bb005d90f250a4160dee281b2c378690) (9) |                              无                              | 1023 |
-| 2026/5/9 |     Hello-GPT1.msi     |     **MalGeneric**      | 9478987af854faf114fc634b3176e2456b02f953187cfe6332a9ce3563e5341d |                                      | [VirusTotal](https://www.virustotal.com/gui/file/9478987af854faf114fc634b3176e2456b02f953187cfe6332a9ce3563e5341d) (1) |                              无                              | 1024 |
-| 2026/5/9 |   HelloGPTai···.exe    |         研究中          | 7de42525ec3b4c50536149404f8e1d5e6de3ddffa079489bed2593da7b483427 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/7de42525ec3b4c50536149404f8e1d5e6de3ddffa079489bed2593da7b483427) (1) |                  [MalwareBazaar Database]()                  | 1025 |
-| 2026/5/9 |   Helloч-GPT···.exe    |      **Shellcode**      | 6f8b23945c437d4701f699d3b24230d8ad9f5935c449a8af5ee7c63357dd3541 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/6f8b23945c437d4701f699d3b24230d8ad9f5935c449a8af5ee7c63357dd3541) (5) |                              无                              | 1026 |
+| 2026/5/9 |     Hello-GPT.msi      |   **黑猫 (BlackCat)**   | 9050949115c71569435c40e46508fa54bb005d90f250a4160dee281b2c378690 | 34239a48-e05f-4649-851f-a7f71a53207e | [VirusTotal](https://www.virustotal.com/gui/file/9050949115c71569435c40e46508fa54bb005d90f250a4160dee281b2c378690) (9) |                              无                              | 1023 |
+| 2026/5/9 |     Hello-GPT1.msi     |     **MalGeneric**      | 9478987af854faf114fc634b3176e2456b02f953187cfe6332a9ce3563e5341d | e11f2e6d-0719-4d55-8f1d-6e5f9abfb585 | [VirusTotal](https://www.virustotal.com/gui/file/9478987af854faf114fc634b3176e2456b02f953187cfe6332a9ce3563e5341d) (1) |                              无                              | 1024 |
+| 2026/5/9 |   Helloч-GPT···.exe    |      **Shellcode**      | 6f8b23945c437d4701f699d3b24230d8ad9f5935c449a8af5ee7c63357dd3541 | 107dfaff-4f70-4a9d-836c-255a43119275 | [VirusTotal](https://www.virustotal.com/gui/file/6f8b23945c437d4701f699d3b24230d8ad9f5935c449a8af5ee7c63357dd3541) (5) |                              无                              | 1025 |
 |  ——————  |      ————————————      |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
