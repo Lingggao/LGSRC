@@ -124,27 +124,35 @@
 >
 > &emsp;为确保安全，网站地址将用 “hxxps://” 与 “[.]” 进行替换。**切勿尝试访问表格中列出的任何网址**。
 
-|   日期   |                URL                 |          类别          |                           有效载荷                           |  URLhaus   | 编号 |
-| :------: | :--------------------------------: | :--------------------: | :----------------------------------------------------------: | :--------: | :--: |
-| 2026/5/5 |     hxxps://sp-wps[.]com[.]cn      |   仿冒 WPS、传播病毒   |   hxxps://sp-wps[.]com[.]cn/xz/WPS_Setup_25865-pc64[.]zip    |     无     | Z367 |
-| 2026/5/5 | hxxps://2350web[.]www-wps-cn[.]com |   仿冒 WPS、传播病毒   |   hxxps://www[.]wps1xiazai[.]com/1/WPS_wpsoomm252418[.]zip   |     无     | Z368 |
-| 2026/5/5 | hxxps://910web[.]www-wps-cn[.]com  |   仿冒 WPS、传播病毒   | hxxps://www[.]uinhjalsnd-oss[.]top/Szc_Wps_Office_v1[.]0_x64_win[.]zip |     无     | Z369 |
-| 2026/5/5 | hxxps://603web[.]www-wps-cn[.]com  |   仿冒 WPS、传播病毒   |                           同 Z369                            |     无     | Z370 |
-| 2026/5/5 |  hxxps://89web[.]www-wps-cn[.]com  |   仿冒 WPS、传播病毒   |                           同 Z369                            |     无     | Z371 |
-| 2026/5/5 |  hxxps://www[.]w1-wps[.]com[.]cn   |   仿冒 WPS、传播病毒   | hxxps://www[.]w1-wps[.]com[.]cn/xz/WPS_Setup_25865-pc64[.]zip |     无     | Z372 |
-| 2026/5/5 |  hxxps://www[.]lp-wps[.]com[.]cn   |   仿冒 WPS、传播病毒   |                              无                              |     无     | Z373 |
-| 2026/5/6 |     hxxps://apps-tencent[.]com     | 仿冒腾讯会议、传播病毒 | hxxps://download[.]i19d9[.]top/TencentMeetig_03h_offiwebsite[.]zip |     无     | Z374 |
-| 2026/5/6 |      hxxps://zh-tenxun[.]com       | 仿冒腾讯会议、传播病毒 |                           同 Z374                            |     无     | Z375 |
-| 2026/5/6 |   hxxps://meeting-tencent[.]org    | 仿冒腾讯会议、传播病毒 | hxxps://ydaea[.]hongyangkj[.]top/TencentMeeting_setup_windos_x64[.]zip |     无     | Z376 |
-| 2026/5/6 |      hxxps://of-tencent[.]com      | 仿冒腾讯会议、传播病毒 |                           同 Z374                            |     无     | Z377 |
-| 2026/5/7 | hxxps://xiangrikui-oray[.]com[.]cn |  仿冒向日葵、传播病毒  | hxxps://vitallacerda[.]com/down[.]php/655b070e6ecdc74cbf19a450bc18f044[.]zip |     无     | Z378 |
-| 2026/5/7 |     hxxps://orayuu[.]com[.]cn      |  仿冒向日葵、传播病毒  |        hxxps://oraysdown[.]huzero[.]com/AweSun[.]zip         |     无     | Z379 |
-| 2026/5/7 |    hxxps://ora-oray[.]com[.]cn     |  仿冒向日葵、传播病毒  |                              无                              |     无     | Z380 |
-| 2026/5/7 |     hxxps://oa-oray[.]com[.]cn     |  仿冒向日葵、传播病毒  |                           同 Z379                            |     无     | Z381 |
-| 2026/5/7 |     hxxps://oorayy[.]com[.]cn      |  仿冒向日葵、传播病毒  |                              无                              |     无     | Z382 |
-| 2026/5/7 |     hxxps://ch-oray[.]com[.]cn     |  仿冒向日葵、传播病毒  |                           同 Z379                            |     无     | Z383 |
-| 2026/5/7 |    hxxps://oray-web[.]com[.]cn     |  仿冒向日葵、传播病毒  |                              无                              |     无     | Z384 |
-|  ——————  |        ————————————————————        |    ———————————————     |                ——————————————————————————————                | —————————— | ———  |
+|   日期   |                URL                 |           类别           |                           有效载荷                           |  URLhaus   | 编号 |
+| :------: | :--------------------------------: | :----------------------: | :----------------------------------------------------------: | :--------: | :--: |
+| 2026/5/5 |     hxxps://sp-wps[.]com[.]cn      |    仿冒 WPS、传播病毒    |   hxxps://sp-wps[.]com[.]cn/xz/WPS_Setup_25865-pc64[.]zip    |     无     | Z367 |
+| 2026/5/5 | hxxps://2350web[.]www-wps-cn[.]com |    仿冒 WPS、传播病毒    |   hxxps://www[.]wps1xiazai[.]com/1/WPS_wpsoomm252418[.]zip   |     无     | Z368 |
+| 2026/5/5 | hxxps://910web[.]www-wps-cn[.]com  |    仿冒 WPS、传播病毒    | hxxps://www[.]uinhjalsnd-oss[.]top/Szc_Wps_Office_v1[.]0_x64_win[.]zip |     无     | Z369 |
+| 2026/5/5 | hxxps://603web[.]www-wps-cn[.]com  |    仿冒 WPS、传播病毒    |                           同 Z369                            |     无     | Z370 |
+| 2026/5/5 |  hxxps://89web[.]www-wps-cn[.]com  |    仿冒 WPS、传播病毒    |                           同 Z369                            |     无     | Z371 |
+| 2026/5/5 |  hxxps://www[.]w1-wps[.]com[.]cn   |    仿冒 WPS、传播病毒    | hxxps://www[.]w1-wps[.]com[.]cn/xz/WPS_Setup_25865-pc64[.]zip |     无     | Z372 |
+| 2026/5/5 |  hxxps://www[.]lp-wps[.]com[.]cn   |    仿冒 WPS、传播病毒    |                              无                              |     无     | Z373 |
+| 2026/5/6 |     hxxps://apps-tencent[.]com     |  仿冒腾讯会议、传播病毒  | hxxps://download[.]i19d9[.]top/TencentMeetig_03h_offiwebsite[.]zip |     无     | Z374 |
+| 2026/5/6 |      hxxps://zh-tenxun[.]com       |  仿冒腾讯会议、传播病毒  |                           同 Z374                            |     无     | Z375 |
+| 2026/5/6 |   hxxps://meeting-tencent[.]org    |  仿冒腾讯会议、传播病毒  | hxxps://ydaea[.]hongyangkj[.]top/TencentMeeting_setup_windos_x64[.]zip |     无     | Z376 |
+| 2026/5/6 |      hxxps://of-tencent[.]com      |  仿冒腾讯会议、传播病毒  |                           同 Z374                            |     无     | Z377 |
+| 2026/5/7 | hxxps://xiangrikui-oray[.]com[.]cn |   仿冒向日葵、传播病毒   | hxxps://vitallacerda[.]com/down[.]php/655b070e6ecdc74cbf19a450bc18f044[.]zip |     无     | Z378 |
+| 2026/5/7 |     hxxps://orayuu[.]com[.]cn      |   仿冒向日葵、传播病毒   |        hxxps://oraysdown[.]huzero[.]com/AweSun[.]zip         |     无     | Z379 |
+| 2026/5/7 |    hxxps://ora-oray[.]com[.]cn     |   仿冒向日葵、传播病毒   |                              无                              |     无     | Z380 |
+| 2026/5/7 |     hxxps://oa-oray[.]com[.]cn     |   仿冒向日葵、传播病毒   |                           同 Z379                            |     无     | Z381 |
+| 2026/5/7 |     hxxps://oorayy[.]com[.]cn      |   仿冒向日葵、传播病毒   |                              无                              |     无     | Z382 |
+| 2026/5/7 |     hxxps://ch-oray[.]com[.]cn     |   仿冒向日葵、传播病毒   |                           同 Z379                            |     无     | Z383 |
+| 2026/5/7 |    hxxps://oray-web[.]com[.]cn     |   仿冒向日葵、传播病毒   |                              无                              |     无     | Z384 |
+| 2026/5/9 |     https://cn-hellogpt.com.cn     | 仿冒 Hello GPT、传播病毒 |                              无                              |     无     | Z385 |
+| 2026/5/9 |      https://mac-hellogpt.cn       | 仿冒 Hello GPT、传播病毒 | https://mac-hellogpt.cn/download/hellogpt-windows-setup.exe  |     无     | Z386 |
+| 2026/5/9 |        https://gellogpt.com        | 仿冒 Hello GPT、传播病毒 |           https://ios123.klnami.com/Hello-GPT.rar            |     无     | Z387 |
+| 2026/5/9 |   https://tool.hellogpts.com.cn    | 仿冒 Hello GPT、传播病毒 |                       有，载荷提取失败                       |     无     | Z388 |
+| 2026/5/9 |    https://app.hellogptc.com.cn    | 仿冒 Hello GPT、传播病毒 |                           同 Z388                            |     无     | Z389 |
+| 2026/5/9 |        https://hallogpt.com        | 仿冒 Hello GPT、传播病毒 | https://anewdown.oss-cn-hongkong.aliyuncs.com/HelloGPTai_v1124_installer_setup.zip |     无     | Z390 |
+| 2026/5/9 |       https://hello-gpt.org        | 仿冒 Hello GPT、传播病毒 | https://cdnfile0814-1366946264.cos.ap-tokyo.myqcloud.com/Hello-GPT.zip |     无     | Z391 |
+| 2026/5/9 |    https://win.hellogptc.com.cn    | 仿冒 Hello GPT、传播病毒 |                           同 Z388                            |     无     | Z392 |
+|  ——————  |        ————————————————————        |     ———————————————      |                ——————————————————————————————                | —————————— | ———  |
 
 > [!NOTE]
 >
