@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 5 月 12 日 11:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 5 月 12 日 18:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 5 月 12 日，本中心已打击计算机病毒 / 恶意软件 1046 个、恶意网站 394 个，累计为潜在受害者规避经济损失约 4,445,500 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 5 月 12 日，本中心已打击计算机病毒 / 恶意软件 1047 个、恶意网站 394 个，累计为潜在受害者规避经济损失约 4,449,750 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;**本中心每打击 1 个计算机病毒、恶意软件或恶意网站，将同步向联合国儿童基金会 “爱心为救灾” 计划捐赠 1 元人民币**。该计划旨在支持中国及其他国家实现可持续发展目标，特别是为困境儿童提供援助。
 
@@ -110,6 +110,7 @@
 | 2026/5/11 | 2026年···违法通报.exe | **银狐 (SilverFox.bg)** | 6bac97860e2895fd0c2d7873f8f73122c8caeaac161801b7b4ab356e41b27da0 | e4567dc9-642f-4637-a7d8-6dd6b0c878f7 | [VirusTotal](https://www.virustotal.com/gui/file/6bac97860e2895fd0c2d7873f8f73122c8caeaac161801b7b4ab356e41b27da0) (15) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/6bac97860e2895fd0c2d7873f8f73122c8caeaac161801b7b4ab356e41b27da0) | 1044 |
 | 2026/5/11 |       勒索.exe        |    **WannaCry 勒索**    | dd7c8e8189b98f8f51db621a690de153989e49fce4b7d6616b5f04cb7ae322be | 6b913f88-0880-4f9a-95fe-a1ac8718af3c | [VirusTotal](https://www.virustotal.com/gui/file/dd7c8e8189b98f8f51db621a690de153989e49fce4b7d6616b5f04cb7ae322be) (18) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/dd7c8e8189b98f8f51db621a690de153989e49fce4b7d6616b5f04cb7ae322be) | 1045 |
 | 2026/5/11 |     内容setup.exe     | **银狐 (SilverFox.ct)** | c598272f106c1a97a7824e9cb0739e46740e53396393be902fe01b54e38d8f21 | 60002754-5cca-4a29-9ea9-00df9ada87e3 | [VirusTotal](https://www.virustotal.com/gui/file/c598272f106c1a97a7824e9cb0739e46740e53396393be902fe01b54e38d8f21) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c598272f106c1a97a7824e9cb0739e46740e53396393be902fe01b54e38d8f21) | 1046 |
+| 2026/5/12 | ···证券深交所交易.exe |    **CobaltStrike**     | 4cda128af8138a1e46eee0ee05351f3b381d66315232dc0eb1f74d37a7d14627 | 71dcf99c-df4c-4264-8836-1e833a5670cc | [VirusTotal](https://www.virustotal.com/gui/file/4cda128af8138a1e46eee0ee05351f3b381d66315232dc0eb1f74d37a7d14627) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/4cda128af8138a1e46eee0ee05351f3b381d66315232dc0eb1f74d37a7d14627) | 1047 |
 |  ——————   |     ————————————      |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
