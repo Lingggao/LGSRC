@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 5 月 13 日 13:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 5 月 13 日 15:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 5 月 13 日，本中心已打击计算机病毒 / 恶意软件 1054 个、恶意网站 394 个，累计为潜在受害者规避经济损失约 4,479,500 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 5 月 13 日，本中心已打击计算机病毒 / 恶意软件 1057 个、恶意网站 394 个，累计为潜在受害者规避经济损失约 4,492,250 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;**本中心每打击 1 个计算机病毒、恶意软件或恶意网站，将同步向联合国儿童基金会 “爱心为救灾” 计划捐赠 1 元人民币**。该计划旨在支持中国及其他国家实现可持续发展目标，特别是为困境儿童提供援助。
 
@@ -85,8 +85,6 @@
 
 |   日期    |        文件名         |          检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :-------------------: | :---------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/5/9  |  inst.647838···.exe   | **银狐 (SilverFox.bm)** | b4515bf64db1f69b091529e85863d1a4367eaf6647f1a699c2623ac5d1657aea | 175709b4-2f5f-4174-b538-aa535cb67f94 | [VirusTotal](https://www.virustotal.com/gui/file/b4515bf64db1f69b091529e85863d1a4367eaf6647f1a699c2623ac5d1657aea) (16) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b4515bf64db1f69b091529e85863d1a4367eaf6647f1a699c2623ac5d1657aea) | 1031 |
-| 2026/5/9  |   install.6.3.5.exe   | **银狐 (SilverFox.bm)** | 2133accc4a8a636b19dc32c6f600be4ba3afe51ab1b9d197d017550f22800e0f | b9ee4af5-5672-45c7-aa5f-3418d539d7f8 | [VirusTotal](https://www.virustotal.com/gui/file/2133accc4a8a636b19dc32c6f600be4ba3afe51ab1b9d197d017550f22800e0f) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/2133accc4a8a636b19dc32c6f600be4ba3afe51ab1b9d197d017550f22800e0f) | 1032 |
 | 2026/5/10 |   QQBrowser···.exe    |        **Agent**        | b8abb90a05cdf6d0e104bba193fb4e1f8a97f29ae9e886ea943d7dad5c87cf35 | 8e5f9242-6e58-4904-b25b-10dde4e7a76b | [VirusTotal](https://www.virustotal.com/gui/file/b8abb90a05cdf6d0e104bba193fb4e1f8a97f29ae9e886ea943d7dad5c87cf35) (4) |                              无                              | 1033 |
 | 2026/5/11 |    quicktopswd.exe    |      **Shellcode**      | ee4994c308f63a795abfbdd6a0fc10ed126737dc5025e73dc11ef07ada828330 | cca5850d-7bf1-4482-8941-d1ca56397625 | [VirusTotal](https://www.virustotal.com/gui/file/ee4994c308f63a795abfbdd6a0fc10ed126737dc5025e73dc11ef07ada828330) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/ee4994c308f63a795abfbdd6a0fc10ed126737dc5025e73dc11ef07ada828330) | 1034 |
 | 2026/5/11 |     vsjitdec.exe      |       **Kryptik**       | c3a4fc8559ecb13d5d004629fb5a01c0101250c9a27bc151e570dbabdd6967b1 | 62ceab3c-f3e9-43c9-a364-139e739c6d0a | [VirusTotal](https://www.virustotal.com/gui/file/c3a4fc8559ecb13d5d004629fb5a01c0101250c9a27bc151e570dbabdd6967b1) (31) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c3a4fc8559ecb13d5d004629fb5a01c0101250c9a27bc151e570dbabdd6967b1) | 1035 |
@@ -109,6 +107,9 @@
 | 2026/5/12 | 【【···语言包】】.exe |        **Agent**        | 240736de9d08d836e979156a5bdc29a94dba0bff0ffffab49e9887452773a8b7 | ae5dc404-57cc-441a-bb29-62f0f528f16d | [VirusTotal](https://www.virustotal.com/gui/file/240736de9d08d836e979156a5bdc29a94dba0bff0ffffab49e9887452773a8b7) (13) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/240736de9d08d836e979156a5bdc29a94dba0bff0ffffab49e9887452773a8b7) | 1052 |
 | 2026/5/12 |  ZH_CN中文包安装.exe  |        **Agent**        | 791b8b0ae50f56089a9fff33d391a99ab56da62adf19825e716d86bda075f1c5 | e5ef8e03-4aa7-41a6-b403-19574efd99d4 | [VirusTotal](https://www.virustotal.com/gui/file/791b8b0ae50f56089a9fff33d391a99ab56da62adf19825e716d86bda075f1c5) (23) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/791b8b0ae50f56089a9fff33d391a99ab56da62adf19825e716d86bda075f1c5) | 1053 |
 | 2026/5/12 | ···简体中文语言包.exe |  **银狐 (SilverFox)**   | 2323b5a8e01c2ec1ac3ebc05317dac329c87d4ff54e8f2214672e81fd9728939 | 19bfa50e-25f7-45d0-b768-47c73ee48614 | [VirusTotal](https://www.virustotal.com/gui/file/2323b5a8e01c2ec1ac3ebc05317dac329c87d4ff54e8f2214672e81fd9728939) (18) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/2323b5a8e01c2ec1ac3ebc05317dac329c87d4ff54e8f2214672e81fd9728939) | 1054 |
+| 2026/5/13 | 05.13···补偿方案.exe  | **银狐 (SilverFox.bg)** | dde3291400a0666dc0d90e8725811ffe00e4f399106c4b24b2a557982d2ae862 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/dde3291400a0666dc0d90e8725811ffe00e4f399106c4b24b2a557982d2ae862) (9) |                  [MalwareBazaar Database]()                  | 1055 |
+| 2026/5/13 |  2026···名单pdf.exe   | **银狐 (SilverFox.bg)** | c1ee13fb985e2db3d0c0b4344165cac342f1539d7afa775446a33dd23284629b |                                      | [VirusTotal](https://www.virustotal.com/gui/file/c1ee13fb985e2db3d0c0b4344165cac342f1539d7afa775446a33dd23284629b) (11) |                  [MalwareBazaar Database]()                  | 1056 |
+| 2026/5/13 |  ···违纪名单信息.exe  |  **银狐 (SilverFox)**   | e5f89ee89c4ea2643bb34c4a5a60881308bc79dc2bbe9f4b6e26a84b00ede6d6 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/e5f89ee89c4ea2643bb34c4a5a60881308bc79dc2bbe9f4b6e26a84b00ede6d6) (7) |                  [MalwareBazaar Database]()                  | 1057 |
 |  ——————   |     ————————————      |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
