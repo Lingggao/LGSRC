@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 5 月 13 日 17:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 5 月 13 日 21:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 5 月 13 日，本中心已打击计算机病毒 / 恶意软件 1057 个、恶意网站 394 个，累计为潜在受害者规避经济损失约 4,492,250 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 5 月 13 日，本中心已打击计算机病毒 / 恶意软件 1058 个、恶意网站 394 个，累计为潜在受害者规避经济损失约 4,496,500 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;**本中心每打击 1 个计算机病毒、恶意软件或恶意网站，将同步向联合国儿童基金会 “爱心为救灾” 计划捐赠 1 元人民币**。该计划旨在支持中国及其他国家实现可持续发展目标，特别是为困境儿童提供援助。
 
@@ -110,6 +110,7 @@
 | 2026/5/13 | 05.13···补偿方案.exe  | **银狐 (SilverFox.bg)** | dde3291400a0666dc0d90e8725811ffe00e4f399106c4b24b2a557982d2ae862 | 20f910a2-2957-4318-a4f6-65c037f295bd | [VirusTotal](https://www.virustotal.com/gui/file/dde3291400a0666dc0d90e8725811ffe00e4f399106c4b24b2a557982d2ae862) (9) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/dde3291400a0666dc0d90e8725811ffe00e4f399106c4b24b2a557982d2ae862) | 1055 |
 | 2026/5/13 |  2026···名单pdf.exe   | **银狐 (SilverFox.bg)** | c1ee13fb985e2db3d0c0b4344165cac342f1539d7afa775446a33dd23284629b | cd489d11-b91c-498d-8f00-48a123c3b712 | [VirusTotal](https://www.virustotal.com/gui/file/c1ee13fb985e2db3d0c0b4344165cac342f1539d7afa775446a33dd23284629b) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c1ee13fb985e2db3d0c0b4344165cac342f1539d7afa775446a33dd23284629b) | 1056 |
 | 2026/5/13 |  ···违纪名单信息.exe  |  **银狐 (SilverFox)**   | e5f89ee89c4ea2643bb34c4a5a60881308bc79dc2bbe9f4b6e26a84b00ede6d6 | 66594a7e-6151-4959-b571-06c0188a0ea8 | [VirusTotal](https://www.virustotal.com/gui/file/e5f89ee89c4ea2643bb34c4a5a60881308bc79dc2bbe9f4b6e26a84b00ede6d6) (7) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/e5f89ee89c4ea2643bb34c4a5a60881308bc79dc2bbe9f4b6e26a84b00ede6d6) | 1057 |
+| 2026/5/13 |   (Linux) dhcpd.elf   |  **银狐 (SilverFox)**   | c86d57b8b5b435a1ea4469012dd85aac38659444d8281b3016250b1c648e7d8c | 50600dc6-ac63-44ed-bd0a-301765c9c590 | [VirusTotal](https://www.virustotal.com/gui/file/c86d57b8b5b435a1ea4469012dd85aac38659444d8281b3016250b1c648e7d8c) (3) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c86d57b8b5b435a1ea4469012dd85aac38659444d8281b3016250b1c648e7d8c) | 1058 |
 |  ——————   |     ————————————      |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
