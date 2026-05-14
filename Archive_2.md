@@ -385,6 +385,10 @@
 | 2026/5/5  |         hxxps://www[.]lp-wps[.]com[.]cn         |     仿冒 WPS、传播病毒      |                              无                              |                            无                            | Z373 |
 | 2026/5/6  |           hxxps://apps-tencent[.]com            |   仿冒腾讯会议、传播病毒    | hxxps://download[.]i19d9[.]top/TencentMeetig_03h_offiwebsite[.]zip |                            无                            | Z374 |
 | 2026/5/6  |             hxxps://zh-tenxun[.]com             |   仿冒腾讯会议、传播病毒    |                           同 Z374                            |                            无                            | Z375 |
+| 2026/5/6  |          hxxps://meeting-tencent[.]org          |   仿冒腾讯会议、传播病毒    | hxxps://ydaea[.]hongyangkj[.]top/TencentMeeting_setup_windos_x64[.]zip |                            无                            | Z376 |
+| 2026/5/6  |            hxxps://of-tencent[.]com             |   仿冒腾讯会议、传播病毒    |                           同 Z374                            |                            无                            | Z377 |
+| 2026/5/7  |       hxxps://xiangrikui-oray[.]com[.]cn        |    仿冒向日葵、传播病毒     | hxxps://vitallacerda[.]com/down[.]php/655b070e6ecdc74cbf19a450bc18f044[.]zip |                            无                            | Z378 |
+| 2026/5/7  |            hxxps://orayuu[.]com[.]cn            |    仿冒向日葵、传播病毒     |        hxxps://oraysdown[.]huzero[.]com/AweSun[.]zip         |                            无                            | Z379 |
 |  ——————   |              ————————————————————               |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
