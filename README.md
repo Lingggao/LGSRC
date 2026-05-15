@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 5 月 15 日 9:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 5 月 15 日 10:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 5 月 15 日，本中心已打击计算机病毒 / 恶意软件 1069 个、恶意网站 396 个，累计为潜在受害者规避经济损失约 4,543,250 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 5 月 15 日，本中心已打击计算机病毒 / 恶意软件 1070 个、恶意网站 397 个，累计为潜在受害者规避经济损失约 4,547,500 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;**本中心每打击 1 个计算机病毒、恶意软件或恶意网站，将同步向联合国儿童基金会 “爱心为救灾” 计划捐赠 1 元人民币**。该计划旨在支持中国及其他国家实现可持续发展目标，特别是为困境儿童提供援助。
 
@@ -110,6 +110,7 @@
 | 2026/5/14 |       LtvHbY.exe        |  **银狐 (SilverFox)**   | 6f2f704c84b85171d298cc79a9a60df47f875fb067b9e15ceb9aec74a5cde7bf |                                      | [VirusTotal](https://www.virustotal.com/gui/file/6f2f704c84b85171d298cc79a9a60df47f875fb067b9e15ceb9aec74a5cde7bf) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/6f2f704c84b85171d298cc79a9a60df47f875fb067b9e15ceb9aec74a5cde7bf) | 1077 |
 | 2026/5/14 |       ToDesk.exe        |     **Cybercrime**      | de99876dab183e10c04889c3d9489a48d90487f084f533949ccae209ad827144 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/de99876dab183e10c04889c3d9489a48d90487f084f533949ccae209ad827144) (5) |                              无                              | 1068 |
 | 2026/5/14 |   Tonghuashun···.exe    | **银狐 (SilverFox.sb)** | 5ac8e1d78d40cef3d41dc7267cc3bfb3378e50072e33775111cb38a35bcb3278 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/5ac8e1d78d40cef3d41dc7267cc3bfb3378e50072e33775111cb38a35bcb3278) (7) |                              无                              | 1069 |
+| 2026/5/15 |  Firef0x_lnstaler.exe   |  **银狐 (SilverFox)**   | e0b279c46e92033469166896e2b8a5382d0e8bf9a8b90fc9e52d918a717a0c52 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/e0b279c46e92033469166896e2b8a5382d0e8bf9a8b90fc9e52d918a717a0c52) (4) |                              无                              | 1070 |
 |  ——————   |      ————————————       |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -143,6 +144,7 @@
 | 2026/5/10 |         hxxps://browser-qq[.]org         | 仿冒 QQ 浏览器、传播病毒 | hxxps://ydaea[.]hongyangkj[.]top/QQBrowser_Setup_windos_x64[.]zip |     无     | Z394 |
 | 2026/5/14 |         hxxp://c(不予展示)c[.]us         |   政治类违法和不良信息   |                              无                              |     无     | Z395 |
 | 2026/5/14 | hxxps://d(不予展示)1[.]cl###nt[.]net/··· |   政治类违法和不良信息   |                              无                              |     无     | Z396 |
+| 2026/5/15 |   hxxps://www[.]firefox-zh[.]com[.]cn    |  仿冒 Firefox、传播病毒  |       hxxps://clashverge1[.]com/Firef0x_lnstaler[.]zip       |     无     | Z397 |
 |  ——————   |           ————————————————————           |     ———————————————      |                ——————————————————————————————                | —————————— | ———  |
 
 > [!NOTE]
