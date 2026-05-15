@@ -22,9 +22,9 @@
 
 <h1 align="center">灵糕中心 · 安全响应中心</h1>
 
-<h3 align="center">(LGHUB · Security Response Center)</h3>
+<h3 align="center">Linggao Hub · Security Response Center (LGSRC)</h3>
 
-[github.com/Lingggao/LGSRC](https://github.com/Lingggao/LGSRC) (GitHub)
+[www.lgsrc.cn](https://www.lgsrc.cn) (门户) & [github.com/Lingggao/LGSRC](https://github.com/Lingggao/LGSRC) (GitHub)
 
 &emsp;&emsp;**用于打击计算机病毒与恶意软件的 “[灵糕中心](https://github.com/Lingggao/LGHUB) · 安全响应中心”**。由独立网络安全研究员、中国计算机学会 (CCF) 会员兼计算机安全专业委员会委员 [**Ling Gao**](https://github.com/Lingggao/LGSRC/blob/main/Documents/Leadership.md) 领导。灵糕中心 · 安全响应中心创立于 2025 年 12 月 20 日。
 
@@ -69,11 +69,13 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 5 月 16 日 1:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 5 月 16 日 3:00 (GMT+8)
 
 &emsp;&emsp;**截至 2026 年 5 月 16 日，本中心已打击计算机病毒 / 恶意软件 1073 个、恶意网站 397 个，累计为潜在受害者规避经济损失约 4,560,250 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
-&emsp;&emsp;**本中心每打击 1 个计算机病毒、恶意软件或恶意网站，将同步向联合国儿童基金会 “爱心为救灾” 计划捐赠 1 元人民币**。该计划旨在支持中国及其他国家实现可持续发展目标，特别是为困境儿童提供援助。
+&emsp;&emsp;在对抗网络犯罪的崇高事业中，本中心仅承担了少量协调类工作。**恶意载荷从发现到清除，离不开全球安全社区、安全研究员、杀毒软件厂商及威胁情报提供商的共同努力**。在此，谨向他们致以诚挚谢意。
+
+&emsp;&emsp;**本中心每打击 1 个计算机病毒、恶意软件或恶意网站，将同步向[联合国儿童基金会](https://www.unicef.org/zh) “爱心为救灾” 计划捐赠 1 元人民币**。该计划旨在支持中国及其他国家实现可持续发展目标，特别是为困境儿童提供援助。
 
 ---
 
@@ -107,9 +109,9 @@
 | 2026/5/14 |       ToDesk.exe        |     **Cybercrime**      | de99876dab183e10c04889c3d9489a48d90487f084f533949ccae209ad827144 | 1575decf-ecee-43a8-895c-8ab8ab58f688 | [VirusTotal](https://www.virustotal.com/gui/file/de99876dab183e10c04889c3d9489a48d90487f084f533949ccae209ad827144) (5) |                              无                              | 1068 |
 | 2026/5/14 |   Tonghuashun···.exe    | **银狐 (SilverFox.sb)** | 5ac8e1d78d40cef3d41dc7267cc3bfb3378e50072e33775111cb38a35bcb3278 | c430149d-f05c-4e6e-956a-72e7ee5d07b6 | [VirusTotal](https://www.virustotal.com/gui/file/5ac8e1d78d40cef3d41dc7267cc3bfb3378e50072e33775111cb38a35bcb3278) (7) |                              无                              | 1069 |
 | 2026/5/15 |  Firef0x_lnstaler.exe   |  **银狐 (SilverFox)**   | e0b279c46e92033469166896e2b8a5382d0e8bf9a8b90fc9e52d918a717a0c52 | de246b34-c4b7-4b2a-83a9-bba4989487a5 | [VirusTotal](https://www.virustotal.com/gui/file/e0b279c46e92033469166896e2b8a5382d0e8bf9a8b90fc9e52d918a717a0c52) (4) |                              无                              | 1070 |
-| 2026/5/15 |   2026···名单信息.exe   | **银狐 (SilverFox.bg)** | a78a69265a1f6a945bd4c0299accebc1f495ae955090ede8806faafebc302291 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/a78a69265a1f6a945bd4c0299accebc1f495ae955090ede8806faafebc302291) (2) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a78a69265a1f6a945bd4c0299accebc1f495ae955090ede8806faafebc302291) | 1071 |
-| 2026/5/15 |  ···第二批抽查人员.exe  | **银狐 (SilverFox.bg)** | 27d450a4c873cbb9f92e0f2e7dcd133a32394840096031694129a6e4cd326071 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/27d450a4c873cbb9f92e0f2e7dcd133a32394840096031694129a6e4cd326071) (13) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/27d450a4c873cbb9f92e0f2e7dcd133a32394840096031694129a6e4cd326071) | 1072 |
-| 2026/5/15 |   instZIP.6478···.exe   | **银狐 (SilverFox.bm)** | 9e3fa565e40a7a37ea493ae1894e2a0e3a35977fcad366b187add22d3f336a74 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/9e3fa565e40a7a37ea493ae1894e2a0e3a35977fcad366b187add22d3f336a74) (12) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/9e3fa565e40a7a37ea493ae1894e2a0e3a35977fcad366b187add22d3f336a74) | 1073 |
+| 2026/5/15 |   2026···名单信息.exe   | **银狐 (SilverFox.bg)** | a78a69265a1f6a945bd4c0299accebc1f495ae955090ede8806faafebc302291 | 4f38f78c-001f-4adc-9cbf-ea4585e8ff3a | [VirusTotal](https://www.virustotal.com/gui/file/a78a69265a1f6a945bd4c0299accebc1f495ae955090ede8806faafebc302291) (2) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a78a69265a1f6a945bd4c0299accebc1f495ae955090ede8806faafebc302291) | 1071 |
+| 2026/5/15 |  ···第二批抽查人员.exe  | **银狐 (SilverFox.bg)** | 27d450a4c873cbb9f92e0f2e7dcd133a32394840096031694129a6e4cd326071 | 1fcdcf48-de14-4938-b27d-babe329e28bf | [VirusTotal](https://www.virustotal.com/gui/file/27d450a4c873cbb9f92e0f2e7dcd133a32394840096031694129a6e4cd326071) (13) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/27d450a4c873cbb9f92e0f2e7dcd133a32394840096031694129a6e4cd326071) | 1072 |
+| 2026/5/15 |   instZIP.6478···.exe   | **银狐 (SilverFox.bm)** | 9e3fa565e40a7a37ea493ae1894e2a0e3a35977fcad366b187add22d3f336a74 | 22414093-8cd9-4c2f-b9f4-c02c3eec9732 | [VirusTotal](https://www.virustotal.com/gui/file/9e3fa565e40a7a37ea493ae1894e2a0e3a35977fcad366b187add22d3f336a74) (12) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/9e3fa565e40a7a37ea493ae1894e2a0e3a35977fcad366b187add22d3f336a74) | 1073 |
 |  ——————   |      ————————————       |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
