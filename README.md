@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 5 月 16 日 5:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 5 月 16 日 8:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 5 月 16 日，本中心已打击计算机病毒 / 恶意软件 1076 个、恶意网站 397 个，累计为潜在受害者规避经济损失约 4,573,000 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 5 月 16 日，本中心已打击计算机病毒 / 恶意软件 1077 个、恶意网站 398 个，累计为潜在受害者规避经济损失约 4,577,250 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;在对抗网络犯罪的崇高事业中，本中心仅承担了少量协调类工作。**恶意载荷从发现到清除，离不开全球安全社区、安全研究员、杀毒软件厂商及威胁情报提供商的共同努力**。在此，谨向他们致以诚挚谢意。
 
@@ -109,9 +109,10 @@
 | 2026/5/15 |   2026···名单信息.exe   | **银狐 (SilverFox.bg)** | a78a69265a1f6a945bd4c0299accebc1f495ae955090ede8806faafebc302291 | 4f38f78c-001f-4adc-9cbf-ea4585e8ff3a | [VirusTotal](https://www.virustotal.com/gui/file/a78a69265a1f6a945bd4c0299accebc1f495ae955090ede8806faafebc302291) (2) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a78a69265a1f6a945bd4c0299accebc1f495ae955090ede8806faafebc302291) | 1071 |
 | 2026/5/15 |  ···第二批抽查人员.exe  | **银狐 (SilverFox.bg)** | 27d450a4c873cbb9f92e0f2e7dcd133a32394840096031694129a6e4cd326071 | 1fcdcf48-de14-4938-b27d-babe329e28bf | [VirusTotal](https://www.virustotal.com/gui/file/27d450a4c873cbb9f92e0f2e7dcd133a32394840096031694129a6e4cd326071) (13) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/27d450a4c873cbb9f92e0f2e7dcd133a32394840096031694129a6e4cd326071) | 1072 |
 | 2026/5/15 |   instZIP.6478···.exe   | **银狐 (SilverFox.bm)** | 9e3fa565e40a7a37ea493ae1894e2a0e3a35977fcad366b187add22d3f336a74 | 22414093-8cd9-4c2f-b9f4-c02c3eec9732 | [VirusTotal](https://www.virustotal.com/gui/file/9e3fa565e40a7a37ea493ae1894e2a0e3a35977fcad366b187add22d3f336a74) (12) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/9e3fa565e40a7a37ea493ae1894e2a0e3a35977fcad366b187add22d3f336a74) | 1073 |
-| 2026/5/16 |     7zipInstall.exe     |        **Agent**        | 8cb4cf755108036f97da411b2f62b60c08056daadf7635ae37bdb2961af1e523 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/8cb4cf755108036f97da411b2f62b60c08056daadf7635ae37bdb2961af1e523) (2) |                              无                              | 1074 |
-| 2026/5/16 |       speedin.exe       |        **Agent**        | 0b40aea9daca72a501a4e7c90476944b691522e1473045d9141bfdbc92bef566 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/0b40aea9daca72a501a4e7c90476944b691522e1473045d9141bfdbc92bef566) (3) |                              无                              | 1075 |
-| 2026/5/16 |   VsGraphicsCore.dll    |  **银狐 (SilverFox)**   | c904cdac849fdbb49274a3c075db8845791e923250d08d558a4115936ef44405 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/c904cdac849fdbb49274a3c075db8845791e923250d08d558a4115936ef44405) (36) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c904cdac849fdbb49274a3c075db8845791e923250d08d558a4115936ef44405) | 1076 |
+| 2026/5/16 |     7zipInstall.exe     |        **Agent**        | 8cb4cf755108036f97da411b2f62b60c08056daadf7635ae37bdb2961af1e523 |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/8cb4cf755108036f97da411b2f62b60c08056daadf7635ae37bdb2961af1e523) (2) |                              无                              | 1074 |
+| 2026/5/16 |       speedin.exe       |        **Agent**        | 0b40aea9daca72a501a4e7c90476944b691522e1473045d9141bfdbc92bef566 | f72870c9-cbcb-4803-b170-1154ef0dac53 | [VirusTotal](https://www.virustotal.com/gui/file/0b40aea9daca72a501a4e7c90476944b691522e1473045d9141bfdbc92bef566) (3) |                              无                              | 1075 |
+| 2026/5/16 |   VsGraphicsCore.dll    |  **银狐 (SilverFox)**   | c904cdac849fdbb49274a3c075db8845791e923250d08d558a4115936ef44405 | 3bf71e9e-8dbc-4311-816f-790d08a1c3e7 | [VirusTotal](https://www.virustotal.com/gui/file/c904cdac849fdbb49274a3c075db8845791e923250d08d558a4115936ef44405) (36) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c904cdac849fdbb49274a3c075db8845791e923250d08d558a4115936ef44405) | 1076 |
+| 2026/5/16 |      zitozhhy.exe       |       **Generic**       | 2db5d58dad53c66d915caa894c5cbf0eb7c6291f8c5d8c40f06c626c7e8a8107 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/2db5d58dad53c66d915caa894c5cbf0eb7c6291f8c5d8c40f06c626c7e8a8107) (1) |                              无                              | 1077 |
 |  ——————   |      ————————————       |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -128,8 +129,6 @@
 
 |   日期    |                   URL                    |           类别           |                           有效载荷                           |  URLhaus   | 编号 |
 | :-------: | :--------------------------------------: | :----------------------: | :----------------------------------------------------------: | :--------: | :--: |
-| 2026/5/7  |       hxxps://ora-oray[.]com[.]cn        |   仿冒向日葵、传播病毒   |                              无                              |     无     | Z380 |
-| 2026/5/7  |        hxxps://oa-oray[.]com[.]cn        |   仿冒向日葵、传播病毒   |                           同 Z379                            |     无     | Z381 |
 | 2026/5/7  |        hxxps://oorayy[.]com[.]cn         |   仿冒向日葵、传播病毒   |                              无                              |     无     | Z382 |
 | 2026/5/7  |        hxxps://ch-oray[.]com[.]cn        |   仿冒向日葵、传播病毒   |                           同 Z379                            |     无     | Z383 |
 | 2026/5/7  |       hxxps://oray-web[.]com[.]cn        |   仿冒向日葵、传播病毒   |                              无                              |     无     | Z384 |
@@ -146,6 +145,7 @@
 | 2026/5/14 |         hxxp://c(不予展示)c[.]us         |   政治类违法和不良信息   |                              无                              |     无     | Z395 |
 | 2026/5/14 | hxxps://d(不予展示)1[.]cl###nt[.]net/··· |   政治类违法和不良信息   |                              无                              |     无     | Z396 |
 | 2026/5/15 |   hxxps://www[.]firefox-zh[.]com[.]cn    |  仿冒 Firefox、传播病毒  |       hxxps://clashverge1[.]com/Firef0x_lnstaler[.]zip       |     无     | Z397 |
+| 2026/5/16 |         hxxps://i4-ab[.]com[.]cn         |  仿冒爱思助手、传播病毒  | hxxps://pub-e3e415d681d94945951db9a90f09b3ea[.]r2[.]dev/aisi-a64[.]zip |     无     | Z398 |
 |  ——————   |           ————————————————————           |     ———————————————      |                ——————————————————————————————                | —————————— | ———  |
 
 > [!NOTE]
