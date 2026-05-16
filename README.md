@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 5 月 16 日 8:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 5 月 16 日 10:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 5 月 16 日，本中心已打击计算机病毒 / 恶意软件 1077 个、恶意网站 398 个，累计为潜在受害者规避经济损失约 4,577,250 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 5 月 16 日，本中心已打击计算机病毒 / 恶意软件 1078 个、恶意网站 398 个，累计为潜在受害者规避经济损失约 4,581,500 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;在对抗网络犯罪的崇高事业中，本中心仅承担了少量协调类工作。**恶意载荷从发现到清除，离不开全球安全社区、安全研究员、杀毒软件厂商及威胁情报提供商的共同努力**。在此，谨向他们致以诚挚谢意。
 
@@ -87,9 +87,6 @@
 
 |   日期    |         文件名          |          检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :---------------------: | :---------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/5/12 |  【【···语言包】】.exe  |        **Agent**        | 240736de9d08d836e979156a5bdc29a94dba0bff0ffffab49e9887452773a8b7 | ae5dc404-57cc-441a-bb29-62f0f528f16d | [VirusTotal](https://www.virustotal.com/gui/file/240736de9d08d836e979156a5bdc29a94dba0bff0ffffab49e9887452773a8b7) (13) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/240736de9d08d836e979156a5bdc29a94dba0bff0ffffab49e9887452773a8b7) | 1052 |
-| 2026/5/12 |   ZH_CN中文包安装.exe   |        **Agent**        | 791b8b0ae50f56089a9fff33d391a99ab56da62adf19825e716d86bda075f1c5 | e5ef8e03-4aa7-41a6-b403-19574efd99d4 | [VirusTotal](https://www.virustotal.com/gui/file/791b8b0ae50f56089a9fff33d391a99ab56da62adf19825e716d86bda075f1c5) (23) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/791b8b0ae50f56089a9fff33d391a99ab56da62adf19825e716d86bda075f1c5) | 1053 |
-| 2026/5/12 |  ···简体中文语言包.exe  |  **银狐 (SilverFox)**   | 2323b5a8e01c2ec1ac3ebc05317dac329c87d4ff54e8f2214672e81fd9728939 | 19bfa50e-25f7-45d0-b768-47c73ee48614 | [VirusTotal](https://www.virustotal.com/gui/file/2323b5a8e01c2ec1ac3ebc05317dac329c87d4ff54e8f2214672e81fd9728939) (18) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/2323b5a8e01c2ec1ac3ebc05317dac329c87d4ff54e8f2214672e81fd9728939) | 1054 |
 | 2026/5/13 |  05.13···补偿方案.exe   | **银狐 (SilverFox.bg)** | dde3291400a0666dc0d90e8725811ffe00e4f399106c4b24b2a557982d2ae862 | 20f910a2-2957-4318-a4f6-65c037f295bd | [VirusTotal](https://www.virustotal.com/gui/file/dde3291400a0666dc0d90e8725811ffe00e4f399106c4b24b2a557982d2ae862) (9) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/dde3291400a0666dc0d90e8725811ffe00e4f399106c4b24b2a557982d2ae862) | 1055 |
 | 2026/5/13 |   2026···名单pdf.exe    | **银狐 (SilverFox.bg)** | c1ee13fb985e2db3d0c0b4344165cac342f1539d7afa775446a33dd23284629b | cd489d11-b91c-498d-8f00-48a123c3b712 | [VirusTotal](https://www.virustotal.com/gui/file/c1ee13fb985e2db3d0c0b4344165cac342f1539d7afa775446a33dd23284629b) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c1ee13fb985e2db3d0c0b4344165cac342f1539d7afa775446a33dd23284629b) | 1056 |
 | 2026/5/13 |   ···违纪名单信息.exe   |  **银狐 (SilverFox)**   | e5f89ee89c4ea2643bb34c4a5a60881308bc79dc2bbe9f4b6e26a84b00ede6d6 | 66594a7e-6151-4959-b571-06c0188a0ea8 | [VirusTotal](https://www.virustotal.com/gui/file/e5f89ee89c4ea2643bb34c4a5a60881308bc79dc2bbe9f4b6e26a84b00ede6d6) (7) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/e5f89ee89c4ea2643bb34c4a5a60881308bc79dc2bbe9f4b6e26a84b00ede6d6) | 1057 |
@@ -113,6 +110,7 @@
 | 2026/5/16 |       speedin.exe       |        **Agent**        | 0b40aea9daca72a501a4e7c90476944b691522e1473045d9141bfdbc92bef566 | f72870c9-cbcb-4803-b170-1154ef0dac53 | [VirusTotal](https://www.virustotal.com/gui/file/0b40aea9daca72a501a4e7c90476944b691522e1473045d9141bfdbc92bef566) (3) |                              无                              | 1075 |
 | 2026/5/16 |   VsGraphicsCore.dll    |  **银狐 (SilverFox)**   | c904cdac849fdbb49274a3c075db8845791e923250d08d558a4115936ef44405 | 3bf71e9e-8dbc-4311-816f-790d08a1c3e7 | [VirusTotal](https://www.virustotal.com/gui/file/c904cdac849fdbb49274a3c075db8845791e923250d08d558a4115936ef44405) (36) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c904cdac849fdbb49274a3c075db8845791e923250d08d558a4115936ef44405) | 1076 |
 | 2026/5/16 |      zitozhhy.exe       |       **Generic**       | 2db5d58dad53c66d915caa894c5cbf0eb7c6291f8c5d8c40f06c626c7e8a8107 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/2db5d58dad53c66d915caa894c5cbf0eb7c6291f8c5d8c40f06c626c7e8a8107) (1) |                              无                              | 1077 |
+| 2026/5/16 |     ChroчeSetup.exe     |      **ShellCode**      | 208ff180f02466ed8788775006b74e654612693eab78d29de4013ee64b81b176 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/208ff180f02466ed8788775006b74e654612693eab78d29de4013ee64b81b176) (3) |                              无                              | 1078 |
 |  ——————   |      ————————————       |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
