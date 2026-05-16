@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 5 月 16 日 21:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 5 月 17 日 1:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 5 月 16 日，本中心已打击计算机病毒 / 恶意软件 1083 个、恶意网站 398 个，累计为潜在受害者规避经济损失约 4,602,750 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 5 月 17 日，本中心已打击计算机病毒 / 恶意软件 1082 个、恶意网站 398 个，累计为潜在受害者规避经济损失约 4,598,500 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;在对抗网络犯罪的崇高事业中，本中心仅承担了少量协调类工作。**恶意载荷从发现到清除，离不开全球安全社区、安全研究员、杀毒软件厂商及威胁情报提供商的共同努力**。在此，谨向他们致以诚挚谢意。
 
@@ -109,9 +109,8 @@
 | 2026/5/16 |     ChroчeSetup.exe     |      **ShellCode**       | 208ff180f02466ed8788775006b74e654612693eab78d29de4013ee64b81b176 | 8f5dcb75-15d7-4543-9af7-a8e199a5b669 | [VirusTotal](https://www.virustotal.com/gui/file/208ff180f02466ed8788775006b74e654612693eab78d29de4013ee64b81b176) (3) |                              无                              | 1078 |
 | 2026/5/16 |    ···FismeHost.exe     | **银狐 (SilverFox.wos)** | 7890f0bcfd5ce8f97d3f1444dcc4b965a67076526b7c2b34d090dfaec1c61410 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/7890f0bcfd5ce8f97d3f1444dcc4b965a67076526b7c2b34d090dfaec1c61410) (8) |                  [MalwareBazaar Database]()                  | 1079 |
 | 2026/5/16 |    HellOX.Agent.exe     |       **AsyncRAT**       | 45930b1c02712f5fafa6f9b4f02c65ad9d6e93b6486c191f9a90a7353e4c6258 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/45930b1c02712f5fafa6f9b4f02c65ad9d6e93b6486c191f9a90a7353e4c6258) (21) |                  [MalwareBazaar Database]()                  | 1080 |
-| 2026/5/16 |    PCL2CE_Bypass.exe    |      **MalGeneric**      | 35785169c786a1bb06dcda95d6e2c780e123d658491fcab46e8be59a7622d812 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/35785169c786a1bb06dcda95d6e2c780e123d658491fcab46e8be59a7622d812) (2) |                  [MalwareBazaar Database]()                  | 1081 |
-| 2026/5/16 |  Wps-stallerrwin64.exe  |   **银狐 (SilverFox)**   | 8aef80ed28352ab2c8caaef4074f42c434abcdfe36979c99b71dd20ae113a619 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/8aef80ed28352ab2c8caaef4074f42c434abcdfe36979c99b71dd20ae113a619) (5) |                              无                              | 1082 |
-| 2026/5/16 |      YtDlpGui.exe       | **银狐 (SilverFox.wos)** | 8a12531d38ad06e8da240f7dd4207f813352a8f17a35f725f5d10381d3bad716 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/8a12531d38ad06e8da240f7dd4207f813352a8f17a35f725f5d10381d3bad716) (14) |                              无                              | 1083 |
+| 2026/5/16 |  Wps-stallerrwin64.exe  |   **银狐 (SilverFox)**   | 8aef80ed28352ab2c8caaef4074f42c434abcdfe36979c99b71dd20ae113a619 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/8aef80ed28352ab2c8caaef4074f42c434abcdfe36979c99b71dd20ae113a619) (5) |                              无                              | 1081 |
+| 2026/5/16 |      YtDlpGui.exe       | **银狐 (SilverFox.wos)** | 8a12531d38ad06e8da240f7dd4207f813352a8f17a35f725f5d10381d3bad716 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/8a12531d38ad06e8da240f7dd4207f813352a8f17a35f725f5d10381d3bad716) (14) |                              无                              | 1082 |
 |  ——————   |      ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
