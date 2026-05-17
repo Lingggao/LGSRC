@@ -69,7 +69,7 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 5 月 18 日 3:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 5 月 18 日 8:00 (GMT+8)
 
 &emsp;&emsp;**截至 2026 年 5 月 18 日，本中心已打击计算机病毒 / 恶意软件 1091 个、恶意网站 405 个，累计为潜在受害者规避经济损失约 4,636,750 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
@@ -110,8 +110,8 @@
 | 2026/5/17 |    eeczbxfqse.exe     | **银狐 (SilverFox.sa)**  | a9cc794cb09b1c328e0e88439068343f0c8edd7345f702f837580ec80cf0af8c | ca7aea44-c8b5-42d2-8068-36d26301b2f5 | [VirusTotal](https://www.virustotal.com/gui/file/a9cc794cb09b1c328e0e88439068343f0c8edd7345f702f837580ec80cf0af8c) (15) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a9cc794cb09b1c328e0e88439068343f0c8edd7345f702f837580ec80cf0af8c) | 1087 |
 | 2026/5/17 |      LetsVPN.exe      |       **Kryptik**        | 556f7af8dfce04fd881c6d91ba9bb0fe4687ab8ac8d1d9f3a26deff0ab193c3b | 294c4097-cc38-472d-9519-42f1380dbec3 | [VirusTotal](https://www.virustotal.com/gui/file/556f7af8dfce04fd881c6d91ba9bb0fe4687ab8ac8d1d9f3a26deff0ab193c3b) (20) |                              无                              | 1088 |
 | 2026/5/17 |     W-P-S-001.exe     | **银狐 (SilverFox.wos)** | eeac6b8b10ada055e36e796b1d3e8298284891b29b20b89c7e19a696b3243582 | 3ff45f6d-63de-407f-ad91-838d64efe3d2 | [VirusTotal](https://www.virustotal.com/gui/file/eeac6b8b10ada055e36e796b1d3e8298284891b29b20b89c7e19a696b3243582) (14) |                              无                              | 1089 |
-| 2026/5/18 |     hnditpqv.exe      |        **Agent**         | 225765bd49c233946aab47bee3d02fc6b386a487456ff88812970324ce1796a0 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/225765bd49c233946aab47bee3d02fc6b386a487456ff88812970324ce1796a0) (2) |                              无                              | 1090 |
-| 2026/5/18 |     LineInst.exe      | **银狐 (SilverFox.sa)**  | 6d21ee2bece595eaec2814ee8c475dc278b37476645251fe5ee9d309bc58bade |                                      | [VirusTotal](https://www.virustotal.com/gui/file/6d21ee2bece595eaec2814ee8c475dc278b37476645251fe5ee9d309bc58bade) (15) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/6d21ee2bece595eaec2814ee8c475dc278b37476645251fe5ee9d309bc58bade) | 1091 |
+| 2026/5/18 |     hnditpqv.exe      |        **Agent**         | 225765bd49c233946aab47bee3d02fc6b386a487456ff88812970324ce1796a0 |                  无                  | [VirusTotal](https://www.virustotal.com/gui/file/225765bd49c233946aab47bee3d02fc6b386a487456ff88812970324ce1796a0) (2) |                              无                              | 1090 |
+| 2026/5/18 |     LineInst.exe      | **银狐 (SilverFox.sa)**  | 6d21ee2bece595eaec2814ee8c475dc278b37476645251fe5ee9d309bc58bade | 1e4851cb-b1f1-4f4d-ae05-c3f39b87e4f8 | [VirusTotal](https://www.virustotal.com/gui/file/6d21ee2bece595eaec2814ee8c475dc278b37476645251fe5ee9d309bc58bade) (15) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/6d21ee2bece595eaec2814ee8c475dc278b37476645251fe5ee9d309bc58bade) | 1091 |
 |  ——————   |     ————————————      |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
