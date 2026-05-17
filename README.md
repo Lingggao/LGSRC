@@ -69,7 +69,7 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 5 月 17 日 3:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 5 月 17 日 22:00 (GMT+8)
 
 &emsp;&emsp;**截至 2026 年 5 月 17 日，本中心已打击计算机病毒 / 恶意软件 1084 个、恶意网站 400 个，累计为潜在受害者规避经济损失约 4,607,000 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
@@ -110,8 +110,8 @@
 | 2026/5/16 |    HellOX.Agent.exe     |       **AsyncRAT**       | 45930b1c02712f5fafa6f9b4f02c65ad9d6e93b6486c191f9a90a7353e4c6258 | dd68827f-78cf-45ff-83cd-9f2810af2218 | [VirusTotal](https://www.virustotal.com/gui/file/45930b1c02712f5fafa6f9b4f02c65ad9d6e93b6486c191f9a90a7353e4c6258) (21) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/45930b1c02712f5fafa6f9b4f02c65ad9d6e93b6486c191f9a90a7353e4c6258) | 1080 |
 | 2026/5/16 |  Wps-stallerrwin64.exe  |   **银狐 (SilverFox)**   | 8aef80ed28352ab2c8caaef4074f42c434abcdfe36979c99b71dd20ae113a619 | 8ddc24ad-ee6d-430c-8e11-f4a7feb678b3 | [VirusTotal](https://www.virustotal.com/gui/file/8aef80ed28352ab2c8caaef4074f42c434abcdfe36979c99b71dd20ae113a619) (5) |                              无                              | 1081 |
 | 2026/5/16 |      YtDlpGui.exe       | **银狐 (SilverFox.wos)** | 8a12531d38ad06e8da240f7dd4207f813352a8f17a35f725f5d10381d3bad716 | 40842431-22e0-4427-9d76-e6203f296c6b | [VirusTotal](https://www.virustotal.com/gui/file/8a12531d38ad06e8da240f7dd4207f813352a8f17a35f725f5d10381d3bad716) (14) |                              无                              | 1082 |
-| 2026/5/17 |  ···2.0.2.6.hchch.exe   | **银狐 (SilverFox.sa)**  | 76d18415fc547bdf1365b2c868e867ad3c0a5d7cdd6dafa53669c7208e4e2f4e |                                      | [VirusTotal](https://www.virustotal.com/gui/file/76d18415fc547bdf1365b2c868e867ad3c0a5d7cdd6dafa53669c7208e4e2f4e) (22) |                              无                              | 1083 |
-| 2026/5/17 |      instbeta.exe       |      **Shellcode**       | 64a93971587ee0521ecbfd3a3b2c04de75aff5cc1cb70ac104aa3ab7395c66ab |                                      | [VirusTotal](https://www.virustotal.com/gui/file/64a93971587ee0521ecbfd3a3b2c04de75aff5cc1cb70ac104aa3ab7395c66ab) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/64a93971587ee0521ecbfd3a3b2c04de75aff5cc1cb70ac104aa3ab7395c66ab) | 1084 |
+| 2026/5/17 |  ···2.0.2.6.hchch.exe   | **银狐 (SilverFox.sa)**  | 76d18415fc547bdf1365b2c868e867ad3c0a5d7cdd6dafa53669c7208e4e2f4e | 367ddce8-7a20-4717-b39b-6665485fbb48 | [VirusTotal](https://www.virustotal.com/gui/file/76d18415fc547bdf1365b2c868e867ad3c0a5d7cdd6dafa53669c7208e4e2f4e) (22) |                              无                              | 1083 |
+| 2026/5/17 |      instbeta.exe       |      **Shellcode**       | 64a93971587ee0521ecbfd3a3b2c04de75aff5cc1cb70ac104aa3ab7395c66ab | dc6b3147-1b8f-4049-8dc3-812cc2fa8894 | [VirusTotal](https://www.virustotal.com/gui/file/64a93971587ee0521ecbfd3a3b2c04de75aff5cc1cb70ac104aa3ab7395c66ab) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/64a93971587ee0521ecbfd3a3b2c04de75aff5cc1cb70ac104aa3ab7395c66ab) | 1084 |
 |  ——————   |      ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
