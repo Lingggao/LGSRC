@@ -391,6 +391,12 @@
 | 2026/5/7  |            hxxps://orayuu[.]com[.]cn            |    仿冒向日葵、传播病毒     |        hxxps://oraysdown[.]huzero[.]com/AweSun[.]zip         |                            无                            | Z379 |
 | 2026/5/7  |           hxxps://ora-oray[.]com[.]cn           |    仿冒向日葵、传播病毒     |                              无                              |                            无                            | Z380 |
 | 2026/5/7  |           hxxps://oa-oray[.]com[.]cn            |    仿冒向日葵、传播病毒     |                           同 Z379                            |                            无                            | Z381 |
+| 2026/5/7  |            hxxps://oorayy[.]com[.]cn            |    仿冒向日葵、传播病毒     |                              无                              |                            无                            | Z382 |
+| 2026/5/7  |           hxxps://ch-oray[.]com[.]cn            |    仿冒向日葵、传播病毒     |                           同 Z379                            |                            无                            | Z383 |
+| 2026/5/7  |           hxxps://oray-web[.]com[.]cn           |    仿冒向日葵、传播病毒     |                              无                              |                            无                            | Z384 |
+| 2026/5/9  |         hxxps://cn-hellogpt[.]com[.]cn          |   仿冒 HelloGPT、传播病毒   |                              无                              |                            无                            | Z385 |
+| 2026/5/9  |            hxxps://mac-hellogpt[.]cn            |   仿冒 HelloGPT、传播病毒   | hxxps://mac-hellogpt[.]cn/download/hellogpt-windows-setup[.]exe |                            无                            | Z386 |
+| 2026/5/9  |             hxxps://gellogpt[.]com              |   仿冒 HelloGPT、传播病毒   |        hxxps://ios123[.]klnami[.]com/Hello-GPT[.]rar         |                            无                            | Z387 |
 |  ——————   |              ————————————————————               |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
