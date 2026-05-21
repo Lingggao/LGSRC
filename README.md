@@ -71,7 +71,7 @@
 
 &emsp;&emsp;上次更新时间：2026 年 5 月 21 日 17:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 5 月 21 日，本中心已打击计算机病毒 / 恶意软件 1104 个、恶意网站 405 个，累计为潜在受害者规避经济损失约 4,692,000 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 5 月 21 日，本中心已打击计算机病毒 / 恶意软件 1104 个、恶意网站 411 个，累计为潜在受害者规避经济损失约 4,692,000 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;在对抗网络犯罪的崇高事业中，本中心仅承担了少量协调类工作。**恶意载荷从发现到清除，离不开国家有关部门、安全社区与研究员、杀毒软件厂商及威胁情报提供商的共同努力**。在此，谨向他们致以诚挚谢意。
 
@@ -105,8 +105,11 @@
 | 2026/5/20 |    Console···10.exe     |   **银狐 (SilverFox)**   | 3683d673395b2ef445ea80d604af15a7d05c5d21cdcbbb02fc933298ba9b9862 | 6068b950-c982-4725-87d0-83d6d1dd14d2 | [VirusTotal](https://www.virustotal.com/gui/file/3683d673395b2ef445ea80d604af15a7d05c5d21cdcbbb02fc933298ba9b9862) (10) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/3683d673395b2ef445ea80d604af15a7d05c5d21cdcbbb02fc933298ba9b9862) | 1100 |
 | 2026/5/20 |  SogouExplorer···.exe   |   **银狐 (SilverFox)**   | 759c8d8a7b36bb48574e16c7429f7c7ff2a221c29aae7f3dad77c94f61fe2ce8 | 2ab4ebb3-58d4-4a5f-8d95-37731311ab59 | [VirusTotal](https://www.virustotal.com/gui/file/759c8d8a7b36bb48574e16c7429f7c7ff2a221c29aae7f3dad77c94f61fe2ce8) (4) |                              无                              | 1101 |
 | 2026/5/20 |      uer-utuq.exe       |   **银狐 (SilverFox)**   | ca70bc178c645aa50bb22b4845b552fedeea69d4023922cfbc57d79ce27b31d4 | b543d35a-f351-41a1-b7a3-46f5d6d70cce | [VirusTotal](https://www.virustotal.com/gui/file/ca70bc178c645aa50bb22b4845b552fedeea69d4023922cfbc57d79ce27b31d4) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/ca70bc178c645aa50bb22b4845b552fedeea69d4023922cfbc57d79ce27b31d4) | 1102 |
-| 2026/5/21 | 2026···补偿方案pdf.exe  | **银狐 (SilverFox.bg)**  | 61b5cee56af11e9cfaf7b5c120372a718fc00207afdb0a3f5480a1d0ee50e576 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/61b5cee56af11e9cfaf7b5c120372a718fc00207afdb0a3f5480a1d0ee50e576) (7) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/61b5cee56af11e9cfaf7b5c120372a718fc00207afdb0a3f5480a1d0ee50e576) | 1103 |
+| 2026/5/21 | 2026···补偿方案pdf.exe  | **银狐 (SilverFox.bg)**  | 61b5cee56af11e9cfaf7b5c120372a718fc00207afdb0a3f5480a1d0ee50e576 | 29c3d9e5-a6aa-4633-a014-a5f0e4de7016 | [VirusTotal](https://www.virustotal.com/gui/file/61b5cee56af11e9cfaf7b5c120372a718fc00207afdb0a3f5480a1d0ee50e576) (7) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/61b5cee56af11e9cfaf7b5c120372a718fc00207afdb0a3f5480a1d0ee50e576) | 1103 |
 | 2026/5/21 | ···05.21裁员名单WPS.exe | **银狐 (SilverFox.bg)**  | 16a772d508add92dbc9f0d1a6839b6cbfe90fbff5dbb7daccec062534968cda8 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/16a772d508add92dbc9f0d1a6839b6cbfe90fbff5dbb7daccec062534968cda8) (8) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/16a772d508add92dbc9f0d1a6839b6cbfe90fbff5dbb7daccec062534968cda8) | 1104 |
+| 2026/5/21 |   yfanyi···3.7.0.exe    |      **Shellcode**       | 4ae38f80419266243da021aac28e02c287b0579d674b0dbb11fa097ac08217ac |                                      | [VirusTotal](https://www.virustotal.com/gui/file/4ae38f80419266243da021aac28e02c287b0579d674b0dbb11fa097ac08217ac) (11) |                              无                              | 1105 |
+| 2026/5/21 |       yfanyiy.exe       |   **银狐 (SilverFox)**   | cd4a55968fb67918f787bcd4fcb13e87c560b6871a96526b2c9dc7003928a9ab |                                      |                      [VirusTotal]() ()                       |                              无                              | 1106 |
+| 2026/5/21 |   易翻译···5.2.3.exe    |       **Stealer**        | aaa99aa760225133a1b83a9791970762dd7f643e4232abeedfe9a0ae36161f02 |                                      | [VirusTotal](https://www.virustotal.com/gui/file/aaa99aa760225133a1b83a9791970762dd7f643e4232abeedfe9a0ae36161f02) (4) |                              无                              | 1107 |
 |  ——————   |      ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -141,6 +144,12 @@
 | 2026/5/18 |       hxxps://line-aps[.]com[.]cn        |     仿冒 LINE、传播病毒     | hxxps://dowwonaadd-line[.]com[.]cn/donwnload/Line_win_x64[.]1[.]26[.]zip |     无     | Z403 |
 | 2026/5/18 |    hxxps://www[.]linea-web[.]com[.]cn    |     仿冒 LINE、传播病毒     | hxxps://sdghdfjgkjfgj-sdgasfafasdgd[.]oss-ap-southeast-1[.]aliyuncs[.]com/Line_uhhy63996[.]zip |     无     | Z404 |
 | 2026/5/18 |         hxxps://yyy1-linei[.]icu         |     仿冒 LINE、传播病毒     |                           同 Z404                            |     无     | Z405 |
+| 2026/5/21 |       https://www.woyifanyi.com.cn       |    仿冒易翻译、传播病毒     | https://www.erfacaishunli-oss.top/%E6%98%93%E7%BF%BB%E8%AF%91_Setup%205.2.3.zip |     无     | Z406 |
+| 2026/5/21 |         https://acc-yifan.com.cn         |    仿冒易翻译、传播病毒     |                              无                              |     无     | Z407 |
+| 2026/5/21 |        https://www.traneasily.com        |    仿冒易翻译、传播病毒     |          https://seonn199.bj.bcebos.com/yfanyiy.zip          |     无     | Z408 |
+| 2026/5/21 |       https://www.yifanyicc.com.cn       |    仿冒易翻译、传播病毒     |                           同 Z406                            |     无     | Z409 |
+| 2026/5/21 |         https://uu-yifan.com.cn          |    仿冒易翻译、传播病毒     |                              无                              |     无     | Z410 |
+| 2026/5/21 |             https://efyi.org             |    仿冒易翻译、传播病毒     |   https://ydaea.hongyangkj.top/yfanyi_setup_windos_x64.zip   |     无     | Z411 |
 |  ——————   |           ————————————————————           |       ———————————————       |                ——————————————————————————————                | —————————— | ———  |
 
 > [!NOTE]
