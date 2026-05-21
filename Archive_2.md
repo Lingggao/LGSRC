@@ -397,6 +397,10 @@
 | 2026/5/9  |         hxxps://cn-hellogpt[.]com[.]cn          |   仿冒 HelloGPT、传播病毒   |                              无                              |                            无                            | Z385 |
 | 2026/5/9  |            hxxps://mac-hellogpt[.]cn            |   仿冒 HelloGPT、传播病毒   | hxxps://mac-hellogpt[.]cn/download/hellogpt-windows-setup[.]exe |                            无                            | Z386 |
 | 2026/5/9  |             hxxps://gellogpt[.]com              |   仿冒 HelloGPT、传播病毒   |        hxxps://ios123[.]klnami[.]com/Hello-GPT[.]rar         |                            无                            | Z387 |
+| 2026/5/9  |       hxxps://tool[.]hellogpts[.]com[.]cn       |   仿冒 HelloGPT、传播病毒   |                       有，载荷提取失败                       |                            无                            | Z388 |
+| 2026/5/9  |       hxxps://app[.]hellogptc[.]com[.]cn        |   仿冒 HelloGPT、传播病毒   |                           同 Z388                            |                            无                            | Z389 |
+| 2026/5/9  |             hxxps://hallogpt[.]com              |   仿冒 HelloGPT、传播病毒   | hxxps://anewdown[.]oss-cn-hongkong[.]aliyuncs[.]com/HelloGPTai_v1124_installer_setup[.]zip |                            无                            | Z390 |
+| 2026/5/9  |             hxxps://hello-gpt[.]org             |   仿冒 HelloGPT、传播病毒   | hxxps://cdnfile0814-1366946264[.]cos[.]ap-tokyo[.]myqcloud[.]com/Hello-GPT[.]zip |                            无                            | Z391 |
 |  ——————   |              ————————————————————               |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
