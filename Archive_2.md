@@ -401,6 +401,14 @@
 | 2026/5/9  |       hxxps://app[.]hellogptc[.]com[.]cn        |   仿冒 HelloGPT、传播病毒   |                           同 Z388                            |                            无                            | Z389 |
 | 2026/5/9  |             hxxps://hallogpt[.]com              |   仿冒 HelloGPT、传播病毒   | hxxps://anewdown[.]oss-cn-hongkong[.]aliyuncs[.]com/HelloGPTai_v1124_installer_setup[.]zip |                            无                            | Z390 |
 | 2026/5/9  |             hxxps://hello-gpt[.]org             |   仿冒 HelloGPT、传播病毒   | hxxps://cdnfile0814-1366946264[.]cos[.]ap-tokyo[.]myqcloud[.]com/Hello-GPT[.]zip |                            无                            | Z391 |
+| 2026/5/9  |       hxxps://win[.]hellogptc[.]com[.]cn        |   仿冒 HelloGPT、传播病毒   |                           同 Z388                            |                            无                            | Z392 |
+| 2026/5/10 |             hxxps://browser-qq[.]cn             |  仿冒 QQ 浏览器、传播病毒   |                              无                              |                            无                            | Z393 |
+| 2026/5/10 |            hxxps://browser-qq[.]org             |  仿冒 QQ 浏览器、传播病毒   | hxxps://ydaea[.]hongyangkj[.]top/QQBrowser_Setup_windos_x64[.]zip |                            无                            | Z394 |
+| 2026/5/14 |            hxxp://c(不予展示)c[.]us             |    政治类违法和不良信息     |                              无                              |                            无                            | Z395 |
+| 2026/5/14 |    hxxps://d(不予展示)1[.]cl###nt[.]net/···     |    政治类违法和不良信息     |                              无                              |                            无                            | Z396 |
+| 2026/5/15 |       hxxps://www[.]firefox-zh[.]com[.]cn       |   仿冒 Firefox、传播病毒    |       hxxps://clashverge1[.]com/Firef0x_lnstaler[.]zip       |                            无                            | Z397 |
+| 2026/5/16 |            hxxps://i4-ab[.]com[.]cn             |   仿冒爱思助手、传播病毒    | hxxps://pub-e3e415d681d94945951db9a90f09b3ea[.]r2[.]dev/aisi-a64[.]zip |                            无                            | Z398 |
+| 2026/5/17 |           hxxps://www[.]aq-360[.]com            | 仿冒 360 安全卫士、传播病毒 | hxxps://sgnfyn2[.]oss-cn-hongkong[.]aliyuncs[.]com/instbeta[.]zip |                            无                            | Z399 |
 |  ——————   |              ————————————————————               |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
