@@ -418,6 +418,9 @@
 | 2026/5/21 |       hxxps://www[.]woyifanyi[.]com[.]cn        |    仿冒易翻译、传播病毒     | hxxps://www[.]erfacaishunli-oss[.]top/%E6%98%93%E7%BF%BB%E8%AF%91_Setup%205[.]2[.]3[.]zip |                            无                            | Z406 |
 | 2026/5/21 |          hxxps://acc-yifan[.]com[.]cn           |    仿冒易翻译、传播病毒     |                              无                              |                            无                            | Z407 |
 | 2026/5/21 |         hxxps://www[.]traneasily[.]com          |    仿冒易翻译、传播病毒     |      hxxps://seonn199[.]bj[.]bcebos[.]com/yfanyiy[.]zip      |                            无                            | Z408 |
+| 2026/5/21 |       hxxps://www[.]yifanyicc[.]com[.]cn        |    仿冒易翻译、传播病毒     |                           同 Z406                            |                            无                            | Z409 |
+| 2026/5/21 |           hxxps://uu-yifan[.]com[.]cn           |    仿冒易翻译、传播病毒     |                              无                              |                            无                            | Z410 |
+| 2026/5/21 |               hxxps://efyi[.]org                |    仿冒易翻译、传播病毒     | hxxps://ydaea[.]hongyangkj[.]top/yfanyi_setup_windos_x64[.]zip |                            无                            | Z411 |
 |  ——————   |              ————————————————————               |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---

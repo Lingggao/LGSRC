@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 5 月 25 日 3:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 5 月 25 日 5:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 5 月 25 日，本中心已打击计算机病毒 / 恶意软件 1133 个、恶意网站 428 个，累计为潜在受害者规避经济损失约 4,815,250 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 5 月 25 日，本中心已打击计算机病毒 / 恶意软件 1135 个、恶意网站 431 个，累计为潜在受害者规避经济损失约 4,823,750 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;在对抗网络犯罪的崇高事业中，本中心仅承担了少量协调类工作。**恶意载荷从发现到清除，离不开国家有关部门、安全社区与研究员、杀毒软件厂商及威胁情报提供商的共同努力**。在此，谨向他们致以诚挚谢意。
 
@@ -87,8 +87,6 @@
 
 |   日期    |         文件名         |          检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :--------------------: | :---------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/5/22 |    qqpinyinrZf7.exe    |        **Agent**        | 1508205d964e9465688913ce8afee4c5dd193d84cb9eb15f4f9d522463293106 | 07b81c85-2a11-4e08-ae81-e03a2efde10e | [VirusTotal](https://www.virustotal.com/gui/file/1508205d964e9465688913ce8afee4c5dd193d84cb9eb15f4f9d522463293106) (15) |                              无                              | 1114 |
-| 2026/5/22 |  SogouExplorer···.exe  |  **银狐 (SilverFox)**   | 772c98bf56c70e3e2649ae107d7c6aa2cb6dc19857c3bab69e6844e9282aa328 | 37541399-055a-48d6-b269-5253fac8f2bf | [VirusTotal](https://www.virustotal.com/gui/file/772c98bf56c70e3e2649ae107d7c6aa2cb6dc19857c3bab69e6844e9282aa328) (4) |                              无                              | 1115 |
 | 2026/5/22 |   sogouliulanqi4.msi   |        **Agent**        | e1509efc30c14fd417c6fb9ca83b904422de6a4aec6c901abc0704f32c1cd690 | b222979b-4df7-4d43-9e84-57aee21f90e9 | [VirusTotal](https://www.virustotal.com/gui/file/e1509efc30c14fd417c6fb9ca83b904422de6a4aec6c901abc0704f32c1cd690) (16) |                              无                              | 1116 |
 | 2026/5/23 |   1···汉化语言包.exe   |  **银狐 (SilverFox)**   | 99921cb2e67ae6b2b77ad716cb384d7edcdc258956a428b0d1d4390bbc91a50e | a3ed5a11-deaf-4eaf-b385-7caccded19a1 | [VirusTotal](https://www.virustotal.com/gui/file/99921cb2e67ae6b2b77ad716cb384d7edcdc258956a428b0d1d4390bbc91a50e) (24) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/99921cb2e67ae6b2b77ad716cb384d7edcdc258956a428b0d1d4390bbc91a50e) | 1117 |
 | 2026/5/23 |   ···中文语言包.exe    |        **Agent**        | 495377a021f4027a3c64297f52fdb75771c2b0ad69787306620db1fb3fbe35cd | 9a7d3ead-79c8-4a6f-84cf-d95469e299b6 | [VirusTotal](https://www.virustotal.com/gui/file/495377a021f4027a3c64297f52fdb75771c2b0ad69787306620db1fb3fbe35cd) (13) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/495377a021f4027a3c64297f52fdb75771c2b0ad69787306620db1fb3fbe35cd) | 1118 |
@@ -107,6 +105,8 @@
 | 2026/5/24 |       WinRAR.exe       |  **银狐 (SilverFox)**   | 5d00a8d861b0ef150cfd2cc298f4c01a1006ded8144a9b0b956fc3cb267397c2 | b95c8b90-a7d7-42ce-b45e-dab620ab4d3a | [VirusTotal](https://www.virustotal.com/gui/file/5d00a8d861b0ef150cfd2cc298f4c01a1006ded8144a9b0b956fc3cb267397c2) (33) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5d00a8d861b0ef150cfd2cc298f4c01a1006ded8144a9b0b956fc3cb267397c2) | 1131 |
 | 2026/5/25 |   inst.zan886604.exe   | **银狐 (SilverFox.bm)** | cb03f89867984dd2092321c60e42dda70c36525599d0cdebd6434305dc97bbe8 | 359d2a22-3d53-4cf7-9539-4127acc6d60a | [VirusTotal](https://www.virustotal.com/gui/file/cb03f89867984dd2092321c60e42dda70c36525599d0cdebd6434305dc97bbe8) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/cb03f89867984dd2092321c60e42dda70c36525599d0cdebd6434305dc97bbe8) | 1132 |
 | 2026/5/25 |   DeepSeekV20.66.msi   |     **Xegumumune**      | 6a1c563238f5489212cf1d10b28179e739c0ebc6af40e5d68e2a034f9c3b42b9 | 8a80f850-c410-4beb-a089-d012dfd00cb4 | [VirusTotal](https://www.virustotal.com/gui/file/6a1c563238f5489212cf1d10b28179e739c0ebc6af40e5d68e2a034f9c3b42b9) (6) |                              无                              | 1133 |
+| 2026/5/25 | yodao-fanyi···5.23.msi |  **银狐 (SilverFox)**   | 3e3386da25410fb5c8ccad4b2f95015823146f724716ab96083dcd171885a490 | bde6566f-6909-46cf-a05f-e65984e4afda | [VirusTotal](https://www.virustotal.com/gui/file/3e3386da25410fb5c8ccad4b2f95015823146f724716ab96083dcd171885a490) (4) |                              无                              | 1134 |
+| 2026/5/25 |  youdaoo···安装包.msi  |  **银狐 (SilverFox)**   | e17403227a34254a1c37ac502ea01f6c5cb9ce5e05340a415e4d8c7d4042ea06 | adea6af3-8a77-46ba-baac-de5b09fd2fbc | [VirusTotal](https://www.virustotal.com/gui/file/e17403227a34254a1c37ac502ea01f6c5cb9ce5e05340a415e4d8c7d4042ea06) (5) |                              无                              | 1135 |
 |  ——————   |      ————————————      |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -123,9 +123,6 @@
 
 |   日期    |                 URL                  |          类别           |                           有效载荷                           |  URLhaus   | 编号 |
 | :-------: | :----------------------------------: | :---------------------: | :----------------------------------------------------------: | :--------: | :--: |
-| 2026/5/21 |  hxxps://www[.]yifanyicc[.]com[.]cn  |  仿冒易翻译、传播病毒   |                           同 Z406                            |     无     | Z409 |
-| 2026/5/21 |     hxxps://uu-yifan[.]com[.]cn      |  仿冒易翻译、传播病毒   |                              无                              |     无     | Z410 |
-| 2026/5/21 |          hxxps://efyi[.]org          |  仿冒易翻译、传播病毒   | hxxps://ydaea[.]hongyangkj[.]top/yfanyi_setup_windos_x64[.]zip |     无     | Z411 |
 | 2026/5/22 | hxxps://www[.]x-dingtalk[.]com[.]cn  |   仿冒钉钉、传播病毒    |                              无                              |     无     | Z412 |
 | 2026/5/22 |  hxxps://zh-dingdingtalk[.]com[.]cn  |   仿冒钉钉、传播病毒    |                              无                              |     无     | Z413 |
 | 2026/5/22 |  hxxps://cn-dingdingtalk[.]com[.]cn  |   仿冒钉钉、传播病毒    |                              无                              |     无     | Z414 |
@@ -143,6 +140,9 @@
 | 2026/5/24 |      hxxps://hr-huorong39[.]com      |   仿冒火绒、传播病毒    |                       有，载荷提取失败                       |     无     | Z426 |
 | 2026/5/25 |   hxxps://chat[.]deepseekem[.]com    | 仿冒 DeepSeek、传播病毒 |      hxxps://dows[.]szeom[.]com/DeepSeekV20[.]66[.]zip       |     无     | Z427 |
 | 2026/5/25 |       hxxps://deepseepk[.]com        | 仿冒 DeepSeek、传播病毒 |                           同 Z427                            |     无     | Z428 |
+| 2026/5/25 |   hxxps://fanyid-youdao[.]com[.]cn   | 仿冒有道翻译、传播病毒  | hxxps://clashxqr[.]com[.]cn/yodao-fanyi_leaste_5[.]23_zcwax[.]zip |     无     | Z429 |
+| 2026/5/25 |      hxxps://youzdao[.]com[.]cn      | 仿冒有道翻译、传播病毒  | hxxps://www[.]wps1xiazai[.]com/1/youdaoo_hunhun_X645233[.]zip |     无     | Z430 |
+| 2026/5/25 |  hxxps://web[.]wi-youdao[.]com[.]cn  | 仿冒有道翻译、传播病毒  |                              无                              |     无     | Z431 |
 |  ——————   |         ————————————————————         |     ———————————————     |                ——————————————————————————————                | —————————— | ———  |
 
 > [!NOTE]
