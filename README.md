@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 5 月 25 日 1:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 5 月 25 日 3:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 5 月 25 日，本中心已打击计算机病毒 / 恶意软件 1132 个、恶意网站 426 个，累计为潜在受害者规避经济损失约 4,811,000 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 5 月 25 日，本中心已打击计算机病毒 / 恶意软件 1133 个、恶意网站 428 个，累计为潜在受害者规避经济损失约 4,815,250 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;在对抗网络犯罪的崇高事业中，本中心仅承担了少量协调类工作。**恶意载荷从发现到清除，离不开国家有关部门、安全社区与研究员、杀毒软件厂商及威胁情报提供商的共同努力**。在此，谨向他们致以诚挚谢意。
 
@@ -87,7 +87,6 @@
 
 |   日期    |         文件名         |          检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :--------------------: | :---------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/5/22 | ···违规人员名单pdf.exe | **银狐 (SilverFox.bg)** | 452e085f42d6054435f95d363588f3d516f1a52d28b033f33a91e843ac4d720e | d6564c06-1ca3-4b8f-890b-3f8261a51d5d | [VirusTotal](https://www.virustotal.com/gui/file/452e085f42d6054435f95d363588f3d516f1a52d28b033f33a91e843ac4d720e) (13) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/452e085f42d6054435f95d363588f3d516f1a52d28b033f33a91e843ac4d720e) | 1113 |
 | 2026/5/22 |    qqpinyinrZf7.exe    |        **Agent**        | 1508205d964e9465688913ce8afee4c5dd193d84cb9eb15f4f9d522463293106 | 07b81c85-2a11-4e08-ae81-e03a2efde10e | [VirusTotal](https://www.virustotal.com/gui/file/1508205d964e9465688913ce8afee4c5dd193d84cb9eb15f4f9d522463293106) (15) |                              无                              | 1114 |
 | 2026/5/22 |  SogouExplorer···.exe  |  **银狐 (SilverFox)**   | 772c98bf56c70e3e2649ae107d7c6aa2cb6dc19857c3bab69e6844e9282aa328 | 37541399-055a-48d6-b269-5253fac8f2bf | [VirusTotal](https://www.virustotal.com/gui/file/772c98bf56c70e3e2649ae107d7c6aa2cb6dc19857c3bab69e6844e9282aa328) (4) |                              无                              | 1115 |
 | 2026/5/22 |   sogouliulanqi4.msi   |        **Agent**        | e1509efc30c14fd417c6fb9ca83b904422de6a4aec6c901abc0704f32c1cd690 | b222979b-4df7-4d43-9e84-57aee21f90e9 | [VirusTotal](https://www.virustotal.com/gui/file/e1509efc30c14fd417c6fb9ca83b904422de6a4aec6c901abc0704f32c1cd690) (16) |                              无                              | 1116 |
@@ -107,6 +106,7 @@
 | 2026/5/24 |   instZIP···xpc.exe    | **银狐 (SilverFox.bm)** | b6cd4e4a79935ac911c705092fdc00bc9876a364b0001b4fbf9d0cab47cdb45c | a4c81fe4-f287-4430-9b9b-a164c88c8f64 | [VirusTotal](https://www.virustotal.com/gui/file/b6cd4e4a79935ac911c705092fdc00bc9876a364b0001b4fbf9d0cab47cdb45c) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b6cd4e4a79935ac911c705092fdc00bc9876a364b0001b4fbf9d0cab47cdb45c) | 1130 |
 | 2026/5/24 |       WinRAR.exe       |  **银狐 (SilverFox)**   | 5d00a8d861b0ef150cfd2cc298f4c01a1006ded8144a9b0b956fc3cb267397c2 | b95c8b90-a7d7-42ce-b45e-dab620ab4d3a | [VirusTotal](https://www.virustotal.com/gui/file/5d00a8d861b0ef150cfd2cc298f4c01a1006ded8144a9b0b956fc3cb267397c2) (33) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5d00a8d861b0ef150cfd2cc298f4c01a1006ded8144a9b0b956fc3cb267397c2) | 1131 |
 | 2026/5/25 |   inst.zan886604.exe   | **银狐 (SilverFox.bm)** | cb03f89867984dd2092321c60e42dda70c36525599d0cdebd6434305dc97bbe8 | 359d2a22-3d53-4cf7-9539-4127acc6d60a | [VirusTotal](https://www.virustotal.com/gui/file/cb03f89867984dd2092321c60e42dda70c36525599d0cdebd6434305dc97bbe8) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/cb03f89867984dd2092321c60e42dda70c36525599d0cdebd6434305dc97bbe8) | 1132 |
+| 2026/5/25 |   DeepSeekV20.66.msi   |     **Xegumumune**      | 6a1c563238f5489212cf1d10b28179e739c0ebc6af40e5d68e2a034f9c3b42b9 | 8a80f850-c410-4beb-a089-d012dfd00cb4 | [VirusTotal](https://www.virustotal.com/gui/file/6a1c563238f5489212cf1d10b28179e739c0ebc6af40e5d68e2a034f9c3b42b9) (6) |                              无                              | 1133 |
 |  ——————   |      ————————————      |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -121,29 +121,29 @@
 >
 > &emsp;为确保安全，网站地址将用 “hxxps://” 与 “[.]” 进行替换。**切勿尝试访问表格中列出的任何网址**。
 
-|   日期    |                 URL                  |         类别         |                           有效载荷                           |  URLhaus   | 编号 |
-| :-------: | :----------------------------------: | :------------------: | :----------------------------------------------------------: | :--------: | :--: |
-| 2026/5/21 |     hxxps://acc-yifan[.]com[.]cn     | 仿冒易翻译、传播病毒 |                              无                              |     无     | Z407 |
-| 2026/5/21 |    hxxps://www[.]traneasily[.]com    | 仿冒易翻译、传播病毒 |      hxxps://seonn199[.]bj[.]bcebos[.]com/yfanyiy[.]zip      |     无     | Z408 |
-| 2026/5/21 |  hxxps://www[.]yifanyicc[.]com[.]cn  | 仿冒易翻译、传播病毒 |                           同 Z406                            |     无     | Z409 |
-| 2026/5/21 |     hxxps://uu-yifan[.]com[.]cn      | 仿冒易翻译、传播病毒 |                              无                              |     无     | Z410 |
-| 2026/5/21 |          hxxps://efyi[.]org          | 仿冒易翻译、传播病毒 | hxxps://ydaea[.]hongyangkj[.]top/yfanyi_setup_windos_x64[.]zip |     无     | Z411 |
-| 2026/5/22 | hxxps://www[.]x-dingtalk[.]com[.]cn  |  仿冒钉钉、传播病毒  |                              无                              |     无     | Z412 |
-| 2026/5/22 |  hxxps://zh-dingdingtalk[.]com[.]cn  |  仿冒钉钉、传播病毒  |                              无                              |     无     | Z413 |
-| 2026/5/22 |  hxxps://cn-dingdingtalk[.]com[.]cn  |  仿冒钉钉、传播病毒  |                              无                              |     无     | Z414 |
-| 2026/5/22 | hxxps://www[.]u-dingtalk[.]com[.]cn  |  仿冒钉钉、传播病毒  |                              无                              |     无     | Z415 |
-| 2026/5/23 | hxxps://dingding-dingtalk[.]com[.]cn |  仿冒钉钉、传播病毒  |                              无                              |     无     | Z416 |
-| 2026/5/23 |       hxxp://app-dingding[.]cc       |  仿冒钉钉、传播病毒  |                              无                              |     无     | Z417 |
-| 2026/5/23 |   hxxps://down-dingding[.]com[.]cn   |  仿冒钉钉、传播病毒  |                              无                              |     无     | Z418 |
-| 2026/5/23 |    hxxps://d-dingding[.]com[.]cn     |  仿冒钉钉、传播病毒  |                              无                              |     无     | Z419 |
-| 2026/5/24 |       hxxps://huoronggk[.]com        |  仿冒火绒、传播病毒  |                              无                              |     无     | Z420 |
-| 2026/5/24 |       hxxps://huoronggl[.]com        |  仿冒火绒、传播病毒  |                              无                              |     无     | Z421 |
-| 2026/5/24 |     hxxps://huorong-c[.]com[.]cn     |  仿冒火绒、传播病毒  | hxxps://pub-2f77e97a4ac8400c85cf848f569df2cb[.]r2[.]dev/huorong31[.]zip |     无     | Z422 |
-| 2026/5/24 |       hxxps://pc-huorong[.]com       |  仿冒火绒、传播病毒  | hxxps://download[.]i86k6[.]top/sysdiag-all-x64-6[.]0[.]10[.]1-2026[.]05[.]22[.]1[.]zip |     无     | Z423 |
-| 2026/5/24 |    hxxps://huorong-hr[.]com[.]cn     |  仿冒火绒、传播病毒  |                              无                              |     无     | Z424 |
-| 2026/5/24 |   hxxps://huorong-guard[.]com[.]cn   |  仿冒火绒、传播病毒  |                              无                              |     无     | Z425 |
-| 2026/5/24 |      hxxps://hr-huorong39[.]com      |  仿冒火绒、传播病毒  |                       有，载荷提取失败                       |     无     | Z426 |
-|  ——————   |         ————————————————————         |   ———————————————    |                ——————————————————————————————                | —————————— | ———  |
+|   日期    |                 URL                  |          类别           |                           有效载荷                           |  URLhaus   | 编号 |
+| :-------: | :----------------------------------: | :---------------------: | :----------------------------------------------------------: | :--------: | :--: |
+| 2026/5/21 |  hxxps://www[.]yifanyicc[.]com[.]cn  |  仿冒易翻译、传播病毒   |                           同 Z406                            |     无     | Z409 |
+| 2026/5/21 |     hxxps://uu-yifan[.]com[.]cn      |  仿冒易翻译、传播病毒   |                              无                              |     无     | Z410 |
+| 2026/5/21 |          hxxps://efyi[.]org          |  仿冒易翻译、传播病毒   | hxxps://ydaea[.]hongyangkj[.]top/yfanyi_setup_windos_x64[.]zip |     无     | Z411 |
+| 2026/5/22 | hxxps://www[.]x-dingtalk[.]com[.]cn  |   仿冒钉钉、传播病毒    |                              无                              |     无     | Z412 |
+| 2026/5/22 |  hxxps://zh-dingdingtalk[.]com[.]cn  |   仿冒钉钉、传播病毒    |                              无                              |     无     | Z413 |
+| 2026/5/22 |  hxxps://cn-dingdingtalk[.]com[.]cn  |   仿冒钉钉、传播病毒    |                              无                              |     无     | Z414 |
+| 2026/5/22 | hxxps://www[.]u-dingtalk[.]com[.]cn  |   仿冒钉钉、传播病毒    |                              无                              |     无     | Z415 |
+| 2026/5/23 | hxxps://dingding-dingtalk[.]com[.]cn |   仿冒钉钉、传播病毒    |                              无                              |     无     | Z416 |
+| 2026/5/23 |       hxxp://app-dingding[.]cc       |   仿冒钉钉、传播病毒    |                              无                              |     无     | Z417 |
+| 2026/5/23 |   hxxps://down-dingding[.]com[.]cn   |   仿冒钉钉、传播病毒    |                              无                              |     无     | Z418 |
+| 2026/5/23 |    hxxps://d-dingding[.]com[.]cn     |   仿冒钉钉、传播病毒    |                              无                              |     无     | Z419 |
+| 2026/5/24 |       hxxps://huoronggk[.]com        |   仿冒火绒、传播病毒    |                              无                              |     无     | Z420 |
+| 2026/5/24 |       hxxps://huoronggl[.]com        |   仿冒火绒、传播病毒    |                              无                              |     无     | Z421 |
+| 2026/5/24 |     hxxps://huorong-c[.]com[.]cn     |   仿冒火绒、传播病毒    | hxxps://pub-2f77e97a4ac8400c85cf848f569df2cb[.]r2[.]dev/huorong31[.]zip |     无     | Z422 |
+| 2026/5/24 |       hxxps://pc-huorong[.]com       |   仿冒火绒、传播病毒    | hxxps://download[.]i86k6[.]top/sysdiag-all-x64-6[.]0[.]10[.]1-2026[.]05[.]22[.]1[.]zip |     无     | Z423 |
+| 2026/5/24 |    hxxps://huorong-hr[.]com[.]cn     |   仿冒火绒、传播病毒    |                              无                              |     无     | Z424 |
+| 2026/5/24 |   hxxps://huorong-guard[.]com[.]cn   |   仿冒火绒、传播病毒    |                              无                              |     无     | Z425 |
+| 2026/5/24 |      hxxps://hr-huorong39[.]com      |   仿冒火绒、传播病毒    |                       有，载荷提取失败                       |     无     | Z426 |
+| 2026/5/25 |   hxxps://chat[.]deepseekem[.]com    | 仿冒 DeepSeek、传播病毒 |      hxxps://dows[.]szeom[.]com/DeepSeekV20[.]66[.]zip       |     无     | Z427 |
+| 2026/5/25 |       hxxps://deepseepk[.]com        | 仿冒 DeepSeek、传播病毒 |                           同 Z427                            |     无     | Z428 |
+|  ——————   |         ————————————————————         |     ———————————————     |                ——————————————————————————————                | —————————— | ———  |
 
 > [!NOTE]
 >

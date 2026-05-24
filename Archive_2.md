@@ -416,6 +416,8 @@
 | 2026/5/18 |       hxxps://www[.]linea-web[.]com[.]cn        |     仿冒 LINE、传播病毒     | hxxps://sdghdfjgkjfgj-sdgasfafasdgd[.]oss-ap-southeast-1[.]aliyuncs[.]com/Line_uhhy63996[.]zip |                            无                            | Z404 |
 | 2026/5/18 |            hxxps://yyy1-linei[.]icu             |     仿冒 LINE、传播病毒     |                           同 Z404                            |                            无                            | Z405 |
 | 2026/5/21 |       hxxps://www[.]woyifanyi[.]com[.]cn        |    仿冒易翻译、传播病毒     | hxxps://www[.]erfacaishunli-oss[.]top/%E6%98%93%E7%BF%BB%E8%AF%91_Setup%205[.]2[.]3[.]zip |                            无                            | Z406 |
+| 2026/5/21 |          hxxps://acc-yifan[.]com[.]cn           |    仿冒易翻译、传播病毒     |                              无                              |                            无                            | Z407 |
+| 2026/5/21 |         hxxps://www[.]traneasily[.]com          |    仿冒易翻译、传播病毒     |      hxxps://seonn199[.]bj[.]bcebos[.]com/yfanyiy[.]zip      |                            无                            | Z408 |
 |  ——————   |              ————————————————————               |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
