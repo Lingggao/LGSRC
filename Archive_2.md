@@ -409,6 +409,13 @@
 | 2026/5/15 |       hxxps://www[.]firefox-zh[.]com[.]cn       |   仿冒 Firefox、传播病毒    |       hxxps://clashverge1[.]com/Firef0x_lnstaler[.]zip       |                            无                            | Z397 |
 | 2026/5/16 |            hxxps://i4-ab[.]com[.]cn             |   仿冒爱思助手、传播病毒    | hxxps://pub-e3e415d681d94945951db9a90f09b3ea[.]r2[.]dev/aisi-a64[.]zip |                            无                            | Z398 |
 | 2026/5/17 |           hxxps://www[.]aq-360[.]com            | 仿冒 360 安全卫士、传播病毒 | hxxps://sgnfyn2[.]oss-cn-hongkong[.]aliyuncs[.]com/instbeta[.]zip |                            无                            | Z399 |
+| 2026/5/17 |           hxxps://www[.]360ccn[.]com            | 仿冒 360 安全卫士、传播病毒 | hxxps://pub-0d26f493f28e4797a797b2f34fa4a875[.]r2[.]dev/5[.]4[.]5[.]1[.]4[.]2[.]0[.]2[.]6[.]hchch[.]zip |                            无                            | Z400 |
+| 2026/5/18 |        hxxps://cn[.]lineapps[.]com[.]cn         |     仿冒 LINE、传播病毒     |                       有，载荷提取失败                       |                            无                            | Z401 |
+| 2026/5/18 |            hxxps://lline[.]com[.]cn             |     仿冒 LINE、传播病毒     | hxxps://pub-65fc614fff554f4b8702b99c490f15c0[.]r2[.]dev/line-a64[.]zip |                            无                            | Z402 |
+| 2026/5/18 |           hxxps://line-aps[.]com[.]cn           |     仿冒 LINE、传播病毒     | hxxps://dowwonaadd-line[.]com[.]cn/donwnload/Line_win_x64[.]1[.]26[.]zip |                            无                            | Z403 |
+| 2026/5/18 |       hxxps://www[.]linea-web[.]com[.]cn        |     仿冒 LINE、传播病毒     | hxxps://sdghdfjgkjfgj-sdgasfafasdgd[.]oss-ap-southeast-1[.]aliyuncs[.]com/Line_uhhy63996[.]zip |                            无                            | Z404 |
+| 2026/5/18 |            hxxps://yyy1-linei[.]icu             |     仿冒 LINE、传播病毒     |                           同 Z404                            |                            无                            | Z405 |
+| 2026/5/21 |       hxxps://www[.]woyifanyi[.]com[.]cn        |    仿冒易翻译、传播病毒     | hxxps://www[.]erfacaishunli-oss[.]top/%E6%98%93%E7%BF%BB%E8%AF%91_Setup%205[.]2[.]3[.]zip |                            无                            | Z406 |
 |  ——————   |              ————————————————————               |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
