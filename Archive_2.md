@@ -421,6 +421,9 @@
 | 2026/5/21 |       hxxps://www[.]yifanyicc[.]com[.]cn        |    仿冒易翻译、传播病毒     |                           同 Z406                            |                            无                            | Z409 |
 | 2026/5/21 |           hxxps://uu-yifan[.]com[.]cn           |    仿冒易翻译、传播病毒     |                              无                              |                            无                            | Z410 |
 | 2026/5/21 |               hxxps://efyi[.]org                |    仿冒易翻译、传播病毒     | hxxps://ydaea[.]hongyangkj[.]top/yfanyi_setup_windos_x64[.]zip |                            无                            | Z411 |
+| 2026/5/22 |       hxxps://www[.]x-dingtalk[.]com[.]cn       |     仿冒钉钉、传播病毒      |                              无                              |                            无                            | Z412 |
+| 2026/5/22 |       hxxps://zh-dingdingtalk[.]com[.]cn        |     仿冒钉钉、传播病毒      |                              无                              |                            无                            | Z413 |
+| 2026/5/22 |       hxxps://cn-dingdingtalk[.]com[.]cn        |     仿冒钉钉、传播病毒      |                              无                              |                            无                            | Z414 |
 |  ——————   |              ————————————————————               |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
