@@ -432,6 +432,11 @@
 | 2026/5/24 |             hxxps://huoronggk[.]com             |     仿冒火绒、传播病毒      |                              无                              |                            无                            | Z420 |
 | 2026/5/24 |             hxxps://huoronggl[.]com             |     仿冒火绒、传播病毒      |                              无                              |                            无                            | Z421 |
 | 2026/5/24 |          hxxps://huorong-c[.]com[.]cn           |     仿冒火绒、传播病毒      | hxxps://pub-2f77e97a4ac8400c85cf848f569df2cb[.]r2[.]dev/huorong31[.]zip |                            无                            | Z422 |
+| 2026/5/24 |            hxxps://pc-huorong[.]com             |     仿冒火绒、传播病毒      | hxxps://download[.]i86k6[.]top/sysdiag-all-x64-6[.]0[.]10[.]1-2026[.]05[.]22[.]1[.]zip |                            无                            | Z423 |
+| 2026/5/24 |          hxxps://huorong-hr[.]com[.]cn          |     仿冒火绒、传播病毒      |                              无                              |                            无                            | Z424 |
+| 2026/5/24 |        hxxps://huorong-guard[.]com[.]cn         |     仿冒火绒、传播病毒      |                              无                              |                            无                            | Z425 |
+| 2026/5/24 |           hxxps://hr-huorong39[.]com            |     仿冒火绒、传播病毒      |                       有，载荷提取失败                       |                            无                            | Z426 |
+| 2026/5/25 |         hxxps://chat[.]deepseekem[.]com         |   仿冒 DeepSeek、传播病毒   |      hxxps://dows[.]szeom[.]com/DeepSeekV20[.]66[.]zip       |                            无                            | Z427 |
 |  ——————   |              ————————————————————               |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
