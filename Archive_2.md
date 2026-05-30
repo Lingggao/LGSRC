@@ -438,6 +438,7 @@
 | 2026/5/24 |           hxxps://hr-huorong39[.]com            |     仿冒火绒、传播病毒      |                       有，载荷提取失败                       |                            无                            | Z426 |
 | 2026/5/25 |         hxxps://chat[.]deepseekem[.]com         |   仿冒 DeepSeek、传播病毒   |      hxxps://dows[.]szeom[.]com/DeepSeekV20[.]66[.]zip       |                            无                            | Z427 |
 | 2026/5/25 |             hxxps://deepseepk[.]com             |   仿冒 DeepSeek、传播病毒   |                           同 Z427                            |                            无                            | Z428 |
+| 2026/5/25 |        hxxps://fanyid-youdao[.]com[.]cn         |   仿冒有道翻译、传播病毒    | hxxps://clashxqr[.]com[.]cn/yodao-fanyi_leaste_5[.]23_zcwax[.]zip |                            无                            | Z429 |
 |  ——————   |              ————————————————————               |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
