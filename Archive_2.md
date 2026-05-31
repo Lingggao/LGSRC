@@ -439,6 +439,12 @@
 | 2026/5/25 |         hxxps://chat[.]deepseekem[.]com         |   仿冒 DeepSeek、传播病毒   |      hxxps://dows[.]szeom[.]com/DeepSeekV20[.]66[.]zip       |                            无                            | Z427 |
 | 2026/5/25 |             hxxps://deepseepk[.]com             |   仿冒 DeepSeek、传播病毒   |                           同 Z427                            |                            无                            | Z428 |
 | 2026/5/25 |        hxxps://fanyid-youdao[.]com[.]cn         |   仿冒有道翻译、传播病毒    | hxxps://clashxqr[.]com[.]cn/yodao-fanyi_leaste_5[.]23_zcwax[.]zip |                            无                            | Z429 |
+| 2026/5/25 |           hxxps://youzdao[.]com[.]cn            |   仿冒有道翻译、传播病毒    | hxxps://www[.]wps1xiazai[.]com/1/youdaoo_hunhun_X645233[.]zip |                            无                            | Z430 |
+| 2026/5/25 |       hxxps://web[.]wi-youdao[.]com[.]cn        |   仿冒有道翻译、传播病毒    |                              无                              |                            无                            | Z431 |
+| 2026/5/25 |         hxxps://www[.]apps-quark[.]com          |     仿冒夸克、传播病毒      | hxxps://gerhf[.]tos-cn-guangzhou[.]volces[.]com/QuarkPC_V6[.]7[.]2[.]809[.]zip |                            无                            | Z432 |
+| 2026/5/25 |        hxxps://www[.]gw-kuake[.]com[.]cn        |     仿冒夸克、传播病毒      | hxxps://vitallacerda[.]com/down[.]php/bcc801159ff8003bffbc63294f4af414[.]zip |                            无                            | Z433 |
+| 2026/5/25 |           hxxps://m-quark[.]com[.]cn            |     仿冒夸克、传播病毒      | hxxps://www[.]weurhgbakbvs-oss[.]top/Quark_2[.]1_x64_win[.]zip |                            无                            | Z434 |
+| 2026/5/26 |          hxxps://ai-feishu[.]com[.]cn           |     仿冒飞书、传播病毒      |                              无                              |                            无                            | Z435 |
 |  ——————   |              ————————————————————               |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
