@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 6 月 1 日 1:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 6 月 1 日 2:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 6 月 1 日，本中心已打击计算机病毒 / 恶意软件 1186 个、恶意网站 455 个，累计为潜在受害者规避经济损失约 5,040,500 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 6 月 1 日，本中心已打击计算机病毒 / 恶意软件 1187 个、恶意网站 460 个，累计为潜在受害者规避经济损失约 5,044,750 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;在对抗网络犯罪的崇高事业中，本中心仅承担了少量协调类工作。**恶意载荷从发现到清除，离不开国家有关部门、安全社区与研究员、杀毒软件厂商及威胁情报提供商的共同努力**。在此，谨向他们致以诚挚谢意。
 
@@ -87,7 +87,6 @@
 
 |   日期    |        文件名         |          检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :-------------------: | :---------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/5/28 |  AI软件操作系统.exe   |  **银狐 (SilverFox)**   | 7d9c7fabd525a058351c31fda2a8c34102afd2dc446500ecca9bd59d36bd8fa2 | 39cc0936-9a33-42c8-9679-0aafb5cca194 | [VirusTotal](https://www.virustotal.com/gui/file/7d9c7fabd525a058351c31fda2a8c34102afd2dc446500ecca9bd59d36bd8fa2) (10) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/7d9c7fabd525a058351c31fda2a8c34102afd2dc446500ecca9bd59d36bd8fa2) | 1167 |
 | 2026/5/29 | 1.chation_mscate..exe |     **Cybercrime**      | 480c184e69a19d4f3bb595324d618eead8f6fcc5176f1ebc5e44ee1389472503 | 6bd33e21-dbac-4b3d-8007-f727a0a466d2 | [VirusTotal](https://www.virustotal.com/gui/file/480c184e69a19d4f3bb595324d618eead8f6fcc5176f1ebc5e44ee1389472503) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/480c184e69a19d4f3bb595324d618eead8f6fcc5176f1ebc5e44ee1389472503) | 1168 |
 | 2026/5/29 | 05.28裁员名单···.exe  | **银狐 (SilverFox.bg)** | 88f7d22ed2494fb53d1806011173dd739f77bda9ff8d20f130b4bc5fdde761d7 | a448590d-74e2-4d0d-b57e-a47166a4f26d | [VirusTotal](https://www.virustotal.com/gui/file/88f7d22ed2494fb53d1806011173dd739f77bda9ff8d20f130b4bc5fdde761d7) (25) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/88f7d22ed2494fb53d1806011173dd739f77bda9ff8d20f130b4bc5fdde761d7) | 1169 |
 | 2026/5/29 |   Snipaste2250.exe    | **银狐 (SilverFox.sa)** | 2542374e811f8a5259a27eb68d83043157b599dc1fe24427fededf06f9240668 | 00d3d684-68fb-4fcd-8ab0-931cc4874ab1 | [VirusTotal](https://www.virustotal.com/gui/file/2542374e811f8a5259a27eb68d83043157b599dc1fe24427fededf06f9240668) (3) |                              无                              | 1170 |
@@ -107,6 +106,7 @@
 | 2026/5/31 |      k直登器.exe      |  **银狐 (SilverFox)**   | 97f9ee5981568817898cdc4a213e2c6efe019eae630e652b0eeb42195ccf6c4a | d3923820-9287-4743-8aea-3b6b8a9058c1 | [VirusTotal](https://www.virustotal.com/gui/file/97f9ee5981568817898cdc4a213e2c6efe019eae630e652b0eeb42195ccf6c4a) (8) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/97f9ee5981568817898cdc4a213e2c6efe019eae630e652b0eeb42195ccf6c4a) | 1184 |
 | 2026/5/31 |   zmh853563203.exe    | **银狐 (SilverFox.bm)** | 568bd1ff0cd7a3104929d78d9c4fcf97d6e49f71d86bba85ef69a1dbbf9ce319 | a57a21da-2b90-45f0-b786-b4add0c3f994 | [VirusTotal](https://www.virustotal.com/gui/file/568bd1ff0cd7a3104929d78d9c4fcf97d6e49f71d86bba85ef69a1dbbf9ce319) (21) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/568bd1ff0cd7a3104929d78d9c4fcf97d6e49f71d86bba85ef69a1dbbf9ce319) | 1185 |
 | 2026/5/31 |   kugou···20122.exe   |      **Backdoor**       | bc0cecade82c99924b4b0a12cb69446381291c1944123ac91b4ba8ca7617491f | 7c95e32a-eb4e-4a37-95d2-f9bea877f5d9 | [VirusTotal](https://www.virustotal.com/gui/file/bc0cecade82c99924b4b0a12cb69446381291c1944123ac91b4ba8ca7617491f) (4) |                              无                              | 1186 |
+| 2026/6/1  |   zky868643801.exe    | **银狐 (SilverFox.bm)** | 47ba76a5bcf954f1ee2b0eba4ad9b172d7934d8782e21ce0f3be78587bbe6f27 | 9ed0444e-7dbb-4623-9aad-b55c65d75a11 | [VirusTotal](https://www.virustotal.com/gui/file/47ba76a5bcf954f1ee2b0eba4ad9b172d7934d8782e21ce0f3be78587bbe6f27) (23) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/47ba76a5bcf954f1ee2b0eba4ad9b172d7934d8782e21ce0f3be78587bbe6f27) | 1187 |
 |  ——————   |     ————————————      |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -123,11 +123,6 @@
 
 |   日期    |                  URL                  |          类别           |                           有效载荷                           |  URLhaus   | 编号 |
 | :-------: | :-----------------------------------: | :---------------------: | :----------------------------------------------------------: | :--------: | :--: |
-| 2026/5/26 |        hxxps://web-feishu[.]cn        |   仿冒飞书、传播病毒    |                              无                              |     无     | Z436 |
-| 2026/5/26 |  hxxps://www[.]feifeishu[.]com[.]cn   |   仿冒飞书、传播病毒    |                              无                              |     无     | Z437 |
-| 2026/5/26 |  hxxps://1062web[.]cdn-feishu[.]com   |   仿冒飞书、传播病毒    | hxxps://www[.]weurhgbakbvs-oss[.]top/Feishu_v2[.]1_x64_win[.]zip |     无     | Z438 |
-| 2026/5/26 |      hxxps://e-feishu[.]com[.]cn      |   仿冒飞书、传播病毒    |                              无                              |     无     | Z439 |
-| 2026/5/26 |   hxxps://229web[.]cdn-feishu[.]com   |   仿冒飞书、传播病毒    | hxxps://opk-088[.]oss-cn-hongkong[.]aliyuncs[.]com/FEISHU98A19[.]zip |     无     | Z440 |
 | 2026/5/26 |     hxxps://d-feiishu[.]com[.]cn      |   仿冒飞书、传播病毒    | hxxps://windows-api[.]feishucnzh[.]it[.]com/fscndown/Feishu-win32_x64-7[.]67[.]9-signed[.]zip |     无     | Z441 |
 | 2026/5/28 |   hxxps://apps-doubaocn[.]com[.]cn    |   仿冒豆包、传播病毒    |       hxxps://apps-doubaocn[.]com[.]cn/der-btuq[.]zip        |     无     | Z442 |
 | 2026/5/30 |  hxxps://web-qishuimusic[.]com[.]cn   | 仿冒汽水音乐、传播病毒  |                              无                              |     无     | Z443 |
@@ -143,6 +138,11 @@
 | 2026/5/31 |  hxxps://www[.]kugouchat[.]com[.]cn   | 仿冒酷狗音乐、传播病毒  |                           同 Z452                            |     无     | Z453 |
 | 2026/5/31 |     hxxps://app-kugou[.]com[.]cn      | 仿冒酷狗音乐、传播病毒  | hxxps://vitallacerda[.]com/down[.]php/a002440a6d49264b4e174cef85ee79dc[.]zip |     无     | Z454 |
 | 2026/5/31 |   hxxps://www[.]kugoucvt[.]com[.]cn   | 仿冒酷狗音乐、传播病毒  |                           同 Z452                            |     无     | Z455 |
+| 2026/6/1  |     hxxps://music-kuwo[.]com[.]cn     | 仿冒酷我音乐、传播病毒  |                       有，载荷提取失败                       |     无     | Z456 |
+| 2026/6/1  |       hxxps://cn-kuwo[.]hl[.]cn       | 仿冒酷我音乐、传播病毒  |                       有，载荷提取失败                       |     无     | Z457 |
+| 2026/6/1  |        hxxps://kuwo-music[.]cn        | 仿冒酷我音乐、传播病毒  |                              无                              |     无     | Z458 |
+| 2026/6/1  |          hxxps://ku-wo[.]top          | 仿冒酷我音乐、传播病毒  |                              无                              |     无     | Z459 |
+| 2026/6/1  |       hxxps://dl[.]tpn2n[.]com        |      传播银狐病毒       |                       有，载荷提取失败                       |     无     | Z460 |
 |  ——————   |         ————————————————————          |     ———————————————     |                ——————————————————————————————                | —————————— | ———  |
 
 > [!NOTE]
@@ -159,7 +159,7 @@
 
 &emsp;&emsp;[安全响应中心 管理委员会](https://github.com/Lingggao/LGSRC/blob/main/Documents/Leadership.md)
 
-&emsp;&emsp;[银狐 IOC 情报合集 (VirusTotal)](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) - 实时更新，已收录 165 项情报 (文件、URL、域名、IP)
+&emsp;&emsp;[银狐 IOC 情报合集 (VirusTotal)](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) - 实时更新，已收录 170 项情报 (文件、URL、域名、IP)
 
 ---
 

@@ -445,6 +445,11 @@
 | 2026/5/25 |        hxxps://www[.]gw-kuake[.]com[.]cn        |     仿冒夸克、传播病毒      | hxxps://vitallacerda[.]com/down[.]php/bcc801159ff8003bffbc63294f4af414[.]zip |                            无                            | Z433 |
 | 2026/5/25 |           hxxps://m-quark[.]com[.]cn            |     仿冒夸克、传播病毒      | hxxps://www[.]weurhgbakbvs-oss[.]top/Quark_2[.]1_x64_win[.]zip |                            无                            | Z434 |
 | 2026/5/26 |          hxxps://ai-feishu[.]com[.]cn           |     仿冒飞书、传播病毒      |                              无                              |                            无                            | Z435 |
+| 2026/5/26 |             hxxps://web-feishu[.]cn             |     仿冒飞书、传播病毒      |                              无                              |                            无                            | Z436 |
+| 2026/5/26 |       hxxps://www[.]feifeishu[.]com[.]cn        |     仿冒飞书、传播病毒      |                              无                              |                            无                            | Z437 |
+| 2026/5/26 |       hxxps://1062web[.]cdn-feishu[.]com        |     仿冒飞书、传播病毒      | hxxps://www[.]weurhgbakbvs-oss[.]top/Feishu_v2[.]1_x64_win[.]zip |                            无                            | Z438 |
+| 2026/5/26 |           hxxps://e-feishu[.]com[.]cn           |     仿冒飞书、传播病毒      |                              无                              |                            无                            | Z439 |
+| 2026/5/26 |        hxxps://229web[.]cdn-feishu[.]com        |     仿冒飞书、传播病毒      | hxxps://opk-088[.]oss-cn-hongkong[.]aliyuncs[.]com/FEISHU98A19[.]zip |                            无                            | Z440 |
 |  ——————   |              ————————————————————               |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
