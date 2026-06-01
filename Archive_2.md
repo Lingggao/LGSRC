@@ -450,6 +450,9 @@
 | 2026/5/26 |       hxxps://1062web[.]cdn-feishu[.]com        |     仿冒飞书、传播病毒      | hxxps://www[.]weurhgbakbvs-oss[.]top/Feishu_v2[.]1_x64_win[.]zip |                            无                            | Z438 |
 | 2026/5/26 |           hxxps://e-feishu[.]com[.]cn           |     仿冒飞书、传播病毒      |                              无                              |                            无                            | Z439 |
 | 2026/5/26 |        hxxps://229web[.]cdn-feishu[.]com        |     仿冒飞书、传播病毒      | hxxps://opk-088[.]oss-cn-hongkong[.]aliyuncs[.]com/FEISHU98A19[.]zip |                            无                            | Z440 |
+| 2026/5/26 |          hxxps://d-feiishu[.]com[.]cn           |     仿冒飞书、传播病毒      | hxxps://windows-api[.]feishucnzh[.]it[.]com/fscndown/Feishu-win32_x64-7[.]67[.]9-signed[.]zip |                            无                            | Z441 |
+| 2026/5/28 |        hxxps://apps-doubaocn[.]com[.]cn         |     仿冒豆包、传播病毒      |       hxxps://apps-doubaocn[.]com[.]cn/der-btuq[.]zip        |                            无                            | Z442 |
+| 2026/5/30 |       hxxps://web-qishuimusic[.]com[.]cn        |   仿冒汽水音乐、传播病毒    |                              无                              |                            无                            | Z443 |
 |  ——————   |              ————————————————————               |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
