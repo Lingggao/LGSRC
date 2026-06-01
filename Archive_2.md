@@ -453,6 +453,11 @@
 | 2026/5/26 |          hxxps://d-feiishu[.]com[.]cn           |     仿冒飞书、传播病毒      | hxxps://windows-api[.]feishucnzh[.]it[.]com/fscndown/Feishu-win32_x64-7[.]67[.]9-signed[.]zip |                            无                            | Z441 |
 | 2026/5/28 |        hxxps://apps-doubaocn[.]com[.]cn         |     仿冒豆包、传播病毒      |       hxxps://apps-doubaocn[.]com[.]cn/der-btuq[.]zip        |                            无                            | Z442 |
 | 2026/5/30 |       hxxps://web-qishuimusic[.]com[.]cn        |   仿冒汽水音乐、传播病毒    |                              无                              |                            无                            | Z443 |
+| 2026/5/30 |      hxxps://www[.]gf-qishuiapp[.]com[.]cn      |   仿冒汽水音乐、传播病毒    | hxxps://vitallacerda[.]com/down[.]php/d0b694a7ac0039609f896b7cafce4b43[.]zip |                            无                            | Z444 |
+| 2026/5/30 |       hxxps://www[.]qipaomusic[.]com[.]cn       |   仿冒汽水音乐、传播病毒    |                              无                              |                            无                            | Z445 |
+| 2026/5/30 |          hxxps://www[.]cn-qishui[.]com          |   仿冒汽水音乐、传播病毒    | hxxps://www[.]eyyhjkksdhfajsk-oss[.]top/SodaMusic_3[.]2[.]2_Win_0527[.]zip |                            无                            | Z446 |
+| 2026/5/30 |          hxxps://qishui-wwp[.]com[.]cn          |   仿冒汽水音乐、传播病毒    |                       有，载荷提取失败                       |                            无                            | Z447 |
+| 2026/5/30 |           hxxps://telegrdm[.]com[.]cn           |   仿冒 Telegram、传播病毒   | hxxps://tsadlqw[.]oss-cn-hongkong[.]aliyuncs.com/tsetupw11-64[.]zip |                            无                            | Z448 |
 |  ——————   |              ————————————————————               |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
