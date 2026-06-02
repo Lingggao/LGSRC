@@ -464,6 +464,12 @@
 | 2026/5/31 |        hxxps://www[.]kugouyin[.]com[.]cn        |   仿冒酷狗音乐、传播病毒    | hxxps://kgfo[.]tos-cn-guangzhou[.]volces[.]com/kugou_release_20122_x64[.]zip |                            无                            | Z452 |
 | 2026/5/31 |       hxxps://www[.]kugouchat[.]com[.]cn        |   仿冒酷狗音乐、传播病毒    |                           同 Z452                            |                            无                            | Z453 |
 | 2026/5/31 |          hxxps://app-kugou[.]com[.]cn           |   仿冒酷狗音乐、传播病毒    | hxxps://vitallacerda[.]com/down[.]php/a002440a6d49264b4e174cef85ee79dc[.]zip |                            无                            | Z454 |
+| 2026/5/31 |        hxxps://www[.]kugoucvt[.]com[.]cn        |   仿冒酷狗音乐、传播病毒    |                           同 Z452                            |                            无                            | Z455 |
+| 2026/6/1  |          hxxps://music-kuwo[.]com[.]cn          |   仿冒酷我音乐、传播病毒    |                   hxxps://dl[.]tpn2n[.]com                   |                            无                            | Z456 |
+| 2026/6/1  |            hxxps://cn-kuwo[.]hl[.]cn            |   仿冒酷我音乐、传播病毒    |                           同 Z456                            |                            无                            | Z457 |
+| 2026/6/1  |             hxxps://kuwo-music[.]cn             |   仿冒酷我音乐、传播病毒    |                              无                              |                            无                            | Z458 |
+| 2026/6/1  |               hxxps://ku-wo[.]top               |   仿冒酷我音乐、传播病毒    |                              无                              |                            无                            | Z459 |
+| 2026/6/1  |            hxxps://dl[.]tpn2n[.]com             |        传播银狐病毒         |                       有，载荷提取失败                       |                            无                            | Z460 |
 |  ——————   |              ————————————————————               |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
