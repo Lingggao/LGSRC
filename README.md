@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 6 月 2 日 15:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 6 月 2 日 20:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 6 月 2 日，本中心已打击计算机病毒 / 恶意软件 1196 个、恶意网站 468 个，累计为潜在受害者规避经济损失约 5,083,000 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 6 月 2 日，本中心已打击计算机病毒 / 恶意软件 1199 个、恶意网站 474 个，累计为潜在受害者规避经济损失约 5,095,750 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;在对抗网络犯罪的崇高事业中，本中心仅承担了少量协调类工作。**恶意载荷从发现到清除，离不开国家有关部门、安全社区与研究员、杀毒软件厂商及威胁情报提供商的共同努力**。在此，谨向他们致以诚挚谢意。
 
@@ -87,9 +87,6 @@
 
 |   日期    |        文件名         |          检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :-------------------: | :---------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/5/30 | SodaMusic···0527.exe  | **银狐 (SilverFox.sa)** | 4e6c83bd4a81488bffb83ccf634d33e3ced693e1761bdbb2086ca1acba9c5f03 | 4003cb07-79b8-4a03-bde8-49b59f88b8b7 | [VirusTotal](https://www.virustotal.com/gui/file/4e6c83bd4a81488bffb83ccf634d33e3ced693e1761bdbb2086ca1acba9c5f03) (1) |                              无                              | 1177 |
-| 2026/5/30 |   zky868643801.exe    | **银狐 (SilverFox.bm)** | cd723423a557260337c5da110ac26d4ccf74b4fb518a70c15df7c6e211a39099 | 0e199fc7-8c9d-42b9-a683-a27fea298f05 | [VirusTotal](https://www.virustotal.com/gui/file/cd723423a557260337c5da110ac26d4ccf74b4fb518a70c15df7c6e211a39099) (20) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/cd723423a557260337c5da110ac26d4ccf74b4fb518a70c15df7c6e211a39099) | 1178 |
-| 2026/5/30 |      LetsVPN.exe      |  **银狐 (SilverFox)**   | 53db41479ce1b863820e4f5296185604e251f2b60d6102bd0defae8a1736e1e2 | 2d61b51a-7264-4d06-aa29-d2d1a3eb5c71 | [VirusTotal](https://www.virustotal.com/gui/file/53db41479ce1b863820e4f5296185604e251f2b60d6102bd0defae8a1736e1e2) (8) |                              无                              | 1179 |
 | 2026/5/30 |   tsetupw11-64.msi    |      **Shellcode**      | eb481df33605bdb63257f7a2cb69e48643c0807247d22acb88608b405f292d8c | b44c000d-d18e-438a-8577-46a7769c0bd0 | [VirusTotal](https://www.virustotal.com/gui/file/eb481df33605bdb63257f7a2cb69e48643c0807247d22acb88608b405f292d8c) (18) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/eb481df33605bdb63257f7a2cb69e48643c0807247d22acb88608b405f292d8c) | 1180 |
 | 2026/5/31 | Hfox_win_x64.15.2.exe |  **银狐 (SilverFox)**   | 03dae377cafa8389680e1e2ce23491859e947a951b27566310bc37dd669fe194 | 4393230d-2d53-4c00-ae69-641167f50720 | [VirusTotal](https://www.virustotal.com/gui/file/03dae377cafa8389680e1e2ce23491859e947a951b27566310bc37dd669fe194) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/03dae377cafa8389680e1e2ce23491859e947a951b27566310bc37dd669fe194) | 1181 |
 | 2026/5/31 |  BevySecurity···.exe  |  **银狐 (SilverFox)**   | 8d33791edb7a9744dba3df3b0b23435b495436a11aa72c7956599abbe56d1197 | 61ff04cb-eaf0-4c1f-989c-cd90ac9224da | [VirusTotal](https://www.virustotal.com/gui/file/8d33791edb7a9744dba3df3b0b23435b495436a11aa72c7956599abbe56d1197) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/8d33791edb7a9744dba3df3b0b23435b495436a11aa72c7956599abbe56d1197) | 1182 |
@@ -107,6 +104,9 @@
 | 2026/6/1  |  ijiasu_2.3.7.1.exe   |  **银狐 (SilverFox)**   | 8dc5ee431c79f86720964bdc289cdd0524b8c12f035ce5b7d3d55f9f29836bba | c2e7398a-ede9-46a3-bb2e-518ec6c13532 | [VirusTotal](https://www.virustotal.com/gui/file/8dc5ee431c79f86720964bdc289cdd0524b8c12f035ce5b7d3d55f9f29836bba) (7) |                              无                              | 1194 |
 | 2026/6/1  |   zmh853563201.exe    | **银狐 (SilverFox.bm)** | d56867554012ff1dbff99de2d1646f006db083396179f5128152eda36d598c7b | 06304dd9-7d00-4deb-81e3-44dc0fb65035 | [VirusTotal](https://www.virustotal.com/gui/file/d56867554012ff1dbff99de2d1646f006db083396179f5128152eda36d598c7b) (12) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/d56867554012ff1dbff99de2d1646f006db083396179f5128152eda36d598c7b) | 1195 |
 | 2026/6/2  |   zmh8535663201.exe   | **银狐 (SilverFox.bm)** | b5f90b716852ec3adf75f5f3c3ddba0172fd75a46892f986f9a1d60dbeb16ef9 | eff77d9a-c337-4708-a5b6-4a8ec4af0347 | [VirusTotal](https://www.virustotal.com/gui/file/b5f90b716852ec3adf75f5f3c3ddba0172fd75a46892f986f9a1d60dbeb16ef9) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b5f90b716852ec3adf75f5f3c3ddba0172fd75a46892f986f9a1d60dbeb16ef9) | 1196 |
+| 2026/6/2  |      wps_x64.exe      |        **Agent**        | c3c8565b0f25899432d14b4cbb7b2507341e10dcd2bc7140054a5b3b33fcf0b3 | 9598d23d-672c-446f-be7b-94241a41d5b6 | [VirusTotal](https://www.virustotal.com/gui/file/c3c8565b0f25899432d14b4cbb7b2507341e10dcd2bc7140054a5b3b33fcf0b3) (8) |                              无                              | 1197 |
+| 2026/6/2  |  95.41.4.54_253.exe   | **银狐 (SilverFox.bg)** | cc4aed185ff224de372d968457382222fe685cadd14934b26b349935da88e64a | 43372358-e833-4cee-88a0-b9fdd10e28ef | [VirusTotal](https://www.virustotal.com/gui/file/cc4aed185ff224de372d968457382222fe685cadd14934b26b349935da88e64a) (3) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/cc4aed185ff224de372d968457382222fe685cadd14934b26b349935da88e64a) | 1198 |
+| 2026/6/2  |  ···补偿方案WPS.exe   | **银狐 (SilverFox.bg)** | 08abc14f85c9a6da7a4333554446426d74f4841a10e18cfb21be901c4e416d3a | a87cd4b0-b9cd-4fb5-82b0-5ebf89e5540a | [VirusTotal](https://www.virustotal.com/gui/file/08abc14f85c9a6da7a4333554446426d74f4841a10e18cfb21be901c4e416d3a) (13) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/08abc14f85c9a6da7a4333554446426d74f4841a10e18cfb21be901c4e416d3a) | 1199 |
 |  ——————   |     ————————————      |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -121,29 +121,29 @@
 >
 > &emsp;为确保安全，网站地址将用 “hxxps://” 与 “[.]” 进行替换。**切勿尝试访问表格中列出的任何网址**。
 
-|   日期    |                  URL                   |           类别            |                           有效载荷                           |  URLhaus   | 编号 |
-| :-------: | :------------------------------------: | :-----------------------: | :----------------------------------------------------------: | :--------: | :--: |
-| 2026/5/31 |   hxxps://browser-firefox[.]com[.]cn   |  仿冒 Firefox、传播病毒   | hxxps://download-dowon-firefox[.]com[.]cn/donwnload/Hfox_win_x64[.]15[.]2[.]zip |     无     | Z449 |
-| 2026/5/31 |  hxxps://www[.]kugoumusic[.]com[.]cn   |  仿冒酷狗音乐、传播病毒   |                              无                              |     无     | Z450 |
-| 2026/5/31 |      hxxps://kg-kugou[.]com[.]cn       |  仿冒酷狗音乐、传播病毒   |                              无                              |     无     | Z451 |
-| 2026/5/31 |   hxxps://www[.]kugouyin[.]com[.]cn    |  仿冒酷狗音乐、传播病毒   | hxxps://kgfo[.]tos-cn-guangzhou[.]volces[.]com/kugou_release_20122_x64[.]zip |     无     | Z452 |
-| 2026/5/31 |   hxxps://www[.]kugouchat[.]com[.]cn   |  仿冒酷狗音乐、传播病毒   |                           同 Z452                            |     无     | Z453 |
-| 2026/5/31 |      hxxps://app-kugou[.]com[.]cn      |  仿冒酷狗音乐、传播病毒   | hxxps://vitallacerda[.]com/down[.]php/a002440a6d49264b4e174cef85ee79dc[.]zip |     无     | Z454 |
-| 2026/5/31 |   hxxps://www[.]kugoucvt[.]com[.]cn    |  仿冒酷狗音乐、传播病毒   |                           同 Z452                            |     无     | Z455 |
-| 2026/6/1  |     hxxps://music-kuwo[.]com[.]cn      |  仿冒酷我音乐、传播病毒   |                   hxxps://dl[.]tpn2n[.]com                   |     无     | Z456 |
-| 2026/6/1  |       hxxps://cn-kuwo[.]hl[.]cn        |  仿冒酷我音乐、传播病毒   |                           同 Z456                            |     无     | Z457 |
-| 2026/6/1  |        hxxps://kuwo-music[.]cn         |  仿冒酷我音乐、传播病毒   |                              无                              |     无     | Z458 |
-| 2026/6/1  |          hxxps://ku-wo[.]top           |  仿冒酷我音乐、传播病毒   |                              无                              |     无     | Z459 |
-| 2026/6/1  |        hxxps://dl[.]tpn2n[.]com        |       传播银狐病毒        |                       有，载荷提取失败                       |     无     | Z460 |
-| 2026/6/1  |     hxxps://chromee-360[.]com[.]cn     | 仿冒 360 浏览器、传播病毒 |                           同 Z456                            |     无     | Z461 |
-| 2026/6/1  | hxxps://www[.]cn-360browser[.]com[.]cn | 仿冒 360 浏览器、传播病毒 |                           同 Z456                            |     无     | Z462 |
-| 2026/6/1  |  hxxps://www[.]browser360[.]com[.]cn   | 仿冒 360 浏览器、传播病毒 |                           同 Z456                            |     无     | Z463 |
-| 2026/6/1  |     hxxps://huorong-bn[.]com[.]cn      |    仿冒火绒、传播病毒     |                              无                              |     无     | Z464 |
-| 2026/6/1  |        hxxps://huoronggk[.]com         |    仿冒火绒、传播病毒     |                              无                              |     无     | Z465 |
-| 2026/6/1  |     hxxps://huorong-rb[.]com[.]cn      |    仿冒火绒、传播病毒     |              hxxps://www[.]ewyu1404[.]com/nutyh              |     无     | Z466 |
-| 2026/6/1  |     hxxps://huorong-kt[.]com[.]cn      |    仿冒火绒、传播病毒     |                              无                              |     无     | Z467 |
-| 2026/6/1  |   hxxps://www[.]ewyu1404[.]com/nutyh   |       传播银狐病毒        |                       有，载荷提取失败                       |     无     | Z468 |
-|  ——————   |          ————————————————————          |      ———————————————      |                ——————————————————————————————                | —————————— | ———  |
+|   日期    |                      URL                       |           类别            |              有效载荷              |  URLhaus   | 编号 |
+| :-------: | :--------------------------------------------: | :-----------------------: | :--------------------------------: | :--------: | :--: |
+| 2026/5/31 |       hxxps://www[.]kugoucvt[.]com[.]cn        |  仿冒酷狗音乐、传播病毒   |              同 Z452               |     无     | Z455 |
+| 2026/6/1  |         hxxps://music-kuwo[.]com[.]cn          |  仿冒酷我音乐、传播病毒   |      hxxps://dl[.]tpn2n[.]com      |     无     | Z456 |
+| 2026/6/1  |           hxxps://cn-kuwo[.]hl[.]cn            |  仿冒酷我音乐、传播病毒   |              同 Z456               |     无     | Z457 |
+| 2026/6/1  |            hxxps://kuwo-music[.]cn             |  仿冒酷我音乐、传播病毒   |                 无                 |     无     | Z458 |
+| 2026/6/1  |              hxxps://ku-wo[.]top               |  仿冒酷我音乐、传播病毒   |                 无                 |     无     | Z459 |
+| 2026/6/1  |            hxxps://dl[.]tpn2n[.]com            |       传播银狐病毒        |          有，载荷提取失败          |     无     | Z460 |
+| 2026/6/1  |         hxxps://chromee-360[.]com[.]cn         | 仿冒 360 浏览器、传播病毒 |              同 Z456               |     无     | Z461 |
+| 2026/6/1  |     hxxps://www[.]cn-360browser[.]com[.]cn     | 仿冒 360 浏览器、传播病毒 |              同 Z456               |     无     | Z462 |
+| 2026/6/1  |      hxxps://www[.]browser360[.]com[.]cn       | 仿冒 360 浏览器、传播病毒 |              同 Z456               |     无     | Z463 |
+| 2026/6/1  |         hxxps://huorong-bn[.]com[.]cn          |    仿冒火绒、传播病毒     |                 无                 |     无     | Z464 |
+| 2026/6/1  |            hxxps://huoronggk[.]com             |    仿冒火绒、传播病毒     |                 无                 |     无     | Z465 |
+| 2026/6/1  |         hxxps://huorong-rb[.]com[.]cn          |    仿冒火绒、传播病毒     | hxxps://www[.]ewyu1404[.]com/nutyh |     无     | Z466 |
+| 2026/6/1  |         hxxps://huorong-kt[.]com[.]cn          |    仿冒火绒、传播病毒     |                 无                 |     无     | Z467 |
+| 2026/6/1  |       hxxps://www[.]ewyu1404[.]com/nutyh       |       传播银狐病毒        |          有，载荷提取失败          |     无     | Z468 |
+| 2026/6/2  |      hxxps://789web[.]wps-office-mb[.]com      |    仿冒 WPS、传播病毒     |          有，载荷提取失败          |     无     | Z469 |
+| 2026/6/2  |     hxxps://2309web[.]wps-office-mb[.]com      |    仿冒 WPS、传播病毒     |          有，载荷提取失败          |     无     | Z470 |
+| 2026/6/2  |          hxxps://zh-wps365[.]com[.]cn          |    仿冒 WPS、传播病毒     |                 无                 |     无     | Z471 |
+| 2026/6/2  |       hxxps://work[.]wps2026[.]com[.]cn        |    仿冒 WPS、传播病毒     |                 无                 |     无     | Z472 |
+| 2026/6/2  | hxxps://app[.]wps-wps-office-office[.]com[.]cn |    仿冒 WPS、传播病毒     |          有，载荷提取失败          |     无     | Z473 |
+| 2026/6/2  | hxxps://cn[.]wps-office-wps-office[.]com[.]cn  |    仿冒 WPS、传播病毒     |          有，载荷提取失败          |     无     | Z474 |
+|  ——————   |              ————————————————————              |      ———————————————      |   ——————————————————————————————   | —————————— | ———  |
 
 > [!NOTE]
 >
@@ -159,7 +159,7 @@
 
 &emsp;&emsp;[安全响应中心 管理委员会](https://github.com/Lingggao/LGSRC/blob/main/Documents/Leadership.md)
 
-&emsp;&emsp;[银狐 IOC 情报合集 (VirusTotal)](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) - 实时更新，已收录 196 项情报 (文件、URL、域名、IP)
+&emsp;&emsp;[银狐 IOC 情报合集 (VirusTotal)](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) - 实时更新，已收录 205 项情报 (文件、URL、域名、IP)
 
 ---
 
