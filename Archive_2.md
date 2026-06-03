@@ -475,6 +475,16 @@
 | 2026/6/1  |       hxxps://www[.]browser360[.]com[.]cn       |  仿冒 360 浏览器、传播病毒  |                           同 Z456                            |                            无                            | Z463 |
 | 2026/6/1  |          hxxps://huorong-bn[.]com[.]cn          |     仿冒火绒、传播病毒      |                              无                              |                            无                            | Z464 |
 | 2026/6/1  |             hxxps://huoronggk[.]com             |     仿冒火绒、传播病毒      |                              无                              |                            无                            | Z465 |
+| 2026/6/1  |          hxxps://huorong-rb[.]com[.]cn          |     仿冒火绒、传播病毒      |              hxxps://www[.]ewyu1404[.]com/nutyh              |                            无                            | Z466 |
+| 2026/6/1  |          hxxps://huorong-kt[.]com[.]cn          |     仿冒火绒、传播病毒      |                              无                              |                            无                            | Z467 |
+| 2026/6/1  |       hxxps://www[.]ewyu1404[.]com/nutyh        |        传播银狐病毒         |                       有，载荷提取失败                       |                            无                            | Z468 |
+| 2026/6/2  |      hxxps://789web[.]wps-office-mb[.]com       |     仿冒 WPS、传播病毒      |                       有，载荷提取失败                       |                            无                            | Z469 |
+| 2026/6/2  |      hxxps://2309web[.]wps-office-mb[.]com      |     仿冒 WPS、传播病毒      |                       有，载荷提取失败                       |                            无                            | Z470 |
+| 2026/6/2  |          hxxps://zh-wps365[.]com[.]cn           |     仿冒 WPS、传播病毒      |                              无                              |                            无                            | Z471 |
+| 2026/6/2  |        hxxps://work[.]wps2026[.]com[.]cn        |     仿冒 WPS、传播病毒      |                              无                              |                            无                            | Z472 |
+| 2026/6/2  | hxxps://app[.]wps-wps-office-office[.]com[.]cn  |     仿冒 WPS、传播病毒      |                       有，载荷提取失败                       |                            无                            | Z473 |
+| 2026/6/2  |  hxxps://cn[.]wps-office-wps-office[.]com[.]cn  |     仿冒 WPS、传播病毒      |                       有，载荷提取失败                       |                            无                            | Z474 |
+| 2026/6/2  |     hxxps://2260web[.]cdn-sogou[.]com[.]cn      |  仿冒搜狗输入法、传播病毒   | hxxps://alioss[.]cdn-go[.]com[.]cn/sogoupinyin_x64_v1[.]1_win[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3857798) | Z475 |
 |  ——————   |              ————————————————————               |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
