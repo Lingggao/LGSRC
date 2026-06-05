@@ -495,6 +495,12 @@
 | 2026/6/3  |         hxxps://huorong-safe[.]com[.]cn         |         **仿冒火绒**         |                              无                              |                            无                            | Z483 |
 | 2026/6/3  |          hxxps://huorong-c[.]com[.]cn           |    **仿冒火绒、传播病毒**    | hxxps://pub-2f77e97a4ac8400c85cf848f569df2cb[.]r2[.]dev/huorong31[.]zip |                            无                            | Z484 |
 | 2026/6/3  |          hxxps://huorong-mh[.]com[.]cn          |    **仿冒火绒、传播病毒**    | hxxps://pub-65e32b21a7b24261955e32d88f080f5f[.]r2[.]dev/huorong5[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3857932) | Z485 |
+| 2026/6/3  |           hxxps://www[.]teamsqs[.]com           |   **仿冒 Teams、传播病毒**   | hxxps://pub-95a14d2adf114a9197e294757bf8d7b7[.]r2[.]dev/tasdg5[.]16[.]3987ncvh[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3858057) | Z486 |
+| 2026/6/3  |          hxxps://feishu-app[.]hl[.]cn           |    **仿冒飞书、传播病毒**    |                   hxxps://dl[.]tpn2n[.]com                   |                            无                            | Z487 |
+| 2026/6/3  |           hxxps://w-feishu[.]com[.]cn           |    **仿冒飞书、传播病毒**    | hxxps://rrrttt023[.]tos-cn-beijing[.]volces[.]com/Feishu-win32_%C3%9764-7[.]67[.]5-signed[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3858058) | Z488 |
+| 2026/6/3  |       hxxps://2933web[.]cdn-feishu[.]com        |    **仿冒飞书、传播病毒**    | hxxps://alioss[.]cdn-go[.]com[.]cn/Feishu_v2[.]1_x64_win[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3858054) | Z489 |
+| 2026/6/3  |       hxxps://2985web[.]cdn-feishu[.]com        |    **仿冒飞书、传播病毒**    |                           同 Z489                            |                            无                            | Z490 |
+| 2026/6/3  |          hxxps://top-feishu[.]com[.]cn          |    **仿冒飞书、传播病毒**    | hxxps://fsxzz[.]oss-cn-hongkong[.]aliyuncs[.]com/fsfss264_down2[.]5[.]6[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3858055) | Z491 |
 |  ——————   |              ————————————————————               |       ———————————————        |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
