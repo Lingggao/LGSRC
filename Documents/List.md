@@ -22,15 +22,15 @@
 |    **Microsoft Teams (工作平台)**    |        **火绒安全软件**         |         **有道翻译**          |
 |      **OpenClaw (龙虾 Agent)**       |          **金山文档**           |                               |
 
-Excel 表格 (.xlsx) 详见 LGSRC/Documents/[List.xlsx](https://github.com/Lingggao/LGSRC/blob/main/Documents/List.xlsx)。
+Excel 表格 (.xlsx) 详见 LGSRC/Documents/[List.xlsx](https://github.com/Lingggao/LGSRC/blob/main/Documents/List.xlsx)
 
-已发现的恶意网站列表详见 LGSRC/[Archive_2.md](https://github.com/Lingggao/LGSRC/blob/main/Archive_2.md)。
+已发现的恶意网站列表详见 LGSRC/[Archive_2.md](https://github.com/Lingggao/LGSRC/blob/main/Archive_2.md)
 
 ---
 
-**注意事项**
+### 注意事项
 
-&emsp;&emsp;“银狐” 计算机病毒的攻击活动与电信诈骗联系密切，其长期以中国用户为攻击目标，具有变种速度快、隐蔽性强等特点。“银狐” 犯罪团伙的仿冒行为呈现出高度组织化、精准化及跟随热点的特征，猖獗程度远超一般黑色产业。其仿冒范围不仅覆盖从国民级软件到专业开发者工具的广泛生态，更紧跟 AI、智能体等新兴技术热点，利用用户对常用软件的信任实施攻击，个人用户和企业职工极易在毫无防备的情况下受害。
+&emsp;&emsp;“银狐” 计算机病毒的攻击活动与电信诈骗联系紧密，其长期以中国用户为攻击目标，具有变种速度快、隐蔽性强等特点。“银狐” 犯罪团伙的仿冒行为呈现出高度组织化、精准化及跟随热点的特征，猖獗程度远超一般黑色产业。其仿冒范围不仅覆盖从国民级软件到专业开发者工具的广泛生态，更紧跟 AI、智能体等新兴技术热点，利用用户对常用软件的信任实施攻击，个人用户和企业职工极易在毫无防备的情况下受害。
 
 &emsp;&emsp;**为有效防范 “银狐” 攻击，敬请注意以下事项**：
 
