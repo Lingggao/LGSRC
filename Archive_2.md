@@ -501,6 +501,13 @@
 | 2026/6/3  |       hxxps://2933web[.]cdn-feishu[.]com        |    **仿冒飞书、传播病毒**    | hxxps://alioss[.]cdn-go[.]com[.]cn/Feishu_v2[.]1_x64_win[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3858054) | Z489 |
 | 2026/6/3  |       hxxps://2985web[.]cdn-feishu[.]com        |    **仿冒飞书、传播病毒**    |                           同 Z489                            |                            无                            | Z490 |
 | 2026/6/3  |          hxxps://top-feishu[.]com[.]cn          |    **仿冒飞书、传播病毒**    | hxxps://fsxzz[.]oss-cn-hongkong[.]aliyuncs[.]com/fsfss264_down2[.]5[.]6[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3858055) | Z491 |
+| 2026/6/3  |        hxxps://736web[.]cdn-feishu[.]com        |    **仿冒飞书、传播病毒**    |                           同 Z489                            |                            无                            | Z492 |
+| 2026/6/3  |           hxxps://l-feishu[.]com[.]cn           |    **仿冒飞书、传播病毒**    |                       有，载荷提取失败                       |                            无                            | Z493 |
+| 2026/6/3  |          hxxps://cn-feishu[.]com[.]cn           |    **仿冒飞书、传播病毒**    |                       有，载荷提取失败                       |                            无                            | Z494 |
+| 2026/6/3  |           hxxps://e-feishu[.]com[.]cn           |    **仿冒飞书、传播病毒**    |                       有，载荷提取失败                       |                            无                            | Z495 |
+| 2026/6/6  |            hxxps://todisk[.]com[.]cn            |  **仿冒 ToDesk、传播病毒**   |                              无                              |                            无                            | Z496 |
+| 2026/6/6  |          hxxps://ks-todesk[.]com[.]cn           |  **仿冒 ToDesk、传播病毒**   |                              无                              |                            无                            | Z497 |
+| 2026/6/6  |          hxxps://pc-todeks[.]com[.]cn           |  **仿冒 ToDesk、传播病毒**   |                              无                              |                            无                            | Z498 |
 |  ——————   |              ————————————————————               |       ———————————————        |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
