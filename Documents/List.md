@@ -40,9 +40,9 @@ Excel 表格 (.xlsx) 详见 LGSRC/Documents/[List.xlsx](https://github.com/Lingg
 
 2. “银狐” 犯罪团伙制作的恶意仿冒网站，域名一般是在正规网站的合法域名中插入 “横杠 -” “zh” “cn” “com” “app” 等，有时会使用错误的拼音或增加无关的数字、字母。举几个例子：
 
-   - hxxps://**cn-**youdao[.]com[.]cn&emsp;&emsp;(仿冒有道翻译，使用 “-” 横杠、“cn” 进行伪装)
-   - hxxps://pinyin**-**sogou[.]com[.]cn&emsp;&emsp;(仿冒搜狗输入法，使用 “-” 横杠进行伪装)
-   - hxxps://doubao**-**app[.]cn&emsp;&emsp;(仿冒豆包 AI，使用 “-” 横杠进行伪装)
+   - hxxps://**cn\-**youdao[.]com[.]cn&emsp;&emsp;(仿冒有道翻译，使用 “-” 横杠、“cn” 进行伪装)
+   - hxxps://pinyin**\-**sogou[.]com[.]cn&emsp;&emsp;(仿冒搜狗输入法，使用 “-” 横杠进行伪装)
+   - hxxps://doubao**\-**app[.]cn&emsp;&emsp;(仿冒豆包 AI，使用 “-” 横杠进行伪装)
    - hxxps://todesk[.]**app**&emsp;&emsp;(仿冒 ToDesk，使用 “.app” 进行伪装)
    - hxxps://www[.]todesk**e**[.]com&emsp;&emsp;(仿冒 ToDesk，增加字母 “e” 进行伪装)
    - hxxps://**surui**fa-sogou[.]com[.]cn&emsp;&emsp;(仿冒搜狗输入法，使用错误的拼音 “surui” 进行伪装)
