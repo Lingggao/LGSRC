@@ -21,6 +21,7 @@
 |       **LINE (即时通讯软件)**        |       **飞书 (字节跳动)**       |          **易翻译**           |
 |    **Microsoft Teams (工作平台)**    |        **火绒安全软件**         |         **有道翻译**          |
 |      **OpenClaw (龙虾 Agent)**       |          **金山文档**           |                               |
+|           ————————————————           |        ————————————————         |       ————————————————        |
 
 Excel 表格 (.xlsx) 详见 LGSRC/Documents/[List.xlsx](https://github.com/Lingggao/LGSRC/blob/main/Documents/List.xlsx)
 
