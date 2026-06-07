@@ -65,8 +65,10 @@ Excel 表格 (.xlsx) 详见 LGSRC/Documents/[List.xlsx](https://github.com/Lingg
 
 ---
 
-作者：高楷修 (Ling Gao)
+作者：**高楷修** (Ling Gao)
 
 独立网络安全研究员，灵糕中心安全响应中心 (LGSRC) 主任
 
 2026 年 6 月 7 日
+
+[www.lgsrc.cn](https://www.lgsrc.cn)
