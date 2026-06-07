@@ -1,7 +1,7 @@
 <div align="center">
 <img src="https://github.com/Lingggao/LGSRC/blob/main/Images/LING_3.png?raw=true" width = "35%" />
 </div>
-<h2 align="center">常被 “银狐” 犯罪团伙仿冒的软件列表及注意事项</h2>
+<h1 align="center">常被 “银狐” 犯罪团伙仿冒的软件列表及注意事项</h1>
 
 &emsp;&emsp;现整理常被 “银狐” 黑色产业犯罪团伙恶意仿冒的软件列表 (按首字母顺序排列)，并附上防范恶意网站与 “银狐” 计算机病毒的注意事项，供大家参考。
 
@@ -68,3 +68,5 @@ Excel 表格 (.xlsx) 详见 LGSRC/Documents/[List.xlsx](https://github.com/Lingg
 作者：高楷修 (Ling Gao)
 
 独立网络安全研究员，灵糕中心安全响应中心 (LGSRC) 主任
+
+2026 年 6 月 7 日
