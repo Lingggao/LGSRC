@@ -508,6 +508,10 @@
 | 2026/6/6  |            hxxps://todisk[.]com[.]cn            |  **仿冒 ToDesk、传播病毒**   |                              无                              |                            无                            | Z496 |
 | 2026/6/6  |          hxxps://ks-todesk[.]com[.]cn           |  **仿冒 ToDesk、传播病毒**   |                              无                              |                            无                            | Z497 |
 | 2026/6/6  |          hxxps://pc-todeks[.]com[.]cn           |  **仿冒 ToDesk、传播病毒**   |                              无                              |                            无                            | Z498 |
+| 2026/6/6  |          hxxps://win-todesk[.]com[.]cn          |  **仿冒 ToDesk、传播病毒**   | hxxps://wwiiiss[.]oss-ap-northeast-1[.]aliyuncs[.]com/ToDsoerd-sreuir-x6[.]3[.]1[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3859552) | Z499 |
+| 2026/6/6  |            hxxps://to-desk[.]hl[.]cn            |  **仿冒 ToDesk、传播病毒**   |              hxxps://www[.]pekj1403[.]com/aianl              |                            无                            | Z500 |
+| 2026/6/6  |         hxxps://work-todesk[.]com[.]cn          |  **仿冒 ToDesk、传播病毒**   |                           同 Z500                            |                            无                            | Z501 |
+| 2026/6/6  |         hxxps://wins-todesk[.]com[.]cn          |  **仿冒 ToDesk、传播病毒**   |                           同 Z500                            |                            无                            | Z502 |
 |  ——————   |              ————————————————————               |       ———————————————        |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
