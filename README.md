@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 6 月 9 日 22:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 6 月 9 日 23:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 6 月 9 日，本中心已打击计算机病毒 / 恶意软件 1240 个、恶意网站 525 个，累计为潜在受害者规避经济损失约 5,270,000 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 6 月 9 日，本中心已打击计算机病毒 / 恶意软件 1241 个、恶意网站 525 个，累计为潜在受害者规避经济损失约 5,274,250 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;在对抗网络犯罪的崇高事业中，本中心仅承担了少量协调类工作。**恶意载荷从发现到清除，离不开国家有关部门、安全社区与研究员、杀毒软件厂商及威胁情报提供商的共同努力**。在此，谨向他们致以诚挚谢意。
 
@@ -87,7 +87,6 @@
 
 |   日期   |         文件名         |          检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :------: | :--------------------: | :---------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/6/5 |  tsetup-x64.6.7.5.exe  |  **银狐 (SilverFox)**   | b29f131d9bcc54b1bed5287c18ed3b8b0ac78933dca14c14a0eded4eb91df2db | 34601764-0058-4061-b20f-fd36482438bd | [VirusTotal](https://www.virustotal.com/gui/file/b29f131d9bcc54b1bed5287c18ed3b8b0ac78933dca14c14a0eded4eb91df2db) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b29f131d9bcc54b1bed5287c18ed3b8b0ac78933dca14c14a0eded4eb91df2db) | 1221 |
 | 2026/6/6 |  ainst86235862001.exe  | **银狐 (SilverFox.bm)** | aea879a0689d4f0510d63043570474978bf51013a2d5b5d9154ec1238d8b2da5 | 74a47243-227d-4bf5-9c2c-6a4cd2d5a482 | [VirusTotal](https://www.virustotal.com/gui/file/aea879a0689d4f0510d63043570474978bf51013a2d5b5d9154ec1238d8b2da5) (18) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/aea879a0689d4f0510d63043570474978bf51013a2d5b5d9154ec1238d8b2da5) | 1222 |
 | 2026/6/6 | ToDsoerd···x6.3.1.exe  |  **银狐 (SilverFox)**   | effb18e71a9c38c3d391cabd55e6d28a056c4b26a02f95f380622aee39c82639 | 189fb8e1-e217-4261-adfb-8cbfdfbff750 | [VirusTotal](https://www.virustotal.com/gui/file/effb18e71a9c38c3d391cabd55e6d28a056c4b26a02f95f380622aee39c82639) (27) |                              无                              | 1223 |
 | 2026/6/6 |      ludashi7.msi      |        **AGEN**         | 248299e11acb39df716bd289b087adf9cdf400892c40d2f728e50d0c6d636478 | a8c9c3b6-4721-4a47-bb97-76a25df57bb7 | [VirusTotal](https://www.virustotal.com/gui/file/248299e11acb39df716bd289b087adf9cdf400892c40d2f728e50d0c6d636478) (26) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/248299e11acb39df716bd289b087adf9cdf400892c40d2f728e50d0c6d636478) | 1224 |
@@ -107,6 +106,7 @@
 | 2026/6/9 |   DeepSeekV20.66.msi   |  **银狐 (SilverFox)**   | b8c268e22cd5bcb5f082b14354d3210aa6679f87c7dfc8255df00e57576474a9 | d262ed4f-2ba6-4980-a263-ceb80f69ed95 | [VirusTotal](https://www.virustotal.com/gui/file/b8c268e22cd5bcb5f082b14354d3210aa6679f87c7dfc8255df00e57576474a9) (18) |                              无                              | 1238 |
 | 2026/6/9 | BaiduNetdisk···103.exe | **银狐 (SilverFox.q)**  | ff1f5951d79e751c14aa0783f819f861f2e7f105b66bf485bef85874dac3b41f | 97f4836e-8f4b-4d5d-97ad-900796e8f308 | [VirusTotal](https://www.virustotal.com/gui/file/ff1f5951d79e751c14aa0783f819f861f2e7f105b66bf485bef85874dac3b41f) (7) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/ff1f5951d79e751c14aa0783f819f861f2e7f105b66bf485bef85874dac3b41f) | 1239 |
 | 2026/6/9 |   app_softwae···.exe   |  **银狐 (SilverFox)**   | a44ef560476c335ea77f28d688b1fe93d74382f1d9028651414785c76bdb4d1b | e3c15dfa-931a-446d-a3ee-80c0000700c4 | [VirusTotal](https://www.virustotal.com/gui/file/a44ef560476c335ea77f28d688b1fe93d74382f1d9028651414785c76bdb4d1b) (14) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a44ef560476c335ea77f28d688b1fe93d74382f1d9028651414785c76bdb4d1b) | 1240 |
+| 2026/6/9 | 紧急通知_WIFI故障.exe  |       **Vshell**        | 8bba3591bb69083020f7a1f630c8a4105cbf10d71b9f6c97c4df29740501457f | 633898d7-ac8b-45b5-9256-356e9e50e63a | [VirusTotal](https://www.virustotal.com/gui/file/8bba3591bb69083020f7a1f630c8a4105cbf10d71b9f6c97c4df29740501457f) (10) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/8bba3591bb69083020f7a1f630c8a4105cbf10d71b9f6c97c4df29740501457f) | 1241 |
 |  ——————  |      ————————————      |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
