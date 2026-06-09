@@ -46,7 +46,7 @@
 
 ## 工作流程
 
-<img src="Images/Workflow.png" width = "100%" />
+<img src="Images/Workflow_2.png" width = "100%" />
 
 **一、工作流程概述**
 
@@ -69,7 +69,7 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 6 月 9 日 8:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 6 月 9 日 17:00 (GMT+8)
 
 &emsp;&emsp;**截至 2026 年 6 月 9 日，本中心已打击计算机病毒 / 恶意软件 1238 个、恶意网站 525 个，累计为潜在受害者规避经济损失约 5,261,500 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
