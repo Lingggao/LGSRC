@@ -46,7 +46,7 @@
 
 ## 工作流程
 
-<img src="Images/Workflow_2.png" width = "100%" />
+<img src="Images/Workflow_3.png" width = "100%" />
 
 **一、工作流程概述**
 
