@@ -515,6 +515,9 @@
 | 2026/6/6  |          hxxps://kb-todesk[.]com[.]cn           |  **仿冒 ToDesk、传播病毒**   |                              无                              |                            无                            | Z503 |
 | 2026/6/6  |          hxxps://coo-todesk[.]com[.]cn          |  **仿冒 ToDesk、传播病毒**   |                           同 Z500                            |                            无                            | Z504 |
 | 2026/6/6  |       hxxps://www[.]pekj1403[.]com/aianl        |       **传播银狐病毒**       |                       有，载荷提取失败                       | [URLhaus Database](https://urlhaus.abuse.ch/url/3859550) | Z505 |
+| 2026/6/6  |       hxxps://www[.]ludashi-cn[.]com[.]cn       |   **仿冒鲁大师、传播病毒**   |                   hxxps://dl[.]tpn2n[.]com                   |                            无                            | Z506 |
+| 2026/6/6  |          hxxps://ludashi-zn[.]com[.]cn          |   **仿冒鲁大师、传播病毒**   |              hxxps://www[.]pekj1403[.]com/vovtc              |                            无                            | Z507 |
+| 2026/6/6  |             hxxps://ludashicom[.]cn             |        **仿冒鲁大师**        |                              无                              |                            无                            | Z508 |
 |  ——————   |              ————————————————————               |       ———————————————        |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
