@@ -529,6 +529,7 @@
 | 2026/6/8  |           hxxps://deeplcn[.]org[.]cn            |      **仿冒 DeepL 翻译**      |                              无                              |                            无                            | Z517 |
 | 2026/6/8  |           hxxps://ks-deepl[.]com[.]cn           |      **仿冒 DeepL 翻译**      |                              无                              |                            无                            | Z518 |
 | 2026/6/8  |          hxxps://dou-doubao[.]com[.]cn          |   **仿冒豆包 AI、传播病毒**   |              hxxps://www[.]rywh1405[.]com/ugfsa              |                            无                            | Z519 |
+| 2026/6/8  |          hxxps://cm-doubao[.]com[.]cn           |   **仿冒豆包 AI、传播病毒**   |              hxxps://www[.]rywh1405[.]com/snaxh              |                            无                            | Z520 |
 |  ——————   |              ————————————————————               |        ———————————————        |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
