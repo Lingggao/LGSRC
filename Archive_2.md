@@ -518,6 +518,9 @@
 | 2026/6/6  |       hxxps://www[.]ludashi-cn[.]com[.]cn       |   **仿冒鲁大师、传播病毒**   |                   hxxps://dl[.]tpn2n[.]com                   |                            无                            | Z506 |
 | 2026/6/6  |          hxxps://ludashi-zn[.]com[.]cn          |   **仿冒鲁大师、传播病毒**   |              hxxps://www[.]pekj1403[.]com/vovtc              |                            无                            | Z507 |
 | 2026/6/6  |             hxxps://ludashicom[.]cn             |        **仿冒鲁大师**        |                              无                              |                            无                            | Z508 |
+| 2026/6/6  |          hxxps://ludashi-c[.]com[.]cn           |   **仿冒鲁大师、传播病毒**   | hxxps://pub-334a6be7ee8b454c80d466d86642d2f1[.]r2[.]dev/ludashi7[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3859551) | Z509 |
+| 2026/6/6  |          hxxps://ludashi-hk[.]com[.]cn          |   **仿冒鲁大师、传播病毒**   |                           同 Z507                            |                            无                            | Z510 |
+| 2026/6/6  |       hxxps://www[.]pekj1403[.]com/vovtc        |       **传播银狐病毒**       |                       有，载荷提取失败                       |                            无                            | Z511 |
 |  ——————   |              ————————————————————               |       ———————————————        |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
