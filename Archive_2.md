@@ -545,6 +545,14 @@
 | 2026/6/13 |        hxxps://www[.]shimo-im[.]com[.]cn        |       **仿冒石墨文档**        |                              无                              |                            无                            | Z533 |
 | 2026/6/13 |       hxxps://www[.]shimo-doc[.]com[.]cn        |       **仿冒石墨文档**        |                              无                              |                            无                            | Z534 |
 | 2026/6/13 |        hxxps://www[.]zh-shimo[.]com[.]cn        |  **仿冒石墨文档、传播病毒**   |                   hxxps://dl[.]tpn2n[.]com                   |                            无                            | Z535 |
+| 2026/6/13 |          hxxps://app-shimo[.]com[.]cn           |  **仿冒石墨文档、传播病毒**   |           hxxps://www[.]wqpgfq1wuj[.]com/down6622            |                            无                            | Z536 |
+| 2026/6/13 |           hxxps://shimo-pc[.]com[.]cn           |  **仿冒石墨文档、传播病毒**   |                           同 Z540                            |                            无                            | Z537 |
+| 2026/6/13 |          hxxps://apps-shimo[.]com[.]cn          |  **仿冒石墨文档、传播病毒**   |                           同 Z537                            |                            无                            | Z538 |
+| 2026/6/13 |     hxxps://www[.]wqpgfq1wuj[.]com/down6622     |       **传播银狐病毒**        |                       有，载荷提取失败                       |                            无                            | Z539 |
+| 2026/6/13 |          hxxps://cn-dintalk[.]com[.]cn          |    **仿冒钉钉、传播病毒**     | hxxps://download-dingg-ding-com[.]com[.]cn/donwnload/dingTtalkx64_down[.]zip |                            无                            | Z540 |
+| 2026/6/13 |        hxxps://yunbiji-youdao[.]com[.]cn        | **仿冒有道云笔记、传播病毒**  | hxxps://alioss[.]cdn-go[.]com[.]cn/youdao_1[.]1_x64_win[.]zip |                            无                            | Z541 |
+| 2026/6/13 |         hxxps://cn-youdao-app[.]hl[.]cn         | **仿冒有道云笔记、传播病毒**  |                   hxxps://dl[.]tpn2n[.]com                   |                            无                            | Z542 |
+| 2026/6/13 |     hxxps://www[.]cn-youdao-app[.]com[.]cn      | **仿冒有道云笔记、传播病毒**  |                           同 Z542                            |                            无                            | Z543 |
 |  ——————   |              ————————————————————               |        ———————————————        |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
