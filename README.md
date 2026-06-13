@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 6 月 13 日 23:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 6 月 14 日 1:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 6 月 13 日，本中心已打击计算机病毒 / 恶意软件 1262 个、恶意网站 543 个，累计为潜在受害者规避经济损失约 5,363,500 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 6 月 14 日，本中心已打击计算机病毒 / 恶意软件 1263 个、恶意网站 546 个，累计为潜在受害者规避经济损失约 5,367,750 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;在对抗网络犯罪的崇高事业中，本中心仅承担了少量协调类工作。**恶意载荷从发现到清除，离不开国家有关部门、安全社区与研究员、杀毒软件厂商及威胁情报提供商的共同努力**。在此，谨向他们致以诚挚谢意。
 
@@ -87,7 +87,6 @@
 
 |   日期    |         文件名         |           检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :--------------------: | :----------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/6/10 |  DingdTalk···1240.exe  | **银狐 (SilverFox.bg)**  | 032e1d550d78270eca2815941833c288d09dcbbfb9e8360d30971d5ee013f509 | f69561ee-dee2-4492-8fa6-549631599c82 | [VirusTotal](https://www.virustotal.com/gui/file/032e1d550d78270eca2815941833c288d09dcbbfb9e8360d30971d5ee013f509) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/032e1d550d78270eca2815941833c288d09dcbbfb9e8360d30971d5ee013f509) | 1243 |
 | 2026/6/10 |       PopAd.exe        |   **银狐 (SilverFox)**   | 96f9426b834c812bc953e2cd836d83d1b523d2ff0bcbe812306b80b8234a73c6 | 6b801738-3736-4a4b-93b2-f9f89d7cb211 | [VirusTotal](https://www.virustotal.com/gui/file/96f9426b834c812bc953e2cd836d83d1b523d2ff0bcbe812306b80b8234a73c6) (2) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/96f9426b834c812bc953e2cd836d83d1b523d2ff0bcbe812306b80b8234a73c6) | 1244 |
 | 2026/6/10 |       System.exe       |   **银狐 (SilverFox)**   | 3fa581165b093432e500c6b1c7c09a37a8accd256bbb6382c5dd542866886a98 | 8a07af7d-2413-41a8-81dd-4b74c3b50cd1 | [VirusTotal](https://www.virustotal.com/gui/file/3fa581165b093432e500c6b1c7c09a37a8accd256bbb6382c5dd542866886a98) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/3fa581165b093432e500c6b1c7c09a37a8accd256bbb6382c5dd542866886a98) | 1245 |
 | 2026/6/10 | TencentMeeting···.exe  | **银狐 (SilverFox.sa)**  | dbf418de2f91dd227f9bb4fc7ffb8bb882729037ecb101518f87fd622f227268 | 86750b3a-acff-4435-8809-88c8f5ab6964 | [VirusTotal](https://www.virustotal.com/gui/file/dbf418de2f91dd227f9bb4fc7ffb8bb882729037ecb101518f87fd622f227268) (19) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/dbf418de2f91dd227f9bb4fc7ffb8bb882729037ecb101518f87fd622f227268) | 1246 |
@@ -107,6 +106,7 @@
 | 2026/6/13 | dingtalk_download.exe  |   **银狐 (SilverFox)**   | af71d8886f256bf2393b1bf6d44b2fcb50d7d546e49bb7b6fbe151a3cf2032f5 | a1c1fb0c-df9c-4063-b73f-8ccd65563145 | [VirusTotal](https://www.virustotal.com/gui/file/af71d8886f256bf2393b1bf6d44b2fcb50d7d546e49bb7b6fbe151a3cf2032f5) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/af71d8886f256bf2393b1bf6d44b2fcb50d7d546e49bb7b6fbe151a3cf2032f5) | 1260 |
 | 2026/6/13 |   zgent63392010.exe    | **银狐 (SilverFox.bm)**  | 542ed599e59e79c0cc6d6add506b993f00b0bd818bc4d4efb86cf0a4d32a4417 | bba5869e-6c05-49b1-94b0-6504070bdec8 | [VirusTotal](https://www.virustotal.com/gui/file/542ed599e59e79c0cc6d6add506b993f00b0bd818bc4d4efb86cf0a4d32a4417) (23) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/542ed599e59e79c0cc6d6add506b993f00b0bd818bc4d4efb86cf0a4d32a4417) | 1261 |
 | 2026/6/13 |   TeamViewer···.msi    |   **银狐 (SilverFox)**   | b795a55ef344eb43ff15bb8e5d929f71078f3fd548d050b5b0350c12991454e6 | e46aa751-319f-4a8c-97b3-850ecf7ef98f | [VirusTotal](https://www.virustotal.com/gui/file/b795a55ef344eb43ff15bb8e5d929f71078f3fd548d050b5b0350c12991454e6) (9) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b795a55ef344eb43ff15bb8e5d929f71078f3fd548d050b5b0350c12991454e6) | 1262 |
+| 2026/6/14 |   agent63392013.exe    | **银狐 (SilverFox.bm)**  | 88043d66ca29d6b33a24eae0484ae347d66cc9333c65de2b3cf7d960412766ad | 0566a5e1-5401-48c5-b646-ddb2ac15ca9b | [VirusTotal](https://www.virustotal.com/gui/file/88043d66ca29d6b33a24eae0484ae347d66cc9333c65de2b3cf7d960412766ad) (23) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/88043d66ca29d6b33a24eae0484ae347d66cc9333c65de2b3cf7d960412766ad) | 1263 |
 |  ——————   |      ————————————      |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -123,9 +123,6 @@
 
 |   日期    |                   URL                   |             类别             |                           有效载荷                           |  URLhaus   | 编号 |
 | :-------: | :-------------------------------------: | :--------------------------: | :----------------------------------------------------------: | :--------: | :--: |
-| 2026/6/9  |      hxxps://ai[.]deepseekem[.]com      | **仿冒 DeepSeek、传播病毒**  |                           同 Z523                            |     无     | Z524 |
-| 2026/6/9  |     hxxps://cn-deepseek[.]com[.]cn      |      **仿冒 DeepSeek**       |                              无                              |     无     | Z525 |
-| 2026/6/11 |   hxxps://www[.]index-wps[.]com[.]cn    |    **仿冒 WPS、传播病毒**    |  hxxps://www[.]index-wps[.]com[.]cn/xz/wpsosxcsetuppP[.]zip  |     无     | Z526 |
 | 2026/6/11 |     hxxps://www[.]wpsws[.]com[.]cn      |    **仿冒 WPS、传播病毒**    | hxxps://download[.]xu619[.]top/wps_wid[.]cid-457274487_patched[.]zip |     无     | Z527 |
 | 2026/6/11 |    hxxps://www[.]intl-wps[.]com[.]cn    |         **仿冒 WPS**         |                              无                              |     无     | Z528 |
 | 2026/6/13 |      hxxps://zh-browser[.]hl[.]cn       | **仿冒 QQ 浏览器、传播病毒** |                   hxxps://dl[.]tpn2n[.]com                   |     无     | Z529 |
@@ -143,6 +140,9 @@
 | 2026/6/13 |    hxxps://yunbiji-youdao[.]com[.]cn    | **仿冒有道云笔记、传播病毒** | hxxps://alioss[.]cdn-go[.]com[.]cn/youdao_1[.]1_x64_win[.]zip |     无     | Z541 |
 | 2026/6/13 |     hxxps://cn-youdao-app[.]hl[.]cn     | **仿冒有道云笔记、传播病毒** |                   hxxps://dl[.]tpn2n[.]com                   |     无     | Z542 |
 | 2026/6/13 | hxxps://www[.]cn-youdao-app[.]com[.]cn  | **仿冒有道云笔记、传播病毒** |                           同 Z542                            |     无     | Z543 |
+| 2026/6/14 |   hxxps://www[.]xmind-app[.]com[.]cn    |   **仿冒 Xmind、传播病毒**   |                           同 Z542                            |     无     | Z544 |
+| 2026/6/14 |    hxxps://www[.]xmind-zh[.]com[.]cn    |   **仿冒 Xmind、传播病毒**   |                           同 Z542                            |     无     | Z545 |
+| 2026/6/14 |       hxxps://ai-xmind[.]com[.]cn       |   **仿冒 Xmind、传播病毒**   |                           同 Z542                            |     无     | Z546 |
 |  ——————   |          ————————————————————           |       ———————————————        |                ——————————————————————————————                | —————————— | ———  |
 
 > [!NOTE]
@@ -161,7 +161,7 @@
 
 &emsp;&emsp;[《常被 “银狐” 犯罪团伙仿冒的软件列表及注意事项》](https://github.com/Lingggao/LGSRC/blob/main/Documents/List.md)
 
-&emsp;&emsp;[银狐 IOC 情报合集 (VirusTotal)](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) - 实时更新，已收录 389 项情报 (文件、URL、域名、IP)
+&emsp;&emsp;[银狐 IOC 情报合集 (VirusTotal)](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) - 实时更新，已收录 393 项情报 (文件、URL、域名、IP)
 
 ---
 
