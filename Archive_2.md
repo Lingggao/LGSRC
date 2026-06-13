@@ -530,6 +530,9 @@
 | 2026/6/8  |           hxxps://ks-deepl[.]com[.]cn           |      **仿冒 DeepL 翻译**      |                              无                              |                            无                            | Z518 |
 | 2026/6/8  |          hxxps://dou-doubao[.]com[.]cn          |   **仿冒豆包 AI、传播病毒**   |              hxxps://www[.]rywh1405[.]com/ugfsa              |                            无                            | Z519 |
 | 2026/6/8  |          hxxps://cm-doubao[.]com[.]cn           |   **仿冒豆包 AI、传播病毒**   |              hxxps://www[.]rywh1405[.]com/snaxh              |                            无                            | Z520 |
+| 2026/6/8  |       hxxps://www[.]rywh1405[.]com/ugfsa        |       **传播银狐病毒**        |                       有，载荷提取失败                       | [URLhaus Database](https://urlhaus.abuse.ch/url/3861069) | Z521 |
+| 2026/6/8  |       hxxps://www[.]rywh1405[.]com/snaxh        |       **传播银狐病毒**        |                       有，载荷提取失败                       | [URLhaus Database](https://urlhaus.abuse.ch/url/3861068) | Z522 |
+| 2026/6/9  |            hxxps://deepseek-go[.]com            |  **仿冒 DeepSeek、传播病毒**  |      hxxps://dows[.]szeom[.]com/DeepSeekV20[.]66[.]zip       |                            无                            | Z523 |
 |  ——————   |              ————————————————————               |        ———————————————        |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---

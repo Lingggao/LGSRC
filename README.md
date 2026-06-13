@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 6 月 13 日 8:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 6 月 13 日 20:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 6 月 13 日，本中心已打击计算机病毒 / 恶意软件 1260 个、恶意网站 540 个，累计为潜在受害者规避经济损失约 5,355,000 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 6 月 13 日，本中心已打击计算机病毒 / 恶意软件 1261 个、恶意网站 543 个，累计为潜在受害者规避经济损失约 5,359,250 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;在对抗网络犯罪的崇高事业中，本中心仅承担了少量协调类工作。**恶意载荷从发现到清除，离不开国家有关部门、安全社区与研究员、杀毒软件厂商及威胁情报提供商的共同努力**。在此，谨向他们致以诚挚谢意。
 
@@ -87,7 +87,6 @@
 
 |   日期    |         文件名         |           检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :--------------------: | :----------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/6/9  | 紧急通知_WIFI故障.exe  |        **Vshell**        | 8bba3591bb69083020f7a1f630c8a4105cbf10d71b9f6c97c4df29740501457f | 633898d7-ac8b-45b5-9256-356e9e50e63a | [VirusTotal](https://www.virustotal.com/gui/file/8bba3591bb69083020f7a1f630c8a4105cbf10d71b9f6c97c4df29740501457f) (10) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/8bba3591bb69083020f7a1f630c8a4105cbf10d71b9f6c97c4df29740501457f) | 1241 |
 | 2026/6/10 |         1.exe          |      **Cybercrime**      | cb138982d5e7ea3917370d11adce32311761fd431d10a5c2cbd24f8b6c76cdba | ce3aadfe-614f-4623-8cd0-c848d8eff1ef | [VirusTotal](https://www.virustotal.com/gui/file/cb138982d5e7ea3917370d11adce32311761fd431d10a5c2cbd24f8b6c76cdba) (10) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/cb138982d5e7ea3917370d11adce32311761fd431d10a5c2cbd24f8b6c76cdba) | 1242 |
 | 2026/6/10 |  DingdTalk···1240.exe  | **银狐 (SilverFox.bg)**  | 032e1d550d78270eca2815941833c288d09dcbbfb9e8360d30971d5ee013f509 | f69561ee-dee2-4492-8fa6-549631599c82 | [VirusTotal](https://www.virustotal.com/gui/file/032e1d550d78270eca2815941833c288d09dcbbfb9e8360d30971d5ee013f509) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/032e1d550d78270eca2815941833c288d09dcbbfb9e8360d30971d5ee013f509) | 1243 |
 | 2026/6/10 |       PopAd.exe        |   **银狐 (SilverFox)**   | 96f9426b834c812bc953e2cd836d83d1b523d2ff0bcbe812306b80b8234a73c6 | 6b801738-3736-4a4b-93b2-f9f89d7cb211 | [VirusTotal](https://www.virustotal.com/gui/file/96f9426b834c812bc953e2cd836d83d1b523d2ff0bcbe812306b80b8234a73c6) (2) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/96f9426b834c812bc953e2cd836d83d1b523d2ff0bcbe812306b80b8234a73c6) | 1244 |
@@ -107,6 +106,7 @@
 | 2026/6/13 | a_instapp83356008.exe  | **银狐 (SilverFox.bm)**  | e20b42091753d09fe648892e8af6a432764a75def9638413b05a3a26adc1d089 | 979c6a9f-b6f6-44c5-a456-3f3f812aadef | [VirusTotal](https://www.virustotal.com/gui/file/e20b42091753d09fe648892e8af6a432764a75def9638413b05a3a26adc1d089) (24) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/e20b42091753d09fe648892e8af6a432764a75def9638413b05a3a26adc1d089) | 1258 |
 | 2026/6/13 | a_instapp83356013.exe  | **银狐 (SilverFox.bm)**  | 6ab5299316714d117c464d4707d5dfc33a8bf0aa0488b0ee240d2d152e96bf6f | 15c99176-9806-412c-81b9-52cebad0d224 | [VirusTotal](https://www.virustotal.com/gui/file/6ab5299316714d117c464d4707d5dfc33a8bf0aa0488b0ee240d2d152e96bf6f) (24) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/6ab5299316714d117c464d4707d5dfc33a8bf0aa0488b0ee240d2d152e96bf6f) | 1259 |
 | 2026/6/13 | dingtalk_download.exe  |   **银狐 (SilverFox)**   | af71d8886f256bf2393b1bf6d44b2fcb50d7d546e49bb7b6fbe151a3cf2032f5 | a1c1fb0c-df9c-4063-b73f-8ccd65563145 | [VirusTotal](https://www.virustotal.com/gui/file/af71d8886f256bf2393b1bf6d44b2fcb50d7d546e49bb7b6fbe151a3cf2032f5) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/af71d8886f256bf2393b1bf6d44b2fcb50d7d546e49bb7b6fbe151a3cf2032f5) | 1260 |
+| 2026/6/13 |   zgent63392010.exe    | **银狐 (SilverFox.bm)**  | 542ed599e59e79c0cc6d6add506b993f00b0bd818bc4d4efb86cf0a4d32a4417 | bba5869e-6c05-49b1-94b0-6504070bdec8 | [VirusTotal](https://www.virustotal.com/gui/file/542ed599e59e79c0cc6d6add506b993f00b0bd818bc4d4efb86cf0a4d32a4417) (23) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/542ed599e59e79c0cc6d6add506b993f00b0bd818bc4d4efb86cf0a4d32a4417) | 1261 |
 |  ——————   |      ————————————      |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -121,29 +121,29 @@
 >
 > &emsp;为确保安全，网站地址将用 “hxxps://” 与 “[.]” 进行替换。**切勿尝试访问表格中列出的任何网址**。
 
-|   日期    |                   URL                   |             类别             |                           有效载荷                           |                         URLhaus                          | 编号 |
-| :-------: | :-------------------------------------: | :--------------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
-| 2026/6/8  |   hxxps://www[.]rywh1405[.]com/ugfsa    |       **传播银狐病毒**       |                       有，载荷提取失败                       | [URLhaus Database](https://urlhaus.abuse.ch/url/3861069) | Z521 |
-| 2026/6/8  |   hxxps://www[.]rywh1405[.]com/snaxh    |       **传播银狐病毒**       |                       有，载荷提取失败                       | [URLhaus Database](https://urlhaus.abuse.ch/url/3861068) | Z522 |
-| 2026/6/9  |        hxxps://deepseek-go[.]com        | **仿冒 DeepSeek、传播病毒**  |      hxxps://dows[.]szeom[.]com/DeepSeekV20[.]66[.]zip       |                            无                            | Z523 |
-| 2026/6/9  |      hxxps://ai[.]deepseekem[.]com      | **仿冒 DeepSeek、传播病毒**  |                           同 Z523                            |                            无                            | Z524 |
-| 2026/6/9  |     hxxps://cn-deepseek[.]com[.]cn      |      **仿冒 DeepSeek**       |                              无                              |                            无                            | Z525 |
-| 2026/6/11 |   hxxps://www[.]index-wps[.]com[.]cn    |    **仿冒 WPS、传播病毒**    |  hxxps://www[.]index-wps[.]com[.]cn/xz/wpsosxcsetuppP[.]zip  |                            无                            | Z526 |
-| 2026/6/11 |     hxxps://www[.]wpsws[.]com[.]cn      |    **仿冒 WPS、传播病毒**    | hxxps://download[.]xu619[.]top/wps_wid[.]cid-457274487_patched[.]zip |                            无                            | Z527 |
-| 2026/6/11 |    hxxps://www[.]intl-wps[.]com[.]cn    |         **仿冒 WPS**         |                              无                              |                            无                            | Z528 |
-| 2026/6/13 |      hxxps://zh-browser[.]hl[.]cn       | **仿冒 QQ 浏览器、传播病毒** |                   hxxps://dl[.]tpn2n[.]com                   |                            无                            | Z529 |
-| 2026/6/13 |     hxxps://browser-qq-cn[.]hl[.]cn     | **仿冒 QQ 浏览器、传播病毒** |                           同 Z529                            |                            无                            | Z530 |
-| 2026/6/13 |         hxxps://browser-qq[.]cn         |      **仿冒 QQ 浏览器**      |                              无                              |                            无                            | Z531 |
-| 2026/6/13 |     hxxps://shimowen-cn[.]com[.]cn      |       **仿冒石墨文档**       |                              无                              |                            无                            | Z532 |
-| 2026/6/13 |    hxxps://www[.]shimo-im[.]com[.]cn    |       **仿冒石墨文档**       |                              无                              |                            无                            | Z533 |
-| 2026/6/13 |   hxxps://www[.]shimo-doc[.]com[.]cn    |       **仿冒石墨文档**       |                              无                              |                            无                            | Z534 |
-| 2026/6/13 |    hxxps://www[.]zh-shimo[.]com[.]cn    |  **仿冒石墨文档、传播病毒**  |                   hxxps://dl[.]tpn2n[.]com                   |                            无                            | Z535 |
-| 2026/6/13 |      hxxps://app-shimo[.]com[.]cn       |  **仿冒石墨文档、传播病毒**  |           hxxps://www[.]wqpgfq1wuj[.]com/down6622            |                            无                            | Z536 |
-| 2026/6/13 |       hxxps://shimo-pc[.]com[.]cn       |  **仿冒石墨文档、传播病毒**  |                           同 Z540                            |                            无                            | Z537 |
-| 2026/6/13 |      hxxps://apps-shimo[.]com[.]cn      |  **仿冒石墨文档、传播病毒**  |                           同 Z537                            |                            无                            | Z538 |
-| 2026/6/13 | hxxps://www[.]wqpgfq1wuj[.]com/down6622 |       **传播银狐病毒**       |                       有，载荷提取失败                       |                            无                            | Z539 |
-| 2026/6/13 |      hxxps://cn-dintalk[.]com[.]cn      |    **仿冒钉钉、传播病毒**    | hxxps://download-dingg-ding-com[.]com[.]cn/donwnload/dingTtalkx64_down[.]zip |                            无                            | Z540 |
-|  ——————   |          ————————————————————           |       ———————————————        |                ——————————————————————————————                |                        ——————————                        | ———  |
+|   日期    |                   URL                   |             类别             |                           有效载荷                           |  URLhaus   | 编号 |
+| :-------: | :-------------------------------------: | :--------------------------: | :----------------------------------------------------------: | :--------: | :--: |
+| 2026/6/9  |      hxxps://ai[.]deepseekem[.]com      | **仿冒 DeepSeek、传播病毒**  |                           同 Z523                            |     无     | Z524 |
+| 2026/6/9  |     hxxps://cn-deepseek[.]com[.]cn      |      **仿冒 DeepSeek**       |                              无                              |     无     | Z525 |
+| 2026/6/11 |   hxxps://www[.]index-wps[.]com[.]cn    |    **仿冒 WPS、传播病毒**    |  hxxps://www[.]index-wps[.]com[.]cn/xz/wpsosxcsetuppP[.]zip  |     无     | Z526 |
+| 2026/6/11 |     hxxps://www[.]wpsws[.]com[.]cn      |    **仿冒 WPS、传播病毒**    | hxxps://download[.]xu619[.]top/wps_wid[.]cid-457274487_patched[.]zip |     无     | Z527 |
+| 2026/6/11 |    hxxps://www[.]intl-wps[.]com[.]cn    |         **仿冒 WPS**         |                              无                              |     无     | Z528 |
+| 2026/6/13 |      hxxps://zh-browser[.]hl[.]cn       | **仿冒 QQ 浏览器、传播病毒** |                   hxxps://dl[.]tpn2n[.]com                   |     无     | Z529 |
+| 2026/6/13 |     hxxps://browser-qq-cn[.]hl[.]cn     | **仿冒 QQ 浏览器、传播病毒** |                           同 Z529                            |     无     | Z530 |
+| 2026/6/13 |         hxxps://browser-qq[.]cn         |      **仿冒 QQ 浏览器**      |                              无                              |     无     | Z531 |
+| 2026/6/13 |     hxxps://shimowen-cn[.]com[.]cn      |       **仿冒石墨文档**       |                              无                              |     无     | Z532 |
+| 2026/6/13 |    hxxps://www[.]shimo-im[.]com[.]cn    |       **仿冒石墨文档**       |                              无                              |     无     | Z533 |
+| 2026/6/13 |   hxxps://www[.]shimo-doc[.]com[.]cn    |       **仿冒石墨文档**       |                              无                              |     无     | Z534 |
+| 2026/6/13 |    hxxps://www[.]zh-shimo[.]com[.]cn    |  **仿冒石墨文档、传播病毒**  |                   hxxps://dl[.]tpn2n[.]com                   |     无     | Z535 |
+| 2026/6/13 |      hxxps://app-shimo[.]com[.]cn       |  **仿冒石墨文档、传播病毒**  |           hxxps://www[.]wqpgfq1wuj[.]com/down6622            |     无     | Z536 |
+| 2026/6/13 |       hxxps://shimo-pc[.]com[.]cn       |  **仿冒石墨文档、传播病毒**  |                           同 Z540                            |     无     | Z537 |
+| 2026/6/13 |      hxxps://apps-shimo[.]com[.]cn      |  **仿冒石墨文档、传播病毒**  |                           同 Z537                            |     无     | Z538 |
+| 2026/6/13 | hxxps://www[.]wqpgfq1wuj[.]com/down6622 |       **传播银狐病毒**       |                       有，载荷提取失败                       |     无     | Z539 |
+| 2026/6/13 |      hxxps://cn-dintalk[.]com[.]cn      |    **仿冒钉钉、传播病毒**    | hxxps://download-dingg-ding-com[.]com[.]cn/donwnload/dingTtalkx64_down[.]zip |     无     | Z540 |
+| 2026/6/13 |    hxxps://yunbiji-youdao[.]com[.]cn    | **仿冒有道云笔记、传播病毒** | hxxps://alioss[.]cdn-go[.]com[.]cn/youdao_1[.]1_x64_win[.]zip |     无     | Z541 |
+| 2026/6/13 |     hxxps://cn-youdao-app[.]hl[.]cn     | **仿冒有道云笔记、传播病毒** |                   hxxps://dl[.]tpn2n[.]com                   |     无     | Z542 |
+| 2026/6/13 | hxxps://www[.]cn-youdao-app[.]com[.]cn  | **仿冒有道云笔记、传播病毒** |                           同 Z542                            |     无     | Z543 |
+|  ——————   |          ————————————————————           |       ———————————————        |                ——————————————————————————————                | —————————— | ———  |
 
 > [!NOTE]
 >
@@ -161,7 +161,7 @@
 
 &emsp;&emsp;[《常被 “银狐” 犯罪团伙仿冒的软件列表及注意事项》](https://github.com/Lingggao/LGSRC/blob/main/Documents/List.md)
 
-&emsp;&emsp;[银狐 IOC 情报合集 (VirusTotal)](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) - 实时更新，已收录 382 项情报 (文件、URL、域名、IP)
+&emsp;&emsp;[银狐 IOC 情报合集 (VirusTotal)](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) - 实时更新，已收录 388 项情报 (文件、URL、域名、IP)
 
 ---
 
