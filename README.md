@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 6 月 14 日 3:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 6 月 14 日 5:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 6 月 14 日，本中心已打击计算机病毒 / 恶意软件 1264 个、恶意网站 549 个，累计为潜在受害者规避经济损失约 5,372,000 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 6 月 14 日，本中心已打击计算机病毒 / 恶意软件 1264 个、恶意网站 552 个，累计为潜在受害者规避经济损失约 5,372,000 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;在对抗网络犯罪的崇高事业中，本中心仅承担了少量协调类工作。**恶意载荷从发现到清除，离不开国家有关部门、安全社区与研究员、杀毒软件厂商及威胁情报提供商的共同努力**。在此，谨向他们致以诚挚谢意。
 
@@ -123,9 +123,6 @@
 
 |   日期    |                   URL                   |             类别             |                           有效载荷                           |  URLhaus   | 编号 |
 | :-------: | :-------------------------------------: | :--------------------------: | :----------------------------------------------------------: | :--------: | :--: |
-| 2026/6/13 |     hxxps://browser-qq-cn[.]hl[.]cn     | **仿冒 QQ 浏览器、传播病毒** |                           同 Z529                            |     无     | Z530 |
-| 2026/6/13 |         hxxps://browser-qq[.]cn         |      **仿冒 QQ 浏览器**      |                              无                              |     无     | Z531 |
-| 2026/6/13 |     hxxps://shimowen-cn[.]com[.]cn      |       **仿冒石墨文档**       |                              无                              |     无     | Z532 |
 | 2026/6/13 |    hxxps://www[.]shimo-im[.]com[.]cn    |       **仿冒石墨文档**       |                              无                              |     无     | Z533 |
 | 2026/6/13 |   hxxps://www[.]shimo-doc[.]com[.]cn    |       **仿冒石墨文档**       |                              无                              |     无     | Z534 |
 | 2026/6/13 |    hxxps://www[.]zh-shimo[.]com[.]cn    |  **仿冒石墨文档、传播病毒**  |                   hxxps://dl[.]tpn2n[.]com                   |     无     | Z535 |
@@ -143,6 +140,9 @@
 | 2026/6/14 |      hxxps://163-mmusic[.]com[.]cn      | **仿冒网易云音乐、传播病毒** |                  hxxps://elvcha[.]com[.]cn                   |     无     | Z547 |
 | 2026/6/14 |        hxxps://elvcha[.]com[.]cn        |  **借助 VPN 工具传播病毒**   | hxxps://storage[.]googleapis[.]com/nykon/ofecn_letsvpn-latetX66[.]2[.]2[.]zip |     无     | Z548 |
 | 2026/6/14 |       hxxps://i-lvcha[.]com[.]cn        |  **借助 VPN 工具传播病毒**   |                           同 Z548                            |     无     | Z549 |
+| 2026/6/14 |    hxxps://www[.]capcut-zh[.]hl[.]cn    |    **仿冒剪映、传播病毒**    |                   hxxps://dl[.]tpn2n[.]com                   |     无     | Z550 |
+| 2026/6/14 |  hxxps://www[.]zh-jianying[.]com[.]cn   |    **仿冒剪映、传播病毒**    |                           同 Z550                            |     无     | Z551 |
+| 2026/6/14 |   hxxps://www[.]capcut-cn[.]com[.]cn    |    **仿冒剪映、传播病毒**    |                           同 Z550                            |     无     | Z552 |
 |  ——————   |          ————————————————————           |       ———————————————        |                ——————————————————————————————                | —————————— | ———  |
 
 > [!NOTE]
@@ -161,7 +161,7 @@
 
 &emsp;&emsp;[《常被 “银狐” 犯罪团伙仿冒的软件列表及注意事项》](https://github.com/Lingggao/LGSRC/blob/main/Documents/List.md)
 
-&emsp;&emsp;[银狐 IOC 情报合集 (VirusTotal)](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) - 实时更新，已收录 401 项情报 (文件、URL、域名、IP)
+&emsp;&emsp;[银狐 IOC 情报合集 (VirusTotal)](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) - 实时更新，已收录 404 项情报 (文件、URL、域名、IP)
 
 ---
 

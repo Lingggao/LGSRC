@@ -539,6 +539,9 @@
 | 2026/6/11 |         hxxps://www[.]wpsws[.]com[.]cn          |    **仿冒 WPS、传播病毒**     | hxxps://download[.]xu619[.]top/wps_wid[.]cid-457274487_patched[.]zip |                            无                            | Z527 |
 | 2026/6/11 |        hxxps://www[.]intl-wps[.]com[.]cn        |         **仿冒 WPS**          |                              无                              |                            无                            | Z528 |
 | 2026/6/13 |          hxxps://zh-browser[.]hl[.]cn           | **仿冒 QQ 浏览器、传播病毒**  |                   hxxps://dl[.]tpn2n[.]com                   |                            无                            | Z529 |
+| 2026/6/13 |         hxxps://browser-qq-cn[.]hl[.]cn         | **仿冒 QQ 浏览器、传播病毒**  |                           同 Z529                            |                            无                            | Z530 |
+| 2026/6/13 |             hxxps://browser-qq[.]cn             |      **仿冒 QQ 浏览器**       |                              无                              |                            无                            | Z531 |
+| 2026/6/13 |         hxxps://shimowen-cn[.]com[.]cn          |       **仿冒石墨文档**        |                              无                              |                            无                            | Z532 |
 |  ——————   |              ————————————————————               |        ———————————————        |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
