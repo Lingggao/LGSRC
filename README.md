@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 6 月 14 日 5:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 6 月 14 日 7:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 6 月 14 日，本中心已打击计算机病毒 / 恶意软件 1264 个、恶意网站 552 个，累计为潜在受害者规避经济损失约 5,372,000 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 6 月 14 日，本中心已打击计算机病毒 / 恶意软件 1264 个、恶意网站 555 个，累计为潜在受害者规避经济损失约 5,372,000 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;在对抗网络犯罪的崇高事业中，本中心仅承担了少量协调类工作。**恶意载荷从发现到清除，离不开国家有关部门、安全社区与研究员、杀毒软件厂商及威胁情报提供商的共同努力**。在此，谨向他们致以诚挚谢意。
 
@@ -123,9 +123,6 @@
 
 |   日期    |                   URL                   |             类别             |                           有效载荷                           |  URLhaus   | 编号 |
 | :-------: | :-------------------------------------: | :--------------------------: | :----------------------------------------------------------: | :--------: | :--: |
-| 2026/6/13 |    hxxps://www[.]shimo-im[.]com[.]cn    |       **仿冒石墨文档**       |                              无                              |     无     | Z533 |
-| 2026/6/13 |   hxxps://www[.]shimo-doc[.]com[.]cn    |       **仿冒石墨文档**       |                              无                              |     无     | Z534 |
-| 2026/6/13 |    hxxps://www[.]zh-shimo[.]com[.]cn    |  **仿冒石墨文档、传播病毒**  |                   hxxps://dl[.]tpn2n[.]com                   |     无     | Z535 |
 | 2026/6/13 |      hxxps://app-shimo[.]com[.]cn       |  **仿冒石墨文档、传播病毒**  |           hxxps://www[.]wqpgfq1wuj[.]com/down6622            |     无     | Z536 |
 | 2026/6/13 |       hxxps://shimo-pc[.]com[.]cn       |  **仿冒石墨文档、传播病毒**  |                           同 Z540                            |     无     | Z537 |
 | 2026/6/13 |      hxxps://apps-shimo[.]com[.]cn      |  **仿冒石墨文档、传播病毒**  |                           同 Z537                            |     无     | Z538 |
@@ -143,6 +140,9 @@
 | 2026/6/14 |    hxxps://www[.]capcut-zh[.]hl[.]cn    |    **仿冒剪映、传播病毒**    |                   hxxps://dl[.]tpn2n[.]com                   |     无     | Z550 |
 | 2026/6/14 |  hxxps://www[.]zh-jianying[.]com[.]cn   |    **仿冒剪映、传播病毒**    |                           同 Z550                            |     无     | Z551 |
 | 2026/6/14 |   hxxps://www[.]capcut-cn[.]com[.]cn    |    **仿冒剪映、传播病毒**    |                           同 Z550                            |     无     | Z552 |
+| 2026/6/14 |       hxxps://baidu-cn[.]com[.]cn       |       **仿冒百度网盘**       |                              无                              |     无     | Z553 |
+| 2026/6/14 |      hxxps://pan-baidu[.]com[.]cn       |       **仿冒百度网盘**       |                              无                              |     无     | Z554 |
+| 2026/6/14 |      hxxps://aliyun-cn[.]com[.]cn       |       **仿冒阿里云盘**       |                              无                              |     无     | Z555 |
 |  ——————   |          ————————————————————           |       ———————————————        |                ——————————————————————————————                | —————————— | ———  |
 
 > [!NOTE]
