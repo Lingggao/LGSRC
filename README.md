@@ -71,7 +71,7 @@
 
 &emsp;&emsp;上次更新时间：2026 年 6 月 15 日 1:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 6 月 15 日，本中心已打击计算机病毒 / 恶意软件 1271 个、恶意网站 564 个，累计为潜在受害者规避经济损失约 5,401,750 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 6 月 15 日，本中心已打击计算机病毒 / 恶意软件 1272 个、恶意网站 565 个，累计为潜在受害者规避经济损失约 5,406,000 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;在对抗网络犯罪的崇高事业中，本中心仅承担了少量协调类工作。**恶意载荷从发现到清除，离不开国家有关部门、安全社区与研究员、杀毒软件厂商及威胁情报提供商的共同努力**。在此，谨向他们致以诚挚谢意。
 
@@ -87,7 +87,6 @@
 
 |   日期    |         文件名         |           检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :--------------------: | :----------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/6/12 |     Tsni pastK.exe     |   **银狐 (SilverFox)**   | bbe131edaad6faf332137683c9f2d3b014fd95c542c1be2a174fbad9c961c44d | c8431038-3bf4-4d0b-b2c5-9831a85926e7 | [VirusTotal](https://www.virustotal.com/gui/file/bbe131edaad6faf332137683c9f2d3b014fd95c542c1be2a174fbad9c961c44d) (6) |                              无                              | 1252 |
 | 2026/6/12 | app_softwae···208.exe  | **银狐 (SilverFox.bm)**  | eb426166dc76814916571a326cfd68396d113974e6d964a220914fa36aea0b80 | bbad7b6c-f887-4c47-b9c6-64cd1c31aad2 | [VirusTotal](https://www.virustotal.com/gui/file/eb426166dc76814916571a326cfd68396d113974e6d964a220914fa36aea0b80) (21) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/eb426166dc76814916571a326cfd68396d113974e6d964a220914fa36aea0b80) | 1253 |
 | 2026/6/12 | ···6月违纪人员.doc.exe |  **Win64/Malgent!MSR**   | 15064f69d502a7b9cc0aa9d5f4c4932479c4970530a7e25be2bd251c77de942c | 2ce0d35d-edfa-40c9-a0d2-c352f756072b | [VirusTotal](https://www.virustotal.com/gui/file/15064f69d502a7b9cc0aa9d5f4c4932479c4970530a7e25be2bd251c77de942c) (7) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/15064f69d502a7b9cc0aa9d5f4c4932479c4970530a7e25be2bd251c77de942c) | 1254 |
 | 2026/6/12 | ···安全整改承诺书.exe  |  **Win64/Malgent!MSR**   | e429f53e6d06cecc08b607ecad21ed098272f6e89c381db6b5005ace37455c5b | 301c70c2-82ea-428c-a7ea-858fcfa75f72 | [VirusTotal](https://www.virustotal.com/gui/file/e429f53e6d06cecc08b607ecad21ed098272f6e89c381db6b5005ace37455c5b) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/e429f53e6d06cecc08b607ecad21ed098272f6e89c381db6b5005ace37455c5b) | 1255 |
@@ -107,6 +106,7 @@
 | 2026/6/14 | ofecn_letsvpn···8.msi  |  **银狐 (SilverFox.l)**  | beee6aeea025a2776c3b245829ef32bd0498f95f0aa478fa64d3394d76342abb | 6d897ea4-50ab-4aba-9493-e11375600546 | [VirusTotal](https://www.virustotal.com/gui/file/beee6aeea025a2776c3b245829ef32bd0498f95f0aa478fa64d3394d76342abb) (16) |                              无                              | 1269 |
 | 2026/6/14 |    性感美女素材.exe    | **银狐 (SilverFox.sa)**  | b48c97d1dadc4cb7e0c3303d556a1217cccdd8839fe739d71a7c5f977b4810bd | 80650ed5-65fa-4a07-9567-4a144894da98 | [VirusTotal](https://www.virustotal.com/gui/file/b48c97d1dadc4cb7e0c3303d556a1217cccdd8839fe739d71a7c5f977b4810bd) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b48c97d1dadc4cb7e0c3303d556a1217cccdd8839fe739d71a7c5f977b4810bd) | 1270 |
 | 2026/6/14 | release_20131_x64.exe  | **银狐 (SilverFox.se)**  | d5c1cf410e090eb0a80f59d8c85a1dc5ec63b711d701f7f9e19e5a8e862388a7 | 663f8567-a0c6-4372-8acd-68b4b5854e2c | [VirusTotal](https://www.virustotal.com/gui/file/d5c1cf410e090eb0a80f59d8c85a1dc5ec63b711d701f7f9e19e5a8e862388a7) (11) |                              无                              | 1271 |
+| 2026/6/15 | Clash _v12.8.1···.exe  | **银狐 (SilverFox.sa)**  | f009cf587ffd3541e03c384966604078ae523e0142b76bce4f4a3d53f471fa62 | 1e0e5247-20bc-4f93-8ac6-406cd71455bc | [VirusTotal](https://www.virustotal.com/gui/file/f009cf587ffd3541e03c384966604078ae523e0142b76bce4f4a3d53f471fa62) (2) |                              无                              | 1272 |
 |  ——————   |      ————————————      |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -123,7 +123,6 @@
 
 |   日期    |                    URL                    |             类别             |                           有效载荷                           |  URLhaus   | 编号 |
 | :-------: | :---------------------------------------: | :--------------------------: | :----------------------------------------------------------: | :--------: | :--: |
-| 2026/6/14 |     hxxps://www[.]xmind-zh[.]com[.]cn     |   **仿冒 Xmind、传播病毒**   |                           同 Z542                            |     无     | Z545 |
 | 2026/6/14 |        hxxps://ai-xmind[.]com[.]cn        |   **仿冒 Xmind、传播病毒**   |                           同 Z542                            |     无     | Z546 |
 | 2026/6/14 |       hxxps://163-mmusic[.]com[.]cn       | **仿冒网易云音乐、传播病毒** |                  hxxps://elvcha[.]com[.]cn                   |     无     | Z547 |
 | 2026/6/14 |         hxxps://elvcha[.]com[.]cn         |  **借助 VPN 工具传播病毒**   | hxxps://storage[.]googleapis[.]com/nykon/ofecn_letsvpn-latetX66[.]2[.]2[.]zip |     无     | Z548 |
@@ -143,6 +142,7 @@
 | 2026/6/14 |     hxxps://www[.]xunyouj[.]com[.]cn      | **仿冒迅游加速器、传播病毒** |      hxxps://www[.]xunyouj[.]com[.]cn/xunyou2[.]0[.]zip      |     无     | Z562 |
 | 2026/6/14 |     hxxps://cn-apps-xunyou[.]com[.]cn     |      **仿冒迅游加速器**      |                              无                              |     无     | Z563 |
 | 2026/6/14 | hxxps://google-google-cn-google[.]hl[.]cn |  **仿冒 Chrome、传播病毒**   | hxxps://storage[.]googleapis[.]com/liunnn/QTRUEC_chrome-win32[.]zip |     无     | Z564 |
+| 2026/6/15 |     hxxps://clash-verge-org[.]hl[.]cn     |  **借助 VPN 工具传播病毒**   | hxxps://vitallacerda[.]com/down[.]php/5e5aafb38b7f646a27ed2e8d9e0bb2c6[.]zip |     无     | Z565 |
 |  ——————   |           ————————————————————            |       ———————————————        |                ——————————————————————————————                | —————————— | ———  |
 
 > [!NOTE]
@@ -161,7 +161,7 @@
 
 &emsp;&emsp;[《常被 “银狐” 犯罪团伙仿冒的软件列表及注意事项》](https://github.com/Lingggao/LGSRC/blob/main/Documents/List.md)
 
-&emsp;&emsp;[银狐 IOC 情报合集 (VirusTotal)](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) - 实时更新，已收录 422 项情报 (文件、URL、域名、IP)
+&emsp;&emsp;[银狐 IOC 情报合集 (VirusTotal)](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) - 实时更新，已收录 426 项情报 (文件、URL、域名、IP)
 
 ---
 
