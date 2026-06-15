@@ -555,6 +555,13 @@
 | 2026/6/13 |     hxxps://www[.]cn-youdao-app[.]com[.]cn      | **仿冒有道云笔记、传播病毒**  |                           同 Z542                            |                            无                            | Z543 |
 | 2026/6/14 |       hxxps://www[.]xmind-app[.]com[.]cn        |   **仿冒 Xmind、传播病毒**    |                           同 Z542                            |                            无                            | Z544 |
 | 2026/6/14 |        hxxps://www[.]xmind-zh[.]com[.]cn        |   **仿冒 Xmind、传播病毒**    |                           同 Z542                            |                            无                            | Z545 |
+| 2026/6/14 |           hxxps://ai-xmind[.]com[.]cn           |   **仿冒 Xmind、传播病毒**    |                           同 Z542                            |                            无                            | Z546 |
+| 2026/6/14 |          hxxps://163-mmusic[.]com[.]cn          | **仿冒网易云音乐、传播病毒**  |                  hxxps://elvcha[.]com[.]cn                   |                            无                            | Z547 |
+| 2026/6/14 |            hxxps://elvcha[.]com[.]cn            |   **借助 VPN 工具传播病毒**   | hxxps://storage[.]googleapis[.]com/nykon/ofecn_letsvpn-latetX66[.]2[.]2[.]zip |                            无                            | Z548 |
+| 2026/6/14 |           hxxps://i-lvcha[.]com[.]cn            |   **借助 VPN 工具传播病毒**   |                           同 Z548                            |                            无                            | Z549 |
+| 2026/6/14 |        hxxps://www[.]capcut-zh[.]hl[.]cn        |    **仿冒剪映、传播病毒**     |                   hxxps://dl[.]tpn2n[.]com                   |                            无                            | Z550 |
+| 2026/6/14 |      hxxps://www[.]zh-jianying[.]com[.]cn       |    **仿冒剪映、传播病毒**     |                           同 Z550                            |                            无                            | Z551 |
+| 2026/6/14 |       hxxps://www[.]capcut-cn[.]com[.]cn        |    **仿冒剪映、传播病毒**     |                           同 Z550                            |                            无                            | Z552 |
 |  ——————   |              ————————————————————               |        ———————————————        |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
