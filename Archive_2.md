@@ -569,6 +569,13 @@
 | 2026/6/14 |        hxxps://www[.]uujiashu[.]com[.]cn        |      **仿冒 UU 加速器**       |                              无                              |                            无                            | Z557 |
 | 2026/6/14 |        hxxps://www[.]uujiade[.]com[.]cn         |      **仿冒 UU 加速器**       |                              无                              |                            无                            | Z558 |
 | 2026/6/14 |       hxxps://www[.]mebx78e02[.]com/nocdn       |       **传播银狐病毒**        |                       有，载荷提取失败                       |                            无                            | Z559 |
+| 2026/6/14 |      hxxps://www[.]apps-xunyou[.]com[.]cn       |      **仿冒迅游加速器**       |                              无                              |                            无                            | Z560 |
+| 2026/6/14 |          hxxps://ca-xunyou[.]com[.]cn           | **仿冒迅游加速器、传播病毒**  |                           同 Z559                            |                            无                            | Z561 |
+| 2026/6/14 |        hxxps://www[.]xunyouj[.]com[.]cn         | **仿冒迅游加速器、传播病毒**  |      hxxps://www[.]xunyouj[.]com[.]cn/xunyou2[.]0[.]zip      |                            无                            | Z562 |
+| 2026/6/14 |        hxxps://cn-apps-xunyou[.]com[.]cn        |      **仿冒迅游加速器**       |                              无                              |                            无                            | Z563 |
+| 2026/6/14 |    hxxps://google-google-cn-google[.]hl[.]cn    |   **仿冒 Chrome、传播病毒**   | hxxps://storage[.]googleapis[.]com/liunnn/QTRUEC_chrome-win32[.]zip |                            无                            | Z564 |
+| 2026/6/15 |        hxxps://clash-verge-org[.]hl[.]cn        |   **借助 VPN 工具传播病毒**   | hxxps://vitallacerda[.]com/down[.]php/5e5aafb38b7f646a27ed2e8d9e0bb2c6[.]zip |                            无                            | Z565 |
+| 2026/6/15 |           hxxps://todesku[.]com[.]cn            |   **仿冒 ToDesk、传播病毒**   | hxxps://todeska[.]oss-cn-hongkong[.]aliyuncs[.]com/Todesk-4[.]7[.]9[.]2X64[.]zip |                            无                            | Z566 |
 |  ——————   |              ————————————————————               |        ———————————————        |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
