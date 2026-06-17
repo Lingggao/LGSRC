@@ -579,6 +579,7 @@
 | 2026/6/15 |          hxxps://toe-todesk[.]com[.]cn          |   **仿冒 ToDesk、传播病毒**   |           hxxps://www[.]wqpgfq1wuj[.]com/down6622            |                            无                            | Z567 |
 | 2026/6/15 |          hxxps://www[.]todeskkb[.]com           |        **仿冒 ToDesk**        |                              无                              |                            无                            | Z568 |
 | 2026/6/15 |       hxxps://www[.]todesk-cc[.]com[.]cn        |   **仿冒 ToDesk、传播病毒**   |     hxxps://www[.]todesk-cc[.]com[.]cn/todesk3[.]8[.]zip     |                            无                            | Z569 |
+| 2026/6/15 |          hxxps://zh-todesks[.]com[.]cn          |   **仿冒 ToDesk、传播病毒**   |                   hxxps://dl[.]tpn2n[.]com                   |                            无                            | Z570 |
 |  ——————   |              ————————————————————               |        ———————————————        |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
