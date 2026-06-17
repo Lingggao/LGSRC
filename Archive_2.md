@@ -580,6 +580,12 @@
 | 2026/6/15 |          hxxps://www[.]todeskkb[.]com           |        **仿冒 ToDesk**        |                              无                              |                            无                            | Z568 |
 | 2026/6/15 |       hxxps://www[.]todesk-cc[.]com[.]cn        |   **仿冒 ToDesk、传播病毒**   |     hxxps://www[.]todesk-cc[.]com[.]cn/todesk3[.]8[.]zip     |                            无                            | Z569 |
 | 2026/6/15 |          hxxps://zh-todesks[.]com[.]cn          |   **仿冒 ToDesk、传播病毒**   |                   hxxps://dl[.]tpn2n[.]com                   |                            无                            | Z570 |
+| 2026/6/15 |           hxxps://h-todesk[.]com[.]cn           |        **仿冒 ToDesk**        |                              无                              |                            无                            | Z571 |
+| 2026/6/15 |     hxxps://www[.]wqpgfq1wuj[.]com/down6622     |       **传播银狐病毒**        |                       有，载荷提取失败                       |                            无                            | Z572 |
+| 2026/6/15 |            hxxps://orayor[.]com[.]cn            |   **仿冒向日葵、传播病毒**    | hxxps://sgnfyn2[.]oss-cn-hongkong[.]aliyuncs[.]com/AweSun_16[.]5[.]0[.]30756_x64[.]zip |                            无                            | Z573 |
+| 2026/6/15 |           hxxps://oray-win[.]com[.]cn           |   **仿冒向日葵、传播病毒**    | hxxps://filedown615[.]oss-cn-hongkong[.]aliyuncs[.]com/inst_downloader[.]zip |                            无                            | Z574 |
+| 2026/6/16 |     hxxps://www[.]velnix703[.]com/downs245      |       **传播银狐病毒**        |                       有，载荷提取失败                       |                            无                            | Z575 |
+| 2026/6/16 |          hxxps://wegame-pc[.]com[.]cn           |   **仿冒 WeGame、传播病毒**   |                           同 Z575                            |                            无                            | Z576 |
 |  ——————   |              ————————————————————               |        ———————————————        |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---

@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 6 月 17 日 23:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 6 月 18 日 3:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 6 月 17 日，本中心已打击计算机病毒 / 恶意软件 1289 个、恶意网站 590 个，累计为潜在受害者规避经济损失约 5,478,250 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 6 月 18 日，本中心已打击计算机病毒 / 恶意软件 1292 个、恶意网站 596 个，累计为潜在受害者规避经济损失约 5,491,000 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;在对抗网络犯罪的崇高事业中，本中心仅承担了少量协调类工作。**恶意载荷从发现到清除，离不开国家有关部门、安全社区与研究员、杀毒软件厂商及威胁情报提供商的共同努力**。在此，谨向他们致以诚挚谢意。
 
@@ -87,9 +87,6 @@
 
 |   日期    |         文件名          |           检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :---------------------: | :----------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/6/14 |    性感美女素材.exe     | **银狐 (SilverFox.sa)**  | b48c97d1dadc4cb7e0c3303d556a1217cccdd8839fe739d71a7c5f977b4810bd | 80650ed5-65fa-4a07-9567-4a144894da98 | [VirusTotal](https://www.virustotal.com/gui/file/b48c97d1dadc4cb7e0c3303d556a1217cccdd8839fe739d71a7c5f977b4810bd) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b48c97d1dadc4cb7e0c3303d556a1217cccdd8839fe739d71a7c5f977b4810bd) | 1270 |
-| 2026/6/14 |  release_20131_x64.exe  | **银狐 (SilverFox.se)**  | d5c1cf410e090eb0a80f59d8c85a1dc5ec63b711d701f7f9e19e5a8e862388a7 | 663f8567-a0c6-4372-8acd-68b4b5854e2c | [VirusTotal](https://www.virustotal.com/gui/file/d5c1cf410e090eb0a80f59d8c85a1dc5ec63b711d701f7f9e19e5a8e862388a7) (11) |                              无                              | 1271 |
-| 2026/6/15 |  Clash _v12.8.1···.exe  | **银狐 (SilverFox.sa)**  | f009cf587ffd3541e03c384966604078ae523e0142b76bce4f4a3d53f471fa62 | 1e0e5247-20bc-4f93-8ac6-406cd71455bc | [VirusTotal](https://www.virustotal.com/gui/file/f009cf587ffd3541e03c384966604078ae523e0142b76bce4f4a3d53f471fa62) (2) |                              无                              | 1272 |
 | 2026/6/15 |  aloudnst65831013.exe   | **银狐 (SilverFox.bm)**  | c1d77b03a2d57f4ef9670a7569a77b662196cb10c74e303a04626afc49fcfb0d | 2f85de7a-14b7-4515-8e45-a79ba1db0a89 | [VirusTotal](https://www.virustotal.com/gui/file/c1d77b03a2d57f4ef9670a7569a77b662196cb10c74e303a04626afc49fcfb0d) (23) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c1d77b03a2d57f4ef9670a7569a77b662196cb10c74e303a04626afc49fcfb0d) | 1273 |
 | 2026/6/15 |      todesk3.8.exe      |        **Shelm**         | 5785b61c18de6770c84be0bd15bbc697f6d0e890ea542f2f35dee2549e0c6255 | 4cce9b69-e8bb-4df0-b660-36396e37bbcb | [VirusTotal](https://www.virustotal.com/gui/file/5785b61c18de6770c84be0bd15bbc697f6d0e890ea542f2f35dee2549e0c6255) (24) |                              无                              | 1274 |
 | 2026/6/15 |  Todesk-4.7.9.2X64.exe  | **银狐 (SilverFox.sa)**  | 85ecc335b0bcf20de87c3ec024cde2c8c88067a254910dc7bb7b20d4409179c6 | ab2189ee-9bb5-4d46-96b6-87217a014cca | [VirusTotal](https://www.virustotal.com/gui/file/85ecc335b0bcf20de87c3ec024cde2c8c88067a254910dc7bb7b20d4409179c6) (3) |                              无                              | 1275 |
@@ -107,6 +104,9 @@
 | 2026/6/17 |      Launcher.exe       | **银狐 (SilverFox.wos)** | 9ab135ec9d97c65caacdc2cd1ac166b7f491d8ad0635b3bd595a244ca6af9795 | 77911614-be87-4ef8-be97-56a4ddeece92 | [VirusTotal](https://www.virustotal.com/gui/file/9ab135ec9d97c65caacdc2cd1ac166b7f491d8ad0635b3bd595a244ca6af9795) (14) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/9ab135ec9d97c65caacdc2cd1ac166b7f491d8ad0635b3bd595a244ca6af9795) | 1287 |
 | 2026/6/17 |  SogouExplorer···.exe   |   **银狐 (SilverFox)**   | 6265b9b7d5599d63422c0ca9eaccdf6a1d14f51736e4c5efb4f4bbbb43f10514 | 651ea9ac-5634-44ff-8694-d706da86b5da | [VirusTotal](https://www.virustotal.com/gui/file/6265b9b7d5599d63422c0ca9eaccdf6a1d14f51736e4c5efb4f4bbbb43f10514) (6) |                              无                              | 1288 |
 | 2026/6/17 | ···Telegram.ZcJnu7.exe  |   **银狐 (SilverFox)**   | 8832671c0ad8176d68b7caa9ff40f6313b3cbe85240617311f015c7d641ec4bf | 21c0b286-fa4c-492d-a77f-b84f0fe7f12e | [VirusTotal](https://www.virustotal.com/gui/file/8832671c0ad8176d68b7caa9ff40f6313b3cbe85240617311f015c7d641ec4bf) (4) |                              无                              | 1289 |
+| 2026/6/18 |  ainstaller···3012.exe  | **银狐 (SilverFox.bm)**  | 82218c4065f73f6b07220b8dcb9185c0669f193ecfc3ee75fc8b36e72abfbdde | 06b2b255-7de0-4ea6-bdab-bcafcefe1ddb | [VirusTotal](https://www.virustotal.com/gui/file/82218c4065f73f6b07220b8dcb9185c0669f193ecfc3ee75fc8b36e72abfbdde) (17) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/82218c4065f73f6b07220b8dcb9185c0669f193ecfc3ee75fc8b36e72abfbdde) | 1290 |
+| 2026/6/18 |    Quark···0616.exe     | **银狐 (SilverFox.sa)**  | 1a2312f2bace5d7c64adfc28dba89360fbdde0d680ba785cfb5a3ef4ad169764 | 41487f1b-ddb6-4323-bb47-c9c5b977329e | [VirusTotal](https://www.virustotal.com/gui/file/1a2312f2bace5d7c64adfc28dba89360fbdde0d680ba785cfb5a3ef4ad169764) (3) |                              无                              | 1291 |
+| 2026/6/18 |   quarkPC···6.857.exe   |   **银狐 (SilverFox)**   | 0fb2a4a9e5a714b605354bc6e59a6b1f23b94e3743dbc1fb9f86799450d27fbe | a8fbafeb-79b3-486e-8bf4-19c4034e7eed | [VirusTotal](https://www.virustotal.com/gui/file/0fb2a4a9e5a714b605354bc6e59a6b1f23b94e3743dbc1fb9f86799450d27fbe) (10) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/0fb2a4a9e5a714b605354bc6e59a6b1f23b94e3743dbc1fb9f86799450d27fbe) | 1292 |
 |  ——————   |      ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -121,29 +121,29 @@
 >
 > &emsp;为确保安全，网站地址将用 “hxxps://” 与 “[.]” 进行替换。**切勿尝试访问表格中列出的任何网址**。
 
-|   日期    |                   URL                   |              类别              |                           有效载荷                           |  URLhaus   | 编号 |
-| :-------: | :-------------------------------------: | :----------------------------: | :----------------------------------------------------------: | :--------: | :--: |
-| 2026/6/15 |       hxxps://h-todesk[.]com[.]cn       |        **仿冒 ToDesk**         |                              无                              |     无     | Z571 |
-| 2026/6/15 | hxxps://www[.]wqpgfq1wuj[.]com/down6622 |        **传播银狐病毒**        |                       有，载荷提取失败                       |     无     | Z572 |
-| 2026/6/15 |        hxxps://orayor[.]com[.]cn        |    **仿冒向日葵、传播病毒**    | hxxps://sgnfyn2[.]oss-cn-hongkong[.]aliyuncs[.]com/AweSun_16[.]5[.]0[.]30756_x64[.]zip |     无     | Z573 |
-| 2026/6/15 |       hxxps://oray-win[.]com[.]cn       |    **仿冒向日葵、传播病毒**    | hxxps://filedown615[.]oss-cn-hongkong[.]aliyuncs[.]com/inst_downloader[.]zip |     无     | Z574 |
-| 2026/6/16 | hxxps://www[.]velnix703[.]com/downs245  |        **传播银狐病毒**        |                       有，载荷提取失败                       |     无     | Z575 |
-| 2026/6/16 |      hxxps://wegame-pc[.]com[.]cn       |   **仿冒 WeGame、传播病毒**    |                           同 Z575                            |     无     | Z576 |
-| 2026/6/16 |         hxxps://pc-wegame[.]cn          |   **仿冒 WeGame、传播病毒**    | hxxps://safewsd[.]oss-ap-southeast-1[.]aliyuncs[.]com/WeGameMiniLoader[.]std[.]7[.]06[.]27[.]1446[.]zip |     无     | Z577 |
-| 2026/6/16 |      hxxps://pc-wegame[.]com[.]cn       |   **仿冒 WeGame、传播病毒**    |                           同 Z577                            |     无     | Z578 |
-| 2026/6/16 |  hxxps://www[.]bitcomet-zh[.]com[.]cn   |   **仿冒比特彗星、传播病毒**   |                           同 Z575                            |     无     | Z579 |
-| 2026/6/16 |    hxxps://www[.]pc-sysceo[.]hl[.]cn    |   **仿冒驱动总裁、传播病毒**   |                   hxxps://dl[.]tpn2n[.]com                   |     无     | Z580 |
-| 2026/6/16 |   hxxps://pc-drivergenius[.]com[.]cn    |   **仿冒驱动精灵、传播病毒**   |                           同 Z580                            |     无     | Z581 |
-| 2026/6/16 |       hxxps://qudong-c[.]com[.]cn       |   **仿冒驱动精灵、传播病毒**   | hxxps://pub-ad4e3a1af3ca4ac398bcb319f5932682[.]r2[.]dev/qudongjingling7[.]zip |     无     | Z582 |
-| 2026/6/16 |  hxxps://qudongjingling-pc[.]com[.]cn   |   **仿冒驱动精灵、传播病毒**   |                           同 Z575                            |     无     | Z583 |
-| 2026/6/16 |    hxxps://cn-drivergenius[.]hl[.]cn    |   **仿冒驱动精灵、传播病毒**   |                           同 Z580                            |     无     | Z584 |
-| 2026/6/16 |      hxxps://qudong-elf[.]com[.]cn      |   **仿冒驱动精灵、传播病毒**   |                           同 Z575                            |     无     | Z585 |
-| 2026/6/16 |     hxxps://ai-jingling[.]com[.]cn      |   **仿冒驱动精灵、传播病毒**   |                           同 Z575                            |     无     | Z586 |
-| 2026/6/17 |     hxxps://apps-anydesk[.]com[.]cn     |   **仿冒 AnyDesk、传播病毒**   | hxxps://www[.]weurhgbakbvs-oss[.]top/anydesk_v1[.]1_x64_win[.]zip |     无     | Z587 |
-| 2026/6/17 |      hxxps://en-anydesk[.]com[.]cn      |        **仿冒 AnyDesk**        |                              无                              |     无     | Z588 |
-| 2026/6/17 |       hxxps://aanydesk[.]com[.]cn       |        **仿冒 AnyDesk**        |                              无                              |     无     | Z589 |
-| 2026/6/17 |   hxxps://web-2345browser[.]com[.]cn    | **仿冒 2345 浏览器、传播病毒** |            hxxps://www[.]velnix703[.]com/downs245            |     无     | Z590 |
-|  ——————   |          ————————————————————           |        ———————————————         |                ——————————————————————————————                | —————————— | ———  |
+|   日期    |                 URL                  |              类别              |                           有效载荷                           |  URLhaus   | 编号 |
+| :-------: | :----------------------------------: | :----------------------------: | :----------------------------------------------------------: | :--------: | :--: |
+| 2026/6/16 |        hxxps://pc-wegame[.]cn        |   **仿冒 WeGame、传播病毒**    | hxxps://safewsd[.]oss-ap-southeast-1[.]aliyuncs[.]com/WeGameMiniLoader[.]std[.]7[.]06[.]27[.]1446[.]zip |     无     | Z577 |
+| 2026/6/16 |     hxxps://pc-wegame[.]com[.]cn     |   **仿冒 WeGame、传播病毒**    |                           同 Z577                            |     无     | Z578 |
+| 2026/6/16 | hxxps://www[.]bitcomet-zh[.]com[.]cn |   **仿冒比特彗星、传播病毒**   |                           同 Z575                            |     无     | Z579 |
+| 2026/6/16 |  hxxps://www[.]pc-sysceo[.]hl[.]cn   |   **仿冒驱动总裁、传播病毒**   |                   hxxps://dl[.]tpn2n[.]com                   |     无     | Z580 |
+| 2026/6/16 |  hxxps://pc-drivergenius[.]com[.]cn  |   **仿冒驱动精灵、传播病毒**   |                           同 Z580                            |     无     | Z581 |
+| 2026/6/16 |     hxxps://qudong-c[.]com[.]cn      |   **仿冒驱动精灵、传播病毒**   | hxxps://pub-ad4e3a1af3ca4ac398bcb319f5932682[.]r2[.]dev/qudongjingling7[.]zip |     无     | Z582 |
+| 2026/6/16 | hxxps://qudongjingling-pc[.]com[.]cn |   **仿冒驱动精灵、传播病毒**   |                           同 Z575                            |     无     | Z583 |
+| 2026/6/16 |  hxxps://cn-drivergenius[.]hl[.]cn   |   **仿冒驱动精灵、传播病毒**   |                           同 Z580                            |     无     | Z584 |
+| 2026/6/16 |    hxxps://qudong-elf[.]com[.]cn     |   **仿冒驱动精灵、传播病毒**   |                           同 Z575                            |     无     | Z585 |
+| 2026/6/16 |    hxxps://ai-jingling[.]com[.]cn    |   **仿冒驱动精灵、传播病毒**   |                           同 Z575                            |     无     | Z586 |
+| 2026/6/17 |   hxxps://apps-anydesk[.]com[.]cn    |   **仿冒 AnyDesk、传播病毒**   | hxxps://www[.]weurhgbakbvs-oss[.]top/anydesk_v1[.]1_x64_win[.]zip |     无     | Z587 |
+| 2026/6/17 |    hxxps://en-anydesk[.]com[.]cn     |        **仿冒 AnyDesk**        |                              无                              |     无     | Z588 |
+| 2026/6/17 |     hxxps://aanydesk[.]com[.]cn      |        **仿冒 AnyDesk**        |                              无                              |     无     | Z589 |
+| 2026/6/17 |  hxxps://web-2345browser[.]com[.]cn  | **仿冒 2345 浏览器、传播病毒** |            hxxps://www[.]velnix703[.]com/downs245            |     无     | Z590 |
+| 2026/6/18 |     hxxps://uc-quark[.]com[.]cn      |     **仿冒夸克、传播病毒**     | hxxps://download-dowon-firefox[.]com[.]cn/donwnload/Quark_win_6[.]8[.]0[.]802[.]zip |     无     | Z591 |
+| 2026/6/18 |     hxxps://en-quark[.]com[.]cn      |     **仿冒夸克、传播病毒**     |                           同 Z591                            |     无     | Z592 |
+| 2026/6/18 | hxxps://www[.]quark-drive[.]hl[.]cn  |     **仿冒夸克、传播病毒**     | hxxps://mypornomovies[.]com/down[.]php/264dbf2a579f59cc6249eb0153ad2ea8[.]zip |     无     | Z593 |
+| 2026/6/18 |      hxxps://cn-quark[.]hl[.]cn      |     **仿冒夸克、传播病毒**     |                   hxxps://dl[.]tpn2n[.]com                   |     无     | Z594 |
+| 2026/6/18 |   hxxps://browser-quark[.]hl[.]cn    |     **仿冒夸克、传播病毒**     |            hxxps://www[.]velnix703[.]com/downs245            |     无     | Z595 |
+| 2026/6/18 | hxxps://www[.]kuake-wpan[.]com[.]cn  |     **仿冒夸克、传播病毒**     |                           同 Z595                            |     无     | Z596 |
+|  ——————   |         ————————————————————         |        ———————————————         |                ——————————————————————————————                | —————————— | ———  |
 
 > [!NOTE]
 >
@@ -161,7 +161,7 @@
 
 &emsp;&emsp;[《常被 “银狐” 犯罪团伙仿冒的软件列表及注意事项》](https://github.com/Lingggao/LGSRC/blob/main/Documents/List.md)
 
-&emsp;&emsp;[银狐 IOC 情报合集 (VirusTotal)](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) - 实时更新，已收录 490 项情报 (文件、URL、域名、IP)
+&emsp;&emsp;[银狐 IOC 情报合集 (VirusTotal)](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) - 实时更新，已收录 501 项情报 (文件、URL、域名、IP)
 
 ---
 
