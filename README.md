@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 6 月 17 日 2:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 6 月 17 日 12:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 6 月 17 日，本中心已打击计算机病毒 / 恶意软件 1284 个、恶意网站 586 个，累计为潜在受害者规避经济损失约 5,457,000 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 6 月 17 日，本中心已打击计算机病毒 / 恶意软件 1284 个、恶意网站 589 个，累计为潜在受害者规避经济损失约 5,457,000 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;在对抗网络犯罪的崇高事业中，本中心仅承担了少量协调类工作。**恶意载荷从发现到清除，离不开国家有关部门、安全社区与研究员、杀毒软件厂商及威胁情报提供商的共同努力**。在此，谨向他们致以诚挚谢意。
 
@@ -123,9 +123,6 @@
 
 |   日期    |                   URL                   |            类别            |                           有效载荷                           |  URLhaus   | 编号 |
 | :-------: | :-------------------------------------: | :------------------------: | :----------------------------------------------------------: | :--------: | :--: |
-| 2026/6/15 |      hxxps://toe-todesk[.]com[.]cn      | **仿冒 ToDesk、传播病毒**  |           hxxps://www[.]wqpgfq1wuj[.]com/down6622            |     无     | Z567 |
-| 2026/6/15 |      hxxps://www[.]todeskkb[.]com       |      **仿冒 ToDesk**       |                              无                              |     无     | Z568 |
-| 2026/6/15 |   hxxps://www[.]todesk-cc[.]com[.]cn    | **仿冒 ToDesk、传播病毒**  |     hxxps://www[.]todesk-cc[.]com[.]cn/todesk3[.]8[.]zip     |     无     | Z569 |
 | 2026/6/15 |      hxxps://zh-todesks[.]com[.]cn      | **仿冒 ToDesk、传播病毒**  |                   hxxps://dl[.]tpn2n[.]com                   |     无     | Z570 |
 | 2026/6/15 |       hxxps://h-todesk[.]com[.]cn       |      **仿冒 ToDesk**       |                              无                              |     无     | Z571 |
 | 2026/6/15 | hxxps://www[.]wqpgfq1wuj[.]com/down6622 |      **传播银狐病毒**      |                       有，载荷提取失败                       |     无     | Z572 |
@@ -143,6 +140,9 @@
 | 2026/6/16 |    hxxps://cn-drivergenius[.]hl[.]cn    | **仿冒驱动精灵、传播病毒** |                           同 Z580                            |     无     | Z584 |
 | 2026/6/16 |      hxxps://qudong-elf[.]com[.]cn      | **仿冒驱动精灵、传播病毒** |                           同 Z575                            |     无     | Z585 |
 | 2026/6/16 |     hxxps://ai-jingling[.]com[.]cn      | **仿冒驱动精灵、传播病毒** |                           同 Z575                            |     无     | Z586 |
+| 2026/6/17 |     hxxps://apps-anydesk[.]com[.]cn     | **仿冒 AnyDesk、传播病毒** | hxxps://www[.]weurhgbakbvs-oss[.]top/anydesk_v1[.]1_x64_win[.]zip |     无     | Z587 |
+| 2026/6/17 |      hxxps://en-anydesk[.]com[.]cn      |      **仿冒 AnyDesk**      |                              无                              |     无     | Z588 |
+| 2026/6/17 |       hxxps://aanydesk[.]com[.]cn       |      **仿冒 AnyDesk**      |                              无                              |     无     | Z589 |
 |  ——————   |          ————————————————————           |      ———————————————       |                ——————————————————————————————                | —————————— | ———  |
 
 > [!NOTE]

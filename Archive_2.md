@@ -576,6 +576,9 @@
 | 2026/6/14 |    hxxps://google-google-cn-google[.]hl[.]cn    |   **仿冒 Chrome、传播病毒**   | hxxps://storage[.]googleapis[.]com/liunnn/QTRUEC_chrome-win32[.]zip |                            无                            | Z564 |
 | 2026/6/15 |        hxxps://clash-verge-org[.]hl[.]cn        |   **借助 VPN 工具传播病毒**   | hxxps://vitallacerda[.]com/down[.]php/5e5aafb38b7f646a27ed2e8d9e0bb2c6[.]zip |                            无                            | Z565 |
 | 2026/6/15 |           hxxps://todesku[.]com[.]cn            |   **仿冒 ToDesk、传播病毒**   | hxxps://todeska[.]oss-cn-hongkong[.]aliyuncs[.]com/Todesk-4[.]7[.]9[.]2X64[.]zip |                            无                            | Z566 |
+| 2026/6/15 |          hxxps://toe-todesk[.]com[.]cn          |   **仿冒 ToDesk、传播病毒**   |           hxxps://www[.]wqpgfq1wuj[.]com/down6622            |                            无                            | Z567 |
+| 2026/6/15 |          hxxps://www[.]todeskkb[.]com           |        **仿冒 ToDesk**        |                              无                              |                            无                            | Z568 |
+| 2026/6/15 |       hxxps://www[.]todesk-cc[.]com[.]cn        |   **仿冒 ToDesk、传播病毒**   |     hxxps://www[.]todesk-cc[.]com[.]cn/todesk3[.]8[.]zip     |                            无                            | Z569 |
 |  ——————   |              ————————————————————               |        ———————————————        |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
