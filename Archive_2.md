@@ -586,6 +586,8 @@
 | 2026/6/15 |           hxxps://oray-win[.]com[.]cn           |   **仿冒向日葵、传播病毒**    | hxxps://filedown615[.]oss-cn-hongkong[.]aliyuncs[.]com/inst_downloader[.]zip |                            无                            | Z574 |
 | 2026/6/16 |     hxxps://www[.]velnix703[.]com/downs245      |       **传播银狐病毒**        |                       有，载荷提取失败                       |                            无                            | Z575 |
 | 2026/6/16 |          hxxps://wegame-pc[.]com[.]cn           |   **仿冒 WeGame、传播病毒**   |                           同 Z575                            |                            无                            | Z576 |
+| 2026/6/16 |             hxxps://pc-wegame[.]cn              |   **仿冒 WeGame、传播病毒**   | hxxps://safewsd[.]oss-ap-southeast-1[.]aliyuncs[.]com/WeGameMiniLoader[.]std[.]7[.]06[.]27[.]1446[.]zip |                            无                            | Z577 |
+| 2026/6/16 |          hxxps://pc-wegame[.]com[.]cn           |   **仿冒 WeGame、传播病毒**   |                           同 Z577                            |                            无                            | Z578 |
 |  ——————   |              ————————————————————               |        ———————————————        |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
