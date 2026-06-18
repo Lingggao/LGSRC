@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 6 月 18 日 8:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 6 月 18 日 13:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 6 月 18 日，本中心已打击计算机病毒 / 恶意软件 1293 个、恶意网站 598 个，累计为潜在受害者规避经济损失约 5,495,250 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 6 月 18 日，本中心已打击计算机病毒 / 恶意软件 1294 个、恶意网站 598 个，累计为潜在受害者规避经济损失约 5,499,500 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;在对抗网络犯罪的崇高事业中，本中心仅承担了少量协调类工作。**恶意载荷从发现到清除，离不开国家有关部门、安全社区与研究员、杀毒软件厂商及威胁情报提供商的共同努力**。在此，谨向他们致以诚挚谢意。
 
@@ -87,7 +87,6 @@
 
 |   日期    |         文件名          |           检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :---------------------: | :----------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/6/15 |      todesk3.8.exe      |        **Shelm**         | 5785b61c18de6770c84be0bd15bbc697f6d0e890ea542f2f35dee2549e0c6255 | 4cce9b69-e8bb-4df0-b660-36396e37bbcb | [VirusTotal](https://www.virustotal.com/gui/file/5785b61c18de6770c84be0bd15bbc697f6d0e890ea542f2f35dee2549e0c6255) (24) |                              无                              | 1274 |
 | 2026/6/15 |  Todesk-4.7.9.2X64.exe  | **银狐 (SilverFox.sa)**  | 85ecc335b0bcf20de87c3ec024cde2c8c88067a254910dc7bb7b20d4409179c6 | ab2189ee-9bb5-4d46-96b6-87217a014cca | [VirusTotal](https://www.virustotal.com/gui/file/85ecc335b0bcf20de87c3ec024cde2c8c88067a254910dc7bb7b20d4409179c6) (3) |                              无                              | 1275 |
 | 2026/6/15 |        lldb.dll         |      **Cybercrime**      | 9d6a9fddacc6faf627273a059dfb3ad2a8cabf6cfa21534a75a69b7dc8a8edea | 03d64e4f-1d9b-4127-bf6d-0a6e3bb72f09 | [VirusTotal](https://www.virustotal.com/gui/file/9d6a9fddacc6faf627273a059dfb3ad2a8cabf6cfa21534a75a69b7dc8a8edea) (2) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/9d6a9fddacc6faf627273a059dfb3ad2a8cabf6cfa21534a75a69b7dc8a8edea) | 1276 |
 | 2026/6/15 | Telegram.6.9.1-64x.exe  |   **银狐 (SilverFox)**   | 73dfaa2b05158f8f827fc4af9988d8959e7b6d47dc5a42f00c07771c4537ecc2 | 7e712418-00d4-400d-ab0d-f714e4e7b552 | [VirusTotal](https://www.virustotal.com/gui/file/73dfaa2b05158f8f827fc4af9988d8959e7b6d47dc5a42f00c07771c4537ecc2) (10) |                              无                              | 1277 |
@@ -107,6 +106,7 @@
 | 2026/6/18 |    Quark···0616.exe     | **银狐 (SilverFox.sa)**  | 1a2312f2bace5d7c64adfc28dba89360fbdde0d680ba785cfb5a3ef4ad169764 | 41487f1b-ddb6-4323-bb47-c9c5b977329e | [VirusTotal](https://www.virustotal.com/gui/file/1a2312f2bace5d7c64adfc28dba89360fbdde0d680ba785cfb5a3ef4ad169764) (3) |                              无                              | 1291 |
 | 2026/6/18 |   quarkPC···6.857.exe   |   **银狐 (SilverFox)**   | 0fb2a4a9e5a714b605354bc6e59a6b1f23b94e3743dbc1fb9f86799450d27fbe | a8fbafeb-79b3-486e-8bf4-19c4034e7eed | [VirusTotal](https://www.virustotal.com/gui/file/0fb2a4a9e5a714b605354bc6e59a6b1f23b94e3743dbc1fb9f86799450d27fbe) (10) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/0fb2a4a9e5a714b605354bc6e59a6b1f23b94e3743dbc1fb9f86799450d27fbe) | 1292 |
 | 2026/6/18 | WPS_Office_36859···.exe |   **银狐 (SilverFox)**   | 006aa1b94748e09cdbbf1db9a07b87b52e2689553843384dd1808383c13601a0 | ff5413f9-c278-4326-92e5-5d391cbb735e | [VirusTotal](https://www.virustotal.com/gui/file/006aa1b94748e09cdbbf1db9a07b87b52e2689553843384dd1808383c13601a0) (4) |                              无                              | 1293 |
+| 2026/6/18 |      explorer.exe       | **银狐 (SilverFox.sa)**  | 77e89f5a5e5d40bff8894fa36ab166e2ce699cfd4ad263f1db2e229764f53206 | 1af7e758-2add-4de9-aeec-2f919e08009a | [VirusTotal](https://www.virustotal.com/gui/file/77e89f5a5e5d40bff8894fa36ab166e2ce699cfd4ad263f1db2e229764f53206) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/77e89f5a5e5d40bff8894fa36ab166e2ce699cfd4ad263f1db2e229764f53206) | 1294 |
 |  ——————   |      ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
