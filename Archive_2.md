@@ -595,6 +595,9 @@
 | 2026/6/16 |      hxxps://qudongjingling-pc[.]com[.]cn       |  **仿冒驱动精灵、传播病毒**   |                           同 Z575                            |                            无                            | Z583 |
 | 2026/6/16 |        hxxps://cn-drivergenius[.]hl[.]cn        |  **仿冒驱动精灵、传播病毒**   |                           同 Z580                            |                            无                            | Z584 |
 | 2026/6/16 |          hxxps://qudong-elf[.]com[.]cn          |  **仿冒驱动精灵、传播病毒**   |                           同 Z575                            |                            无                            | Z585 |
+| 2026/6/16 |         hxxps://ai-jingling[.]com[.]cn          |  **仿冒驱动精灵、传播病毒**   |                           同 Z575                            |                            无                            | Z586 |
+| 2026/6/17 |         hxxps://apps-anydesk[.]com[.]cn         |  **仿冒 AnyDesk、传播病毒**   | hxxps://www[.]weurhgbakbvs-oss[.]top/anydesk_v1[.]1_x64_win[.]zip |                            无                            | Z587 |
+| 2026/6/17 |          hxxps://en-anydesk[.]com[.]cn          |       **仿冒 AnyDesk**        |                              无                              |                            无                            | Z588 |
 |  ——————   |              ————————————————————               |        ———————————————        |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
