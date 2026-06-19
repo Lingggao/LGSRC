@@ -69,7 +69,7 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 6 月 20 日 5:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 6 月 20 日 6:00 (GMT+8)
 
 &emsp;&emsp;**截至 2026 年 6 月 20 日，本中心已打击计算机病毒 / 恶意软件 1301 个、恶意网站 611 个，累计为潜在受害者规避经济损失约 5,529,250 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
@@ -148,6 +148,8 @@
 > [!NOTE]
 >
 > &emsp;只显示最近约 20 条数据，更早数据详见 LGSRC/[Archive_2.md](https://github.com/Lingggao/LGSRC/blob/main/Archive_2.md) (恶意网站归档)。
+>
+> &emsp;仅作留存，暂时无暇核实与处理的网站详见 LGSRC/[Archive_3.md](https://github.com/Lingggao/LGSRC/blob/main/Archive_3.md) (仅记录，未核实，未打击)。
 
 ## 交流与合作
 
