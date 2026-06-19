@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 6 月 20 日 2:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 6 月 20 日 5:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 6 月 20 日，本中心已打击计算机病毒 / 恶意软件 1301 个、恶意网站 609 个，累计为潜在受害者规避经济损失约 5,529,250 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 6 月 20 日，本中心已打击计算机病毒 / 恶意软件 1301 个、恶意网站 611 个，累计为潜在受害者规避经济损失约 5,529,250 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;在对抗网络犯罪的崇高事业中，本中心仅承担了少量协调类工作。**恶意载荷从发现到清除，离不开国家有关部门、安全社区与研究员、杀毒软件厂商及威胁情报提供商的共同努力**。在此，谨向他们致以诚挚谢意。
 
@@ -121,29 +121,29 @@
 >
 > &emsp;为确保安全，网站地址将用 “hxxps://” 与 “[.]” 进行替换。**切勿尝试访问表格中列出的任何网址**。
 
-|   日期    |                             URL                              |              类别              |                           有效载荷                           |  URLhaus   | 编号 |
-| :-------: | :----------------------------------------------------------: | :----------------------------: | :----------------------------------------------------------: | :--------: | :--: |
-| 2026/6/17 |              hxxps://web-2345browser[.]com[.]cn              | **仿冒 2345 浏览器、传播病毒** |            hxxps://www[.]velnix703[.]com/downs245            |     无     | Z590 |
-| 2026/6/18 |                 hxxps://uc-quark[.]com[.]cn                  |     **仿冒夸克、传播病毒**     | hxxps://download-dowon-firefox[.]com[.]cn/donwnload/Quark_win_6[.]8[.]0[.]802[.]zip |     无     | Z591 |
-| 2026/6/18 |                 hxxps://en-quark[.]com[.]cn                  |     **仿冒夸克、传播病毒**     |                           同 Z591                            |     无     | Z592 |
-| 2026/6/18 |             hxxps://www[.]quark-drive[.]hl[.]cn              |     **仿冒夸克、传播病毒**     | hxxps://mypornomovies[.]com/down[.]php/264dbf2a579f59cc6249eb0153ad2ea8[.]zip |     无     | Z593 |
-| 2026/6/18 |                  hxxps://cn-quark[.]hl[.]cn                  |     **仿冒夸克、传播病毒**     |                   hxxps://dl[.]tpn2n[.]com                   |     无     | Z594 |
-| 2026/6/18 |               hxxps://browser-quark[.]hl[.]cn                |     **仿冒夸克、传播病毒**     |            hxxps://www[.]velnix703[.]com/downs245            |     无     | Z595 |
-| 2026/6/18 |             hxxps://www[.]kuake-wpan[.]com[.]cn              |     **仿冒夸克、传播病毒**     |                           同 Z595                            |     无     | Z596 |
-| 2026/6/18 |                   hxxps://wps-editor[.]com                   |     **仿冒 WPS、传播病毒**     | hxxps://bddownload[.]oss-cn-hongkong[.]aliyuncs[.]com/x64_WPS_Office_36859_Setup[.]zip |     无     | Z597 |
-| 2026/6/18 |                hxxps://www[.]wpsws[.]com[.]cn                |     **仿冒 WPS、传播病毒**     | hxxps://download[.]xu619[.]top/wps_wid[.]cid-457274487_patched[.]zip |     无     | Z598 |
-| 2026/6/19 |                 hxxps://ca-canva[.]com[.]cn                  | **仿冒 Canva 可画、传播病毒**  |             hxxps://www[.]hed6g8u[.]com/installd             |     无     | Z599 |
-| 2026/6/19 |                 hxxps://hk-canva[.]com[.]cn                  | **仿冒 Canva 可画、传播病毒**  |                           同 Z599                            |     无     | Z600 |
-| 2026/6/19 |             hxxps://www[.]hed6g8u[.]com/installd             |        **传播银狐病毒**        |                       有，载荷提取失败                       |     无     | Z601 |
-| 2026/6/19 |                hxxps://app-uuyccn[.]com[.]cn                 |      **仿冒网易 UU 远程**      |                              无                              |     无     | Z602 |
-| 2026/6/19 |             hxxps://apps-uuyuancheng[.]com[.]cn              |      **仿冒网易 UU 远程**      |                              无                              |     无     | Z603 |
-| 2026/6/19 |             hxxps://www[.]app-huorong[.]com[.]cn             |     **仿冒火绒、传播病毒**     |      hxxps://down[.]app-huorong[.]cn/HR_AQapp_x64[.]zip      |     无     | Z604 |
-| 2026/6/19 |                hxxps://huorong-app[.]com[.]cn                |     **仿冒火绒、传播病毒**     | hxxps://down[.]app-huorong[.]cn/sys_HR_allapp_x64[.]exe_EANej[.]zip |     无     | Z605 |
-| 2026/6/19 |               hxxps://www[.]qqyinle[.]com[.]cn               |   **仿冒 QQ 音乐、传播病毒**   | hxxps://qqyyxert[.]tos-cn-guangzhou[.]volces[.]com/QQMusic_Setup_2228[.]zip |     无     | Z606 |
-| 2026/6/19 |               hxxps://www[.]ppmuisc[.]com[.]cn               |   **仿冒 QQ 音乐、传播病毒**   |                           同 Z606                            |     无     | Z607 |
-| 2026/6/19 | hxxps://download[.]lianxitg[.]adseo[.]com[.]cn/tgadseo/download[.]php?id=soft_1781269954_488 |        **传播银狐病毒**        |                           同 Z606                            |     无     | Z608 |
-| 2026/6/20 |                  hxxps://seeo-pc[.]com[.]cn                  |   **仿冒希沃白板、传播病毒**   |             hxxps://www[.]hed6g8u[.]com/installd             |     无     | 609  |
-|  ——————   |                     ————————————————————                     |        ———————————————         |                ——————————————————————————————                | —————————— | ———  |
+|   日期    |                             URL                              |             类别              |                           有效载荷                           |  URLhaus   | 编号 |
+| :-------: | :----------------------------------------------------------: | :---------------------------: | :----------------------------------------------------------: | :--------: | :--: |
+| 2026/6/18 |                 hxxps://en-quark[.]com[.]cn                  |    **仿冒夸克、传播病毒**     |                           同 Z591                            |     无     | Z592 |
+| 2026/6/18 |             hxxps://www[.]quark-drive[.]hl[.]cn              |    **仿冒夸克、传播病毒**     | hxxps://mypornomovies[.]com/down[.]php/264dbf2a579f59cc6249eb0153ad2ea8[.]zip |     无     | Z593 |
+| 2026/6/18 |                  hxxps://cn-quark[.]hl[.]cn                  |    **仿冒夸克、传播病毒**     |                   hxxps://dl[.]tpn2n[.]com                   |     无     | Z594 |
+| 2026/6/18 |               hxxps://browser-quark[.]hl[.]cn                |    **仿冒夸克、传播病毒**     |            hxxps://www[.]velnix703[.]com/downs245            |     无     | Z595 |
+| 2026/6/18 |             hxxps://www[.]kuake-wpan[.]com[.]cn              |    **仿冒夸克、传播病毒**     |                           同 Z595                            |     无     | Z596 |
+| 2026/6/18 |                   hxxps://wps-editor[.]com                   |    **仿冒 WPS、传播病毒**     | hxxps://bddownload[.]oss-cn-hongkong[.]aliyuncs[.]com/x64_WPS_Office_36859_Setup[.]zip |     无     | Z597 |
+| 2026/6/18 |                hxxps://www[.]wpsws[.]com[.]cn                |    **仿冒 WPS、传播病毒**     | hxxps://download[.]xu619[.]top/wps_wid[.]cid-457274487_patched[.]zip |     无     | Z598 |
+| 2026/6/19 |                 hxxps://ca-canva[.]com[.]cn                  | **仿冒 Canva 可画、传播病毒** |             hxxps://www[.]hed6g8u[.]com/installd             |     无     | Z599 |
+| 2026/6/19 |                 hxxps://hk-canva[.]com[.]cn                  | **仿冒 Canva 可画、传播病毒** |                           同 Z599                            |     无     | Z600 |
+| 2026/6/19 |             hxxps://www[.]hed6g8u[.]com/installd             |       **传播银狐病毒**        |                       有，载荷提取失败                       |     无     | Z601 |
+| 2026/6/19 |                hxxps://app-uuyccn[.]com[.]cn                 |     **仿冒网易 UU 远程**      |                              无                              |     无     | Z602 |
+| 2026/6/19 |             hxxps://apps-uuyuancheng[.]com[.]cn              |     **仿冒网易 UU 远程**      |                              无                              |     无     | Z603 |
+| 2026/6/19 |             hxxps://www[.]app-huorong[.]com[.]cn             |    **仿冒火绒、传播病毒**     |      hxxps://down[.]app-huorong[.]cn/HR_AQapp_x64[.]zip      |     无     | Z604 |
+| 2026/6/19 |                hxxps://huorong-app[.]com[.]cn                |    **仿冒火绒、传播病毒**     | hxxps://down[.]app-huorong[.]cn/sys_HR_allapp_x64[.]exe_EANej[.]zip |     无     | Z605 |
+| 2026/6/19 |               hxxps://www[.]qqyinle[.]com[.]cn               |  **仿冒 QQ 音乐、传播病毒**   | hxxps://qqyyxert[.]tos-cn-guangzhou[.]volces[.]com/QQMusic_Setup_2228[.]zip |     无     | Z606 |
+| 2026/6/19 |               hxxps://www[.]ppmuisc[.]com[.]cn               |  **仿冒 QQ 音乐、传播病毒**   |                           同 Z606                            |     无     | Z607 |
+| 2026/6/19 | hxxps://download[.]lianxitg[.]adseo[.]com[.]cn/tgadseo/download[.]php?id=soft_1781269954_488 |       **传播银狐病毒**        |                           同 Z606                            |     无     | Z608 |
+| 2026/6/20 |                  hxxps://seeo-pc[.]com[.]cn                  |  **仿冒希沃白板、传播病毒**   |             hxxps://www[.]hed6g8u[.]com/installd             |     无     | 609  |
+| 2026/6/20 |                hxxps://fuxinpdf-pc[.]com[.]cn                |  **仿冒福昕 PDF、传播病毒**   |                            同 609                            |     无     | 610  |
+| 2026/6/20 |                 hxxps://360-unzip[.]com[.]cn                 |  **仿冒 360 压缩、传播病毒**  |                            同 609                            |     无     | 611  |
+|  ——————   |                     ————————————————————                     |        ———————————————        |                ——————————————————————————————                | —————————— | ———  |
 
 > [!NOTE]
 >
@@ -161,7 +161,7 @@
 
 &emsp;&emsp;[《常被 “银狐” 犯罪团伙仿冒的软件列表及注意事项》](https://github.com/Lingggao/LGSRC/blob/main/Documents/List.md)
 
-&emsp;&emsp;[银狐 IOC 情报合集 (VirusTotal)](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) - 实时更新，已收录 534 项情报 (文件、URL、域名、IP)
+&emsp;&emsp;[银狐 IOC 情报合集 (VirusTotal)](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) - 实时更新，已收录 536 项情报 (文件、URL、域名、IP)
 
 ---
 
