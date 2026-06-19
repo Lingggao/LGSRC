@@ -588,6 +588,9 @@
 | 2026/6/16 |          hxxps://wegame-pc[.]com[.]cn           |   **仿冒 WeGame、传播病毒**   |                           同 Z575                            |                            无                            | Z576 |
 | 2026/6/16 |             hxxps://pc-wegame[.]cn              |   **仿冒 WeGame、传播病毒**   | hxxps://safewsd[.]oss-ap-southeast-1[.]aliyuncs[.]com/WeGameMiniLoader[.]std[.]7[.]06[.]27[.]1446[.]zip |                            无                            | Z577 |
 | 2026/6/16 |          hxxps://pc-wegame[.]com[.]cn           |   **仿冒 WeGame、传播病毒**   |                           同 Z577                            |                            无                            | Z578 |
+| 2026/6/16 |      hxxps://www[.]bitcomet-zh[.]com[.]cn       |  **仿冒比特彗星、传播病毒**   |                           同 Z575                            |                            无                            | Z579 |
+| 2026/6/16 |        hxxps://www[.]pc-sysceo[.]hl[.]cn        |  **仿冒驱动总裁、传播病毒**   |                   hxxps://dl[.]tpn2n[.]com                   |                            无                            | Z580 |
+| 2026/6/16 |       hxxps://pc-drivergenius[.]com[.]cn        |  **仿冒驱动精灵、传播病毒**   |                           同 Z580                            |                            无                            | Z581 |
 |  ——————   |              ————————————————————               |        ———————————————        |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
