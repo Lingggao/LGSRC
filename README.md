@@ -69,9 +69,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 6 月 19 日 15:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 6 月 19 日 16:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 6 月 19 日，本中心已打击计算机病毒 / 恶意软件 1297 个、恶意网站 601 个，累计为潜在受害者规避经济损失约 5,512,250 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 6 月 19 日，本中心已打击计算机病毒 / 恶意软件 1297 个、恶意网站 603 个，累计为潜在受害者规避经济损失约 5,512,250 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;在对抗网络犯罪的崇高事业中，本中心仅承担了少量协调类工作。**恶意载荷从发现到清除，离不开国家有关部门、安全社区与研究员、杀毒软件厂商及威胁情报提供商的共同努力**。在此，谨向他们致以诚挚谢意。
 
@@ -123,8 +123,6 @@
 
 |   日期    |                 URL                  |              类别              |                           有效载荷                           |  URLhaus   | 编号 |
 | :-------: | :----------------------------------: | :----------------------------: | :----------------------------------------------------------: | :--------: | :--: |
-| 2026/6/16 |     hxxps://qudong-c[.]com[.]cn      |   **仿冒驱动精灵、传播病毒**   | hxxps://pub-ad4e3a1af3ca4ac398bcb319f5932682[.]r2[.]dev/qudongjingling7[.]zip |     无     | Z582 |
-| 2026/6/16 | hxxps://qudongjingling-pc[.]com[.]cn |   **仿冒驱动精灵、传播病毒**   |                           同 Z575                            |     无     | Z583 |
 | 2026/6/16 |  hxxps://cn-drivergenius[.]hl[.]cn   |   **仿冒驱动精灵、传播病毒**   |                           同 Z580                            |     无     | Z584 |
 | 2026/6/16 |    hxxps://qudong-elf[.]com[.]cn     |   **仿冒驱动精灵、传播病毒**   |                           同 Z575                            |     无     | Z585 |
 | 2026/6/16 |    hxxps://ai-jingling[.]com[.]cn    |   **仿冒驱动精灵、传播病毒**   |                           同 Z575                            |     无     | Z586 |
@@ -143,6 +141,8 @@
 | 2026/6/19 |     hxxps://ca-canva[.]com[.]cn      | **仿冒 Canva 可画、传播病毒**  |             hxxps://www[.]hed6g8u[.]com/installd             |     无     | Z599 |
 | 2026/6/19 |     hxxps://hk-canva[.]com[.]cn      | **仿冒 Canva 可画、传播病毒**  |                           同 Z599                            |     无     | Z600 |
 | 2026/6/19 | hxxps://www[.]hed6g8u[.]com/installd |        **传播银狐病毒**        |                       有，载荷提取失败                       |     无     | Z601 |
+| 2026/6/19 |    hxxps://app-uuyccn[.]com[.]cn     |      **仿冒网易 UU 远程**      |                              无                              |     无     | Z602 |
+| 2026/6/19 | hxxps://apps-uuyuancheng[.]com[.]cn  |      **仿冒网易 UU 远程**      |                              无                              |     无     | Z603 |
 |  ——————   |         ————————————————————         |        ———————————————         |                ——————————————————————————————                | —————————— | ———  |
 
 > [!NOTE]

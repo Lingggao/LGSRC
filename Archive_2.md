@@ -591,6 +591,8 @@
 | 2026/6/16 |      hxxps://www[.]bitcomet-zh[.]com[.]cn       |  **仿冒比特彗星、传播病毒**   |                           同 Z575                            |                            无                            | Z579 |
 | 2026/6/16 |        hxxps://www[.]pc-sysceo[.]hl[.]cn        |  **仿冒驱动总裁、传播病毒**   |                   hxxps://dl[.]tpn2n[.]com                   |                            无                            | Z580 |
 | 2026/6/16 |       hxxps://pc-drivergenius[.]com[.]cn        |  **仿冒驱动精灵、传播病毒**   |                           同 Z580                            |                            无                            | Z581 |
+| 2026/6/16 |           hxxps://qudong-c[.]com[.]cn           |  **仿冒驱动精灵、传播病毒**   | hxxps://pub-ad4e3a1af3ca4ac398bcb319f5932682[.]r2[.]dev/qudongjingling7[.]zip |                            无                            | Z582 |
+| 2026/6/16 |      hxxps://qudongjingling-pc[.]com[.]cn       |  **仿冒驱动精灵、传播病毒**   |                           同 Z575                            |                            无                            | Z583 |
 |  ——————   |              ————————————————————               |        ———————————————        |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
