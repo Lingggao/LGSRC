@@ -50,26 +50,11 @@
 
 <img src="Images/Workflow_M.png" width = "80%" />
 
-**工作流程概述**
-
-1. 发现或获得疑似恶意软件样本
-2. 使用最新反病毒数据库，测试国内外主流杀毒软件能否查杀
-3. 若无法查杀，借助自动化工具开展前期研究
-4. 邀请 Microsoft 与 Kaspersky 安全研究员对样本进行人工分析
-5. 若确认为恶意软件，则向全球信息安全社区、杀毒软件厂商、威胁情报提供商共享相关信息
-6. (可选) 向国家有关部门提供线索
-7. (可选) 针对仿冒正规软件投放病毒事件，向受害企业方共享线索
-8. 将样本数据填入下方表格
-
 ---
 
 【**恶意网站**】
 
 <img src="Images/Workflow_W.png" width = "80%" />
-
-**工作流程概述**
-
-//
 
 ---
 
@@ -83,7 +68,7 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 6 月 21 日 1:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 6 月 21 日 2:00 (GMT+8)
 
 &emsp;&emsp;**截至 2026 年 6 月 21 日，本中心已打击计算机病毒 / 恶意软件 1303 个、恶意网站 611 个，累计为潜在受害者规避经济损失约 5,537,750 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
@@ -119,8 +104,8 @@
 | 2026/6/19 |   sys_HR···EANej.exe    |   **银狐 (SilverFox)**   | 19a17633e7c7d1c0cc58162c3faedffe3bc77a17c104277400c7b68ca9168fbd | dd65cbae-801f-4b9b-afe7-823ae361905b | [VirusTotal](https://www.virustotal.com/gui/file/19a17633e7c7d1c0cc58162c3faedffe3bc77a17c104277400c7b68ca9168fbd) (17) |                              无                              | 1299 |
 | 2026/6/19 |   QQMusic···2228.exe    |   **银狐 (SilverFox)**   | 7afc5d05dbb98352fb005c8d84a4b28f829488a9bc49c9de93c9f584793645da | 97629ae7-0577-4e8e-a114-939048566c74 | [VirusTotal](https://www.virustotal.com/gui/file/7afc5d05dbb98352fb005c8d84a4b28f829488a9bc49c9de93c9f584793645da) (4) |                              无                              | 1300 |
 | 2026/6/20 | ainstaller-86533005.exe |   **银狐 (SilverFox)**   | 200d9f5d041c870e69f73da32c753a69096742c33e2dab65299767ac31578267 | c02efd74-47df-464e-8d17-305da1461040 | [VirusTotal](https://www.virustotal.com/gui/file/200d9f5d041c870e69f73da32c753a69096742c33e2dab65299767ac31578267) (27) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/200d9f5d041c870e69f73da32c753a69096742c33e2dab65299767ac31578267) | 1301 |
-| 2026/6/20 | a-software85650001.exe  | **银狐 (SilverFox.bm)**  | 0ecd4eed4e6933a51dbedfb4927b330135e0df7957e4e1eb6c6cee939a5bdec4 | 9ac052bc-eb39-41af-962f-4e7da06bcc43 | [VirusTotal](https://www.virustotal.com/gui/file/0ecd4eed4e6933a51dbedfb4927b330135e0df7957e4e1eb6c6cee939a5bdec4) (24) |                  [MalwareBazaar Database]()                  | 1302 |
-| 2026/6/20 | a-software85650002.exe  | **银狐 (SilverFox.bm)**  | a1bebf922ec25ea218d165605716c37a5536b2b046fef5462b057594297db2ff | 0eab789f-ffee-41d9-8e63-21e4a2e39874 | [VirusTotal](https://www.virustotal.com/gui/file/a1bebf922ec25ea218d165605716c37a5536b2b046fef5462b057594297db2ff) (24) |                  [MalwareBazaar Database]()                  | 1303 |
+| 2026/6/20 | a-software85650001.exe  | **银狐 (SilverFox.bm)**  | 0ecd4eed4e6933a51dbedfb4927b330135e0df7957e4e1eb6c6cee939a5bdec4 | 9ac052bc-eb39-41af-962f-4e7da06bcc43 | [VirusTotal](https://www.virustotal.com/gui/file/0ecd4eed4e6933a51dbedfb4927b330135e0df7957e4e1eb6c6cee939a5bdec4) (24) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/0ecd4eed4e6933a51dbedfb4927b330135e0df7957e4e1eb6c6cee939a5bdec4) | 1302 |
+| 2026/6/20 | a-software85650002.exe  | **银狐 (SilverFox.bm)**  | a1bebf922ec25ea218d165605716c37a5536b2b046fef5462b057594297db2ff | 0eab789f-ffee-41d9-8e63-21e4a2e39874 | [VirusTotal](https://www.virustotal.com/gui/file/a1bebf922ec25ea218d165605716c37a5536b2b046fef5462b057594297db2ff) (24) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/a1bebf922ec25ea218d165605716c37a5536b2b046fef5462b057594297db2ff) | 1303 |
 |  ——————   |      ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
