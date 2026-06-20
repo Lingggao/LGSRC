@@ -48,13 +48,13 @@
 
 【**计算机病毒 / 恶意软件**】
 
-<img src="Images/Workflow_M.png" width = "90%" />
+<img src="Images/Workflow_M.png" width = "100%" />
 
 ---
 
 【**恶意网站**】
 
-<img src="Images/Workflow_W.png" width = "90%" />
+<img src="Images/Workflow_W.png" width = "100%" />
 
 ---
 
