@@ -601,6 +601,10 @@
 | 2026/6/17 |           hxxps://aanydesk[.]com[.]cn           |        **仿冒 AnyDesk**        |                              无                              |                            无                            | Z589 |
 | 2026/6/17 |       hxxps://web-2345browser[.]com[.]cn        | **仿冒 2345 浏览器、传播病毒** |            hxxps://www[.]velnix703[.]com/downs245            |                            无                            | Z590 |
 | 2026/6/18 |           hxxps://uc-quark[.]com[.]cn           |     **仿冒夸克、传播病毒**     | hxxps://download-dowon-firefox[.]com[.]cn/donwnload/Quark_win_6[.]8[.]0[.]802[.]zip |                            无                            | Z591 |
+| 2026/6/18 |           hxxps://en-quark[.]com[.]cn           |     **仿冒夸克、传播病毒**     |                           同 Z591                            |                            无                            | Z592 |
+| 2026/6/18 |       hxxps://www[.]quark-drive[.]hl[.]cn       |     **仿冒夸克、传播病毒**     | hxxps://mypornomovies[.]com/down[.]php/264dbf2a579f59cc6249eb0153ad2ea8[.]zip |                            无                            | Z593 |
+| 2026/6/18 |           hxxps://cn-quark[.]hl[.]cn            |     **仿冒夸克、传播病毒**     |                   hxxps://dl[.]tpn2n[.]com                   |                            无                            | Z594 |
+| 2026/6/18 |         hxxps://browser-quark[.]hl[.]cn         |     **仿冒夸克、传播病毒**     |            hxxps://www[.]velnix703[.]com/downs245            |                            无                            | Z595 |
 |  ——————   |              ————————————————————               |        ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
