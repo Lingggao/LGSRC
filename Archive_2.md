@@ -608,6 +608,8 @@
 | 2026/6/18 |       hxxps://www[.]kuake-wpan[.]com[.]cn       |     **仿冒夸克、传播病毒**     |                           同 Z595                            |                            无                            | Z596 |
 | 2026/6/18 |            hxxps://wps-editor[.]com             |     **仿冒 WPS、传播病毒**     | hxxps://bddownload[.]oss-cn-hongkong[.]aliyuncs[.]com/x64_WPS_Office_36859_Setup[.]zip |                            无                            | Z597 |
 | 2026/6/18 |         hxxps://www[.]wpsws[.]com[.]cn          |     **仿冒 WPS、传播病毒**     | hxxps://download[.]xu619[.]top/wps_wid[.]cid-457274487_patched[.]zip |                            无                            | Z598 |
+| 2026/6/19 |           hxxps://ca-canva[.]com[.]cn           | **仿冒 Canva 可画、传播病毒**  |             hxxps://www[.]hed6g8u[.]com/installd             |                            无                            | Z599 |
+| 2026/6/19 |           hxxps://hk-canva[.]com[.]cn           | **仿冒 Canva 可画、传播病毒**  |                           同 Z599                            |                            无                            | Z600 |
 |  ——————   |              ————————————————————               |        ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---

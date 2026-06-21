@@ -11,6 +11,7 @@
 > &emsp;为确保安全，网站地址将用 “[.]” 进行替换。**切勿尝试访问列出的任何网址**。
 
 ```
+**2026/6/20**
 www[.]aliyunpan-zh[.]com[.]cn
 dongfang-zh[.]com[.]cn
 www[.]dongfang-zh[.]com[.]cn
@@ -140,6 +141,10 @@ www[.]jinshan-cibapc[.]com[.]cn
 cad-zh[.]com[.]cn
 www[.]qudong-web[.]com[.]cn
 www[.]yasuo-dashi[.]com[.]cn
+
+**2026/6/22**
+intl-binance[.]com[.]cn
+word-wpsoffice[.]com[.]cn
 ```
 
 ---
