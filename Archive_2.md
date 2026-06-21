@@ -605,6 +605,9 @@
 | 2026/6/18 |       hxxps://www[.]quark-drive[.]hl[.]cn       |     **仿冒夸克、传播病毒**     | hxxps://mypornomovies[.]com/down[.]php/264dbf2a579f59cc6249eb0153ad2ea8[.]zip |                            无                            | Z593 |
 | 2026/6/18 |           hxxps://cn-quark[.]hl[.]cn            |     **仿冒夸克、传播病毒**     |                   hxxps://dl[.]tpn2n[.]com                   |                            无                            | Z594 |
 | 2026/6/18 |         hxxps://browser-quark[.]hl[.]cn         |     **仿冒夸克、传播病毒**     |            hxxps://www[.]velnix703[.]com/downs245            |                            无                            | Z595 |
+| 2026/6/18 |       hxxps://www[.]kuake-wpan[.]com[.]cn       |     **仿冒夸克、传播病毒**     |                           同 Z595                            |                            无                            | Z596 |
+| 2026/6/18 |            hxxps://wps-editor[.]com             |     **仿冒 WPS、传播病毒**     | hxxps://bddownload[.]oss-cn-hongkong[.]aliyuncs[.]com/x64_WPS_Office_36859_Setup[.]zip |                            无                            | Z597 |
+| 2026/6/18 |         hxxps://www[.]wpsws[.]com[.]cn          |     **仿冒 WPS、传播病毒**     | hxxps://download[.]xu619[.]top/wps_wid[.]cid-457274487_patched[.]zip |                            无                            | Z598 |
 |  ——————   |              ————————————————————               |        ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
