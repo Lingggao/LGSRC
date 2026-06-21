@@ -140,8 +140,8 @@
 | 2026/6/22 |              hxxps://updliveing[.]com/21install              |      **传播银狐病毒**       |                       有，载荷提取失败                       |     无     | 616  |
 | 2026/6/22 |                      hxxps://hmcl[.]app                      |   **仿冒 HMCL、传播病毒**   | hxxps://get-download[.]opik[.]net/hmcl/934034dxff511uzvfcbf1eb |     无     | 617  |
 | 2026/6/22 |                      hxxps://hmcl[.]io                       |   **仿冒 HMCL、传播病毒**   | hxxps://get-download[.]opik[.]net/HMCL/g8zfwkxpe48re6i8cbo57k |     无     | 618  |
-| 2026/6/22 |                 https://pro-dingding.com.cn                  |   **仿冒钉钉、传播病毒**    | https://dingtalk.main-zh-huatihui.com/download/dingtalk_downloader_1448.zip |     无     | 619  |
-| 2026/6/22 |                  https://ch-dingdin.com.cn                   |   **仿冒钉钉、传播病毒**    | hxxps://download-dingg-ding-com[.]com[.]cn/donwnload/dingTtalkx64_down[.]zip |     无     | 620  |
+| 2026/6/22 |               hxxps://pro-dingding[.]com[.]cn                |   **仿冒钉钉、传播病毒**    | hxxps://dingtalk.main-zh-huatihui.com/download/dingtalk_downloader_1448.zip |     无     | 619  |
+| 2026/6/22 |                hxxps://ch-dingdin[.]com[.]cn                 |   **仿冒钉钉、传播病毒**    | hxxps://download-dingg-ding-com[.]com[.]cn/donwnload/dingTtalkx64_down[.]zip |     无     | 620  |
 |  ——————   |                     ————————————————————                     |       ———————————————       |                ——————————————————————————————                | —————————— | ———  |
 
 > [!NOTE]
