@@ -610,6 +610,7 @@
 | 2026/6/18 |         hxxps://www[.]wpsws[.]com[.]cn          |     **仿冒 WPS、传播病毒**     | hxxps://download[.]xu619[.]top/wps_wid[.]cid-457274487_patched[.]zip |                            无                            | Z598 |
 | 2026/6/19 |           hxxps://ca-canva[.]com[.]cn           | **仿冒 Canva 可画、传播病毒**  |             hxxps://www[.]hed6g8u[.]com/installd             |                            无                            | Z599 |
 | 2026/6/19 |           hxxps://hk-canva[.]com[.]cn           | **仿冒 Canva 可画、传播病毒**  |                           同 Z599                            |                            无                            | Z600 |
+| 2026/6/19 |      hxxps://www[.]hed6g8u[.]com/installd       |        **传播银狐病毒**        |                       有，载荷提取失败                       |                            无                            | Z601 |
 |  ——————   |              ————————————————————               |        ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
