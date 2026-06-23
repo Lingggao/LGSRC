@@ -611,6 +611,9 @@
 | 2026/6/19 |           hxxps://ca-canva[.]com[.]cn           | **仿冒 Canva 可画、传播病毒**  |             hxxps://www[.]hed6g8u[.]com/installd             |                            无                            | Z599 |
 | 2026/6/19 |           hxxps://hk-canva[.]com[.]cn           | **仿冒 Canva 可画、传播病毒**  |                           同 Z599                            |                            无                            | Z600 |
 | 2026/6/19 |      hxxps://www[.]hed6g8u[.]com/installd       |        **传播银狐病毒**        |                       有，载荷提取失败                       |                            无                            | Z601 |
+| 2026/6/19 |          hxxps://app-uuyccn[.]com[.]cn          |      **仿冒网易 UU 远程**      |                              无                              |                            无                            | Z602 |
+| 2026/6/19 |       hxxps://apps-uuyuancheng[.]com[.]cn       |      **仿冒网易 UU 远程**      |                              无                              |                            无                            | Z603 |
+| 2026/6/19 |      hxxps://www[.]app-huorong[.]com[.]cn       |     **仿冒火绒、传播病毒**     |      hxxps://down[.]app-huorong[.]cn/HR_AQapp_x64[.]zip      |                            无                            | Z604 |
 |  ——————   |              ————————————————————               |        ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
