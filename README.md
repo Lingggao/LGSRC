@@ -68,9 +68,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 6 月 24 日 12:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 6 月 24 日 15:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 6 月 24 日，本中心已打击计算机病毒 / 恶意软件 1326 个、恶意网站 627 个，累计为潜在受害者规避经济损失约 5,635,500 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 6 月 24 日，本中心已打击计算机病毒 / 恶意软件 1327 个、恶意网站 634 个，累计为潜在受害者规避经济损失约 5,639,750 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;在对抗网络犯罪的崇高事业中，本中心仅承担了少量协调类工作。**恶意载荷从发现到清除，离不开国家有关部门、安全社区与研究员、杀毒软件厂商及威胁情报提供商的共同努力**。在此，谨向他们致以诚挚谢意。
 
@@ -86,7 +86,6 @@
 
 |   日期    |          文件名          |          检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :----------------------: | :---------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/6/21 |   Sunlogin···0618.exe    | **银狐 (SilverFox.sa)** | 302a593dbaa913dda0fcb97cb8197dba4add0175da51532f6baf9a7ee6699c26 | f0ad25eb-678f-4e5b-9feb-d4751185e421 | [VirusTotal](https://www.virustotal.com/gui/file/302a593dbaa913dda0fcb97cb8197dba4add0175da51532f6baf9a7ee6699c26) (12) |                              无                              | 1307 |
 | 2026/6/21 |  Todesk-4.7.9.2X64.exe   | **银狐 (SilverFox.sa)** | 37ef2e9d1fbeb8ea1e34266b96cbacfd0494800600a10a1104d8947072369b7b | 6ba0c01b-79c7-4b5a-abe4-a36945e6665c | [VirusTotal](https://www.virustotal.com/gui/file/37ef2e9d1fbeb8ea1e34266b96cbacfd0494800600a10a1104d8947072369b7b) (16) |                              无                              | 1308 |
 | 2026/6/21 |   ToDsoerd···6.3.1.exe   |  **银狐 (SilverFox)**   | fc95e9fe566c1fd69701db0aa2efbb546c9705631caa847e44d53a92bcadd826 | 3bc5caff-cef2-4f6f-bcd3-19df9ae8f8c4 | [VirusTotal](https://www.virustotal.com/gui/file/fc95e9fe566c1fd69701db0aa2efbb546c9705631caa847e44d53a92bcadd826) (29) |                              无                              | 1309 |
 | 2026/6/21 |   setup-yifanyi688.exe   |  **银狐 (SilverFox)**   | 8268e2ea861737113f700cc0a95bca54067bb50697d27cd3db3cfc185fc18508 | 7da9ceb5-c48a-4486-afa4-cf971fb8fdd6 | [VirusTotal](https://www.virustotal.com/gui/file/8268e2ea861737113f700cc0a95bca54067bb50697d27cd3db3cfc185fc18508) (4) |                              无                              | 1310 |
@@ -106,6 +105,7 @@
 | 2026/6/23 | Clash.Verge_2.5.1···.msi |  **银狐 (SilverFox)**   | b20c4775ddd13ae28302dd31a4248abdf96b7e92cf70c6e02b0a534a2c76da8e | 9f7a7edb-b6da-4642-acca-402c8056e19b | [VirusTotal](https://www.virustotal.com/gui/file/b20c4775ddd13ae28302dd31a4248abdf96b7e92cf70c6e02b0a534a2c76da8e) (18) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b20c4775ddd13ae28302dd31a4248abdf96b7e92cf70c6e02b0a534a2c76da8e) | 1324 |
 | 2026/6/23 |   Clash-0.8.94···.msi    |  **银狐 (SilverFox)**   | 8b3564883624a93b00cd7d65c106571361c0058235f34937b3da6142dc5864a4 | f2c2f227-10ab-4b76-8810-b72f5d70a5de | [VirusTotal](https://www.virustotal.com/gui/file/8b3564883624a93b00cd7d65c106571361c0058235f34937b3da6142dc5864a4) (16) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/8b3564883624a93b00cd7d65c106571361c0058235f34937b3da6142dc5864a4) | 1325 |
 | 2026/6/24 |  a-software85659001.msi  |  **银狐 (SilverFox)**   | 1516ab566efef411a809b5220ef748c79ee0199e2340b3576168204b59443bae | 24a1d270-4052-418b-ae8a-97c21ee638b5 | [VirusTotal](https://www.virustotal.com/gui/file/1516ab566efef411a809b5220ef748c79ee0199e2340b3576168204b59443bae) (17) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/1516ab566efef411a809b5220ef748c79ee0199e2340b3576168204b59443bae) | 1326 |
+| 2026/6/24 |    sys_HR···EANej.exe    |  **银狐 (SilverFox)**   | 896819d1ffb4128d828300b39444b5c48fdfb4ce8398fd8470eccbe2d7ed6151 | 0fb73536-df50-433e-aed8-3a980146ede3 | [VirusTotal](https://www.virustotal.com/gui/file/896819d1ffb4128d828300b39444b5c48fdfb4ce8398fd8470eccbe2d7ed6151) (7) |                              无                              | 1327 |
 |  ——————   |       ————————————       |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -120,29 +120,29 @@
 >
 > &emsp;为确保安全，网站地址将用 “hxxps://” 与 “[.]” 进行替换。**切勿尝试访问表格中列出的任何网址**。
 
-|   日期    |                             URL                              |            类别             |                           有效载荷                           |  URLhaus   | 编号 |
-| :-------: | :----------------------------------------------------------: | :-------------------------: | :----------------------------------------------------------: | :--------: | :--: |
-| 2026/6/19 | hxxps://download[.]lianxitg[.]adseo[.]com[.]cn/tgadseo/download[.]php?id=soft_1781269954_488 |      **传播银狐病毒**       |                           同 Z606                            |     无     | 608  |
-| 2026/6/20 |                  hxxps://seeo-pc[.]com[.]cn                  | **仿冒希沃白板、传播病毒**  |             hxxps://www[.]hed6g8u[.]com/installd             |     无     | 609  |
-| 2026/6/20 |                hxxps://fuxinpdf-pc[.]com[.]cn                | **仿冒福昕 PDF、传播病毒**  |                            同 609                            |     无     | 610  |
-| 2026/6/20 |                 hxxps://360-unzip[.]com[.]cn                 | **仿冒 360 压缩、传播病毒** |                            同 609                            |     无     | 611  |
-| 2026/6/21 |                 hxxps://yiifanyi[.]com[.]cn                  |  **仿冒易翻译、传播病毒**   |     hxxps://kjhir[.]9amtkm[.]top/setup-yifanyi688[.]zip      |     无     | 612  |
-| 2026/6/21 |                      hxxps://efyi[.]org                      |  **仿冒易翻译、传播病毒**   |      hxxps://download-web[.]us/yfanyi[.]exe_Pa6ax[.]zip      |     无     | 613  |
-| 2026/6/21 |                hxxps://www[.]yifanyi-cn[.]com                |       **仿冒易翻译**        |                              无                              |     无     | 614  |
-| 2026/6/21 |                     hxxps://yyfanyi[.]cn                     |       **仿冒易翻译**        |                              无                              |     无     | 615  |
-| 2026/6/22 |              hxxps://updliveing[.]com/21install              |      **传播银狐病毒**       |                       有，载荷提取失败                       |     无     | 616  |
-| 2026/6/22 |                      hxxps://hmcl[.]app                      |   **仿冒 HMCL、传播病毒**   | hxxps://get-download[.]opik[.]net/hmcl/934034dxff511uzvfcbf1eb |     无     | 617  |
-| 2026/6/22 |                      hxxps://hmcl[.]io                       |   **仿冒 HMCL、传播病毒**   | hxxps://get-download[.]opik[.]net/HMCL/g8zfwkxpe48re6i8cbo57k |     无     | 618  |
-| 2026/6/22 |               hxxps://pro-dingding[.]com[.]cn                |   **仿冒钉钉、传播病毒**    | hxxps://dingtalk.main-zh-huatihui.com/download/dingtalk_downloader_1448.zip |     无     | 619  |
-| 2026/6/22 |                hxxps://ch-dingdin[.]com[.]cn                 |   **仿冒钉钉、传播病毒**    | hxxps://download-dingg-ding-com[.]com[.]cn/donwnload/dingTtalkx64_down[.]zip |     无     | 620  |
-| 2026/6/22 |                 hxxps://metatrader5-zh[.]cn                  |   **仿冒 MT5、传播病毒**    |         hxxps://clashverge1[.]com/Metatrader5[.]zip          |     无     | 621  |
-| 2026/6/23 |                 hxxps://clash-cm[.]com[.]cn                  |  **借助 VPN 工具传播病毒**  | hxxps://iccoauvvv[.]oss-cn-hongkong[.]aliyuncs[.]com/Clash-0[.]8[.]94-amd64[.]zip |     无     | 622  |
-| 2026/6/23 |                hxxps://clashappcm[.]com[.]cn                 |  **借助 VPN 工具传播病毒**  |                            同 622                            |     无     | 623  |
-| 2026/6/23 |                 hxxps://clash-cm[.]org[.]cn                  |  **借助 VPN 工具传播病毒**  | hxxps://iccoauvvv[.]oss-cn-hongkong[.]aliyuncs[.]com/Clash[.]Verge_2[.]5[.]1_x64-setup[.]zip |     无     | 624  |
-| 2026/6/24 |                hxxps://zh-drvskyw[.]com[.]cn                 | **仿冒驱动天空、传播病毒**  |            hxxps://www[.]qwjre1487[.]com/installc            |     无     | 625  |
-| 2026/6/24 |                 hxxps://cn-drvsky[.]com[.]cn                 | **仿冒驱动天空、传播病毒**  |                            同 625                            |     无     | 626  |
-| 2026/6/24 |            hxxps://www[.]qwjre1487[.]com/installc            |      **传播银狐病毒**       |                       有，载荷提取失败                       |     无     | 627  |
-|  ——————   |                     ————————————————————                     |       ———————————————       |                ——————————————————————————————                | —————————— | ———  |
+|   日期    |                  URL                   |            类别            |                           有效载荷                           |  URLhaus   | 编号 |
+| :-------: | :------------------------------------: | :------------------------: | :----------------------------------------------------------: | :--------: | :--: |
+| 2026/6/21 |          hxxps://yyfanyi[.]cn          |       **仿冒易翻译**       |                              无                              |     无     | 615  |
+| 2026/6/22 |   hxxps://updliveing[.]com/21install   |      **传播银狐病毒**      |                       有，载荷提取失败                       |     无     | 616  |
+| 2026/6/22 |           hxxps://hmcl[.]app           |  **仿冒 HMCL、传播病毒**   | hxxps://get-download[.]opik[.]net/hmcl/934034dxff511uzvfcbf1eb |     无     | 617  |
+| 2026/6/22 |           hxxps://hmcl[.]io            |  **仿冒 HMCL、传播病毒**   | hxxps://get-download[.]opik[.]net/HMCL/g8zfwkxpe48re6i8cbo57k |     无     | 618  |
+| 2026/6/22 |    hxxps://pro-dingding[.]com[.]cn     |   **仿冒钉钉、传播病毒**   | hxxps://dingtalk.main-zh-huatihui.com/download/dingtalk_downloader_1448.zip |     无     | 619  |
+| 2026/6/22 |     hxxps://ch-dingdin[.]com[.]cn      |   **仿冒钉钉、传播病毒**   | hxxps://download-dingg-ding-com[.]com[.]cn/donwnload/dingTtalkx64_down[.]zip |     无     | 620  |
+| 2026/6/22 |      hxxps://metatrader5-zh[.]cn       |   **仿冒 MT5、传播病毒**   |         hxxps://clashverge1[.]com/Metatrader5[.]zip          |     无     | 621  |
+| 2026/6/23 |      hxxps://clash-cm[.]com[.]cn       | **借助 VPN 工具传播病毒**  | hxxps://iccoauvvv[.]oss-cn-hongkong[.]aliyuncs[.]com/Clash-0[.]8[.]94-amd64[.]zip |     无     | 622  |
+| 2026/6/23 |     hxxps://clashappcm[.]com[.]cn      | **借助 VPN 工具传播病毒**  |                            同 622                            |     无     | 623  |
+| 2026/6/23 |      hxxps://clash-cm[.]org[.]cn       | **借助 VPN 工具传播病毒**  | hxxps://iccoauvvv[.]oss-cn-hongkong[.]aliyuncs[.]com/Clash[.]Verge_2[.]5[.]1_x64-setup[.]zip |     无     | 624  |
+| 2026/6/24 |     hxxps://zh-drvskyw[.]com[.]cn      | **仿冒驱动天空、传播病毒** |            hxxps://www[.]qwjre1487[.]com/installc            |     无     | 625  |
+| 2026/6/24 |      hxxps://cn-drvsky[.]com[.]cn      | **仿冒驱动天空、传播病毒** |                            同 625                            |     无     | 626  |
+| 2026/6/24 | hxxps://www[.]qwjre1487[.]com/installc |      **传播银狐病毒**      |                       有，载荷提取失败                       |     无     | 627  |
+| 2026/6/24 |     hxxps://www-huorong[.]com[.]cn     |   **仿冒火绒、传播病毒**   | hxxps://down[.]app-huorong[.]cn/sys_HR_allapp_x64[.]exe_EANej[.]zip |     无     | 628  |
+| 2026/6/24 |     hxxps://ho-huorong[.]com[.]cn      |   **仿冒火绒、传播病毒**   |                            同 625                            |     无     | 629  |
+| 2026/6/24 |    hxxps://pc-huorongcn[.]com[.]cn     |   **仿冒火绒、传播病毒**   |                            同 628                            |     无     | 630  |
+| 2026/6/24 |     hxxps://huorong-app[.]com[.]cn     |   **仿冒火绒、传播病毒**   |                            同 628                            |     无     | 631  |
+| 2026/6/24 |     hxxps://cm-hongrong[.]com[.]cn     |        **仿冒火绒**        |                              无                              |     无     | 632  |
+| 2026/6/24 |     hxxps://an-hongrong[.]com[.]cn     |        **仿冒火绒**        |                              无                              |     无     | 633  |
+| 2026/6/24 |     hxxps://hu-huorong[.]com[.]cn      |   **仿冒火绒、传播病毒**   |                            同 625                            |     无     | 634  |
+|  ——————   |          ————————————————————          |      ———————————————       |                ——————————————————————————————                | —————————— | ———  |
 
 > [!NOTE]
 >
@@ -162,7 +162,7 @@
 
 &emsp;&emsp;[《**常被 “银狐” 犯罪团伙仿冒的软件列表及注意事项**》](https://github.com/Lingggao/LGSRC/blob/main/Documents/List.md)
 
-&emsp;&emsp;**银狐 IOC 情报合集** - [VirusTotal](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) & [LevelBlue OTX](https://otx.alienvault.com/pulse/6a36fe5a3c1568785b59c4d7) - 实时更新，已收录 591 项情报 (文件、URL、域名、IP)
+&emsp;&emsp;**银狐 IOC 情报合集** - [VirusTotal](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) & [LevelBlue OTX](https://otx.alienvault.com/pulse/6a36fe5a3c1568785b59c4d7) - 实时更新，已收录 596 项情报 (文件、URL、域名、IP)
 
 ---
 

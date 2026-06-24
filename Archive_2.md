@@ -617,6 +617,12 @@
 | 2026/6/19 |         hxxps://huorong-app[.]com[.]cn          |     **仿冒火绒、传播病毒**     | hxxps://down[.]app-huorong[.]cn/sys_HR_allapp_x64[.]exe_EANej[.]zip |                            无                            | Z605 |
 | 2026/6/19 |        hxxps://www[.]qqyinle[.]com[.]cn         |   **仿冒 QQ 音乐、传播病毒**   | hxxps://qqyyxert[.]tos-cn-guangzhou[.]volces[.]com/QQMusic_Setup_2228[.]zip |                            无                            | Z606 |
 | 2026/6/19 |        hxxps://www[.]ppmuisc[.]com[.]cn         |   **仿冒 QQ 音乐、传播病毒**   |                           同 Z606                            |                            无                            | Z607 |
+| 2026/6/20 |           hxxps://seeo-pc[.]com[.]cn            |   **仿冒希沃白板、传播病毒**   |             hxxps://www[.]hed6g8u[.]com/installd             |                            无                            | 609  |
+| 2026/6/20 |         hxxps://fuxinpdf-pc[.]com[.]cn          |   **仿冒福昕 PDF、传播病毒**   |                            同 609                            |                            无                            | 610  |
+| 2026/6/20 |          hxxps://360-unzip[.]com[.]cn           |  **仿冒 360 压缩、传播病毒**   |                            同 609                            |                            无                            | 611  |
+| 2026/6/21 |           hxxps://yiifanyi[.]com[.]cn           |    **仿冒易翻译、传播病毒**    |     hxxps://kjhir[.]9amtkm[.]top/setup-yifanyi688[.]zip      |                            无                            | 612  |
+| 2026/6/21 |               hxxps://efyi[.]org                |    **仿冒易翻译、传播病毒**    |      hxxps://download-web[.]us/yfanyi[.]exe_Pa6ax[.]zip      |                            无                            | 613  |
+| 2026/6/21 |         hxxps://www[.]yifanyi-cn[.]com          |         **仿冒易翻译**         |                              无                              |                            无                            | 614  |
 |  ——————   |              ————————————————————               |        ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
