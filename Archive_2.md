@@ -623,6 +623,12 @@
 | 2026/6/21 |           hxxps://yiifanyi[.]com[.]cn           |    **仿冒易翻译、传播病毒**    |     hxxps://kjhir[.]9amtkm[.]top/setup-yifanyi688[.]zip      |                            无                            | 612  |
 | 2026/6/21 |               hxxps://efyi[.]org                |    **仿冒易翻译、传播病毒**    |      hxxps://download-web[.]us/yfanyi[.]exe_Pa6ax[.]zip      |                            无                            | 613  |
 | 2026/6/21 |         hxxps://www[.]yifanyi-cn[.]com          |         **仿冒易翻译**         |                              无                              |                            无                            | 614  |
+| 2026/6/21 |              hxxps://yyfanyi[.]cn               |         **仿冒易翻译**         |                              无                              |                            无                            | 615  |
+| 2026/6/22 |       hxxps://updliveing[.]com/21install        |        **传播银狐病毒**        |                       有，载荷提取失败                       |                            无                            | 616  |
+| 2026/6/22 |               hxxps://hmcl[.]app                |    **仿冒 HMCL、传播病毒**     | hxxps://get-download[.]opik[.]net/hmcl/934034dxff511uzvfcbf1eb |                            无                            | 617  |
+| 2026/6/22 |                hxxps://hmcl[.]io                |    **仿冒 HMCL、传播病毒**     | hxxps://get-download[.]opik[.]net/HMCL/g8zfwkxpe48re6i8cbo57k |                            无                            | 618  |
+| 2026/6/22 |         hxxps://pro-dingding[.]com[.]cn         |     **仿冒钉钉、传播病毒**     | hxxps://dingtalk.main-zh-huatihui.com/download/dingtalk_downloader_1448.zip |                            无                            | 619  |
+| 2026/6/22 |          hxxps://ch-dingdin[.]com[.]cn          |     **仿冒钉钉、传播病毒**     | hxxps://download-dingg-ding-com[.]com[.]cn/donwnload/dingTtalkx64_down[.]zip |                            无                            | 620  |
 |  ——————   |              ————————————————————               |        ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
