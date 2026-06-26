@@ -631,6 +631,7 @@
 | 2026/6/22 |          hxxps://ch-dingdin[.]com[.]cn          |     **仿冒钉钉、传播病毒**     | hxxps://download-dingg-ding-com[.]com[.]cn/donwnload/dingTtalkx64_down[.]zip |                            无                            | 620  |
 | 2026/6/22 |           hxxps://metatrader5-zh[.]cn           |     **仿冒 MT5、传播病毒**     |         hxxps://clashverge1[.]com/Metatrader5[.]zip          |                            无                            | 621  |
 | 2026/6/23 |           hxxps://clash-cm[.]com[.]cn           |   **借助 VPN 工具传播病毒**    | hxxps://iccoauvvv[.]oss-cn-hongkong[.]aliyuncs[.]com/Clash-0[.]8[.]94-amd64[.]zip |                            无                            | 622  |
+| 2026/6/23 |          hxxps://clashappcm[.]com[.]cn          |   **借助 VPN 工具传播病毒**    |                            同 622                            |                            无                            | 623  |
 |  ——————   |              ————————————————————               |        ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
