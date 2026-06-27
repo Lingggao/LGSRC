@@ -635,6 +635,8 @@
 | 2026/6/23 |           hxxps://clash-cm[.]org[.]cn           |   **借助 VPN 工具传播病毒**    | hxxps://iccoauvvv[.]oss-cn-hongkong[.]aliyuncs[.]com/Clash[.]Verge_2[.]5[.]1_x64-setup[.]zip |                            无                            | 624  |
 | 2026/6/24 |          hxxps://zh-drvskyw[.]com[.]cn          |   **仿冒驱动天空、传播病毒**   |            hxxps://www[.]qwjre1487[.]com/installc            |                            无                            | 625  |
 | 2026/6/24 |          hxxps://cn-drvsky[.]com[.]cn           |   **仿冒驱动天空、传播病毒**   |                            同 625                            |                            无                            | 626  |
+| 2026/6/24 |     hxxps://www[.]qwjre1487[.]com/installc      |        **传播银狐病毒**        |                       有，载荷提取失败                       |                            无                            | 627  |
+| 2026/6/24 |         hxxps://www-huorong[.]com[.]cn          |     **仿冒火绒、传播病毒**     | hxxps://down[.]app-huorong[.]cn/sys_HR_allapp_x64[.]exe_EANej[.]zip |                            无                            | 628  |
 |  ——————   |              ————————————————————               |        ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
