@@ -645,6 +645,12 @@
 | 2026/6/24 |          hxxps://hu-huorong[.]com[.]cn          |     **仿冒火绒、传播病毒**     |                            同 625                            |                            无                            | 634  |
 | 2026/6/25 |            hxxps://deepseek-go[.]com            |  **仿冒 DeepSeek、传播病毒**   |   hxxps://dows[.]szeom[.]com/DeepSeekV20[.]66-Setup[.]zip    |                            无                            | 635  |
 | 2026/6/25 |         hxxps://ai-deepseek[.]com[.]cn          |  **仿冒 DeepSeek、传播病毒**   |                            同 635                            |                            无                            | 636  |
+| 2026/6/25 |         hxxps://cn-deepseek[.]com[.]cn          |  **仿冒 DeepSeek、传播病毒**   |                            同 635                            |                            无                            | 637  |
+| 2026/6/25 |          hxxps://al[.]deepseekem[.]com          |  **仿冒 DeepSeek、传播病毒**   |                            同 635                            |                            无                            | 638  |
+| 2026/6/25 |        hxxps://app-deepseeks[.]com[.]cn         |  **仿冒 DeepSeek、传播病毒**   |                       有，载荷提取失败                       |                            无                            | 639  |
+| 2026/6/25 |          hxxps://deepseek-n[.]com[.]cn          |  **仿冒 DeepSeek、传播病毒**   | hxxps://clashxqr[.]com[.]cn/deepseek-6[.]12[.]max-Setup[.]zip |                            无                            | 640  |
+| 2026/6/26 |           hxxps://app-docs[.]com[.]cn           |   **仿冒腾讯文档、传播病毒**   |                hxxps://zh-now-leisuapp[.]com                 |                            无                            | 641  |
+| 2026/6/26 |          hxxps://zh-now-leisuapp[.]com          |        **传播银狐病毒**        | hxxps://zh-now-leisuapp[.]com/download/txwdz264_down2[.]5[.]6[.]zip |                            无                            | 642  |
 |  ——————   |              ————————————————————               |        ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
