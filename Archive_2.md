@@ -643,6 +643,8 @@
 | 2026/6/24 |         hxxps://cm-hongrong[.]com[.]cn          |          **仿冒火绒**          |                              无                              |                            无                            | 632  |
 | 2026/6/24 |         hxxps://an-hongrong[.]com[.]cn          |          **仿冒火绒**          |                              无                              |                            无                            | 633  |
 | 2026/6/24 |          hxxps://hu-huorong[.]com[.]cn          |     **仿冒火绒、传播病毒**     |                            同 625                            |                            无                            | 634  |
+| 2026/6/25 |            hxxps://deepseek-go[.]com            |  **仿冒 DeepSeek、传播病毒**   |   hxxps://dows[.]szeom[.]com/DeepSeekV20[.]66-Setup[.]zip    |                            无                            | 635  |
+| 2026/6/25 |         hxxps://ai-deepseek[.]com[.]cn          |  **仿冒 DeepSeek、传播病毒**   |                            同 635                            |                            无                            | 636  |
 |  ——————   |              ————————————————————               |        ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
