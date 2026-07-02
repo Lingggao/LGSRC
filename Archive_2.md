@@ -651,6 +651,7 @@
 | 2026/6/25 |          hxxps://deepseek-n[.]com[.]cn          |  **仿冒 DeepSeek、传播病毒**   | hxxps://clashxqr[.]com[.]cn/deepseek-6[.]12[.]max-Setup[.]zip |                            无                            | 640  |
 | 2026/6/26 |           hxxps://app-docs[.]com[.]cn           |   **仿冒腾讯文档、传播病毒**   |                hxxps://zh-now-leisuapp[.]com                 |                            无                            | 641  |
 | 2026/6/26 |          hxxps://zh-now-leisuapp[.]com          |        **传播银狐病毒**        | hxxps://zh-now-leisuapp[.]com/download/txwdz264_down2[.]5[.]6[.]zip |                            无                            | 642  |
+| 2026/6/26 |        hxxps://www[.]kugouok[.]com[.]cn         |   **仿冒酷狗音乐、传播病毒**   | hxxps://kgvyuif[.]tos-cn-guangzhou[.]volces[.]com/kugou_release_20122_x64[.]zip |                            无                            | 643  |
 |  ——————   |              ————————————————————               |        ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
