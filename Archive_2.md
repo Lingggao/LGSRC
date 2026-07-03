@@ -652,6 +652,11 @@
 | 2026/6/26 |           hxxps://app-docs[.]com[.]cn           |   **仿冒腾讯文档、传播病毒**   |                hxxps://zh-now-leisuapp[.]com                 |                            无                            | 641  |
 | 2026/6/26 |          hxxps://zh-now-leisuapp[.]com          |        **传播银狐病毒**        | hxxps://zh-now-leisuapp[.]com/download/txwdz264_down2[.]5[.]6[.]zip |                            无                            | 642  |
 | 2026/6/26 |        hxxps://www[.]kugouok[.]com[.]cn         |   **仿冒酷狗音乐、传播病毒**   | hxxps://kgvyuif[.]tos-cn-guangzhou[.]volces[.]com/kugou_release_20122_x64[.]zip |                            无                            | 643  |
+| 2026/6/27 |      hxxps://www[.]pc-ziniaogw[.]com[.]cn       |  **仿冒紫鸟浏览器、传播病毒**  |            hxxps://www[.]qwjre1487[.]com/installc            |                            无                            | 644  |
+| 2026/6/27 |    hxxps://www[.]chromee-ziniaow[.]com[.]cn     |  **仿冒紫鸟浏览器、传播病毒**  |                            同 644                            |                            无                            | 645  |
+| 2026/6/27 |          hxxps://ie-ziniaow[.]com[.]cn          |  **仿冒紫鸟浏览器、传播病毒**  |                            同 644                            |                            无                            | 646  |
+| 2026/6/27 |          hxxps://ai-yuanbao[.]com[.]cn          |   **仿冒元宝 AI、传播病毒**    | hxxps://alioss[.]cdn-go[.]com[.]cn/yuanbao_1[.]0_x64_win[.]zip |                            无                            | 647  |
+| 2026/6/27 |            hxxps://yuanbao-cn[.]com             |   **仿冒元宝 AI、传播病毒**    | hxxps://yuanbao[.]it[.]com/ybitsoft/yuanbao_2[.]72[.]0[.]613_x64[.]zip |                            无                            | 648  |
 |  ——————   |              ————————————————————               |        ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
