@@ -657,6 +657,7 @@
 | 2026/6/27 |          hxxps://ie-ziniaow[.]com[.]cn          |  **仿冒紫鸟浏览器、传播病毒**  |                            同 644                            |                            无                            | 646  |
 | 2026/6/27 |          hxxps://ai-yuanbao[.]com[.]cn          |   **仿冒元宝 AI、传播病毒**    | hxxps://alioss[.]cdn-go[.]com[.]cn/yuanbao_1[.]0_x64_win[.]zip |                            无                            | 647  |
 | 2026/6/27 |            hxxps://yuanbao-cn[.]com             |   **仿冒元宝 AI、传播病毒**    | hxxps://yuanbao[.]it[.]com/ybitsoft/yuanbao_2[.]72[.]0[.]613_x64[.]zip |                            无                            | 648  |
+| 2026/6/28 |              hxxps://of-todesk.com              |   **仿冒 ToDesk、传播病毒**    | hxxps://wwiiiss[.]oss-ap-northeast-1[.]aliyuncs[.]com/ToDsoerd-sreuir-x6[.]3[.]1[.]zip |                            无                            | 649  |
 |  ——————   |              ————————————————————               |        ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
