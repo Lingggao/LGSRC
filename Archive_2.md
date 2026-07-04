@@ -658,6 +658,9 @@
 | 2026/6/27 |          hxxps://ai-yuanbao[.]com[.]cn          |   **仿冒元宝 AI、传播病毒**    | hxxps://alioss[.]cdn-go[.]com[.]cn/yuanbao_1[.]0_x64_win[.]zip |                            无                            | 647  |
 | 2026/6/27 |            hxxps://yuanbao-cn[.]com             |   **仿冒元宝 AI、传播病毒**    | hxxps://yuanbao[.]it[.]com/ybitsoft/yuanbao_2[.]72[.]0[.]613_x64[.]zip |                            无                            | 648  |
 | 2026/6/28 |              hxxps://of-todesk.com              |   **仿冒 ToDesk、传播病毒**    | hxxps://wwiiiss[.]oss-ap-northeast-1[.]aliyuncs[.]com/ToDsoerd-sreuir-x6[.]3[.]1[.]zip |                            无                            | 649  |
+| 2026/6/28 |           hxxps://todesku[.]com[.]cn            |   **仿冒 ToDesk、传播病毒**    | hxxps://todeskyca[.]oss-cn-hongkong[.]aliyuncs[.]com/ToDesk_4[.]9[.]7[.]1_x64[.]zip |                            无                            | 650  |
+| 2026/6/28 |          hxxps://w-todeskk[.]com[.]cn           |   **仿冒 ToDesk、传播病毒**    |                       有，载荷提取失败                       |                            无                            | 651  |
+| 2026/6/28 |          hxxps://gf-todesk[.]com[.]cn           |   **仿冒 ToDesk、传播病毒**    | hxxps://todeskl[.]oss-cn-hongkong[.]aliyuncs[.]com/ToDesk[.]zip |                            无                            | 652  |
 |  ——————   |              ————————————————————               |        ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
