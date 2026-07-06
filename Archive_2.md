@@ -662,6 +662,7 @@
 | 2026/6/28 |          hxxps://w-todeskk[.]com[.]cn           |   **仿冒 ToDesk、传播病毒**    |                       有，载荷提取失败                       |                            无                            | 651  |
 | 2026/6/28 |          hxxps://gf-todesk[.]com[.]cn           |   **仿冒 ToDesk、传播病毒**    | hxxps://todeskl[.]oss-cn-hongkong[.]aliyuncs[.]com/ToDesk[.]zip |                            无                            | 652  |
 | 2026/6/28 |          hxxps://www[.]todeskkb[.]com           |        **仿冒 ToDesk**         |                              无                              |                            无                            | 653  |
+| 2026/6/28 |           hxxps://todeskt[.]com[.]cn            |        **仿冒 ToDesk**         |                              无                              |                            无                            | 654  |
 |  ——————   |              ————————————————————               |        ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
