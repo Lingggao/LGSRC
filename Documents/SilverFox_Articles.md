@@ -9,6 +9,11 @@
 
 ### 文章
 
+[007]  
+《[**下载软件不能只看页面外观 谨防踩中病毒陷阱**](https://mp.weixin.qq.com/s/iTHpxwxpKVMiaEJy1WBK2w)》  
+**火绒安全 (北京火绒网络科技有限公司)**，2026 年 7 月  
+网址：[https://mp.weixin.qq.com/s/iTHpxwxpKVMiaEJy1WBK2w](https://mp.weixin.qq.com/s/iTHpxwxpKVMiaEJy1WBK2w)
+
 [006]  
 《[**央视新闻：假咨询真“投毒” ——10余家电商企业遭“银狐”木马攻击**](https://mp.weixin.qq.com/s/vaqHF4GAPH-QEdb-0divNQ)》  
 **公安部网安局**，2026 年 7 月  

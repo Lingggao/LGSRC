@@ -668,6 +668,10 @@
 | 2026/7/1  |             hxxps://meiqiaapps[.]cn             |     **仿冒美洽、传播病毒**     |           hxxps://meiqiaapps[.]cn/Meiqia-Win[.]zip           |                            无                            | 657  |
 | 2026/7/1  |             hxxps://meiqiahub[.]cn              |     **仿冒美洽、传播病毒**     | hxxps://addruanjian-1388663500[.]cos[.]ap-singapore[.]myqcloud[.]com/Meiqia-Win[.]zip |                            无                            | 658  |
 | 2026/7/1  |          hxxps://meiqia-zh[.]com[.]cn           |     **仿冒美洽、传播病毒**     | hxxps://kjkgvtfy[.]oss-cn-hongkong[.]aliyuncs[.]com/MeiqiaWinLatedsasst[.]zip |                            无                            | 659  |
+| 2026/7/1  |          hxxps://meiqian-pc[.]com[.]cn          |     **仿冒美洽、传播病毒**     |              hxxps://www[.]wabg1401[.]com/inuck              |                            无                            | 660  |
+| 2026/7/1  |          hxxps://meiqia-win[.]com[.]cn          |     **仿冒美洽、传播病毒**     |                            同 655                            |                            无                            | 661  |
+| 2026/7/1  |       hxxps://www[.]wabg1401[.]com/inuck        |        **传播银狐病毒**        |                       有，载荷提取失败                       |                            无                            | 662  |
+| 2026/7/3  |     hxxps://www[.]4zw7lhrvob[.]com/newinsll     |        **传播银狐病毒**        |                       有，载荷提取失败                       |                            无                            | 663  |
 |  ——————   |              ————————————————————               |        ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
