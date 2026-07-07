@@ -663,6 +663,11 @@
 | 2026/6/28 |          hxxps://gf-todesk[.]com[.]cn           |   **仿冒 ToDesk、传播病毒**    | hxxps://todeskl[.]oss-cn-hongkong[.]aliyuncs[.]com/ToDesk[.]zip |                            无                            | 652  |
 | 2026/6/28 |          hxxps://www[.]todeskkb[.]com           |        **仿冒 ToDesk**         |                              无                              |                            无                            | 653  |
 | 2026/6/28 |           hxxps://todeskt[.]com[.]cn            |        **仿冒 ToDesk**         |                              无                              |                            无                            | 654  |
+| 2026/6/30 |          hxxps://chuangkitw[.]com[.]cn          |    **仿冒创客贴、传播病毒**    |            hxxps://www[.]qwjre1487[.]com/installc            |                            无                            | 655  |
+| 2026/6/30 |       hxxps://www[.]chuangkitw[.]hl[.]cn        |    **仿冒创客贴、传播病毒**    |                            同 655                            |                            无                            | 656  |
+| 2026/7/1  |             hxxps://meiqiaapps[.]cn             |     **仿冒美洽、传播病毒**     |           hxxps://meiqiaapps[.]cn/Meiqia-Win[.]zip           |                            无                            | 657  |
+| 2026/7/1  |             hxxps://meiqiahub[.]cn              |     **仿冒美洽、传播病毒**     | hxxps://addruanjian-1388663500[.]cos[.]ap-singapore[.]myqcloud[.]com/Meiqia-Win[.]zip |                            无                            | 658  |
+| 2026/7/1  |          hxxps://meiqia-zh[.]com[.]cn           |     **仿冒美洽、传播病毒**     | hxxps://kjkgvtfy[.]oss-cn-hongkong[.]aliyuncs[.]com/MeiqiaWinLatedsasst[.]zip |                            无                            | 659  |
 |  ——————   |              ————————————————————               |        ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
