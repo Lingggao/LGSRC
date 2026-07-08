@@ -68,9 +68,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 7 月 8 日 8:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 7 月 8 日 11:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 7 月 8 日，本中心已打击计算机病毒 / 恶意软件 1419 个、恶意网站 683 个，累计为潜在受害者规避经济损失约 6,030,750 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 7 月 8 日，本中心已打击计算机病毒 / 恶意软件 1420 个、恶意网站 683 个，累计为潜在受害者规避经济损失约 6,035,000 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;在对抗网络犯罪的崇高事业中，本中心仅承担了少量协调类工作。**恶意载荷从发现到清除，离不开国家有关部门、安全社区与研究员、杀毒软件厂商及威胁情报提供商的共同努力**。在此，谨向他们致以诚挚谢意。
 
@@ -86,7 +86,6 @@
 
 |   日期   |          文件名           |           检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :------: | :-----------------------: | :----------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/7/5 |  fiv_EYYtalk_x64···.exe   |   **银狐 (SilverFox)**   | 7b63ddaf3b217f9e7b08575ee6f80fff1d2d9e12522d862ccc192ef3d08a0dd3 | ee3fc153-bfe6-4a11-b0ac-893e4f79c336 | [VirusTotal](https://www.virustotal.com/gui/file/7b63ddaf3b217f9e7b08575ee6f80fff1d2d9e12522d862ccc192ef3d08a0dd3) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/7b63ddaf3b217f9e7b08575ee6f80fff1d2d9e12522d862ccc192ef3d08a0dd3) | 1400 |
 | 2026/7/5 |   Youdaofanyi···47.exe    |        **Agent**         | b038b5b52f68dee7801cd08a5129a4ee7d3e2e4f797c733f0a4edbfe89e0ff59 | 6091c897-d652-4985-8e81-04a3c9fe3222 | [VirusTotal](https://www.virustotal.com/gui/file/b038b5b52f68dee7801cd08a5129a4ee7d3e2e4f797c733f0a4edbfe89e0ff59) (10) |                              无                              | 1401 |
 | 2026/7/5 |   tsetup-x64.6.7.5.exe    |   **银狐 (SilverFox)**   | 7aa50ba59b38494cc524dbd31519bd3a218133aed64d9037eef02d697b8e99d0 | a6aec40e-910e-401d-9671-ef0057a18b72 | [VirusTotal](https://www.virustotal.com/gui/file/7aa50ba59b38494cc524dbd31519bd3a218133aed64d9037eef02d697b8e99d0) (7) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/7aa50ba59b38494cc524dbd31519bd3a218133aed64d9037eef02d697b8e99d0) | 1402 |
 | 2026/7/5 |    易歪歪setup0704.exe    |      **BruteRatel**      | f3235734705a7408f7fb009aef964561ff819e1074d691276d467fc2f98b4376 | 0731a9de-79d2-4922-a3db-c3798e22b6d3 | [VirusTotal](https://www.virustotal.com/gui/file/f3235734705a7408f7fb009aef964561ff819e1074d691276d467fc2f98b4376) (13) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/f3235734705a7408f7fb009aef964561ff819e1074d691276d467fc2f98b4376) | 1403 |
@@ -106,6 +105,7 @@
 | 2026/7/8 | 七月份账单，请核对···.exe |   **银狐 (SilverFox)**   | b9050b56d4150427a9e0abd5bb15ffbb62ef3fcbd1a4478aa8d270f59249131e | 59029937-966b-44b6-a03e-ca0f48b3cce2 | [VirusTotal](https://www.virustotal.com/gui/file/b9050b56d4150427a9e0abd5bb15ffbb62ef3fcbd1a4478aa8d270f59249131e) (28) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b9050b56d4150427a9e0abd5bb15ffbb62ef3fcbd1a4478aa8d270f59249131e) | 1417 |
 | 2026/7/8 |         DeepL.msi         |      **Dllhijack**       | efbc44c07e46535a1c7e53e276c7d106b6aebe071004cb84a5b89db573679006 | c23d86b2-4846-416a-a3b4-a7c4158267de | [VirusTotal](https://www.virustotal.com/gui/file/efbc44c07e46535a1c7e53e276c7d106b6aebe071004cb84a5b89db573679006) (23) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/efbc44c07e46535a1c7e53e276c7d106b6aebe071004cb84a5b89db573679006) | 1418 |
 | 2026/7/8 |   zinst.6638258007.msi    |   **银狐 (SilverFox)**   | fe206a7571e80bb15a6cd0427f904dc859e2bd3b92a410ce2a3e1fac31599c2b | 88c82a56-0428-4cb1-ae6a-c024ed6c3d3b | [VirusTotal](https://www.virustotal.com/gui/file/fe206a7571e80bb15a6cd0427f904dc859e2bd3b92a410ce2a3e1fac31599c2b) (20) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/fe206a7571e80bb15a6cd0427f904dc859e2bd3b92a410ce2a3e1fac31599c2b) | 1419 |
+| 2026/7/8 |       Clash-X64.exe       |       **Yephiler**       | 24b1c3f96179633ed7a40190ea103c558cc182c32cab38e3399a81524cb578b5 | 5a88b6bd-11a9-498a-a6b9-ad083f2ae051 | [VirusTotal](https://www.virustotal.com/gui/file/24b1c3f96179633ed7a40190ea103c558cc182c32cab38e3399a81524cb578b5) (32) |                  [MalwareBazaar Database]()                  | 1420 |
 |  ——————  |       ————————————        |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
