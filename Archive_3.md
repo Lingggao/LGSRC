@@ -225,6 +225,7 @@ app-alipan[.]com[.]cn
 web-fanqie[.]com[.]cn
 www[.]web-fanqie[.]com[.]cn
 www[.]app-alipan[.]com[.]cn
+geforce-nows[.]hl[.]cn
 ```
 
 ---
