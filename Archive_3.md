@@ -207,6 +207,24 @@ wap[.]quickq-pro[.]com[.]cn
 web[.]quickq-pro[.]com[.]cn
 www[.]quickq-pro[.]com[.]cn
 todesk-wp[.]com[.]cn
+
+**2026/7/10**
+xiaoheihejsq[.]hl[.]cn
+microsoft-detail[.]com[.]cn
+www[.]microsoft-detail[.]com[.]cn
+www[.]xiaoheihejsq[.]hl[.]cn
+qq-weixin[.]com[.]cn
+www[.]qq-weixin[.]com[.]cn
+www[.]alipan[.]hl[.]cn
+alipan[.]hl[.]cn
+www[.]xiaoheihejsq[.]com[.]cn
+xiaoheihejsq[.]com[.]cn
+microsoft-detail[.]hl[.]cn
+www[.]microsoft-detail[.]hl[.]cn
+app-alipan[.]com[.]cn
+web-fanqie[.]com[.]cn
+www[.]web-fanqie[.]com[.]cn
+www[.]app-alipan[.]com[.]cn
 ```
 
 ---

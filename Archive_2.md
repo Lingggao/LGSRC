@@ -675,6 +675,8 @@
 | 2026/7/4  |         hxxps://huorong-web[.]com[.]cn          |     **仿冒火绒、传播病毒**     | hxxps://kuailian-cos[.]com[.]cn/down[.]php/fb8802e6fc8efcfd33309ffe66591702[.]zip |                            无                            | 664  |
 | 2026/7/4  |          hxxps://huorong-cc[.]com[.]cn          |     **仿冒火绒、传播病毒**     |            hxxps://www[.]yimxg25tiy[.]com/73inst             |                            无                            | 665  |
 | 2026/7/4  |            hxxps://pc-huorong[.]com             |     **仿冒火绒、传播病毒**     |  hxxps://download[.]i86k6[.]top/sysdiag-all-_pat68145[.]zip  |                            无                            | 666  |
+| 2026/7/4  |     hxxps://www[.]hr-huorongapp[.]com[.]cn      |     **仿冒火绒、传播病毒**     |                            同 664                            |                            无                            | 667  |
+| 2026/7/4  |      hxxps://www[.]yimxg25tiy[.]com/73inst      |        **传播银狐病毒**        |                       有，载荷提取失败                       |                            无                            | 668  |
 |  ——————   |              ————————————————————               |        ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
