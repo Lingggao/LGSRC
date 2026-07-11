@@ -680,6 +680,14 @@
 | 2026/7/4  |     hxxps://www[.]hk-teamviewer[.]com[.]cn      | **仿冒 TeamViewer、传播病毒**  | hxxps://teamvlewer[.]oss-cn-hongkong[.]aliyuncs[.]com/TeamViewer[.]zip |                            无                            | 669  |
 | 2026/7/5  |         hxxps://360-chromea[.]com[.]cn          | **仿冒 360 浏览器、传播病毒**  | hxxps://pub-628777e1ddee42f0b4de5bc169955ec2[.]r2[.]dev/360liulanqin7[.]zip |                            无                            | 670  |
 | 2026/7/5  |          hxxps://pc-browser[.]com[.]cn          | **仿冒 360 浏览器、传播病毒**  |                            同 668                            |                            无                            | 671  |
+| 2026/7/5  |         hxxps://360speed-pc[.]com[.]cn          | **仿冒 360 浏览器、传播病毒**  |                            同 668                            |                            无                            | 672  |
+| 2026/7/6  |      hxxps://www[.]kaspersky-lab[.]hl[.]cn      |   **仿冒卡巴斯基、传播病毒**   |                            同 668                            |                            无                            | 673  |
+| 2026/7/7  |           hxxps://lxmusic[.]com[.]cn            |   **仿冒洛雪音乐、传播病毒**   |                            同 668                            |                            无                            | 674  |
+| 2026/7/7  |      hxxps://www[.]company-wps[.]com[.]cn       |     **仿冒 WPS、传播病毒**     |  hxxps://www[.]company-wps[.]com[.]cn/xz/wpscs-win64[.]zip   |                            无                            | 675  |
+| 2026/7/7  |         hxxps://b-wps-office[.]com[.]cn         |     **仿冒 WPS、传播病毒**     |                       有，载荷提取失败                       |                            无                            | 676  |
+| 2026/7/7  |             hxxps://wrps[.]com[.]cn             |     **仿冒 WPS、传播病毒**     |                       有，载荷提取失败                       |                            无                            | 677  |
+| 2026/7/7  |          hxxps://www[.]wqps[.]com[.]cn          |     **仿冒 WPS、传播病毒**     |                       有，载荷提取失败                       |                            无                            | 678  |
+| 2026/7/7  |        hxxps://app[.]wps-xlsx[.]com[.]cn        |     **仿冒 WPS、传播病毒**     |                       有，载荷提取失败                       |                            无                            | 679  |
 |  ——————   |              ————————————————————               |        ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
