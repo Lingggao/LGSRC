@@ -9,6 +9,11 @@
 
 ### 文章
 
+[009]  
+《[**UTG-Q-1000近期仿冒Zinst等软件分发银狐木马新变种**](https://mp.weixin.qq.com/s/JTeSznJiEVeCtb8b1bJT3Q)》  
+**奇安信威胁情报中心 (奇安信科技集团股份有限公司)**，2026 年 7 月  
+网址：[https://mp.weixin.qq.com/s/JTeSznJiEVeCtb8b1bJT3Q](https://mp.weixin.qq.com/s/JTeSznJiEVeCtb8b1bJT3Q)
+
 [008]  
 《[**下载软件不能只看页面外观 谨防踩中病毒陷阱**](https://mp.weixin.qq.com/s/iTHpxwxpKVMiaEJy1WBK2w)》  
 **火绒安全 (北京火绒网络科技有限公司)**，2026 年 7 月  
