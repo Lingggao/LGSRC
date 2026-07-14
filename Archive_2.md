@@ -693,6 +693,10 @@
 | 2026/7/8  |           hxxps://i-deepl[.]com[.]cn            |  **仿冒 DeepL 翻译、传播病毒**  |         hxxps://i-deepl[.]com[.]cn/DeepL_Setup[.]zip         |                            无                            | 682  |
 | 2026/7/8  |      hxxps://www[.]cc8ttkv35b[.]com/7qinst      |        **传播银狐病毒**         |                       有，载荷提取失败                       |                            无                            | 683  |
 | 2026/7/8  |         hxxps://www[.]360-zh[.]com[.]cn         | **仿冒 360 软件管家、传播病毒** |                            同 683                            |                            无                            | 684  |
+| 2026/7/9  |            hxxps://open-clash[.]com             |    **借助 VPN 工具传播病毒**    |      hxxps://pc[.]dasasfafspc[.]xyz/p7/Clash-X64[.]zip       |                            无                            | 685  |
+| 2026/7/9  |           hxxps://clash-qq[.]com[.]cn           |    **借助 VPN 工具传播病毒**    | hxxps://test-bucket-martin[.]oss-cn-hongkong[.]aliyuncs[.]com/CIesah-vuseag-x64-6[.]8[.]9aderk[.]exe[.]zip |                            无                            | 686  |
+| 2026/7/10 |      hxxps://www[.]xiaoheihejsq[.]com[.]cn      | **仿冒小黑盒加速器、传播病毒**  |                            同 683                            |                            无                            | 687  |
+| 2026/7/10 |         hxxps://xiaoheihejsq[.]hl[.]cn          | **仿冒小黑盒加速器、传播病毒**  |                            同 683                            |                            无                            | 688  |
 |  ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
