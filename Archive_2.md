@@ -697,6 +697,7 @@
 | 2026/7/9  |           hxxps://clash-qq[.]com[.]cn           |    **借助 VPN 工具传播病毒**    | hxxps://test-bucket-martin[.]oss-cn-hongkong[.]aliyuncs[.]com/CIesah-vuseag-x64-6[.]8[.]9aderk[.]exe[.]zip |                            无                            | 686  |
 | 2026/7/10 |      hxxps://www[.]xiaoheihejsq[.]com[.]cn      | **仿冒小黑盒加速器、传播病毒**  |                            同 683                            |                            无                            | 687  |
 | 2026/7/10 |         hxxps://xiaoheihejsq[.]hl[.]cn          | **仿冒小黑盒加速器、传播病毒**  |                            同 683                            |                            无                            | 688  |
+| 2026/7/10 |         hxxps://www[.]imfile[.]com[.]cn         |    **仿冒 imFile、传播病毒**    |                            同 683                            |                            无                            | 689  |
 |  ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
