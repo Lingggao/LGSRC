@@ -71,7 +71,7 @@
 | &emsp;&emsp;&emsp;&emsp;&emsp;灵糕中心安全响应中心通过广西慈善联合总会向洪涝灾害受灾群众捐赠 2026 元人民币&emsp;&emsp;&emsp;&emsp;&emsp; |
 | :----------------------------------------------------------: |
 
-&emsp;&emsp;上次更新时间：2026 年 7 月 16 日 22:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 7 月 16 日 23:00 (GMT+8)
 
 &emsp;&emsp;**截至 2026 年 7 月 16 日，本中心已打击计算机病毒 / 恶意软件 1,463 个、恶意网站 709 个，累计为潜在受害者规避经济损失约 6,217,750 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
@@ -146,7 +146,7 @@
 | 2026/7/15 | hxxps://cn[.]wps-world-office[.]com[.]cn  |    **仿冒 WPS、传播病毒**    |    注：仅在必应搜索结果中点击该链接时，才会跳转至恶意网站    |     无     | 706  |
 | 2026/7/15 |     hxxps://app[.]wps-xlsx[.]com[.]cn     |    **仿冒 WPS、传播病毒**    |    注：仅在必应搜索结果中点击该链接时，才会跳转至恶意网站    |     无     | 707  |
 | 2026/7/15 |     hxxps://an-wps-office[.]com[.]cn      |    **仿冒 WPS、传播病毒**    |    注：仅在必应搜索结果中点击该链接时，才会跳转至恶意网站    |     无     | 708  |
-| 2026/7/16 |     https://www.oentvu8xii.com/load15     |       **传播银狐病毒**       |                       有，载荷提取失败                       |     无     | 709  |
+| 2026/7/16 |   hxxps://www[.]oentvu8xii[.]com/load15   |       **传播银狐病毒**       |                       有，载荷提取失败                       |     无     | 709  |
 |  ——————   |           ————————————————————            |       ———————————————        |                ——————————————————————————————                | —————————— | ———  |
 
 > [!NOTE]
@@ -169,7 +169,7 @@
 
 &emsp;&emsp;[《**“银狐” 威胁动态：官方及网络安全企业文章汇编**》](https://github.com/Lingggao/LGSRC/blob/main/Documents/SilverFox_Articles.md)
 
-&emsp;&emsp;**银狐 IOC 情报合集** - [VirusTotal](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) & [LevelBlue OTX](https://otx.alienvault.com/pulse/6a36fe5a3c1568785b59c4d7) - 实时更新，已收录 906 项情报 (文件、URL、域名、IP)
+&emsp;&emsp;**银狐 IOC 情报合集** - [VirusTotal](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) & [LevelBlue OTX](https://otx.alienvault.com/pulse/6a36fe5a3c1568785b59c4d7) - 实时更新，已收录 908 项情报 (文件、URL、域名、IP)
 
 ---
 
