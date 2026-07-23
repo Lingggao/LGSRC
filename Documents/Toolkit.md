@@ -39,18 +39,26 @@
 
 - [**微步威胁分析与情报共享平台 · X 情报中心**](https://x.threatbook.com) (北京步刻科技有限公司)
 - [**安天威胁情报综合分析平台**](https://ti.antiy.cn) (北京安天网络安全技术有限公司)
+- [**安天计算机病毒分类命名知识百科**](https://www.virusview.net) (北京安天网络安全技术有限公司)
 - [**奇安信威胁情报中心 · ALPHA 威胁分析平台**](https://ti.qianxin.com/portal) (奇安信科技集团股份有限公司)
 - [**深信服威胁情报中心**](https://ti.sangfor.com.cn) (深信服科技股份有限公司)
-- [**安全星图平台**](https://starmap.dbappsecurity.com.cn) (杭州安恒信息技术股份有限公司)
+- [**安恒安全星图平台**](https://starmap.dbappsecurity.com.cn) (杭州安恒信息技术股份有限公司)
 - [**VenusEye 威胁情报中心**](https://venuseye.com.cn) (北京启明星辰信息安全技术有限公司)
 
 **恶意软件信息共享平台**
 
-
+- [**MalwareBazaar**](https://bazaar.abuse.ch) (Spamhaus - abuse.ch)
+- [**URLhaus**](https://urlhaus.abuse.ch) (Spamhaus - abuse.ch)
+- [**ThreatFox**](https://threatfox.abuse.ch) (Spamhaus - abuse.ch)
+- [**YARAify**](https://yaraify.abuse.ch) (Spamhaus - abuse.ch)
+- [**LevelBlue OTX**](https://otx.alienvault.com) (LevelBlue - AlienVault)
 
 **人工智能、大模型与智能体 (Agent)**
 
-
+- [**安天 AVL Code · AI 智能编程与安全分析桌面助手**](https://www.avlcode.cn) (安天科技集团)
+- [**微步 XGPT 威胁分析智能体**](https://x.threatbook.com/v5/xgpt) (北京步刻科技有限公司)
+- [**奇安信威胁分析数字专家**](https://otx.alienvault.com) (奇安信科技集团股份有限公司)
+- [**天穹智能体**](https://sandbox.qianxin.com) (奇安信技术研究院)
 
 **域名与 IP 查询工具**
 
