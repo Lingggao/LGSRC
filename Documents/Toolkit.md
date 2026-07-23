@@ -52,6 +52,7 @@
 - [**ThreatFox**](https://threatfox.abuse.ch) (Spamhaus - abuse.ch)
 - [**YARAify**](https://yaraify.abuse.ch) (Spamhaus - abuse.ch)
 - [**LevelBlue OTX**](https://otx.alienvault.com) (LevelBlue - AlienVault)
+- [**Maltego**](https://www.maltego.com) (Maltego Technologies)
 
 **人工智能、大模型与智能体 (Agent)**
 
@@ -94,7 +95,23 @@
 
 **杀毒软件**
 
-
+- [**安天垂直响应平台**](https://vs2.antiy.cn) (北京安天网络安全技术有限公司)
+- [**奇安信天守安全软件**](https://fanghu.qianxin.com/web/index/index.html) (奇安信科技集团股份有限公司)
+- [**火绒安全软件**](https://www.huorong.cn) (北京火绒网络科技有限公司)
+- [**360 官网**](https://www.360.cn) (北京奇虎科技有限公司)
+- [**腾讯电脑管家**](https://guanjia.qq.com/main.html) (深圳市腾讯计算机系统有限公司)
+- [**iDefender 冰盾主动防御系统**](https://trustsing.com) (深圳市创信长荣网络有限公司)
+- [**金山毒霸**](https://www.ijinshan.com) (北京灵豹智能科技有限公司)
+- [**江民科技**](https://www.jiangmin.com) (北京江民新科技术有限公司)
+- [**腾讯电脑管家**](https://guanjia.qq.com/main.html) (深圳市腾讯计算机系统有限公司)
+- [**Kaspersky**](https://www.kaspersky.com.cn) (Kaspersky)
+- [**Microsoft Security Intelligence**](https://www.microsoft.com/en-us/wdsi) (Microsoft)
+- [**ESET**](https://www.eset.com/cn) (ESET)
+- [**Norton**](https://cn.norton.com) (Gen Digital)
+- [**Avira**](https://www.avira.com/zh-cn) (Gen Digital)
+- [**Avast**](https://www.avast.com/zh-cn) (Gen Digital)
+- [**迈克菲**](https://www.mcafee.com/zh-cn/index.html) (McAfee)
+- [**Bitdefender**](https://www.bitdefender.com) (Bitdefender)
 
 **学习与认证**
 
