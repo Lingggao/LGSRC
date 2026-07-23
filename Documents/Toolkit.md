@@ -103,7 +103,6 @@
 - [**iDefender 冰盾主动防御系统**](https://trustsing.com) (深圳市创信长荣网络有限公司)
 - [**金山毒霸**](https://www.ijinshan.com) (北京灵豹智能科技有限公司)
 - [**江民科技**](https://www.jiangmin.com) (北京江民新科技术有限公司)
-- [**腾讯电脑管家**](https://guanjia.qq.com/main.html) (深圳市腾讯计算机系统有限公司)
 - [**Kaspersky**](https://www.kaspersky.com.cn) (Kaspersky)
 - [**Microsoft Security Intelligence**](https://www.microsoft.com/en-us/wdsi) (Microsoft)
 - [**ESET**](https://www.eset.com/cn) (ESET)
