@@ -47,11 +47,11 @@
 
 **恶意软件信息共享平台**
 
-- [**MalwareBazaar**](https://bazaar.abuse.ch) (Spamhaus - abuse.ch)
-- [**URLhaus**](https://urlhaus.abuse.ch) (Spamhaus - abuse.ch)
-- [**ThreatFox**](https://threatfox.abuse.ch) (Spamhaus - abuse.ch)
-- [**YARAify**](https://yaraify.abuse.ch) (Spamhaus - abuse.ch)
-- [**LevelBlue OTX**](https://otx.alienvault.com) (LevelBlue - AlienVault)
+- [**MalwareBazaar**](https://bazaar.abuse.ch) (Spamhaus-abuse.ch)
+- [**URLhaus**](https://urlhaus.abuse.ch) (Spamhaus-abuse.ch)
+- [**ThreatFox**](https://threatfox.abuse.ch) (Spamhaus-abuse.ch)
+- [**YARAify**](https://yaraify.abuse.ch) (Spamhaus-abuse.ch)
+- [**LevelBlue OTX**](https://otx.alienvault.com) (LevelBlue-AlienVault)
 - [**Maltego**](https://www.maltego.com) (Maltego Technologies)
 
 **人工智能、大模型与智能体 (Agent)**
@@ -91,7 +91,7 @@
 - [**Bitdefender Cyberthreat Real-Time Map**](https://threatmap.bitdefender.com) (Bitdefender)
 - [**FortiGuard Labs Outbreak Threat Map**](https://www.fortiguard.com/threat-map) (FortiGuard Labs)
 - [**NetScout Real-Time DDoS Attack Map**](https://horizon.netscout.com) (NetScout)
-- [**Spamhaus - abuse.ch Live Threat Map**](https://www.spamhaus.com/threat-map) (Spamhaus - abuse.ch)
+- [**Spamhaus-abuse.ch Live Threat Map**](https://www.spamhaus.com/threat-map) (Spamhaus-abuse.ch)
 
 **杀毒软件**
 
@@ -114,11 +114,29 @@
 
 **学习与认证**
 
-
+- [**看雪学苑**](https://www.kanxue.com) (上海看雪科技有限公司)
+- [**ISC.AI 学苑**](https://study.360.net) (360 数字安全集团)
+- [**FreeBuf 网络安全行业门户**](https://www.freebuf.com) (上海菲巴夫信息科技有限公司)
+- [**中国计算机学会 · 认证**](https://www.ccf.org.cn/Activities/Certification) (中国计算机学会)
+- [**华为 · 职业认证**](https://e.huawei.com/cn/talent/cert/#/careerCert) (华为技术有限公司)
+- [**阿里云 · 认证**](https://edu.aliyun.com) (阿里云计算有限公司)
+- [**Microsoft Learn · Training**](https://learn.microsoft.com/zh-cn/training) (Microsoft)
+- [**Microsoft Learn · Credentials**](https://learn.microsoft.com/zh-cn/credentials) (Microsoft)
 
 **杂项**
 
-
+- [**国家信息安全漏洞共享平台**](https://www.cnvd.org.cn) (国家计算机网络应急技术处理协调中心)
+- [**安天提交样本奖励计划**](https://www.virusview.net/ranking) (北京安天网络安全技术有限公司)
+- [**奇安信技术研究院**](https://research.qianxin.com) (奇安信技术研究院)
+- [**阿里云举报中心**](https://report.aliyun.com/#/reportCenter/home) (阿里云计算有限公司)
+- [**360 安全云**](https://saas.360.cn) (北京奇虎科技有限公司)
+- [**Microsoft Defender 门户**](https://security.microsoft.com) (Microsoft)
+- [**向 Google 安全浏览团队举报网页**](https://www.google.com/safebrowsing/report_phish) (Google)
+- [**Google 安全浏览工具检测到的网站状态**](https://transparencyreport.google.com/safe-browsing/search) (Google)
+- [**Cloudflare · Submit an abuse report**](https://www.cloudflare.com/trust-hub/abuse-approach) (Cloudflare)
+- [**Anti-Phishing Working Group**](https://apwg.org) (APWG)
+- [**ScamAdviser**](https://www.scamadviser.com) (ScamAdviser)
+- [**Spamhaus Technology**](https://www.spamhaus.com) (Spamhaus-abuse.ch)
 
 ---
 
