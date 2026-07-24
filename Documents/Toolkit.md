@@ -80,6 +80,7 @@
 
 **网络安全社区**
 
+- [**FreeBuf 网络安全行业门户**](https://www.freebuf.com) (上海菲巴夫信息科技有限公司)
 - [**卡饭论坛**](https://bbs.kafan.cn) (KaFan)
 - [**火绒安全论坛**](https://bbs.huorong.cn) (北京火绒网络科技有限公司)
 - [**百度贴吧病毒吧**](https://tieba.baidu.com/f?ie=utf-8&kw=%E7%97%85%E6%AF%92)
@@ -116,7 +117,6 @@
 
 - [**看雪学苑**](https://www.kanxue.com) (上海看雪科技有限公司)
 - [**ISC.AI 学苑**](https://study.360.net) (360 数字安全集团)
-- [**FreeBuf 网络安全行业门户**](https://www.freebuf.com) (上海菲巴夫信息科技有限公司)
 - [**中国计算机学会 · 认证**](https://www.ccf.org.cn/Activities/Certification) (中国计算机学会)
 - [**华为 · 职业认证**](https://e.huawei.com/cn/talent/cert/#/careerCert) (华为技术有限公司)
 - [**阿里云 · 认证**](https://edu.aliyun.com) (阿里云计算有限公司)
