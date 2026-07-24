@@ -63,7 +63,7 @@
 
 &emsp;&emsp;上次更新时间：2026 年 7 月 24 日 19:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 7 月 24 日，本中心已打击计算机病毒 / 恶意软件 1,509 个、恶意网站 723 个，累计为潜在受害者规避经济损失约 6,413,250 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 7 月 24 日，本中心已打击计算机病毒 / 恶意软件 1,509 个、恶意网站 726 个，累计为潜在受害者规避经济损失约 6,413,250 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;在对抗网络犯罪的崇高事业中，本中心仅承担了少量协调类工作。**恶意载荷从发现到清除，离不开国家有关部门、安全社区与研究员、杀毒软件厂商及威胁情报提供商的共同努力**。在此，谨向他们致以诚挚谢意。
 
@@ -101,6 +101,8 @@
 | 2026/7/24 |         1111.exe          |   **银狐 (SilverFox)**   | abce9c1f2212e5eb9792c9fa7e82c9feeff7ec3328984f1aa4b36a1201fd7b63 | b0d60446-13ae-4e2d-8f68-e58b7efa45fe | [VirusTotal](https://www.virustotal.com/gui/file/abce9c1f2212e5eb9792c9fa7e82c9feeff7ec3328984f1aa4b36a1201fd7b63) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/abce9c1f2212e5eb9792c9fa7e82c9feeff7ec3328984f1aa4b36a1201fd7b63) | 1507 |
 | 2026/7/24 | 2026.07.24裁员名单···.exe | **银狐 (SilverFox.bg)**  | 7697afae2423722035ef1180fc7d24fef2e1667c55a45b183a2a435c6d135c84 | b8a976b9-5b0b-4019-aebc-d79a014f6c51 | [VirusTotal](https://www.virustotal.com/gui/file/7697afae2423722035ef1180fc7d24fef2e1667c55a45b183a2a435c6d135c84) (12) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/7697afae2423722035ef1180fc7d24fef2e1667c55a45b183a2a435c6d135c84) | 1508 |
 | 2026/7/24 |  ···公办高中录取通知.exe  |     **SFX Dropper**      | 132399fe61e7a2e424c7981a386ea8e08ceba69930d266a1f10fdf2900df4c07 | 58d78d85-429a-4433-939c-bdcabe61663b | [VirusTotal](https://www.virustotal.com/gui/file/132399fe61e7a2e424c7981a386ea8e08ceba69930d266a1f10fdf2900df4c07) (9) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/132399fe61e7a2e424c7981a386ea8e08ceba69930d266a1f10fdf2900df4c07) | 1509 |
+| 2026/7/24 |                           |                          |                                                              |                                      | [VirusTotal](https://www.virustotal.com/gui/file/a874e206fab6787d4e35b4e08df29e8d0f5708171fdeaf57c0d59a5f717a980d) (1) |                              无                              | 1510 |
+| 2026/7/24 |                           |                          |                                                              |                                      | [VirusTotal](https://www.virustotal.com/gui/file/caf94d0c228124be761c85a17b7fa9ee99a60de0b21b8585df3f83d3ccc0c6ae) (16) |                  [MalwareBazaar Database]()                  | 1511 |
 |  ——————   |       ————————————        |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -137,6 +139,9 @@
 | 2026/7/22 |        hxxps://gw-sogou[.]com[.]cn        | **仿冒搜狗输入法、传播病毒** |                            同 720                            |     无     | 721  |
 | 2026/7/22 |        hxxps://dl-sogou[.]com[.]cn        | **仿冒搜狗输入法、传播病毒** |                            同 720                            |     无     | 722  |
 | 2026/7/22 |        hxxps://www-sougou-ai[.]cn         | **仿冒搜狗输入法、传播病毒** |                       有，载荷提取失败                       |     无     | 723  |
+| 2026/7/24 |      https://www.fnik75tv.com/down24      |       **传播银狐病毒**       |                       有，载荷提取失败                       |     无     | 724  |
+| 2026/7/24 |     https://www.cloud-onedrive.com.cn     | **仿冒 OneDrive、传播病毒**  |                            同 724                            |     无     | 725  |
+| 2026/7/24 |          https://clash-verge.co           |  **借助 VPN 工具传播病毒**   |           https://dy.dowshfas.xyz/p7/Clash-X64.zip           |     无     | 726  |
 |  ——————   |           ————————————————————            |       ———————————————        |                ——————————————————————————————                | —————————— | ———  |
 
 > [!NOTE]
