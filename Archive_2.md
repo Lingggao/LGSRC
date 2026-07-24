@@ -712,6 +712,9 @@
 | 2026/7/13 |          hxxps://virtualbox[.]hl[.]cn           |  **仿冒虚拟机产品、传播病毒**   |                            同 700                            |                            无                            | 701  |
 | 2026/7/14 |           hxxps://gw-sogou[.]com[.]cn           |  **仿冒搜狗输入法、传播病毒**   |                            同 700                            |                            无                            | 702  |
 | 2026/7/14 |              hxxps://sogocn[.]com               |  **仿冒搜狗输入法、传播病毒**   | hxxps://sogoupy-x64-x86956231550893123[.]s3[.]ap-east-1[.]amazonaws[.]com/sogoupy-x64-x86956231550893123[.]zip |                            无                            | 703  |
+| 2026/7/14 |        hxxps://shurufaa-sogou[.]com[.]cn        |  **仿冒搜狗输入法、传播病毒**   | hxxps://download-download-win[.]com[.]cn/download/gou_shurufa_x64[.]zip |                            无                            | 704  |
+| 2026/7/15 |    hxxps://app[.]wps-world-office[.]com[.]cn    |     **仿冒 WPS、传播病毒**      |    注：仅在必应搜索结果中点击该链接时，才会跳转至恶意网站    |                            无                            | 705  |
+| 2026/7/15 |    hxxps://cn[.]wps-world-office[.]com[.]cn     |     **仿冒 WPS、传播病毒**      |    注：仅在必应搜索结果中点击该链接时，才会跳转至恶意网站    |                            无                            | 706  |
 |  ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
