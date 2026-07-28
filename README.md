@@ -61,9 +61,9 @@
 | &emsp;&emsp;&emsp;&emsp;&emsp;灵糕中心安全响应中心通过广西慈善联合总会向洪涝灾害受灾群众捐赠 2026 元人民币&emsp;&emsp;&emsp;&emsp;&emsp; |
 | :----------------------------------------------------------: |
 
-&emsp;&emsp;上次更新时间：2026 年 7 月 27 日 19:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 7 月 28 日 16:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 7 月 27 日，本中心已打击计算机病毒 / 恶意软件 1,530 个、恶意网站 735 个，累计为潜在受害者规避经济损失约 6,502,500 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 7 月 28 日，本中心已打击计算机病毒 / 恶意软件 1,534 个、恶意网站 741 个，累计为潜在受害者规避经济损失约 6,519,500 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;在对抗网络犯罪的崇高事业中，本中心仅承担了少量协调类工作。**恶意载荷从发现到清除，离不开国家有关部门、安全社区与研究员、杀毒软件厂商及威胁情报提供商的共同努力**。在此，谨向他们致以诚挚谢意。
 
@@ -81,10 +81,6 @@
 
 |   日期    |          文件名          |         检测         |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :----------------------: | :------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/7/24 |    intll.0.88022.msi     | **银狐 (SilverFox)** | caf94d0c228124be761c85a17b7fa9ee99a60de0b21b8585df3f83d3ccc0c6ae | 33f78136-bc76-40b9-9720-136c176f0be9 | [VirusTotal](https://www.virustotal.com/gui/file/caf94d0c228124be761c85a17b7fa9ee99a60de0b21b8585df3f83d3ccc0c6ae) (16) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/caf94d0c228124be761c85a17b7fa9ee99a60de0b21b8585df3f83d3ccc0c6ae) | 1511 |
-| 2026/7/25 |    intll.1.zz020.msi     | **银狐 (SilverFox)** | 4f69401ed22d18de7bf7dc56948666020b8660c5546c904c0b9de71a9ebee24d | ebe6bde1-f134-45b3-8825-17daf593fd62 | [VirusTotal](https://www.virustotal.com/gui/file/4f69401ed22d18de7bf7dc56948666020b8660c5546c904c0b9de71a9ebee24d) (17) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/4f69401ed22d18de7bf7dc56948666020b8660c5546c904c0b9de71a9ebee24d) | 1512 |
-| 2026/7/25 |  SMS···接码器更新版.exe  | **银狐 (SilverFox)** | 7b16b0dda74cc8410364fd32d1b16ec9d2961a77dfbc6167f4bf908904e92a98 | 4735edb0-07ae-458f-a38f-642554a69b15 | [VirusTotal](https://www.virustotal.com/gui/file/7b16b0dda74cc8410364fd32d1b16ec9d2961a77dfbc6167f4bf908904e92a98) (1) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/7b16b0dda74cc8410364fd32d1b16ec9d2961a77dfbc6167f4bf908904e92a98) | 1513 |
-| 2026/7/25 |  xrkzs···7.23_noxce.exe  | **银狐 (SilverFox)** | a88fe2aa9c235e178a06e201dac79558194c9122e9e3e572a091a8aadceff1ad | defecc7b-7269-45a0-bb2e-552c45736dcf | [VirusTotal](https://www.virustotal.com/gui/file/a88fe2aa9c235e178a06e201dac79558194c9122e9e3e572a091a8aadceff1ad) (12) |                              无                              | 1514 |
 | 2026/7/25 |  Huorongt_12.8.1···.exe  | **银狐 (SilverFox)** | 17d83435eafdcb90dd6471cb37eac1b1e37442038104d859be891ab45e5b0cea | 34920d9b-7a05-43d5-8a71-1ef07b7a17f4 | [VirusTotal](https://www.virustotal.com/gui/file/17d83435eafdcb90dd6471cb37eac1b1e37442038104d859be891ab45e5b0cea) (44) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/17d83435eafdcb90dd6471cb37eac1b1e37442038104d859be891ab45e5b0cea) | 1515 |
 | 2026/7/25 |    intll.1.zz001.msi     | **银狐 (SilverFox)** | 11f03dd57cbc7c882dcb9ea5067726e3cd48a155eae3d185ce02dcd721066e0d | 632726fb-2c8f-4681-aede-75d39708b68b | [VirusTotal](https://www.virustotal.com/gui/file/11f03dd57cbc7c882dcb9ea5067726e3cd48a155eae3d185ce02dcd721066e0d) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/11f03dd57cbc7c882dcb9ea5067726e3cd48a155eae3d185ce02dcd721066e0d) | 1516 |
 | 2026/7/25 |     sysdiag-all.msi      | **银狐 (SilverFox)** | 5c5260c9b9b788d4a94e62c4bc92c0eb4eebb97980fb31091333892629c6ffab | 5dcab8bd-55d3-4455-9c57-9a9c88c1430c | [VirusTotal](https://www.virustotal.com/gui/file/5c5260c9b9b788d4a94e62c4bc92c0eb4eebb97980fb31091333892629c6ffab) (8) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5c5260c9b9b788d4a94e62c4bc92c0eb4eebb97980fb31091333892629c6ffab) | 1517 |
@@ -101,6 +97,10 @@
 | 2026/7/27 |   AweXrk_remote···.exe   | **银狐 (SilverFox)** | 0c5ee6a717e999c56f6cad36d47a963dac06769c9740c060829e935eb639625a | d833f176-cc66-49af-89af-9e497da55397 | [VirusTotal](https://www.virustotal.com/gui/file/0c5ee6a717e999c56f6cad36d47a963dac06769c9740c060829e935eb639625a) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/0c5ee6a717e999c56f6cad36d47a963dac06769c9740c060829e935eb639625a) | 1528 |
 | 2026/7/27 |  Hrdiag_setuprs···.exe   | **银狐 (SilverFox)** | 893d4293a34a9e1344248282064b4c6e2e322843b4bb5b59330e571618f0acdf | d5406b2e-994b-4e09-b25e-a90ef2efc7e0 | [VirusTotal](https://www.virustotal.com/gui/file/893d4293a34a9e1344248282064b4c6e2e322843b4bb5b59330e571618f0acdf) (10) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/893d4293a34a9e1344248282064b4c6e2e322843b4bb5b59330e571618f0acdf) | 1529 |
 | 2026/7/27 |   hrwsInst···xvozm.exe   | **银狐 (SilverFox)** | 6b8e29d928a0ea6f297ab9226025f905d35b436ce480d2bb1de74150e23ea899 | 42470992-8245-4293-b02a-01b98baa7d6e | [VirusTotal](https://www.virustotal.com/gui/file/6b8e29d928a0ea6f297ab9226025f905d35b436ce480d2bb1de74150e23ea899) (9) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/6b8e29d928a0ea6f297ab9226025f905d35b436ce480d2bb1de74150e23ea899) | 1530 |
+| 2026/7/28 |  Install_966r30010.msi   | **银狐 (SilverFox)** | 5432f6700bea135302a64366214765a8b0bdb2b1658e2cb37b64a28b8edd79cb | ac22cf88-0f6c-436e-927e-43942dea9e52 | [VirusTotal](https://www.virustotal.com/gui/file/5432f6700bea135302a64366214765a8b0bdb2b1658e2cb37b64a28b8edd79cb) (17) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5432f6700bea135302a64366214765a8b0bdb2b1658e2cb37b64a28b8edd79cb) | 1531 |
+| 2026/7/28 | To_zdnttjqb_Desk···.exe  | **银狐 (SilverFox)** | 01550a6c6e785ffb6763da19c0cc7de153379e090b91b943d0143a44cc9f08f1 | cc18c94c-44e1-4293-a4ef-eee5c557b4a0 | [VirusTotal](https://www.virustotal.com/gui/file/01550a6c6e785ffb6763da19c0cc7de153379e090b91b943d0143a44cc9f08f1) (27) |                              无                              | 1532 |
+| 2026/7/28 |      Todesa2.1.exe       | **银狐 (SilverFox)** | 7995791e5464b2951993a9aa9dc2ac06586d4a8761da15a89a9dacba382241c9 | b1799c7c-06a1-4703-b84e-2059a4b703fb | [VirusTotal](https://www.virustotal.com/gui/file/7995791e5464b2951993a9aa9dc2ac06586d4a8761da15a89a9dacba382241c9) (25) |                              无                              | 1533 |
+| 2026/7/28 |   win-64toko.6041.exe    | **银狐 (SilverFox)** | 1a9212ec01640c6b6efb0c233a63d6fccb4e76232d607581e46a35d5cd0f5361 | 92132608-329f-490e-b000-11b87acd3ce2 | [VirusTotal](https://www.virustotal.com/gui/file/1a9212ec01640c6b6efb0c233a63d6fccb4e76232d607581e46a35d5cd0f5361) (21) |                              无                              | 1534 |
 |  ——————   |       ————————————       |     ————————————     |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -117,12 +117,6 @@
 
 |   日期    |                   URL                   |             类别             |                           有效载荷                           |  URLhaus   | 编号 |
 | :-------: | :-------------------------------------: | :--------------------------: | :----------------------------------------------------------: | :--------: | :--: |
-| 2026/7/20 |      hxxps://v-dingtalk[.]com[.]cn      |    **仿冒钉钉、传播病毒**    |    注：仅在必应搜索结果中点击该链接时，才会跳转至恶意网站    |     无     | 716  |
-| 2026/7/21 |   hxxps://www[.]whur1584[.]com/20soft   |       **传播银狐病毒**       |                       有，载荷提取失败                       |     无     | 717  |
-| 2026/7/21 |       hxxps://shimo-wd[.]com[.]cn       |  **仿冒石墨文档、传播病毒**  |                            同 717                            |     无     | 718  |
-| 2026/7/21 |      hxxps://pc-shiimo[.]com[.]cn       |  **仿冒石墨文档、传播病毒**  |                            同 717                            |     无     | 719  |
-| 2026/7/22 |  hxxps://www[.]gnrrn2821[.]com/22setup  |       **传播银狐病毒**       |                       有，载荷提取失败                       |     无     | 720  |
-| 2026/7/22 |       hxxps://gw-sogou[.]com[.]cn       | **仿冒搜狗输入法、传播病毒** |                            同 720                            |     无     | 721  |
 | 2026/7/22 |       hxxps://dl-sogou[.]com[.]cn       | **仿冒搜狗输入法、传播病毒** |                            同 720                            |     无     | 722  |
 | 2026/7/22 |       hxxps://www-sougou-ai[.]cn        | **仿冒搜狗输入法、传播病毒** |                       有，载荷提取失败                       |     无     | 723  |
 | 2026/7/24 |   hxxps://www[.]fnik75tv[.]com/down24   |       **传播银狐病毒**       |                       有，载荷提取失败                       |     无     | 724  |
@@ -137,6 +131,12 @@
 | 2026/7/25 |      hxxps://huorong-ap[.]com[.]cn      |    **仿冒火绒、传播病毒**    |                            同 730                            |     无     | 733  |
 | 2026/7/25 |    hxxps://gf-huorongwin[.]com[.]cn     |    **仿冒火绒、传播病毒**    | hxxps://download[.]zhanfubrowser[.]org/donwnload/Huorongt_12[.]8[.]1_x64[.]zip |     无     | 734  |
 | 2026/7/25 |   hxxps://www[.]hr-huorong[.]hl[.]cn    |    **仿冒火绒、传播病毒**    |                            同 730                            |     无     | 735  |
+| 2026/7/28 |  hxxps://www[.]gyvg3ribwy[.]com/27load  |       **传播银狐病毒**       |                       有，载荷提取失败                       |     无     | 736  |
+| 2026/7/28 |     hxxps://cloud-todesk[.]com[.]cn     |  **仿冒 ToDesk、传播病毒**   | hxxps://cloud-todesk[.]com[.]cn/To_zdnttjqb_Desk%204[.]9[.]7[.]3[.]zip |     无     | 737  |
+| 2026/7/28 |      hxxps://pr-todesk[.]com[.]cn       |  **仿冒 ToDesk、传播病毒**   |                            同 736                            |     无     | 738  |
+| 2026/7/28 |   hxxps://www[.]ce-todesk[.]com[.]cn    |  **仿冒 ToDesk、传播病毒**   | hxxps://kjkgvtfy1[.]oss-cn-hongkong[.]aliyuncs[.]com/Todesa2[.]1%20[.]zip |     无     | 739  |
+| 2026/7/28 |     hxxps://www[.]toesk[.]com[.]cn      |  **仿冒 ToDesk、传播病毒**   |  hxxps://www[.]toesk[.]com[.]cn/xz/win-64toko[.]7050[.]zip   |     无     | 740  |
+| 2026/7/28 |      hxxps://im-todesk[.]com[.]cn       |  **仿冒 ToDesk、传播病毒**   |   hxxps://im-todesk[.]com[.]cn/xz/win-64toko[.]7050[.]zip    |     无     | 741  |
 |  ——————   |          ————————————————————           |       ———————————————        |                ——————————————————————————————                | —————————— | ———  |
 
 > [!NOTE]
@@ -161,7 +161,7 @@
 
 &emsp;&emsp;[《**“银狐” 威胁动态：官方及网络安全企业文章汇编**》](https://github.com/Lingggao/LGSRC/blob/main/Documents/SilverFox_Articles.md)
 
-&emsp;&emsp;**银狐 IOC 情报合集**：[**VirusTotal**](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) + [**LevelBlue OTX**](https://otx.alienvault.com/pulse/6a36fe5a3c1568785b59c4d7)&emsp;实时更新，已收录 1,050 项情报 (文件、URL、域名、IP)
+&emsp;&emsp;**银狐 IOC 情报合集**：[**VirusTotal**](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) + [**LevelBlue OTX**](https://otx.alienvault.com/pulse/6a36fe5a3c1568785b59c4d7)&emsp;实时更新，已收录 1,069 项情报 (文件、URL、域名、IP)
 
 ---
 
