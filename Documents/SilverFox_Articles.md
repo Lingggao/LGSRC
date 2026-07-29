@@ -9,10 +9,15 @@
 
 ### 文章
 
-[011]  
+[012]  
 《[**关于开展“银狐”木马专项打击行动并公开征集威胁信息线索的公告**](https://mp.weixin.qq.com/s/5sTisRC8VkE992g5VJjrmQ)》  
 **国家计算机网络应急技术处理协调中心**，2026 年 7 月  
 网址：[https://mp.weixin.qq.com/s/5sTisRC8VkE992g5VJjrmQ](https://mp.weixin.qq.com/s/5sTisRC8VkE992g5VJjrmQ)
+
+[011]  
+《[**银狐木马进化史-从Gh0st到3万变种的黑产帝国**](https://mp.weixin.qq.com/s/JQ4NrcocGxoAg6_j0v6Eqg)》  
+**知白守黑1024** (个人账号)，2026 年 7 月  
+网址：[https://mp.weixin.qq.com/s/JQ4NrcocGxoAg6_j0v6Eqg](https://mp.weixin.qq.com/s/JQ4NrcocGxoAg6_j0v6Eqg)
 
 [010]  
 《[**一名涉嫌破坏计算机信息系统犯罪嫌疑人被押解回国**](https://www.news.cn/legal/20260720/23bded7078c442fcb0ef5b361befe078/c.html)》  
