@@ -14,8 +14,8 @@
 **多引擎聚合分析与检测**
 
 - [**VirusTotal**](https://www.virustotal.com) (Google Cloud)
+- [**BrewTotal 扫描矩阵开放平台**](https://brew.virusmark.com) (Virusmark 工作室)
 - [暂停运营] [**Threat Insights Portal**](https://www.threat.rip) (Threat.RIP)
-- [**BrewTotal 扫描矩阵开放平台**](http://frp-add.com:53747) (Virusmark 工作室)
 
 **恶意软件在线分析沙箱**
 
