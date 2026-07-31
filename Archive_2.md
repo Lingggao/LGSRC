@@ -744,6 +744,10 @@
 | 2026/7/25 |          hxxps://huorong-ap[.]com[.]cn          |     **仿冒火绒、传播病毒**      |                            同 730                            |                            无                            | 733  |
 | 2026/7/25 |        hxxps://gf-huorongwin[.]com[.]cn         |     **仿冒火绒、传播病毒**      | hxxps://download[.]zhanfubrowser[.]org/donwnload/Huorongt_12[.]8[.]1_x64[.]zip |                            无                            | 734  |
 | 2026/7/25 |       hxxps://www[.]hr-huorong[.]hl[.]cn        |     **仿冒火绒、传播病毒**      |                            同 730                            |                            无                            | 735  |
+| 2026/7/28 |      hxxps://www[.]gyvg3ribwy[.]com/27load      |        **传播银狐病毒**         |                       有，载荷提取失败                       |                            无                            | 736  |
+| 2026/7/28 |         hxxps://cloud-todesk[.]com[.]cn         |    **仿冒 ToDesk、传播病毒**    | hxxps://cloud-todesk[.]com[.]cn/To_zdnttjqb_Desk%204[.]9[.]7[.]3[.]zip |                            无                            | 737  |
+| 2026/7/28 |          hxxps://pr-todesk[.]com[.]cn           |    **仿冒 ToDesk、传播病毒**    |                            同 736                            |                            无                            | 738  |
+| 2026/7/28 |       hxxps://www[.]ce-todesk[.]com[.]cn        |    **仿冒 ToDesk、传播病毒**    | hxxps://kjkgvtfy1[.]oss-cn-hongkong[.]aliyuncs[.]com/Todesa2[.]1%20[.]zip |                            无                            | 739  |
 |  ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
