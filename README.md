@@ -61,9 +61,9 @@
 | &emsp;&emsp;&emsp;&emsp;&emsp;灵糕中心安全响应中心通过广西慈善联合总会向洪涝灾害受灾群众捐赠 2026 元人民币&emsp;&emsp;&emsp;&emsp;&emsp; |
 | :----------------------------------------------------------: |
 
-&emsp;&emsp;上次更新时间：2026 年 7 月 31 日 23:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 8 月 1 日 1:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 7 月 31 日，本中心已打击计算机病毒 / 恶意软件 1,555 个、恶意网站 759 个，累计为潜在受害者规避经济损失约 6,608,750 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 8 月 1 日，本中心已打击计算机病毒 / 恶意软件 1,555 个、恶意网站 759 个，累计为潜在受害者规避经济损失约 6,608,750 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;在对抗网络犯罪的崇高事业中，本中心仅承担了少量协调类工作。**恶意载荷从发现到清除，离不开国家有关部门、安全社区与研究员、杀毒软件厂商及威胁情报提供商的共同努力**。在此，谨向他们致以诚挚谢意。
 
@@ -99,8 +99,8 @@
 | 2026/7/31 |    HellOX.Agent.exe     |  **银狐 (SilverFox)**   | 537ae9a039a1c81d5622263cc5573f7b1b2efe6dc3df13c4c15ff42a8ad77799 | 03d1c43a-5b18-4eab-a40f-6cec2f6bb613 | [VirusTotal](https://www.virustotal.com/gui/file/537ae9a039a1c81d5622263cc5573f7b1b2efe6dc3df13c4c15ff42a8ad77799) (29) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/537ae9a039a1c81d5622263cc5573f7b1b2efe6dc3df13c4c15ff42a8ad77799) | 1551 |
 | 2026/7/31 |    旺财作图_z64.exe     |  **银狐 (SilverFox)**   | 3158e3a29744b23d21d840220a1f238e57df86959998df9ba481dcd324cc47a0 | e250df28-2526-4cac-890f-4806c08d00ec | [VirusTotal](https://www.virustotal.com/gui/file/3158e3a29744b23d21d840220a1f238e57df86959998df9ba481dcd324cc47a0) (9) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/3158e3a29744b23d21d840220a1f238e57df86959998df9ba481dcd324cc47a0) | 1552 |
 | 2026/7/31 | Huorongt_12.8.1···.exe  |  **银狐 (SilverFox)**   | a8321349af836840b48b769528d29ff0ac2b5ee864942a82f8cacf240f983934 | f1099038-6e32-4006-aa72-900ea4caae9b | [VirusTotal](https://www.virustotal.com/gui/file/a8321349af836840b48b769528d29ff0ac2b5ee864942a82f8cacf240f983934) (2) |                              无                              | 1553 |
-| 2026/7/31 |   install_c0rd017.msi   |  **银狐 (SilverFox)**   | bf9f165ece68777605a21b8975d309e87cf916a181227231c174c00449357a63 | c76ec344-ce11-4a05-8e71-0e9eb72cd395 | [VirusTotal](https://www.virustotal.com/gui/file/bf9f165ece68777605a21b8975d309e87cf916a181227231c174c00449357a63) (17) |                  [MalwareBazaar Database]()                  | 1554 |
-| 2026/7/31 |   sysdiag···07.22.exe   |  **银狐 (SilverFox)**   | 77d7a748ab647241403ab5741a7184501602877cc803ef33b6044feb5a708387 | 09e67c13-2afe-497e-8564-a7a2ae4ee675 | [VirusTotal](https://www.virustotal.com/gui/file/77d7a748ab647241403ab5741a7184501602877cc803ef33b6044feb5a708387) (5) |                  [MalwareBazaar Database]()                  | 1555 |
+| 2026/7/31 |   install_c0rd017.msi   |  **银狐 (SilverFox)**   | bf9f165ece68777605a21b8975d309e87cf916a181227231c174c00449357a63 | c76ec344-ce11-4a05-8e71-0e9eb72cd395 | [VirusTotal](https://www.virustotal.com/gui/file/bf9f165ece68777605a21b8975d309e87cf916a181227231c174c00449357a63) (17) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/bf9f165ece68777605a21b8975d309e87cf916a181227231c174c00449357a63) | 1554 |
+| 2026/7/31 |   sysdiag···07.22.exe   |  **银狐 (SilverFox)**   | 77d7a748ab647241403ab5741a7184501602877cc803ef33b6044feb5a708387 | 09e67c13-2afe-497e-8564-a7a2ae4ee675 | [VirusTotal](https://www.virustotal.com/gui/file/77d7a748ab647241403ab5741a7184501602877cc803ef33b6044feb5a708387) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/77d7a748ab647241403ab5741a7184501602877cc803ef33b6044feb5a708387) | 1555 |
 |  ——————   |      ————————————       |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
