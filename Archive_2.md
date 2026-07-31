@@ -739,6 +739,11 @@
 | 2026/7/25 |          hxxps://foxitapps[.]com[.]cn           |   **仿冒福昕 PDF、传播病毒**    |                            同 724                            |                            无                            | 728  |
 | 2026/7/25 |       hxxps://www[.]foxit-apps[.]com[.]cn       |   **仿冒福昕 PDF、传播病毒**    |                            同 724                            |                            无                            | 729  |
 | 2026/7/25 |      hxxps://www[.]mietnx4[.]com/26loader       |        **传播银狐病毒**         |                       有，载荷提取失败                       |                            无                            | 730  |
+| 2026/7/25 |          hxxps://i-huorong[.]com[.]cn           |     **仿冒火绒、传播病毒**      | hxxps://qishuixiazai[.]oss-ap-southeast-3[.]aliyuncs[.]com/sysdiag-all[.]zip |                            无                            | 731  |
+| 2026/7/25 |            hxxps://safe-huorong[.]cn            |     **仿冒火绒、传播病毒**      |                            同 730                            |                            无                            | 732  |
+| 2026/7/25 |          hxxps://huorong-ap[.]com[.]cn          |     **仿冒火绒、传播病毒**      |                            同 730                            |                            无                            | 733  |
+| 2026/7/25 |        hxxps://gf-huorongwin[.]com[.]cn         |     **仿冒火绒、传播病毒**      | hxxps://download[.]zhanfubrowser[.]org/donwnload/Huorongt_12[.]8[.]1_x64[.]zip |                            无                            | 734  |
+| 2026/7/25 |       hxxps://www[.]hr-huorong[.]hl[.]cn        |     **仿冒火绒、传播病毒**      |                            同 730                            |                            无                            | 735  |
 |  ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
