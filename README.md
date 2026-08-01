@@ -135,8 +135,8 @@
 | 2026/7/31 |     hxxps://app-hurong[.]com[.]cn     |   **仿冒火绒、传播病毒**    |                            同 756                            |     无     | 757  |
 | 2026/7/31 |  hxxps://www[.]huorongac[.]com[.]cn   |   **仿冒火绒、传播病毒**    | hxxps://download[.]zhanfubrowser[.]org/donwnload/Huorongt_12[.]8[.]1_x64[.]zip |     无     | 758  |
 | 2026/7/31 |      hxxps://huorongr[.]com[.]cn      |   **仿冒火绒、传播病毒**    |                            同 758                            |     无     | 759  |
-| 2026/8/1  |      https://www.kugouok.com.cn       | **仿冒酷狗音乐、传播病毒**  |                 hxxps://erfanvpn[.]com[.]cn                  |     无     | 760  |
-| 2026/8/1  |        https://erfanvpn.com.cn        |  **借助 VPN 工具传播病毒**  | https://2026efanjiasuqi1.oss-cn-hongkong.aliyuncs.com/efanjiasu-x64.5.4.1.zip |     无     | 761  |
+| 2026/8/1  |   hxxps://www[.]kugouok[.]com[.]cn    | **仿冒酷狗音乐、传播病毒**  |                 hxxps://erfanvpn[.]com[.]cn                  |     无     | 760  |
+| 2026/8/1  |      hxxps://erfanvpn[.]com[.]cn      |  **借助 VPN 工具传播病毒**  | hxxps://2026efanjiasuqi1[.]oss-cn-hongkong[.]aliyuncs[.]com/efanjiasu-x64[.]5[.]4[.]1[.]zip |     无     | 761  |
 |  ——————   |         ————————————————————          |       ———————————————       |                ——————————————————————————————                | —————————— | ———  |
 
 > [!NOTE]
