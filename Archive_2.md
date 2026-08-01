@@ -748,6 +748,8 @@
 | 2026/7/28 |         hxxps://cloud-todesk[.]com[.]cn         |    **仿冒 ToDesk、传播病毒**    | hxxps://cloud-todesk[.]com[.]cn/To_zdnttjqb_Desk%204[.]9[.]7[.]3[.]zip |                            无                            | 737  |
 | 2026/7/28 |          hxxps://pr-todesk[.]com[.]cn           |    **仿冒 ToDesk、传播病毒**    |                            同 736                            |                            无                            | 738  |
 | 2026/7/28 |       hxxps://www[.]ce-todesk[.]com[.]cn        |    **仿冒 ToDesk、传播病毒**    | hxxps://kjkgvtfy1[.]oss-cn-hongkong[.]aliyuncs[.]com/Todesa2[.]1%20[.]zip |                            无                            | 739  |
+| 2026/7/28 |         hxxps://www[.]toesk[.]com[.]cn          |    **仿冒 ToDesk、传播病毒**    |  hxxps://www[.]toesk[.]com[.]cn/xz/win-64toko[.]7050[.]zip   |                            无                            | 740  |
+| 2026/7/28 |          hxxps://im-todesk[.]com[.]cn           |    **仿冒 ToDesk、传播病毒**    |   hxxps://im-todesk[.]com[.]cn/xz/win-64toko[.]7050[.]zip    |                            无                            | 741  |
 |  ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
