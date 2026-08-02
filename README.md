@@ -61,9 +61,9 @@
 | &emsp;&emsp;&emsp;&emsp;&emsp;灵糕中心安全响应中心通过广西慈善联合总会向洪涝灾害受灾群众捐赠 2026 元人民币&emsp;&emsp;&emsp;&emsp;&emsp; |
 | :----------------------------------------------------------: |
 
-&emsp;&emsp;上次更新时间：2026 年 8 月 3 日 1:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 8 月 3 日 3:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 8 月 3 日，本中心已打击计算机病毒 / 恶意软件 1,559 个、恶意网站 765 个，累计为潜在受害者规避经济损失约 6,625,750 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 8 月 3 日，本中心已打击计算机病毒 / 恶意软件 1,560 个、恶意网站 765 个，累计为潜在受害者规避经济损失约 6,630,000 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;在对抗网络犯罪的崇高事业中，本中心仅承担了少量协调类工作。**恶意载荷从发现到清除，离不开国家有关部门、安全社区与研究员、杀毒软件厂商及威胁情报提供商的共同努力**。在此，谨向他们致以诚挚谢意。
 
@@ -81,7 +81,6 @@
 
 |   日期    |          文件名          |          检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :----------------------: | :---------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/7/29 |        Tence.exe         |  **银狐 (SilverFox)**   | 4ce994747eb5fb4113f23d42f22a089e099c6690980dac9c92d26a28762e25ef | d0278fc0-493e-42f7-9a5e-d3d20421575b | [VirusTotal](https://www.virustotal.com/gui/file/4ce994747eb5fb4113f23d42f22a089e099c6690980dac9c92d26a28762e25ef) (8) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/4ce994747eb5fb4113f23d42f22a089e099c6690980dac9c92d26a28762e25ef) | 1540 |
 | 2026/7/30 |     ChrnmrSeitup.exe     |  **银狐 (SilverFox)**   | 5f6583b809b33ac65669b7f3723dbab98d2b375e4d51a22b3ab415cc0182e452 | 332d91c2-d3fb-429e-8501-93cf24e1730b | [VirusTotal](https://www.virustotal.com/gui/file/5f6583b809b33ac65669b7f3723dbab98d2b375e4d51a22b3ab415cc0182e452) (3) |                              无                              | 1541 |
 | 2026/7/30 |    Banndiziip_x64.exe    |  **银狐 (SilverFox)**   | 2da611af6f3cad9f6829a476cfd47b8c4fd54e814024517da3aab2e4a81643b0 | c0374b5e-9850-4b0d-83a2-cc20bf14930c | [VirusTotal](https://www.virustotal.com/gui/file/2da611af6f3cad9f6829a476cfd47b8c4fd54e814024517da3aab2e4a81643b0) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/2da611af6f3cad9f6829a476cfd47b8c4fd54e814024517da3aab2e4a81643b0) | 1542 |
 | 2026/7/30 | Clash.Verge2.5.2x64.exe  |         **RAT**         | 2e48a2bb5ab619cd2ba29d7f860192ccd1b1f75f71051b4fa80428da0cc3c32f | f57423f8-9af9-4352-acdb-f326aea70ab6 | [VirusTotal](https://www.virustotal.com/gui/file/2e48a2bb5ab619cd2ba29d7f860192ccd1b1f75f71051b4fa80428da0cc3c32f) (6) |                              无                              | 1543 |
@@ -101,6 +100,7 @@
 | 2026/8/1  | efanjiasu-x64.5.4.1.exe  |  **银狐 (SilverFox)**   | 656df72095ad3a127c6523471433c331399543e18c762428f3373735bc57149c | ed74bc72-5a9f-4529-884b-eec42f860bf6 | [VirusTotal](https://www.virustotal.com/gui/file/656df72095ad3a127c6523471433c331399543e18c762428f3373735bc57149c) (7) |                              无                              | 1557 |
 | 2026/8/2  | 美图_Installer_Setup.msi |  **银狐 (SilverFox)**   | 8cbe2185628bbfd77a6f19e143824bbcfb3d8bc2330015316042e3cf1a353786 | acb9dde3-e791-4c96-8f25-e008cbfed54f | [VirusTotal](https://www.virustotal.com/gui/file/8cbe2185628bbfd77a6f19e143824bbcfb3d8bc2330015316042e3cf1a353786) (11) |                              无                              | 1558 |
 | 2026/8/3  |    install_ehe007.msi    |  **银狐 (SilverFox)**   | d7c61561dab4c69daf06ecd49eb74694d26319c0e1c8660f996a45fd71c5bc9e | f0c2a0e5-3398-4361-a468-8b3bb3e21b3f | [VirusTotal](https://www.virustotal.com/gui/file/d7c61561dab4c69daf06ecd49eb74694d26319c0e1c8660f996a45fd71c5bc9e) (22) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/d7c61561dab4c69daf06ecd49eb74694d26319c0e1c8660f996a45fd71c5bc9e) | 1559 |
+| 2026/8/3  |    install_ehe006.msi    |  **银狐 (SilverFox)**   | fbbb632f5eb001ae9e45b6d47d388e78de432a08a8366b111c98fc952c482cb7 | b19c0c60-7bab-4aae-b9cd-422a58b3c54a | [VirusTotal](https://www.virustotal.com/gui/file/fbbb632f5eb001ae9e45b6d47d388e78de432a08a8366b111c98fc952c482cb7) (19) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/fbbb632f5eb001ae9e45b6d47d388e78de432a08a8366b111c98fc952c482cb7) | 1560 |
 |  ——————   |       ————————————       |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -161,7 +161,7 @@
 
 &emsp;&emsp;[《**“银狐” 威胁动态：官方及网络安全企业文章汇编**》](https://github.com/Lingggao/LGSRC/blob/main/Documents/SilverFox_Articles.md)
 
-&emsp;&emsp;**银狐 IOC 情报合集**：[**VirusTotal**](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) + [**LevelBlue OTX**](https://otx.alienvault.com/pulse/6a36fe5a3c1568785b59c4d7)&emsp;实时更新，已收录 1,140 项情报 (文件、URL、域名、IP)
+&emsp;&emsp;**银狐 IOC 情报合集**：[**VirusTotal**](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) + [**LevelBlue OTX**](https://otx.alienvault.com/pulse/6a36fe5a3c1568785b59c4d7)&emsp;实时更新，已收录 1,141 项情报 (文件、URL、域名、IP)
 
 ---
 
