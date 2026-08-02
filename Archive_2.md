@@ -752,6 +752,8 @@
 | 2026/7/28 |          hxxps://im-todesk[.]com[.]cn           |    **仿冒 ToDesk、传播病毒**    |   hxxps://im-todesk[.]com[.]cn/xz/win-64toko[.]7050[.]zip    |                            无                            | 741  |
 | 2026/7/30 |              hxxps://chromcn[.]org              |    **仿冒 Chrome、传播病毒**    |            hxxps://yhoak[.]top/ChrnmrSeitup[.]zip            |                            无                            | 742  |
 | 2026/7/30 |      hxxps://www[.]bandizipzip[.]com[.]cn       |   **仿冒 Bandizip、传播病毒**   | hxxps://download[.]zhanfubrowser[.]org/donwnload/Banndiziip_x64[.]zip |                            无                            | 743  |
+| 2026/7/30 |          hxxps://bandi-zip[.]com[.]cn           |   **仿冒 Bandizip、传播病毒**   |                            同 743                            |                            无                            | 744  |
+| 2026/7/30 |        hxxps://clashvergesoft[.]com[.]cn        |    **借助 VPN 工具传播病毒**    |  hxxps://www[.]aot-cn[.]com/Clash[.]Verge2[.]5[.]2x64[.]zip  |                            无                            | 745  |
 |  ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
