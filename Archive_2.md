@@ -754,6 +754,10 @@
 | 2026/7/30 |      hxxps://www[.]bandizipzip[.]com[.]cn       |   **仿冒 Bandizip、传播病毒**   | hxxps://download[.]zhanfubrowser[.]org/donwnload/Banndiziip_x64[.]zip |                            无                            | 743  |
 | 2026/7/30 |          hxxps://bandi-zip[.]com[.]cn           |   **仿冒 Bandizip、传播病毒**   |                            同 743                            |                            无                            | 744  |
 | 2026/7/30 |        hxxps://clashvergesoft[.]com[.]cn        |    **借助 VPN 工具传播病毒**    |  hxxps://www[.]aot-cn[.]com/Clash[.]Verge2[.]5[.]2x64[.]zip  |                            无                            | 745  |
+| 2026/7/30 |       hxxps://www[.]qnjr128[.]com/30load        |        **传播银狐病毒**         |                       有，载荷提取失败                       |                            无                            | 746  |
+| 2026/7/30 |           hxxps://qqymusic[.]com[.]cn           |   **仿冒 QQ 音乐、传播病毒**    |                            同 746                            |                            无                            | 747  |
+| 2026/7/30 |         hxxps://down[.]qq-musics[.]com          |   **仿冒 QQ 音乐、传播病毒**    |                            同 746                            |                            无                            | 748  |
+| 2026/7/30 |        hxxps://www[.]qq-musics[.]hl[.]cn        |   **仿冒 QQ 音乐、传播病毒**    |                            同 746                            |                            无                            | 749  |
 |  ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
