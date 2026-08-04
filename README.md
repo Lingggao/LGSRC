@@ -61,7 +61,7 @@
 | &emsp;&emsp;&emsp;&emsp;&emsp;灵糕中心安全响应中心通过广西慈善联合总会向洪涝灾害受灾群众捐赠 2026 元人民币&emsp;&emsp;&emsp;&emsp;&emsp; |
 | :----------------------------------------------------------: |
 
-&emsp;&emsp;上次更新时间：2026 年 8 月 4 日 22:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 8 月 4 日 23:00 (GMT+8)
 
 &emsp;&emsp;**截至 2026 年 8 月 4 日，本中心已打击计算机病毒 / 恶意软件 1,570 个、恶意网站 774 个，累计为潜在受害者规避经济损失约 6,672,500 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
@@ -132,7 +132,7 @@
 | 2026/8/3  |  hxxps://www[.]huorong-soft[.]com[.]cn   |    **仿冒火绒、传播病毒**    |                            同 766                            |     无     | 767  |
 | 2026/8/3  |      hxxps://huorong-soft[.]hl[.]cn      |    **仿冒火绒、传播病毒**    |                            同 766                            |     无     | 768  |
 | 2026/8/3  |   hxxps://www[.]huorong-hub[.]com[.]cn   |    **仿冒火绒、传播病毒**    |                            同 766                            |     无     | 769  |
-| 2026/8/4  |  hxxps://www[.]wqni944573[.]com/instset  |  **仿冒驱动精灵、传播病毒**  |                       有，载荷提取失败                       |     无     | 770  |
+| 2026/8/4  |  hxxps://www[.]wqni944573[.]com/instset  |       **传播银狐病毒**       |                       有，载荷提取失败                       |     无     | 770  |
 | 2026/8/4  |      hxxps://driver-geniuss.com.cn       |  **仿冒驱动精灵、传播病毒**  |                            同 770                            |     无     | 771  |
 | 2026/8/4  | hxxps://www[.]driver-jingling[.]com[.]cn |  **仿冒驱动精灵、传播病毒**  |                            同 770                            |     无     | 772  |
 | 2026/8/4  |       hxxps://qudong-c[.]com[.]cn        |  **仿冒驱动精灵、传播病毒**  | hxxps://pub-a5142d10183b4043b1aa6321e445fbc6[.]r2[.]dev/qudongjingling8%20(3)[.]zip |     无     | 773  |

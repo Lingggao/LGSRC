@@ -9,10 +9,25 @@
 
 ### 文章
 
-[012]  
+[015]  
+《[**火绒安全分析｜从分析银狐病毒到思考银狐的趋势**](https://mp.weixin.qq.com/s/Jjw39aL7hqNqxaL0y1XJrw)》  
+**火绒安全 (北京火绒网络科技有限公司)**，2026 年 8 月  
+网址：[https://mp.weixin.qq.com/s/Jjw39aL7hqNqxaL0y1XJrw](https://mp.weixin.qq.com/s/Jjw39aL7hqNqxaL0y1XJrw)
+
+[014]  
+《[**仿站投递、解密注入及中文系统校验丨游蛇（银狐）技战术追踪**](https://mp.weixin.qq.com/s/IVwTYP7zPabhE55mVpsySg)》  
+**安天集团 (安天科技集团股份有限公司)**，2026 年 8 月  
+网址：[https://mp.weixin.qq.com/s/IVwTYP7zPabhE55mVpsySg](https://mp.weixin.qq.com/s/IVwTYP7zPabhE55mVpsySg)
+
+[013]  
 《[**关于开展“银狐”木马专项打击行动并公开征集威胁信息线索的公告**](https://mp.weixin.qq.com/s/5sTisRC8VkE992g5VJjrmQ)》  
 **国家计算机网络应急技术处理协调中心**，2026 年 7 月  
 网址：[https://mp.weixin.qq.com/s/5sTisRC8VkE992g5VJjrmQ](https://mp.weixin.qq.com/s/5sTisRC8VkE992g5VJjrmQ)
+
+[012]  
+《[**“银狐大妖”再度来袭！这次有点难防**](https://mp.weixin.qq.com/s/IpQACjAmchKRbJKHYu-RDw)》  
+**瑞星 (北京瑞星网安技术股份有限公司)**，2026 年 7 月  
+网址：[https://mp.weixin.qq.com/s/IpQACjAmchKRbJKHYu-RDw](https://mp.weixin.qq.com/s/IpQACjAmchKRbJKHYu-RDw)
 
 [011]  
 《[**银狐木马进化史-从Gh0st到3万变种的黑产帝国**](https://mp.weixin.qq.com/s/JQ4NrcocGxoAg6_j0v6Eqg)》  
