@@ -130,10 +130,10 @@
 | 2026/8/6 |   hxxps://www[.]huorong-lab[.]com[.]cn   |    **仿冒火绒、传播病毒**    |                            同 775                            |     无     | 778  |
 | 2026/8/6 |      hxxps://jc-huorong[.]com[.]cn       |    **仿冒火绒、传播病毒**    |                            同 775                            |     无     | 779  |
 | 2026/8/6 |     hxxps://huorong-tech[.]com[.]cn      |    **仿冒火绒、传播病毒**    |                            同 775                            |     无     | 780  |
-| 2026/8/8 |          https://aifanya.com.cn          |   **仿冒爱翻译、传播病毒**   | https://aifyyy.oss-cn-hongkong.aliyuncs.com/A-fanyi-x64.538.0.1.zip |     无     | 781  |
-| 2026/8/8 |          https://iafayy.com.cn           |   **仿冒爱翻译、传播病毒**   |                            同 781                            |     无     | 782  |
-| 2026/8/8 |        https://www.aifanlo.com.cn        |   **仿冒爱翻译、传播病毒**   |                            同 781                            |     无     | 783  |
-| 2026/8/8 |          https://aifaayi.com.cn          |   **仿冒爱翻译、传播病毒**   |                            同 781                            |     无     | 784  |
+| 2026/8/8 |        hxxps://aifanya[.]com[.]cn        |   **仿冒爱翻译、传播病毒**   | hxxps://aifyyy[.]oss-cn-hongkong[.]aliyuncs[.]com/A-fanyi-x64[.]538[.]0[.]1[.]zip |     无     | 781  |
+| 2026/8/8 |        hxxps://iafayy[.]com[.]cn         |   **仿冒爱翻译、传播病毒**   |                            同 781                            |     无     | 782  |
+| 2026/8/8 |     hxxps://www[.]aifanlo[.]com[.]cn     |   **仿冒爱翻译、传播病毒**   |                            同 781                            |     无     | 783  |
+| 2026/8/8 |        hxxps://aifaayi[.]com[.]cn        |   **仿冒爱翻译、传播病毒**   |                            同 781                            |     无     | 784  |
 |  ——————  |           ————————————————————           |       ———————————————        |                ——————————————————————————————                | —————————— | ———  |
 
 > [!NOTE]
