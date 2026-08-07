@@ -9,6 +9,16 @@
 
 ### 文章
 
+[017]  
+《[**速查！7 月流行计算机病毒当心中招**](https://mp.weixin.qq.com/s/G_jZD7KONn2Kx6vE_okvgA)》  
+**国家计算机病毒应急处理中心**，2026 年 8 月  
+网址：[https://mp.weixin.qq.com/s/G_jZD7KONn2Kx6vE_okvgA](https://mp.weixin.qq.com/s/G_jZD7KONn2Kx6vE_okvgA)
+
+[016]  
+《[**肆虐国内重点企业的银狐木马技术架构已相当成熟,稍作更新即可攻击全球目标**](https://mp.weixin.qq.com/s/bhHisqYc1GH9tS-vVD2Jnw)》  
+**二进制空间安全** (个人账号)，2026 年 8 月  
+网址：[https://mp.weixin.qq.com/s/bhHisqYc1GH9tS-vVD2Jnw](https://mp.weixin.qq.com/s/bhHisqYc1GH9tS-vVD2Jnw)
+
 [015]  
 《[**火绒安全分析｜从分析银狐病毒到思考银狐的趋势**](https://mp.weixin.qq.com/s/Jjw39aL7hqNqxaL0y1XJrw)》  
 **火绒安全 (北京火绒网络科技有限公司)**，2026 年 8 月  
