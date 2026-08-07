@@ -769,6 +769,10 @@
 | 2026/7/31 |       hxxps://www[.]huorongac[.]com[.]cn        |     **仿冒火绒、传播病毒**      | hxxps://download[.]zhanfubrowser[.]org/donwnload/Huorongt_12[.]8[.]1_x64[.]zip |                            无                            | 758  |
 | 2026/7/31 |           hxxps://huorongr[.]com[.]cn           |     **仿冒火绒、传播病毒**      |                            同 758                            |                            无                            | 759  |
 | 2026/8/1  |        hxxps://www[.]kugouok[.]com[.]cn         |   **仿冒酷狗音乐、传播病毒**    |                 hxxps://erfanvpn[.]com[.]cn                  |                            无                            | 760  |
+| 2026/8/1  |           hxxps://erfanvpn[.]com[.]cn           |    **借助 VPN 工具传播病毒**    | hxxps://2026efanjiasuqi1[.]oss-cn-hongkong[.]aliyuncs[.]com/efanjiasu-x64[.]5[.]4[.]1[.]zip |                            无                            | 761  |
+| 2026/8/2  |          hxxps://www[.]app-meitu[.]com          |   **仿冒美图秀秀、传播病毒**    | hxxps://aidfefegsdsadsdsd[.]top/%E7%BE%8E%E5%9B%BE_Installer_Setup[.]msi |                            无                            | 762  |
+| 2026/8/2  |       hxxps://apps-meituxiuxiu[.]com[.]cn       |   **仿冒美图秀秀、传播病毒**    |              hxxps://www[.]qnjr128[.]com/30load              |                            无                            | 763  |
+| 2026/8/3  |      hxxps://www[.]reron1574[.]com/82load       |        **传播银狐病毒**         |                       有，载荷提取失败                       |                            无                            | 764  |
 |  ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
