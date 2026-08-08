@@ -773,6 +773,14 @@
 | 2026/8/2  |          hxxps://www[.]app-meitu[.]com          |   **仿冒美图秀秀、传播病毒**    | hxxps://aidfefegsdsadsdsd[.]top/%E7%BE%8E%E5%9B%BE_Installer_Setup[.]msi |                            无                            | 762  |
 | 2026/8/2  |       hxxps://apps-meituxiuxiu[.]com[.]cn       |   **仿冒美图秀秀、传播病毒**    |              hxxps://www[.]qnjr128[.]com/30load              |                            无                            | 763  |
 | 2026/8/3  |      hxxps://www[.]reron1574[.]com/82load       |        **传播银狐病毒**         |                       有，载荷提取失败                       |                            无                            | 764  |
+| 2026/8/3  |      hxxps://www[.]cn-ucbrowser[.]com[.]cn      |  **仿冒 UC 浏览器、传播病毒**   |                            同 764                            |                            无                            | 765  |
+| 2026/8/3  |      hxxps://www[.]asndu11756[.]com/setinb      |        **传播银狐病毒**         |                       有，载荷提取失败                       |                            无                            | 766  |
+| 2026/8/3  |      hxxps://www[.]huorong-soft[.]com[.]cn      |     **仿冒火绒、传播病毒**      |                            同 766                            |                            无                            | 767  |
+| 2026/8/3  |         hxxps://huorong-soft[.]hl[.]cn          |     **仿冒火绒、传播病毒**      |                            同 766                            |                            无                            | 768  |
+| 2026/8/3  |      hxxps://www[.]huorong-hub[.]com[.]cn       |     **仿冒火绒、传播病毒**      |                            同 766                            |                            无                            | 769  |
+| 2026/8/4  |     hxxps://www[.]wqni944573[.]com/instset      |        **传播银狐病毒**         |                       有，载荷提取失败                       |                            无                            | 770  |
+| 2026/8/4  |          hxxps://driver-geniuss.com.cn          |   **仿冒驱动精灵、传播病毒**    |                            同 770                            |                            无                            | 771  |
+| 2026/8/4  |    hxxps://www[.]driver-jingling[.]com[.]cn     |   **仿冒驱动精灵、传播病毒**    |                            同 770                            |                            无                            | 772  |
 |  ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
