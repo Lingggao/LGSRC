@@ -781,6 +781,8 @@
 | 2026/8/4  |     hxxps://www[.]wqni944573[.]com/instset      |        **传播银狐病毒**         |                       有，载荷提取失败                       |                            无                            | 770  |
 | 2026/8/4  |          hxxps://driver-geniuss.com.cn          |   **仿冒驱动精灵、传播病毒**    |                            同 770                            |                            无                            | 771  |
 | 2026/8/4  |    hxxps://www[.]driver-jingling[.]com[.]cn     |   **仿冒驱动精灵、传播病毒**    |                            同 770                            |                            无                            | 772  |
+| 2026/8/4  |           hxxps://qudong-c[.]com[.]cn           |   **仿冒驱动精灵、传播病毒**    | hxxps://pub-a5142d10183b4043b1aa6321e445fbc6[.]r2[.]dev/qudongjingling8%20(3)[.]zip |                            无                            | 773  |
+| 2026/8/4  |          hxxps://qudong-wk[.]com[.]cn           |   **仿冒驱动精灵、传播病毒**    | hxxps://pub-ad4e3a1af3ca4ac398bcb319f5932682[.]r2[.]dev/qudongjingling7[.]zip |                            无                            | 774  |
 |  ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
