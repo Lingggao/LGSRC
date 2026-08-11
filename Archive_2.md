@@ -785,6 +785,11 @@
 | 2026/8/4  |          hxxps://qudong-wk[.]com[.]cn           |   **仿冒驱动精灵、传播病毒**    | hxxps://pub-ad4e3a1af3ca4ac398bcb319f5932682[.]r2[.]dev/qudongjingling7[.]zip |                            无                            | 774  |
 | 2026/8/6  |      hxxps://www[.]dnuwmi981[.]com/downs5       |        **传播银狐病毒**         |                       有，载荷提取失败                       |                            无                            | 775  |
 | 2026/8/6  |         hxxps://apps-hurong[.]com[.]cn          |     **仿冒火绒、传播病毒**      |                            同 775                            |                            无                            | 776  |
+| 2026/8/6  |          hxxps://ac-huorong[.]com[.]cn          |     **仿冒火绒、传播病毒**      |                            同 775                            |                            无                            | 777  |
+| 2026/8/6  |      hxxps://www[.]huorong-lab[.]com[.]cn       |     **仿冒火绒、传播病毒**      |                            同 775                            |                            无                            | 778  |
+| 2026/8/6  |          hxxps://jc-huorong[.]com[.]cn          |     **仿冒火绒、传播病毒**      |                            同 775                            |                            无                            | 779  |
+| 2026/8/6  |         hxxps://huorong-tech[.]com[.]cn         |     **仿冒火绒、传播病毒**      |                            同 775                            |                            无                            | 780  |
+| 2026/8/8  |           hxxps://aifanya[.]com[.]cn            |    **仿冒爱翻译、传播病毒**     | hxxps://aifyyy[.]oss-cn-hongkong[.]aliyuncs[.]com/A-fanyi-x64[.]538[.]0[.]1[.]zip |                            无                            | 781  |
 |  ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
