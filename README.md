@@ -58,9 +58,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 8 月 13 日 14:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 8 月 13 日 19:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 8 月 13 日，本中心已打击计算机病毒 / 恶意软件 1,614 个、恶意网站 808 个，累计为潜在受害者规避经济损失约 6,859,500 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 8 月 13 日，本中心已打击计算机病毒 / 恶意软件 1,614 个、恶意网站 809 个，累计为潜在受害者规避经济损失约 6,859,500 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;在对抗网络犯罪的崇高事业中，本中心仅承担了少量协调类工作。**恶意载荷从发现到清除，离不开国家有关部门、安全社区与研究员、杀毒软件厂商及威胁情报提供商的共同努力**。在此，谨向他们致以诚挚谢意。
 
@@ -114,7 +114,6 @@
 
 |   日期    |                  URL                   |              类别              |                           有效载荷                           |                         URLhaus                          | 编号 |
 | :-------: | :------------------------------------: | :----------------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
-| 2026/8/9  |      hxxps://zongcaipc[.]com[.]cn      |   **仿冒驱动总裁、传播病毒**   |                            同 785                            |                            无                            | 789  |
 | 2026/8/9  |      hxxps://qudongzh[.]com[.]cn       |   **仿冒驱动总裁、传播病毒**   |                            同 785                            |                            无                            | 790  |
 | 2026/8/9  |  hxxps://gf-qudongzongcai[.]com[.]cn   |   **仿冒驱动总裁、传播病毒**   | hxxps://download[.]tfyxzai[.]com/donwnload/Drv_ceo_12[.]8[.]1_x64[.]zip |                            无                            | 791  |
 | 2026/8/9  |   hxxps://we-drivergenius[.]com[.]cn   |   **仿冒驱动精灵、传播病毒**   |                            同 786                            |                            无                            | 792  |
@@ -134,6 +133,7 @@
 | 2026/8/12 |     hxxps://cn-tianruo[.]com[.]cn      |   **仿冒天若 OCR、传播病毒**   |                            同 805                            |                            无                            | 806  |
 | 2026/8/12 |     hxxps://www[.]huorongaq[.]com      |     **仿冒火绒、传播病毒**     |    hxxps://www[.]6qz2a[.]com/sysdiag_x64_6[.]0[.]1[.]zip     |                            无                            | 807  |
 | 2026/8/12 |     hxxps://huorongweb[.]com[.]cn      |     **仿冒火绒、传播病毒**     | hxxps://download[.]zhanfubrowser[.]org[.]cn/donwnload/Huorongt_12[.]8[.]1_x64[.]zip |                            无                            | 808  |
+| 2026/8/13 |        hxxps://luxcar-24[.]com         |        **传播恶意软件**        | hxxps://luxcar-24[.]com/zWqbElslFazLfVduLvpacFLw9SplKs3pV4aUiEUv/Update[.]exe | [URLhaus Database](https://urlhaus.abuse.ch/url/3902994) | 809  |
 |  ——————   |          ————————————————————          |        ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
