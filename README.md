@@ -58,9 +58,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 8 月 15 日 1:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 8 月 15 日 7:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 8 月 15 日，本中心已打击计算机病毒 / 恶意软件 1,622 个、恶意网站 813 个，累计为潜在受害者规避经济损失约 6,893,500 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 8 月 15 日，本中心已打击计算机病毒 / 恶意软件 1,623 个、恶意网站 816 个，累计为潜在受害者规避经济损失约 6,897,750 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;在对抗网络犯罪的崇高事业中，本中心仅承担了少量协调类工作。**恶意载荷从发现到清除，离不开国家有关部门、安全社区与研究员、杀毒软件厂商及威胁情报提供商的共同努力**。在此，谨向他们致以诚挚谢意。
 
@@ -78,7 +78,6 @@
 
 |   日期    |         文件名         |           检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :--------------------: | :----------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/8/11 |  ···第三季度违规.exe   | **银狐 (SilverFox.bg)**  | f83a53f0846b600bfc055fd182f8308ae9efdbbd16bcb72aa2920a6a802336e2 | f17f2f07-b0ed-43ca-9c47-161c2282bc56 | [VirusTotal](https://www.virustotal.com/gui/file/f83a53f0846b600bfc055fd182f8308ae9efdbbd16bcb72aa2920a6a802336e2) (15) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/f83a53f0846b600bfc055fd182f8308ae9efdbbd16bcb72aa2920a6a802336e2) | 1603 |
 | 2026/8/11 |        811.exe         | **银狐 (SilverFox.wos)** | 5c1c6ec40d70b1e67b864c8a55c7ad9c2384ff4b34fb52ba0509bd31311cd730 | 1548b30a-2e0a-427f-8aec-700cdb177322 | [VirusTotal](https://www.virustotal.com/gui/file/5c1c6ec40d70b1e67b864c8a55c7ad9c2384ff4b34fb52ba0509bd31311cd730) (14) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5c1c6ec40d70b1e67b864c8a55c7ad9c2384ff4b34fb52ba0509bd31311cd730) | 1604 |
 | 2026/8/11 |   Ehdbdg···SETUP.exe   |   **银狐 (SilverFox)**   | 3d1a911669431b2ed5a895f48d54a966fdf0e80781ef977bf5090298442e71bf | 52b9a115-3928-4847-82e5-7e524df7806e | [VirusTotal](https://www.virustotal.com/gui/file/3d1a911669431b2ed5a895f48d54a966fdf0e80781ef977bf5090298442e71bf) (18) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/3d1a911669431b2ed5a895f48d54a966fdf0e80781ef977bf5090298442e71bf) | 1605 |
 | 2026/8/12 |    wps_win64_11.exe    |   **银狐 (SilverFox)**   | e4ea489b25b2099ade248bf820cac5743a995c3a0d8d299564f7ee797c5d8e21 | 3e33998d-bab6-415e-9edb-b3d743560bf1 | [VirusTotal](https://www.virustotal.com/gui/file/e4ea489b25b2099ade248bf820cac5743a995c3a0d8d299564f7ee797c5d8e21) (28) |                              无                              | 1606 |
@@ -98,6 +97,7 @@
 | 2026/8/14 |  ···08.14裁员名单.exe  | **银狐 (SilverFox.bg)**  | 3acfd9b55c3ddc12c91d337426445f1b046fb70237c2634b68a93e4b00732c72 | 7a86f9f5-3129-4f33-b808-c5cf311538cd | [VirusTotal](https://www.virustotal.com/gui/file/3acfd9b55c3ddc12c91d337426445f1b046fb70237c2634b68a93e4b00732c72) (10) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/3acfd9b55c3ddc12c91d337426445f1b046fb70237c2634b68a93e4b00732c72) | 1620 |
 | 2026/8/14 |  ···人员违纪名单.exe   |   **银狐 (SilverFox)**   | e5112d4ca0a981c0ac65a976a5db3b6de3b1b9b8350f763313c218d1a1c1f833 | eda148fb-47ef-47f6-9bf5-bc65a611517c | [VirusTotal](https://www.virustotal.com/gui/file/e5112d4ca0a981c0ac65a976a5db3b6de3b1b9b8350f763313c218d1a1c1f833) (10) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/e5112d4ca0a981c0ac65a976a5db3b6de3b1b9b8350f763313c218d1a1c1f833) | 1621 |
 | 2026/8/14 |     PdfEditPro.exe     |   **银狐 (SilverFox)**   | 4846be181ad22b8a2ca8e3d8fb056b60542216e90fa2bdf50bae97aef0777907 | 95c68156-e65e-4f19-a60b-ae8b3c0802f7 | [VirusTotal](https://www.virustotal.com/gui/file/4846be181ad22b8a2ca8e3d8fb056b60542216e90fa2bdf50bae97aef0777907) (3) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/4846be181ad22b8a2ca8e3d8fb056b60542216e90fa2bdf50bae97aef0777907) | 1622 |
+| 2026/8/15 |   appinst_up001.exe    |   **银狐 (SilverFox)**   | aafaddd58c513931655be4a52b11317283b500ef27608a83af45d4e625568d20 | 3505c4fc-78ef-45ef-8ed2-3615f8f8362e | [VirusTotal](https://www.virustotal.com/gui/file/aafaddd58c513931655be4a52b11317283b500ef27608a83af45d4e625568d20) (29) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/aafaddd58c513931655be4a52b11317283b500ef27608a83af45d4e625568d20) | 1623 |
 |  ——————   |      ————————————      |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -112,29 +112,29 @@
 >
 > &emsp;为确保安全，网站地址将用 “hxxps://” 与 “[.]” 进行替换。**切勿尝试访问表格中列出的任何网址**。
 
-|   日期    |                  URL                   |              类别              |                           有效载荷                           |                         URLhaus                          | 编号 |
-| :-------: | :------------------------------------: | :----------------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
-| 2026/8/10 |     hxxps://ah-360yasuo[.]com[.]cn     |  **仿冒 360 压缩、传播病毒**   |                            同 793                            |                            无                            | 794  |
-| 2026/8/10 |     hxxps://www[.]uu-ni[.]com[.]cn     | **仿冒网易 UU 远程、传播病毒** | hxxps://xunyyymdfv[.]oss-cn-hongkong[.]aliyuncs[.]com/uuyc[.]4[.]1[.]0[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3900565) | 795  |
-| 2026/8/10 |       hxxps://uuyc-uu[.]com[.]cn       | **仿冒网易 UU 远程、传播病毒** |                            同 795                            |                            无                            | 796  |
-| 2026/8/11 |        hxxps://i4web[.]com[.]cn        |   **仿冒爱思助手、传播病毒**   | hxxps://download[.]tfyxzai[.]com/donwnload/i4_zhushou_x64[.]zip |                            无                            | 797  |
-| 2026/8/11 |  hxxps://www[.]i4zushouapp[.]com[.]cn  |   **仿冒爱思助手、传播病毒**   |                            同 797                            |                            无                            | 798  |
-| 2026/8/11 |        hxxps://of-i4[.]com[.]cn        |   **仿冒爱思助手、传播病毒**   | hxxps://ssllwis[.]oss-ap-northeast-1[.]aliyuncs[.]com/i4Tols_v9[.]8_Setup_x64[.]zip |                            无                            | 799  |
-| 2026/8/11 |       hxxps://i4-hub[.]com[.]cn        |   **仿冒爱思助手、传播病毒**   |  hxxps://lsmdngnakjbgazxv[.]com/aisizhushou_Setup_x64[.]zip  |                            无                            | 800  |
-| 2026/8/11 |       hxxps://i4-max[.]com[.]cn        |   **仿冒爱思助手、传播病毒**   |                            同 800                            |                            无                            | 801  |
-| 2026/8/12 |   hxxps://cn[.]wps-power[.]com[.]cn    |     **仿冒 WPS、传播病毒**     |    注：仅在必应搜索结果中点击该链接时，才会跳转至恶意网站    |                            无                            | 802  |
-| 2026/8/12 |    hxxps://cn[.]showwps[.]com[.]cn     |     **仿冒 WPS、传播病毒**     |    注：仅在必应搜索结果中点击该链接时，才会跳转至恶意网站    |                            无                            | 803  |
-| 2026/8/12 |        hxxps://ww-wps-com[.]cn         |     **仿冒 WPS、传播病毒**     |    注：仅在必应搜索结果中点击该链接时，才会跳转至恶意网站    |                            无                            | 804  |
-| 2026/8/12 | hxxps://www[.]wqjreiu914[.]com/down108 |        **传播银狐病毒**        |                       有，载荷提取失败                       |                            无                            | 805  |
-| 2026/8/12 |     hxxps://cn-tianruo[.]com[.]cn      |   **仿冒天若 OCR、传播病毒**   |                            同 805                            |                            无                            | 806  |
-| 2026/8/12 |     hxxps://www[.]huorongaq[.]com      |     **仿冒火绒、传播病毒**     |    hxxps://www[.]6qz2a[.]com/sysdiag_x64_6[.]0[.]1[.]zip     |                            无                            | 807  |
-| 2026/8/12 |     hxxps://huorongweb[.]com[.]cn      |     **仿冒火绒、传播病毒**     | hxxps://download[.]zhanfubrowser[.]org[.]cn/donwnload/Huorongt_12[.]8[.]1_x64[.]zip |                            无                            | 808  |
-| 2026/8/13 |        hxxps://luxcar-24[.]com         |        **传播恶意软件**        | hxxps://luxcar-24[.]com/zWqbElslFazLfVduLvpacFLw9SplKs3pV4aUiEUv/Update[.]exe | [URLhaus Database](https://urlhaus.abuse.ch/url/3902994) | 809  |
-| 2026/8/14 | hxxps://www[.]vunhk1734[.]com/load381  |        **传播银狐病毒**        |                       有，载荷提取失败                       |                            无                            | 810  |
-| 2026/8/14 |  hxxps://www[.]tbtool-hub[.]com[.]cn   |  **仿冒图吧工具箱、传播病毒**  |                            同 810                            |                            无                            | 811  |
-| 2026/8/14 |    hxxps://apps-tubatool[.]com[.]cn    |  **仿冒图吧工具箱、传播病毒**  |                            同 810                            |                            无                            | 812  |
-| 2026/8/14 |  hxxps://www[.]desk-tbtool[.]com[.]cn  |  **仿冒图吧工具箱、传播病毒**  |                            同 810                            |                            无                            | 813  |
-|  ——————   |          ————————————————————          |        ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
+|   日期    |                   URL                   |             类别             |                           有效载荷                           |                         URLhaus                          | 编号 |
+| :-------: | :-------------------------------------: | :--------------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
+| 2026/8/11 |        hxxps://i4web[.]com[.]cn         |  **仿冒爱思助手、传播病毒**  | hxxps://download[.]tfyxzai[.]com/donwnload/i4_zhushou_x64[.]zip |                            无                            | 797  |
+| 2026/8/11 |  hxxps://www[.]i4zushouapp[.]com[.]cn   |  **仿冒爱思助手、传播病毒**  |                            同 797                            |                            无                            | 798  |
+| 2026/8/11 |        hxxps://of-i4[.]com[.]cn         |  **仿冒爱思助手、传播病毒**  | hxxps://ssllwis[.]oss-ap-northeast-1[.]aliyuncs[.]com/i4Tols_v9[.]8_Setup_x64[.]zip |                            无                            | 799  |
+| 2026/8/11 |        hxxps://i4-hub[.]com[.]cn        |  **仿冒爱思助手、传播病毒**  |  hxxps://lsmdngnakjbgazxv[.]com/aisizhushou_Setup_x64[.]zip  |                            无                            | 800  |
+| 2026/8/11 |        hxxps://i4-max[.]com[.]cn        |  **仿冒爱思助手、传播病毒**  |                            同 800                            |                            无                            | 801  |
+| 2026/8/12 |    hxxps://cn[.]wps-power[.]com[.]cn    |    **仿冒 WPS、传播病毒**    |    注：仅在必应搜索结果中点击该链接时，才会跳转至恶意网站    |                            无                            | 802  |
+| 2026/8/12 |     hxxps://cn[.]showwps[.]com[.]cn     |    **仿冒 WPS、传播病毒**    |    注：仅在必应搜索结果中点击该链接时，才会跳转至恶意网站    |                            无                            | 803  |
+| 2026/8/12 |         hxxps://ww-wps-com[.]cn         |    **仿冒 WPS、传播病毒**    |    注：仅在必应搜索结果中点击该链接时，才会跳转至恶意网站    |                            无                            | 804  |
+| 2026/8/12 | hxxps://www[.]wqjreiu914[.]com/down108  |       **传播银狐病毒**       |                       有，载荷提取失败                       |                            无                            | 805  |
+| 2026/8/12 |      hxxps://cn-tianruo[.]com[.]cn      |  **仿冒天若 OCR、传播病毒**  |                            同 805                            |                            无                            | 806  |
+| 2026/8/12 |      hxxps://www[.]huorongaq[.]com      |    **仿冒火绒、传播病毒**    |    hxxps://www[.]6qz2a[.]com/sysdiag_x64_6[.]0[.]1[.]zip     |                            无                            | 807  |
+| 2026/8/12 |      hxxps://huorongweb[.]com[.]cn      |    **仿冒火绒、传播病毒**    | hxxps://download[.]zhanfubrowser[.]org[.]cn/donwnload/Huorongt_12[.]8[.]1_x64[.]zip |                            无                            | 808  |
+| 2026/8/13 |         hxxps://luxcar-24[.]com         |       **传播恶意软件**       | hxxps://luxcar-24[.]com/zWqbElslFazLfVduLvpacFLw9SplKs3pV4aUiEUv/Update[.]exe | [URLhaus Database](https://urlhaus.abuse.ch/url/3902994) | 809  |
+| 2026/8/14 |  hxxps://www[.]vunhk1734[.]com/load381  |       **传播银狐病毒**       |                       有，载荷提取失败                       |                            无                            | 810  |
+| 2026/8/14 |   hxxps://www[.]tbtool-hub[.]com[.]cn   | **仿冒图吧工具箱、传播病毒** |                            同 810                            |                            无                            | 811  |
+| 2026/8/14 |    hxxps://apps-tubatool[.]com[.]cn     | **仿冒图吧工具箱、传播病毒** |                            同 810                            |                            无                            | 812  |
+| 2026/8/14 |  hxxps://www[.]desk-tbtool[.]com[.]cn   | **仿冒图吧工具箱、传播病毒** |                            同 810                            |                            无                            | 813  |
+| 2026/8/15 | hxxps://www[.]hsuidan914[.]com/dowlod18 |       **传播银狐病毒**       |                       有，载荷提取失败                       |                            无                            | 814  |
+| 2026/8/15 |   hxxps://www[.]doubao-key[.]com[.]cn   | **仿冒豆包输入法、传播病毒** |                            同 814                            |                            无                            | 815  |
+| 2026/8/15 |      hxxps://doubao-sr[.]com[.]cn       | **仿冒豆包输入法、传播病毒** |                            同 814                            |                            无                            | 816  |
+|  ——————   |          ————————————————————           |       ———————————————        |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
 >
@@ -158,7 +158,7 @@
 
 &emsp;&emsp;[《**“银狐” 威胁动态：官方及网络安全企业文章汇编**》](https://github.com/Lingggao/LGSRC/blob/main/Documents/SilverFox_Articles.md)
 
-&emsp;&emsp;**银狐 IOC 情报合集**：[**VirusTotal**](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) + [**LevelBlue OTX**](https://otx.alienvault.com/pulse/6a36fe5a3c1568785b59c4d7)&emsp;实时更新，已收录 1,304 项情报 (文件、URL、域名、IP)
+&emsp;&emsp;**银狐 IOC 情报合集**：[**VirusTotal**](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) + [**LevelBlue OTX**](https://otx.alienvault.com/pulse/6a36fe5a3c1568785b59c4d7)&emsp;实时更新，已收录 1,308 项情报 (文件、URL、域名、IP)
 
 ---
 

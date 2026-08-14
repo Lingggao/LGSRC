@@ -802,6 +802,9 @@
 | 2026/8/9  |       hxxps://gf-qudongzongcai[.]com[.]cn       |   **仿冒驱动总裁、传播病毒**    | hxxps://download[.]tfyxzai[.]com/donwnload/Drv_ceo_12[.]8[.]1_x64[.]zip |                            无                            | 791  |
 | 2026/8/9  |       hxxps://we-drivergenius[.]com[.]cn        |   **仿冒驱动精灵、传播病毒**    |                            同 786                            |                            无                            | 792  |
 | 2026/8/10 |     hxxps://www[.]moount9177[.]com/98setup      |        **传播银狐病毒**         |                       有，载荷提取失败                       |                            无                            | 793  |
+| 2026/8/10 |         hxxps://ah-360yasuo[.]com[.]cn          |   **仿冒 360 压缩、传播病毒**   |                            同 793                            |                            无                            | 794  |
+| 2026/8/10 |         hxxps://www[.]uu-ni[.]com[.]cn          | **仿冒网易 UU 远程、传播病毒**  | hxxps://xunyyymdfv[.]oss-cn-hongkong[.]aliyuncs[.]com/uuyc[.]4[.]1[.]0[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3900565) | 795  |
+| 2026/8/10 |           hxxps://uuyc-uu[.]com[.]cn            | **仿冒网易 UU 远程、传播病毒**  |                            同 795                            |                            无                            | 796  |
 |  ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
