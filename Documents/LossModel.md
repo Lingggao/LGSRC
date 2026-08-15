@@ -1,6 +1,8 @@
+<div align="center">
+<img src="https://github.com/Lingggao/LGSRC/blob/main/Images/LING_3.png?raw=true" width = "35%" />
+</div>
 <h1 align="center">预期经济损失统计学模型</h1>
-
-<h3 align="center">(Expected Economic Loss Model)</h3>
+<h3 align="center">Expected Economic Loss Model</h3>
 
 &emsp;&emsp;灵糕中心 · 安全响应中心采用以下**统计学模型**，以评估计算机病毒 / 恶意软件的经济破坏力。我们将 “一个” 计算机病毒 / 恶意软件定义为 “一次独立的攻击活动或一个具有独立功能的变种”，而非 “单一文件哈希”。
 

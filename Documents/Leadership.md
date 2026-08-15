@@ -1,11 +1,8 @@
 <div align="center">
 <img src="https://github.com/Lingggao/LGSRC/blob/main/Images/LING_3.png?raw=true" width = "35%" />
 </div>
-
 <h1 align="center">灵糕中心 · 安全响应中心</h1>
-
-<h3 align="center">(LGHUB · Security Response Center)</h3>
-
+<h3 align="center">Linggao Hub · Security Response Center (LGSRC)</h3>
 <h3 align="center">管理委员会</h3>
 
 ---
