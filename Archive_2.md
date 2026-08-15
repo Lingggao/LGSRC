@@ -805,6 +805,9 @@
 | 2026/8/10 |         hxxps://ah-360yasuo[.]com[.]cn          |   **仿冒 360 压缩、传播病毒**   |                            同 793                            |                            无                            | 794  |
 | 2026/8/10 |         hxxps://www[.]uu-ni[.]com[.]cn          | **仿冒网易 UU 远程、传播病毒**  | hxxps://xunyyymdfv[.]oss-cn-hongkong[.]aliyuncs[.]com/uuyc[.]4[.]1[.]0[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3900565) | 795  |
 | 2026/8/10 |           hxxps://uuyc-uu[.]com[.]cn            | **仿冒网易 UU 远程、传播病毒**  |                            同 795                            |                            无                            | 796  |
+| 2026/8/11 |            hxxps://i4web[.]com[.]cn             |   **仿冒爱思助手、传播病毒**    | hxxps://download[.]tfyxzai[.]com/donwnload/i4_zhushou_x64[.]zip |                            无                            | 797  |
+| 2026/8/11 |      hxxps://www[.]i4zushouapp[.]com[.]cn       |   **仿冒爱思助手、传播病毒**    |                            同 797                            |                            无                            | 798  |
+| 2026/8/11 |            hxxps://of-i4[.]com[.]cn             |   **仿冒爱思助手、传播病毒**    | hxxps://ssllwis[.]oss-ap-northeast-1[.]aliyuncs[.]com/i4Tols_v9[.]8_Setup_x64[.]zip |                            无                            | 799  |
 |  ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
