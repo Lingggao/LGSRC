@@ -808,6 +808,7 @@
 | 2026/8/11 |            hxxps://i4web[.]com[.]cn             |   **仿冒爱思助手、传播病毒**    | hxxps://download[.]tfyxzai[.]com/donwnload/i4_zhushou_x64[.]zip |                            无                            | 797  |
 | 2026/8/11 |      hxxps://www[.]i4zushouapp[.]com[.]cn       |   **仿冒爱思助手、传播病毒**    |                            同 797                            |                            无                            | 798  |
 | 2026/8/11 |            hxxps://of-i4[.]com[.]cn             |   **仿冒爱思助手、传播病毒**    | hxxps://ssllwis[.]oss-ap-northeast-1[.]aliyuncs[.]com/i4Tols_v9[.]8_Setup_x64[.]zip |                            无                            | 799  |
+| 2026/8/11 |            hxxps://i4-hub[.]com[.]cn            |   **仿冒爱思助手、传播病毒**    |  hxxps://lsmdngnakjbgazxv[.]com/aisizhushou_Setup_x64[.]zip  |                            无                            | 800  |
 |  ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---

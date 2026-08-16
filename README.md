@@ -58,9 +58,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 8 月 16 日 2:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 8 月 16 日 15:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 8 月 16 日，本中心已打击计算机病毒 / 恶意软件 1,626 个、恶意网站 819 个，累计为潜在受害者规避经济损失约 6,910,500 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 8 月 16 日，本中心已打击计算机病毒 / 恶意软件 1,626 个、恶意网站 820 个，累计为潜在受害者规避经济损失约 6,910,500 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;在对抗网络犯罪的崇高事业中，本中心仅承担了少量协调类工作。**恶意载荷从发现到清除，离不开国家有关部门、安全社区与研究员、杀毒软件厂商及威胁情报提供商的共同努力**。在此，谨向他们致以诚挚谢意。
 
@@ -114,7 +114,6 @@
 
 |   日期    |                   URL                   |             类别             |                           有效载荷                           |                         URLhaus                          | 编号 |
 | :-------: | :-------------------------------------: | :--------------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
-| 2026/8/11 |        hxxps://i4-hub[.]com[.]cn        |  **仿冒爱思助手、传播病毒**  |  hxxps://lsmdngnakjbgazxv[.]com/aisizhushou_Setup_x64[.]zip  |                            无                            | 800  |
 | 2026/8/11 |        hxxps://i4-max[.]com[.]cn        |  **仿冒爱思助手、传播病毒**  |                            同 800                            |                            无                            | 801  |
 | 2026/8/12 |    hxxps://cn[.]wps-power[.]com[.]cn    |    **仿冒 WPS、传播病毒**    |    注：仅在必应搜索结果中点击该链接时，才会跳转至恶意网站    |                            无                            | 802  |
 | 2026/8/12 |     hxxps://cn[.]showwps[.]com[.]cn     |    **仿冒 WPS、传播病毒**    |    注：仅在必应搜索结果中点击该链接时，才会跳转至恶意网站    |                            无                            | 803  |
@@ -134,6 +133,7 @@
 | 2026/8/16 |   hxxps://www[.]sau912om[.]com/inst15   |       **传播银狐病毒**       |                       有，载荷提取失败                       |                            无                            | 817  |
 | 2026/8/16 |      hxxps://mc-huorong[.]com[.]cn      |    **仿冒火绒、传播病毒**    |                            同 817                            |                            无                            | 818  |
 | 2026/8/16 |      hxxps://hn-huorong[.]com[.]cn      |    **仿冒火绒、传播病毒**    |                            同 817                            |                            无                            | 819  |
+| 2026/8/16 |      hxxps://hd-huorong[.]com[.]cn      |    **仿冒火绒、传播病毒**    |                            同 817                            |                            无                            | 820  |
 |  ——————   |          ————————————————————           |       ———————————————        |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
@@ -158,7 +158,7 @@
 
 &emsp;&emsp;[《**“银狐” 威胁动态：官方及网络安全企业文章汇编**》](https://github.com/Lingggao/LGSRC/blob/main/Documents/SilverFox_Articles.md)
 
-&emsp;&emsp;**银狐 IOC 情报合集**：[**VirusTotal**](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) + [**LevelBlue OTX**](https://otx.alienvault.com/pulse/6a36fe5a3c1568785b59c4d7)&emsp;实时更新，已收录 1,321 项情报 (文件、URL、域名、IP)
+&emsp;&emsp;**银狐 IOC 情报合集**：[**VirusTotal**](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) + [**LevelBlue OTX**](https://otx.alienvault.com/pulse/6a36fe5a3c1568785b59c4d7)&emsp;实时更新，已收录 1,322 项情报 (文件、URL、域名、IP)
 
 ---
 
