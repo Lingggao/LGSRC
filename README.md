@@ -58,9 +58,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 8 月 19 日 2:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 8 月 19 日 13:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 8 月 19 日，本中心已打击计算机病毒 / 恶意软件 1,641 个、恶意网站 825 个，累计为潜在受害者规避经济损失约 6,974,250 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 8 月 19 日，本中心已打击计算机病毒 / 恶意软件 1,643 个、恶意网站 831 个，累计为潜在受害者规避经济损失约 6,982,750 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;在对抗网络犯罪的崇高事业中，本中心仅承担了少量协调类工作。**恶意载荷从发现到清除，离不开国家有关部门、安全社区与研究员、杀毒软件厂商及威胁情报提供商的共同努力**。在此，谨向他们致以诚挚谢意。
 
@@ -78,8 +78,6 @@
 
 |   日期    |          文件名          |          检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :----------------------: | :---------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/8/14 |      PdfEditPro.exe      |  **银狐 (SilverFox)**   | 4846be181ad22b8a2ca8e3d8fb056b60542216e90fa2bdf50bae97aef0777907 | 95c68156-e65e-4f19-a60b-ae8b3c0802f7 | [VirusTotal](https://www.virustotal.com/gui/file/4846be181ad22b8a2ca8e3d8fb056b60542216e90fa2bdf50bae97aef0777907) (3) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/4846be181ad22b8a2ca8e3d8fb056b60542216e90fa2bdf50bae97aef0777907) | 1622 |
-| 2026/8/15 |    appinst_up001.exe     | **银狐 (SilverFox.bm)** | aafaddd58c513931655be4a52b11317283b500ef27608a83af45d4e625568d20 | 3505c4fc-78ef-45ef-8ed2-3615f8f8362e | [VirusTotal](https://www.virustotal.com/gui/file/aafaddd58c513931655be4a52b11317283b500ef27608a83af45d4e625568d20) (29) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/aafaddd58c513931655be4a52b11317283b500ef27608a83af45d4e625568d20) | 1623 |
 | 2026/8/15 |   insoft_v10.0.13.exe    | **银狐 (SilverFox.bm)** | b1dd31636a26d8811f470ccdc32b90ed291dba7cee4ff7d02a9cb01d85146126 | 98409792-d9e4-4e62-9918-bf5ab1ac91c2 | [VirusTotal](https://www.virustotal.com/gui/file/b1dd31636a26d8811f470ccdc32b90ed291dba7cee4ff7d02a9cb01d85146126) (27) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b1dd31636a26d8811f470ccdc32b90ed291dba7cee4ff7d02a9cb01d85146126) | 1624 |
 | 2026/8/16 |   insoft_v10.0.03.exe    | **银狐 (SilverFox.bm)** | 7db44e145483e67e5fa9944a0d1e9df51e4cd6a0b50249cd882a38eca2443ec7 | 40b66e76-b601-4a4e-802c-a1b55620a7a5 | [VirusTotal](https://www.virustotal.com/gui/file/7db44e145483e67e5fa9944a0d1e9df51e4cd6a0b50249cd882a38eca2443ec7) (30) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/7db44e145483e67e5fa9944a0d1e9df51e4cd6a0b50249cd882a38eca2443ec7) | 1625 |
 | 2026/8/16 |   insoft_v10.0.18.exe    | **银狐 (SilverFox.bm)** | 1a20a7ec6847d1efc48a930b9c9fde601c9d0f41c0876febedcff913dd80dc7c | 7d5503cf-62e2-4689-9de8-a67f8a9e2ace | [VirusTotal](https://www.virustotal.com/gui/file/1a20a7ec6847d1efc48a930b9c9fde601c9d0f41c0876febedcff913dd80dc7c) (31) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/1a20a7ec6847d1efc48a930b9c9fde601c9d0f41c0876febedcff913dd80dc7c) | 1626 |
@@ -98,6 +96,8 @@
 | 2026/8/18 |     winx32quickq.exe     |  **银狐 (SilverFox)**   | f0cfbdfac53147c3817cf49c8c3944b50c0943cf77ca5c4286262f75ecc9bee2 | c817a6e5-dd27-4008-90ba-b6adc489733c | [VirusTotal](https://www.virustotal.com/gui/file/f0cfbdfac53147c3817cf49c8c3944b50c0943cf77ca5c4286262f75ecc9bee2) (9) |                              无                              | 1639 |
 | 2026/8/18 |      word安装包.exe      |    **CobaltStrike**     | c0ecd6ea9821de6f9dab76401db4c2220f93898d2192aff360ca3ee19a292826 | 6a326534-8f64-40f1-891c-e6ace23f189d | [VirusTotal](https://www.virustotal.com/gui/file/c0ecd6ea9821de6f9dab76401db4c2220f93898d2192aff360ca3ee19a292826) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c0ecd6ea9821de6f9dab76401db4c2220f93898d2192aff360ca3ee19a292826) | 1640 |
 | 2026/8/19 | Sunlogini_12.8.1_x64.exe |  **银狐 (SilverFox)**   | 75563e10c1ca77adb6c205e8771c95964a21b4fe68f8a2709f18da2dd334fd0a | c58cdb6d-ac47-45ea-8fd9-1a072b1cdbef | [VirusTotal](https://www.virustotal.com/gui/file/75563e10c1ca77adb6c205e8771c95964a21b4fe68f8a2709f18da2dd334fd0a) (2) |                              无                              | 1641 |
+| 2026/8/19 |  install_v6.1.0.08.exe   | **银狐 (SilverFox.bm)** | 9cc4c6b0f959a85b2997922417c68088b947d974cedf3da6a9b9338226fd1f04 | 265d5189-be0b-40c4-9d16-1a7349c9e767 | [VirusTotal](https://www.virustotal.com/gui/file/9cc4c6b0f959a85b2997922417c68088b947d974cedf3da6a9b9338226fd1f04) (10) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/9cc4c6b0f959a85b2997922417c68088b947d974cedf3da6a9b9338226fd1f04) | 1642 |
+| 2026/8/19 |     Jinshan_x64.exe      |  **银狐 (SilverFox)**   | 459919673f8284b9888dcd2663187920cddb59cdc8fcdb95733dbb7f4676e35f | d04ab890-d44e-4ceb-85af-a8c911de7271 | [VirusTotal](https://www.virustotal.com/gui/file/459919673f8284b9888dcd2663187920cddb59cdc8fcdb95733dbb7f4676e35f) (25) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/459919673f8284b9888dcd2663187920cddb59cdc8fcdb95733dbb7f4676e35f) | 1643 |
 |  ——————   |       ————————————       |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -112,29 +112,29 @@
 >
 > &emsp;为确保安全，网站地址将用 “hxxps://” 与 “[.]” 进行替换。**切勿尝试访问表格中列出的任何网址**。
 
-|   日期    |                   URL                   |             类别             |                           有效载荷                           |                         URLhaus                          | 编号 |
-| :-------: | :-------------------------------------: | :--------------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
-| 2026/8/12 |      hxxps://cn-tianruo[.]com[.]cn      |  **仿冒天若 OCR、传播病毒**  |                            同 805                            |                            无                            | 806  |
-| 2026/8/12 |      hxxps://www[.]huorongaq[.]com      |    **仿冒火绒、传播病毒**    |    hxxps://www[.]6qz2a[.]com/sysdiag_x64_6[.]0[.]1[.]zip     |                            无                            | 807  |
-| 2026/8/12 |      hxxps://huorongweb[.]com[.]cn      |    **仿冒火绒、传播病毒**    | hxxps://download[.]zhanfubrowser[.]org[.]cn/donwnload/Huorongt_12[.]8[.]1_x64[.]zip |                            无                            | 808  |
-| 2026/8/13 |         hxxps://luxcar-24[.]com         |       **传播恶意软件**       | hxxps://luxcar-24[.]com/zWqbElslFazLfVduLvpacFLw9SplKs3pV4aUiEUv/Update[.]exe | [URLhaus Database](https://urlhaus.abuse.ch/url/3902994) | 809  |
-| 2026/8/14 |  hxxps://www[.]vunhk1734[.]com/load381  |       **传播银狐病毒**       |                       有，载荷提取失败                       |                            无                            | 810  |
-| 2026/8/14 |   hxxps://www[.]tbtool-hub[.]com[.]cn   | **仿冒图吧工具箱、传播病毒** |                            同 810                            |                            无                            | 811  |
-| 2026/8/14 |    hxxps://apps-tubatool[.]com[.]cn     | **仿冒图吧工具箱、传播病毒** |                            同 810                            |                            无                            | 812  |
-| 2026/8/14 |  hxxps://www[.]desk-tbtool[.]com[.]cn   | **仿冒图吧工具箱、传播病毒** |                            同 810                            |                            无                            | 813  |
-| 2026/8/15 | hxxps://www[.]hsuidan914[.]com/dowlod18 |       **传播银狐病毒**       |                       有，载荷提取失败                       |                            无                            | 814  |
-| 2026/8/15 |   hxxps://www[.]doubao-key[.]com[.]cn   | **仿冒豆包输入法、传播病毒** |                            同 814                            |                            无                            | 815  |
-| 2026/8/15 |      hxxps://doubao-sr[.]com[.]cn       | **仿冒豆包输入法、传播病毒** |                            同 814                            |                            无                            | 816  |
-| 2026/8/16 |   hxxps://www[.]sau912om[.]com/inst15   |       **传播银狐病毒**       |                       有，载荷提取失败                       |                            无                            | 817  |
-| 2026/8/16 |      hxxps://mc-huorong[.]com[.]cn      |    **仿冒火绒、传播病毒**    |                            同 817                            |                            无                            | 818  |
-| 2026/8/16 |      hxxps://hn-huorong[.]com[.]cn      |    **仿冒火绒、传播病毒**    |                            同 817                            |                            无                            | 819  |
-| 2026/8/16 |      hxxps://hd-huorong[.]com[.]cn      |    **仿冒火绒、传播病毒**    |                            同 817                            |                            无                            | 820  |
-| 2026/8/17 |         hxxps://hellogpt[.]plus         | **仿冒 HelloGPT、传播病毒**  |     hxxps://biuing[.]bj[.]bcebos[.]com/helogat-win[.]zip     |                            无                            | 821  |
-| 2026/8/17 |          hxxps://hellogpt[.]me          | **仿冒 HelloGPT、传播病毒**  | hxxps://hellogpt1[.]oss-cn-hongkong[.]aliyuncs[.]com/hellogpt[.]zip |                            无                            | 822  |
-| 2026/8/17 |        hxxps://hellogpt-cn[.]com        | **仿冒 HelloGPT、传播病毒**  | hxxps://worlddown[.]oss-cn-hongkong[.]aliyuncs[.]com/new_Hellogpt_take119_Setup_win[.]zip |                            无                            | 823  |
-| 2026/8/17 |      hxxps://www[.]hellogptt[.]com      | **仿冒 HelloGPT、传播病毒**  |                       有，载荷提取失败                       |                            无                            | 824  |
-| 2026/8/19 |       hxxps://ra-oray[.]com[.]cn        |   **仿冒向日葵、传播病毒**   | hxxps://download-azhioss[.]com/donwnload/Sunlogini_12[.]8[.]1_x64[.]zip |                            无                            | 825  |
-|  ——————   |          ————————————————————           |       ———————————————        |                ——————————————————————————————                |                        ——————————                        | ———  |
+|   日期    |                   URL                   |             类别             |                           有效载荷                           |  URLhaus   | 编号 |
+| :-------: | :-------------------------------------: | :--------------------------: | :----------------------------------------------------------: | :--------: | :--: |
+| 2026/8/14 |    hxxps://apps-tubatool[.]com[.]cn     | **仿冒图吧工具箱、传播病毒** |                            同 810                            |     无     | 812  |
+| 2026/8/14 |  hxxps://www[.]desk-tbtool[.]com[.]cn   | **仿冒图吧工具箱、传播病毒** |                            同 810                            |     无     | 813  |
+| 2026/8/15 | hxxps://www[.]hsuidan914[.]com/dowlod18 |       **传播银狐病毒**       |                       有，载荷提取失败                       |     无     | 814  |
+| 2026/8/15 |   hxxps://www[.]doubao-key[.]com[.]cn   | **仿冒豆包输入法、传播病毒** |                            同 814                            |     无     | 815  |
+| 2026/8/15 |      hxxps://doubao-sr[.]com[.]cn       | **仿冒豆包输入法、传播病毒** |                            同 814                            |     无     | 816  |
+| 2026/8/16 |   hxxps://www[.]sau912om[.]com/inst15   |       **传播银狐病毒**       |                       有，载荷提取失败                       |     无     | 817  |
+| 2026/8/16 |      hxxps://mc-huorong[.]com[.]cn      |    **仿冒火绒、传播病毒**    |                            同 817                            |     无     | 818  |
+| 2026/8/16 |      hxxps://hn-huorong[.]com[.]cn      |    **仿冒火绒、传播病毒**    |                            同 817                            |     无     | 819  |
+| 2026/8/16 |      hxxps://hd-huorong[.]com[.]cn      |    **仿冒火绒、传播病毒**    |                            同 817                            |     无     | 820  |
+| 2026/8/17 |         hxxps://hellogpt[.]plus         | **仿冒 HelloGPT、传播病毒**  |     hxxps://biuing[.]bj[.]bcebos[.]com/helogat-win[.]zip     |     无     | 821  |
+| 2026/8/17 |          hxxps://hellogpt[.]me          | **仿冒 HelloGPT、传播病毒**  | hxxps://hellogpt1[.]oss-cn-hongkong[.]aliyuncs[.]com/hellogpt[.]zip |     无     | 822  |
+| 2026/8/17 |        hxxps://hellogpt-cn[.]com        | **仿冒 HelloGPT、传播病毒**  | hxxps://worlddown[.]oss-cn-hongkong[.]aliyuncs[.]com/new_Hellogpt_take119_Setup_win[.]zip |     无     | 823  |
+| 2026/8/17 |      hxxps://www[.]hellogptt[.]com      | **仿冒 HelloGPT、传播病毒**  |                       有，载荷提取失败                       |     无     | 824  |
+| 2026/8/19 |       hxxps://ra-oray[.]com[.]cn        |   **仿冒向日葵、传播病毒**   | hxxps://download-azhioss[.]com/donwnload/Sunlogini_12[.]8[.]1_x64[.]zip |     无     | 825  |
+| 2026/8/19 |  hxxps://www[.]tne348on[.]com/6inst18   |       **传播银狐病毒**       |                       有，载荷提取失败                       |     无     | 826  |
+| 2026/8/19 |     hxxps://ijinshan-ai[.]com[.]cn      |  **仿冒金山毒霸、传播病毒**  |                            同 826                            |     无     | 827  |
+| 2026/8/19 |     hxxps://ijinshan-ai1[.]com[.]cn     |  **仿冒金山毒霸、传播病毒**  |                            同 826                            |     无     | 828  |
+| 2026/8/19 |     hxxps://ijinshan-ai2[.]com[.]cn     |  **仿冒金山毒霸、传播病毒**  |                            同 826                            |     无     | 829  |
+| 2026/8/19 |     hxxps://ijinshan-ai3[.]com[.]cn     |  **仿冒金山毒霸、传播病毒**  |                            同 826                            |     无     | 830  |
+| 2026/8/19 |     hxxps://pc-ijinshan[.]com[.]cn      | **仿冒金山打字通、传播病毒** |  hxxps://download-azhioss[.]com/donwnload/Jinshan_x64[.]zip  |     无     | 831  |
+|  ——————   |          ————————————————————           |       ———————————————        |                ——————————————————————————————                | —————————— | ———  |
 
 > [!NOTE]
 >
@@ -158,7 +158,7 @@
 
 &emsp;&emsp;[《**“银狐” 威胁动态：官方及网络安全企业文章汇编**》](https://github.com/Lingggao/LGSRC/blob/main/Documents/SilverFox_Articles.md)
 
-&emsp;&emsp;**银狐 IOC 情报合集**：[**VirusTotal**](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) + [**LevelBlue OTX**](https://otx.alienvault.com/pulse/6a36fe5a3c1568785b59c4d7)&emsp;实时更新，已收录 1,356 项情报 (文件、URL、域名、IP)
+&emsp;&emsp;**银狐 IOC 情报合集**：[**VirusTotal**](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) + [**LevelBlue OTX**](https://otx.alienvault.com/pulse/6a36fe5a3c1568785b59c4d7)&emsp;实时更新，已收录 1,366 项情报 (文件、URL、域名、IP)
 
 ---
 
