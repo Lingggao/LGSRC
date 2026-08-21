@@ -58,9 +58,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 8 月 20 日 22:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 8 月 21 日 17:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 8 月 20 日，本中心已打击计算机病毒 / 恶意软件 1,657 个、恶意网站 831 个，累计为潜在受害者规避经济损失约 7,042,250 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 8 月 21 日，本中心已打击计算机病毒 / 恶意软件 1,658 个、恶意网站 832 个，累计为潜在受害者规避经济损失约 7,046,500 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;在对抗网络犯罪的崇高事业中，本中心仅承担了少量协调类工作。**恶意载荷从发现到清除，离不开国家有关部门、安全社区与研究员、杀毒软件厂商及威胁情报提供商的共同努力**。在此，谨向他们致以诚挚谢意。
 
@@ -78,7 +78,6 @@
 
 |   日期    |          文件名          |          检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :----------------------: | :---------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/8/18 |    setup_v6.0.08.exe     | **银狐 (SilverFox.bm)** | 3b6cd8dc900c601143185264c6400f42dac88e39757623c2200e8704c1dd3174 | aea20cd2-a0aa-4dc4-8f6c-ae175daed4ab | [VirusTotal](https://www.virustotal.com/gui/file/3b6cd8dc900c601143185264c6400f42dac88e39757623c2200e8704c1dd3174) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/3b6cd8dc900c601143185264c6400f42dac88e39757623c2200e8704c1dd3174) | 1638 |
 | 2026/8/18 |     winx32quickq.exe     |  **银狐 (SilverFox)**   | f0cfbdfac53147c3817cf49c8c3944b50c0943cf77ca5c4286262f75ecc9bee2 | c817a6e5-dd27-4008-90ba-b6adc489733c | [VirusTotal](https://www.virustotal.com/gui/file/f0cfbdfac53147c3817cf49c8c3944b50c0943cf77ca5c4286262f75ecc9bee2) (9) |                              无                              | 1639 |
 | 2026/8/18 |      word安装包.exe      |    **CobaltStrike**     | c0ecd6ea9821de6f9dab76401db4c2220f93898d2192aff360ca3ee19a292826 | 6a326534-8f64-40f1-891c-e6ace23f189d | [VirusTotal](https://www.virustotal.com/gui/file/c0ecd6ea9821de6f9dab76401db4c2220f93898d2192aff360ca3ee19a292826) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c0ecd6ea9821de6f9dab76401db4c2220f93898d2192aff360ca3ee19a292826) | 1640 |
 | 2026/8/19 | Sunlogini_12.8.1_x64.exe |  **银狐 (SilverFox)**   | 75563e10c1ca77adb6c205e8771c95964a21b4fe68f8a2709f18da2dd334fd0a | c58cdb6d-ac47-45ea-8fd9-1a072b1cdbef | [VirusTotal](https://www.virustotal.com/gui/file/75563e10c1ca77adb6c205e8771c95964a21b4fe68f8a2709f18da2dd334fd0a) (2) |                              无                              | 1641 |
@@ -98,6 +97,7 @@
 | 2026/8/20 | ···第三季度违纪违规.exe  | **银狐 (SilverFox.bg)** | 317fd32bec648f256acba6feeec2ddf86571c0960fc1a605b2ad3baf8cc986ae | 84cb5931-0fb3-44ea-ab88-a7bf2a394f54 | [VirusTotal](https://www.virustotal.com/gui/file/317fd32bec648f256acba6feeec2ddf86571c0960fc1a605b2ad3baf8cc986ae) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/317fd32bec648f256acba6feeec2ddf86571c0960fc1a605b2ad3baf8cc986ae) | 1655 |
 | 2026/8/20 | ···违规违纪人员信息.exe  | **银狐 (SilverFox.bg)** | b3574f6784185a5f56b52714aeb883cdc42527d8aa4ffcbbfc218210ce8d7c43 | d2a2a1eb-b858-46dd-91b4-29a8a904280f | [VirusTotal](https://www.virustotal.com/gui/file/b3574f6784185a5f56b52714aeb883cdc42527d8aa4ffcbbfc218210ce8d7c43) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b3574f6784185a5f56b52714aeb883cdc42527d8aa4ffcbbfc218210ce8d7c43) | 1656 |
 | 2026/8/20 |   inste_a3.1.3.06.exe    |  **银狐 (SilverFox)**   | 2b0ff4b376424fda25bb36ff60e26b32da161f75f393b41d2b2c7c06dea513fa | eab590a1-e2aa-4b57-aa97-cf6ecb38cf1a | [VirusTotal](https://www.virustotal.com/gui/file/2b0ff4b376424fda25bb36ff60e26b32da161f75f393b41d2b2c7c06dea513fa) (8) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/2b0ff4b376424fda25bb36ff60e26b32da161f75f393b41d2b2c7c06dea513fa) | 1657 |
+| 2026/8/21 | SodaMusic-v3.2.1···.exe  |  **银狐 (SilverFox)**   | c608b5f2250ec23ce536ddeb30cf669c79d340ad916225e45ad0fdbb81e40671 | 449fab9e-9829-44ed-8360-e5c3708d8bd0 | [VirusTotal](https://www.virustotal.com/gui/file/c608b5f2250ec23ce536ddeb30cf669c79d340ad916225e45ad0fdbb81e40671) (2) |                              无                              | 1658 |
 |  ——————   |       ————————————       |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -114,7 +114,6 @@
 
 |   日期    |                   URL                   |             类别             |                           有效载荷                           |  URLhaus   | 编号 |
 | :-------: | :-------------------------------------: | :--------------------------: | :----------------------------------------------------------: | :--------: | :--: |
-| 2026/8/14 |    hxxps://apps-tubatool[.]com[.]cn     | **仿冒图吧工具箱、传播病毒** |                            同 810                            |     无     | 812  |
 | 2026/8/14 |  hxxps://www[.]desk-tbtool[.]com[.]cn   | **仿冒图吧工具箱、传播病毒** |                            同 810                            |     无     | 813  |
 | 2026/8/15 | hxxps://www[.]hsuidan914[.]com/dowlod18 |       **传播银狐病毒**       |                       有，载荷提取失败                       |     无     | 814  |
 | 2026/8/15 |   hxxps://www[.]doubao-key[.]com[.]cn   | **仿冒豆包输入法、传播病毒** |                            同 814                            |     无     | 815  |
@@ -134,6 +133,7 @@
 | 2026/8/19 |     hxxps://ijinshan-ai2[.]com[.]cn     |  **仿冒金山毒霸、传播病毒**  |                            同 826                            |     无     | 829  |
 | 2026/8/19 |     hxxps://ijinshan-ai3[.]com[.]cn     |  **仿冒金山毒霸、传播病毒**  |                            同 826                            |     无     | 830  |
 | 2026/8/19 |     hxxps://pc-ijinshan[.]com[.]cn      | **仿冒金山打字通、传播病毒** |  hxxps://download-azhioss[.]com/donwnload/Jinshan_x64[.]zip  |     无     | 831  |
+| 2026/8/21 |      hxxps://www[.]cn-qishui[.]com      |  **仿冒汽水音乐、传播病毒**  | hxxps://yuinbvwesxa138[.]oss-cn-hongkong[.]aliyuncs[.]com/SodaMusic-v3[.]2[.]1-official-win32_x64[.]zip |     无     | 832  |
 |  ——————   |          ————————————————————           |       ———————————————        |                ——————————————————————————————                | —————————— | ———  |
 
 > [!NOTE]
@@ -158,7 +158,7 @@
 
 &emsp;&emsp;[《**“银狐” 威胁动态：官方及网络安全企业文章汇编**》](https://github.com/Lingggao/LGSRC/blob/main/Documents/SilverFox_Articles.md)
 
-&emsp;&emsp;**银狐 IOC 情报合集**：[**VirusTotal**](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) + [**LevelBlue OTX**](https://otx.alienvault.com/pulse/6a36fe5a3c1568785b59c4d7)&emsp;实时更新，已收录 1,383 项情报 (文件、URL、域名、IP)
+&emsp;&emsp;**银狐 IOC 情报合集**：[**VirusTotal**](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) + [**LevelBlue OTX**](https://otx.alienvault.com/pulse/6a36fe5a3c1568785b59c4d7)&emsp;实时更新，已收录 1,387 项情报 (文件、URL、域名、IP)
 
 ---
 

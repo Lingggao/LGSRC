@@ -820,6 +820,7 @@
 | 2026/8/13 |             hxxps://luxcar-24[.]com             |        **传播恶意软件**         | hxxps://luxcar-24[.]com/zWqbElslFazLfVduLvpacFLw9SplKs3pV4aUiEUv/Update[.]exe | [URLhaus Database](https://urlhaus.abuse.ch/url/3902994) | 809  |
 | 2026/8/14 |      hxxps://www[.]vunhk1734[.]com/load381      |        **传播银狐病毒**         |                       有，载荷提取失败                       |                            无                            | 810  |
 | 2026/8/14 |       hxxps://www[.]tbtool-hub[.]com[.]cn       |  **仿冒图吧工具箱、传播病毒**   |                            同 810                            |                            无                            | 811  |
+| 2026/8/14 |        hxxps://apps-tubatool[.]com[.]cn         |  **仿冒图吧工具箱、传播病毒**   |                            同 810                            |                            无                            | 812  |
 |  ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
