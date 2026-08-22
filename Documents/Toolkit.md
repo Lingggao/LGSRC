@@ -88,7 +88,7 @@
 - [**安全 KER**](https://www.anquanke.com) (北京奇虎科技有限公司)
 - [**卡饭论坛**](https://bbs.kafan.cn) (KaFan)
 - [**火绒安全论坛**](https://bbs.huorong.cn) (北京火绒网络科技有限公司)
-- [**百度贴吧病毒吧**](https://tieba.baidu.com/f?ie=utf-8&kw=%E7%97%85%E6%AF%92)
+- [**百度贴吧病毒吧**](https://tieba.baidu.com/f?ie=utf-8&kw=%E7%97%85%E6%AF%92) (百度贴吧)
 
 **网络威胁实时地图**
 
