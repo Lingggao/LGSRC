@@ -28,6 +28,7 @@
 - [**深信服云沙箱**](https://ti.sangfor.com.cn/sandbox-dashboard) (深信服科技股份有限公司)
 - [**安恒云沙箱**](https://sandbox.dbappsecurity.com.cn) (杭州安恒信息技术股份有限公司)
 - [**360 沙箱云**](https://ata.360.net) (三六零数字安全科技集团有限公司)
+- [**腾讯安全文件沙箱**](https://tix.qq.com) (深圳市腾讯计算机系统有限公司)
 - [**Kaspersky Threat Intelligence Portal**](https://opentip.kaspersky.com) (Kaspersky)
 - [**Hybrid Analysis**](https://hybrid-analysis.com) (CrowdStrike)
 - [**ANY.RUN**](https://app.any.run) (ANY.RUN)
@@ -44,6 +45,7 @@
 - [**深信服威胁情报中心**](https://ti.sangfor.com.cn) (深信服科技股份有限公司)
 - [**安恒安全星图平台**](https://starmap.dbappsecurity.com.cn) (杭州安恒信息技术股份有限公司)
 - [**VenusEye 威胁情报中心**](https://venuseye.com.cn) (北京启明星辰信息安全技术有限公司)
+- [**腾讯安全威胁情报中心**](https://tix.qq.com) (深圳市腾讯计算机系统有限公司)
 
 **恶意软件信息共享平台**
 
@@ -58,7 +60,8 @@
 
 - [**安天 AVL Code · AI 智能编程与安全分析桌面助手**](https://www.avlcode.cn) (安天科技集团)
 - [**微步 XGPT 威胁分析智能体**](https://x.threatbook.com/v5/xgpt) (北京步刻科技有限公司)
-- [**奇安信威胁分析数字专家**](https://otx.alienvault.com) (奇安信科技集团股份有限公司)
+- [**奇安信人工智能安全开放平台**](https://ai.qianxin.com) (奇安信科技集团股份有限公司)
+- [**奇安信威胁分析数字专家**](https://expert.qianxin.com) (奇安信科技集团股份有限公司)
 - [**天穹智能体**](https://sandbox.qianxin.com) (奇安信技术研究院)
 
 **域名与 IP 查询工具**
@@ -81,6 +84,8 @@
 **网络安全社区**
 
 - [**FreeBuf 网络安全行业门户**](https://www.freebuf.com) (上海菲巴夫信息科技有限公司)
+- [**奇安信攻防社区**](https://forum.butian.net) (北京天目恒安科技有限公司)
+- [**安全 KER**](https://www.anquanke.com) (北京奇虎科技有限公司)
 - [**卡饭论坛**](https://bbs.kafan.cn) (KaFan)
 - [**火绒安全论坛**](https://bbs.huorong.cn) (北京火绒网络科技有限公司)
 - [**百度贴吧病毒吧**](https://tieba.baidu.com/f?ie=utf-8&kw=%E7%97%85%E6%AF%92)
@@ -113,11 +118,22 @@
 - [**迈克菲**](https://www.mcafee.com/zh-cn/index.html) (McAfee)
 - [**Bitdefender**](https://www.bitdefender.com) (Bitdefender)
 
+**免登录 (临时) 网盘**
+
+- [**文叔叔**](https://www.wenshushu.cn) (成都字节星云科技有限公司)
+- [**AirPortal 空投快传**](https://www.airportal.cn) (福州市热铁盒软件有限公司)
+- [**Wormhole**](https://wormhole.app) (WebTorrent)
+- [**LimeWire**](https://limewire.com) (LimeWire)
+- [**FileTransfer.io**](https://filetransfer.io) (LimeWire)
+- [**File.io**](https://www.file.io) (LimeWire)
+- [**SwissTransfer**](https://www.swisstransfer.com) (Infomaniak)
+
 **学习与认证**
 
-- [**看雪学苑**](https://www.kanxue.com) (上海看雪科技有限公司)
-- [**ISC.AI 学苑**](https://study.360.net) (360 数字安全集团)
 - [**中国计算机学会 · 认证**](https://www.ccf.org.cn/Activities/Certification) (中国计算机学会)
+- [**看雪学苑**](https://www.kanxue.com) (上海看雪科技有限公司)
+- [**Seebug · Paper 安全技术精粹**](https://paper.seebug.org) (北京知道创宇信息技术股份有限公司)
+- [**ISC.AI 学苑**](https://study.360.net) (360 数字安全集团)
 - [**华为 · 职业认证**](https://e.huawei.com/cn/talent/cert/#/careerCert) (华为技术有限公司)
 - [**阿里云 · 认证**](https://edu.aliyun.com) (阿里云计算有限公司)
 - [**ISACA 职业证书**](https://www.isaca.org.cn/credentialing) (ISACA China · 北京阿萨卡信息技术有限公司)
@@ -127,6 +143,7 @@
 **杂项**
 
 - [**中央网络安全和信息化委员会办公室**](https://www.cac.gov.cn) (中央网络安全和信息化委员会办公室)
+- [**中国网络空间安全协会**](https://www.cybersac.cn) (中国网络空间安全协会)
 - [**国家信息安全漏洞共享平台**](https://www.cnvd.org.cn) (国家计算机网络应急技术处理协调中心)
 - [**安天提交样本奖励计划**](https://www.virusview.net/ranking) (北京安天网络安全技术有限公司)
 - [**奇安信技术研究院**](https://research.qianxin.com) (奇安信技术研究院)
