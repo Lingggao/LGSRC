@@ -66,7 +66,7 @@
 
 **域名与 IP 查询工具**
 
-- [**ICP / IP地址 / 域名信息备案管理系统**](https://beian.miit.gov.cn) (工业和信息化部)
+- [**ICP / IP 地址 / 域名信息备案管理系统**](https://beian.miit.gov.cn) (工业和信息化部)
 - [**ip138.com 查询网**](https://beian.miit.gov.cn) (厦门市漫游科技有限公司)
 - [**Netcraft Report Service**](https://report.netcraft.com/report) (Netcraft)
 - [**urlscan.io**](https://urlscan.io) (urlscan.io)
