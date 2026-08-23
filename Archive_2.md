@@ -831,6 +831,8 @@
 | 2026/8/16 |          hxxps://hd-huorong[.]com[.]cn          |     **仿冒火绒、传播病毒**      |                            同 817                            |                            无                            | 820  |
 | 2026/8/17 |             hxxps://hellogpt[.]plus             |   **仿冒 HelloGPT、传播病毒**   |     hxxps://biuing[.]bj[.]bcebos[.]com/helogat-win[.]zip     |                            无                            | 821  |
 | 2026/8/17 |              hxxps://hellogpt[.]me              |   **仿冒 HelloGPT、传播病毒**   | hxxps://hellogpt1[.]oss-cn-hongkong[.]aliyuncs[.]com/hellogpt[.]zip |                            无                            | 822  |
+| 2026/8/17 |            hxxps://hellogpt-cn[.]com            |   **仿冒 HelloGPT、传播病毒**   | hxxps://worlddown[.]oss-cn-hongkong[.]aliyuncs[.]com/new_Hellogpt_take119_Setup_win[.]zip |                            无                            | 823  |
+| 2026/8/17 |          hxxps://www[.]hellogptt[.]com          |   **仿冒 HelloGPT、传播病毒**   |                       有，载荷提取失败                       |                            无                            | 824  |
 |  ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
