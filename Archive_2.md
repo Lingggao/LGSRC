@@ -825,6 +825,12 @@
 | 2026/8/15 |     hxxps://www[.]hsuidan914[.]com/dowlod18     |        **传播银狐病毒**         |                       有，载荷提取失败                       |                            无                            | 814  |
 | 2026/8/15 |       hxxps://www[.]doubao-key[.]com[.]cn       |  **仿冒豆包输入法、传播病毒**   |                            同 814                            |                            无                            | 815  |
 | 2026/8/15 |          hxxps://doubao-sr[.]com[.]cn           |  **仿冒豆包输入法、传播病毒**   |                            同 814                            |                            无                            | 816  |
+| 2026/8/16 |       hxxps://www[.]sau912om[.]com/inst15       |        **传播银狐病毒**         |                       有，载荷提取失败                       |                            无                            | 817  |
+| 2026/8/16 |          hxxps://mc-huorong[.]com[.]cn          |     **仿冒火绒、传播病毒**      |                            同 817                            |                            无                            | 818  |
+| 2026/8/16 |          hxxps://hn-huorong[.]com[.]cn          |     **仿冒火绒、传播病毒**      |                            同 817                            |                            无                            | 819  |
+| 2026/8/16 |          hxxps://hd-huorong[.]com[.]cn          |     **仿冒火绒、传播病毒**      |                            同 817                            |                            无                            | 820  |
+| 2026/8/17 |             hxxps://hellogpt[.]plus             |   **仿冒 HelloGPT、传播病毒**   |     hxxps://biuing[.]bj[.]bcebos[.]com/helogat-win[.]zip     |                            无                            | 821  |
+| 2026/8/17 |              hxxps://hellogpt[.]me              |   **仿冒 HelloGPT、传播病毒**   | hxxps://hellogpt1[.]oss-cn-hongkong[.]aliyuncs[.]com/hellogpt[.]zip |                            无                            | 822  |
 |  ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
