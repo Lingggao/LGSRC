@@ -833,6 +833,14 @@
 | 2026/8/17 |              hxxps://hellogpt[.]me              |   **仿冒 HelloGPT、传播病毒**   | hxxps://hellogpt1[.]oss-cn-hongkong[.]aliyuncs[.]com/hellogpt[.]zip |                            无                            | 822  |
 | 2026/8/17 |            hxxps://hellogpt-cn[.]com            |   **仿冒 HelloGPT、传播病毒**   | hxxps://worlddown[.]oss-cn-hongkong[.]aliyuncs[.]com/new_Hellogpt_take119_Setup_win[.]zip |                            无                            | 823  |
 | 2026/8/17 |          hxxps://www[.]hellogptt[.]com          |   **仿冒 HelloGPT、传播病毒**   |                       有，载荷提取失败                       |                            无                            | 824  |
+| 2026/8/19 |           hxxps://ra-oray[.]com[.]cn            |    **仿冒向日葵、传播病毒**     | hxxps://download-azhioss[.]com/donwnload/Sunlogini_12[.]8[.]1_x64[.]zip |                            无                            | 825  |
+| 2026/8/19 |      hxxps://www[.]tne348on[.]com/6inst18       |        **传播银狐病毒**         |                       有，载荷提取失败                       |                            无                            | 826  |
+| 2026/8/19 |         hxxps://ijinshan-ai[.]com[.]cn          |   **仿冒金山毒霸、传播病毒**    |                            同 826                            |                            无                            | 827  |
+| 2026/8/19 |         hxxps://ijinshan-ai1[.]com[.]cn         |   **仿冒金山毒霸、传播病毒**    |                            同 826                            |                            无                            | 828  |
+| 2026/8/19 |         hxxps://ijinshan-ai2[.]com[.]cn         |   **仿冒金山毒霸、传播病毒**    |                            同 826                            |                            无                            | 829  |
+| 2026/8/19 |         hxxps://ijinshan-ai3[.]com[.]cn         |   **仿冒金山毒霸、传播病毒**    |                            同 826                            |                            无                            | 830  |
+| 2026/8/19 |         hxxps://pc-ijinshan[.]com[.]cn          |  **仿冒金山打字通、传播病毒**   |  hxxps://download-azhioss[.]com/donwnload/Jinshan_x64[.]zip  |                            无                            | 831  |
+| 2026/8/21 |          hxxps://www[.]cn-qishui[.]com          |   **仿冒汽水音乐、传播病毒**    | hxxps://yuinbvwesxa138[.]oss-cn-hongkong[.]aliyuncs[.]com/SodaMusic-v3[.]2[.]1-official-win32_x64[.]zip |                            无                            | 832  |
 |  ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
