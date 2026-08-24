@@ -134,6 +134,7 @@
 | 2026/8/24 | hxxps://www[.]bandii-zip[.]com[.]cn  | **仿冒 Bandizip、传播病毒**  | hxxps://download-azhioss[.]com/donwnload/Banndiziip_x64[.]zip |     无     | 842  |
 | 2026/8/24 |  hxxps://www[.]net-bcut[.]com[.]cn   |    **仿冒必剪、传播病毒**    |                            同 837                            |     无     | 843  |
 | 2026/8/24 |     hxxps://app-bcut[.]com[.]cn      |    **仿冒必剪、传播病毒**    |                            同 837                            |     无     | 844  |
+| 2026/8/24 |      https://deepseek-se.com.cn      |                              |                                                              |     无     | 845  |
 |  ——————   |         ————————————————————         |       ———————————————        |                ——————————————————————————————                | —————————— | ———  |
 
 > [!NOTE]
