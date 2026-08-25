@@ -9,6 +9,16 @@
 
 ### 文章
 
+[019]  
+《[**周期性轮换样本 | 火绒带您揭秘银狐迭代逻辑与样本设计思路**](https://mp.weixin.qq.com/s/ysp0CIibeBleb-boKAZj3Q)》  
+**火绒安全 (北京火绒网络科技有限公司)**，2026 年 8 月  
+网址：[https://mp.weixin.qq.com/s/ysp0CIibeBleb-boKAZj3Q](https://mp.weixin.qq.com/s/ysp0CIibeBleb-boKAZj3Q)
+
+[018]  
+《[**正在疯狂攻击中国的“银狐”病毒，到底是什么来头？**](https://mp.weixin.qq.com/s/tN2GOwV68Lqo5WlkuEju6g)》  
+**硅基生物饲养手册** (个人账号)，2026 年 8 月  
+网址：[https://mp.weixin.qq.com/s/tN2GOwV68Lqo5WlkuEju6g](https://mp.weixin.qq.com/s/tN2GOwV68Lqo5WlkuEju6g)
+
 [017]  
 《[**速查！7 月流行计算机病毒当心中招**](https://mp.weixin.qq.com/s/G_jZD7KONn2Kx6vE_okvgA)》  
 **国家计算机病毒应急处理中心**，2026 年 8 月  
