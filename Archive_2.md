@@ -841,6 +841,19 @@
 | 2026/8/19 |         hxxps://ijinshan-ai3[.]com[.]cn         |   **仿冒金山毒霸、传播病毒**    |                            同 826                            |                            无                            | 830  |
 | 2026/8/19 |         hxxps://pc-ijinshan[.]com[.]cn          |  **仿冒金山打字通、传播病毒**   |  hxxps://download-azhioss[.]com/donwnload/Jinshan_x64[.]zip  |                            无                            | 831  |
 | 2026/8/21 |          hxxps://www[.]cn-qishui[.]com          |   **仿冒汽水音乐、传播病毒**    | hxxps://yuinbvwesxa138[.]oss-cn-hongkong[.]aliyuncs[.]com/SodaMusic-v3[.]2[.]1-official-win32_x64[.]zip |                            无                            | 832  |
+| 2026/8/22 |       hxxps://dingding[.]bingcoreai[.]cc        |     **仿冒钉钉、传播病毒**      | hxxps://app[.]ytcloud[.]org/?c=qe3ndjboOsXsfVv83ZBG1ZxIjTHkSFrmRmCmlftNRS-Avmx3nYCf9fV9AZy4RmyI |                            无                            | 833  |
+| 2026/8/22 |       hxxps://pc[.]j-dingtalk[.]com[.]cn        |     **仿冒钉钉、传播病毒**      |    注：仅在必应搜索结果中点击该链接时，才会跳转至恶意网站    |                            无                            | 834  |
+| 2026/8/22 |       hxxps://web[.]j-dingtalk[.]com[.]cn       |     **仿冒钉钉、传播病毒**      |    注：仅在必应搜索结果中点击该链接时，才会跳转至恶意网站    |                            无                            | 835  |
+| 2026/8/22 |       hxxps://www[.]j-dingtalk[.]com[.]cn       |     **仿冒钉钉、传播病毒**      |    注：仅在必应搜索结果中点击该链接时，才会跳转至恶意网站    |                            无                            | 836  |
+| 2026/8/24 |       hxxps://www[.]xujvgk[.]cn/doload32        |        **传播银狐病毒**         |                       有，载荷提取失败                       |                            无                            | 837  |
+| 2026/8/24 |         hxxps://app-bandzip[.]com[.]cn          |   **仿冒 Bandizip、传播病毒**   |                            同 837                            |                            无                            | 838  |
+| 2026/8/24 |          hxxps://cn-bandzip[.]com[.]cn          |   **仿冒 Bandizip、传播病毒**   |                            同 837                            |                            无                            | 839  |
+| 2026/8/24 |       hxxps://www[.]zh-bandzip[.]com[.]cn       |   **仿冒 Bandizip、传播病毒**   |                            同 837                            |                            无                            | 840  |
+| 2026/8/24 |          hxxps://www[.]bandi-zip[.]com          |   **仿冒 Bandizip、传播病毒**   | hxxps://www[.]bandi-zip[.]com/downloads/Bandi-Zip%207[.]45[.]0%20Setup[.]zip |                            无                            | 841  |
+| 2026/8/24 |       hxxps://www[.]bandii-zip[.]com[.]cn       |   **仿冒 Bandizip、传播病毒**   | hxxps://download-azhioss[.]com/donwnload/Banndiziip_x64[.]zip |                            无                            | 842  |
+| 2026/8/24 |        hxxps://www[.]net-bcut[.]com[.]cn        |     **仿冒必剪、传播病毒**      |                            同 837                            |                            无                            | 843  |
+| 2026/8/24 |           hxxps://app-bcut[.]com[.]cn           |     **仿冒必剪、传播病毒**      |                            同 837                            |                            无                            | 844  |
+| 2026/8/24 |         hxxps://deepseek-se[.]com[.]cn          |   **仿冒 DeepSeek、传播病毒**   |              hxxps://www[.]xujvgk[.]cn/doload32              |                            无                            | 845  |
 |  ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
