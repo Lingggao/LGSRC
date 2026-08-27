@@ -855,6 +855,12 @@
 | 2026/8/24 |           hxxps://app-bcut[.]com[.]cn           |     **仿冒必剪、传播病毒**      |                            同 837                            |                            无                            | 844  |
 | 2026/8/24 |         hxxps://deepseek-se[.]com[.]cn          |   **仿冒 DeepSeek、传播病毒**   |              hxxps://www[.]xujvgk[.]cn/doload32              |                            无                            | 845  |
 | 2026/8/24 |         hxxps://deepseek-dr[.]com[.]cn          |   **仿冒 DeepSeek、传播病毒**   |                            同 845                            |                            无                            | 846  |
+| 2026/8/24 |          hxxps://deepseeak[.]com[.]cn           |   **仿冒 DeepSeek、传播病毒**   |                            同 845                            |                            无                            | 847  |
+| 2026/8/24 |         hxxps://deepseek-ce[.]com[.]cn          |   **仿冒 DeepSeek、传播病毒**   |                            同 845                            |                            无                            | 848  |
+| 2026/8/24 |         hxxps://deepseek-ty[.]com[.]cn          |   **仿冒 DeepSeek、传播病毒**   |                            同 845                            |                            无                            | 849  |
+| 2026/8/24 |         hxxps://deepseek-co[.]com[.]cn          |   **仿冒 DeepSeek、传播病毒**   |                            同 845                            |                            无                            | 850  |
+| 2026/8/24 |        hxxps://app-deepsseek[.]com[.]cn         |   **仿冒 DeepSeek、传播病毒**   |                            同 845                            |                            无                            | 851  |
+| 2026/8/24 |       hxxps://agents-deepseek[.]com[.]cn        |   **仿冒 DeepSeek、传播病毒**   |                            同 845                            |                            无                            | 852  |
 |  ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
