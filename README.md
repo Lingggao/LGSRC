@@ -58,7 +58,7 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 8 月 28 日 21:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 8 月 28 日 22:00 (GMT+8)
 
 &emsp;&emsp;**截至 2026 年 8 月 28 日，本中心已打击计算机病毒 / 恶意软件 1,693 个、恶意网站 872 个，累计为潜在受害者规避经济损失约 7,195,250 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
@@ -66,7 +66,9 @@
 
 &emsp;&emsp;**本中心每打击 1 个计算机病毒或恶意网站，将同步向[联合国儿童基金会](https://www.unicef.org/zh) “爱心为救灾” 计划捐赠 1 元人民币** (每月上限 230 元)。该计划旨在支持中国及其他国家实现可持续发展目标，尤其致力于为困境儿童提供援助。([捐款收据](https://github.com/Lingggao/LGSRC/blob/main/Images/%E6%8D%90%E6%AC%BE%E6%94%B6%E6%8D%AE.png))
 
-&emsp;&emsp;2026 年 7 月 10 日，本中心经由广西慈善联合总会，向洪涝灾害受灾群众[捐赠](https://github.com/Lingggao/LGSRC/blob/main/Images/%E5%B9%BF%E8%A5%BF%E6%B4%AA%E6%B6%9D%E7%81%BE%E5%AE%B3.jpeg)人民币 2,026 元。
+&emsp;&emsp;2026 年 7 月 10 日，本中心通过广西慈善联合总会，向广西南宁、贵港洪涝灾害受灾群众[捐赠](https://github.com/Lingggao/LGSRC/blob/main/Images/%E5%B9%BF%E8%A5%BF%E6%B4%AA%E6%B6%9D%E7%81%BE%E5%AE%B3.jpeg)人民币 2,026 元。
+
+&emsp;&emsp;2026 年 8 月 28 日，本中心通过上海市红十字会，向西藏吉隆泥石流灾害抢险救援工作[捐赠]()人民币 1,500 元。
 
 ---
 
