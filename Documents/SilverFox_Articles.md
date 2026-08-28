@@ -9,6 +9,11 @@
 
 ### 文章
 
+[020]  
+《[**“银狐”木马专项——恶意域名及恶意IP（一）**](https://mp.weixin.qq.com/s/I7qNjPHOMQg_mpJGNAS9tQ)》  
+**国家计算机网络应急技术处理协调中心**，2026 年 8 月  
+网址：[https://mp.weixin.qq.com/s/I7qNjPHOMQg_mpJGNAS9tQ](https://mp.weixin.qq.com/s/I7qNjPHOMQg_mpJGNAS9tQ)
+
 [019]  
 《[**周期性轮换样本 | 火绒带您揭秘银狐迭代逻辑与样本设计思路**](https://mp.weixin.qq.com/s/ysp0CIibeBleb-boKAZj3Q)》  
 **火绒安全 (北京火绒网络科技有限公司)**，2026 年 8 月  
