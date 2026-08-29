@@ -861,6 +861,10 @@
 | 2026/8/24 |         hxxps://deepseek-co[.]com[.]cn          |   **仿冒 DeepSeek、传播病毒**   |                            同 845                            |                            无                            | 850  |
 | 2026/8/24 |        hxxps://app-deepsseek[.]com[.]cn         |   **仿冒 DeepSeek、传播病毒**   |                            同 845                            |                            无                            | 851  |
 | 2026/8/24 |       hxxps://agents-deepseek[.]com[.]cn        |   **仿冒 DeepSeek、传播病毒**   |                            同 845                            |                            无                            | 852  |
+| 2026/8/27 |       hxxps://www[.]dvl51m[.]com/insdw62        |        **传播银狐病毒**         |                       有，载荷提取失败                       |                            无                            | 853  |
+| 2026/8/27 |         hxxps://deepseek-mc[.]com[.]cn          |   **仿冒 DeepSeek、传播病毒**   |                            同 853                            |                            无                            | 854  |
+| 2026/8/27 |         hxxps://deepseek-com[.]com[.]cn         |   **仿冒 DeepSeek、传播病毒**   |                            同 853                            |                            无                            | 855  |
+| 2026/8/27 |           hxxps://decpseek[.]com[.]cn           |   **仿冒 DeepSeek、传播病毒**   |                            同 853                            |                            无                            | 856  |
 |  ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
