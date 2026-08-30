@@ -114,29 +114,30 @@
 >
 > &emsp;为确保安全，网站地址将用 “hxxps://” 与 “[.]” 进行替换。**切勿尝试访问表格中列出的任何网址**。
 
-|   日期    |                   URL                   |            类别             |                     有效载荷                      |                         URLhaus                          | 编号 |
-| :-------: | :-------------------------------------: | :-------------------------: | :-----------------------------------------------: | :------------------------------------------------------: | :--: |
-| 2026/8/27 |   hxxps://desktop-deepseek[.]com[.]cn   | **仿冒 DeepSeek、传播病毒** |                      同 853                       |                            无                            | 857  |
-| 2026/8/27 |     hxxps://deepseek-de[.]com[.]cn      | **仿冒 DeepSeek、传播病毒** |                      同 853                       |                            无                            | 858  |
-| 2026/8/27 |     hxxps://deepseek-agi[.]com[.]cn     | **仿冒 DeepSeek、传播病毒** |                      同 853                       |                            无                            | 859  |
-| 2026/8/27 |  hxxps://www[.]dekdeepseek[.]com[.]cn   | **仿冒 DeepSeek、传播病毒** |                      同 853                       |                            无                            | 860  |
-| 2026/8/27 | hxxps://www[.]agent-deepseek[.]com[.]cn | **仿冒 DeepSeek、传播病毒** |                      同 853                       |                            无                            | 861  |
-| 2026/8/27 |     hxxps://app-deepseak[.]com[.]cn     | **仿冒 DeepSeek、传播病毒** |                      同 853                       |                            无                            | 862  |
-| 2026/8/27 |        hxxps://go-deepseek[.]com        | **仿冒 DeepSeek、传播病毒** |                      同 853                       |                            无                            | 863  |
-| 2026/8/27 |     hxxps://deepseek-ai1[.]com[.]cn     | **仿冒 DeepSeek、传播病毒** |                      同 853                       |                            无                            | 864  |
-| 2026/8/27 |     hxxps://deepseek-ai2[.]com[.]cn     | **仿冒 DeepSeek、传播病毒** |                      同 853                       |                            无                            | 865  |
-| 2026/8/27 |         hxxp://app-brave[.]com          |  **仿冒 Brave、传播病毒**   | hxxps://dy[.]dpwqwaapp[.]xyz/p10/BraveBrows[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3908966) | 866  |
-| 2026/8/28 |  hxxps://www[.]kb-kaspersky[.]com[.]cn  | **仿冒卡巴斯基、传播病毒**  |        hxxps://www[.]dvl51m[.]com/insdw62         |                            无                            | 867  |
-| 2026/8/28 |     hxxps://ch-kaspersky[.]com[.]cn     | **仿冒卡巴斯基、传播病毒**  |                      同 867                       |                            无                            | 868  |
-| 2026/8/28 | hxxps://www[.]web-kaspersky[.]com[.]cn  | **仿冒卡巴斯基、传播病毒**  |                      同 867                       |                            无                            | 869  |
-| 2026/8/28 |     hxxps://cm-kaspersky[.]com[.]cn     | **仿冒卡巴斯基、传播病毒**  |                      同 867                       |                            无                            | 870  |
-| 2026/8/28 |   hxxps://kaspersky-cyber[.]com[.]cn    | **仿冒卡巴斯基、传播病毒**  |                      同 867                       |                            无                            | 871  |
-| 2026/8/28 |     hxxps://ks-kaspersky[.]com[.]cn     | **仿冒卡巴斯基、传播病毒**  |                      同 867                       |                            无                            | 872  |
-| 2026/8/30 |      hxxps://rising-ai[.]com[.]cn       |   **仿冒瑞星、传播病毒**    |                      同 867                       |                            无                            | 873  |
-| 2026/8/30 |   hxxps://www[.]rising-net[.]com[.]cn   |   **仿冒瑞星、传播病毒**    |                      同 867                       |                            无                            | 874  |
-| 2026/8/30 |   hxxps://www[.]rising-ai1[.]com[.]cn   |   **仿冒瑞星、传播病毒**    |                      同 867                       |                            无                            | 875  |
-| 2026/8/30 |      hxxps://rising-ai3[.]com[.]cn      |   **仿冒瑞星、传播病毒**    |                      同 867                       |                            无                            | 876  |
-|  ——————   |          ————————————————————           |       ———————————————       |          ——————————————————————————————           |                        ——————————                        | ———  |
+|   日期    |                   URL                   |              类别              |                     有效载荷                      |                         URLhaus                          | 编号 |
+| :-------: | :-------------------------------------: | :----------------------------: | :-----------------------------------------------: | :------------------------------------------------------: | :--: |
+| 2026/8/27 |   hxxps://desktop-deepseek[.]com[.]cn   |  **仿冒 DeepSeek、传播病毒**   |                      同 853                       |                            无                            | 857  |
+| 2026/8/27 |     hxxps://deepseek-de[.]com[.]cn      |  **仿冒 DeepSeek、传播病毒**   |                      同 853                       |                            无                            | 858  |
+| 2026/8/27 |     hxxps://deepseek-agi[.]com[.]cn     |  **仿冒 DeepSeek、传播病毒**   |                      同 853                       |                            无                            | 859  |
+| 2026/8/27 |  hxxps://www[.]dekdeepseek[.]com[.]cn   |  **仿冒 DeepSeek、传播病毒**   |                      同 853                       |                            无                            | 860  |
+| 2026/8/27 | hxxps://www[.]agent-deepseek[.]com[.]cn |  **仿冒 DeepSeek、传播病毒**   |                      同 853                       |                            无                            | 861  |
+| 2026/8/27 |     hxxps://app-deepseak[.]com[.]cn     |  **仿冒 DeepSeek、传播病毒**   |                      同 853                       |                            无                            | 862  |
+| 2026/8/27 |        hxxps://go-deepseek[.]com        |  **仿冒 DeepSeek、传播病毒**   |                      同 853                       |                            无                            | 863  |
+| 2026/8/27 |     hxxps://deepseek-ai1[.]com[.]cn     |  **仿冒 DeepSeek、传播病毒**   |                      同 853                       |                            无                            | 864  |
+| 2026/8/27 |     hxxps://deepseek-ai2[.]com[.]cn     |  **仿冒 DeepSeek、传播病毒**   |                      同 853                       |                            无                            | 865  |
+| 2026/8/27 |         hxxp://app-brave[.]com          |    **仿冒 Brave、传播病毒**    | hxxps://dy[.]dpwqwaapp[.]xyz/p10/BraveBrows[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3908966) | 866  |
+| 2026/8/28 |  hxxps://www[.]kb-kaspersky[.]com[.]cn  |   **仿冒卡巴斯基、传播病毒**   |        hxxps://www[.]dvl51m[.]com/insdw62         |                            无                            | 867  |
+| 2026/8/28 |     hxxps://ch-kaspersky[.]com[.]cn     |   **仿冒卡巴斯基、传播病毒**   |                      同 867                       |                            无                            | 868  |
+| 2026/8/28 | hxxps://www[.]web-kaspersky[.]com[.]cn  |   **仿冒卡巴斯基、传播病毒**   |                      同 867                       |                            无                            | 869  |
+| 2026/8/28 |     hxxps://cm-kaspersky[.]com[.]cn     |   **仿冒卡巴斯基、传播病毒**   |                      同 867                       |                            无                            | 870  |
+| 2026/8/28 |   hxxps://kaspersky-cyber[.]com[.]cn    |   **仿冒卡巴斯基、传播病毒**   |                      同 867                       |                            无                            | 871  |
+| 2026/8/28 |     hxxps://ks-kaspersky[.]com[.]cn     |   **仿冒卡巴斯基、传播病毒**   |                      同 867                       |                            无                            | 872  |
+| 2026/8/30 |      hxxps://rising-ai[.]com[.]cn       |     **仿冒瑞星、传播病毒**     |                      同 867                       |                            无                            | 873  |
+| 2026/8/30 |   hxxps://www[.]rising-net[.]com[.]cn   |     **仿冒瑞星、传播病毒**     |                      同 867                       |                            无                            | 874  |
+| 2026/8/30 |   hxxps://www[.]rising-ai1[.]com[.]cn   |     **仿冒瑞星、传播病毒**     |                      同 867                       |                            无                            | 875  |
+| 2026/8/30 |      hxxps://rising-ai3[.]com[.]cn      |     **仿冒瑞星、传播病毒**     |                      同 867                       |                            无                            | 876  |
+| 2026/8/30 |     https://www.tx-guanjian.com.cn      | **仿冒腾讯电脑管家、传播病毒** |        hxxps://www[.]dvl51m[.]com/insdw62         |                            无                            | 877  |
+|  ——————   |          ————————————————————           |        ———————————————         |          ——————————————————————————————           |                        ——————————                        | ———  |
 
 > [!NOTE]
 >
