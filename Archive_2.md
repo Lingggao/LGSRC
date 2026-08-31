@@ -866,6 +866,16 @@
 | 2026/8/27 |         hxxps://deepseek-com[.]com[.]cn         |   **仿冒 DeepSeek、传播病毒**   |                            同 853                            |                            无                            | 855  |
 | 2026/8/27 |           hxxps://decpseek[.]com[.]cn           |   **仿冒 DeepSeek、传播病毒**   |                            同 853                            |                            无                            | 856  |
 | 2026/8/27 |       hxxps://desktop-deepseek[.]com[.]cn       |   **仿冒 DeepSeek、传播病毒**   |                            同 853                            |                            无                            | 857  |
+| 2026/8/27 |         hxxps://deepseek-de[.]com[.]cn          |   **仿冒 DeepSeek、传播病毒**   |                            同 853                            |                            无                            | 858  |
+| 2026/8/27 |         hxxps://deepseek-agi[.]com[.]cn         |   **仿冒 DeepSeek、传播病毒**   |                            同 853                            |                            无                            | 859  |
+| 2026/8/27 |      hxxps://www[.]dekdeepseek[.]com[.]cn       |   **仿冒 DeepSeek、传播病毒**   |                            同 853                            |                            无                            | 860  |
+| 2026/8/27 |     hxxps://www[.]agent-deepseek[.]com[.]cn     |   **仿冒 DeepSeek、传播病毒**   |                            同 853                            |                            无                            | 861  |
+| 2026/8/27 |         hxxps://app-deepseak[.]com[.]cn         |   **仿冒 DeepSeek、传播病毒**   |                            同 853                            |                            无                            | 862  |
+| 2026/8/27 |            hxxps://go-deepseek[.]com            |   **仿冒 DeepSeek、传播病毒**   |                            同 853                            |                            无                            | 863  |
+| 2026/8/27 |         hxxps://deepseek-ai1[.]com[.]cn         |   **仿冒 DeepSeek、传播病毒**   |                            同 853                            |                            无                            | 864  |
+| 2026/8/27 |         hxxps://deepseek-ai2[.]com[.]cn         |   **仿冒 DeepSeek、传播病毒**   |                            同 853                            |                            无                            | 865  |
+| 2026/8/27 |             hxxp://app-brave[.]com              |    **仿冒 Brave、传播病毒**     |      hxxps://dy[.]dpwqwaapp[.]xyz/p10/BraveBrows[.]zip       | [URLhaus Database](https://urlhaus.abuse.ch/url/3908966) | 866  |
+| 2026/8/28 |      hxxps://www[.]kb-kaspersky[.]com[.]cn      |   **仿冒卡巴斯基、传播病毒**    |              hxxps://www[.]dvl51m[.]com/insdw62              |                            无                            | 867  |
 |  ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
