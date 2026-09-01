@@ -58,9 +58,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 9 月 1 日 23:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 9 月 2 日 3:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 9 月 1 日，本中心已打击计算机病毒 / 恶意软件 1,717 个、恶意网站 887 个，累计为潜在受害者规避经济损失约 7,297,250 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 9 月 2 日，本中心已打击计算机病毒 / 恶意软件 1,718 个、恶意网站 887 个，累计为潜在受害者规避经济损失约 7,301,500 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;在对抗网络犯罪的崇高事业中，本中心仅承担了少量协调类工作。**恶意载荷从发现到清除，离不开国家有关部门、安全社区与研究员、杀毒软件厂商及威胁情报提供商的共同努力**。在此，谨向他们致以诚挚谢意。
 
@@ -80,7 +80,6 @@
 
 |   日期    |        文件名         |          检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :-------: | :-------------------: | :---------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/8/29 | 手机号码提取双参.exe  |        **XRed**         | e2efc1241211c7ec4f6cd08268a8ba68d9269575ed5fb0355925597deb3fffef | 193d3894-498a-4311-a58e-28b2627bd56c | [VirusTotal](https://www.virustotal.com/gui/file/e2efc1241211c7ec4f6cd08268a8ba68d9269575ed5fb0355925597deb3fffef) (61) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/e2efc1241211c7ec4f6cd08268a8ba68d9269575ed5fb0355925597deb3fffef) | 1698 |
 | 2026/8/29 | 图吧工具箱2022···.exe |        **XRed**         | 9a0af7081dcd495d860c556917083703cdb39366ab9e1778f4aad5babcd91988 | 1b46a3bb-fc36-448e-a3e6-1e2143ff5f38 | [VirusTotal](https://www.virustotal.com/gui/file/9a0af7081dcd495d860c556917083703cdb39366ab9e1778f4aad5babcd91988) (54) |                              无                              | 1699 |
 | 2026/8/30 |   setup_a9.0.08.exe   | **银狐 (SilverFox.bm)** | b4626e8cdcfc01ca07865c3bb0b0733f95c369376098772150b170758766cd07 | 8933c507-e46b-4669-9d3c-9607633586e1 | [VirusTotal](https://www.virustotal.com/gui/file/b4626e8cdcfc01ca07865c3bb0b0733f95c369376098772150b170758766cd07) (20) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/b4626e8cdcfc01ca07865c3bb0b0733f95c369376098772150b170758766cd07) | 1700 |
 | 2026/8/30 |   setup_a9.0.15.exe   | **银狐 (SilverFox.bm)** | 14c6f15776b5befb362dac716e911240702dc223727ae798688c33aa145fdb0d | 4171199f-c4ee-4592-9f64-2bf7e26772cf | [VirusTotal](https://www.virustotal.com/gui/file/14c6f15776b5befb362dac716e911240702dc223727ae798688c33aa145fdb0d) (14) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/14c6f15776b5befb362dac716e911240702dc223727ae798688c33aa145fdb0d) | 1701 |
@@ -100,6 +99,7 @@
 | 2026/9/1  | SogouExplorer···.exe  |  **银狐 (SilverFox)**   | 7f8ec23fd1c3a912bce2fa9889b7bdeb963df4410d77a656b9987f530caae984 | 6b33c193-4b58-4005-b9d7-7ca87b930baa | [VirusTotal](https://www.virustotal.com/gui/file/7f8ec23fd1c3a912bce2fa9889b7bdeb963df4410d77a656b9987f530caae984) (8) |                              无                              | 1715 |
 | 2026/9/1  | 09.01裁员名单···.exe  | **银狐 (SilverFox.bg)** | f314815983f17a6fb664189048f88211f7108efcd2b655e218506e358312d98c | 1f17baad-e2ae-4466-8eb1-66e62587a001 | [VirusTotal](https://www.virustotal.com/gui/file/f314815983f17a6fb664189048f88211f7108efcd2b655e218506e358312d98c) (16) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/f314815983f17a6fb664189048f88211f7108efcd2b655e218506e358312d98c) | 1716 |
 | 2026/9/1  |   goog_win64_2.exe    |  **银狐 (SilverFox)**   | 99daad3df2bb5f8bbf31cce7b503c507708de90e5cac9006d9fd12b6e6dbc312 | fdc74a69-cb16-49b4-99ba-7e7a5a5aadff | [VirusTotal](https://www.virustotal.com/gui/file/99daad3df2bb5f8bbf31cce7b503c507708de90e5cac9006d9fd12b6e6dbc312) (8) |                              无                              | 1717 |
+| 2026/9/2  |  网云通讯客户端.msi   |         **RAT**         | 9bf42d5fd9335f773e6d796ec3f999177c6421374a976c733567b6825896a3e7 | b6d2de30-d3fa-4d9c-98fd-8475b68475c7 | [VirusTotal](https://www.virustotal.com/gui/file/9bf42d5fd9335f773e6d796ec3f999177c6421374a976c733567b6825896a3e7) (1) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/9bf42d5fd9335f773e6d796ec3f999177c6421374a976c733567b6825896a3e7) | 1718 |
 |  ——————   |     ————————————      |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
