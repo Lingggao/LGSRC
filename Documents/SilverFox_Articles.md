@@ -9,6 +9,16 @@
 
 ### 文章
 
+[022]  
+《[**银狐借AI信任链钓鱼 搜索结果暗藏下载陷阱**](https://mp.weixin.qq.com/s/kHVDCFt8k5WbQVR_Vm40Eg)》  
+**火绒安全 (北京火绒网络科技有限公司)**，2026 年 9 月  
+网址：[https://mp.weixin.qq.com/s/kHVDCFt8k5WbQVR_Vm40Eg](https://mp.weixin.qq.com/s/kHVDCFt8k5WbQVR_Vm40Eg)
+
+[021]  
+《[**“银狐”木马专项——恶意域名及恶意IP（二）**](https://mp.weixin.qq.com/s/aAaL0wZUJnCdOWpM0YqZ0g)》  
+**国家计算机网络应急技术处理协调中心**，2026 年 9 月  
+网址：[https://mp.weixin.qq.com/s/aAaL0wZUJnCdOWpM0YqZ0g](https://mp.weixin.qq.com/s/aAaL0wZUJnCdOWpM0YqZ0g)
+
 [020]  
 《[**“银狐”木马专项——恶意域名及恶意IP（一）**](https://mp.weixin.qq.com/s/I7qNjPHOMQg_mpJGNAS9tQ)》  
 **国家计算机网络应急技术处理协调中心**，2026 年 8 月  
