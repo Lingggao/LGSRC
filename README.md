@@ -58,9 +58,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 9 月 3 日 17:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 9 月 3 日 23:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 9 月 3 日，本中心已打击计算机病毒 / 恶意软件 1,725 个、恶意网站 887 个，累计为潜在受害者规避经济损失约 7,331,250 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 9 月 3 日，本中心已打击计算机病毒 / 恶意软件 1,725 个、恶意网站 890 个，累计为潜在受害者规避经济损失约 7,331,250 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;在对抗网络犯罪的崇高事业中，本中心仅承担了少量协调类工作。**恶意载荷从发现到清除，离不开国家有关部门、安全社区与研究员、杀毒软件厂商及威胁情报提供商的共同努力**。在此，谨向他们致以诚挚谢意。
 
@@ -116,9 +116,6 @@
 
 |   日期    |                     URL                     |              类别              |                           有效载荷                           |                         URLhaus                          | 编号 |
 | :-------: | :-----------------------------------------: | :----------------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
-| 2026/8/28 |       hxxps://ch-kaspersky[.]com[.]cn       |   **仿冒卡巴斯基、传播病毒**   |                            同 867                            |                            无                            | 868  |
-| 2026/8/28 |   hxxps://www[.]web-kaspersky[.]com[.]cn    |   **仿冒卡巴斯基、传播病毒**   |                            同 867                            |                            无                            | 869  |
-| 2026/8/28 |       hxxps://cm-kaspersky[.]com[.]cn       |   **仿冒卡巴斯基、传播病毒**   |                            同 867                            |                            无                            | 870  |
 | 2026/8/28 |     hxxps://kaspersky-cyber[.]com[.]cn      |   **仿冒卡巴斯基、传播病毒**   |                            同 867                            |                            无                            | 871  |
 | 2026/8/28 |       hxxps://ks-kaspersky[.]com[.]cn       |   **仿冒卡巴斯基、传播病毒**   |                            同 867                            |                            无                            | 872  |
 | 2026/8/30 |        hxxps://rising-ai[.]com[.]cn         |     **仿冒瑞星、传播病毒**     |                            同 867                            |                            无                            | 873  |
@@ -136,9 +133,9 @@
 | 2026/8/31 |      hxxps://browser-sogouq[.]com[.]cn      |  **仿冒搜狗浏览器、传播病毒**  |                            同 881                            |                            无                            | 885  |
 | 2026/8/31 | hxxps://www[.]browser-sogou-apps[.]com[.]cn |  **仿冒搜狗浏览器、传播病毒**  |                            同 881                            |                            无                            | 886  |
 | 2026/8/31 |    hxxps://browser-sougou-zh[.]com[.]cn     |  **仿冒搜狗浏览器、传播病毒**  |                            同 881                            |                            无                            | 887  |
-| 2026/9/3  |           https://net-bcut.com.cn           |     **仿冒必剪、传播病毒**     |                              无                              |                            无                            | 888  |
-| 2026/9/3  |           https://org-bcut.com.cn           |     **仿冒必剪、传播病毒**     |                              无                              |                            无                            | 889  |
-| 2026/9/3  |           https://app-bcut.com.cn           |     **仿冒必剪、传播病毒**     |                              无                              |                            无                            | 890  |
+| 2026/9/3  |         hxxps://net-bcut[.]com[.]cn         |     **仿冒必剪、传播病毒**     |                              无                              |                            无                            | 888  |
+| 2026/9/3  |         hxxps://org-bcut[.]com[.]cn         |     **仿冒必剪、传播病毒**     |                              无                              |                            无                            | 889  |
+| 2026/9/3  |         hxxps://app-bcut[.]com[.]cn         |     **仿冒必剪、传播病毒**     |                              无                              |                            无                            | 890  |
 |  ——————   |            ————————————————————             |        ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
@@ -163,7 +160,7 @@
 
 &emsp;&emsp;[《**“银狐” 威胁动态：官方及网络安全企业文章汇编**》](https://github.com/Lingggao/LGSRC/blob/main/Documents/SilverFox_Articles.md)
 
-&emsp;&emsp;**银狐 IOC 情报合集**：[**VirusTotal**](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) + [**LevelBlue OTX**](https://otx.alienvault.com/pulse/6a36fe5a3c1568785b59c4d7)&emsp;实时更新，已收录 1,549 项情报 (文件、URL、域名、IP)
+&emsp;&emsp;**银狐 IOC 情报合集**：[**VirusTotal**](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) + [**LevelBlue OTX**](https://otx.alienvault.com/pulse/6a36fe5a3c1568785b59c4d7)&emsp;实时更新，已收录 1,551 项情报 (文件、URL、域名、IP)
 
 ---
 

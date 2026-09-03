@@ -876,6 +876,9 @@
 | 2026/8/27 |         hxxps://deepseek-ai2[.]com[.]cn         |   **仿冒 DeepSeek、传播病毒**   |                            同 853                            |                            无                            | 865  |
 | 2026/8/27 |             hxxp://app-brave[.]com              |    **仿冒 Brave、传播病毒**     |      hxxps://dy[.]dpwqwaapp[.]xyz/p10/BraveBrows[.]zip       | [URLhaus Database](https://urlhaus.abuse.ch/url/3908966) | 866  |
 | 2026/8/28 |      hxxps://www[.]kb-kaspersky[.]com[.]cn      |   **仿冒卡巴斯基、传播病毒**    |              hxxps://www[.]dvl51m[.]com/insdw62              |                            无                            | 867  |
+| 2026/8/28 |         hxxps://ch-kaspersky[.]com[.]cn         |   **仿冒卡巴斯基、传播病毒**    |                            同 867                            |                            无                            | 868  |
+| 2026/8/28 |     hxxps://www[.]web-kaspersky[.]com[.]cn      |   **仿冒卡巴斯基、传播病毒**    |                            同 867                            |                            无                            | 869  |
+| 2026/8/28 |         hxxps://cm-kaspersky[.]com[.]cn         |   **仿冒卡巴斯基、传播病毒**    |                            同 867                            |                            无                            | 870  |
 |  ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
