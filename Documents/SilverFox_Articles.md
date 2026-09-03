@@ -9,6 +9,11 @@
 
 ### 文章
 
+[023]  
+《[**Silver Fox（银狐）组织发起虚假软件攻击，篡改Windows防御机制实现入侵**](https://mp.weixin.qq.com/s/IUbsLdfxnTx9H1o9CK4ccQ)》  
+**看雪学苑 (上海看雪科技有限公司)**，2026 年 9 月  
+网址：[https://mp.weixin.qq.com/s/IUbsLdfxnTx9H1o9CK4ccQ](https://mp.weixin.qq.com/s/IUbsLdfxnTx9H1o9CK4ccQ)
+
 [022]  
 《[**银狐借AI信任链钓鱼 搜索结果暗藏下载陷阱**](https://mp.weixin.qq.com/s/kHVDCFt8k5WbQVR_Vm40Eg)》  
 **火绒安全 (北京火绒网络科技有限公司)**，2026 年 9 月  
