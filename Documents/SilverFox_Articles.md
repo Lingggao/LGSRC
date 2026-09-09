@@ -9,6 +9,11 @@
 
 ### 文章
 
+[024]  
+《[**8月流行计算机病毒来袭！**](https://mp.weixin.qq.com/s/6Gk4jzQmyjlCe2JxQfFIaw)》  
+**国家计算机病毒应急处理中心**，2026 年 9 月  
+网址：[https://mp.weixin.qq.com/s/6Gk4jzQmyjlCe2JxQfFIaw](https://mp.weixin.qq.com/s/6Gk4jzQmyjlCe2JxQfFIaw)
+
 [023]  
 《[**Silver Fox（银狐）组织发起虚假软件攻击，篡改Windows防御机制实现入侵**](https://mp.weixin.qq.com/s/IUbsLdfxnTx9H1o9CK4ccQ)》  
 **看雪学苑 (上海看雪科技有限公司)**，2026 年 9 月  

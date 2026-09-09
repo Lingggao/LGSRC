@@ -885,6 +885,19 @@
 | 2026/8/30 |       hxxps://www[.]rising-net[.]com[.]cn       |     **仿冒瑞星、传播病毒**      |                            同 867                            |                            无                            | 874  |
 | 2026/8/30 |       hxxps://www[.]rising-ai1[.]com[.]cn       |     **仿冒瑞星、传播病毒**      |                            同 867                            |                            无                            | 875  |
 | 2026/8/30 |          hxxps://rising-ai3[.]com[.]cn          |     **仿冒瑞星、传播病毒**      |                            同 867                            |                            无                            | 876  |
+| 2026/8/31 |      hxxps://www[.]tx-guanjian[.]com[.]cn       | **仿冒腾讯电脑管家、传播病毒**  |              hxxps://www[.]dvl51m[.]com/insdw62              |                            无                            | 877  |
+| 2026/8/31 |        hxxps://www[.]ryzhe[.]com/down88         |        **传播银狐病毒**         |                       有，载荷提取失败                       | [URLhaus Database](https://urlhaus.abuse.ch/url/3910252) | 878  |
+| 2026/8/31 |         hxxps://sogobrowser[.]com[.]cn          |  **仿冒搜狗浏览器、传播病毒**   |                            同 878                            |                            无                            | 879  |
+| 2026/8/31 |          hxxps://sgbrowser[.]com[.]cn           |  **仿冒搜狗浏览器、传播病毒**   |                            同 878                            |                            无                            | 880  |
+| 2026/8/31 |           hxxps://sou-gou[.]com[.]cn            |  **仿冒搜狗浏览器、传播病毒**   | hxxps://download-sougou[.]com[.]cn/donwnload/sougouExpiorerr_Setup_x64_25537[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3910253) | 881  |
+| 2026/8/31 |        hxxps://browser-sogou[.]com[.]cn         |  **仿冒搜狗浏览器、传播病毒**   |                            同 881                            |                            无                            | 882  |
+| 2026/8/31 |        hxxps://sogoubrowsers[.]com[.]cn         |  **仿冒搜狗浏览器、传播病毒**   |                            同 881                            |                            无                            | 883  |
+| 2026/8/31 |       hxxps://web-sogoubrowser[.]com[.]cn       |  **仿冒搜狗浏览器、传播病毒**   |                            同 881                            |                            无                            | 884  |
+| 2026/8/31 |        hxxps://browser-sogouq[.]com[.]cn        |  **仿冒搜狗浏览器、传播病毒**   |                            同 881                            |                            无                            | 885  |
+| 2026/8/31 |   hxxps://www[.]browser-sogou-apps[.]com[.]cn   |  **仿冒搜狗浏览器、传播病毒**   |                            同 881                            |                            无                            | 886  |
+| 2026/8/31 |      hxxps://browser-sougou-zh[.]com[.]cn       |  **仿冒搜狗浏览器、传播病毒**   |                            同 881                            |                            无                            | 887  |
+| 2026/9/3  |           hxxps://net-bcut[.]com[.]cn           |     **仿冒必剪、传播病毒**      |               hxxps://www[.]ryzhe[.]com/down88               |                            无                            | 888  |
+| 2026/9/3  |           hxxps://org-bcut[.]com[.]cn           |     **仿冒必剪、传播病毒**      |                            同 888                            |                            无                            | 889  |
 |  ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
