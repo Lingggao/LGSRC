@@ -9,6 +9,11 @@
 
 ### 文章
 
+[025]  
+《[**“银狐”木马专项——恶意域名及恶意IP（三）**](https://mp.weixin.qq.com/s/GsxkCgYDKYo01ppXGNqVkg)》  
+**国家计算机网络应急技术处理协调中心**，2026 年 9 月  
+网址：[https://mp.weixin.qq.com/s/GsxkCgYDKYo01ppXGNqVkg](https://mp.weixin.qq.com/s/GsxkCgYDKYo01ppXGNqVkg)
+
 [024]  
 《[**8月流行计算机病毒来袭！**](https://mp.weixin.qq.com/s/6Gk4jzQmyjlCe2JxQfFIaw)》  
 **国家计算机病毒应急处理中心**，2026 年 9 月  

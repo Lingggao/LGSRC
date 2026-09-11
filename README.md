@@ -58,7 +58,7 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 9 月 11 日 21:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 9 月 11 日 23:00 (GMT+8)
 
 &emsp;&emsp;**截至 2026 年 9 月 11 日，本中心已打击计算机病毒 / 恶意软件 1,769 个、恶意网站 914 个，累计为潜在受害者规避经济损失约 7,518,250 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
@@ -97,9 +97,9 @@
 | 2026/9/10 |     QuantumTP.exe      | **银狐 (SilverFox.bg)** | 3ac2984fed333b82ee4e58332df41cfb31f6f6f56b3e00285febef138f2bd864 | 50f1010e-b850-48c9-b8e2-13bb9e16f9f2 | [VirusTotal](https://www.virustotal.com/gui/file/3ac2984fed333b82ee4e58332df41cfb31f6f6f56b3e00285febef138f2bd864) (15) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/3ac2984fed333b82ee4e58332df41cfb31f6f6f56b3e00285febef138f2bd864) | 1764 |
 | 2026/9/10 |   TGmesetups···.exe    |         **RAT**         | 1f912d02d0e790f5da37ce25b366868aab67ec58d9ccf8d6ba7b25b49d722620 | a6350b67-c82b-4249-9db2-aff16337410c | [VirusTotal](https://www.virustotal.com/gui/file/1f912d02d0e790f5da37ce25b366868aab67ec58d9ccf8d6ba7b25b49d722620) (19) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/1f912d02d0e790f5da37ce25b366868aab67ec58d9ccf8d6ba7b25b49d722620) | 1765 |
 | 2026/9/10 |   xrkAwe_Sun16.6.exe   |  **银狐 (SilverFox)**   | a80f48a1dceb0bdd4e1c1d483e3b1260f557e7fe7da59e99146e760ee289ce29 | 498705af-5fb2-431e-ac66-32b164215c7b | [VirusTotal](https://www.virustotal.com/gui/file/a80f48a1dceb0bdd4e1c1d483e3b1260f557e7fe7da59e99146e760ee289ce29) (4) |                              无                              | 1766 |
-| 2026/9/11 |   install.g.0.01.exe   |  **银狐 (SilverFox)**   | faa76da73875b164970434cd53cdf8d47e5b5d81335ce780fa1a0725c4dde843 | 103c8781-4969-469b-a629-99f92afd233f | [VirusTotal](https://www.virustotal.com/gui/file/faa76da73875b164970434cd53cdf8d47e5b5d81335ce780fa1a0725c4dde843) (24) |                  [MalwareBazaar Database]()                  | 1767 |
-| 2026/9/11 |   install.g.0.15.exe   |  **银狐 (SilverFox)**   | e3b85ca26c546d1dcf837d74c5f8b36f2c40c97c028226679177c7bbea771953 | b09295d9-22d6-4216-b56b-eb37e9fc4f37 | [VirusTotal](https://www.virustotal.com/gui/file/e3b85ca26c546d1dcf837d74c5f8b36f2c40c97c028226679177c7bbea771953) (24) |                  [MalwareBazaar Database]()                  | 1768 |
-| 2026/9/11 |     Project-rd.exe     |  **银狐 (SilverFox)**   | f231eb3b69bc197480b26779893f313d12267cb15f052475d0bcd097bd9feb4c | 2d3de7a2-e839-4327-8625-89fca33ae3c6 | [VirusTotal](https://www.virustotal.com/gui/file/f231eb3b69bc197480b26779893f313d12267cb15f052475d0bcd097bd9feb4c) (10) |                  [MalwareBazaar Database]()                  | 1769 |
+| 2026/9/11 |   install.g.0.01.exe   |  **银狐 (SilverFox)**   | faa76da73875b164970434cd53cdf8d47e5b5d81335ce780fa1a0725c4dde843 | 103c8781-4969-469b-a629-99f92afd233f | [VirusTotal](https://www.virustotal.com/gui/file/faa76da73875b164970434cd53cdf8d47e5b5d81335ce780fa1a0725c4dde843) (24) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/faa76da73875b164970434cd53cdf8d47e5b5d81335ce780fa1a0725c4dde843) | 1767 |
+| 2026/9/11 |   install.g.0.15.exe   |  **银狐 (SilverFox)**   | e3b85ca26c546d1dcf837d74c5f8b36f2c40c97c028226679177c7bbea771953 | b09295d9-22d6-4216-b56b-eb37e9fc4f37 | [VirusTotal](https://www.virustotal.com/gui/file/e3b85ca26c546d1dcf837d74c5f8b36f2c40c97c028226679177c7bbea771953) (24) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/e3b85ca26c546d1dcf837d74c5f8b36f2c40c97c028226679177c7bbea771953) | 1768 |
+| 2026/9/11 |     Project-rd.exe     |  **银狐 (SilverFox)**   | f231eb3b69bc197480b26779893f313d12267cb15f052475d0bcd097bd9feb4c | 2d3de7a2-e839-4327-8625-89fca33ae3c6 | [VirusTotal](https://www.virustotal.com/gui/file/f231eb3b69bc197480b26779893f313d12267cb15f052475d0bcd097bd9feb4c) (10) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/f231eb3b69bc197480b26779893f313d12267cb15f052475d0bcd097bd9feb4c) | 1769 |
 |  ——————   |      ————————————      |      ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -131,11 +131,11 @@
 | 2026/9/9  |    hxxps://pc-huorongr[.]com[.]cn    |  **仿冒火绒、传播病毒**   | hxxps://kuake[.]org[.]cn/download/win-Bundle%20x643014[.]zip |     无     | 907  |
 | 2026/9/9  |    hxxps://aw-huorong[.]com[.]cn     |  **仿冒火绒、传播病毒**   | hxxps://download[.]bitbrowser-cn[.]cyou/download/win-Bundle%20x643014[.]zip |     无     | 908  |
 | 2026/9/9  | hxxps://www[.]huorongweb[.]com[.]cn  |  **仿冒火绒、传播病毒**   |                            同 908                            |     无     | 909  |
-| 2026/9/11 |    https://www.0akw8w.com/down910    |     **传播银狐病毒**      |                       有，载荷提取失败                       |     无     | 910  |
-| 2026/9/11 |      https://qianwen-ii.com.cn       | **仿冒千问 AI、传播病毒** |                            同 910                            |     无     | 911  |
-| 2026/9/11 |    https://web.qianwen-ail.com.cn    | **仿冒千问 AI、传播病毒** |   https://xolep1.tos-cn-beijing.volces.com/Project-rd.exe    |     无     | 912  |
-| 2026/9/11 |    https://www.qianwen-air.com.cn    | **仿冒千问 AI、传播病毒** |    注：仅在必应搜索结果中点击该链接时，才会跳转至恶意网站    |     无     | 913  |
-| 2026/9/11 |    https://ai.qianwen-aii.com.cn     | **仿冒千问 AI、传播病毒** |    注：仅在必应搜索结果中点击该链接时，才会跳转至恶意网站    |     无     | 914  |
+| 2026/9/11 |  hxxps://www[.]0akw8w[.]com/down910  |     **传播银狐病毒**      |                       有，载荷提取失败                       |     无     | 910  |
+| 2026/9/11 |    hxxps://qianwen-ii[.]com[.]cn     | **仿冒千问 AI、传播病毒** |                            同 910                            |     无     | 911  |
+| 2026/9/11 | hxxps://web[.]qianwen-ail[.]com[.]cn | **仿冒千问 AI、传播病毒** | hxxps://xolep1[.]tos-cn-beijing[.]volces[.]com/Project-rd[.]exe |     无     | 912  |
+| 2026/9/11 | hxxps://www[.]qianwen-air[.]com[.]cn | **仿冒千问 AI、传播病毒** |    注：仅在必应搜索结果中点击该链接时，才会跳转至恶意网站    |     无     | 913  |
+| 2026/9/11 | hxxps://ai[.]qianwen-aii[.]com[.]cn  | **仿冒千问 AI、传播病毒** |    注：仅在必应搜索结果中点击该链接时，才会跳转至恶意网站    |     无     | 914  |
 |  ——————   |         ————————————————————         |      ———————————————      |                ——————————————————————————————                | —————————— | ———  |
 
 > [!NOTE]
