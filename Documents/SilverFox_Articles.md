@@ -9,6 +9,11 @@
 
 ### 文章
 
+[026]  
+《[**“银狐”黑产供应链席卷全球：如何筑牢大型网络基础设施防线？**](https://mp.weixin.qq.com/s/d9B2ooE3ev-k3bnTj6VysA)》  
+**互联网域名系统国家工程研究中心**，2026 年 9 月  
+网址：[https://mp.weixin.qq.com/s/d9B2ooE3ev-k3bnTj6VysA](https://mp.weixin.qq.com/s/d9B2ooE3ev-k3bnTj6VysA)
+
 [025]  
 《[**“银狐”木马专项——恶意域名及恶意IP（三）**](https://mp.weixin.qq.com/s/GsxkCgYDKYo01ppXGNqVkg)》  
 **国家计算机网络应急技术处理协调中心**，2026 年 9 月  
