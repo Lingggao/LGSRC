@@ -9,6 +9,16 @@
 
 ### 文章
 
+[028]  
+《[**“银狐”木马专项——恶意域名及恶意IP（四）**](https://mp.weixin.qq.com/s/QWAWnplaFhOj2kUbadGngg)》  
+**国家计算机网络应急技术处理协调中心**，2026 年 9 月  
+网址：[https://mp.weixin.qq.com/s/QWAWnplaFhOj2kUbadGngg](https://mp.weixin.qq.com/s/QWAWnplaFhOj2kUbadGngg)
+
+[027]  
+《[**银狐新变种：深度解析多阶段内存加载与Telegram窃密RAT的完整攻击链**](https://mp.weixin.qq.com/s/wMtqNuQKZhFWYZOXk50GwA)》  
+**江民科技 (北京江民新科技术有限公司)**，2026 年 9 月  
+网址：[https://mp.weixin.qq.com/s/wMtqNuQKZhFWYZOXk50GwA](https://mp.weixin.qq.com/s/wMtqNuQKZhFWYZOXk50GwA)
+
 [026]  
 《[**“银狐”黑产供应链席卷全球：如何筑牢大型网络基础设施防线？**](https://mp.weixin.qq.com/s/d9B2ooE3ev-k3bnTj6VysA)》  
 **互联网域名系统国家工程研究中心**，2026 年 9 月  
