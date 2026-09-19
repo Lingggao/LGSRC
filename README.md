@@ -135,7 +135,7 @@
 | 2026/9/18 |       hxxps://wpshh[.]com[.]cn       |    **仿冒 WPS、传播病毒**    |    注：仅在必应搜索结果中点击该链接时，才会跳转至恶意网站    |                            无                            | 921  |
 | 2026/9/18 |      hxxps://wps-hah[.]com[.]cn      |    **仿冒 WPS、传播病毒**    |    注：仅在必应搜索结果中点击该链接时，才会跳转至恶意网站    |                            无                            | 922  |
 | 2026/9/18 | hxxps://wps-world-oficial[.]com[.]cn |    **仿冒 WPS、传播病毒**    |    注：仅在必应搜索结果中点击该链接时，才会跳转至恶意网站    |                            无                            | 923  |
-| 2026/9/20 |     hxxps://sandboxle[.]com[.]cn     | **仿冒 Sandboxie、传播病毒** | hxxps://sandboxle[.]com[.]cn/sandboxieplus_install_assistant_2[.]1[.]0_360store[.]zip |                            无                            | 924  |
+| 2026/9/20 |     hxxps://sandboxle[.]com[.]cn     | **仿冒 Sandboxie、传播病毒** | hxxps://sandboxle[.]com[.]cn/sandboxieplus_install_assistant_2[.]1[.]0_360store[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3919024) | 924  |
 |  ——————   |         ————————————————————         |       ———————————————        |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
