@@ -9,6 +9,11 @@
 
 ### 文章
 
+[029]  
+《[**银狐木马接连变招：国内仅一家能明确检出**](https://mp.weixin.qq.com/s/NZipvHZWueC2I5fWU9KIJw)》  
+**瑞星 (北京瑞星网安技术股份有限公司)**，2026 年 9 月  
+网址：[https://mp.weixin.qq.com/s/NZipvHZWueC2I5fWU9KIJw](https://mp.weixin.qq.com/s/NZipvHZWueC2I5fWU9KIJw)
+
 [028]  
 《[**“银狐”木马专项——恶意域名及恶意IP（四）**](https://mp.weixin.qq.com/s/QWAWnplaFhOj2kUbadGngg)》  
 **国家计算机网络应急技术处理协调中心**，2026 年 9 月  
