@@ -9,6 +9,11 @@
 
 ### 文章
 
+[030]  
+《[**骗子换新马甲：自称记者，发来一个“身份证明压缩包”，解压就是木马**](https://mp.weixin.qq.com/s/lIaMjEJLezELbCVla6lHrA)》  
+**澎湃新闻**，2026 年 9 月  
+网址：[https://mp.weixin.qq.com/s/lIaMjEJLezELbCVla6lHrA](https://mp.weixin.qq.com/s/lIaMjEJLezELbCVla6lHrA)
+
 [029]  
 《[**银狐木马接连变招：国内仅一家能明确检出**](https://mp.weixin.qq.com/s/NZipvHZWueC2I5fWU9KIJw)》  
 **瑞星 (北京瑞星网安技术股份有限公司)**，2026 年 9 月  
