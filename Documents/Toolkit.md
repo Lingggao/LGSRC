@@ -67,7 +67,7 @@
 **域名与 IP 查询工具**
 
 - [**ICP / IP 地址 / 域名信息备案管理系统**](https://beian.miit.gov.cn) (工业和信息化部)
-- [**ip138.com 查询网**](https://beian.miit.gov.cn) (厦门市漫游科技有限公司)
+- [**ip138.com 查询网**](https://ip138.com) (厦门市漫游科技有限公司)
 - [**Netcraft Report Service**](https://report.netcraft.com/report) (Netcraft)
 - [**urlscan.io**](https://urlscan.io) (urlscan.io)
 - [**Hurricane Electric BGP Toolkit**](https://bgp.he.net) (Hurricane Electric)
@@ -101,7 +101,7 @@
 
 **杀毒软件**
 
-- [**安天垂直响应平台**](https://vs2.antiy.cn) (北京安天网络安全技术有限公司)
+- [**安天垂直响应平台**](https://vs.antiy.cn) (北京安天网络安全技术有限公司)
 - [**奇安信天守安全软件**](https://fanghu.qianxin.com/web/index/index.html) (奇安信科技集团股份有限公司)
 - [**火绒安全软件**](https://www.huorong.cn) (北京火绒网络科技有限公司)
 - [**360 官网**](https://www.360.cn) (北京奇虎科技有限公司)

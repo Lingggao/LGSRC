@@ -9,6 +9,11 @@
 
 ### 文章
 
+[031]  
+《[**“银狐”木马专项——恶意域名及恶意IP（五）**](https://mp.weixin.qq.com/s/CHqz-8TJf3Er1y2Z8yWb8g)》  
+**国家计算机网络应急技术处理协调中心**，2026 年 9 月  
+网址：[https://mp.weixin.qq.com/s/CHqz-8TJf3Er1y2Z8yWb8g](https://mp.weixin.qq.com/s/CHqz-8TJf3Er1y2Z8yWb8g)
+
 [030]  
 《[**骗子换新马甲：自称记者，发来一个“身份证明压缩包”，解压就是木马**](https://mp.weixin.qq.com/s/lIaMjEJLezELbCVla6lHrA)》  
 **澎湃新闻**，2026 年 9 月  
