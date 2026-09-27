@@ -915,6 +915,12 @@
 | 2026/9/9  |       hxxps://www[.]hj-huorong[.]com[.]cn       |     **仿冒火绒、传播病毒**      |                            同 897                            |                            无                            | 904  |
 | 2026/9/9  |          hxxps://huorong-app[.]hl[.]cn          |     **仿冒火绒、传播病毒**      |                            同 897                            |                            无                            | 905  |
 | 2026/9/9  |          hxxps://pc-huorung[.]com[.]cn          |     **仿冒火绒、传播病毒**      |                            同 897                            |                            无                            | 906  |
+| 2026/9/9  |         hxxps://pc-huorongr[.]com[.]cn          |     **仿冒火绒、传播病毒**      | hxxps://kuake[.]org[.]cn/download/win-Bundle%20x643014[.]zip |                            无                            | 907  |
+| 2026/9/9  |          hxxps://aw-huorong[.]com[.]cn          |     **仿冒火绒、传播病毒**      | hxxps://download[.]bitbrowser-cn[.]cyou/download/win-Bundle%20x643014[.]zip |                            无                            | 908  |
+| 2026/9/9  |       hxxps://www[.]huorongweb[.]com[.]cn       |     **仿冒火绒、传播病毒**      |                            同 908                            |                            无                            | 909  |
+| 2026/9/11 |       hxxps://www[.]0akw8w[.]com/down910        |        **传播银狐病毒**         |                       有，载荷提取失败                       | [URLhaus Database](https://urlhaus.abuse.ch/url/3915308) | 910  |
+| 2026/9/11 |          hxxps://qianwen-ii[.]com[.]cn          |    **仿冒千问 AI、传播病毒**    |                            同 910                            |                            无                            | 911  |
+| 2026/9/11 |      hxxps://web[.]qianwen-ail[.]com[.]cn       |    **仿冒千问 AI、传播病毒**    | hxxps://xolep1[.]tos-cn-beijing[.]volces[.]com/Project-rd[.]exe | [URLhaus Database](https://urlhaus.abuse.ch/url/3915323) | 912  |
 |  ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
