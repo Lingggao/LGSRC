@@ -9,6 +9,11 @@
 
 ### 文章
 
+[032]  
+《[**“银狐”木马专项打击行动取得阶段性成效，多方协同推进威胁治理**](https://mp.weixin.qq.com/s/AStyaadXGLNOlDnIpsAaOg)》  
+**国家计算机网络应急技术处理协调中心**，2026 年 9 月  
+网址：[https://mp.weixin.qq.com/s/AStyaadXGLNOlDnIpsAaOg](https://mp.weixin.qq.com/s/AStyaadXGLNOlDnIpsAaOg)
+
 [031]  
 《[**“银狐”木马专项——恶意域名及恶意IP（五）**](https://mp.weixin.qq.com/s/CHqz-8TJf3Er1y2Z8yWb8g)》  
 **国家计算机网络应急技术处理协调中心**，2026 年 9 月  
