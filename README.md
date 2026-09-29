@@ -135,7 +135,7 @@
 | 2026/9/28 |        hxxps://winpe-firpe[.]com[.]cn         |   **仿冒 FirPE、传播病毒**   |                            同 927                            |                            无                            | 930  |
 | 2026/9/28 |       hxxps://www[.]firpe-cn[.]hl[.]cn        |   **仿冒 FirPE、传播病毒**   |                            同 927                            |                            无                            | 931  |
 | 2026/9/28 |       hxxps://www[.]firpeteam[.]hl[.]cn       |   **仿冒 FirPE、传播病毒**   |                            同 927                            |                            无                            | 932  |
-| 2026/9/30 | hxxps://telpak[.]icu/downloads/tletgtup[.]exe | **仿冒 Telegram、传播病毒**  |        hxxps://telpak[.]icu/downloads/tletgtup[.]exe         |                            无                            | 933  |
+| 2026/9/30 | hxxps://telpak[.]icu/downloads/tletgtup[.]exe | **仿冒 Telegram、传播病毒**  |        hxxps://telpak[.]icu/downloads/tletgtup[.]exe         | [URLhaus Database](https://urlhaus.abuse.ch/url/3925048) | 933  |
 |  ——————   |             ————————————————————              |       ———————————————        |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
