@@ -921,6 +921,7 @@
 | 2026/9/11 |       hxxps://www[.]0akw8w[.]com/down910        |        **传播银狐病毒**         |                       有，载荷提取失败                       | [URLhaus Database](https://urlhaus.abuse.ch/url/3915308) | 910  |
 | 2026/9/11 |          hxxps://qianwen-ii[.]com[.]cn          |    **仿冒千问 AI、传播病毒**    |                            同 910                            |                            无                            | 911  |
 | 2026/9/11 |      hxxps://web[.]qianwen-ail[.]com[.]cn       |    **仿冒千问 AI、传播病毒**    | hxxps://xolep1[.]tos-cn-beijing[.]volces[.]com/Project-rd[.]exe | [URLhaus Database](https://urlhaus.abuse.ch/url/3915323) | 912  |
+| 2026/9/11 |      hxxps://www[.]qianwen-air[.]com[.]cn       |    **仿冒千问 AI、传播病毒**    |    注：仅在必应搜索结果中点击该链接时，才会跳转至恶意网站    |                            无                            | 913  |
 |  ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
