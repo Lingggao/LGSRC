@@ -9,6 +9,11 @@
 
 ### 文章
 
+[033]  
+《[**关于“银狐”木马“甲蚁（G01）”团伙攻击态势深入分析报告**](https://mp.weixin.qq.com/s/7Kg1loHZExycTUsWfHHBGg)》  
+**国家计算机网络应急技术处理协调中心**，2026 年 9 月  
+网址：[https://mp.weixin.qq.com/s/7Kg1loHZExycTUsWfHHBGg](https://mp.weixin.qq.com/s/7Kg1loHZExycTUsWfHHBGg)
+
 [032]  
 《[**“银狐”木马专项打击行动取得阶段性成效，多方协同推进威胁治理**](https://mp.weixin.qq.com/s/AStyaadXGLNOlDnIpsAaOg)》  
 **国家计算机网络应急技术处理协调中心**，2026 年 9 月  
