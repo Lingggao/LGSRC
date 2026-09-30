@@ -9,6 +9,11 @@
 
 ### 文章
 
+[034]  
+《[**注意！国庆长假，这些计算机病毒正在流行！**](https://mp.weixin.qq.com/s/5r7-Ui6QXjvnBXvbQSyAQg)》  
+**国家计算机病毒应急处理中心**，2026 年 9 月  
+网址：[https://mp.weixin.qq.com/s/5r7-Ui6QXjvnBXvbQSyAQg](https://mp.weixin.qq.com/s/5r7-Ui6QXjvnBXvbQSyAQg)
+
 [033]  
 《[**关于“银狐”木马“甲蚁（G01）”团伙攻击态势深入分析报告**](https://mp.weixin.qq.com/s/7Kg1loHZExycTUsWfHHBGg)》  
 **国家计算机网络应急技术处理协调中心**，2026 年 9 月  
