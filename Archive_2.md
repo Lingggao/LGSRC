@@ -922,6 +922,14 @@
 | 2026/9/11 |          hxxps://qianwen-ii[.]com[.]cn          |    **仿冒千问 AI、传播病毒**    |                            同 910                            |                            无                            | 911  |
 | 2026/9/11 |      hxxps://web[.]qianwen-ail[.]com[.]cn       |    **仿冒千问 AI、传播病毒**    | hxxps://xolep1[.]tos-cn-beijing[.]volces[.]com/Project-rd[.]exe | [URLhaus Database](https://urlhaus.abuse.ch/url/3915323) | 912  |
 | 2026/9/11 |      hxxps://www[.]qianwen-air[.]com[.]cn       |    **仿冒千问 AI、传播病毒**    |    注：仅在必应搜索结果中点击该链接时，才会跳转至恶意网站    |                            无                            | 913  |
+| 2026/9/11 |       hxxps://ai[.]qianwen-aii[.]com[.]cn       |    **仿冒千问 AI、传播病毒**    |    注：仅在必应搜索结果中点击该链接时，才会跳转至恶意网站    |                            无                            | 914  |
+| 2026/9/15 |       hxxps://www[.]2bxvrc1[.]com/load915       |        **传播银狐病毒**         |                       有，载荷提取失败                       | [URLhaus Database](https://urlhaus.abuse.ch/url/3917018) | 915  |
+| 2026/9/15 |          hxxps://huorongzh[.]com[.]cn           |     **仿冒火绒、传播病毒**      |                            同 915                            |                            无                            | 916  |
+| 2026/9/16 |         hxxps://kn-kaspersky[.]com[.]cn         |   **仿冒卡巴斯基、传播病毒**    |                            同 915                            |                            无                            | 917  |
+| 2026/9/16 |         hxxps://kf-kaspersky[.]com[.]cn         |   **仿冒卡巴斯基、传播病毒**    |                            同 915                            |                            无                            | 918  |
+| 2026/9/16 |        hxxps://web-kaspersky[.]com[.]cn         |   **仿冒卡巴斯基、传播病毒**    |                            同 915                            |                            无                            | 919  |
+| 2026/9/18 |           hxxps://wps-xhs[.]com[.]cn            |     **仿冒 WPS、传播病毒**      |    注：仅在必应搜索结果中点击该链接时，才会跳转至恶意网站    |                            无                            | 920  |
+| 2026/9/18 |            hxxps://wpshh[.]com[.]cn             |     **仿冒 WPS、传播病毒**      |    注：仅在必应搜索结果中点击该链接时，才会跳转至恶意网站    |                            无                            | 921  |
 |  ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
