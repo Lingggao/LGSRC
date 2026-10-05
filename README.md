@@ -134,8 +134,8 @@
 | 2026/10/4 |     hxxps://apps-sogoubrowser[.]com[.]cn      |  **仿冒搜狗浏览器、传播病毒**  |                            同 936                            |                            无                            | 939  |
 | 2026/10/4 |      hxxps://app-sogoubrowser[.]com[.]cn      |  **仿冒搜狗浏览器、传播病毒**  |                            同 937                            |                            无                            | 940  |
 | 2026/10/4 |      hxxps://of-sogoubrowser[.]com[.]cn       |  **仿冒搜狗浏览器、传播病毒**  |                            同 936                            |                            无                            | 941  |
-| 2026/10/5 |             https://uupro.com.cn              | **仿冒网易 UU 远程、传播病毒** | https://2026uuyuancheng.oss-cn-hongkong.aliyuncs.com/UUycSetup.7.13.zip |                            无                            | 942  |
-| 2026/10/5 |         https://uuyuanchengzh.com.cn          | **仿冒网易 UU 远程、传播病毒** |         https://uu.v2raynapps.com.cn/UU_aNCcWz7.zip          |                            无                            | 943  |
+| 2026/10/5 |           hxxps://uupro[.]com[.]cn            | **仿冒网易 UU 远程、传播病毒** | hxxps://2026uuyuancheng[.]oss-cn-hongkong[.]aliyuncs[.]com/UUycSetup[.]7[.]13[.]zip |                            无                            | 942  |
+| 2026/10/5 |       hxxps://uuyuanchengzh[.]com[.]cn        | **仿冒网易 UU 远程、传播病毒** |     hxxps://uu[.]v2raynapps[.]com[.]cn/UU_aNCcWz7[.]zip      |                            无                            | 943  |
 |  ——————   |             ————————————————————              |        ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
