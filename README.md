@@ -58,9 +58,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 10 月 5 日 19:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 10 月 5 日 20:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 10 月 5 日，本中心已打击计算机病毒 / 恶意软件 1,882 个、恶意网站 941 个，累计为潜在受害者规避经济损失约 7,998,500 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 10 月 5 日，本中心已打击计算机病毒 / 恶意软件 1,882 个、恶意网站 943 个，累计为潜在受害者规避经济损失约 7,998,500 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;在对抗网络犯罪的崇高事业中，本中心仅承担了少量协调类工作。**恶意载荷从发现到清除，离不开国家有关部门、安全社区与研究员、杀毒软件厂商及威胁情报提供商的共同努力**。在此，谨向他们致以诚挚谢意。
 
@@ -114,29 +114,29 @@
 >
 > &emsp;为确保安全，网站地址将用 “hxxps://” 与 “[.]” 进行替换。**切勿尝试访问表格中列出的任何网址**。
 
-|   日期    |                      URL                      |             类别             |                           有效载荷                           |                         URLhaus                          | 编号 |
-| :-------: | :-------------------------------------------: | :--------------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
-| 2026/9/18 |          hxxps://wps-hah[.]com[.]cn           |    **仿冒 WPS、传播病毒**    |    注：仅在必应搜索结果中点击该链接时，才会跳转至恶意网站    |                            无                            | 922  |
-| 2026/9/18 |     hxxps://wps-world-oficial[.]com[.]cn      |    **仿冒 WPS、传播病毒**    |    注：仅在必应搜索结果中点击该链接时，才会跳转至恶意网站    |                            无                            | 923  |
-| 2026/9/20 |         hxxps://sandboxle[.]com[.]cn          | **仿冒 Sandboxie、传播病毒** | hxxps://sandboxle[.]com[.]cn/sandboxieplus_install_assistant_2[.]1[.]0_360store[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3919024) | 924  |
-| 2026/9/21 |           hxxps://todesk[.]cn[.]com           |  **仿冒 ToDesk、传播病毒**   | hxxps://hll912-1484535448[.]cos[.]ap-hongkong[.]myqcloud[.]com/ToDesk_Installer[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3919756) | 925  |
-| 2026/9/21 |           hxxps://tobesk[.]com[.]cn           |  **仿冒 ToDesk、传播病毒**   | hxxps://kuake[.]org[.]cn/download/win-Bundle%20x643014[.]zip |                            无                            | 926  |
-| 2026/9/28 |     hxxps://www[.]oj44472[.]com/insdow92      |       **传播银狐病毒**       |                       有，载荷提取失败                       | [URLhaus Database](https://urlhaus.abuse.ch/url/3923871) | 927  |
-| 2026/9/28 |           hxxps://firpe[.]com[.]cn            |   **仿冒 FirPE、传播病毒**   |                            同 927                            |                            无                            | 928  |
-| 2026/9/28 |      hxxps://www[.]firpeteam[.]com[.]cn       |   **仿冒 FirPE、传播病毒**   |                            同 927                            |                            无                            | 929  |
-| 2026/9/28 |        hxxps://winpe-firpe[.]com[.]cn         |   **仿冒 FirPE、传播病毒**   |                            同 927                            |                            无                            | 930  |
-| 2026/9/28 |       hxxps://www[.]firpe-cn[.]hl[.]cn        |   **仿冒 FirPE、传播病毒**   |                            同 927                            |                            无                            | 931  |
-| 2026/9/28 |       hxxps://www[.]firpeteam[.]hl[.]cn       |   **仿冒 FirPE、传播病毒**   |                            同 927                            |                            无                            | 932  |
-| 2026/9/30 | hxxps://telpak[.]icu/downloads/tletgtup[.]exe | **仿冒 Telegram、传播病毒**  |        hxxps://telpak[.]icu/downloads/tletgtup[.]exe         | [URLhaus Database](https://urlhaus.abuse.ch/url/3925048) | 933  |
-| 2026/10/4 |      hxxps://www[.]xhxjz08[.]com/30load       |       **传播银狐病毒**       |                       有，载荷提取失败                       |                            无                            | 934  |
-| 2026/10/4 |          hxxps://sogouch[.]com[.]cn           | **仿冒搜狗输入法、传播病毒** |                       有，载荷提取失败                       |                            无                            | 935  |
-| 2026/10/4 |       hxxps://soogoubrowser[.]com[.]cn        | **仿冒搜狗浏览器、传播病毒** | hxxps://wwwiiisss[.]oss-ap-northeast-1[.]aliyuncs[.]com/SogouExplorer21_windows[.]zip |                            无                            | 936  |
-| 2026/10/4 |        hxxps://sogoubrowser[.]com[.]cn        | **仿冒搜狗浏览器、传播病毒** | hxxps://sogo-download[.]oss-cn-hongkong[.]aliyuncs[.]com/sougouExpiorerr_Setup_x64[.]zip |                            无                            | 937  |
-| 2026/10/4 |       hxxps://soogou-browser[.]com[.]cn       | **仿冒搜狗浏览器、传播病毒** |                            同 936                            |                            无                            | 938  |
-| 2026/10/4 |     hxxps://apps-sogoubrowser[.]com[.]cn      | **仿冒搜狗浏览器、传播病毒** |                            同 936                            |                            无                            | 939  |
-| 2026/10/4 |      hxxps://app-sogoubrowser[.]com[.]cn      | **仿冒搜狗浏览器、传播病毒** |                            同 937                            |                            无                            | 940  |
-| 2026/10/4 |      hxxps://of-sogoubrowser[.]com[.]cn       | **仿冒搜狗浏览器、传播病毒** |                            同 936                            |                            无                            | 941  |
-|  ——————   |             ————————————————————              |       ———————————————        |                ——————————————————————————————                |                        ——————————                        | ———  |
+|   日期    |                      URL                      |              类别              |                           有效载荷                           |                         URLhaus                          | 编号 |
+| :-------: | :-------------------------------------------: | :----------------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
+| 2026/9/20 |         hxxps://sandboxle[.]com[.]cn          |  **仿冒 Sandboxie、传播病毒**  | hxxps://sandboxle[.]com[.]cn/sandboxieplus_install_assistant_2[.]1[.]0_360store[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3919024) | 924  |
+| 2026/9/21 |           hxxps://todesk[.]cn[.]com           |   **仿冒 ToDesk、传播病毒**    | hxxps://hll912-1484535448[.]cos[.]ap-hongkong[.]myqcloud[.]com/ToDesk_Installer[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3919756) | 925  |
+| 2026/9/21 |           hxxps://tobesk[.]com[.]cn           |   **仿冒 ToDesk、传播病毒**    | hxxps://kuake[.]org[.]cn/download/win-Bundle%20x643014[.]zip |                            无                            | 926  |
+| 2026/9/28 |     hxxps://www[.]oj44472[.]com/insdow92      |        **传播银狐病毒**        |                       有，载荷提取失败                       | [URLhaus Database](https://urlhaus.abuse.ch/url/3923871) | 927  |
+| 2026/9/28 |           hxxps://firpe[.]com[.]cn            |    **仿冒 FirPE、传播病毒**    |                            同 927                            |                            无                            | 928  |
+| 2026/9/28 |      hxxps://www[.]firpeteam[.]com[.]cn       |    **仿冒 FirPE、传播病毒**    |                            同 927                            |                            无                            | 929  |
+| 2026/9/28 |        hxxps://winpe-firpe[.]com[.]cn         |    **仿冒 FirPE、传播病毒**    |                            同 927                            |                            无                            | 930  |
+| 2026/9/28 |       hxxps://www[.]firpe-cn[.]hl[.]cn        |    **仿冒 FirPE、传播病毒**    |                            同 927                            |                            无                            | 931  |
+| 2026/9/28 |       hxxps://www[.]firpeteam[.]hl[.]cn       |    **仿冒 FirPE、传播病毒**    |                            同 927                            |                            无                            | 932  |
+| 2026/9/30 | hxxps://telpak[.]icu/downloads/tletgtup[.]exe |  **仿冒 Telegram、传播病毒**   |        hxxps://telpak[.]icu/downloads/tletgtup[.]exe         | [URLhaus Database](https://urlhaus.abuse.ch/url/3925048) | 933  |
+| 2026/10/4 |      hxxps://www[.]xhxjz08[.]com/30load       |        **传播银狐病毒**        |                       有，载荷提取失败                       |                            无                            | 934  |
+| 2026/10/4 |          hxxps://sogouch[.]com[.]cn           |  **仿冒搜狗输入法、传播病毒**  |                       有，载荷提取失败                       |                            无                            | 935  |
+| 2026/10/4 |       hxxps://soogoubrowser[.]com[.]cn        |  **仿冒搜狗浏览器、传播病毒**  | hxxps://wwwiiisss[.]oss-ap-northeast-1[.]aliyuncs[.]com/SogouExplorer21_windows[.]zip |                            无                            | 936  |
+| 2026/10/4 |        hxxps://sogoubrowser[.]com[.]cn        |  **仿冒搜狗浏览器、传播病毒**  | hxxps://sogo-download[.]oss-cn-hongkong[.]aliyuncs[.]com/sougouExpiorerr_Setup_x64[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3928286) | 937  |
+| 2026/10/4 |       hxxps://soogou-browser[.]com[.]cn       |  **仿冒搜狗浏览器、传播病毒**  |                            同 936                            |                            无                            | 938  |
+| 2026/10/4 |     hxxps://apps-sogoubrowser[.]com[.]cn      |  **仿冒搜狗浏览器、传播病毒**  |                            同 936                            |                            无                            | 939  |
+| 2026/10/4 |      hxxps://app-sogoubrowser[.]com[.]cn      |  **仿冒搜狗浏览器、传播病毒**  |                            同 937                            |                            无                            | 940  |
+| 2026/10/4 |      hxxps://of-sogoubrowser[.]com[.]cn       |  **仿冒搜狗浏览器、传播病毒**  |                            同 936                            |                            无                            | 941  |
+| 2026/10/5 |             https://uupro.com.cn              | **仿冒网易 UU 远程、传播病毒** | https://2026uuyuancheng.oss-cn-hongkong.aliyuncs.com/UUycSetup.7.13.zip |                            无                            | 942  |
+| 2026/10/5 |         https://uuyuanchengzh.com.cn          | **仿冒网易 UU 远程、传播病毒** |         https://uu.v2raynapps.com.cn/UU_aNCcWz7.zip          |                            无                            | 943  |
+|  ——————   |             ————————————————————              |        ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
 >
@@ -162,7 +162,7 @@
 
 &emsp;&emsp;[《**“银狐” 威胁动态：官方及网络安全企业文章汇编**》](https://github.com/Lingggao/LGSRC/blob/main/Documents/SilverFox_Articles.md) (已收录 34 篇文章)
 
-&emsp;&emsp;**银狐 IOC 情报合集**：[**VirusTotal**](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) + [**LevelBlue OTX**](https://otx.alienvault.com/pulse/6a36fe5a3c1568785b59c4d7)&emsp;实时更新，已收录 1,904 项情报 (文件、URL、域名、IP)
+&emsp;&emsp;**银狐 IOC 情报合集**：[**VirusTotal**](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) + [**LevelBlue OTX**](https://otx.alienvault.com/pulse/6a36fe5a3c1568785b59c4d7)&emsp;实时更新，已收录 1,908 项情报 (文件、URL、域名、IP)
 
 ---
 
