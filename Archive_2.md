@@ -932,6 +932,18 @@
 | 2026/9/18 |            hxxps://wpshh[.]com[.]cn             |     **仿冒 WPS、传播病毒**      |    注：仅在必应搜索结果中点击该链接时，才会跳转至恶意网站    |                            无                            | 921  |
 | 2026/9/18 |           hxxps://wps-hah[.]com[.]cn            |     **仿冒 WPS、传播病毒**      |    注：仅在必应搜索结果中点击该链接时，才会跳转至恶意网站    |                            无                            | 922  |
 | 2026/9/18 |      hxxps://wps-world-oficial[.]com[.]cn       |     **仿冒 WPS、传播病毒**      |    注：仅在必应搜索结果中点击该链接时，才会跳转至恶意网站    |                            无                            | 923  |
+| 2026/9/20 |          hxxps://sandboxle[.]com[.]cn           |  **仿冒 Sandboxie、传播病毒**   | hxxps://sandboxle[.]com[.]cn/sandboxieplus_install_assistant_2[.]1[.]0_360store[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3919024) | 924  |
+| 2026/9/21 |            hxxps://todesk[.]cn[.]com            |    **仿冒 ToDesk、传播病毒**    | hxxps://hll912-1484535448[.]cos[.]ap-hongkong[.]myqcloud[.]com/ToDesk_Installer[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3919756) | 925  |
+| 2026/9/21 |            hxxps://tobesk[.]com[.]cn            |    **仿冒 ToDesk、传播病毒**    | hxxps://kuake[.]org[.]cn/download/win-Bundle%20x643014[.]zip |                            无                            | 926  |
+| 2026/9/28 |      hxxps://www[.]oj44472[.]com/insdow92       |        **传播银狐病毒**         |                       有，载荷提取失败                       | [URLhaus Database](https://urlhaus.abuse.ch/url/3923871) | 927  |
+| 2026/9/28 |            hxxps://firpe[.]com[.]cn             |    **仿冒 FirPE、传播病毒**     |                            同 927                            |                            无                            | 928  |
+| 2026/9/28 |       hxxps://www[.]firpeteam[.]com[.]cn        |    **仿冒 FirPE、传播病毒**     |                            同 927                            |                            无                            | 929  |
+| 2026/9/28 |         hxxps://winpe-firpe[.]com[.]cn          |    **仿冒 FirPE、传播病毒**     |                            同 927                            |                            无                            | 930  |
+| 2026/9/28 |        hxxps://www[.]firpe-cn[.]hl[.]cn         |    **仿冒 FirPE、传播病毒**     |                            同 927                            |                            无                            | 931  |
+| 2026/9/28 |        hxxps://www[.]firpeteam[.]hl[.]cn        |    **仿冒 FirPE、传播病毒**     |                            同 927                            |                            无                            | 932  |
+| 2026/9/30 |  hxxps://telpak[.]icu/downloads/tletgtup[.]exe  |   **仿冒 Telegram、传播病毒**   |        hxxps://telpak[.]icu/downloads/tletgtup[.]exe         | [URLhaus Database](https://urlhaus.abuse.ch/url/3925048) | 933  |
+| 2026/10/4 |       hxxps://www[.]xhxjz08[.]com/30load        |        **传播银狐病毒**         |                       有，载荷提取失败                       |                            无                            | 934  |
+| 2026/10/4 |           hxxps://sogouch[.]com[.]cn            |  **仿冒搜狗输入法、传播病毒**   |                       有，载荷提取失败                       |                            无                            | 935  |
 |  ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
