@@ -944,6 +944,10 @@
 | 2026/9/30 |  hxxps://telpak[.]icu/downloads/tletgtup[.]exe  |   **仿冒 Telegram、传播病毒**   |        hxxps://telpak[.]icu/downloads/tletgtup[.]exe         | [URLhaus Database](https://urlhaus.abuse.ch/url/3925048) | 933  |
 | 2026/10/4 |       hxxps://www[.]xhxjz08[.]com/30load        |        **传播银狐病毒**         |                       有，载荷提取失败                       |                            无                            | 934  |
 | 2026/10/4 |           hxxps://sogouch[.]com[.]cn            |  **仿冒搜狗输入法、传播病毒**   |                       有，载荷提取失败                       |                            无                            | 935  |
+| 2026/10/4 |        hxxps://soogoubrowser[.]com[.]cn         |  **仿冒搜狗浏览器、传播病毒**   | hxxps://wwwiiisss[.]oss-ap-northeast-1[.]aliyuncs[.]com/SogouExplorer21_windows[.]zip |                            无                            | 936  |
+| 2026/10/4 |         hxxps://sogoubrowser[.]com[.]cn         |  **仿冒搜狗浏览器、传播病毒**   | hxxps://sogo-download[.]oss-cn-hongkong[.]aliyuncs[.]com/sougouExpiorerr_Setup_x64[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3928286) | 937  |
+| 2026/10/4 |        hxxps://soogou-browser[.]com[.]cn        |  **仿冒搜狗浏览器、传播病毒**   |                            同 936                            |                            无                            | 938  |
+| 2026/10/4 |      hxxps://apps-sogoubrowser[.]com[.]cn       |  **仿冒搜狗浏览器、传播病毒**   |                            同 936                            |                            无                            | 939  |
 |  ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
