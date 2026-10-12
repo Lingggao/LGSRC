@@ -9,6 +9,11 @@
 
 ### 文章
 
+[035]  
+《[**ZDNS参与“银狐”木马专项打击行动，助力网络安全威胁协同治理**](https://mp.weixin.qq.com/s/UYanbWs8ROkr2c3I0SaJuA)》  
+**互联网域名系统国家工程研究中心**，2026 年 10 月  
+网址：[https://mp.weixin.qq.com/s/UYanbWs8ROkr2c3I0SaJuA](https://mp.weixin.qq.com/s/UYanbWs8ROkr2c3I0SaJuA)
+
 [034]  
 《[**注意！国庆长假，这些计算机病毒正在流行！**](https://mp.weixin.qq.com/s/5r7-Ui6QXjvnBXvbQSyAQg)》  
 **国家计算机病毒应急处理中心**，2026 年 9 月  
