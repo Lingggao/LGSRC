@@ -948,6 +948,18 @@
 | 2026/10/4 |         hxxps://sogoubrowser[.]com[.]cn         |  **仿冒搜狗浏览器、传播病毒**   | hxxps://sogo-download[.]oss-cn-hongkong[.]aliyuncs[.]com/sougouExpiorerr_Setup_x64[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3928286) | 937  |
 | 2026/10/4 |        hxxps://soogou-browser[.]com[.]cn        |  **仿冒搜狗浏览器、传播病毒**   |                            同 936                            |                            无                            | 938  |
 | 2026/10/4 |      hxxps://apps-sogoubrowser[.]com[.]cn       |  **仿冒搜狗浏览器、传播病毒**   |                            同 936                            |                            无                            | 939  |
+| 2026/10/4 |       hxxps://app-sogoubrowser[.]com[.]cn       |  **仿冒搜狗浏览器、传播病毒**   |                            同 937                            |                            无                            | 940  |
+| 2026/10/4 |       hxxps://of-sogoubrowser[.]com[.]cn        |  **仿冒搜狗浏览器、传播病毒**   |                            同 936                            |                            无                            | 941  |
+| 2026/10/5 |            hxxps://uupro[.]com[.]cn             | **仿冒网易 UU 远程、传播病毒**  | hxxps://2026uuyuancheng[.]oss-cn-hongkong[.]aliyuncs[.]com/UUycSetup[.]7[.]13[.]zip |                            无                            | 942  |
+| 2026/10/5 |        hxxps://uuyuanchengzh[.]com[.]cn         | **仿冒网易 UU 远程、传播病毒**  |     hxxps://uu[.]v2raynapps[.]com[.]cn/UU_aNCcWz7[.]zip      | [URLhaus Database](https://urlhaus.abuse.ch/url/3929202) | 943  |
+| 2026/10/7 |           hxxps://wpssite[.]com[.]cn            |     **仿冒 WPS、传播病毒**      |    注：仅在必应搜索结果中点击该链接时，才会跳转至恶意网站    |                            无                            | 944  |
+| 2026/10/7 |            hxxps://wps-ty[.]com[.]cn            |     **仿冒 WPS、传播病毒**      |    注：仅在必应搜索结果中点击该链接时，才会跳转至恶意网站    |                            无                            | 945  |
+| 2026/10/7 |         hxxps://www[.]wps-ad[.]com[.]cn         |     **仿冒 WPS、传播病毒**      |    注：仅在必应搜索结果中点击该链接时，才会跳转至恶意网站    |                            无                            | 946  |
+| 2026/10/7 |       hxxps://wps-office-bing[.]com[.]cn        |     **仿冒 WPS、传播病毒**      |    注：仅在必应搜索结果中点击该链接时，才会跳转至恶意网站    |                            无                            | 947  |
+| 2026/10/7 |       hxxps://www[.]preya-wps[.]com[.]cn        |     **仿冒 WPS、传播病毒**      |    注：仅在必应搜索结果中点击该链接时，才会跳转至恶意网站    |                            无                            | 948  |
+| 2026/10/7 |         hxxps://www[.]wps-qw[.]com[.]cn         |     **仿冒 WPS、传播病毒**      |    注：仅在必应搜索结果中点击该链接时，才会跳转至恶意网站    |                            无                            | 949  |
+| 2026/10/7 |      hxxps://www[.]wps-leaaing[.]com[.]cn       |     **仿冒 WPS、传播病毒**      |    注：仅在必应搜索结果中点击该链接时，才会跳转至恶意网站    |                            无                            | 950  |
+| 2026/10/7 |        hxxps://wps-supervisor[.]com[.]cn        |     **仿冒 WPS、传播病毒**      |    注：仅在必应搜索结果中点击该链接时，才会跳转至恶意网站    |                            无                            | 951  |
 |  ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
