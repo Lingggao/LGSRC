@@ -9,6 +9,21 @@
 
 ### 文章
 
+[040]  
+《[**权威机构推荐！奇安信“银狐”木马专项防护方案入选市场洞察报告**](https://mp.weixin.qq.com/s/SqYUaaMjEXw_N6QNKU5P_w)》  
+**奇安信集团 (奇安信科技集团股份有限公司)**，2026 年 10 月  
+网址：[https://mp.weixin.qq.com/s/SqYUaaMjEXw_N6QNKU5P_w](https://mp.weixin.qq.com/s/SqYUaaMjEXw_N6QNKU5P_w)
+
+[039]  
+《[**银狐远控木马深度分析：伪装AI破甲工具**](https://mp.weixin.qq.com/s/nnKGXkOk2q_g_9alwN1MAA)》  
+**看雪学苑 (上海看雪科技有限公司)**，2026 年 10 月  
+网址：[https://mp.weixin.qq.com/s/nnKGXkOk2q_g_9alwN1MAA](https://mp.weixin.qq.com/s/nnKGXkOk2q_g_9alwN1MAA)
+
+[038]  
+《[**“银狐”木马专项——恶意域名及恶意IP（七）**](https://mp.weixin.qq.com/s/-_8Qct31xXYk99gRg0vVVw)》  
+**国家计算机网络应急技术处理协调中心**，2026 年 10 月  
+网址：[https://mp.weixin.qq.com/s/-_8Qct31xXYk99gRg0vVVw](https://mp.weixin.qq.com/s/-_8Qct31xXYk99gRg0vVVw)
+
 [037]  
 《[**12321：2026年9月被投诉钓鱼网站TOP10**](https://mp.weixin.qq.com/s/MR2Qs11KU1jEBhBPKwA8qg)》  
 **12321 网络不良与垃圾信息举报受理中心**，2026 年 10 月  
