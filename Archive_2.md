@@ -979,6 +979,16 @@
 | 2026/10/16 |        hxxps://www[.]ludashiw[.]com[.]cn        |    **仿冒鲁大师、传播病毒**     |                            同 961                            |                            无                            | 968  |
 | 2026/10/16 |       hxxps://www[.]ng-ludashi[.]com[.]cn       |    **仿冒鲁大师、传播病毒**     |                            同 961                            |                            无                            | 969  |
 | 2026/10/16 |         hxxps://lds-ludashi[.]com[.]cn          |    **仿冒鲁大师、传播病毒**     |                            同 961                            |                            无                            | 970  |
+| 2026/10/16 |        hxxps://ch-ludashiapp[.]com[.]cn         |    **仿冒鲁大师、传播病毒**     |                            同 961                            |                            无                            | 971  |
+| 2026/10/18 |         hxxps://deepseek-sek[.]com[.]cn         |   **仿冒 DeepSeek、传播病毒**   | hxxps://aass111[.]tos-cn-beijing[.]volces[.]com/Dssiookle_setup[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/3951625) | 972  |
+| 2026/10/18 |        hxxps://deepseek-web3[.]com[.]cn         |   **仿冒 DeepSeek、传播病毒**   |   同 972，仅在必应搜索结果中点击该链接时才会跳转至恶意网站   |                            无                            | 973  |
+| 2026/10/18 |         hxxps://deepseek-le[.]com[.]cn          |   **仿冒 DeepSeek、传播病毒**   |   同 972，仅在必应搜索结果中点击该链接时才会跳转至恶意网站   |                            无                            | 974  |
+| 2026/10/18 |       hxxps://cm[.]deepseek-it[.]com[.]cn       |   **仿冒 DeepSeek、传播病毒**   |   同 972，仅在必应搜索结果中点击该链接时才会跳转至恶意网站   |                            无                            | 975  |
+| 2026/10/18 |      hxxps://app[.]deepseek-cd[.]com[.]cn       |   **仿冒 DeepSeek、传播病毒**   |   同 972，仅在必应搜索结果中点击该链接时才会跳转至恶意网站   |                            无                            | 976  |
+| 2026/10/18 |       hxxps://cn[.]deepseek-xs[.]com[.]cn       |   **仿冒 DeepSeek、传播病毒**   |   同 972，仅在必应搜索结果中点击该链接时才会跳转至恶意网站   |                            无                            | 977  |
+| 2026/10/18 |      hxxps://app[.]deepseek-bo[.]com[.]cn       |   **仿冒 DeepSeek、传播病毒**   |   同 972，仅在必应搜索结果中点击该链接时才会跳转至恶意网站   |                            无                            | 978  |
+| 2026/10/18 |      hxxps://app[.]deepseek-nm[.]com[.]cn       |   **仿冒 DeepSeek、传播病毒**   |   同 972，仅在必应搜索结果中点击该链接时才会跳转至恶意网站   |                            无                            | 979  |
+| 2026/10/18 |      hxxps://www[.]deepseek-aa[.]com[.]cn       |   **仿冒 DeepSeek、传播病毒**   |   同 972，仅在必应搜索结果中点击该链接时才会跳转至恶意网站   |                            无                            | 980  |
 |   ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
