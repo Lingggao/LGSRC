@@ -1,6 +1,6 @@
 {
   "meta": {
     "title": "LGSRC · ThreatBook Intel",
-    "description": "Shows this machine's egress IP with one-click copy, opens the ThreatBook key-binding page, keeps the API key in a local file only, and runs full multi-endpoint ThreatBook lookups for IP, domain, file hash, URL and CVE. Maintained by LGSRC."
+    "description": "Shows the machine's egress IP with one-click copy and guides you through binding it in ThreatBook. The API key stays on this machine. Paste an IP / Domain / Hash / URL / CVE to run full multi-endpoint lookups and generate a complete report. Maintained by LGSRC."
   }
 }

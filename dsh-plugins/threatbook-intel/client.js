@@ -2,8 +2,8 @@
  * 微步在线情报插件 — Web Client 半边。
  *
  * 两个渲染位置：
- *   · conversation.composer.dock：输入框下方的一行状态条 / 首次配置卡片（IP + 复制 + 绑定 + 保存 API Key）
- *   · settings.section：完整的「微步情报查询」设置页（全部网卡 IP、绑定步骤、API Key 管理、连通性测试、最近报告）
+ *   · conversation.composer.dock：输入框下方的一行状态条 / 首次配置卡片 (IP + 复制 + 绑定 + 保存 API Key)
+ *   · settings.section：完整的「微步情报查询」设置页 (全部网卡 IP、绑定步骤、API Key 管理、连通性测试、最近报告)
  *
  * 所有宿主数据都通过本机回环路由 /threatbook/* 读取，API Key 不出本机。
  */
@@ -17,7 +17,7 @@ window.__ModuleLoader__.load({
     const ACTION_URL = '/threatbook/action';
     const REFRESH_MS = 20000;
 
-    // ------------------------------------------------------------ 界面预览（开发用）
+    // ------------------------------------------------------------ 界面预览 (开发用)
     // 进入方式：在 GUI 地址后加 ?tb=<场景>，例如 http://127.0.0.1:3080/?tb=unconfigured
     // 进入后顶部会出现切换条，可点按钮换场景，不会读写真实 API Key。
 
@@ -69,7 +69,7 @@ window.__ModuleLoader__.load({
           markdownPath: 'C:\\work\\threatbook-reports\\sha256-243c….md',
           jsonPath: 'C:\\work\\threatbook-reports\\sha256-243c….json',
           reportDir: 'C:\\work\\threatbook-reports',
-          digest: '- 判定：恶意（Trojan）\n- 家族：PatchedHostLoader\n- 检出：9/28\n- 关键行为：APC 注入、隐藏窗口、计划任务持久化',
+          digest: '- 判定：恶意 (Trojan)\n- 家族：PatchedHostLoader\n- 检出：9/28\n- 关键行为：APC 注入、隐藏窗口、计划任务持久化',
         },
         autoOpenedAt: 0,
       };
@@ -112,14 +112,14 @@ window.__ModuleLoader__.load({
           return Promise.resolve();
         }
         if (PREVIEW === 'error') {
-          patch({ data: null, error: '预览：无法连接本机服务（模拟）', loading: false, notice: null });
+          patch({ data: null, error: '预览：无法连接本机服务 (模拟)', loading: false, notice: null });
           return Promise.resolve();
         }
         patch({
           data: previewPayload(PREVIEW),
           error: null,
           loading: false,
-          notice: PREVIEW === 'notice' ? { kind: 'error', text: '预览：API Key 校验未通过（模拟）' } : null,
+          notice: PREVIEW === 'notice' ? { kind: 'error', text: '预览：API Key 校验未通过 (模拟)' } : null,
         });
         return Promise.resolve();
       }
@@ -127,7 +127,7 @@ window.__ModuleLoader__.load({
       inflight = (async () => {
         try {
           const res = await fetch(STATE_URL, { headers: { accept: 'application/json' }, cache: 'no-store' });
-          if (res.status === 401 || res.status === 403) throw new Error('授权已失效，请刷新页面（Ctrl+R）');
+          if (res.status === 401 || res.status === 403) throw new Error('授权已失效，请刷新页面 (Ctrl+R)');
           if (!res.ok) throw new Error(`HTTP ${res.status}`);
           const data = await res.json();
           patch({ data, error: null, loading: false });
@@ -158,7 +158,7 @@ window.__ModuleLoader__.load({
           body: JSON.stringify({ action, ...(payload || {}) }),
         });
         const body = await res.json().catch(() => ({}));
-        if (res.status === 401 || res.status === 403) throw new Error('授权已失效，请刷新页面（Ctrl+R）');
+        if (res.status === 401 || res.status === 403) throw new Error('授权已失效，请刷新页面 (Ctrl+R)');
         if (!res.ok) throw new Error(body && body.error ? body.error : `HTTP ${res.status}`);
         if (body.state) patch({ data: body.state });
         else await refresh();
@@ -424,7 +424,7 @@ window.__ModuleLoader__.load({
       if (!data) {
         if (s.error) {
           return h('div', { style: css.bar }, h('span', { style: css.dot(C.err) }),
-            h('span', null, `LGSRC · 微步情报查询：本机服务未就绪（${s.error}）`));
+            h('span', null, `LGSRC · 微步情报查询：本机服务未就绪 (${s.error})`));
         }
         return h('div', { style: css.bar }, h('span', { style: css.dot(C.warn) }),
           h('span', null, 'LGSRC · 微步情报查询：正在读取本机 IP…'));
@@ -604,7 +604,7 @@ window.__ModuleLoader__.load({
                 h(Btn, { onClick: test }, '测试连通性'))
             : h('div', { style: css.row },
                 h('input', {
-                  style: css.input, type: 'password', placeholder: '粘贴 API Key（保存后只显示首尾 4 位）',
+                  style: css.input, type: 'password', placeholder: '粘贴 API Key(保存后只显示首尾 4 位)',
                   value: draft,
                   onChange: (e) => setDraft(e.target.value),
                   onKeyDown: (e) => { if (e.key === 'Enter') save(); },
@@ -643,7 +643,7 @@ window.__ModuleLoader__.load({
       );
     }
 
-    // ------------------------------------------------------------ 新对话（hero 空白态）里的小条
+    // ------------------------------------------------------------ 新对话 (hero 空白态) 里的小条
     // 官方 ui-conversation 只在 variant==='composer' 时渲染 conversation.composer.dock，
     // 全新对话是 hero 形态，因此这里额外挂一个始终可见的紧凑入口。
 

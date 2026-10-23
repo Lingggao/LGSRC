@@ -1,10 +1,10 @@
 /**
- * 微步在线（ThreatBook）情报插件 — Host 半边。
+ * 微步在线 (ThreatBook) 情报插件 — Host 半边。
  *
  * 职责：
  *  1. 读取本机 IP / 公网出口 IP，供 UI 复制后到「我的 KEY」绑定；
- *  2. API Key 只写入本机文件（默认 profile 目录），不上传任何云端；
- *  3. 判断输入类别（IP / 域名 / Hash / URL / 漏洞编号），对每类执行“尽量全”的接口组合；
+ *  2. API Key 只写入本机文件 (默认 profile 目录)，不上传任何云端；
+ *  3. 判断输入类别 (IP / 域名 / Hash / URL / 漏洞编号)，对每类执行“尽量全”的接口组合；
  *  4. 原始 JSON 与完整 Markdown 报告落盘到工作区；
  *  5. 向模型暴露 threatbook_lookup / threatbook_status 两个工具；
  *  6. 给 Web UI 提供 /threatbook/state、/threatbook/action 两个本机回环路由。
@@ -30,7 +30,7 @@ const EGRESS_PROVIDERS = (process.env.THREATBOOK_EGRESS_URLS || [
 ].join(',')).split(',').map((s) => s.trim()).filter(Boolean);
 const REPORT_DIR_NAME = 'threatbook-reports';
 
-/** 进程内派生状态（不是权威数据：Key 以文件为准，查询结果以落盘文件为准）。 */
+/** 进程内派生状态 (不是权威数据：Key 以文件为准，查询结果以落盘文件为准)。 */
 const state = {
   egress: { ip: null, at: 0, error: null, source: null },
   last: null,
@@ -164,7 +164,7 @@ async function probeEgress(force = false) {
 function tbRequest(endpoint, params, opts = {}) {
   const key = readKey();
   if (!key) {
-    const error = new Error('尚未配置微步 API Key：请在「微步情报」面板或设置页粘贴 Key 并保存（Key 只写入本机文件）。');
+    const error = new Error('尚未配置微步 API Key：请在「微步情报」面板或设置页粘贴 Key 并保存 (Key 只写入本机文件)。');
     error.code = 'NO_KEY';
     throw error;
   }
@@ -201,7 +201,7 @@ function tbRequest(endpoint, params, opts = {}) {
         });
       });
     });
-    req.on('timeout', () => req.destroy(new Error(`请求 ${endpoint} 超时（${timeoutMs}ms）`)));
+    req.on('timeout', () => req.destroy(new Error(`请求 ${endpoint} 超时 (${timeoutMs}ms)`)));
     req.on('error', reject);
   });
 }
@@ -243,15 +243,15 @@ function planFor(type, indicator) {
     case 'ip':
       return [
         { id: 'ip_query', label: 'IP 分析', endpoint: '/ip/query', params: { resource: indicator, lang: 'zh' } },
-        { id: 'ip_reputation', label: 'IP 信誉（入站）', endpoint: '/scene/ip_reputation', params: { resource: indicator, lang: 'zh' } },
-        { id: 'ip_adv_query', label: 'IP 高级查询（反查域名）', endpoint: '/ip/adv_query', params: { resource: indicator, lang: 'zh' } },
+        { id: 'ip_reputation', label: 'IP 信誉 (入站)', endpoint: '/scene/ip_reputation', params: { resource: indicator, lang: 'zh' } },
+        { id: 'ip_adv_query', label: 'IP 高级查询 (反查域名)', endpoint: '/ip/adv_query', params: { resource: indicator, lang: 'zh' } },
       ];
     case 'domain':
       return [
         { id: 'domain_query', label: '域名分析', endpoint: '/domain/query', params: { resource: indicator, lang: 'zh' } },
-        { id: 'domain_adv_query', label: '域名高级查询（历史）', endpoint: '/domain/adv_query', params: { resource: indicator, lang: 'zh' } },
+        { id: 'domain_adv_query', label: '域名高级查询 (历史)', endpoint: '/domain/adv_query', params: { resource: indicator, lang: 'zh' } },
         { id: 'sub_domains', label: '子域名查询', endpoint: '/domain/sub_domains', params: { resource: indicator, lang: 'zh' } },
-        { id: 'scene_ioc', label: '失陷检测（出站）', endpoint: '/scene/ioc', params: { resource: indicator, lang: 'zh' } },
+        { id: 'scene_ioc', label: '失陷检测 (出站)', endpoint: '/scene/ioc', params: { resource: indicator, lang: 'zh' } },
         { id: 'domain_context', label: '域名上下文', endpoint: '/scene/domain_context', params: { resource: indicator, lang: 'zh' } },
       ];
     case 'sha256':
@@ -300,7 +300,7 @@ async function runUrlFlow(indicator) {
   if (!scan.ok) return results;
   for (let i = 0; i < 5; i += 1) {
     await new Promise((r) => setTimeout(r, 4000));
-    const retry = await runJob({ id: 'url_report_retry', label: `URL 信誉报告（第 ${i + 2} 次）`, endpoint: '/url/report', params: { url: indicator } });
+    const retry = await runJob({ id: 'url_report_retry', label: `URL 信誉报告 (第 ${i + 2} 次)`, endpoint: '/url/report', params: { url: indicator } });
     results.push(retry);
     if (retry.ok && retry.code === 0 && retry.data) break;
     if (retry.ok && retry.code !== 3 && retry.code !== 4 && retry.code !== 2) break;
@@ -363,19 +363,19 @@ function summarize(type, indicator, results) {
     const adv = (byId.get('ip_adv_query') || {}).data || {};
     push('综合判定', fmtList(rec.judgments, 12));
     push('位置 / 运营商', [loc(rec), rec && rec.basic && rec.basic.carrier].filter(Boolean).join(' · '));
-    push('ASN', rec && rec.asn ? `AS${rec.asn.number} ${rec.asn.info || ''}（风险值 ${rec.asn.rank}）` : '');
+    push('ASN', rec && rec.asn ? `AS${rec.asn.number} ${rec.asn.info || ''}(风险值 ${rec.asn.rank})` : '');
     push('应用场景', rec && rec.scene);
     push('情报条数', (() => {
       const c = intelCounts(rec);
-      return `微步 ${c.tb}（有效 ${c.valid}）/ X奖励 ${c.reward} / 开源 ${c.os}`;
+      return `微步 ${c.tb}(有效 ${c.valid})/ X 奖励 ${c.reward} / 开源 ${c.os}`;
     })());
     push('关联样本', Array.isArray(rec.samples) ? `${rec.samples.length} 条；最高检出 ${fmtList(rec.samples.map((s) => s.ratio), 3)}；家族 ${fmtList(rec.samples.map((s) => s.malware_family), 4)}` : '');
-    push('开放端口', Array.isArray(rec.ports) ? `${rec.ports.length} 个（${fmtList(rec.ports.map((p) => p.port), 10)}）` : '');
+    push('开放端口', Array.isArray(rec.ports) ? `${rec.ports.length} 个 (${fmtList(rec.ports.map((p) => p.port), 10)})` : '');
     push('SSL 证书', Array.isArray(rec.cas) ? `${rec.cas.length} 张` : '');
     push('反查域名数', rec.sum_cur_domains);
     push('反向 DNS', fmtList((rec.rdns_list || []).map((r) => r.rdns), 5));
     push('情报更新时间', rec.update_time);
-    push('IP 信誉（入站）', rep.is_malicious === undefined ? '' : `恶意=${rep.is_malicious} 可信度=${rep.confidence_level || '—'} 严重级别=${rep.severity || '—'} 判定=${fmtList(rep.judgments, 8)}`);
+    push('IP 信誉 (入站)', rep.is_malicious === undefined ? '' : `恶意=${rep.is_malicious} 可信度=${rep.confidence_level || '—'} 严重级别=${rep.severity || '—'} 判定=${fmtList(rep.judgments, 8)}`);
     push('历史反查域名', adv.history_domains ? `${Object.keys(adv.history_domains).length} 个日期分组；当前指向 ${fmtList(adv.cur_domains, 6)}` : '');
     push('X 详情页', rec.permalink);
   } else if (type === 'domain') {
@@ -386,17 +386,17 @@ function summarize(type, indicator, results) {
     const ioc = pickRecord(((byId.get('scene_ioc') || {}).data || {}).domains, indicator);
     push('综合判定', fmtList(rec.judgments, 12));
     push('域名分类', fmtList((rec.categories && rec.categories.first_cats) || [], 6));
-    push('情报条数', (() => { const c = intelCounts(rec); return `微步 ${c.tb}（有效 ${c.valid}）/ X奖励 ${c.reward} / 开源 ${c.os}`; })());
-    push('解析 IP', Array.isArray(rec.cur_ips) ? `${rec.cur_ips.length} 个（${fmtList(rec.cur_ips.map((x) => x.ip), 6)}）` : '');
+    push('情报条数', (() => { const c = intelCounts(rec); return `微步 ${c.tb}(有效 ${c.valid})/ X 奖励 ${c.reward} / 开源 ${c.os}`; })());
+    push('解析 IP', Array.isArray(rec.cur_ips) ? `${rec.cur_ips.length} 个 (${fmtList(rec.cur_ips.map((x) => x.ip), 6)})` : '');
     push('Whois', rec.cur_whois ? `注册商 ${rec.cur_whois.registrar_name || '—'}；注册人 ${rec.cur_whois.registrant_name || '—'}；邮箱 ${rec.cur_whois.registrant_email || '—'}；注册时间 ${rec.cur_whois.cdate || '—'}；过期 ${rec.cur_whois.edate || '—'}` : '');
-    push('备案', rec.icp ? `${rec.icp.company_name || '—'}（${rec.icp.company_type || '—'}）${rec.icp.site_license || ''}` : '');
+    push('备案', rec.icp ? `${rec.icp.company_name || '—'}(${rec.icp.company_type || '—'})${rec.icp.site_license || ''}` : '');
     push('排名', rec.rank && rec.rank.alexa_rank ? `Alexa ${rec.rank.alexa_rank.global_rank}` : '');
     push('证书', Array.isArray(rec.cas) ? `${rec.cas.length} 张` : '');
     push('关联样本', Array.isArray(rec.samples) ? `${rec.samples.length} 条；家族 ${fmtList(rec.samples.map((s) => s.malware_family), 4)}` : '');
     push('子域名', sub.sub_domains ? `总计 ${sub.sub_domains.total}，本次返回 ${(sub.sub_domains.data || []).length} 个` : '');
     push('历史解析', Array.isArray(adv.history_ips) ? `${adv.history_ips.length} 个日期分组` : '');
     push('历史 Whois', Array.isArray(adv.history_whoises) ? `${adv.history_whoises.length} 条` : '');
-    push('失陷检测（出站）', ioc.is_malicious === undefined ? '' : `恶意=${ioc.is_malicious} 可信度=${ioc.confidence_level || '—'} 判定=${fmtList(ioc.judgments, 8)}`);
+    push('失陷检测 (出站)', ioc.is_malicious === undefined ? '' : `恶意=${ioc.is_malicious} 可信度=${ioc.confidence_level || '—'} 判定=${fmtList(ioc.judgments, 8)}`);
     push('上下文关联样本', Array.isArray(ctx.context) ? `${ctx.context.length} 个` : '');
     push('取证建议', Array.isArray(ctx.forensics) && ctx.forensics.length ? `${ctx.forensics.length} 条` : '');
     push('X 详情页', rec.permalink);
@@ -405,15 +405,15 @@ function summarize(type, indicator, results) {
     const s = rep.summary || {};
     const me = rep.multiengines || {};
     const multi = ((byId.get('file_multiengines') || {}).data || {}).multiengines || {};
-    push('文件', `${s.file_name || '—'}（${s.file_type || '—'}）`);
+    push('文件', `${s.file_name || '—'}(${s.file_type || '—'})`);
     push('判定', `威胁等级=${s.threat_level || '—'} 类型=${s.malware_type || '—'} 家族=${s.malware_family || '—'} 评分=${s.threat_score === undefined ? '—' : s.threat_score} 白名单=${s.is_whitelist === undefined ? '—' : s.is_whitelist}`);
     push('Hash', `sha256=${s.sample_sha256 || indicator} md5=${s.md5 || '—'}`);
-    push('检出率', me.result ? `${Object.values(me.result).filter((v) => v && v !== 'safe').length}/${Object.keys(me.result).length}（${me.scan_time || '—'}）` : (multi.positives !== undefined ? `${multi.positives}/${multi.total}（${multi.scan_date || '—'}）` : ''));
+    push('检出率', me.result ? `${Object.values(me.result).filter((v) => v && v !== 'safe').length}/${Object.keys(me.result).length}(${me.scan_time || '—'})` : (multi.positives !== undefined ? `${multi.positives}/${multi.total}(${multi.scan_date || '—'})` : ''));
     push('多引擎可疑项', me.result ? fmtList(Object.entries(me.result).filter(([, v]) => v && v !== 'safe').map(([k, v]) => `${k}=${v}`), 6) : '');
     push('场景', fmtList(s.scenes, 6));
     push('静态标签', fmtList(s.tag && s.tag.s, 6));
     push('提交时间', s.submit_time);
-    push('沙箱环境', s.sandbox_type ? `${s.sandbox_type}（成功环境 ${fmtList(s.sandbox_type_list, 3)}）` : '');
+    push('沙箱环境', s.sandbox_type ? `${s.sandbox_type}(成功环境 ${fmtList(s.sandbox_type_list, 3)})` : '');
     push('行为签名', Array.isArray(rep.signature) ? `${rep.signature.length} 条，最高严重级别 ${Math.max(0, ...rep.signature.map((x) => Number(x.severity) || 0))}` : '');
     push('网络行为', rep.network ? `http ${(rep.network.http || []).length} / dns ${(rep.network.dns || []).length} / domains ${(rep.network.domains || []).length} / hosts ${(rep.network.hosts || []).length}` : '');
     push('释放文件', Array.isArray(rep.dropped) ? `${rep.dropped.length} 个` : '');
@@ -424,19 +424,19 @@ function summarize(type, indicator, results) {
     const d = (lastOk && lastOk.data) || {};
     const me = d.multiengines || {};
     const hits = Object.entries(me).filter(([, v]) => v && v !== 'safe' && v !== 'whitelist');
-    push('URL 判定', `${d.threat_level || '—'}（引擎 ${hits.length}/${Object.keys(me).length} 检出）`);
+    push('URL 判定', `${d.threat_level || '—'}(引擎 ${hits.length}/${Object.keys(me).length} 检出)`);
     push('命中引擎', fmtList(hits.map(([k, v]) => `${k}=${v}`), 8));
     push('最终 URL', d.details && d.details.finalUrl);
     push('解析 IP / HTTP', d.details ? `${d.details.ip || '—'} / ${d.details.httpStatusCode || d.details.status || '—'}` : '');
     push('响应头', d.details && d.details.headers ? fmtList(Object.keys(d.details.headers), 6) : '');
-    push('下载文件', d.sandbox ? `${d.sandbox.threat_level || '—'} ${d.sandbox.file_name || ''}（${d.sandbox.file_type || ''}）sha256=${d.sandbox.sample_sha256 || ''}` : '');
+    push('下载文件', d.sandbox ? `${d.sandbox.threat_level || '—'} ${d.sandbox.file_name || ''}(${d.sandbox.file_type || ''})sha256=${d.sandbox.sample_sha256 || ''}` : '');
     push('历史下载文件', d.details && Array.isArray(d.details.historyScans) ? `${d.details.historyScans.length} 条` : '');
     push('扫描时间', d.details && d.details.lastSeen);
     push('X 报告', d.permalink);
   } else if (type === 'vuln') {
     const items = (((byId.get('vuln') || {}).data || {}).items) || [];
     if (!items.length) {
-      push('结果', '未查询到该漏洞编号的情报（可能尚未收录或编号格式不支持）');
+      push('结果', '未查询到该漏洞编号的情报 (可能尚未收录或编号格式不支持)');
     } else {
       for (const it of items.slice(0, 5)) {
         const b = it.basic_info || {};
@@ -446,9 +446,9 @@ function summarize(type, indicator, results) {
         const intel = it.intelligence || {};
         push('漏洞', `${b.xve_id || '—'} ${b.cve_id ? `(${b.cve_id})` : ''} ${b.vuln_name || ''}`);
         push('分类 / 平台', `${b.vuln_category || '—'} / ${fmtList(((it.impact || {}).platform), 4)}`);
-        push('风险', `VPR ${vpt.vpr ?? '—'}（${vpt.risk_level || '—'}）CVSS3 ${cv.cvss_basic_score ?? '—'} ${cv.cvss_grade || ''}`);
+        push('风险', `VPR ${vpt.vpr ?? '—'}(${vpt.risk_level || '—'})CVSS3 ${cv.cvss_basic_score ?? '—'} ${cv.cvss_grade || ''}`);
         push('标签', fmtList(intel.tag, 10));
-        push('利用情况', `在野利用=${intel.has_kev} 公开PoC=${intel.has_poc_public} 微步PoC=${intel.has_poc_threatbook} 有修复方案=${intel.has_solution}`);
+        push('利用情况', `在野利用=${intel.has_kev} 公开 PoC=${intel.has_poc_public} 微步 PoC=${intel.has_poc_threatbook} 有修复方案=${intel.has_solution}`);
         push('影响厂商产品', fmtList(((it.impact || {}).affected_vendors_products || []).map((x) => `${x.vendor || ''} ${x.product || ''}`.trim()), 5));
         push('PoC / 方案 / 补丁', `${(it.pocs || []).length} / ${(it.solutions || []).length} / ${(it.patches || []).length}`);
         push('公开 / 更新', `${b.publish_time ? new Date(b.publish_time * 1000).toISOString().slice(0, 10) : '—'} / ${b.update_time ? new Date(b.update_time * 1000).toISOString().slice(0, 10) : '—'}`);
@@ -478,7 +478,7 @@ function stamp() {
 }
 
 /**
- * 只允许操作本插件自己产出的报告（位于 threatbook-reports/ 目录内）。
+ * 只允许操作本插件自己产出的报告 (位于 threatbook-reports/ 目录内)。
  * 用于 open-report / open-folder 两个动作，避免被诱导打开任意路径。
  * @param value 待校验路径
  * @param kind 'file' 只接受 .md/.json 文件；'dir' 只接受目录
@@ -506,7 +506,7 @@ function renderValue(value, depth = 0) {
   const pad = '  '.repeat(depth);
   if (value === null || value === undefined) return `${pad}- —`;
   if (Array.isArray(value)) {
-    if (!value.length) return `${pad}- （空）`;
+    if (!value.length) return `${pad}- (空)`;
     if (depth >= 6) return `${pad}- [${value.length} 项已省略]`;
     return value.slice(0, 60).map((v, i) => {
       if (v !== null && typeof v === 'object') return `${pad}- [#${i + 1}]\n${renderValue(v, depth + 1)}`;
@@ -529,7 +529,7 @@ function mdReport({ type, indicator, at, results, digest, jsonPath }) {
     '',
     `- 指标类型：${typeLabel(type)}`,
     `- 查询时间：${at}`,
-    `- 数据来源：微步在线云 API（https://api.threatbook.cn/v3）`,
+    `- 数据来源：微步在线云 API(https://api.threatbook.cn/v3)`,
     `- 原始数据：\`${jsonPath}\``,
     `- 接口数量：${results.length}`,
     '',
@@ -541,8 +541,8 @@ function mdReport({ type, indicator, at, results, digest, jsonPath }) {
     '',
   ];
   const sections = results.map((r, index) => {
-    const body = r.data === null || r.data === undefined ? '（无 data）' : JSON.stringify(r.data, null, 2);
-    const trimmed = body.length > 400000 ? `${body.slice(0, 400000)}\n…（已截断，完整内容见原始 JSON）` : body;
+    const body = r.data === null || r.data === undefined ? '(无 data)' : JSON.stringify(r.data, null, 2);
+    const trimmed = body.length > 400000 ? `${body.slice(0, 400000)}\n…(已截断，完整内容见原始 JSON)` : body;
     return [
       `### ${index + 1}. ${r.label} \`${r.endpoint}\``,
       '',
@@ -621,17 +621,17 @@ async function statePayload() {
 
 function failureHint(message) {
   const text = String(message || '');
-  if (/Invalid Access IP|无效的访问\s*IP|无效IP/i.test(text)) {
+  if (/Invalid Access IP|无效的访问\s*IP|无效 IP/i.test(text)) {
     return `本机出口 IP 不在该 Key 的白名单里：复制面板里的出口 IP，到 ${BIND_URL} 的「我的 KEY」中添加后再试。`;
   }
   if (/Invalid API Key|Incorrect API key|无效的\s*API\s*key/i.test(text)) {
-    return 'API Key 无效或已重置：请重新粘贴 Key（面板或设置页 → 微步情报）。';
+    return 'API Key 无效或已重置：请重新粘贴 Key(面板或设置页 → 微步情报)。';
   }
   if (/Expired API Key|Key 过期/i.test(text)) {
     return 'API Key 已过期，需要续期后重新保存。';
   }
   if (/No Access to API Method|没有访问接口权限/i.test(text)) {
-    return '该 Key 未开通这几个接口的权限（个人账号默认只有 IP 信誉 / 失陷检测 / 文件相关额度）。';
+    return '该 Key 未开通这几个接口的权限 (个人账号默认只有 IP 信誉 / 失陷检测 / 文件相关额度)。';
   }
   if (/Frequent Limitation|频率/i.test(text)) {
     return '触发频率限制，稍等 1 分钟后重试。';
@@ -674,7 +674,7 @@ async function verifyKey() {
 export const inject = ['tools'];
 
 export function apply(ctx) {
-  // 启动即探测一次公网出口 IP（不阻塞激活；失败会在面板上显示原因）
+  // 启动即探测一次公网出口 IP(不阻塞激活；失败会在面板上显示原因)
   probeEgress(true).catch(() => {});
 
   function resolveDir(agent) {
@@ -685,7 +685,7 @@ export function apply(ctx) {
     return process.cwd();
   }
 
-  // ---- 本机 UI 路由（webServer 可选：缺它时插件仍以工具形式工作）
+  // ---- 本机 UI 路由 (webServer 可选：缺它时插件仍以工具形式工作)
   ctx.effect(() => ctx.inject(['webServer'], (webCtx) => {
     const web = webCtx.webServer;
     const route = (routePath, handler) => webCtx.effect(
@@ -695,7 +695,7 @@ export function apply(ctx) {
 
     /**
      * 本机路由的可信校验：只接受来自 DSH 已授权浏览器的请求。
-     * connection 服务缺失时（非 Web 载体）不做拦截，保持原有能力。
+     * connection 服务缺失时 (非 Web 载体) 不做拦截，保持原有能力。
      */
     const rejectUntrusted = (req, res) => {
       const connection = ctx.get('connection');
@@ -749,7 +749,7 @@ export function apply(ctx) {
         if (action === 'save-key') {
           const apikey = String(body.apikey || '').trim();
           if (!/^[A-Za-z0-9_-]{8,256}$/.test(apikey)) {
-            sendJson(res, 400, { error: 'API Key 格式不正确（应为 8-256 位字母、数字、下划线或短横线）' });
+            sendJson(res, 400, { error: 'API Key 格式不正确 (应为 8-256 位字母、数字、下划线或短横线)' });
             return;
           }
           writeKey(apikey);
@@ -785,12 +785,12 @@ export function apply(ctx) {
           const agents = ctx.get('agents');
           const agent = agents && sessionId ? agents.get(sessionId) : undefined;
           if (!agent) {
-            sendJson(res, 400, { error: '找不到当前会话，无法自动触发总结（刷新页面后重试）' });
+            sendJson(res, 400, { error: '找不到当前会话，无法自动触发总结 (刷新页面后重试)' });
             return;
           }
           const last = state.last;
           const prompt = last
-            ? `请基于刚才 threatbook_lookup 的结果（${last.indicator}，类型 ${last.type}）用中文写一段简要总结：① 结论 ② 关键证据 ③ 处置建议。不要重复原始 JSON；需要细节时引用 ${last.markdownPath || '报告文件'}。`
+            ? `请基于刚才 threatbook_lookup 的结果 (${last.indicator}，类型 ${last.type}) 用中文写一段简要总结：① 结论 ② 关键证据 ③ 处置建议。不要重复原始 JSON；需要细节时引用 ${last.markdownPath || '报告文件'}。`
             : '请用中文简要总结刚才情报查询的结论、关键证据与处置建议。';
           agent.followup({
             id: `threatbook-summarize-${Date.now()}`,
@@ -879,8 +879,8 @@ export function apply(ctx) {
           indicator,
           text: [
             '还没有配置微步 API Key，未发起查询。',
-            `请让用户在「微步情报」面板（输入框下方）或「设置 → 微步情报」中粘贴 Key 并保存；保存只写入本机文件 ${keyFile()}，不会上传。`,
-            `绑定入口：${BIND_URL}（需要先把本机出口 IP 加入白名单）。`,
+            `请让用户在「微步情报」面板 (输入框下方) 或「设置 → 微步情报」中粘贴 Key 并保存；保存只写入本机文件 ${keyFile()}，不会上传。`,
+            `绑定入口：${BIND_URL}(需要先把本机出口 IP 加入白名单)。`,
           ].join('\n'),
         };
       }
@@ -905,12 +905,12 @@ export function apply(ctx) {
         || results.every((r) => !r.ok || (typeof r.code === 'number' && r.code < 0));
       if (failedAll) {
         const messages = [...new Set(results.map((r) => String(r.msg || '').trim()).filter(Boolean))].slice(0, 3);
-        const joined = messages.join('；') || '未知错误（所有接口均未返回可用数据）';
+        const joined = messages.join('；') || '未知错误 (所有接口均未返回可用数据)';
         return {
           ok: false,
           type,
           indicator,
-          text: `微步查询未成功：${indicator}（${typeLabel(type)}）\n${joined}\n\n${failureHint(joined)}`,
+          text: `微步查询未成功：${indicator}(${typeLabel(type)})\n${joined}\n\n${failureHint(joined)}`,
         };
       }
 
@@ -929,7 +929,7 @@ export function apply(ctx) {
         .join('\n');
 
       const text = [
-        `微步情报查询：${indicator}（${typeLabel(type)}）`,
+        `微步情报查询：${indicator}(${typeLabel(type)})`,
         digest,
         '',
         '接口执行情况：',
@@ -938,7 +938,7 @@ export function apply(ctx) {
         files ? `完整原始数据：${files.jsonPath}` : '完整原始数据：未落盘',
         files ? `完整 Markdown 报告：${files.mdPath}` : '完整 Markdown 报告：未落盘',
         '',
-        '可选下一步（问用户想要哪一个）：① 我直接做简要总结；② 打开/给出完整 MD 报告；③ 深入某个字段或多接口互证。',
+        '可选下一步 (问用户想要哪一个)：① 我直接做简要总结；② 打开/给出完整 MD 报告；③ 深入某个字段或多接口互证。',
       ].join('\n');
 
       state.last = {
@@ -984,14 +984,14 @@ export function apply(ctx) {
       }
       const v4 = payload.ips.filter((x) => x.family === 'IPv4');
       const lines = [
-        `本机名：${payload.host}（${payload.platform}）`,
+        `本机名：${payload.host}(${payload.platform})`,
         `本机 IPv4：${v4.length ? v4.map((x) => `${x.address} (${x.iface})`).join('；') : '无'}`,
-        `公网出口 IP：${payload.egress && payload.egress.ip ? payload.egress.ip : '未探测到'}${payload.egress && payload.egress.error ? `（探测错误：${payload.egress.error}）` : ''}`,
+        `公网出口 IP：${payload.egress && payload.egress.ip ? payload.egress.ip : '未探测到'}${payload.egress && payload.egress.error ? `(探测错误：${payload.egress.error})` : ''}`,
         `API Key: ${payload.key.configured ? payload.key.masked : '未配置'}`,
-        `Key 文件：${payload.key.file}（仅本地，不上传）`,
+        `Key 文件：${payload.key.file}(仅本地，不上传)`,
         `绑定地址：${payload.bindingUrl}`,
         '绑定步骤：登录微步 X 情报中心 → 我的 KEY → 把上面的公网出口 IP 加入白名单 → 复制 API Key → 在插件面板粘贴并保存。',
-        payload.lastLookup ? `最近查询：${payload.lastLookup.indicator}（${payload.lastLookup.type}）@ ${payload.lastLookup.at}\n  MD: ${payload.lastLookup.markdownPath}` : '最近查询：无',
+        payload.lastLookup ? `最近查询：${payload.lastLookup.indicator}(${payload.lastLookup.type})@ ${payload.lastLookup.at}\n  MD: ${payload.lastLookup.markdownPath}` : '最近查询：无',
       ];
       return { text: lines.join('\n') };
     },
@@ -1004,11 +1004,11 @@ export function apply(ctx) {
     text: () => {
       const key = readKey();
       if (key) {
-        return '微步情报插件已就绪（API Key 已保存在本机）。用户贴出 IP / 域名 / Hash / URL / CVE 时，直接调用 threatbook_lookup；结果里已包含完整报告路径。';
+        return '微步情报插件已就绪 (API Key 已保存在本机)。用户贴出 IP / 域名 / Hash / URL / CVE 时，直接调用 threatbook_lookup；结果里已包含完整报告路径。';
       }
       const egress = state.egress && state.egress.ip ? state.egress.ip : null;
       const ipText = egress ? `本机公网出口 IP 为 ${egress}。` : '本机公网出口 IP 尚未探测到。';
-      return `微步情报插件尚未配置 API Key。${ipText}需要提一嘴：先去 ${BIND_URL} 把该 IP 绑定到「我的 KEY」，再到输入框下方的「微步情报」面板粘贴 Key 保存（只存本机）。用户贴情报指标但没配 Key 时，说明这一步即可，不要反复追问。`;
+      return `微步情报插件尚未配置 API Key。${ipText}需要提一嘴：先去 ${BIND_URL} 把该 IP 绑定到「我的 KEY」，再到输入框下方的「微步情报」面板粘贴 Key 保存 (只存本机)。用户贴情报指标但没配 Key 时，说明这一步即可，不要反复追问。`;
     },
   })), 'threatbook: prompt hint');
 }
