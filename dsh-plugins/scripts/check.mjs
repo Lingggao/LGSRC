@@ -68,6 +68,27 @@ for (const entry of fs.readdirSync(base, { withFileTypes: true })) {
       }
     }
 
+    // 排版约定：全角括号、中英文粘连、英文括号贴字（见 README「文案约定」）
+    const typography = [
+      [/（|）/, '使用了全角括号，应改为半角 ()'],
+      [/[\u4e00-\u9fff][A-Za-z0-9]|[A-Za-z0-9][\u4e00-\u9fff]/, '中英文之间缺少空格'],
+      [/[\u4e00-\u9fff]\(|\)[\u4e00-\u9fff]/, '英文括号外侧缺少空格'],
+    ];
+    const scan = (target) => {
+      const lines = fs.readFileSync(target, 'utf8').split(/\r?\n/);
+      lines.forEach((line, index) => {
+        for (const [pattern, message] of typography) {
+          if (pattern.test(line)) {
+            throw new Error(`${path.relative(dir, target)}:${index + 1} ${message}`);
+          }
+        }
+      });
+    };
+    for (const name of ['index.js', 'client.js', 'README.md', 'CHANGELOG.md', 'locale/zh.json', 'locale/en.json']) {
+      const target = path.join(dir, name);
+      if (fs.existsSync(target)) scan(target);
+    }
+
     console.log(`ok   ${rel.padEnd(24)} ${pkg.name}@${pkg.version}`);
   } catch (error) {
     errors.push(`${rel}: ${error.message}`);

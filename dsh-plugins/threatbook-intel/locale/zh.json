@@ -1,6 +1,6 @@
 {
   "meta": {
     "title": "LGSRC · 微步情报查询",
-    "description": "展示出口 IP 并支持一键复制、引导绑定微步 API Key（仅存本机）；粘贴 IP / Domain / Hash / URL / CVE 即完成多接口查询与报告生成。由 LGSRC 维护。"
+    "description": "展示出口 IP 并支持一键复制、引导绑定微步 API Key (仅存本机)；粘贴 IP / Domain / Hash / URL / CVE 即完成多接口查询与报告生成。由 LGSRC 维护。"
   }
 }
