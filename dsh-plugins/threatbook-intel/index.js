@@ -79,7 +79,7 @@ function clearKey() {
 function maskKey(k) {
   if (!k) return '';
   if (k.length <= 8) return '****';
-  return `${k.slice(0, 4)}…${k.slice(-4)}`;
+  return `${k.slice(0, 4)}***${k.slice(-4)}`;
 }
 
 // ---------------------------------------------------------------- 本机 IP
@@ -987,7 +987,7 @@ export function apply(ctx) {
         `本机名：${payload.host}（${payload.platform}）`,
         `本机 IPv4：${v4.length ? v4.map((x) => `${x.address} (${x.iface})`).join('；') : '无'}`,
         `公网出口 IP：${payload.egress && payload.egress.ip ? payload.egress.ip : '未探测到'}${payload.egress && payload.egress.error ? `（探测错误：${payload.egress.error}）` : ''}`,
-        `API Key：${payload.key.configured ? `已配置 ${payload.key.masked}` : '未配置'}`,
+        `API Key: ${payload.key.configured ? payload.key.masked : '未配置'}`,
         `Key 文件：${payload.key.file}（仅本地，不上传）`,
         `绑定地址：${payload.bindingUrl}`,
         '绑定步骤：登录微步 X 情报中心 → 我的 KEY → 把上面的公网出口 IP 加入白名单 → 复制 API Key → 在插件面板粘贴并保存。',

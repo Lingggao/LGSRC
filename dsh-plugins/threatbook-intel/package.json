@@ -1,6 +1,6 @@
 {
   "name": "dsh-threatbook-intel",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "description": "ThreatBook (微步在线) intel for DSH: shows the machine's egress IP with copy, opens the key-binding page, keeps the API key in a local file only, and runs full ThreatBook lookups for IP / domain / file hash / URL / CVE.",
   "keywords": [

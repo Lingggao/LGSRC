@@ -53,6 +53,22 @@ git clone https://github.com/Lingggao/LGSRC.git
 6. **多个后续选项**：工具返回时会列出「简要总结 / 打开完整 MD / 深入某字段」供用户选择；
    同时提供 `threatbook_status` 查看 IP、Key、绑定地址与最近一次查询。
 
+## 界面预览（开发用）
+
+插件面板有 7 种状态，正常只能看到自己当前那一种。开发时可在 GUI 地址后追加 `?tb=<场景>` 进入预览（地址已有参数则用 `&tb=`）：
+
+| 场景 | 用途 |
+| --- | --- |
+| `?tb=unconfigured` | 未配置 Key 的三步引导卡片 |
+| `?tb=configured` | 已配置、无查询记录的常态 |
+| `?tb=last` | 带「最近一次查询」与操作按钮 |
+| `?tb=empty` | 已配置但从未查询过 |
+| `?tb=notice` | 带一条错误提示 |
+| `?tb=loading` | 首次加载中 |
+| `?tb=error` | 本机服务不可用 |
+
+进入后面板顶部会出现一条虚线预览条，可直接点按钮切换场景，点「退出预览」回到真实数据。预览模式**完全使用假数据**，所有写操作（保存 / 清除 Key、打开报告）都会被拦截，不会碰到真实 Key 与本机文件。
+
 ## 配置（可选环境变量）
 
 | 变量 | 说明 |
@@ -63,4 +79,18 @@ git clone https://github.com/Lingggao/LGSRC.git
 ## 数据边界
 
 - 只访问 `api.threatbook.cn`（查询）与上面列出的 IP 探测服务（仅取本机出口 IP）。
-- Key 不进入模型上下文：UI 通过本机回环路由 `/threatbook/*` 与 Host 通信，POST 强制 `application/json`。
+- API Key 不进入模型上下文：UI 通过本机回环路由 `/threatbook/*` 与 Host 通信，POST 强制 `application/json`。
+
+## 文案约定
+
+改动界面时请沿用下表写法，避免同一个概念出现多种叫法：
+
+| 概念 | 固定写法 | 不要写成 |
+| --- | --- | --- |
+| 产品名 | `LGSRC · 微步情报查询` | 微步情报、LGSRC 微步情报 |
+| 凭据 | `API Key` | Key、密钥、微步 API Key |
+| 公网地址 | `出口 IP` | 公网出口 IP、外网 IP |
+| 本机地址 | `网卡 IP` | 内网 IP、本地 IP |
+| 指标类型 | `IP / Domain / Hash / URL / CVE` | 域名、文件 Hash、漏洞编号 |
+| 微步控制台页面 | `我的 KEY` | 我的 Key（该页面名本身是全大写，属专有名词） |
+
