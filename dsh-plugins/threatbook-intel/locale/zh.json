@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "微步情报",
-    "description": "显示本机出口 IP 并一键复制，打开微步 KEY 绑定页，API Key 仅保存在本地文件，并对 IP / 域名 / 文件 Hash / URL / 漏洞编号执行多接口完整查询。"
+    "title": "LGSRC · 微步情报查询",
+    "description": "显示本机出口 IP 并一键复制，打开微步 KEY 绑定页，API Key 仅保存在本地文件，并对 IP / 域名 / 文件 Hash / URL / 漏洞编号执行多接口完整查询。由灵糕中心 · 安全响应中心（LGSRC）维护。"
   }
 }

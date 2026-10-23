@@ -87,6 +87,19 @@ jobs:
             -x '*/node_modules/*' '*.tgz' '*/.git/*'
           ls -lh "../${{ steps.meta.outputs.plugin }}-${{ steps.meta.outputs.version }}.zip"
 
+      - name: 生成 Release 说明
+        env:
+          PLUGIN: ${{ steps.meta.outputs.plugin }}
+          VERSION: ${{ steps.meta.outputs.version }}
+        run: |
+          set -euo pipefail
+          node dsh-plugins/scripts/release-notes.mjs "$PLUGIN" "$VERSION" > release-notes.md
+          if [ -s release-notes.md ]; then
+            echo "取自 CHANGELOG.md 中 ${PLUGIN} ${VERSION} 一节（$(wc -l < release-notes.md) 行）"
+          else
+            echo "CHANGELOG.md 中没有该版本，退回 GitHub 自动生成的说明"
+          fi
+
       - name: 创建 Release
         env:
           GH_TOKEN: ${{ github.token }}
@@ -95,9 +108,14 @@ jobs:
           TITLE: ${{ steps.meta.outputs.plugin }} ${{ steps.meta.outputs.version }}
         run: |
           set -euo pipefail
+          if [ -s release-notes.md ]; then
+            notes=(--notes-file release-notes.md)
+          else
+            notes=(--generate-notes)
+          fi
           if [ "${GITHUB_EVENT_NAME}" = "workflow_dispatch" ]; then
-            gh release create "$TAG" "$ZIP" --title "$TITLE" --generate-notes \
+            gh release create "$TAG" "$ZIP" --title "$TITLE" "${notes[@]}" \
               --target "${{ github.event.repository.default_branch }}"
           else
-            gh release create "$TAG" "$ZIP" --title "$TITLE" --generate-notes
+            gh release create "$TAG" "$ZIP" --title "$TITLE" "${notes[@]}"
           fi

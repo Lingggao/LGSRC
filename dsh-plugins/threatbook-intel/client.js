@@ -46,6 +46,7 @@ window.__ModuleLoader__.load({
       inflight = (async () => {
         try {
           const res = await fetch(STATE_URL, { headers: { accept: 'application/json' }, cache: 'no-store' });
+          if (res.status === 401 || res.status === 403) throw new Error('授权已失效，请刷新页面（Ctrl+R）');
           if (!res.ok) throw new Error(`HTTP ${res.status}`);
           const data = await res.json();
           patch({ data, error: null, loading: false });
@@ -75,6 +76,7 @@ window.__ModuleLoader__.load({
           body: JSON.stringify({ action, ...(payload || {}) }),
         });
         const body = await res.json().catch(() => ({}));
+        if (res.status === 401 || res.status === 403) throw new Error('授权已失效，请刷新页面（Ctrl+R）');
         if (!res.ok) throw new Error(body && body.error ? body.error : `HTTP ${res.status}`);
         if (body.state) patch({ data: body.state });
         else await refresh();
@@ -267,7 +269,7 @@ window.__ModuleLoader__.load({
           h('div', { style: css.card },
             h('div', { style: css.row },
               h('span', { style: { ...css.dot(COLORS.warn), width: '8px', height: '8px' } }),
-              h('strong', { style: { color: COLORS.text } }, '微步情报未配置'),
+              h('strong', { style: { color: COLORS.text } }, 'LGSRC 微步情报 · 未配置'),
               h('span', null, '把本机出口 IP 绑定到「我的 KEY」后，粘贴 API Key 即可（只存本机，不上传）'),
             ),
             h('div', { style: css.row },
@@ -304,7 +306,7 @@ window.__ModuleLoader__.load({
 
       return h('div', { style: css.wrap },
         h('span', { style: css.dot(COLORS.ok) }),
-        h('span', { style: { color: COLORS.text, fontWeight: 600 } }, '微步情报'),
+        h('span', { style: { color: COLORS.text, fontWeight: 600 } }, 'LGSRC 微步情报'),
         h('span', { style: css.sep }, '|'),
         h('span', null, '出口 IP', ' '),
         h('code', { style: css.mono }, primaryIp),
@@ -338,7 +340,7 @@ window.__ModuleLoader__.load({
 
       const data = s.data;
       if (!data) {
-        return h('div', { style: css.section }, h('div', { style: css.h }, '微步情报'), h('div', null, s.error ? `本机服务未就绪：${s.error}` : '正在读取…'));
+        return h('div', { style: css.section }, h('div', { style: css.h }, 'LGSRC · 微步情报查询'), h('div', null, s.error ? `本机服务未就绪：${s.error}` : '正在读取…'));
       }
 
       const egress = data.egress || {};
@@ -359,7 +361,7 @@ window.__ModuleLoader__.load({
 
       return h('div', { style: css.section },
         h('div', null,
-          h('div', { style: css.h }, '微步情报（ThreatBook）'),
+          h('div', { style: css.h }, 'LGSRC · 微步情报查询（ThreatBook）'),
           h('div', { style: { fontSize: '12px', color: COLORS.dim } },
             '用于 IP / 域名 / 文件 Hash / URL / 漏洞编号的情报查询。API Key 只写入本机文件，查询直连 api.threatbook.cn，不经过任何第三方云端存储。'),
         ),
@@ -484,14 +486,14 @@ window.__ModuleLoader__.load({
           border: `1px solid ${COLORS.border}`, borderRadius: '999px',
           background: COLORS.layer, padding: '2px 10px', maxWidth: '100%',
         },
-        title: configured ? `API Key 已配置：${data.key.masked}` : '未配置 API Key，可在 设置 → 微步情报 里填写',
+        title: configured ? `API Key 已配置：${data.key.masked}` : '未配置 API Key，可在 设置 → 微步情报查询 里填写',
       },
         h('span', { style: css.dot(configured ? COLORS.ok : COLORS.warn) }),
-        h('span', { style: { color: COLORS.text, fontWeight: 600 } }, '微步'),
+        h('span', { style: { color: COLORS.text, fontWeight: 600 } }, 'LGSRC 微步'),
         h('code', { style: { ...css.mono, fontSize: '12px' } }, ip),
         h(Btn, { onClick: () => doCopy(ip, 'hero'), style: { padding: '0 6px', lineHeight: '16px' } }, copied === 'hero' ? '已复制' : '复制'),
         h(Btn, { onClick: () => act('open-binding'), style: { padding: '0 6px', lineHeight: '16px' } }, '绑定'),
-        configured ? null : h('span', { style: { color: COLORS.dim } }, '· 未配 Key → 设置 → 微步情报'),
+        configured ? null : h('span', { style: { color: COLORS.dim } }, '· 未配 Key → 设置 → 微步情报查询'),
       );
     }
 
@@ -516,7 +518,7 @@ window.__ModuleLoader__.load({
           name: 'settings.section',
           id: 'threatbook-intel',
           order: 60,
-          label: '微步情报',
+          label: '微步情报查询',
         }, SettingsPanel));
       },
     };

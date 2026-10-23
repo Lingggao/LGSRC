@@ -477,6 +477,31 @@ function stamp() {
   return localTime().replace(/[: ]/g, '-');
 }
 
+/**
+ * 只允许操作本插件自己产出的报告（位于 threatbook-reports/ 目录内）。
+ * 用于 open-report / open-folder 两个动作，避免被诱导打开任意路径。
+ * @param value 待校验路径
+ * @param kind 'file' 只接受 .md/.json 文件；'dir' 只接受目录
+ * @returns 规范化后的绝对路径，非法时返回 null
+ */
+function reportPathWithin(value, kind) {
+  const raw = String(value || '').trim();
+  if (!raw) return null;
+  const target = path.resolve(raw);
+  const segments = target.split(/[\\/]/).filter(Boolean);
+  if (!segments.includes(REPORT_DIR_NAME)) return null;
+  let stat;
+  try {
+    stat = fs.statSync(target);
+  } catch {
+    return null;
+  }
+  if (kind === 'file') {
+    return stat.isFile() && /\.(md|json)$/i.test(target) ? target : null;
+  }
+  return stat.isDirectory() ? target : null;
+}
+
 function renderValue(value, depth = 0) {
   const pad = '  '.repeat(depth);
   if (value === null || value === undefined) return `${pad}- —`;
@@ -668,7 +693,28 @@ export function apply(ctx) {
       `threatbook: ${routePath}`,
     );
 
+    /**
+     * 本机路由的可信校验：只接受来自 DSH 已授权浏览器的请求。
+     * connection 服务缺失时（非 Web 载体）不做拦截，保持原有能力。
+     */
+    const rejectUntrusted = (req, res) => {
+      const connection = ctx.get('connection');
+      if (!connection || typeof connection.requestRejection !== 'function') return false;
+      let rejection;
+      try {
+        rejection = connection.requestRejection(req);
+      } catch {
+        rejection = 403;
+      }
+      if (rejection === undefined) return false;
+      res.statusCode = rejection;
+      res.setHeader('cache-control', 'no-store');
+      res.end();
+      return true;
+    };
+
     route('/threatbook/state', async (req, res) => {
+      if (rejectUntrusted(req, res)) return;
       if (req.method !== 'GET' && req.method !== 'HEAD') {
         sendJson(res, 405, { error: '只支持 GET' });
         return;
@@ -681,6 +727,7 @@ export function apply(ctx) {
     });
 
     route('/threatbook/action', async (req, res) => {
+      if (rejectUntrusted(req, res)) return;
       if (req.method !== 'POST') {
         sendJson(res, 405, { error: '只支持 POST' });
         return;
@@ -718,16 +765,16 @@ export function apply(ctx) {
             openExternal(BIND_URL);
           }
         } else if (action === 'open-report') {
-          const target = String(body.path || '');
-          if (!target || !/\.(md|json)$/i.test(target) || !/threatbook-reports/i.test(target) || !fs.existsSync(target)) {
+          const target = reportPathWithin(body.path, 'file');
+          if (!target) {
             sendJson(res, 400, { error: '报告路径无效或文件不存在' });
             return;
           }
           openExternal(target);
         } else if (action === 'open-folder') {
-          const dir = String(body.path || '');
-          if (!dir || !fs.existsSync(dir)) {
-            sendJson(res, 400, { error: '目录不存在' });
+          const dir = reportPathWithin(body.path, 'dir');
+          if (!dir) {
+            sendJson(res, 400, { error: '目录无效或不存在' });
             return;
           }
           openExternal(dir);

@@ -36,6 +36,17 @@ git clone https://github.com/Lingggao/LGSRC.git
 - 插件启动时读取本机网卡 IP，并向若干公网 IP 探测服务查询出口 IP（可用 `THREATBOOK_EGRESS_URLS` 改成自有服务）。
 - **API Key 只存本机** `<DSH 配置目录>/plugin-data/threatbook-intel/apikey.json`（权限 0600），不上传、不同步、不进入模型上下文。仓库与安装包里不含任何密钥。
 
+## 安全
+
+安装前请先读这两份，均为本目录内维护：
+
+| 文档 | 内容 |
+| --- | --- |
+| [`SECURITY.md`](SECURITY.md) | 数据流向表、网络出口清单、密钥与文件写入范围、已知限制 |
+| [`docs/threatbook-intel-security-audit.md`](docs/threatbook-intel-security-audit.md) | 按“命令执行 / 文件操作 / 网络请求 / 依赖 / 打包内容”逐项检查的自检报告 |
+
+一句话结论：零运行时依赖、无下载执行、无遥测，网络目标为固定常量，Key 仅存本机。
+
 ## 怎么加新插件（给维护者）
 
 每个插件目录就是一个完整的 npm 包，彼此独立，不需要额外的构建工具：
@@ -43,7 +54,9 @@ git clone https://github.com/Lingggao/LGSRC.git
 ```
 dsh-plugins/
 ├── README.md            ← 本文件
+├── SECURITY.md          ← 安全说明（数据流向、网络出口、密钥处理）
 ├── RELEASING.md         ← 发版手册（三步）
+├── docs/                ← 各插件的安全自检报告
 ├── scripts/check.mjs    ← 清单自检脚本，CI 与本机都跑它
 └── <插件名>/            ← package.json 在这一层
 ```
@@ -55,5 +68,7 @@ dsh-plugins/
 3. `cordis.patch.yml` 里 `name`
 
 改动提交后，仓库的 Actions 会自动跑语法检查与清单检查；发版见 [RELEASING.md](RELEASING.md)。
+
+新增或修改插件行为（网络目标、文件写入、依赖）时，同步更新 `SECURITY.md` 对应条目，并在 `docs/` 下补一份该插件的自检报告（可复制现有报告的章节结构）。
 
 版本号规则：**小修小补涨最后一位**（`1.0.0` → `1.0.1`），**加功能或较大优化涨第一位**（`1.0.1` → `2.0.0`）。
