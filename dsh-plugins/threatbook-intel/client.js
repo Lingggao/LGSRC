@@ -260,7 +260,7 @@ window.__ModuleLoader__.load({
       btn: {
         display: 'inline-flex', alignItems: 'center', gap: '4px',
         border: `1px solid ${C.lineStrong}`, background: C.surface2, color: C.text,
-        borderRadius: '8px', padding: '3px 10px', fontSize: '12px', lineHeight: '16px',
+        borderRadius: '8px', padding: '3px 10px', minWidth: '54px', justifyContent: 'center', fontSize: '12px', lineHeight: '16px',
         fontWeight: 500, cursor: 'pointer', whiteSpace: 'nowrap',
         transition: 'background 120ms ease, border-color 120ms ease',
       },
@@ -268,7 +268,7 @@ window.__ModuleLoader__.load({
       btnPrimary: {
         display: 'inline-flex', alignItems: 'center', gap: '4px',
         border: '1px solid transparent', background: C.brand, color: '#FFFFFF',
-        borderRadius: '8px', padding: '3px 12px', fontSize: '12px', lineHeight: '16px',
+        borderRadius: '8px', padding: '3px 12px', minWidth: '54px', justifyContent: 'center', fontSize: '12px', lineHeight: '16px',
         fontWeight: 600, cursor: 'pointer', whiteSpace: 'nowrap',
         transition: 'filter 120ms ease',
       },
@@ -278,7 +278,7 @@ window.__ModuleLoader__.load({
       input: {
         flex: '1 1 240px', minWidth: '180px', boxSizing: 'border-box',
         border: `1px solid ${C.lineStrong}`, background: C.surface2, color: C.text,
-        borderRadius: '8px', padding: '6px 10px', fontSize: '12px', outline: 'none',
+        borderRadius: '8px', padding: '6px 10px', fontSize: '12px',
       },
 
       // 容器
@@ -293,7 +293,7 @@ window.__ModuleLoader__.load({
       row: { display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' },
 
       // 步骤
-      steps: { display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(230px, 1fr))', gap: '10px' },
+      steps: { display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(190px, 1fr))', gap: '10px' },
       stepCard: {
         display: 'flex', flexDirection: 'column', gap: '6px', padding: '10px 12px',
         background: C.surface2, border: `1px solid ${C.line}`, borderRadius: '10px',
@@ -301,6 +301,12 @@ window.__ModuleLoader__.load({
       stepNo: {
         width: '18px', height: '18px', borderRadius: '50%', background: C.brand, color: '#FFFFFF',
         fontSize: '11px', fontWeight: 700, display: 'inline-flex', alignItems: 'center',
+        justifyContent: 'center', flex: '0 0 auto',
+      },
+      subNo: {
+        width: '16px', height: '16px', borderRadius: '50%', background: 'transparent',
+        border: `1px solid ${C.lineStrong}`, color: C.dim, boxSizing: 'border-box',
+        fontSize: '10px', fontWeight: 600, display: 'inline-flex', alignItems: 'center',
         justifyContent: 'center', flex: '0 0 auto',
       },
       stepTitle: { fontSize: '12px', fontWeight: 600, color: C.text },
@@ -363,6 +369,12 @@ window.__ModuleLoader__.load({
       }, props.children);
     }
 
+    function shorten(text, head = 12, tail = 8) {
+      const s = String(text || '');
+      if (s.length <= head + tail + 1) return s;
+      return `${s.slice(0, head)}…${s.slice(-tail)}`;
+    }
+
     function Sep() {
       return h('span', { style: css.sep, 'aria-hidden': 'true' });
     }
@@ -374,7 +386,7 @@ window.__ModuleLoader__.load({
     function StepCard(props) {
       return h('div', { style: css.stepCard },
         h('div', { style: { display: 'flex', alignItems: 'center', gap: '6px' } },
-          h('span', { style: css.stepNo }, props.n),
+          h('span', { style: css.subNo }, props.n),
           h('span', { style: css.stepTitle }, props.title)),
         h('div', { style: css.stepDesc }, props.desc),
         h('div', { style: { display: 'flex', alignItems: 'center', gap: '6px', flexWrap: 'wrap' } }, props.children));
@@ -504,9 +516,9 @@ window.__ModuleLoader__.load({
         h(Sep, null),
         last
           ? h(React.Fragment, null,
-              h('span', { style: css.group, title: last.markdownPath || '' },
+              h('span', { style: css.group, title: last.indicator },
                 h('span', null, '最近'),
-                h('span', { style: css.monoSm }, last.indicator),
+                h('span', { style: css.monoSm }, shorten(last.indicator)),
                 h('span', { style: css.hint }, `(${last.type})`)),
               sessionId ? h(Btn, { primary: true, onClick: () => act('summarize', { sessionId }), title: '让 AI 针对这次查询写一段简要总结' }, 'AI 总结') : null,
               last.markdownPath ? h(Btn, { onClick: () => act('open-report', { path: last.markdownPath }) }, '打开报告') : null,
@@ -589,7 +601,9 @@ window.__ModuleLoader__.load({
             h(StepCard, { n: '2', title: '添加白名单', desc: `「我的 KEY」→ 添加 ${egress.ip || '出口 IP'}` }),
             h(StepCard, { n: '3', title: '复制 API Key', desc: '回到下方「API Key」一栏粘贴保存' })),
           h('div', { style: css.row },
-            h('a', { style: css.link, href: data.bindingUrl, target: '_blank', rel: 'noreferrer noopener' }, data.bindingUrl)),
+            h('span', { style: { fontSize: '12px', color: C.dim } }, '绑定页地址'),
+            h('a', { style: css.link, href: data.bindingUrl, target: '_blank', rel: 'noreferrer noopener' }, data.bindingUrl),
+            h(Btn, { onClick: () => doCopy(data.bindingUrl, 'bind') }, copied === 'bind' ? '已复制' : '复制')),
         ),
 
         // 3. API Key
@@ -624,7 +638,7 @@ window.__ModuleLoader__.load({
           last
             ? h(React.Fragment, null,
                 h('div', { style: css.row },
-                  h('span', { style: css.mono }, last.indicator),
+                  h('span', { style: { ...css.mono, wordBreak: 'break-all' }, title: last.indicator }, last.indicator),
                   h('span', { style: css.hint }, `${last.type} · ${last.at}`)),
                 h('pre', {
                   style: {
