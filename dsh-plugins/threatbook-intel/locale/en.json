@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "ThreatBook Intel",
+    "description": "Shows this machine's egress IP with one-click copy, opens the ThreatBook key-binding page, keeps the API key in a local file only, and runs full multi-endpoint ThreatBook lookups for IP, domain, file hash, URL and CVE."
+  }
+}

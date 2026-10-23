@@ -1,0 +1,103 @@
+name: DSH plugin release
+
+# 两种触发方式，效果相同：
+#   1) 在 Actions 页面手动运行（推荐）。版本号可以留空——留空时自动读取 package.json，
+#      这样维护者改完代码与版本号后，点一下按钮即可发版，不需要手输版本。
+#   2) 推送形如 threatbook-intel-v1.0.1 的标签（插件目录名 + -v + 版本号）。
+# 触发后自动：版本校验 → 语法与清单检查 → 打包 zip → 创建 Release。
+
+on:
+  workflow_dispatch:
+    inputs:
+      plugin:
+        description: '插件目录名（dsh-plugins 下的文件夹名）'
+        required: true
+        default: 'threatbook-intel'
+        type: string
+      version:
+        description: '版本号；留空则自动读取该插件 package.json 的 version'
+        required: false
+        default: ''
+        type: string
+  push:
+    tags:
+      - '*-v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 解析参数
+        id: meta
+        run: |
+          set -euo pipefail
+          if [ "${GITHUB_EVENT_NAME}" = "workflow_dispatch" ]; then
+            plugin="${{ inputs.plugin }}"
+            version="${{ inputs.version }}"
+          else
+            tag="${GITHUB_REF_NAME}"
+            plugin="${tag%-v*}"
+            version="${tag##*-v}"
+          fi
+
+          dir="dsh-plugins/${plugin}"
+          [ -f "$dir/package.json" ] || { echo "找不到 $dir/package.json —— 插件目录名写错了"; exit 1; }
+
+          actual=$(node -p "require('./$dir/package.json').version")
+          if [ -z "$version" ]; then
+            version="$actual"
+            echo "未指定版本号，读取 package.json：${version}"
+          elif [ "$actual" != "$version" ]; then
+            echo "package.json 的 version 是 $actual，但本次填的是 $version"
+            echo "请先把 $dir/package.json 的 version 改成 $version 并提交，或把输入框留空让流程自动读取"
+            exit 1
+          fi
+
+          echo "plugin=${plugin}" >> "$GITHUB_OUTPUT"
+          echo "version=${version}" >> "$GITHUB_OUTPUT"
+          echo "tag=${plugin}-v${version}" >> "$GITHUB_OUTPUT"
+          echo "插件：${plugin}　版本：${version}"
+
+      - name: 语法检查
+        run: |
+          set -euo pipefail
+          dir="dsh-plugins/${{ steps.meta.outputs.plugin }}"
+          while IFS= read -r file; do
+            node --check "$file"
+          done < <(find "$dir" -name '*.js' -not -path '*/node_modules/*')
+
+      - name: 清单一致性
+        run: node dsh-plugins/scripts/check.mjs
+
+      - name: 打包
+        run: |
+          set -euo pipefail
+          cd dsh-plugins
+          zip -r "../${{ steps.meta.outputs.plugin }}-${{ steps.meta.outputs.version }}.zip" \
+            "${{ steps.meta.outputs.plugin }}" \
+            -x '*/node_modules/*' '*.tgz' '*/.git/*'
+          ls -lh "../${{ steps.meta.outputs.plugin }}-${{ steps.meta.outputs.version }}.zip"
+
+      - name: 创建 Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ steps.meta.outputs.tag }}
+          ZIP: ${{ steps.meta.outputs.plugin }}-${{ steps.meta.outputs.version }}.zip
+          TITLE: ${{ steps.meta.outputs.plugin }} ${{ steps.meta.outputs.version }}
+        run: |
+          set -euo pipefail
+          if [ "${GITHUB_EVENT_NAME}" = "workflow_dispatch" ]; then
+            gh release create "$TAG" "$ZIP" --title "$TITLE" --generate-notes \
+              --target "${{ github.event.repository.default_branch }}"
+          else
+            gh release create "$TAG" "$ZIP" --title "$TITLE" --generate-notes
+          fi

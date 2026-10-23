@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="ThreatBook Intel">
+  <defs>
+    <linearGradient id="tbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e23b3b"/>
+      <stop offset="1" stop-color="#9e0f0f"/>
+    </linearGradient>
+  </defs>
+  <path d="M32 4 8 12v20c0 14 10.5 24.5 24 28 13.5-3.5 24-14 24-28V12L32 4z" fill="url(#tbg)"/>
+  <path d="M32 10.5 13.5 16.6V32c0 11 8 19.4 18.5 22.3C42.5 51.4 50.5 43 50.5 32V16.6L32 10.5z" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="2"/>
+  <circle cx="32" cy="31" r="9.5" fill="none" stroke="#fff" stroke-width="2.5"/>
+  <circle cx="32" cy="31" r="3.2" fill="#fff"/>
+  <path d="M32 31 41.5 21.5" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M32 41.5v5" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-opacity=".8"/>
+</svg>

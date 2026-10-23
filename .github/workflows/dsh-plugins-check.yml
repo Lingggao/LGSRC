@@ -1,0 +1,47 @@
+name: DSH plugins check
+
+# 每次改动 dsh-plugins/ 都跑一遍：语法 + 清单一致性 + 打包内容。
+# 作用是把「技术斟酌」变成机器判断——清单写错、模块 id 与包名不一致这类问题不会流到发布环节。
+
+on:
+  push:
+    paths:
+      - 'dsh-plugins/**'
+      - '.github/workflows/dsh-plugins-check.yml'
+  pull_request:
+    paths:
+      - 'dsh-plugins/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 语法检查（所有 .js）
+        run: |
+          set -euo pipefail
+          while IFS= read -r file; do
+            echo "checking $file"
+            node --check "$file"
+          done < <(find dsh-plugins -name '*.js' -not -path '*/node_modules/*')
+
+      - name: 清单一致性
+        run: node dsh-plugins/scripts/check.mjs
+
+      - name: 打包内容预览
+        run: |
+          set -euo pipefail
+          for dir in dsh-plugins/*/; do
+            [ -f "$dir/package.json" ] || continue
+            echo "== $dir"
+            (cd "$dir" && npm pack --dry-run 2>&1 | grep -E 'npm notice (package|[0-9.]+[kMG]?B )' || true)
+          done

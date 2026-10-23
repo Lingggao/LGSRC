@@ -1,0 +1,4 @@
+- insert:
+    - id: threatbook-intel
+      name: 'dsh-threatbook-intel'
+      config: {}

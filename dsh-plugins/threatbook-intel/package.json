@@ -1,0 +1,58 @@
+{
+  "name": "dsh-threatbook-intel",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "ThreatBook (微步在线) intel for DSH: shows the machine's egress IP with copy, opens the key-binding page, keeps the API key in a local file only, and runs full ThreatBook lookups for IP / domain / file hash / URL / CVE.",
+  "keywords": [
+    "dsh-plugin",
+    "dsh-bundle",
+    "threatbook",
+    "threat-intelligence",
+    "ti",
+    "ioc"
+  ],
+  "license": "MIT",
+  "author": "Ling Gao (LGSRC)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lingggao/LGSRC.git",
+    "directory": "dsh-plugins/threatbook-intel"
+  },
+  "homepage": "https://github.com/Lingggao/LGSRC/tree/main/dsh-plugins/threatbook-intel",
+  "bugs": {
+    "url": "https://github.com/Lingggao/LGSRC/issues"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-settings"
+      ]
+    }
+  }
+}

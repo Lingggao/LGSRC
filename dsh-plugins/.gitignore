@@ -1,0 +1,10 @@
+# 本目录的代码以 MIT 许可发布，仓库其余内容仍遵循 CC BY-SA 4.0。
+# 这里只做源码管理；发布到 npm 的产物由 `npm pack` 生成，不要提交到仓库。
+node_modules/
+*.tgz
+*.log
+.DS_Store
+Thumbs.db
+
+# 插件运行时产物（查询报告默认写在工作区，不在本仓库）
+threatbook-reports/
