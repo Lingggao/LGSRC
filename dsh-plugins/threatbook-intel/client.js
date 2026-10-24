@@ -277,24 +277,7 @@ window.__ModuleLoader__.load({
       group: { display: 'inline-flex', alignItems: 'center', gap: '6px', minWidth: '0' },
       sep: { width: '1px', height: '12px', background: C.line, display: 'inline-block', flex: '0 0 auto' },
 
-      // 按钮：默认有实体底色，识别度优先
-      btn: {
-        display: 'inline-flex', alignItems: 'center', gap: '4px',
-        border: `1px solid ${C.lineStrong}`, background: C.surface2, color: C.text,
-        borderRadius: '8px', padding: '3px 10px', minWidth: '54px', justifyContent: 'center', fontSize: '12px', lineHeight: '16px',
-        fontWeight: 500, cursor: 'pointer', whiteSpace: 'nowrap',
-        transition: 'background 120ms ease, border-color 120ms ease',
-      },
-      btnHover: { background: C.hover, borderColor: C.lineStrong },
-      btnPrimary: {
-        display: 'inline-flex', alignItems: 'center', gap: '4px',
-        border: '1px solid transparent', background: C.brand, color: '#FFFFFF',
-        borderRadius: '8px', padding: '3px 12px', minWidth: '54px', justifyContent: 'center', fontSize: '12px', lineHeight: '16px',
-        fontWeight: 600, cursor: 'pointer', whiteSpace: 'nowrap',
-        transition: 'filter 120ms ease',
-      },
-      btnPrimaryHover: { filter: 'brightness(1.08)' },
-      btnOff: { opacity: 0.5, cursor: 'default' },
+      // 按钮样式见 ensureStyle() 注入的样式表
 
       input: {
         flex: '1 1 240px', minWidth: '180px', boxSizing: 'border-box',
@@ -369,24 +352,16 @@ window.__ModuleLoader__.load({
     };
 
     function Btn(props) {
-      const [hover, setHover] = React.useState(false);
+      ensureStyle();
       const off = Boolean(props.disabled) || store.busy;
-      const style = {
-        ...(props.primary ? css.btnPrimary : css.btn),
-        ...(hover && !off ? (props.primary ? css.btnPrimaryHover : css.btnHover) : null),
-        ...(off ? css.btnOff : null),
-        ...(props.style || {}),
-      };
       return h('button', {
         type: 'button',
-        style,
+        className: 'tb-btn',
+        'data-primary': props.primary ? '1' : '0',
+        style: props.style,
         title: props.title,
         disabled: off,
         onClick: props.onClick,
-        onMouseEnter: () => setHover(true),
-        onMouseLeave: () => setHover(false),
-        onFocus: () => setHover(true),
-        onBlur: () => setHover(false),
       }, props.children);
     }
 
@@ -532,7 +507,7 @@ window.__ModuleLoader__.load({
                 showKey
                   ? h(React.Fragment, null,
                       h('input', {
-                        style: css.input, type: 'password', placeholder: '粘贴 API Key',
+                        className: 'tb-input', style: css.input, type: 'password', placeholder: '粘贴 API Key',
                         value: draft, autoFocus: true,
                         onChange: (e) => setDraft(e.target.value),
                         onKeyDown: (e) => { if (e.key === 'Enter') save(); },
@@ -671,7 +646,7 @@ window.__ModuleLoader__.load({
                 h(Btn, { onClick: test }, '测试连通性'))
             : h('div', { style: css.row },
                 h('input', {
-                  style: css.input, type: 'password', placeholder: '粘贴 API Key(保存后只显示首尾 4 位)',
+                  className: 'tb-input', style: css.input, type: 'password', placeholder: '粘贴 API Key(保存后只显示首尾 4 位)',
                   value: draft,
                   onChange: (e) => setDraft(e.target.value),
                   onKeyDown: (e) => { if (e.key === 'Enter') save(); },
@@ -749,6 +724,38 @@ window.__ModuleLoader__.load({
       );
     }
 
+
+
+    // 通过注入样式表处理 hover / focus：React 内联样式无法表达伪类，
+    // 之前用 onFocus 模拟 hover，点击后焦点还在按钮上就会留下一圈默认焦点环。
+    let styleInjected = false;
+
+    function ensureStyle() {
+      if (styleInjected) return;
+      styleInjected = true;
+      if (typeof document === 'undefined' || !document.head) return;
+      if (document.getElementById('threatbook-intel-style')) return;
+      const style = document.createElement('style');
+      style.id = 'threatbook-intel-style';
+      style.textContent = [
+        '.tb-btn{display:inline-flex;align-items:center;justify-content:center;gap:4px;',
+        'border:1px solid var(--dsw-alias-border-l2);background:var(--dsw-alias-bg-layer-2);',
+        'color:var(--dsw-alias-label-primary);border-radius:8px;padding:3px 10px;min-width:54px;',
+        'font-size:12px;line-height:16px;font-weight:500;cursor:pointer;white-space:nowrap;',
+        'transition:background 120ms ease,border-color 120ms ease,filter 120ms ease}',
+        '.tb-btn:hover{background:var(--dsw-alias-interactive-bg-hover,var(--dsw-alias-bg-layer-2))}',
+        '.tb-btn:focus{outline:none}',
+        '.tb-btn:focus-visible{outline:2px solid var(--dsw-alias-brand-primary);outline-offset:2px}',
+        '.tb-btn[data-primary="1"]{background:var(--dsw-alias-brand-primary);color:#fff;',
+        'border-color:transparent;font-weight:600;padding:3px 12px}',
+        '.tb-btn[data-primary="1"]:hover{filter:brightness(1.08)}',
+        '.tb-btn:disabled{opacity:.5;cursor:default}',
+        '.tb-input:focus{outline:none;border-color:var(--dsw-alias-brand-primary)}',
+        '.tb-input:focus-visible{outline:none;border-color:var(--dsw-alias-brand-primary);',
+        'box-shadow:0 0 0 3px color-mix(in srgb,var(--dsw-alias-brand-primary) 18%,transparent)}',
+      ].join('');
+      document.head.appendChild(style);
+    }
 
     // 点击名称中间的「·」可循环切换界面预览状态；其余用户不会注意到这个入口
     function BrandName(props) {
