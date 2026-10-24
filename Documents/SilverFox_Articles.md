@@ -9,10 +9,15 @@
 
 ### 文章
 
-[041]  
+[042]  
 《[**关于“银狐”木马“镜昙（G02）”团伙攻击态势深入分析报告**](https://mp.weixin.qq.com/s/wbQlp9D3VusutrEfoxAxeQ)》  
 **国家计算机网络应急技术处理协调中心**，2026 年 10 月  
 网址：[https://mp.weixin.qq.com/s/wbQlp9D3VusutrEfoxAxeQ](https://mp.weixin.qq.com/s/wbQlp9D3VusutrEfoxAxeQ)
+
+[041]  
+《[**绿盟科技入选“中国‘银狐’木马专项防护解决方案市场洞察”**](https://mp.weixin.qq.com/s/E_rnrcAmAWXFzhZUnssKPw)》  
+**绿盟科技 (绿盟科技集团股份有限公司)**，2026 年 10 月  
+网址：[https://mp.weixin.qq.com/s/E_rnrcAmAWXFzhZUnssKPw](https://mp.weixin.qq.com/s/E_rnrcAmAWXFzhZUnssKPw)
 
 [040]  
 《[**权威机构推荐！奇安信“银狐”木马专项防护方案入选市场洞察报告**](https://mp.weixin.qq.com/s/SqYUaaMjEXw_N6QNKU5P_w)》  
