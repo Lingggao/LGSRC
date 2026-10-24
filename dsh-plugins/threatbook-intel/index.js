@@ -285,21 +285,52 @@ function planFor(type, indicator) {
   }
 }
 
+
+// 会话内记住「没有权限」的接口，避免每次查询都去撞墙；重启进程后自动重试
+const deniedEndpoints = new Map();
+
+function notePermission(job, result) {
+  if (!job || !job.endpoint || !result) return;
+  const code = result.code;
+  const msg = String(result.msg || '');
+  if (typeof code === 'number' && code < 0 && /权限|permission|forbidden/i.test(msg)) {
+    deniedEndpoints.set(job.endpoint, { label: job.label, endpoint: job.endpoint, msg, at: Date.now() });
+  } else if (typeof code === 'number' && code >= 0) {
+    deniedEndpoints.delete(job.endpoint);
+  }
+}
+
+function permissionSummary() {
+  return [...deniedEndpoints.values()].sort((a, b) => a.endpoint.localeCompare(b.endpoint));
+}
+
+function splitPlan(plan) {
+  const runnable = plan.filter((job) => !deniedEndpoints.has(job.endpoint));
+  const skipped = plan.filter((job) => deniedEndpoints.has(job.endpoint));
+  return { runnable: runnable.length ? runnable : plan.slice(0, 1), skipped };
+}
+
 async function runJob(job) {
   try {
     const res = await tbRequest(job.endpoint, job.params);
-    return { id: job.id, label: job.label, endpoint: job.endpoint, ok: true, code: res.code, msg: res.msg, data: res.data };
+    const result = { id: job.id, label: job.label, endpoint: job.endpoint, ok: true, code: res.code, msg: res.msg, data: res.data };
+    notePermission(job, result);
+    return result;
   } catch (error) {
-    return {
+    const result = {
       id: job.id, label: job.label, endpoint: job.endpoint, ok: false,
       code: -1, msg: error instanceof Error ? error.message : String(error), data: null,
     };
+    notePermission(job, result);
+    return result;
   }
 }
 
 async function runUrlFlow(indicator) {
   const first = await runJob({ id: 'url_report', label: 'URL 信誉报告', endpoint: '/url/report', params: { url: indicator } });
   const results = [first];
+  const denied = typeof first.code === 'number' && first.code < 0 && /权限|permission/i.test(String(first.msg || ''));
+  if (denied) return results;
   const lacking = !first.ok || first.code === 2 || first.code === 4 || first.code === 6 || !first.data;
   if (!lacking) return results;
   const scan = await runJob({ id: 'url_scan', label: '提交 URL 分析', endpoint: '/url/scan', params: { url: indicator } });
@@ -1083,6 +1114,7 @@ async function statePayload() {
     reportDirName: REPORT_DIR_NAME,
     lastLookup: state.last,
     autoOpenedAt: state.autoOpenedAt,
+    permissions: permissionSummary(),
   };
 }
 
@@ -1353,11 +1385,15 @@ export function apply(ctx) {
       }
 
       let results;
+      let skippedEndpoints = [];
       try {
         if (type === 'url') {
           results = await runUrlFlow(indicator);
         } else {
-          results = await Promise.all(planFor(type, indicator).map((job) => runJob(job)));
+          const plan = planFor(type, indicator);
+          const planParts = splitPlan(plan);
+          skippedEndpoints = planParts.skipped.map((job) => job.label);
+          results = await Promise.all(planParts.runnable.map((job) => runJob(job)));
         }
       } catch (error) {
         return {
@@ -1402,6 +1438,9 @@ export function apply(ctx) {
         .join('\n');
 
       const hints = analysisHints(type, indicator, results);
+      if (skippedEndpoints.length) {
+        hints.push(`已跳过本次会话中确认无权限的接口：${skippedEndpoints.join('、')} (重启 DSH 后会重新尝试)`);
+      }
       const text = [
         `微步情报查询：${indicator}(${typeLabel(type)})`,
         digest,

@@ -92,6 +92,7 @@ window.__ModuleLoader__.load({
           digest: '- 判定：恶意 (Trojan)\n- 家族：PatchedHostLoader\n- 检出：9/28\n- 关键行为：APC 注入、隐藏窗口、计划任务持久化',
         },
         autoOpenedAt: 0,
+        permissions: [],
       };
       if (kind === 'unconfigured') {
         payload.key = { configured: false, masked: '', savedAt: null, file: payload.key.file };
@@ -275,7 +276,6 @@ window.__ModuleLoader__.load({
         boxSizing: 'border-box',
       }),
       group: { display: 'inline-flex', alignItems: 'center', gap: '6px', minWidth: '0' },
-      sep: { width: '1px', height: '12px', background: C.line, display: 'inline-block', flex: '0 0 auto' },
 
       // 按钮样式见 ensureStyle() 注入的样式表
 
@@ -365,16 +365,6 @@ window.__ModuleLoader__.load({
       }, props.children);
     }
 
-    function shorten(text, head = 12, tail = 8) {
-      const s = String(text || '');
-      if (s.length <= head + tail + 1) return s;
-      return `${s.slice(0, head)}…${s.slice(-tail)}`;
-    }
-
-    function Sep() {
-      return h('span', { style: css.sep, 'aria-hidden': 'true' });
-    }
-
     function Badge(props) {
       return h('span', { style: css.badge(props.tone) }, props.children);
     }
@@ -408,6 +398,13 @@ window.__ModuleLoader__.load({
       const octets = raw.split('.');
       if (octets.length !== 4) return raw;
       return [octets[0], '*'.repeat(octets[1].length), '*'.repeat(octets[2].length), octets[3]].join('.');
+    }
+
+    // 指标较长时按「前 10 + … + 后 10」固定截断，保证各行长度可预期
+    function shortIndicator(text, head = 10, tail = 10) {
+      const value = String(text || '');
+      if (value.length <= head + tail + 1) return value;
+      return `${value.slice(0, head)}…${value.slice(-tail)}`;
     }
 
     function IpValue(props) {
@@ -526,33 +523,47 @@ window.__ModuleLoader__.load({
         );
       }
 
-      return h('div', { style: css.bar },
-        h('span', { style: css.dot(C.ok) }),
-        h(BrandName, { style: css.strong }),
-        h(Sep, null),
-        h('span', { style: css.group },
-          h('span', null, '出口 IP'),
-          h(IpValue, { ip: primaryIp, style: css.mono }),
-        h(IpToggle, null),
-          h(Btn, { onClick: () => doCopy(primaryIp, 'ip'), title: '复制出口 IP' }, copied === 'ip' ? '已复制' : '复制'),
-          h(Btn, { onClick: () => act('open-binding'), title: '打开微步「我的 KEY」绑定页' }, '绑定')),
-        h(Sep, null),
-        h('span', { style: { ...css.group, gap: '5px' }, title: data.key.file },
-          h('span', null, 'API Key'),
-          h('span', { style: css.mono }, data.key.masked)),
-        h(Sep, null),
+      return h('div', {
+        style: {
+          display: 'flex', flexDirection: 'column', gap: '6px', padding: '4px 2px 2px',
+          width: '100%', boxSizing: 'border-box', fontSize: '12px', lineHeight: '20px', color: C.dim,
+        },
+      },
+        // 第一行：标题 + 出口 IP + 复制 + 绑定
+        h('div', { style: css.row },
+          h('span', { style: css.dot(C.ok) }),
+          h(BrandName, { style: css.strong }),
+          h('span', { style: css.group },
+            h('span', null, '出口 IP'),
+            h(IpValue, { ip: primaryIp, style: css.mono }),
+            h(IpToggle, null),
+            h(Btn, { onClick: () => doCopy(primaryIp, 'ip'), title: '复制出口 IP' }, copied === 'ip' ? '已复制' : '复制'),
+            h(Btn, { onClick: () => act('open-binding'), title: '打开微步「我的 KEY」绑定页' }, '绑定'))),
+        // 第二行：API Key + 最近查询；强制定在一行，指标超长时用省略号收尾
+        h('div', { style: { ...css.row, flexWrap: 'nowrap', minWidth: '0' } },
+          h('span', { style: { ...css.group, gap: '5px', flex: '0 0 auto' }, title: data.key.file },
+            h('span', null, 'API Key'),
+            h('span', { style: css.mono }, data.key.masked)),
+          last
+            ? h('span', { style: { ...css.group, gap: '5px', flex: '0 1 auto', minWidth: '0' }, title: last.indicator },
+                h('span', { style: { flex: '0 0 auto' } }, '最近查询'),
+                h('span', {
+                  style: {
+                    ...css.mono, flex: '0 1 auto', minWidth: '0', overflow: 'hidden',
+                    textOverflow: 'ellipsis', whiteSpace: 'nowrap', display: 'inline-block',
+                  },
+                }, shortIndicator(last.indicator)),
+                h('span', { style: { ...css.hint, flex: '0 0 auto' } }, `(${last.kind || last.type})`))
+            : h('span', { style: { ...css.hint, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' } },
+                '在对话中粘贴 IP / Domain / Hash / URL / CVE 即可查询')),
+        // 第三行：操作按钮
         last
-          ? h(React.Fragment, null,
-              h('span', { style: css.group, title: last.indicator },
-                h('span', null, '最近查询'),
-                h('span', { style: css.monoSm }, shorten(last.indicator)),
-                h('span', { style: css.hint }, `(${last.kind || last.type})`)),
-              sessionId ? h(Btn, { primary: true, onClick: () => act('summarize', { sessionId }), title: '让 AI 针对这次查询写一段简要总结' }, 'AI 总结') : null,
+          ? h('div', { style: css.row },
+              sessionId ? h(Btn, { primary: true, onClick: () => act('summarize', { sessionId }), title: '让 AI 针对这次查询写一段总结' }, 'AI 总结') : null,
               last.markdownPath ? h(Btn, { onClick: () => act('open-report', { path: last.markdownPath }) }, '打开报告') : null,
-              last.reportDir ? h(Btn, { onClick: () => act('open-folder', { path: last.reportDir }) }, '打开目录') : null,
-            )
-          : h('span', { style: css.hint }, '在对话中粘贴 IP / Domain / Hash / URL / CVE 即可查询'),
-        s.notice ? h('span', { style: css.notice(s.notice.kind) }, s.notice.text) : null,
+              last.reportDir ? h(Btn, { onClick: () => act('open-folder', { path: last.reportDir }) }, '打开目录') : null)
+          : null,
+        s.notice ? h('div', { style: css.notice(s.notice.kind) }, s.notice.text) : null,
       );
     }
 
@@ -660,7 +671,17 @@ window.__ModuleLoader__.load({
             'API Key 以 0600 权限写入本机文件，不上传、不同步、不记入对话日志；删除该文件即等于清除。'),
         ),
 
-        // 4. 最近查询
+        // 4. 接口权限 (仅当确认过无权限时显示)
+        data.permissions && data.permissions.length
+          ? h('div', { style: css.card },
+              h(SectionHead, { n: '5', title: '接口权限', hint: '无权限的接口在本次会话内跳过' }),
+              h('div', { style: css.row },
+                ...data.permissions.map((item) => h(Badge, { key: item.endpoint, tone: 'warn' }, item.label))),
+              h('p', { style: css.hint },
+                '这些接口返回「没有访问接口权限」，本次会话内不再重复调用。重启 DSH 后会重新尝试；需要完整情报请在微步控制台开通对应权限。'))
+          : null,
+
+        // 5. 最近查询
         h('div', { style: css.card },
           h(SectionHead, { n: '4', title: '最近查询' }),
           last
