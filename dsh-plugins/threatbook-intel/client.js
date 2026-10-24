@@ -31,7 +31,7 @@ window.__ModuleLoader__.load({
       notice: '带提示',
     };
 
-    const PREVIEW = (() => {
+    let PREVIEW = (() => {
       try {
         const fromUrl = new URLSearchParams(window.location.search || '').get('tb');
         if (fromUrl && PREVIEW_LABELS[fromUrl]) {
@@ -43,6 +43,24 @@ window.__ModuleLoader__.load({
       } catch { /* 无 localStorage 时不进预览 */ }
       return null;
     })();
+    const PREVIEW_ORDER = ['unconfigured', 'configured', 'last', 'empty', 'notice', 'loading', 'error'];
+
+    function setPreview(kind) {
+      PREVIEW = kind || null;
+      try {
+        if (PREVIEW) window.localStorage.setItem('threatbook:preview', PREVIEW);
+        else window.localStorage.removeItem('threatbook:preview');
+      } catch { /* 忽略 */ }
+      notify('ok', PREVIEW ? `界面预览：${PREVIEW_LABELS[PREVIEW]}` : '已退出预览，显示真实数据');
+      refresh();
+    }
+
+    function cyclePreview() {
+      const index = PREVIEW ? PREVIEW_ORDER.indexOf(PREVIEW) : -1;
+      const next = index + 1 >= PREVIEW_ORDER.length ? null : PREVIEW_ORDER[index + 1];
+      setPreview(next);
+    }
+
 
     function previewPayload(kind) {
       const payload = {
@@ -63,12 +81,14 @@ window.__ModuleLoader__.load({
         bindingUrl: 'https://x.threatbook.com/v5/serviceCenter?tab=myKey',
         reportDirName: 'threatbook-reports',
         lastLookup: {
+          kind: 'Hash',
           indicator: '243c526b8b42…f02739bc6a3',
           type: 'sha256',
           at: '2026-10-24 12:00:00',
           markdownPath: 'C:\\work\\threatbook-reports\\sha256-243c….md',
           jsonPath: 'C:\\work\\threatbook-reports\\sha256-243c….json',
           reportDir: 'C:\\work\\threatbook-reports',
+          brief: '- 结论：恶意 / 木马 / PatchedHostLoader\n- 文件：sample.exe (exe)\n- 检出：38/70',
           digest: '- 判定：恶意 (Trojan)\n- 家族：PatchedHostLoader\n- 检出：9/28\n- 关键行为：APC 注入、隐藏窗口、计划任务持久化',
         },
         autoOpenedAt: 0,
@@ -90,6 +110,7 @@ window.__ModuleLoader__.load({
       listeners: new Set(),
       busy: false,
       notice: null,
+      ipVisible: false,
     };
 
     function emit() {
@@ -241,8 +262,8 @@ window.__ModuleLoader__.load({
         fontSize: '12px', lineHeight: '20px', color: C.dim, padding: '4px 2px 2px',
       },
       strong: { color: C.text, fontWeight: 600, whiteSpace: 'nowrap' },
-      mono: { color: C.text, fontWeight: 600, fontSize: '12px' },
-      monoSm: { fontSize: '11px', color: C.dim, fontWeight: 500 },
+      mono: { color: C.text, fontSize: '12px' },
+      monoSm: { fontSize: '11px', color: C.dim },
       dot: (color, size = 7) => ({
         width: `${size}px`, height: `${size}px`, borderRadius: '50%', display: 'inline-block',
         background: color, flex: '0 0 auto',
@@ -399,6 +420,35 @@ window.__ModuleLoader__.load({
         props.hint ? h('span', { style: css.hint }, props.hint) : null);
     }
 
+
+    // 出口 IP 默认打码，便于截图分享；点「点击显示」临时还原
+    function maskIp(value) {
+      const raw = String(value || '').trim();
+      if (!raw || !/^[0-9a-fA-F.:]+$/.test(raw)) return raw;
+      if (raw.includes(':')) {
+        const parts = raw.split(':');
+        if (parts.length <= 2) return raw;
+        return [parts[0], ...parts.slice(1, -1).map((p) => (p ? '***' : '')), parts[parts.length - 1]].join(':');
+      }
+      const octets = raw.split('.');
+      if (octets.length !== 4) return raw;
+      return [octets[0], '*'.repeat(octets[1].length), '*'.repeat(octets[2].length), octets[3]].join('.');
+    }
+
+    function IpValue(props) {
+      const text = props.ip === undefined || props.ip === null || props.ip === '' ? '未获取' : String(props.ip);
+      return h('span', { style: props.style }, store.ipVisible ? text : maskIp(text));
+    }
+
+    function IpToggle() {
+      const visible = Boolean(store.ipVisible);
+      return h('span', {
+        onClick: () => patch({ ipVisible: !store.ipVisible }),
+        title: visible ? '打码显示出口 IP' : '显示完整出口 IP',
+        style: { cursor: 'pointer', fontSize: '11px', color: C.dim },
+      }, visible ? '(点击隐藏)' : '(点击显示)');
+    }
+
     function useCopy() {
       const [copied, setCopied] = React.useState(null);
       const timer = React.useRef(null);
@@ -436,10 +486,10 @@ window.__ModuleLoader__.load({
       if (!data) {
         if (s.error) {
           return h('div', { style: css.bar }, h('span', { style: css.dot(C.err) }),
-            h('span', null, `LGSRC · 微步情报查询：本机服务未就绪 (${s.error})`));
+            h('span', null, h(BrandName, null), `：本机服务未就绪 (${s.error})`));
         }
         return h('div', { style: css.bar }, h('span', { style: css.dot(C.warn) }),
-          h('span', null, 'LGSRC · 微步情报查询：正在读取本机 IP…'));
+          h('span', null, h(BrandName, null), '：正在读取本机 IP…'));
       }
 
       const egress = data.egress || {};
@@ -468,12 +518,13 @@ window.__ModuleLoader__.load({
           h('div', { style: css.card },
             h('div', { style: css.row },
               h('span', { style: css.ring(C.warn) }),
-              h('span', { style: { fontSize: '13px', fontWeight: 600, color: C.text } }, 'LGSRC · 微步情报查询'),
+              h(BrandName, { style: { fontSize: '13px', fontWeight: 600, color: C.text } }),
               h(Badge, { tone: 'warn' }, '未配置 API Key'),
               h('span', { style: { fontSize: '12px', color: C.dim } }, '三步开始使用')),
             h('div', { style: css.steps },
               h(StepCard, { n: '1', title: '复制出口 IP', desc: '要绑定到微步「我的 KEY」白名单的地址' },
-                h('span', { style: css.mono }, primaryIp),
+                h(IpValue, { ip: primaryIp, style: css.mono }),
+                h(IpToggle, null),
                 h(Btn, { onClick: () => doCopy(primaryIp, 'ip') }, copied === 'ip' ? '已复制' : '复制')),
               h(StepCard, { n: '2', title: '添加到白名单', desc: '登录微步 X 情报中心 → 我的 KEY → 添加 IP' },
                 h(Btn, { onClick: () => act('open-binding') }, '打开绑定页')),
@@ -502,11 +553,12 @@ window.__ModuleLoader__.load({
 
       return h('div', { style: css.bar },
         h('span', { style: css.dot(C.ok) }),
-        h('span', { style: css.strong }, 'LGSRC · 微步情报查询'),
+        h(BrandName, { style: css.strong }),
         h(Sep, null),
         h('span', { style: css.group },
           h('span', null, '出口 IP'),
-          h('span', { style: css.mono }, primaryIp),
+          h(IpValue, { ip: primaryIp, style: css.mono }),
+        h(IpToggle, null),
           h(Btn, { onClick: () => doCopy(primaryIp, 'ip'), title: '复制出口 IP' }, copied === 'ip' ? '已复制' : '复制'),
           h(Btn, { onClick: () => act('open-binding'), title: '打开微步「我的 KEY」绑定页' }, '绑定')),
         h(Sep, null),
@@ -517,14 +569,14 @@ window.__ModuleLoader__.load({
         last
           ? h(React.Fragment, null,
               h('span', { style: css.group, title: last.indicator },
-                h('span', null, '最近'),
+                h('span', null, '最近查询'),
                 h('span', { style: css.monoSm }, shorten(last.indicator)),
-                h('span', { style: css.hint }, `(${last.type})`)),
+                h('span', { style: css.hint }, `(${last.kind || last.type})`)),
               sessionId ? h(Btn, { primary: true, onClick: () => act('summarize', { sessionId }), title: '让 AI 针对这次查询写一段简要总结' }, 'AI 总结') : null,
               last.markdownPath ? h(Btn, { onClick: () => act('open-report', { path: last.markdownPath }) }, '打开报告') : null,
               last.reportDir ? h(Btn, { onClick: () => act('open-folder', { path: last.reportDir }) }, '打开目录') : null,
             )
-          : h('span', { style: css.hint }, '在对话里粘贴 IP / Domain / Hash / URL / CVE 即可查询'),
+          : h('span', { style: css.hint }, '在对话中粘贴 IP / Domain / Hash / URL / CVE 即可查询'),
         s.notice ? h('span', { style: css.notice(s.notice.kind) }, s.notice.text) : null,
       );
     }
@@ -543,7 +595,7 @@ window.__ModuleLoader__.load({
       const data = s.data;
       if (!data) {
         return h('div', { style: css.page },
-          h('h1', { style: css.h1 }, 'LGSRC · 微步情报查询'),
+          h('h1', { style: css.h1 }, h(BrandName, null)),
           h('p', { style: css.sub }, s.error ? `本机服务未就绪：${s.error}` : '正在读取…'));
       }
 
@@ -565,7 +617,7 @@ window.__ModuleLoader__.load({
 
       return h('div', { style: css.page },
         h('div', null,
-          h('h1', { style: css.h1 }, 'LGSRC · 微步情报查询'),
+          h('h1', { style: css.h1 }, h(BrandName, null)),
           h('p', { style: { ...css.sub, marginTop: '6px' } },
             'IP / Domain / Hash / URL / CVE 的情报查询。API Key 只写入本机文件，查询直连 api.threatbook.cn。')),
 
@@ -574,7 +626,8 @@ window.__ModuleLoader__.load({
           h(SectionHead, { n: '1', title: 'IP 地址', hint: '需在「我的 KEY」绑定出口 IP 后才可调用' }),
           h('div', { style: css.row },
             h('span', { style: { fontSize: '12px', color: C.dim } }, '出口 IP'),
-            h('span', { style: { ...css.mono, fontSize: '14px' } }, egress.ip || '未探测到'),
+            h(IpValue, { ip: egress.ip || '未探测到', style: { ...css.mono, fontSize: '14px' } }),
+            h(IpToggle, null),
             h(Btn, { onClick: () => doCopy(egress.ip || '', 'eg') }, copied === 'eg' ? '已复制' : '复制'),
             h(Btn, { onClick: () => act('refresh-egress') }, '重新探测'),
             egress.error ? h('span', { style: { fontSize: '11px', color: C.err } }, `探测失败：${egress.error}`) : null),
@@ -634,12 +687,12 @@ window.__ModuleLoader__.load({
 
         // 4. 最近查询
         h('div', { style: css.card },
-          h(SectionHead, { n: '4', title: '最近一次查询' }),
+          h(SectionHead, { n: '4', title: '最近查询' }),
           last
             ? h(React.Fragment, null,
                 h('div', { style: css.row },
                   h('span', { style: { ...css.mono, wordBreak: 'break-all' }, title: last.indicator }, last.indicator),
-                  h('span', { style: css.hint }, `${last.type} · ${last.at}`)),
+                  h('span', { style: css.hint }, `${last.kind || last.type} · ${last.at}`)),
                 h('pre', {
                   style: {
                     margin: 0, padding: '10px 12px', background: C.surface2,
@@ -647,12 +700,12 @@ window.__ModuleLoader__.load({
                     fontFamily: 'inherit', fontSize: '12px', lineHeight: '20px', color: C.text,
                     whiteSpace: 'pre-wrap', wordBreak: 'break-word', maxHeight: '280px', overflow: 'auto',
                   },
-                }, last.digest || ''),
+                }, last.brief || last.digest || ''),
                 h('div', { style: css.row },
                   last.markdownPath ? h(Btn, { onClick: () => act('open-report', { path: last.markdownPath }) }, '打开完整 MD 报告') : null,
                   last.reportDir ? h(Btn, { onClick: () => act('open-folder', { path: last.reportDir }) }, '打开报告目录') : null,
                   last.markdownPath ? h('span', { style: css.hint }, last.markdownPath) : null))
-            : h('p', { style: css.hint }, '还没有查询过。在对话里粘贴 IP / Domain / Hash / URL / CVE 即可。'),
+            : h('p', { style: css.hint }, '还没有查询过。在对话中粘贴 IP / Domain / Hash / URL / CVE 即可。'),
         ),
       );
     }
@@ -687,33 +740,34 @@ window.__ModuleLoader__.load({
         title: configured ? `API Key: ${data.key.masked}` : '未配置 API Key，可在 设置 → 微步情报查询 里填写',
       },
         h('span', { style: configured ? css.dot(C.ok) : css.ring(C.warn) }),
-        h('span', { style: { ...css.strong, overflow: 'hidden', textOverflow: 'ellipsis' } }, 'LGSRC · 微步情报查询'),
-        h('span', { style: { ...css.mono, fontSize: '12px' } }, ip),
+        h(BrandName, { style: { ...css.strong, flex: '0 1 auto', minWidth: '0', overflow: 'hidden', textOverflow: 'ellipsis' } }),
+        h(IpValue, { ip, style: { ...css.mono, fontSize: '12px' } }),
+        h(IpToggle, null),
         h(Btn, { onClick: () => doCopy(ip, 'hero') }, copied === 'hero' ? '已复制' : '复制'),
         h(Btn, { onClick: () => act('open-binding') }, '绑定'),
         configured ? null : h('span', { style: css.hint }, '· 未配置 API Key'),
       );
     }
 
+
+    // 点击名称中间的「·」可循环切换界面预览状态；其余用户不会注意到这个入口
+    function BrandName(props) {
+      return h('span', { style: props.style },
+        'LGSRC ',
+        h('span', {
+          onClick: cyclePreview,
+          title: '点击切换界面预览状态',
+          style: { cursor: 'pointer' },
+        }, '·'),
+        ' 微步情报查询');
+    }
     function PreviewBar() {
       if (!PREVIEW) return null;
-      const go = (kind) => {
-        try {
-          if (kind) window.localStorage.setItem('threatbook:preview', kind);
-          else window.localStorage.removeItem('threatbook:preview');
-          const url = new URL(window.location.href);
-          if (url.searchParams.has('tb')) {
-            url.searchParams.delete('tb');
-            window.history.replaceState(null, '', url.pathname + url.search + url.hash);
-          }
-        } catch { /* 忽略 */ }
-        window.location.reload();
-      };
       return h('div', { style: css.preview },
         h('span', { style: { fontSize: '11px', fontWeight: 600, color: C.text } }, '界面预览'),
         ...Object.entries(PREVIEW_LABELS).map(([kind, label]) =>
-          h(Btn, { key: kind, primary: kind === PREVIEW, onClick: () => go(kind) }, label)),
-        h(Btn, { onClick: () => go(null) }, '退出预览'));
+          h(Btn, { key: kind, primary: kind === PREVIEW, onClick: () => setPreview(kind) }, label)),
+        h(Btn, { onClick: () => setPreview(null) }, '退出预览'));
     }
 
     function DockPanel(props) {

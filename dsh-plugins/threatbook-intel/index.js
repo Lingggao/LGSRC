@@ -229,6 +229,13 @@ function detectType(indicator) {
   return 'unknown';
 }
 
+function typeShort(type) {
+  return {
+    ip: 'IP', domain: 'Domain', md5: 'Hash', sha1: 'Hash', sha256: 'Hash',
+    url: 'URL', vuln: 'CVE', unknown: '未知',
+  }[type] || String(type);
+}
+
 function typeLabel(type) {
   return {
     ip: 'IP', domain: '域名', sha256: '文件 Hash (SHA256)', sha1: '文件 Hash (SHA1)', md5: '文件 Hash (MD5)',
@@ -458,6 +465,86 @@ function summarize(type, indicator, results) {
   }
 
   if (!lines.length) lines.push('- 未取到可解读字段，请查看下方完整响应');
+  return lines.join('\n');
+}
+
+function digestBrief(type, indicator, results) {
+  const byId = new Map(results.map((r) => [r.id, r]));
+  const lines = [];
+  const push = (k, v) => {
+    if (v !== '' && v !== undefined && v !== null && v !== '—') lines.push(`- ${k}：${v}`);
+  };
+  const verdict = (rec) => {
+    const judged = fmtList(rec && rec.judgments, 8).replace(/, /g, '、');
+    return judged && judged !== '—' ? judged : '暂无情报判定';
+  };
+
+  if (type === 'ip') {
+    const rec = pickRecord((byId.get('ip_query') || {}).data, indicator);
+    const rep = pickRecord((byId.get('ip_reputation') || {}).data, indicator);
+    push('结论', verdict(rec));
+    push('位置 / 运营商', [loc(rec), rec && rec.basic && rec.basic.carrier].filter(Boolean).join(' · '));
+    push('ASN', rec && rec.asn ? `AS${rec.asn.number} ${rec.asn.info || ''}`.trim() : '');
+    if (Array.isArray(rec.samples) && rec.samples.length) {
+      const families = rec.samples.map((s) => s && s.malware_family).filter(Boolean);
+      push('关联样本', `${rec.samples.length} 条${families.length ? `，家族 ${fmtList(families, 3)}` : ''}`);
+    }
+    if (rep && rep.confidence_level !== undefined) {
+      push('入站信誉', `可信度 ${rep.confidence_level}${rep.judgments ? ` · ${fmtList(rep.judgments, 4)}` : ''}`);
+    }
+  } else if (type === 'domain') {
+    const rec = pickRecord((byId.get('domain_query') || {}).data, indicator);
+    const sub = (((byId.get('sub_domains') || {}).data || {}).sub_domains) || {};
+    push('结论', verdict(rec));
+    const ips = Array.isArray(rec.cur_ips) ? rec.cur_ips.map((x) => x && x.ip).filter(Boolean) : [];
+    push('解析 IP', ips.length ? `${ips.length} 个 · ${fmtList(ips, 4)}` : '');
+    push('分类', fmtList((rec.categories && rec.categories.first_cats) || [], 4));
+    if (sub.total !== undefined) push('子域名', `共 ${sub.total} 个`);
+    const whois = rec.cur_whois;
+    push('注册信息', whois && whois.registrar_name
+      ? `${whois.registrar_name}${whois.cdate ? ` · 注册于 ${whois.cdate}` : ''}`
+      : '');
+    if (Array.isArray(rec.samples) && rec.samples.length) push('关联样本', `${rec.samples.length} 条`);
+  } else if (type === 'sha256' || type === 'sha1' || type === 'md5') {
+    const rep = (byId.get('file_report') || {}).data || {};
+    const s = rep.summary || {};
+    const me = rep.multiengines || {};
+    push('结论', [s.threat_level, s.malware_type, s.malware_family].filter(Boolean).join(' / ') || '暂无情报判定');
+    push('文件', s.file_name ? `${s.file_name} (${s.file_type || '—'})` : '');
+    if (me.result) {
+      const total = Object.keys(me.result).length;
+      const bad = Object.values(me.result).filter((v) => v && v !== 'safe').length;
+      push('检出', `${bad}/${total}`);
+    }
+    push('场景', fmtList(s.scenes, 4));
+  } else if (type === 'url') {
+    const lastOk = [...results].reverse().find((r) => r.id.startsWith('url_report') && r.ok && r.data);
+    const d = (lastOk && lastOk.data) || {};
+    const me = d.multiengines || {};
+    const hits = Object.entries(me).filter(([, v]) => v && v !== 'safe' && v !== 'whitelist');
+    push('结论', d.threat_level ? d.threat_level : '暂无情报判定');
+    if (Object.keys(me).length) push('检出引擎', `${hits.length}/${Object.keys(me).length}`);
+    push('解析 IP / HTTP', d.details ? `${d.details.ip || '—'} / ${d.details.httpStatusCode || d.details.status || '—'}` : '');
+    if (d.details && d.details.finalUrl) push('最终 URL', d.details.finalUrl);
+  } else if (type === 'vuln') {
+    const items = (((byId.get('vuln') || {}).data || {}).items) || [];
+    if (!items.length) {
+      push('结论', '未收录该漏洞编号');
+    } else {
+      const it = items[0];
+      const b = it.basic_info || {};
+      const ev = it.evaluation || {};
+      const vpt = ev.x_vpt || {};
+      const cv = ev.cvss_v3 || {};
+      const intel = it.intelligence || {};
+      push('漏洞', `${b.cve_id || b.xve_id || '—'}${b.vuln_name ? ` · ${b.vuln_name}` : ''}`);
+      push('风险', `VPR ${vpt.vpr ?? '—'} / CVSS3 ${cv.cvss_basic_score ?? '—'}`);
+      push('利用情况', `在野利用 ${intel.has_kev ? '是' : '否'} · 公开 PoC ${intel.has_poc_public ? '是' : '否'}`);
+      if (items.length > 1) push('匹配条目', `${items.length} 条`);
+    }
+  }
+
+  if (!lines.length) lines.push('- 无可用字段');
   return lines.join('\n');
 }
 
@@ -915,6 +1002,7 @@ export function apply(ctx) {
       }
 
       const digest = summarize(type, indicator, results);
+      const brief = digestBrief(type, indicator, results);
       const dir = resolveDir(exec && exec.agent);
       let files;
       try {
@@ -948,6 +1036,8 @@ export function apply(ctx) {
         markdownPath: files ? files.mdPath : null,
         jsonPath: files ? files.jsonPath : null,
         reportDir: files ? files.outDir : null,
+        kind: typeShort(type),
+        brief,
         digest,
       };
 
