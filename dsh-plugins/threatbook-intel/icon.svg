@@ -1,19 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="LGSRC · ThreatBook Intel">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="LGSRC · 威胁情报查询" shape-rendering="geometricPrecision">
   <defs>
     <linearGradient id="tb-red" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#BC2A35"/>
-      <stop offset="1" stop-color="#7E1017"/>
+      <stop offset="0" stop-color="#C4303C"/>
+      <stop offset="1" stop-color="#8A1119"/>
     </linearGradient>
     <linearGradient id="tb-blue" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#336FBE"/>
-      <stop offset="1" stop-color="#143464"/>
+      <stop offset="0" stop-color="#3A78C8"/>
+      <stop offset="1" stop-color="#153A6D"/>
     </linearGradient>
     <linearGradient id="tb-gloss" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.23"/>
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"/>
+      <stop offset="0.55" stop-color="#FFFFFF" stop-opacity="0.04"/>
       <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
     </linearGradient>
     <clipPath id="tb-shield">
-      <path d="M32 4 L8.8 12.4 Q7 13.2 7 15.6 L7 32 C7 45.4 16.8 55 32 59.6 C47.2 55 57 45.4 57 32 L57 15.6 Q57 13.2 55.2 12.4 Z"/>
+      <path d="M32 5 L9.6 13.1 Q8 13.7 8 15.5 L8 31.6 C8 44.6 17.4 53.8 32 58.6 C46.6 53.8 56 44.6 56 31.6 L56 15.5 Q56 13.7 54.4 13.1 Z"/>
     </clipPath>
   </defs>
 
@@ -21,13 +22,13 @@
     <rect x="0" y="0" width="32" height="64" fill="url(#tb-red)"/>
     <rect x="32" y="0" width="32" height="64" fill="url(#tb-blue)"/>
     <rect x="0" y="0" width="64" height="64" fill="url(#tb-gloss)"/>
-    <path d="M32 4 L8.8 12.4 Q7 13.2 7 15.6 L7 32 C7 45.4 16.8 55 32 59.6 C47.2 55 57 45.4 57 32 L57 15.6 Q57 13.2 55.2 12.4 Z"
-          fill="none" stroke="#FFFFFF" stroke-opacity="0.28" stroke-width="2.2" stroke-linejoin="round"/>
+    <path d="M32 5 L9.6 13.1 Q8 13.7 8 15.5 L8 31.6 C8 44.6 17.4 53.8 32 58.6 C46.6 53.8 56 44.6 56 31.6 L56 15.5 Q56 13.7 54.4 13.1 Z"
+          fill="none" stroke="#000000" stroke-opacity="0.16" stroke-width="2.4" stroke-linejoin="round"/>
   </g>
 
-  <path d="M32 21.2 V40.2 M23.2 30.7 H40.8"
-        fill="none" stroke="#FFFFFF" stroke-width="4.6" stroke-linecap="round"/>
+  <path d="M32 5 L9.6 13.1 Q8 13.7 8 15.5 L8 31.6 C8 44.6 17.4 53.8 32 58.6 C46.6 53.8 56 44.6 56 31.6 L56 15.5 Q56 13.7 54.4 13.1 Z"
+        fill="none" stroke="#FFFFFF" stroke-opacity="0.95" stroke-width="1.5" stroke-linejoin="round"/>
 
-  <path d="M32 4 L8.8 12.4 Q7 13.2 7 15.6 L7 32 C7 45.4 16.8 55 32 59.6 C47.2 55 57 45.4 57 32 L57 15.6 Q57 13.2 55.2 12.4 Z"
-        fill="none" stroke="#FFFFFF" stroke-opacity="0.94" stroke-width="1.1" stroke-linejoin="round"/>
+  <path d="M32 20.6 V43 M23.6 31.8 H40.4"
+        fill="none" stroke="#FFFFFF" stroke-width="5.2" stroke-linecap="round"/>
 </svg>

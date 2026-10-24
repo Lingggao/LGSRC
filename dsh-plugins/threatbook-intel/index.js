@@ -15,6 +15,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import https from 'node:https';
 import { spawn } from 'node:child_process';
+import { randomUUID } from 'node:crypto';
 
 const PLUGIN_ID = 'threatbook-intel';
 const API_BASE = 'https://api.threatbook.cn/v3';
@@ -306,8 +307,10 @@ function permissionSummary() {
 
 function splitPlan(plan) {
   const runnable = plan.filter((job) => !deniedEndpoints.has(job.endpoint));
-  const skipped = plan.filter((job) => deniedEndpoints.has(job.endpoint));
-  return { runnable: runnable.length ? runnable : plan.slice(0, 1), skipped };
+  const denied = plan.filter((job) => deniedEndpoints.has(job.endpoint));
+  // 全部无权限时仍执行第一个：它不该同时出现在「已跳过」里
+  if (runnable.length) return { runnable, skipped: denied };
+  return { runnable: denied.slice(0, 1), skipped: denied.slice(1) };
 }
 
 async function runJob(job) {
@@ -1288,12 +1291,13 @@ export function apply(ctx) {
             return;
           }
           const prompt = summaryPrompt(state.last);
-          agent.followup({
-            id: `threatbook-summarize-${Date.now()}`,
+          // 与 host 侧 createUserMessage 保持一致：UUID 身份 + 冻结的不可变消息
+          agent.followup(Object.freeze({
+            id: randomUUID(),
             role: 'user',
-            content: [{ type: 'text', text: prompt }],
-            source: { kind: 'user' },
-          });
+            content: Object.freeze([Object.freeze({ type: 'text', text: prompt })]),
+            source: Object.freeze({ kind: 'user' }),
+          }));
         } else if (action === 'verify') {
           const result = await verifyKey();
           sendJson(res, 200, { ok: result.ok, verify: result, state: await statePayload() });

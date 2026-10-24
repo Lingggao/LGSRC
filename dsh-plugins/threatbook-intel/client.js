@@ -112,6 +112,7 @@ window.__ModuleLoader__.load({
       busy: false,
       notice: null,
       ipVisible: false,
+      keyCheck: null,
     };
 
     function emit() {
@@ -256,15 +257,21 @@ window.__ModuleLoader__.load({
       err: 'var(--dsw-alias-state-error-primary)',
     };
 
+    // 设计令牌：间距 / 圆角 / 字号统一从这里取值，避免散落硬编码
+    const SPACE = { xs: '4px', sm: '6px', md: '8px', lg: '12px', xl: '16px' };
+    const RADIUS = { sm: '8px', md: '10px', lg: '12px', pill: '999px' };
+    const FS = { body: '12px', page: '16px' };
+    const LIST_COLS = 'minmax(0, 1fr) 92px 56px 76px';
+
     const css = {
       // 状态条
       bar: {
-        display: 'flex', alignItems: 'center', gap: '10px', flexWrap: 'wrap',
-        fontSize: '12px', lineHeight: '20px', color: C.dim, padding: '4px 2px 2px',
+        display: 'flex', alignItems: 'center', gap: SPACE.md, flexWrap: 'wrap',
+        fontSize: FS.body, lineHeight: '20px', color: C.dim, padding: '4px 2px 2px',
       },
       strong: { color: C.text, fontWeight: 600, whiteSpace: 'nowrap' },
-      mono: { color: C.text, fontSize: '12px' },
-      monoSm: { fontSize: '11px', color: C.dim },
+      mono: { color: C.text, fontSize: FS.body },
+      monoSm: { fontSize: FS.body, color: C.dim },
       dot: (color, size = 7) => ({
         width: `${size}px`, height: `${size}px`, borderRadius: '50%', display: 'inline-block',
         background: color, flex: '0 0 auto',
@@ -275,94 +282,120 @@ window.__ModuleLoader__.load({
         border: `1.5px solid ${color}`, background: 'transparent', flex: '0 0 auto',
         boxSizing: 'border-box',
       }),
-      group: { display: 'inline-flex', alignItems: 'center', gap: '6px', minWidth: '0' },
-
-      // 按钮样式见 ensureStyle() 注入的样式表
+      group: { display: 'inline-flex', alignItems: 'center', gap: SPACE.sm, minWidth: '0' },
 
       input: {
-        flex: '1 1 240px', minWidth: '180px', boxSizing: 'border-box',
+        flex: '1 1 240px', minWidth: '180px', boxSizing: 'border-box', minHeight: '32px',
         border: `1px solid ${C.lineStrong}`, background: C.surface2, color: C.text,
-        borderRadius: '8px', padding: '6px 10px', fontSize: '12px',
+        borderRadius: RADIUS.sm, padding: '6px 10px', fontSize: FS.body,
       },
 
       // 容器
       card: {
-        border: `1px solid ${C.line}`, background: C.surface, borderRadius: '12px',
-        padding: '14px 16px', display: 'flex', flexDirection: 'column', gap: '12px',
+        border: `1px solid ${C.line}`, background: C.surface, borderRadius: RADIUS.lg,
+        padding: SPACE.xl, display: 'flex', flexDirection: 'column', gap: SPACE.lg,
         boxSizing: 'border-box', width: '100%',
       },
-      page: { display: 'flex', flexDirection: 'column', gap: '14px', padding: '4px 2px 28px', maxWidth: '880px' },
-      h1: { margin: 0, fontSize: '15px', fontWeight: 600, color: C.text },
-      sub: { margin: 0, fontSize: '12px', color: C.dim, lineHeight: '20px' },
-      row: { display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' },
+      page: { display: 'flex', flexDirection: 'column', gap: SPACE.lg, padding: '4px 2px 24px', maxWidth: '880px', fontSize: FS.body, lineHeight: '20px' },
+      h1: { margin: 0, fontSize: FS.page, fontWeight: 600, color: C.text },
+      sub: { margin: 0, fontSize: FS.body, color: C.dim, lineHeight: '20px' },
+      row: { display: 'flex', alignItems: 'center', gap: SPACE.md, flexWrap: 'wrap' },
+      field: { display: 'flex', flexDirection: 'column', gap: SPACE.sm, width: '100%' },
+      fieldLabel: { fontSize: FS.body, fontWeight: 600, color: C.text },
 
       // 步骤
-      steps: { display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(190px, 1fr))', gap: '10px' },
+      steps: { display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(190px, 1fr))', gap: SPACE.md },
       stepCard: {
-        display: 'flex', flexDirection: 'column', gap: '6px', padding: '10px 12px',
-        background: C.surface2, border: `1px solid ${C.line}`, borderRadius: '10px',
+        display: 'flex', flexDirection: 'column', gap: SPACE.sm, padding: '10px 12px',
+        background: C.surface2, border: `1px solid ${C.line}`, borderRadius: RADIUS.md,
       },
       stepNo: {
         width: '18px', height: '18px', borderRadius: '50%', background: C.brand, color: '#FFFFFF',
-        fontSize: '11px', fontWeight: 700, display: 'inline-flex', alignItems: 'center',
-        justifyContent: 'center', flex: '0 0 auto',
+        fontSize: FS.body, fontWeight: 700, lineHeight: '1', textAlign: 'center', boxSizing: 'border-box',
+        display: 'inline-flex', alignItems: 'center', justifyContent: 'center', flex: '0 0 auto',
       },
       subNo: {
-        width: '16px', height: '16px', borderRadius: '50%', background: 'transparent',
+        width: '18px', height: '18px', borderRadius: '50%', background: 'transparent',
         border: `1px solid ${C.lineStrong}`, color: C.dim, boxSizing: 'border-box',
-        fontSize: '10px', fontWeight: 600, display: 'inline-flex', alignItems: 'center',
-        justifyContent: 'center', flex: '0 0 auto',
+        fontSize: FS.body, fontWeight: 600, lineHeight: '1', textAlign: 'center',
+        display: 'inline-flex', alignItems: 'center', justifyContent: 'center', flex: '0 0 auto',
       },
-      stepTitle: { fontSize: '12px', fontWeight: 600, color: C.text },
-      stepDesc: { fontSize: '11px', color: C.faint, lineHeight: '17px' },
+      stepTitle: { fontSize: FS.body, fontWeight: 600, color: C.text },
+      stepDesc: { fontSize: FS.body, color: C.dim, lineHeight: '18px' },
 
       // 小标签
-      badge: (tone) => ({
-        fontSize: '11px', lineHeight: '16px', padding: '1px 8px', borderRadius: '999px',
-        border: `1px solid ${tone === 'warn' ? C.warn : C.line}`,
-        color: tone === 'warn' ? C.warn : C.dim,
-        background: tone === 'warn' ? 'transparent' : C.surface2,
-        whiteSpace: 'nowrap',
-      }),
-
-      // 表格
-      table: { width: '100%', borderCollapse: 'collapse', fontSize: '12px' },
-      th: {
-        textAlign: 'left', padding: '0 10px 8px', color: C.faint, fontWeight: 500,
-        fontSize: '11px', borderBottom: `1px solid ${C.line}`,
-      },
-      td: {
-        padding: '8px 10px', borderBottom: `1px solid ${C.line}`, color: C.text,
-        verticalAlign: 'middle',
+      badge: (tone) => {
+        const color = tone === 'ok' ? C.ok : tone === 'warn' ? C.warn : tone === 'error' ? C.err : null;
+        return {
+          fontSize: FS.body, lineHeight: '18px', padding: '2px 8px', borderRadius: RADIUS.pill,
+          border: `1px solid ${color || C.line}`,
+          color: color || C.dim,
+          background: color ? 'transparent' : C.surface2,
+          whiteSpace: 'nowrap',
+        };
       },
 
-      link: { color: C.brand, textDecoration: 'none', fontSize: '12px' },
-      hint: { fontSize: '11px', color: C.faint, lineHeight: '17px' },
+      // 网卡列表：固定列宽的网格，表头与操作按钮天然对齐，也不会横向溢出
+      listHead: {
+        display: 'grid', gridTemplateColumns: LIST_COLS,
+        alignItems: 'center', color: C.faint, borderBottom: `1px solid ${C.line}`,
+        fontSize: FS.body,
+      },
+      listRow: {
+        display: 'grid', gridTemplateColumns: LIST_COLS, alignItems: 'center',
+        borderBottom: `1px solid ${C.line}`, fontSize: FS.body, lineHeight: '20px',
+      },
+      listHeadCell: { padding: '0 10px 8px', fontWeight: 500, whiteSpace: 'nowrap' },
+      listCell: { padding: '8px 10px', color: C.text, minWidth: '0', fontSize: FS.body },
+
+      link: { color: C.brand, textDecoration: 'none', fontSize: FS.body, overflowWrap: 'anywhere' },
+      hint: { fontSize: FS.body, color: C.dim, lineHeight: '18px' },
+      faint: { fontSize: FS.body, color: C.faint, overflowWrap: 'anywhere' },
       preview: {
-        display: 'flex', alignItems: 'center', gap: '6px', flexWrap: 'wrap', width: '100%',
-        padding: '6px 10px', marginBottom: '8px', boxSizing: 'border-box',
-        border: `1px dashed ${C.lineStrong}`, borderRadius: '10px', background: C.surface2,
-        fontSize: '11px', color: C.dim,
+        display: 'flex', alignItems: 'center', gap: SPACE.sm, flexWrap: 'wrap', width: '100%',
+        padding: '6px 10px', marginBottom: SPACE.md, boxSizing: 'border-box',
+        border: `1px dashed ${C.lineStrong}`, borderRadius: RADIUS.md, background: C.surface2,
+        fontSize: FS.body, color: C.dim,
       },
       notice: (kind) => ({
-        fontSize: '12px', color: kind === 'error' ? C.err : C.ok,
+        fontSize: FS.body, color: kind === 'error' ? C.err : C.ok,
         background: C.surface2, border: `1px solid ${C.line}`,
-        borderRadius: '8px', padding: '6px 10px',
+        borderRadius: RADIUS.sm, padding: '8px 12px',
+        display: 'flex', alignItems: 'flex-start', gap: SPACE.md,
       }),
     };
 
+
+    function Spinner() {
+      return h('span', { className: 'tb-spin', 'aria-hidden': 'true' });
+    }
+
     function Btn(props) {
       ensureStyle();
-      const off = Boolean(props.disabled) || store.busy;
+      const off = Boolean(props.disabled) || store.busy || Boolean(props.loading);
       return h('button', {
         type: 'button',
         className: 'tb-btn',
         'data-primary': props.primary ? '1' : '0',
+        'data-size': props.size === 'sm' ? 'sm' : 'md',
         style: props.style,
         title: props.title,
+        'aria-label': props.ariaLabel,
+        'aria-busy': props.loading ? 'true' : undefined,
         disabled: off,
         onClick: props.onClick,
-      }, props.children);
+        onKeyDown: props.onKeyDown,
+      },
+      props.loading ? h(Spinner, null) : null,
+      props.children);
+    }
+
+    // 统一的状态提示：图标 + 文本，颜色之外还有语义
+    function Notice(props) {
+      const isError = props.kind === 'error';
+      return h('div', { role: isError ? 'alert' : 'status', 'aria-live': 'polite', style: css.notice(props.kind) },
+        h('span', { 'aria-hidden': 'true', style: { fontWeight: 700 } }, isError ? '!' : '✓'),
+        h('span', null, props.text));
     }
 
     function Badge(props) {
@@ -374,15 +407,20 @@ window.__ModuleLoader__.load({
         h('div', { style: { display: 'flex', alignItems: 'center', gap: '6px' } },
           h('span', { style: css.subNo }, props.n),
           h('span', { style: css.stepTitle }, props.title)),
-        h('div', { style: css.stepDesc }, props.desc),
-        h('div', { style: { display: 'flex', alignItems: 'center', gap: '6px', flexWrap: 'wrap' } }, props.children));
+        props.desc || props.action
+          ? h('div', { style: { display: 'flex', alignItems: 'center', gap: '8px' } },
+              props.desc ? h('span', { style: { ...css.stepDesc, flex: '1 1 auto', minWidth: '0' } }, props.desc) : null,
+              props.action ? h('span', { style: { flex: '0 0 auto' } }, props.action) : null)
+          : null,
+        props.children ? h('div', { style: { display: 'flex', alignItems: 'center', gap: '6px', flexWrap: 'wrap' } }, props.children) : null);
     }
 
     function SectionHead(props) {
       return h('div', { style: { display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' } },
         h('span', { style: css.stepNo }, props.n),
-        h('span', { style: { fontSize: '13px', fontWeight: 600, color: C.text } }, props.title),
-        props.hint ? h('span', { style: css.hint }, props.hint) : null);
+        h('span', { style: { fontSize: '12px', fontWeight: 600, color: C.text } }, props.title),
+        props.hint ? h('span', { style: css.hint }, props.hint) : null,
+        props.children || null);
     }
 
 
@@ -417,7 +455,7 @@ window.__ModuleLoader__.load({
       return h('span', {
         onClick: () => patch({ ipVisible: !store.ipVisible }),
         title: visible ? '打码显示出口 IP' : '显示完整出口 IP',
-        style: { cursor: 'pointer', fontSize: '11px', color: C.dim },
+        style: { cursor: 'pointer', fontSize: '12px', color: C.dim },
       }, visible ? '(点击隐藏)' : '(点击显示)');
     }
 
@@ -440,6 +478,7 @@ window.__ModuleLoader__.load({
       const [copied, doCopy] = useCopy();
       const [draft, setDraft] = React.useState('');
       const [showKey, setShowKey] = React.useState(false);
+      const [saving, setSaving] = React.useState(false);
       const sessionId = props && props.sessionId ? props.sessionId : null;
 
       React.useEffect(() => {
@@ -457,10 +496,10 @@ window.__ModuleLoader__.load({
 
       if (!data) {
         if (s.error) {
-          return h('div', { style: css.bar }, h('span', { style: css.dot(C.err) }),
+          return h('div', { style: css.bar }, h('span', { style: css.dot(C.err), 'aria-hidden': 'true' }),
             h('span', null, h(BrandName, null), `：本机服务未就绪 (${s.error})`));
         }
-        return h('div', { style: css.bar }, h('span', { style: css.dot(C.warn) }),
+        return h('div', { style: css.bar }, h('span', { style: css.dot(C.warn), 'aria-hidden': 'true' }),
           h('span', null, h(BrandName, null), '：正在读取本机 IP…'));
       }
 
@@ -472,11 +511,18 @@ window.__ModuleLoader__.load({
       const save = async () => {
         const value = draft.trim();
         if (!value) return;
-        const res = await act('save-key', { apikey: value });
+        setSaving(true);
+        let res = null;
+        try {
+          res = await act('save-key', { apikey: value });
+        } finally {
+          setSaving(false);
+        }
         if (!res) return;
         setDraft('');
         setShowKey(false);
         const v = await act('verify');
+        patch({ keyCheck: v && v.verify ? v.verify : null });
         if (v && v.verify) {
           if (v.verify.ok) notify('ok', 'API Key 已保存，连通性校验通过。');
           else notify('error', `API Key 已保存，但校验未通过：${v.verify.message}`);
@@ -489,8 +535,8 @@ window.__ModuleLoader__.load({
         return h('div', { style: { width: '100%' } },
           h('div', { style: css.card },
             h('div', { style: css.row },
-              h('span', { style: css.ring(C.warn) }),
-              h(BrandName, { style: { fontSize: '13px', fontWeight: 600, color: C.text } }),
+              h('span', { style: css.ring(C.warn), 'aria-hidden': 'true' }),
+              h(BrandName, { style: { fontSize: '12px', fontWeight: 600, color: C.text } }),
               h(Badge, { tone: 'warn' }, '未配置 API Key'),
               h('span', { style: { fontSize: '12px', color: C.dim } }, '三步开始使用')),
             h('div', { style: css.steps },
@@ -505,47 +551,50 @@ window.__ModuleLoader__.load({
                   ? h(React.Fragment, null,
                       h('input', {
                         className: 'tb-input', style: css.input, type: 'password', placeholder: '粘贴 API Key',
+                      'aria-label': 'API Key',
                         value: draft, autoFocus: true,
                         onChange: (e) => setDraft(e.target.value),
                         onKeyDown: (e) => { if (e.key === 'Enter') save(); },
                       }),
-                      h(Btn, { primary: true, onClick: save, disabled: !draft.trim() }, '保存到本机'),
+                      h(Btn, { primary: true, onClick: save, loading: saving, disabled: !draft.trim() }, '保存到本机'),
                       h(Btn, { onClick: () => { setShowKey(false); setDraft(''); } }, '取消'),
                     )
                   : h(Btn, { primary: true, onClick: () => setShowKey(true) }, '粘贴 API Key')),
             ),
-            h('div', { style: { ...css.row, gap: '10px' } },
+            h('div', { style: { ...css.row } },
               h('span', { style: css.hint }, `网卡 IP：${nicIps}`),
               h(Btn, { onClick: () => act('refresh-egress') }, '重新探测'),
-              egress.error ? h('span', { style: { fontSize: '11px', color: C.err } }, `探测失败：${egress.error}`) : null),
-            s.notice ? h('div', { style: css.notice(s.notice.kind) }, s.notice.text) : null,
+              egress.error ? h('span', { style: { fontSize: '12px', color: C.err } }, `探测失败：${egress.error}`) : null),
+            s.notice ? h(Notice, { kind: s.notice.kind, text: s.notice.text }) : null,
           ),
         );
       }
 
       return h('div', {
+        role: 'group',
+        'aria-label': '微步情报查询状态条',
         style: {
-          display: 'flex', flexDirection: 'column', gap: '6px', padding: '4px 2px 2px',
-          width: '100%', boxSizing: 'border-box', fontSize: '12px', lineHeight: '20px', color: C.dim,
+          display: 'flex', flexDirection: 'column', gap: SPACE.sm, padding: '4px 2px 2px',
+          width: '100%', boxSizing: 'border-box', fontSize: FS.body, lineHeight: '20px', color: C.dim,
         },
       },
         // 第一行：标题 + 出口 IP + 复制 + 绑定
         h('div', { style: css.row },
-          h('span', { style: css.dot(C.ok) }),
+          h('span', { style: css.dot(C.ok), 'aria-hidden': 'true' }),
           h(BrandName, { style: css.strong }),
           h('span', { style: css.group },
             h('span', null, '出口 IP'),
             h(IpValue, { ip: primaryIp, style: css.mono }),
             h(IpToggle, null),
-            h(Btn, { onClick: () => doCopy(primaryIp, 'ip'), title: '复制出口 IP' }, copied === 'ip' ? '已复制' : '复制'),
+            h(Btn, { onClick: () => doCopy(primaryIp, 'ip'), title: '复制出口 IP', ariaLabel: '复制出口 IP' }, copied === 'ip' ? '已复制' : '复制'),
             h(Btn, { onClick: () => act('open-binding'), title: '打开微步「我的 KEY」绑定页' }, '绑定'))),
         // 第二行：API Key + 最近查询；强制定在一行，指标超长时用省略号收尾
         h('div', { style: { ...css.row, flexWrap: 'nowrap', minWidth: '0' } },
-          h('span', { style: { ...css.group, gap: '5px', flex: '0 0 auto' }, title: data.key.file },
+          h('span', { style: { ...css.group, flex: '0 0 auto' }, title: data.key.file },
             h('span', null, 'API Key'),
             h('span', { style: css.mono }, data.key.masked)),
           last
-            ? h('span', { style: { ...css.group, gap: '5px', flex: '0 1 auto', minWidth: '0' }, title: last.indicator },
+            ? h('span', { style: { ...css.group, flex: '0 1 auto', minWidth: '0' }, title: last.indicator },
                 h('span', { style: { flex: '0 0 auto' } }, '最近查询'),
                 h('span', {
                   style: {
@@ -553,7 +602,7 @@ window.__ModuleLoader__.load({
                     textOverflow: 'ellipsis', whiteSpace: 'nowrap', display: 'inline-block',
                   },
                 }, shortIndicator(last.indicator)),
-                h('span', { style: { ...css.hint, flex: '0 0 auto' } }, `(${last.kind || last.type})`))
+                h('span', { style: { ...css.faint, flex: '0 0 auto' } }, `(${last.kind || last.type})`))
             : h('span', { style: { ...css.hint, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' } },
                 '在对话中粘贴 IP / Domain / Hash / URL / CVE 即可查询')),
         // 第三行：操作按钮
@@ -563,7 +612,7 @@ window.__ModuleLoader__.load({
               last.markdownPath ? h(Btn, { onClick: () => act('open-report', { path: last.markdownPath }) }, '打开报告') : null,
               last.reportDir ? h(Btn, { onClick: () => act('open-folder', { path: last.reportDir }) }, '打开目录') : null)
           : null,
-        s.notice ? h('div', { style: css.notice(s.notice.kind) }, s.notice.text) : null,
+        s.notice ? h(Notice, { kind: s.notice.kind, text: s.notice.text }) : null,
       );
     }
 
@@ -575,6 +624,8 @@ window.__ModuleLoader__.load({
       const [draft, setDraft] = React.useState('');
       const [editing, setEditing] = React.useState(false);
       const [verify, setVerify] = React.useState(null);
+      const [saving, setSaving] = React.useState(false);
+      const [testing, setTesting] = React.useState(false);
 
       React.useEffect(() => { ensurePoller(); }, []);
 
@@ -591,104 +642,148 @@ window.__ModuleLoader__.load({
       const save = async () => {
         const value = draft.trim();
         if (!value) return;
-        const r = await act('save-key', { apikey: value });
-        if (r) { setDraft(''); setEditing(false); setVerify(null); }
+        setSaving(true);
+        try {
+          const r = await act('save-key', { apikey: value });
+          if (!r) return;
+          setDraft('');
+          setEditing(false);
+          setVerify({ loading: true, ok: false, message: '正在校验…' });
+          const v = await act('verify');
+          setVerify(v && v.verify ? v.verify : null);
+          patch({ keyCheck: v && v.verify ? v.verify : null });
+        } finally {
+          setSaving(false);
+        }
       };
 
       const test = async () => {
         setVerify({ loading: true, ok: false, message: '正在校验…' });
-        const r = await act('verify');
-        if (r && r.verify) setVerify(r.verify);
+        setTesting(true);
+        try {
+          const r = await act('verify');
+          if (r && r.verify) {
+            setVerify(r.verify);
+            patch({ keyCheck: r.verify });
+          }
+        } finally {
+          setTesting(false);
+        }
       };
 
       return h('div', { style: css.page },
         h('div', null,
           h('h1', { style: css.h1 }, h(BrandName, null)),
           h('p', { style: { ...css.sub, marginTop: '6px' } },
-            'IP / Domain / Hash / URL / CVE 的情报查询。API Key 只写入本机文件，查询直连 api.threatbook.cn。')),
+            '输入 IP / Domain / Hash / URL / CVE 查询情报。微步 API Key 本地存储，查询直连 api.threatbook.cn。')),
 
         // 1. 本机 IP
         h('div', { style: css.card },
           h(SectionHead, { n: '1', title: 'IP 地址', hint: '需在「我的 KEY」绑定出口 IP 后才可调用' }),
           h('div', { style: css.row },
             h('span', { style: { fontSize: '12px', color: C.dim } }, '出口 IP'),
-            h(IpValue, { ip: egress.ip || '未探测到', style: { ...css.mono, fontSize: '14px' } }),
+            h(IpValue, { ip: egress.ip || '未探测到', style: css.mono }),
             h(IpToggle, null),
             h(Btn, { onClick: () => doCopy(egress.ip || '', 'eg') }, copied === 'eg' ? '已复制' : '复制'),
             h(Btn, { onClick: () => act('refresh-egress') }, '重新探测'),
-            egress.error ? h('span', { style: { fontSize: '11px', color: C.err } }, `探测失败：${egress.error}`) : null),
-          h('table', { style: css.table },
-            h('thead', null, h('tr', null,
-              h('th', { style: css.th }, '网卡 IP'),
-              h('th', { style: css.th }, '网卡'),
-              h('th', { style: css.th }, '协议'),
-              h('th', { style: { ...css.th, textAlign: 'right' } }, '操作'))),
-            h('tbody', null, (data.ips || []).map((ip) => h('tr', { key: `${ip.iface}-${ip.address}` },
-              h('td', { style: css.td }, h('span', { style: css.mono }, ip.address)),
-              h('td', { style: { ...css.td, color: C.dim } }, ip.iface),
-              h('td', { style: { ...css.td, color: C.dim } }, ip.family),
-              h('td', { style: { ...css.td, textAlign: 'right' } },
-                h(Btn, { onClick: () => doCopy(ip.address, ip.address) }, copied === ip.address ? '已复制' : '复制')))))),
+            egress.error ? h('span', { style: { fontSize: '12px', color: C.err } }, `探测失败：${egress.error}`) : null,
+            egress.at && !egress.error ? h('span', { style: css.faint }, `探测于 ${new Date(egress.at).toLocaleTimeString('zh-CN', { hour12: false })}`) : null),
+          h('div', null,
+            h('div', { style: css.listHead },
+              h('span', { style: css.listHeadCell }, '网卡 IP'),
+              h('span', { style: css.listHeadCell }, '接口'),
+              h('span', { style: css.listHeadCell }, '协议'),
+              h('span', { style: { ...css.listHeadCell, textAlign: 'center', padding: '0 0 8px' } }, '操作')),
+            (data.ips || []).map((ip) => h('div', { key: `${ip.iface}-${ip.address}`, style: css.listRow },
+              h('span', {
+                style: { ...css.listCell, ...css.mono, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' },
+                title: ip.address,
+              }, ip.address),
+              h('span', { style: { ...css.listCell, color: C.dim, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }, title: ip.iface }, ip.iface),
+              h('span', { style: { ...css.listCell, color: C.dim, whiteSpace: 'nowrap' } }, ip.family),
+              h('span', { style: { ...css.listCell, padding: '8px 0', display: 'flex', justifyContent: 'center' } },
+                h(Btn, { size: 'sm', onClick: () => doCopy(ip.address, ip.address) }, copied === ip.address ? '已复制' : '复制'))))),
         ),
 
         // 2. 绑定
         h('div', { style: css.card },
           h(SectionHead, { n: '2', title: '绑定访问 IP' }),
           h('div', { style: css.steps },
-            h(StepCard, { n: '1', title: '打开绑定页', desc: '登录微步 X 情报中心' },
-              h(Btn, { primary: true, onClick: () => act('open-binding') }, '打开绑定页')),
-            h(StepCard, { n: '2', title: '添加白名单', desc: `「我的 KEY」→ 添加 ${egress.ip || '出口 IP'}` }),
+            h(StepCard, {
+              n: '1', title: '打开绑定页', desc: '登录微步 X 情报中心',
+              action: h(Btn, { primary: true, onClick: () => act('open-binding') }, '打开绑定页'),
+            }),
+            h(StepCard, { n: '2', title: '添加白名单', desc: `「我的 KEY」→ 添加 ${egress.ip && !store.ipVisible ? maskIp(egress.ip) : (egress.ip || '出口 IP')}` }),
             h(StepCard, { n: '3', title: '复制 API Key', desc: '回到下方「API Key」一栏粘贴保存' })),
           h('div', { style: css.row },
             h('span', { style: { fontSize: '12px', color: C.dim } }, '绑定页地址'),
-            h('a', { style: css.link, href: data.bindingUrl, target: '_blank', rel: 'noreferrer noopener' }, data.bindingUrl),
+            h('a', { className: 'tb-link', style: css.link, href: data.bindingUrl, target: '_blank', rel: 'noreferrer noopener' }, data.bindingUrl),
             h(Btn, { onClick: () => doCopy(data.bindingUrl, 'bind') }, copied === 'bind' ? '已复制' : '复制')),
         ),
 
         // 3. API Key
         h('div', { style: css.card },
-          h(SectionHead, { n: '3', title: 'API Key' }),
+          h(SectionHead, { n: '3', title: 'API Key' },
+            (() => {
+              const check = s.keyCheck || verify;
+              if (check && !check.loading && !check.ok) return h(Badge, { tone: 'error' }, '校验未通过');
+              if (data.key.configured) return h(Badge, { tone: 'ok' }, '已配置');
+              return h(Badge, { tone: 'warn' }, '未配置');
+            })()),
           data.key.configured && !editing
-            ? h('div', { style: css.row },
-                h('span', { style: css.mono }, `API Key ${data.key.masked}`),
-                h('span', { style: css.hint }, data.key.file),
-                h(Btn, { onClick: () => { setEditing(true); setDraft(''); } }, '更换'),
-                h(Btn, { onClick: async () => { await act('clear-key'); setVerify(null); } }, '清除'),
-                h(Btn, { onClick: test }, '测试连通性'))
-            : h('div', { style: css.row },
-                h('input', {
-                  className: 'tb-input', style: css.input, type: 'password', placeholder: '粘贴 API Key(保存后只显示首尾 4 位)',
-                  value: draft,
-                  onChange: (e) => setDraft(e.target.value),
-                  onKeyDown: (e) => { if (e.key === 'Enter') save(); },
-                }),
-                h(Btn, { primary: true, onClick: save, disabled: !draft.trim() }, '保存到本机'),
-                editing ? h(Btn, { onClick: () => { setEditing(false); setDraft(''); } }, '取消') : null,
-                data.key.configured ? null : h(Btn, { onClick: test }, '测试连通性')),
-          verify ? h('div', { style: css.notice(verify.ok ? 'ok' : 'error') },
-            verify.loading ? verify.message : `${verify.ok ? '通过' : '未通过'}：${verify.message}`) : null,
-          h('p', { style: css.hint },
-            'API Key 以 0600 权限写入本机文件，不上传、不同步、不记入对话日志；删除该文件即等于清除。'),
+            ? h(React.Fragment, null,
+                h('div', { style: css.row },
+                  h('span', { style: css.mono }, `API Key ${data.key.masked}`),
+                  h('span', { style: css.faint }, data.key.file),
+                  h(Btn, { onClick: () => { setEditing(true); setDraft(''); } }, '更换'),
+                  h(Btn, { onClick: async () => { await act('clear-key'); setVerify(null); patch({ keyCheck: null }); } }, '清除'),
+                  h(Btn, { onClick: test, loading: testing, title: '会调用一次 IP 信誉接口，占用当日额度' }, '测试连通性')),
+                h('p', { style: css.hint }, '完整 Key 以 0600 权限写入本机文件，不上传、不同步、不记入对话日志。'))
+            : h('div', { style: css.field },
+                h('label', { htmlFor: 'tb-apikey', style: css.fieldLabel }, 'API Key'),
+                h('div', { style: css.row },
+                  h('input', {
+                    id: 'tb-apikey',
+                    className: 'tb-input', style: css.input, type: 'password',
+                    placeholder: '粘贴微步 API Key',
+                    'aria-describedby': 'tb-apikey-hint',
+                    value: draft,
+                    onChange: (e) => setDraft(e.target.value),
+                    onKeyDown: (e) => { if (e.key === 'Enter') save(); },
+                  }),
+                  h(Btn, { primary: true, onClick: save, loading: saving, disabled: !draft.trim() }, '保存到本机'),
+                  editing ? h(Btn, { onClick: () => { setEditing(false); setDraft(''); } }, '取消') : null,
+                  data.key.configured ? null : h(Btn, { onClick: test, loading: testing, title: '会调用一次 IP 信誉接口，占用当日额度' }, '测试连通性')),
+                h('p', { id: 'tb-apikey-hint', style: css.hint }, '保存后界面只显示首尾 4 位；完整 Key 以 0600 权限写入本机文件，不上传、不同步、不记入对话日志。保存后会自动校验一次，占用一次 IP 信誉额度。')),
+          verify
+            ? h(Notice, {
+                kind: verify.ok ? 'ok' : 'error',
+                text: verify.loading ? verify.message : `${verify.ok ? '通过' : '未通过'}：${verify.message}`,
+              })
+            : null,
         ),
 
-        // 4. 接口权限 (仅当确认过无权限时显示)
-        data.permissions && data.permissions.length
-          ? h('div', { style: css.card },
-              h(SectionHead, { n: '5', title: '接口权限', hint: '无权限的接口在本次会话内跳过' }),
-              h('div', { style: css.row },
-                ...data.permissions.map((item) => h(Badge, { key: item.endpoint, tone: 'warn' }, item.label))),
-              h('p', { style: css.hint },
-                '这些接口返回「没有访问接口权限」，本次会话内不再重复调用。重启 DSH 后会重新尝试；需要完整情报请在微步控制台开通对应权限。'))
-          : null,
+        // 4. 接口权限：始终显示，保证分节编号连续
+        h('div', { style: css.card },
+          h(SectionHead, { n: '4', title: '接口权限', hint: data.permissions && data.permissions.length ? '本次会话已跳过' : undefined }),
+          data.permissions && data.permissions.length
+            ? h(React.Fragment, null,
+                h('div', { style: css.row },
+                  ...data.permissions.map((item) => h(Badge, { key: item.endpoint, tone: 'warn' }, item.label))),
+                h('p', { style: css.hint },
+                  `共 ${data.permissions.length} 个接口返回「没有访问接口权限」，本次会话内不再重复调用，相关指标只能给到部分情报。重启 DSH 会重新尝试；需要完整情报请在微步控制台开通对应权限。`))
+            : h('p', { style: css.hint },
+                '本次会话暂未发现无权限的接口。查询过某类指标后，被拒绝的接口会登记在这里，并在本次会话内自动跳过。')),
 
         // 5. 最近查询
         h('div', { style: css.card },
-          h(SectionHead, { n: '4', title: '最近查询' }),
+          h(SectionHead, { n: '5', title: '最近查询' },
+            last && last.priority ? h(Badge, { tone: /^P0/.test(String(last.priority)) ? 'error' : /^P1/.test(String(last.priority)) ? 'warn' : undefined }, last.priority) : null),
           last
             ? h(React.Fragment, null,
                 h('div', { style: css.row },
                   h('span', { style: { ...css.mono, wordBreak: 'break-all' }, title: last.indicator }, last.indicator),
-                  h('span', { style: css.hint }, `${last.kind || last.type} · ${last.at}`)),
+                  h('span', { style: css.faint }, `${last.kind || last.type} · ${last.at}`)),
                 h('pre', {
                   style: {
                     margin: 0, padding: '10px 12px', background: C.surface2,
@@ -700,7 +795,7 @@ window.__ModuleLoader__.load({
                 h('div', { style: css.row },
                   last.markdownPath ? h(Btn, { onClick: () => act('open-report', { path: last.markdownPath }) }, '打开完整 MD 报告') : null,
                   last.reportDir ? h(Btn, { onClick: () => act('open-folder', { path: last.reportDir }) }, '打开报告目录') : null,
-                  last.markdownPath ? h('span', { style: css.hint }, last.markdownPath) : null))
+                  last.markdownPath ? h('span', { style: css.faint }, last.markdownPath) : null))
             : h('p', { style: css.hint }, '还没有查询过。在对话中粘贴 IP / Domain / Hash / URL / CVE 即可。'),
         ),
       );
@@ -727,6 +822,8 @@ window.__ModuleLoader__.load({
         || '未获取';
 
       return h('div', {
+        role: 'group',
+        'aria-label': '微步情报查询状态',
         style: {
           display: 'flex', alignItems: 'center', gap: '6px',
           fontSize: '12px', lineHeight: '20px', color: C.dim,
@@ -735,12 +832,12 @@ window.__ModuleLoader__.load({
         },
         title: configured ? `API Key ${data.key.masked}` : '未配置 API Key，可在 设置 → 微步情报查询 里填写',
       },
-        h('span', { style: configured ? css.dot(C.ok) : css.ring(C.warn) }),
+        h('span', { style: configured ? css.dot(C.ok) : css.ring(C.warn), 'aria-hidden': 'true' }),
         h(BrandName, { style: { ...css.strong, flex: '0 1 auto', minWidth: '0', overflow: 'hidden', textOverflow: 'ellipsis' } }),
-        h(IpValue, { ip, style: { ...css.mono, fontSize: '12px' } }),
+        h(IpValue, { ip, style: css.mono }),
         h(IpToggle, null),
-        h(Btn, { onClick: () => doCopy(ip, 'hero') }, copied === 'hero' ? '已复制' : '复制'),
-        h(Btn, { onClick: () => act('open-binding') }, '绑定'),
+        h(Btn, { onClick: () => doCopy(ip, 'hero'), ariaLabel: '复制出口 IP' }, copied === 'hero' ? '已复制' : '复制'),
+        h(Btn, { onClick: () => act('open-binding'), ariaLabel: '打开微步「我的 KEY」绑定页' }, '绑定'),
         configured ? null : h('span', { style: css.hint }, '· 未配置 API Key'),
       );
     }
@@ -759,21 +856,39 @@ window.__ModuleLoader__.load({
       const style = document.createElement('style');
       style.id = 'threatbook-intel-style';
       style.textContent = [
-        '.tb-btn{display:inline-flex;align-items:center;justify-content:center;gap:4px;',
+        // 按钮：最小点击高度 28px，圆角与输入框一致
+        '.tb-btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;',
         'border:1px solid var(--dsw-alias-border-l2);background:var(--dsw-alias-bg-layer-2);',
-        'color:var(--dsw-alias-label-primary);border-radius:8px;padding:3px 10px;min-width:54px;',
-        'font-size:12px;line-height:16px;font-weight:500;cursor:pointer;white-space:nowrap;',
-        'transition:background 120ms ease,border-color 120ms ease,filter 120ms ease}',
+        'color:var(--dsw-alias-label-primary);border-radius:8px;padding:4px 12px;min-width:56px;',
+        'min-height:28px;box-sizing:border-box;font-size:12px;line-height:16px;font-weight:500;',
+        'cursor:pointer;white-space:nowrap;',
+        'transition:background 150ms ease,border-color 150ms ease,filter 150ms ease}',
         '.tb-btn:hover{background:var(--dsw-alias-interactive-bg-hover,var(--dsw-alias-bg-layer-2))}',
         '.tb-btn:focus{outline:none}',
         '.tb-btn:focus-visible{outline:2px solid var(--dsw-alias-brand-primary);outline-offset:2px}',
         '.tb-btn[data-primary="1"]{background:var(--dsw-alias-brand-primary);color:#fff;',
-        'border-color:transparent;font-weight:600;padding:3px 12px}',
+        'border-color:transparent;font-weight:600}',
         '.tb-btn[data-primary="1"]:hover{filter:brightness(1.08)}',
-        '.tb-btn:disabled{opacity:.5;cursor:default}',
+        '.tb-btn:disabled{opacity:.55;cursor:default}',
+        '.tb-btn[data-size="sm"]{min-width:0;min-height:24px;padding:2px 8px}',
+        // 输入框焦点用品牌色描边，不用默认黑框
+        '.tb-link:focus{outline:none}',
+        '.tb-link:focus-visible{outline:2px solid var(--dsw-alias-brand-primary);outline-offset:2px;border-radius:4px}',
         '.tb-input:focus{outline:none;border-color:var(--dsw-alias-brand-primary)}',
         '.tb-input:focus-visible{outline:none;border-color:var(--dsw-alias-brand-primary);',
         'box-shadow:0 0 0 3px color-mix(in srgb,var(--dsw-alias-brand-primary) 18%,transparent)}',
+        // 加载指示：旋转圆环，跟随文字颜色
+        '.tb-spin{width:12px;height:12px;border-radius:50%;flex:0 0 auto;',
+        'border:2px solid currentColor;border-right-color:transparent;',
+        'animation:tb-spin .7s linear infinite;opacity:.85}',
+        '@keyframes tb-spin{to{transform:rotate(360deg)}}',
+        // 图标：仅装饰用
+        '.tb-ico{width:12px;height:12px;flex:0 0 auto;display:block}',
+        // 尊重系统减少动效设置
+        '@media (prefers-reduced-motion: reduce){',
+        '.tb-btn{transition:none}',
+        '.tb-spin{animation:none;border-right-color:currentColor;opacity:.5}',
+        '}',
       ].join('');
       document.head.appendChild(style);
     }
@@ -783,7 +898,13 @@ window.__ModuleLoader__.load({
       return h('span', { style: props.style },
         'LGSRC ',
         h('span', {
+          role: 'button',
+          tabIndex: 0,
+          'aria-label': '切换界面预览状态',
           onClick: cyclePreview,
+          onKeyDown: (e) => {
+            if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); cyclePreview(); }
+          },
           title: '点击切换界面预览状态',
           style: { cursor: 'pointer' },
         }, '·'),
@@ -792,7 +913,7 @@ window.__ModuleLoader__.load({
     function PreviewBar() {
       if (!PREVIEW) return null;
       return h('div', { style: css.preview },
-        h('span', { style: { fontSize: '11px', fontWeight: 600, color: C.text } }, '界面预览'),
+        h('span', { style: { fontSize: '12px', fontWeight: 600, color: C.text } }, '界面预览'),
         ...Object.entries(PREVIEW_LABELS).map(([kind, label]) =>
           h(Btn, { key: kind, primary: kind === PREVIEW, onClick: () => setPreview(kind) }, label)),
         h(Btn, { onClick: () => setPreview(null) }, '退出预览'));
