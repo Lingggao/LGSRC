@@ -390,7 +390,7 @@ function summarize(type, indicator, results) {
     const adv = ((byId.get('domain_adv_query') || {}).data) || {};
     const sub = ((byId.get('sub_domains') || {}).data) || {};
     const ctx = ((byId.get('domain_context') || {}).data || {})[indicator] || {};
-    const ioc = pickRecord(((byId.get('scene_ioc') || {}).data || {}).domains, indicator);
+    const ioc = pickRecord(((byId.get('scene_ioc') || {}).data || {}), indicator);
     push('综合判定', fmtList(rec.judgments, 12));
     push('域名分类', fmtList((rec.categories && rec.categories.first_cats) || [], 6));
     push('情报条数', (() => { const c = intelCounts(rec); return `微步 ${c.tb}(有效 ${c.valid})/ X 奖励 ${c.reward} / 开源 ${c.os}`; })());
@@ -482,7 +482,8 @@ function digestBrief(type, indicator, results) {
   if (type === 'ip') {
     const rec = pickRecord((byId.get('ip_query') || {}).data, indicator);
     const rep = pickRecord((byId.get('ip_reputation') || {}).data, indicator);
-    push('结论', verdict(rec));
+    const judged = { judgments: [...new Set([...(rec.judgments || []), ...(rep.judgments || [])])] };
+    push('结论', verdict(judged) + (rep && rep.is_malicious === true ? ' (来自入站信誉)' : ''));
     push('位置 / 运营商', [loc(rec), rec && rec.basic && rec.basic.carrier].filter(Boolean).join(' · '));
     push('ASN', rec && rec.asn ? `AS${rec.asn.number} ${rec.asn.info || ''}`.trim() : '');
     if (Array.isArray(rec.samples) && rec.samples.length) {
@@ -494,8 +495,13 @@ function digestBrief(type, indicator, results) {
     }
   } else if (type === 'domain') {
     const rec = pickRecord((byId.get('domain_query') || {}).data, indicator);
+    const ioc = pickRecord(((byId.get('scene_ioc') || {}).data || {}), indicator);
     const sub = (((byId.get('sub_domains') || {}).data || {}).sub_domains) || {};
-    push('结论', verdict(rec));
+    const merged = { judgments: [...new Set([...(rec.judgments || []), ...(ioc.judgments || [])])] };
+    const fileStatus = endpointStatus(type, results);
+    const base = merged.judgments.length ? verdict(merged) : (fileStatus.noneUsable ? '权限不足，无法判定' : '暂无情报判定');
+    push('结论', base + (ioc && ioc.is_malicious ? ' (来自 /scene/ioc)' : ''));
+    if (ioc && ioc.severity) push('严重级别', ioc.severity);
     const ips = Array.isArray(rec.cur_ips) ? rec.cur_ips.map((x) => x && x.ip).filter(Boolean) : [];
     push('解析 IP', ips.length ? `${ips.length} 个 · ${fmtList(ips, 4)}` : '');
     push('分类', fmtList((rec.categories && rec.categories.first_cats) || [], 4));
@@ -508,28 +514,30 @@ function digestBrief(type, indicator, results) {
   } else if (type === 'sha256' || type === 'sha1' || type === 'md5') {
     const rep = (byId.get('file_report') || {}).data || {};
     const s = rep.summary || {};
-    const me = rep.multiengines || {};
-    push('结论', [s.threat_level, s.malware_type, s.malware_family].filter(Boolean).join(' / ') || '暂无情报判定');
+    const fileStatus = endpointStatus(type, results);
+    const engines = enginesOf(rep.multiengines) || enginesOf((byId.get('file_multiengines') || {}).data);
+    const verdictText = [s.threat_level, s.malware_type, s.malware_family].filter(Boolean).join(' / ')
+      || (engines && engines.bad >= 5 ? `多引擎 ${engines.bad}/${engines.total} 报毒` : '')
+      || (fileStatus.noneUsable ? '权限不足，无法判定' : '暂无情报判定');
+    push('结论', verdictText + (engines && engines.bad >= 5 && !s.threat_level ? ' (来自多引擎)' : ''));
     push('文件', s.file_name ? `${s.file_name} (${s.file_type || '—'})` : '');
-    if (me.result) {
-      const total = Object.keys(me.result).length;
-      const bad = Object.values(me.result).filter((v) => v && v !== 'safe').length;
-      push('检出', `${bad}/${total}`);
-    }
+    if (engines) push('检出', `${engines.bad}/${engines.total}`);
     push('场景', fmtList(s.scenes, 4));
   } else if (type === 'url') {
     const lastOk = [...results].reverse().find((r) => r.id.startsWith('url_report') && r.ok && r.data);
     const d = (lastOk && lastOk.data) || {};
     const me = d.multiengines || {};
     const hits = Object.entries(me).filter(([, v]) => v && v !== 'safe' && v !== 'whitelist');
-    push('结论', d.threat_level ? d.threat_level : '暂无情报判定');
+    const urlStatus = endpointStatus(type, results);
+    push('结论', d.threat_level ? d.threat_level : (urlStatus.noneUsable ? '权限不足，无法判定' : '暂无情报判定'));
     if (Object.keys(me).length) push('检出引擎', `${hits.length}/${Object.keys(me).length}`);
     push('解析 IP / HTTP', d.details ? `${d.details.ip || '—'} / ${d.details.httpStatusCode || d.details.status || '—'}` : '');
     if (d.details && d.details.finalUrl) push('最终 URL', d.details.finalUrl);
   } else if (type === 'vuln') {
+    const vulnStatus = endpointStatus(type, results);
     const items = (((byId.get('vuln') || {}).data || {}).items) || [];
     if (!items.length) {
-      push('结论', '未收录该漏洞编号');
+      push('结论', vulnStatus.noneUsable ? '权限不足，无法判定' : '未收录该漏洞编号');
     } else {
       const it = items[0];
       const b = it.basic_info || {};
@@ -571,7 +579,12 @@ function byIdOf(results) {
 
 function enginesOf(value) {
   if (!value || typeof value !== 'object') return null;
-  const result = value.result && typeof value.result === 'object' ? value.result : value;
+  // 兼容 { result } / { multiengines: { result } } / { positives, total } 三种结构
+  const inner = value.multiengines && typeof value.multiengines === 'object' ? value.multiengines : value;
+  if (typeof inner.positives === 'number' && typeof inner.total === 'number') {
+    return inner.total ? { bad: inner.positives, total: inner.total } : null;
+  }
+  const result = inner.result && typeof inner.result === 'object' ? inner.result : inner;
   const total = Object.keys(result).length;
   if (!total) return null;
   const bad = Object.values(result).filter((v) => v && v !== 'safe' && v !== 'whitelist').length;
@@ -580,17 +593,24 @@ function enginesOf(value) {
 
 function collectFacts(type, indicator, results) {
   const byId = byIdOf(results);
-  const facts = { judgments: [], isMalicious: null, confidence: null, engines: null, updatedAt: null, scene: '' };
+  const facts = { judgments: [], isMalicious: null, confidence: null, engines: null, updatedAt: null, scene: '', severity: '', verdictSource: null };
   const add = (value) => {
     if (value !== undefined && value !== null && value !== '') facts.judgments.push(String(value));
   };
   const merge = (rec) => {
     if (!rec || typeof rec !== 'object') return;
     if (Array.isArray(rec.judgments)) rec.judgments.forEach(add);
-    if (rec.is_malicious !== undefined && rec.is_malicious !== null) facts.isMalicious = Boolean(rec.is_malicious);
+    if (rec.is_malicious !== undefined && rec.is_malicious !== null) {
+      facts.isMalicious = Boolean(rec.is_malicious);
+      facts.verdictSource = 'api';
+    }
     if (rec.confidence_level !== undefined && rec.confidence_level !== null) facts.confidence = String(rec.confidence_level);
     if (rec.scene) facts.scene = String(rec.scene);
+    if (rec.severity) facts.severity = String(rec.severity);
     if (rec.update_time) facts.updatedAt = String(rec.update_time);
+    for (const group of (Array.isArray(rec.tags_classes) ? rec.tags_classes : [])) {
+      if (group && Array.isArray(group.tags)) group.tags.forEach(add);
+    }
   };
 
   if (type === 'ip') {
@@ -598,12 +618,18 @@ function collectFacts(type, indicator, results) {
     merge(pickRecord((byId.get('ip_reputation') || {}).data, indicator));
   } else if (type === 'domain') {
     merge(pickRecord((byId.get('domain_query') || {}).data, indicator));
+    // 域名判定也常出现在场景接口里，必须一并采集，否则会漏掉明确的恶意结论
+    merge(pickRecord(((byId.get('scene_ioc') || {}).data || {}), indicator));
   } else if (type === 'url') {
     const lastOk = [...results].reverse().find((r) => r.id.startsWith('url_report') && r.ok && r.data);
     const d = (lastOk && lastOk.data) || {};
     add(d.threat_level);
     facts.engines = enginesOf(d.multiengines);
     if (d.details && d.details.lastSeen) facts.updatedAt = String(d.details.lastSeen);
+    if (facts.engines && facts.engines.bad >= 5 && facts.isMalicious === null) {
+      facts.isMalicious = true;
+      facts.verdictSource = 'engines';
+    }
   } else if (type === 'sha256' || type === 'sha1' || type === 'md5') {
     const rep = (byId.get('file_report') || {}).data || {};
     const s = rep.summary || {};
@@ -613,6 +639,10 @@ function collectFacts(type, indicator, results) {
     facts.engines = enginesOf(rep.multiengines) || enginesOf((byId.get('file_multiengines') || {}).data);
     if (s.submit_time) facts.updatedAt = String(s.submit_time);
     if (s.is_whitelist === true) facts.isMalicious = false;
+    if (facts.engines && facts.engines.bad >= 5 && facts.isMalicious === null) {
+      facts.isMalicious = true;
+      facts.verdictSource = 'engines';
+    }
   } else if (type === 'vuln') {
     const items = (((byId.get('vuln') || {}).data || {}).items) || [];
     const it = items[0];
@@ -646,16 +676,22 @@ function scoreThreat(type, indicator, results) {
   const text = facts.judgments.join(' ');
   const has = (words) => words.some((w) => text.includes(w));
 
+  const severity = String(facts.severity || '');
+  const highSeverity = /高|严重|恶意/.test(severity);
+  const highTag = has(['C2', 'C&C', '远控', '后门', 'Backdoor', '僵尸', 'Botnet', '勒索', 'Ransom', '在野利用', '恶意软件', '木马', 'Trojan', 'APT', '银狐', '黑产', '团伙']);
+
   let risk = 0;
   let riskLabel = '无可用的情报判定';
-  if (has(['C2', 'C&C', '远控', '后门', 'Backdoor', '僵尸', 'Botnet', '勒索', 'Ransom', '在野利用'])) {
+  if (facts.isMalicious === true) {
+    // 微步已明确判恶意时，评分不得低于此档，其他接口缺失只影响置信度
+    risk = highTag || highSeverity ? 55 : 45;
+    riskLabel = '微步判定为恶意';
+  } else if (has(['C2', 'C&C', '远控', '后门', 'Backdoor', '僵尸', 'Botnet', '勒索', 'Ransom', '在野利用'])) {
     risk = 55; riskLabel = '强恶意判定';
   } else if (has(['利用', 'Exploit', '爆破', 'Brute', '钓鱼', 'Phishing', '木马', 'Trojan', '挖矿', 'PoC'])) {
     risk = 45; riskLabel = '恶意判定';
   } else if (has(['扫描', 'Scanner', '垃圾', 'Spam', '可疑'])) {
     risk = 30; riskLabel = '弱恶意判定';
-  } else if (facts.isMalicious === true) {
-    risk = 40; riskLabel = '恶意判定';
   } else if (facts.isMalicious === false) {
     risk = 8; riskLabel = '判为非恶意';
   } else if (facts.judgments.length) {
@@ -681,7 +717,10 @@ function scoreThreat(type, indicator, results) {
 
   const score = Math.max(0, Math.min(100, risk + engineScore + confScore + freshScore));
   const priority = score >= 75 ? 'P0 紧急' : score >= 55 ? 'P1 高优' : score >= 30 ? 'P2 中优' : 'P3 低优';
-  return { facts, score, priority, riskLabel, ageDays, chain: chainOf(facts) };
+  // 一个可用的判定接口都没有时，低分不代表「安全」，只代表「没看到」
+  const status = endpointStatus(type, results);
+  const undetermined = score < 30 && status.noneUsable;
+  return { facts, score, priority, riskLabel, ageDays, chain: chainOf(facts), status, undetermined };
 }
 
 
@@ -738,20 +777,70 @@ function extractC2(type, indicator, results) {
   return out;
 }
 
+
+// 每类指标「能定性」所依赖的接口；部分账号只有其中一部分权限
+const KEY_ENDPOINTS = {
+  ip: ['ip_query', 'ip_reputation'],
+  domain: ['domain_query', 'scene_ioc'],
+  sha256: ['file_report', 'file_multiengines'],
+  sha1: ['file_report', 'file_multiengines'],
+  md5: ['file_report', 'file_multiengines'],
+  url: ['url_report'],
+  vuln: ['vuln'],
+};
+
+function isDenied(result) {
+  if (!result) return false;
+  if (result.ok === false) return true;
+  return typeof result.code === 'number' && result.code < 0;
+}
+
+function endpointStatus(type, results) {
+  const byId = new Map(results.map((r) => [r.id, r]));
+  const keys = KEY_ENDPOINTS[type] || [];
+  const entries = keys.map((id) => ({ id, result: byId.get(id) || null }));
+  const usable = entries.filter((x) => x.result && !isDenied(x.result));
+  const denied = entries.filter((x) => isDenied(x.result));
+  return {
+    allDenied: entries.length > 0 && usable.length === 0 && denied.length === entries.length,
+    noneUsable: usable.length === 0,
+    usable: usable.map((x) => x.result.label || x.id),
+    denied: denied.map((x) => (x.result && x.result.label) || x.id),
+  };
+}
+
 function analysisHints(type, indicator, results) {
-  const { facts, score, priority, riskLabel, ageDays, chain } = scoreThreat(type, indicator, results);
+  const { facts, score, priority, riskLabel, ageDays, chain, status, undetermined } = scoreThreat(type, indicator, results);
   const lines = [];
   const strongHit = facts.judgments.some((j) => ['C2', 'C&C', '远控', '后门', '僵尸', '勒索'].some((k) => j.includes(k)));
 
   let level = 'D';
   if ((facts.engines && facts.engines.bad >= 5) || strongHit) level = 'A';
+  else if (facts.isMalicious === true) level = 'A';
   else if ((facts.engines && facts.engines.bad >= 1) || score >= 30) level = 'B';
   else if (facts.isMalicious === false || (facts.engines && facts.engines.bad === 0)) level = 'C';
 
-  const engineText = facts.engines ? `，多引擎 ${facts.engines.bad}/${facts.engines.total} 报毒` : '';
-  lines.push(`证据等级 ${level}：${riskLabel}${engineText}`);
+  if (facts.isMalicious === true) {
+    const tags = facts.judgments.slice(0, 6).join('、');
+    if (facts.verdictSource === 'engines') {
+      const e = facts.engines || { bad: 0, total: 0 };
+      lines.push(`多引擎共识判恶意：${e.bad}/${e.total} 报毒 (样本接口无权限，此结论来自多引擎而非微步单点判定)`);
+    } else {
+      lines.push(`微步判定：恶意 (is_malicious=true${facts.severity ? `，严重级别 ${facts.severity}` : ''}${facts.confidence ? `，可信度 ${facts.confidence}` : ''})${tags ? `；标签 ${tags}` : ''}`);
+    }
+  }
 
-  lines.push(`综合评分 ${score}/100，落在 ${priority}；只按情报面打分，告警级别与资产价值没算进去`);
+  const engineText = facts.engines ? `，多引擎 ${facts.engines.bad}/${facts.engines.total} 报毒` : '';
+  const levelLabel = facts.verdictSource === 'engines' ? '多引擎共识' : riskLabel;
+  lines.push(`证据等级 ${level}：${levelLabel}${engineText}`);
+
+  if (undetermined) {
+    lines.push('关键接口均未返回可用数据 (无权限或调用失败)：本次只能算「无法判定」，不能据此认为该指标安全或低危');
+    lines.push('补齐权限后可重新查询；如账号确实没有该类型权限，请改用其他情报源交叉验证');
+  } else {
+    lines.push(`综合评分 ${score}/100，落在 ${priority}；只按情报面打分，告警级别与资产价值没算进去`);
+  }
+  if (status.denied.length && !undetermined) lines.push(`判定来源：${status.usable.join('、') || '无'}；无权限：${status.denied.join('、')}`);
 
   if (chain) lines.push(`所处链条位置：${chain.stage}，可对应 ATT&CK ${chain.techniques.join('、')}`);
 
@@ -821,6 +910,10 @@ function summaryPrompt(last) {
     '列 2-4 条待办 (- [ ] 开头)，每条都要能让人明确回答是或否、或者是哪个系统。',
     '',
     '几条底线：',
+    '- 如果研判提示里写明关键接口无权限或「无法判定」，结论必须写「权限不足，无法判定」，并说明缺哪些接口；不能写成「无情报记录」或「低危」。',
+    '- 反过来，部分接口缺失但已有可用的判定时，以可用的判定为准，把缺失接口作为把握度的扣减项说明即可。',
+    '- 微步的判定优先于你的推演：只要报告里出现 is_malicious=true、severity 高，或证据等级为 A，结论就必须是「恶意」或「可疑」，评分不得低于 45；这时候不能写「无情报记录」或「低危」。',
+    '- 反过来，只有当我们自己算出的评分低于微步的判定强度时，以微步为准，并在结论里说明评分未充分反映该判定。',
     '- 情报的判定和你的推演分开写，你自己推出来的一律加 (推断)。',
     '- 查不到记录不等于安全，别用「安全」给无记录指标下结论。',
     '- 不要把 JSON 抄进来，也不要写「根据提供的信息」这类空话。',
@@ -1280,12 +1373,14 @@ export function apply(ctx) {
       if (failedAll) {
         const messages = [...new Set(results.map((r) => String(r.msg || '').trim()).filter(Boolean))].slice(0, 3);
         const joined = messages.join('；') || '未知错误 (所有接口均未返回可用数据)';
-        return {
-          ok: false,
-          type,
-          indicator,
-          text: `微步查询未成功：${indicator}(${typeLabel(type)})\n${joined}\n\n${failureHint(joined)}`,
-        };
+        const denied = results.length > 0 && results.every((r) => isDenied(r));
+        const headline = denied
+          ? `该类型接口均无权限：${indicator}(${typeLabel(type)})`
+          : `微步查询未成功：${indicator}(${typeLabel(type)})`;
+        const advice = denied
+          ? '当前 API Key 没有该类型的查询权限，请在控制台确认后重试；无权限不等于该指标安全。'
+          : failureHint(joined);
+        return { ok: false, type, indicator, text: `${headline}\n${joined}\n\n${advice}` };
       }
 
       const digest = summarize(type, indicator, results);
