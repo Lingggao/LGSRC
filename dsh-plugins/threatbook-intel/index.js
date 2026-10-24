@@ -548,6 +548,290 @@ function digestBrief(type, indicator, results) {
   return lines.join('\n');
 }
 
+
+// ---------------------------------------------------------------- 情报研判评分 (参考 SOC 分诊模型)
+
+// 时效门槛：超过阈值的情报用于批量扫描会显著抬高误报率
+const IOC_TTL_DAYS = { ip: 30, domain: 30, url: 14, md5: 90, sha1: 90, sha256: 90, vuln: 90 };
+
+// 攻击链阶段与 ATT&CK 技术映射
+const CHAIN_STAGES = [
+  { keys: ['扫描', 'Scanner'], stage: '侦察', techniques: ['T1046', 'T1595'] },
+  { keys: ['爆破', 'Brute', '暴力破解'], stage: '初始访问', techniques: ['T1110'] },
+  { keys: ['钓鱼', 'Phishing'], stage: '投递', techniques: ['T1566', 'T1204'] },
+  { keys: ['利用', 'Exploit'], stage: '利用', techniques: ['T1190', 'T1203'] },
+  { keys: ['下载', 'Downloader', 'Loader', '加载器'], stage: '安装', techniques: ['T1105', 'T1055'] },
+  { keys: ['C2', 'C&C', '远控', '后门', 'Backdoor', '僵尸', 'Botnet'], stage: '命令与控制', techniques: ['T1071', 'T1571'] },
+  { keys: ['勒索', 'Ransom', '挖矿', 'Miner', '窃密', '窃取'], stage: '目标行动', techniques: ['T1486', 'T1496', 'T1041'] },
+];
+
+function byIdOf(results) {
+  return new Map(results.map((r) => [r.id, r]));
+}
+
+function enginesOf(value) {
+  if (!value || typeof value !== 'object') return null;
+  const result = value.result && typeof value.result === 'object' ? value.result : value;
+  const total = Object.keys(result).length;
+  if (!total) return null;
+  const bad = Object.values(result).filter((v) => v && v !== 'safe' && v !== 'whitelist').length;
+  return { bad, total };
+}
+
+function collectFacts(type, indicator, results) {
+  const byId = byIdOf(results);
+  const facts = { judgments: [], isMalicious: null, confidence: null, engines: null, updatedAt: null, scene: '' };
+  const add = (value) => {
+    if (value !== undefined && value !== null && value !== '') facts.judgments.push(String(value));
+  };
+  const merge = (rec) => {
+    if (!rec || typeof rec !== 'object') return;
+    if (Array.isArray(rec.judgments)) rec.judgments.forEach(add);
+    if (rec.is_malicious !== undefined && rec.is_malicious !== null) facts.isMalicious = Boolean(rec.is_malicious);
+    if (rec.confidence_level !== undefined && rec.confidence_level !== null) facts.confidence = String(rec.confidence_level);
+    if (rec.scene) facts.scene = String(rec.scene);
+    if (rec.update_time) facts.updatedAt = String(rec.update_time);
+  };
+
+  if (type === 'ip') {
+    merge(pickRecord((byId.get('ip_query') || {}).data, indicator));
+    merge(pickRecord((byId.get('ip_reputation') || {}).data, indicator));
+  } else if (type === 'domain') {
+    merge(pickRecord((byId.get('domain_query') || {}).data, indicator));
+  } else if (type === 'url') {
+    const lastOk = [...results].reverse().find((r) => r.id.startsWith('url_report') && r.ok && r.data);
+    const d = (lastOk && lastOk.data) || {};
+    add(d.threat_level);
+    facts.engines = enginesOf(d.multiengines);
+    if (d.details && d.details.lastSeen) facts.updatedAt = String(d.details.lastSeen);
+  } else if (type === 'sha256' || type === 'sha1' || type === 'md5') {
+    const rep = (byId.get('file_report') || {}).data || {};
+    const s = rep.summary || {};
+    add(s.threat_level);
+    add(s.malware_type);
+    add(s.malware_family);
+    facts.engines = enginesOf(rep.multiengines) || enginesOf((byId.get('file_multiengines') || {}).data);
+    if (s.submit_time) facts.updatedAt = String(s.submit_time);
+    if (s.is_whitelist === true) facts.isMalicious = false;
+  } else if (type === 'vuln') {
+    const items = (((byId.get('vuln') || {}).data || {}).items) || [];
+    const it = items[0];
+    if (it) {
+      const intel = it.intelligence || {};
+      const b = it.basic_info || {};
+      add(b.vuln_category);
+      add(b.cve_id || b.xve_id);
+      if (intel.has_kev) add('在野利用');
+      if (intel.has_poc_public) add('公开 PoC');
+    }
+  }
+  facts.judgments = [...new Set(facts.judgments.filter(Boolean))];
+  return facts;
+}
+
+function chainOf(facts) {
+  const text = facts.judgments.join(' ');
+  for (const item of CHAIN_STAGES) {
+    if (item.keys.some((k) => text.includes(k))) return item;
+  }
+  return null;
+}
+
+/**
+ * 情报侧评分：判定强度 55 + 多引擎检出 25 + 可信度 10 + 时效 10 = 100。
+ * 告警级别与资产价值不在本插件可见范围内，需使用者结合实际情况加权。
+ */
+function scoreThreat(type, indicator, results) {
+  const facts = collectFacts(type, indicator, results);
+  const text = facts.judgments.join(' ');
+  const has = (words) => words.some((w) => text.includes(w));
+
+  let risk = 0;
+  let riskLabel = '无可用的情报判定';
+  if (has(['C2', 'C&C', '远控', '后门', 'Backdoor', '僵尸', 'Botnet', '勒索', 'Ransom', '在野利用'])) {
+    risk = 55; riskLabel = '强恶意判定';
+  } else if (has(['利用', 'Exploit', '爆破', 'Brute', '钓鱼', 'Phishing', '木马', 'Trojan', '挖矿', 'PoC'])) {
+    risk = 45; riskLabel = '恶意判定';
+  } else if (has(['扫描', 'Scanner', '垃圾', 'Spam', '可疑'])) {
+    risk = 30; riskLabel = '弱恶意判定';
+  } else if (facts.isMalicious === true) {
+    risk = 40; riskLabel = '恶意判定';
+  } else if (facts.isMalicious === false) {
+    risk = 8; riskLabel = '判为非恶意';
+  } else if (facts.judgments.length) {
+    risk = 20; riskLabel = '有标签但未定性';
+  }
+
+  const engineScore = facts.engines
+    ? (facts.engines.bad >= 10 ? 25 : facts.engines.bad >= 5 ? 20 : facts.engines.bad >= 1 ? 12 : 0)
+    : 0;
+  const confText = String(facts.confidence || '').toLowerCase();
+  const confScore = /high|高/.test(confText) ? 10 : /medium|中/.test(confText) ? 6 : /low|低/.test(confText) ? 2 : 0;
+
+  let freshScore = 5;
+  let ageDays = null;
+  if (facts.updatedAt) {
+    const at = new Date(String(facts.updatedAt).replace(' ', 'T'));
+    if (!Number.isNaN(at.getTime())) {
+      ageDays = Math.max(0, Math.round((Date.now() - at.getTime()) / 86400000));
+      const ttl = IOC_TTL_DAYS[type] || 30;
+      freshScore = ageDays <= 7 ? 10 : ageDays <= ttl ? 8 : ageDays <= ttl * 3 ? 4 : 0;
+    }
+  }
+
+  const score = Math.max(0, Math.min(100, risk + engineScore + confScore + freshScore));
+  const priority = score >= 75 ? 'P0 紧急' : score >= 55 ? 'P1 高优' : score >= 30 ? 'P2 中优' : 'P3 低优';
+  return { facts, score, priority, riskLabel, ageDays, chain: chainOf(facts) };
+}
+
+
+// 从查询结果里挑出 C2 通联地址：样本网络行为里的域名 / IP / URL，或本身被判为远控的指标
+function extractC2(type, indicator, results) {
+  const byId = new Map(results.map((r) => [r.id, r]));
+  const out = [];
+  const seen = new Set();
+  const push = (value, kind, source) => {
+    const text = typeof value === 'string' ? value.trim() : '';
+    if (!text || text.length > 200) return;
+    const key = kind + ':' + text.toLowerCase();
+    if (seen.has(key)) return;
+    seen.add(key);
+    out.push({ value: text, kind, source });
+  };
+  const asList = (value) => (Array.isArray(value) ? value : []);
+  const fieldOf = (item, keys) => {
+    if (!item || typeof item !== 'object') return '';
+    for (const k of keys) {
+      if (typeof item[k] === 'string' && item[k].trim()) return item[k].trim();
+    }
+    return '';
+  };
+
+  if (type === 'ip' || type === 'domain') {
+    const rec = type === 'ip'
+      ? pickRecord((byId.get('ip_query') || {}).data, indicator)
+      : pickRecord((byId.get('domain_query') || {}).data, indicator);
+    const judged = asList(rec.judgments).map(String).join(' ');
+    if (/C2|C&C|远控|命令与控制|Botnet|僵尸/.test(judged)) {
+      push(indicator, type === 'ip' ? 'IP' : 'Domain', '情报判定为远控');
+    }
+  }
+
+  if (type === 'sha256' || type === 'sha1' || type === 'md5') {
+    const rep = (byId.get('file_report') || {}).data || {};
+    const malicious = /恶意|木马|Trojan|Backdoor|Ransom|远控/.test(String((rep.summary || {}).threat_level || ''));
+    if (malicious) {
+      const net = rep.network || {};
+      for (const d of asList(net.domains)) push(typeof d === 'string' ? d : fieldOf(d, ['domain', 'host', 'name']), 'Domain', '样本网络行为');
+      for (const h of asList(net.hosts)) push(typeof h === 'string' ? h : fieldOf(h, ['ip', 'host']), 'IP', '样本网络行为');
+      for (const u of asList(net.http)) push(typeof u === 'string' ? u : fieldOf(u, ['url', 'uri']), 'URL', '样本网络行为');
+    }
+  }
+
+  if (type === 'url') {
+    const lastOk = [...results].reverse().find((r) => r.id.startsWith('url_report') && r.ok && r.data);
+    const d = (lastOk && lastOk.data) || {};
+    const level = String(d.threat_level || '');
+    if (/恶意|钓鱼|木马/.test(level) && d.details && d.details.ip) push(d.details.ip, 'IP', 'URL 解析目标');
+  }
+
+  return out;
+}
+
+function analysisHints(type, indicator, results) {
+  const { facts, score, priority, riskLabel, ageDays, chain } = scoreThreat(type, indicator, results);
+  const lines = [];
+  const strongHit = facts.judgments.some((j) => ['C2', 'C&C', '远控', '后门', '僵尸', '勒索'].some((k) => j.includes(k)));
+
+  let level = 'D';
+  if ((facts.engines && facts.engines.bad >= 5) || strongHit) level = 'A';
+  else if ((facts.engines && facts.engines.bad >= 1) || score >= 30) level = 'B';
+  else if (facts.isMalicious === false || (facts.engines && facts.engines.bad === 0)) level = 'C';
+
+  const engineText = facts.engines ? `，多引擎 ${facts.engines.bad}/${facts.engines.total} 报毒` : '';
+  lines.push(`证据等级 ${level}：${riskLabel}${engineText}`);
+
+  lines.push(`综合评分 ${score}/100，落在 ${priority}；只按情报面打分，告警级别与资产价值没算进去`);
+
+  if (chain) lines.push(`所处链条位置：${chain.stage}，可对应 ATT&CK ${chain.techniques.join('、')}`);
+
+  if (ageDays !== null) {
+    const ttl = IOC_TTL_DAYS[type] || 30;
+    lines.push(ageDays > ttl
+      ? `情报 ${ageDays} 天没更新，已过 ${ttl} 天保鲜期：做批量扫描命中率低、误报会变多`
+      : `情报 ${ageDays} 天前更新过，还在 ${ttl} 天保鲜期内`);
+  }
+
+  if (facts.scene && /IDC|CDN|Cloud|云/i.test(facts.scene)) {
+    lines.push(`所属场景是 ${facts.scene}，多为共享主机：直接封禁可能连带影响同段业务`);
+  }
+
+  const c2 = extractC2(type, indicator, results);
+  if (c2.length) {
+    lines.push(`C2 通联 IOC(必须写进结论与封禁清单)：${c2.map((x) => `${x.value} (${x.kind})`).join('、')}`);
+  }
+
+  const failed = results.filter((r) => !r.ok || (typeof r.code === 'number' && r.code !== 0 && r.code !== 2 && r.code !== 3 && r.code !== 4));
+  if (failed.length) lines.push(`这些接口没取到数据，判断可能偏窄：${failed.map((r) => r.label).join('、')}`);
+
+  if (type === 'domain') {
+    const rec = pickRecord((byIdOf(results).get('domain_query') || {}).data, indicator);
+    if (Array.isArray(rec.cur_ips) && rec.cur_ips.length === 0) lines.push('当前查不到解析记录：可能已下线、停放或由 DGA 生成');
+  }
+  return lines;
+}
+
+function summaryPrompt(last) {
+  if (!last) return '请用中文把刚才这次查询讲清楚：结论、能支撑结论的证据、该做什么，以及哪里还不确定。';
+  const hints = Array.isArray(last.hints) && last.hints.length ? last.hints.join('\n') : '(无)';
+  return [
+    '你是值班的威胁情报分析师，正在给同事写一段可以直接贴进工单的研判。用中文，只讲报告里存在的东西，没有的字段不要补。',
+    '',
+    `指标：${last.indicator} (${last.kind || typeShort(last.type)})`,
+    `报告：${last.markdownPath || '(未落盘，只能依据摘要)'}`,
+    `查询时间：${last.at}`,
+    '',
+    '已识别到的 C2 通联 IOC：',
+    Array.isArray(last.c2) && last.c2.length ? last.c2.map((x) => '- ' + x).join('\n') : '(无)',
+    '',
+    '文件里已有的摘要：',
+    last.brief || last.digest || '(无)',
+    '',
+    '系统预先算好的判断依据：',
+    hints,
+    '',
+    '按下面的顺序写，300-500 字：',
+    '',
+    '## 一、判断结论',
+    '一句话说清它是什么性质 (恶意 / 可疑 / 无情报记录 / 需人工确认)、你的把握有多大、评分多少、建议多快处理。',
+    '',
+    '## 二、支撑证据',
+    '挑 3-5 条真正影响处置决定的发现，每条后面注明数据来自哪个接口的哪个字段。凑数的、无关紧要的不要写。',
+    '',
+    '## 三、风险画像',
+    '它在攻击链条里处于什么位置；如果这个指标已经和内网有往来，最坏会发展成什么 (横向、外传、加密、被当中转)；能对上的 ATT&CK 编号，对不上就别硬写。',
+    '',
+    '## 四、行动建议',
+    '分网络、主机、账号三行来写，没有该类动作就写「无」，不要为了凑格式编动作。每条都要说明依据。',
+    '',
+    '## 五、误报判断',
+    '说什么条件下可以当误报放行；如果是 IDC、CDN 这类共享环境，说清封禁会带来什么业务代价。',
+    '',
+    '## 六、需要人工拍板的事',
+    '列 2-4 条待办 (- [ ] 开头)，每条都要能让人明确回答是或否、或者是哪个系统。',
+    '',
+    '几条底线：',
+    '- 情报的判定和你的推演分开写，你自己推出来的一律加 (推断)。',
+    '- 查不到记录不等于安全，别用「安全」给无记录指标下结论。',
+    '- 不要把 JSON 抄进来，也不要写「根据提供的信息」这类空话。',
+    '- 指标名称统一写 IP / Domain / Hash / URL / CVE。',
+    '- 证据等级是 D 时，结论只能是「无情报记录」，并讲清还缺哪类旁证。',
+    '- 评分低于 30 时，行动建议里必须留「先观察、暂不处置」这一档。',
+    '- 报告里有样本行为或家族时，补 1-3 个 ATT&CK 编号并说明它对应什么行为。',
+    '- 如果上面列出了 C2 通联 IOC，必须在结论里点名，并在行动建议里给出逐条的封禁 / 拦截清单；不允许把 C2 埋在证据段落里。',
+  ].join('\n');
+}
+
 // ---------------------------------------------------------------- 落盘
 
 function slug(text) {
@@ -610,7 +894,7 @@ function renderValue(value, depth = 0) {
   return `${pad}- ${String(value)}`;
 }
 
-function mdReport({ type, indicator, at, results, digest, jsonPath }) {
+function mdReport({ type, indicator, at, results, digest, jsonPath, c2 }) {
   const head = [
     `# 微步情报报告：${indicator}`,
     '',
@@ -624,6 +908,9 @@ function mdReport({ type, indicator, at, results, digest, jsonPath }) {
     '',
     digest,
     '',
+    ...(Array.isArray(c2) && c2.length
+      ? ['## C2 通联 IOC', '', ...c2.map((x) => `- ${x.value} (${x.kind}) — 来源：${x.source}`), '', '> 封禁与排查优先使用以上地址；若为样本网络行为，需结合流量日志确认实际通联。', '']
+      : []),
     '## 接口明细',
     '',
   ];
@@ -645,7 +932,7 @@ function mdReport({ type, indicator, at, results, digest, jsonPath }) {
   return [...head, ...sections].join('\n');
 }
 
-function writeReports({ type, indicator, at, results, digest, dir }) {
+function writeReports({ type, indicator, at, results, digest, dir, c2 }) {
   const outDir = path.join(dir, REPORT_DIR_NAME);
   fs.mkdirSync(outDir, { recursive: true });
   const base = `${type}-${slug(indicator)}-${stamp()}`;
@@ -662,7 +949,7 @@ function writeReports({ type, indicator, at, results, digest, dir }) {
   fs.writeFileSync(jsonPath, JSON.stringify(payload, null, 2), 'utf8');
   let markdown;
   try {
-    markdown = mdReport({ type, indicator, at, results, digest, jsonPath });
+    markdown = mdReport({ type, indicator, at, results, digest, jsonPath, c2 });
   } catch {
     markdown = `# 微步情报报告：${indicator}\n\n- 类型：${typeLabel(type)}\n- 时间：${at}\n\n${digest}\n`;
   }
@@ -875,10 +1162,7 @@ export function apply(ctx) {
             sendJson(res, 400, { error: '找不到当前会话，无法自动触发总结 (刷新页面后重试)' });
             return;
           }
-          const last = state.last;
-          const prompt = last
-            ? `请基于刚才 threatbook_lookup 的结果 (${last.indicator}，类型 ${last.type}) 用中文写一段简要总结：① 结论 ② 关键证据 ③ 处置建议。不要重复原始 JSON；需要细节时引用 ${last.markdownPath || '报告文件'}。`
-            : '请用中文简要总结刚才情报查询的结论、关键证据与处置建议。';
+          const prompt = summaryPrompt(state.last);
           agent.followup({
             id: `threatbook-summarize-${Date.now()}`,
             role: 'user',
@@ -905,10 +1189,13 @@ export function apply(ctx) {
     name: 'threatbook_lookup',
     description: [
       'Query 微步在线 (ThreatBook) threat intelligence for ONE indicator: IPv4/IPv6, domain, file hash (MD5/SHA1/SHA256), URL, or vulnerability id (CVE/XVE/CNVD/CNNVD/...).',
-      'The plugin auto-detects the type and runs the FULL endpoint set for that type (IP: ip/query + ip reputation + adv_query; domain: domain/query + adv_query + sub_domains + IOC + domain_context; hash: file/report (all fields) + multiengines; URL: url/report, auto-submitting a scan when no report exists; vuln: /vuln).',
+      'Auto-detects the type and runs the FULL endpoint set (IP: ip/query + reputation + adv; domain: domain/query + adv + sub_domains + IOC + context; hash: file/report all sections + multiengines; URL: url/report with auto scan; vuln: /vuln). Raw JSON plus a complete Markdown report are written to the workspace threatbook-reports/ and their paths returned.',
       'Use it whenever the user pastes such an indicator, even without an explicit instruction.',
-      'It writes the raw JSON and a complete Markdown report into the workspace `threatbook-reports/` folder and returns their paths.',
-      'After it returns, offer the user these options in one short line: (1) a concise AI summary, (2) the full Markdown report path, (3) drilling into a specific field.',
+      'The result already carries a 研判提示 block: evidence grade, a 0-100 score mapped to P0-P3, where it sits in an attack chain, matching ATT&CK ids, how fresh the intelligence is, and which endpoints failed. Reuse those values instead of inventing your own.',
+      'Reply in Chinese, in the order a colleague would read it: what the indicator is and how sure you are; the few findings that actually change the decision, each tagged with the endpoint it came from; what it would mean if it were already talking to internal assets; what to do split by network / host / account; when you would call it a false positive; and last what a human still has to decide.',
+      'Ground rules: a missing record is not a clean bill of health; anything you inferred yourself must be marked (推断); say how old the intelligence is when the verdict leans on it; name any endpoint that failed; if the score lands in P3, always offer a monitor-only option; keep raw JSON out of the answer.',
+      'If the data names C2 endpoints (a C2 server IP, domain or URL, e.g. the C2 of a trojan), surface them prominently: state them in the verdict and give an explicit block list in the actions, never bury them inside the evidence list.',
+      'End with one short line offering: (1) AI 总结, (2) 完整 MD 报告路径, (3) 深入某个字段。',
     ].join(' '),
     parameters: {
       type: 'object',
@@ -1002,11 +1289,14 @@ export function apply(ctx) {
       }
 
       const digest = summarize(type, indicator, results);
-      const brief = digestBrief(type, indicator, results);
+      const grade = scoreThreat(type, indicator, results);
+      const c2 = extractC2(type, indicator, results);
+      const c2Line = c2.length ? `\n- C2 通联 IOC：${c2.map((x) => `${x.value} (${x.kind})`).join('、')}` : '';
+      const brief = `${digestBrief(type, indicator, results)}\n- 威胁评分：${grade.score}/100 (${grade.priority})${c2Line}`;
       const dir = resolveDir(exec && exec.agent);
       let files;
       try {
-        files = writeReports({ type, indicator, at, results, digest, dir });
+        files = writeReports({ type, indicator, at, results, digest, dir, c2 });
       } catch (error) {
         files = null;
         digest += `\n\n> 报告落盘失败：${error instanceof Error ? error.message : String(error)}`;
@@ -1016,9 +1306,13 @@ export function apply(ctx) {
         .map((r) => `  · ${r.label}: code=${r.code}${r.msg ? ` ${String(r.msg).slice(0, 60)}` : ''}`)
         .join('\n');
 
+      const hints = analysisHints(type, indicator, results);
       const text = [
         `微步情报查询：${indicator}(${typeLabel(type)})`,
         digest,
+        '',
+        '研判提示 (回答时请据此组织，不要直接照搬)：',
+        ...hints.map((h) => `  · ${h}`),
         '',
         '接口执行情况：',
         endpointLines,
@@ -1038,6 +1332,10 @@ export function apply(ctx) {
         reportDir: files ? files.outDir : null,
         kind: typeShort(type),
         brief,
+        hints,
+        score: grade.score,
+        priority: grade.priority,
+        c2: c2.map((x) => `${x.value} (${x.kind})`),
         digest,
       };
 

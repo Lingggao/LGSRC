@@ -563,7 +563,7 @@ window.__ModuleLoader__.load({
           h(Btn, { onClick: () => act('open-binding'), title: '打开微步「我的 KEY」绑定页' }, '绑定')),
         h(Sep, null),
         h('span', { style: { ...css.group, gap: '5px' }, title: data.key.file },
-          h('span', null, 'API Key:'),
+          h('span', null, 'API Key'),
           h('span', { style: css.mono }, data.key.masked)),
         h(Sep, null),
         last
@@ -664,7 +664,7 @@ window.__ModuleLoader__.load({
           h(SectionHead, { n: '3', title: 'API Key' }),
           data.key.configured && !editing
             ? h('div', { style: css.row },
-                h('span', { style: css.mono }, `API Key: ${data.key.masked}`),
+                h('span', { style: css.mono }, `API Key ${data.key.masked}`),
                 h('span', { style: css.hint }, data.key.file),
                 h(Btn, { onClick: () => { setEditing(true); setDraft(''); } }, '更换'),
                 h(Btn, { onClick: async () => { await act('clear-key'); setVerify(null); } }, '清除'),
@@ -737,7 +737,7 @@ window.__ModuleLoader__.load({
           border: `1px solid ${C.line}`, borderRadius: '999px',
           background: C.surface, padding: '2px 10px', maxWidth: '100%', boxSizing: 'border-box',
         },
-        title: configured ? `API Key: ${data.key.masked}` : '未配置 API Key，可在 设置 → 微步情报查询 里填写',
+        title: configured ? `API Key ${data.key.masked}` : '未配置 API Key，可在 设置 → 微步情报查询 里填写',
       },
         h('span', { style: configured ? css.dot(C.ok) : css.ring(C.warn) }),
         h(BrandName, { style: { ...css.strong, flex: '0 1 auto', minWidth: '0', overflow: 'hidden', textOverflow: 'ellipsis' } }),
