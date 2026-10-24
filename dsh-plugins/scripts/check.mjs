@@ -74,12 +74,46 @@ for (const entry of fs.readdirSync(base, { withFileTypes: true })) {
       [/[\u4e00-\u9fff][A-Za-z0-9]|[A-Za-z0-9][\u4e00-\u9fff]/, '中英文之间缺少空格'],
       [/[\u4e00-\u9fff]\(|\)[\u4e00-\u9fff]/, '英文括号外侧缺少空格'],
     ];
+    // 括号前后是数字或字母时同样要留空格；代码与行内代码不参与，避免误伤函数调用
+    const proseRules = [
+      [/[A-Za-z0-9]\(/, '英文括号前缺少空格'],
+      [/\)[A-Za-z0-9]/, '英文括号后缺少空格'],
+    ];
+    const literalPattern = /'((?:\\.|[^'\\])*)'|"((?:\\.|[^"\\])*)"/g;
+    const templatePattern = /`((?:\\.|[^`\\])*)`/g;
     const scan = (target) => {
+      const isMarkdown = /\.md$/i.test(target);
+      const isScript = /\.(js|mjs|cjs|ts)$/i.test(target);
       const lines = fs.readFileSync(target, 'utf8').split(/\r?\n/);
+      let inFence = false;
       lines.forEach((line, index) => {
+        const at = `${path.relative(dir, target)}:${index + 1}`;
+        // Markdown 跳过围栏代码块与行内代码
+        if (isMarkdown && /^\s*(```|~~~)/.test(line)) { inFence = !inFence; return; }
+        if (isMarkdown && inFence) return;
+        const proseLine = isMarkdown ? line.replace(/`[^`]*`/g, '') : line;
         for (const [pattern, message] of typography) {
-          if (pattern.test(line)) {
-            throw new Error(`${path.relative(dir, target)}:${index + 1} ${message}`);
+          if (pattern.test(proseLine)) throw new Error(`${at} ${message}`);
+        }
+        for (const [pattern, message] of proseRules) {
+          if (isScript) {
+            // 脚本只看含中文的字符串 / 模板字面量的静态片段，函数调用与正则正文不参与
+            const texts = [];
+            literalPattern.lastIndex = 0;
+            let match;
+            while ((match = literalPattern.exec(line)) !== null) {
+              texts.push(match[1] !== undefined ? match[1] : match[2]);
+            }
+            // 模板只检查「整行只有一对反引号且无插值」的情况：嵌套模板里混着代码，无法可靠区分
+            const backticks = (line.match(/`/g) || []).length;
+            if (backticks === 2 && !line.includes('${')) {
+              templatePattern.lastIndex = 0;
+              while ((match = templatePattern.exec(line)) !== null) texts.push(match[1]);
+            }
+            const hit = texts.some((value) => /[\u4e00-\u9fff]/.test(value) && pattern.test(value));
+            if (hit) throw new Error(`${at} ${message}`);
+          } else if (pattern.test(proseLine)) {
+            throw new Error(`${at} ${message}`);
           }
         }
       });

@@ -891,7 +891,7 @@ function analysisHints(type, indicator, results) {
 
   const c2 = extractC2(type, indicator, results);
   if (c2.length) {
-    lines.push(`C2 通联 IOC(必须写进结论与封禁清单)：${c2.map((x) => `${x.value} (${x.kind})`).join('、')}`);
+    lines.push(`C2 通联 IOC (必须写进结论与封禁清单)：${c2.map((x) => `${x.value} (${x.kind})`).join('、')}`);
   }
 
   const failed = results.filter((r) => !r.ok || (typeof r.code === 'number' && r.code !== 0 && r.code !== 2 && r.code !== 3 && r.code !== 4));
@@ -1027,7 +1027,7 @@ function mdReport({ type, indicator, at, results, digest, jsonPath, c2 }) {
     '',
     `- 指标类型：${typeLabel(type)}`,
     `- 查询时间：${at}`,
-    `- 数据来源：微步在线云 API(https://api.threatbook.cn/v3)`,
+    `- 数据来源：微步在线云 API (https://api.threatbook.cn/v3)`,
     `- 原始数据：\`${jsonPath}\``,
     `- 接口数量：${results.length}`,
     '',
@@ -1127,7 +1127,7 @@ function failureHint(message) {
     return `本机出口 IP 不在该 Key 的白名单里：复制面板里的出口 IP，到 ${BIND_URL} 的「我的 KEY」中添加后再试。`;
   }
   if (/Invalid API Key|Incorrect API key|无效的\s*API\s*key/i.test(text)) {
-    return 'API Key 无效或已重置：请重新粘贴 Key(面板或设置页 → 微步情报)。';
+    return 'API Key 无效或已重置：请重新粘贴 Key (面板或设置页 → 微步情报)。';
   }
   if (/Expired API Key|Key 过期/i.test(text)) {
     return 'API Key 已过期，需要续期后重新保存。';
