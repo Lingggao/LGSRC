@@ -144,41 +144,21 @@ function pickLatestRelease(releases, current) {
   };
 }
 
-function httpGetJson(url, timeoutMs = 8000) {
-  return new Promise((resolve, reject) => {
-    const req = https.get(url, {
-      headers: { 'user-agent': USER_AGENT, accept: 'application/vnd.github+json' },
-      timeout: timeoutMs,
-    }, (res) => {
-      const chunks = [];
-      let size = 0;
-      res.on('data', (c) => {
-        size += c.length;
-        if (size > 2 * 1024 * 1024) {
-          req.destroy(new Error('GitHub 响应过大'));
-          return;
-        }
-        chunks.push(c);
-      });
-      res.on('end', () => {
-        const text = Buffer.concat(chunks).toString('utf8');
-        if (res.statusCode !== 200) {
-          const hint = res.statusCode === 403 || res.statusCode === 429
-            ? ' (GitHub 接口可能被限流，稍后再试)'
-            : '';
-          reject(new Error(`GitHub 返回 HTTP ${res.statusCode}${hint}`));
-          return;
-        }
-        try {
-          resolve(JSON.parse(text));
-        } catch {
-          reject(new Error('GitHub 返回的不是合法 JSON'));
-        }
-      });
-    });
-    req.on('timeout', () => req.destroy(new Error('检查更新超时')));
-    req.on('error', reject);
+async function httpGetJson(url, timeoutMs = 8000) {
+  const { status, text } = await httpGet(url, {
+    headers: { 'user-agent': USER_AGENT, accept: 'application/vnd.github+json' },
+    timeoutMs,
+    timeoutMessage: '检查更新超时',
   });
+  if (status !== 200) {
+    const hint = status === 403 || status === 429 ? ' (GitHub 接口可能被限流，稍后再试)' : '';
+    throw new Error(`GitHub 返回 HTTP ${status}${hint}`);
+  }
+  try {
+    return JSON.parse(text);
+  } catch {
+    throw new Error('GitHub 返回的不是合法 JSON');
+  }
 }
 
 async function checkForUpdate() {
@@ -281,13 +261,17 @@ function needsConsent(target, settings = readSettings()) {
 }
 
 /** 探测目录可用性：不存在则尝试创建，并写入一个临时文件验证可写 */
+function writeProbe(dir) {
+  const probe = path.join(dir, '.LGSRC-write-test');
+  fs.writeFileSync(probe, 'ok', 'utf8');
+  fs.rmSync(probe, { force: true });
+}
+
 function probeReportDir(target) {
   const resolved = path.resolve(target);
   try {
     fs.mkdirSync(resolved, { recursive: true });
-    const probe = path.join(resolved, '.LGSRC-write-test');
-    fs.writeFileSync(probe, 'ok', 'utf8');
-    fs.rmSync(probe, { force: true });
+    writeProbe(resolved);
     return { ok: true, path: resolved };
   } catch (error) {
     return { ok: false, path: resolved, error: error instanceof Error ? error.message : String(error) };
@@ -524,16 +508,33 @@ function localAddresses() {
   return out;
 }
 
-function httpGetText(url, timeoutMs) {
+/** 统一的 HTTPS GET：返回状态码与文本，响应体超过 maxBytes 直接中止 */
+function httpGet(url, opts = {}) {
+  const headers = opts.headers || { 'user-agent': USER_AGENT };
+  const timeoutMs = opts.timeoutMs || 8000;
+  const maxBytes = opts.maxBytes || 2 * 1024 * 1024;
+  const timeoutMessage = opts.timeoutMessage || '请求超时';
   return new Promise((resolve, reject) => {
-    const req = https.get(url, { headers: { 'user-agent': USER_AGENT }, timeout: timeoutMs }, (res) => {
+    const req = https.get(url, { headers, timeout: timeoutMs }, (res) => {
       const chunks = [];
-      res.on('data', (c) => chunks.push(c));
+      let size = 0;
+      res.on('data', (c) => {
+        size += c.length;
+        if (size > maxBytes) {
+          req.destroy(new Error('响应体过大'));
+          return;
+        }
+        chunks.push(c);
+      });
       res.on('end', () => resolve({ status: res.statusCode, text: Buffer.concat(chunks).toString('utf8') }));
     });
-    req.on('timeout', () => req.destroy(new Error('探测公网 IP 超时')));
+    req.on('timeout', () => req.destroy(new Error(timeoutMessage)));
     req.on('error', reject);
   });
+}
+
+function httpGetText(url, timeoutMs) {
+  return httpGet(url, { timeoutMs, timeoutMessage: '探测公网 IP 超时', maxBytes: 512 * 1024 });
 }
 
 function parseIpCandidate(text) {
@@ -1644,9 +1645,7 @@ function probeWritable(dir) {
   if (writableCache.dir === dir && Date.now() - writableCache.at < 30000) return writableCache.ok;
   try {
     if (!fs.existsSync(dir)) return true;
-    const probe = path.join(dir, '.LGSRC-write-test');
-    fs.writeFileSync(probe, 'ok', 'utf8');
-    fs.rmSync(probe, { force: true });
+    writeProbe(dir);
     writableCache = { dir, at: Date.now(), ok: true };
     return true;
   } catch {

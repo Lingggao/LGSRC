@@ -97,7 +97,7 @@ window.__ModuleLoader__.load({
         about: {
           name: '灵糕中心 · 安全响应中心',
           intro: '灵糕中心 · 安全响应中心是用于打击计算机病毒与恶意网站的独立非营利组织。',
-          version: '1.8.4',
+          version: '1.8.5',
           releaseDate: '2026-10-26',
           portalUrl: 'https://www.lgsrc.cn',
           repoUrl: 'https://github.com/Lingggao/LGSRC',
@@ -339,9 +339,9 @@ window.__ModuleLoader__.load({
       group: { display: 'inline-flex', alignItems: 'center', gap: SPACE.sm, minWidth: '0' },
 
       input: {
-        flex: '1 1 240px', minWidth: '180px', boxSizing: 'border-box', minHeight: '32px',
+        flex: '1 1 240px', minWidth: '180px', boxSizing: 'border-box', minHeight: '28px',
         border: `1px solid ${C.lineStrong}`, background: C.surface2, color: C.text,
-        borderRadius: RADIUS.sm, padding: '6px 10px', fontSize: FS.body,
+        borderRadius: RADIUS.sm, padding: '4px 8px', fontSize: FS.body,
       },
 
       // 容器
@@ -355,7 +355,7 @@ window.__ModuleLoader__.load({
       sub: { margin: 0, fontSize: FS.body, color: C.dim, lineHeight: '20px' },
       row: { display: 'flex', alignItems: 'center', gap: SPACE.md, flexWrap: 'wrap' },
       field: { display: 'flex', flexDirection: 'column', gap: SPACE.sm, width: '100%' },
-      fieldLabel: { fontSize: FS.body, fontWeight: 600, color: C.text },
+      title: { fontSize: FS.body, fontWeight: 600, color: C.text },
 
       // 步骤
       steps: { display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(190px, 1fr))', gap: SPACE.md },
@@ -363,19 +363,15 @@ window.__ModuleLoader__.load({
         display: 'flex', flexDirection: 'column', gap: SPACE.sm, padding: '10px 12px',
         background: C.surface2, border: `1px solid ${C.line}`, borderRadius: RADIUS.md,
       },
-      stepNo: {
-        width: '18px', height: '18px', borderRadius: '50%', background: C.brand, color: '#FFFFFF',
-        fontSize: FS.body, fontWeight: 700, lineHeight: '1', textAlign: 'center', boxSizing: 'border-box',
+      circle: (filled) => ({
+        width: '18px', height: '18px', borderRadius: '50%', boxSizing: 'border-box',
+        fontSize: FS.body, fontWeight: filled ? 700 : 600, lineHeight: '1', textAlign: 'center',
         display: 'inline-flex', alignItems: 'center', justifyContent: 'center', flex: '0 0 auto',
-      },
-      subNo: {
-        width: '18px', height: '18px', borderRadius: '50%', background: 'transparent',
-        border: `1px solid ${C.lineStrong}`, color: C.dim, boxSizing: 'border-box',
-        fontSize: FS.body, fontWeight: 600, lineHeight: '1', textAlign: 'center',
-        display: 'inline-flex', alignItems: 'center', justifyContent: 'center', flex: '0 0 auto',
-      },
-      stepTitle: { fontSize: FS.body, fontWeight: 600, color: C.text },
-      stepDesc: { fontSize: FS.body, color: C.dim, lineHeight: '18px' },
+        background: filled ? C.brand : 'transparent',
+        border: filled ? 'none' : `1px solid ${C.lineStrong}`,
+        color: filled ? '#FFFFFF' : C.dim,
+      }),
+
 
       // 小标签
       badge: (tone) => {
@@ -425,6 +421,18 @@ window.__ModuleLoader__.load({
         overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
       },
       docMeta: { flex: '0 0 auto', color: C.faint, whiteSpace: 'nowrap' },
+      pre: {
+        margin: 0, padding: '10px 12px', background: C.surface2,
+        border: `1px solid ${C.line}`, borderRadius: RADIUS.md,
+        fontFamily: 'inherit', fontSize: FS.body, lineHeight: '20px', color: C.text,
+        whiteSpace: 'pre-wrap', wordBreak: 'break-word', maxHeight: '280px', overflow: 'auto',
+      },
+      errorText: { fontSize: FS.body, color: C.err },
+      chip: {
+        display: 'flex', alignItems: 'center', gap: SPACE.sm, fontSize: FS.body, lineHeight: '20px',
+        color: C.dim, border: `1px solid ${C.line}`, borderRadius: RADIUS.pill,
+        background: C.surface, padding: '2px 10px', maxWidth: '100%', boxSizing: 'border-box',
+      },
       notice: (kind) => ({
         fontSize: FS.body, color: kind === 'error' ? C.err : kind === 'warn' ? C.warn : C.ok,
         background: C.surface2, border: `1px solid ${C.line}`,
@@ -438,6 +446,30 @@ window.__ModuleLoader__.load({
       return h('span', { className: 'tb-spin', 'aria-hidden': 'true' });
     }
 
+    // 按钮宽度按字数分两档：
+    // 1-5 字统一用 4 字时的宽度 92px，字数相同或不同都同宽 (5 字略挤，挤一挤)；
+    // 6 字以上按 44 + 12 × 字数 (含空格) 自动加宽。
+    // 12px 取全角字宽，英文与数字较窄，多出来的空间作为留白。
+    function buttonLabel(children) {
+      const walk = (node) => {
+        if (node === null || node === undefined || node === false) return '';
+        if (typeof node === 'string' || typeof node === 'number') return String(node);
+        if (Array.isArray(node)) return node.map(walk).join('');
+        if (typeof node === 'object' && node.props) return walk(node.props.children);
+        return '';
+      };
+      return walk(children);
+    }
+
+    function buttonWidth(children, loading) {
+      const count = Array.from(buttonLabel(children)).length;
+      if (count <= 5) {
+        // 5 字在加载时文字 + 指示器会略超 92px，临时放宽到刚好放下的宽度
+        return loading ? Math.max(92, 44 + 12 * count) : 92;
+      }
+      return 44 + 12 * count;
+    }
+
     function Btn(props) {
       ensureStyle();
       const off = Boolean(props.disabled) || Boolean(props.loading);
@@ -446,9 +478,8 @@ window.__ModuleLoader__.load({
         className: 'tb-btn',
         id: props.id,
         'data-primary': props.primary ? '1' : '0',
-        'data-size': props.size === 'sm' ? 'sm' : 'md',
         'data-danger': props.danger ? '1' : undefined,
-        style: props.style,
+        style: { ...(props.style || {}), width: `${buttonWidth(props.children, props.loading)}px`, flex: '0 0 auto' },
         title: props.title,
         'aria-label': props.ariaLabel,
         'aria-busy': props.loading ? 'true' : undefined,
@@ -464,6 +495,16 @@ window.__ModuleLoader__.load({
       },
       props.loading ? h(Spinner, null) : null,
       props.children);
+    }
+
+    // 外链统一：新窗口打开、可读的无障碍名称、统一的 ↗ 标记
+    function ExternalLink(props) {
+      const label = props.label || props.children;
+      return h('a', {
+        className: 'tb-link', style: css.link, href: props.href,
+        target: '_blank', rel: 'noreferrer noopener',
+        'aria-label': `${label} (在新窗口打开)`,
+      }, props.children, h('span', { 'aria-hidden': 'true', style: { marginLeft: '2px' } }, '↗'));
     }
 
     // 统一的状态提示：图标 + 文本，颜色之外还有语义
@@ -484,21 +525,21 @@ window.__ModuleLoader__.load({
 
     function StepCard(props) {
       return h('div', { style: css.stepCard },
-        h('div', { style: { display: 'flex', alignItems: 'center', gap: '6px' } },
-          h('span', { style: css.subNo }, props.n),
-          h('span', { style: css.stepTitle }, props.title)),
+        h('div', { style: { display: 'flex', alignItems: 'center', gap: SPACE.sm } },
+          h('span', { style: css.circle(false) }, props.n),
+          h('span', { style: css.title }, props.title)),
         props.desc || props.action
-          ? h('div', { style: { display: 'flex', alignItems: 'center', gap: SPACE.md, minHeight: '24px' } },
-              props.desc ? h('span', { style: { ...css.stepDesc, flex: '1 1 auto', minWidth: '0' } }, props.desc) : null,
+          ? h('div', { style: { display: 'flex', alignItems: 'center', gap: SPACE.md, minHeight: '28px' } },
+              props.desc ? h('span', { style: { ...css.hint, flex: '1 1 auto', minWidth: '0' } }, props.desc) : null,
               props.action ? h('span', { style: { flex: '0 0 auto' } }, props.action) : null)
           : null,
-        props.children ? h('div', { style: { display: 'flex', alignItems: 'center', gap: '6px', flexWrap: 'wrap' } }, props.children) : null);
+        props.children ? h('div', { style: { display: 'flex', alignItems: 'center', gap: SPACE.sm, flexWrap: 'wrap' } }, props.children) : null);
     }
 
     function SectionHead(props) {
-      return h('div', { style: { display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' } },
-        h('span', { style: css.stepNo }, props.n),
-        h('span', { style: { fontSize: '12px', fontWeight: 600, color: C.text } }, props.title),
+      return h('div', { style: { display: 'flex', alignItems: 'center', gap: SPACE.md, flexWrap: 'wrap' } },
+        h('span', { style: css.circle(true) }, props.n),
+        h('span', { style: css.title }, props.title),
         props.hint ? h('span', { style: css.hint }, props.hint) : null,
         props.children || null);
     }
@@ -601,7 +642,7 @@ window.__ModuleLoader__.load({
           if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); }
         },
         title: visible ? '打码显示出口 IP' : '显示完整出口 IP',
-        style: { cursor: 'pointer', fontSize: '12px', color: C.dim },
+        style: { cursor: 'pointer', fontSize: FS.body, color: C.dim },
       }, visible ? '(点击隐藏)' : '(点击显示)');
     }
 
@@ -691,9 +732,9 @@ window.__ModuleLoader__.load({
           h('div', { style: css.card },
             h('div', { style: css.row },
               h('span', { style: css.ring(C.warn), 'aria-hidden': 'true' }),
-              h(BrandName, { style: { fontSize: '12px', fontWeight: 600, color: C.text } }),
+              h(BrandName, { style: css.title }),
               h(Badge, { tone: 'warn' }, '未配置 API Key'),
-              h('span', { style: { fontSize: '12px', color: C.dim } }, '三步开始使用')),
+              h('span', { style: css.hint }, '三步开始使用')),
             h('div', { style: css.steps },
               h(StepCard, { n: '1', title: '复制出口 IP', desc: '要绑定到微步「我的 KEY」白名单的地址' },
                 h(IpValue, { ip: primaryIp, style: css.mono }),
@@ -719,7 +760,7 @@ window.__ModuleLoader__.load({
             h('div', { style: { ...css.row } },
               h('span', { style: css.hint }, `网卡 IP：${nicIps}`),
               h(Btn, { onClick: () => act('refresh-egress') }, '重新探测'),
-              egress.error ? h('span', { style: { fontSize: '12px', color: C.err } }, `探测失败：${egress.error}`) : null),
+              egress.error ? h('span', { style: css.errorText }, `探测失败：${egress.error}`) : null),
             s.notice ? h(Notice, { kind: s.notice.kind, text: s.notice.text }) : null,
           ),
         );
@@ -767,7 +808,7 @@ window.__ModuleLoader__.load({
               last.markdownPath && !isTrashed(last.markdownPath)
                 ? h(Btn, { onClick: () => act('open-report', { path: last.markdownPath }) }, '打开报告')
                 : last.markdownPath ? h('span', { style: css.hint }, '报告已移入回收站') : null,
-              last.reportDir ? h(Btn, { onClick: () => act('open-folder', { path: last.reportDir }) }, '打开目录') : null)
+              last.reportDir ? h(Btn, { onClick: () => act('open-folder', { path: last.reportDir }) }, '打开文件夹') : null)
           : null,
         s.notice ? h(Notice, { kind: s.notice.kind, text: s.notice.text }) : null,
       );
@@ -966,7 +1007,7 @@ window.__ModuleLoader__.load({
 
         editing
           ? h('div', { style: css.field },
-              h('label', { htmlFor: 'tb-report-dir', style: css.fieldLabel }, '存储目录'),
+              h('label', { htmlFor: 'tb-report-dir', style: css.title }, '存储目录'),
               h('div', { style: css.row },
                 h('input', {
                   id: 'tb-report-dir', className: 'tb-input', style: css.input, type: 'text',
@@ -982,7 +1023,7 @@ window.__ModuleLoader__.load({
               dirError
                 ? h('p', { id: 'tb-report-dir-error', role: 'alert', style: { ...css.hint, color: C.err } }, dirError)
                 : null,
-              report.isDefault ? null : h(Btn, { size: 'sm', onClick: () => { setDraft(report.defaultDir); setPhase('migrate'); } }, '恢复默认目录'),
+              report.isDefault ? null : h(Btn, { onClick: () => { setDraft(report.defaultDir); setPhase('migrate'); } }, '恢复默认目录'),
               phase === 'migrate'
                 ? h('div', { style: css.field },
                     h('p', { style: css.hint }, `当前目录还有 ${report.reportCount} 个报告，要一起带到新目录吗？`),
@@ -1004,10 +1045,10 @@ window.__ModuleLoader__.load({
         h('div', { style: css.row },
           h('span', { style: css.faint }, '回收站'),
           h('span', { style: { ...css.faint, flex: '1 1 240px', minWidth: '0', overflow: 'hidden', textOverflow: 'ellipsis' }, title: report.trashDir }, report.trashDir),
-          h(Btn, { size: 'sm', onClick: () => doCopy(report.trashDir, 'trash') }, copied === 'trash' ? '已复制' : '复制路径'),
-          h(Btn, { size: 'sm', onClick: () => act('open-folder', { path: report.trashDir }) }, '打开回收站'),
+          h(Btn, { onClick: () => doCopy(report.trashDir, 'trash') }, copied === 'trash' ? '已复制' : '复制路径'),
+          h(Btn, { onClick: () => act('open-folder', { path: report.trashDir }) }, '打开回收站'),
           report.trashCount
-            ? h(Btn, { size: 'sm', danger: true, onClick: () => setConfirmEmpty(true) }, '清空')
+            ? h(Btn, { danger: true, onClick: () => setConfirmEmpty(true) }, '清空')
             : null),
 
         confirmEmpty
@@ -1021,7 +1062,7 @@ window.__ModuleLoader__.load({
         h('div', { style: css.row },
           h('span', { style: css.hint }, '回收站保留'),
           ...[7, 30, 0].map((days) => h(Btn, {
-            key: days, size: 'sm', primary: report.retentionDays === days,
+            key: days, primary: report.retentionDays === days,
             pressed: report.retentionDays === days,
             ariaLabel: days === 0 ? '回收站永久保留' : `回收站保留 ${days} 天`,
             onClick: () => act('set-retention', { days }),
@@ -1059,7 +1100,7 @@ window.__ModuleLoader__.load({
                 : null,
               files && files.length
                 ? h('div', { style: css.row },
-                    h(Btn, { size: 'sm', onClick: toggleAll }, allPicked ? '全不选' : '全选'),
+                    h(Btn, { onClick: toggleAll }, allPicked ? '全不选' : '全选'),
                     h(Btn, {
                       danger: true, onClick: confirmDelete,
                       disabled: busyLocal || !chosen.length,
@@ -1122,18 +1163,9 @@ window.__ModuleLoader__.load({
         h('div', { style: css.row },
           h(Btn, { onClick: check, loading: checking }, '检查更新'),
           h(Btn, { onClick: feedback, title: '通过邮件反馈 Bug 或建议' }, copied === 'mail' ? '已复制邮箱' : '反馈与建议'),
-          h('a', {
-            className: 'tb-link', style: css.link, href: about.portalUrl || 'https://www.lgsrc.cn', target: '_blank', rel: 'noreferrer noopener',
-            'aria-label': '门户网站 (在新窗口打开)',
-          }, '门户网站', h('span', { 'aria-hidden': 'true', style: { marginLeft: '2px' } }, '↗')),
-          h('a', {
-            className: 'tb-link', style: css.link, href: about.repoUrl, target: '_blank', rel: 'noreferrer noopener',
-            'aria-label': 'GitHub 主页 (在新窗口打开)',
-          }, 'GitHub 主页', h('span', { 'aria-hidden': 'true', style: { marginLeft: '2px' } }, '↗')),
-          h('a', {
-            className: 'tb-link', style: css.link, href: about.releasesUrl, target: '_blank', rel: 'noreferrer noopener',
-            'aria-label': '更新日志 (在新窗口打开)',
-          }, '更新日志', h('span', { 'aria-hidden': 'true', style: { marginLeft: '2px' } }, '↗'))),
+          h(ExternalLink, { href: about.portalUrl || 'https://www.lgsrc.cn', label: '门户网站' }, '门户网站'),
+          h(ExternalLink, { href: about.repoUrl, label: 'GitHub 主页' }, 'GitHub 主页'),
+          h(ExternalLink, { href: about.releasesUrl, label: '更新日志' }, '更新日志')),
 
         (() => {
           const view = aboutUpdateView(update, updateError);
@@ -1151,7 +1183,10 @@ window.__ModuleLoader__.load({
 
         h('div', { style: css.row },
           h('span', { style: css.hint }, '反馈邮箱'),
-          h('a', { className: 'tb-link', style: css.link, href: `mailto:${about.contactEmail}` }, about.contactEmail)),
+          h('a', {
+            className: 'tb-link', style: css.link, href: `mailto:${about.contactEmail}`,
+            'aria-label': `发送邮件至 ${about.contactEmail}`,
+          }, about.contactEmail)),
       );
     }
 
@@ -1220,12 +1255,12 @@ window.__ModuleLoader__.load({
         h('div', { style: css.card },
           h(SectionHead, { n: '1', title: 'IP 地址', hint: '需在「我的 KEY」绑定出口 IP 后才可调用' }),
           h('div', { style: css.row },
-            h('span', { style: { fontSize: '12px', color: C.dim } }, '出口 IP'),
+            h('span', { style: css.hint }, '出口 IP'),
             h(IpValue, { ip: egress.ip || '未探测到', style: css.mono }),
             h(IpToggle, null),
             h(Btn, { onClick: () => doCopy(egress.ip || '', 'eg'), disabled: !egress.ip }, copied === 'eg' ? '已复制' : '复制'),
             h(Btn, { onClick: () => act('refresh-egress') }, '重新探测'),
-            egress.error ? h('span', { style: { fontSize: '12px', color: C.err } }, `探测失败：${egress.error}`) : null,
+            egress.error ? h('span', { style: css.errorText }, `探测失败：${egress.error}`) : null,
             egress.at && !egress.error ? h('span', { style: css.faint }, `探测于 ${new Date(egress.at).toLocaleTimeString('zh-CN', { hour12: false })}`) : null),
           h('div', null,
             h('div', { style: css.listHead },
@@ -1242,7 +1277,7 @@ window.__ModuleLoader__.load({
               h('span', { style: { ...css.listCell, color: C.dim, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }, title: ip.iface }, ip.iface),
               h('span', { style: { ...css.listCell, color: C.dim, whiteSpace: 'nowrap' } }, ip.family),
               h('span', { style: { ...css.listCell, padding: '8px 0', display: 'flex', justifyContent: 'center' } },
-                h(Btn, { size: 'sm', onClick: () => doCopy(ip.address, ip.address) }, copied === ip.address ? '已复制' : '复制'))))),
+                h(Btn, { onClick: () => doCopy(ip.address, ip.address) }, copied === ip.address ? '已复制' : '复制'))))),
         ),
 
         // 2. 绑定
@@ -1251,13 +1286,13 @@ window.__ModuleLoader__.load({
           h('div', { style: css.steps },
             h(StepCard, {
               n: '1', title: '打开绑定页', desc: '登录微步 X 情报中心',
-              action: h(Btn, { primary: true, size: 'sm', onClick: () => act('open-binding') }, '打开绑定页'),
+              action: h(Btn, { primary: true, onClick: () => act('open-binding') }, '打开绑定页'),
             }),
             h(StepCard, { n: '2', title: '添加白名单', desc: `「我的 KEY」→ 添加 ${egress.ip && !store.ipVisible ? maskIp(egress.ip) : (egress.ip || '出口 IP')}` }),
             h(StepCard, { n: '3', title: '复制 API Key', desc: '回到下方「API Key」一栏粘贴保存' })),
           h('div', { style: css.row },
-            h('span', { style: { fontSize: '12px', color: C.dim } }, '绑定页地址'),
-            h('a', { className: 'tb-link', style: css.link, href: data.bindingUrl, target: '_blank', rel: 'noreferrer noopener' }, data.bindingUrl),
+            h('span', { style: css.hint }, '绑定页地址'),
+            h(ExternalLink, { href: data.bindingUrl, label: '打开微步「我的 KEY」绑定页' }, data.bindingUrl),
             h(Btn, { onClick: () => doCopy(data.bindingUrl, 'bind') }, copied === 'bind' ? '已复制' : '复制')),
         ),
 
@@ -1296,7 +1331,7 @@ window.__ModuleLoader__.load({
                   : null,
                 h('p', { style: css.hint }, '完整 Key 以 0600 权限写入本机文件，不上传、不同步、不记入对话日志。'))
             : h('div', { style: css.field },
-                h('label', { htmlFor: 'tb-apikey', style: css.fieldLabel }, 'API Key'),
+                h('label', { htmlFor: 'tb-apikey', style: css.title }, 'API Key'),
                 h('div', { style: css.row },
                   h('input', {
                     id: 'tb-apikey',
@@ -1342,18 +1377,13 @@ window.__ModuleLoader__.load({
                   h('span', { style: css.faint }, `${last.kind || last.type} · ${last.at}`)),
                 h('pre', {
                   tabIndex: 0, role: 'group', className: 'tb-scroll', 'aria-label': '最近查询摘要',
-                  style: {
-                    margin: 0, padding: '10px 12px', background: C.surface2,
-                    border: `1px solid ${C.line}`, borderRadius: '10px',
-                    fontFamily: 'inherit', fontSize: '12px', lineHeight: '20px', color: C.text,
-                    whiteSpace: 'pre-wrap', wordBreak: 'break-word', maxHeight: '280px', overflow: 'auto',
-                  },
+                  style: css.pre,
                 }, last.brief || last.digest || ''),
                 h('div', { style: css.row },
                   last.markdownPath && !isTrashed(last.markdownPath)
-                    ? h(Btn, { onClick: () => act('open-report', { path: last.markdownPath }) }, '打开完整 MD 报告')
+                    ? h(Btn, { onClick: () => act('open-report', { path: last.markdownPath }) }, '打开报告')
                     : last.markdownPath ? h('span', { style: css.faint }, '报告已移入回收站') : null,
-                  last.reportDir ? h(Btn, { onClick: () => act('open-folder', { path: last.reportDir }) }, '打开报告目录') : null,
+                  last.reportDir ? h(Btn, { onClick: () => act('open-folder', { path: last.reportDir }) }, '打开文件夹') : null,
                   last.markdownPath ? h('span', { style: css.faint }, last.markdownPath) : null))
             : h('p', { style: css.hint }, '还没有查询过。在对话中粘贴 IP / Domain / Hash / URL / CVE 即可。'),
         ),
@@ -1390,12 +1420,7 @@ window.__ModuleLoader__.load({
       return h('div', {
         role: 'group',
         'aria-label': '微步情报查询状态',
-        style: {
-          display: 'flex', alignItems: 'center', gap: '6px',
-          fontSize: '12px', lineHeight: '20px', color: C.dim,
-          border: `1px solid ${C.line}`, borderRadius: '999px',
-          background: C.surface, padding: '2px 10px', maxWidth: '100%', boxSizing: 'border-box',
-        },
+        style: css.chip,
         title: configured ? `API Key ${data.key.masked}` : '未配置 API Key，可在 设置 → 微步情报查询 里填写',
       },
         h('span', { style: configured ? css.dot(C.ok) : css.ring(C.warn), 'aria-hidden': 'true' }),
@@ -1416,16 +1441,12 @@ window.__ModuleLoader__.load({
 
     function ensureStyle() {
       if (styleInjected) return;
-      styleInjected = true;
       if (typeof document === 'undefined' || !document.head) return;
-      if (document.getElementById('threatbook-intel-style')) return;
-      const style = document.createElement('style');
-      style.id = 'threatbook-intel-style';
-      style.textContent = [
+      const text = [
         // 按钮：最小点击高度 28px，圆角与输入框一致
         '.tb-btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;',
         'border:1px solid var(--dsw-alias-border-l2);background:var(--dsw-alias-bg-layer-2);',
-        'color:var(--dsw-alias-label-primary);border-radius:8px;padding:4px 12px;min-width:56px;',
+        'color:var(--dsw-alias-label-primary);border-radius:8px;padding:4px 12px;height:28px;min-width:0;',
         'min-height:28px;box-sizing:border-box;font-size:12px;line-height:16px;font-weight:500;',
         'cursor:pointer;white-space:nowrap;',
         'transition:background 150ms ease,border-color 150ms ease,filter 150ms ease}',
@@ -1437,7 +1458,6 @@ window.__ModuleLoader__.load({
         '.tb-btn[data-primary="1"]:hover{filter:brightness(1.08)}',
         '.tb-btn:disabled{opacity:.55;cursor:default}',
         '.tb-btn:active:not(:disabled){filter:brightness(.95)}',
-        '.tb-btn[data-size="sm"]{min-width:0;min-height:24px;padding:2px 8px}',
         '.tb-btn[data-danger="1"]{color:var(--dsw-alias-state-error-primary);',
         'border-color:color-mix(in srgb,var(--dsw-alias-state-error-primary) 55%,var(--dsw-alias-border-l2))}',
         '.tb-btn[data-danger="1"]:hover{background:color-mix(in srgb,var(--dsw-alias-state-error-primary) 10%,transparent)}',
@@ -1468,7 +1488,18 @@ window.__ModuleLoader__.load({
         '.tb-spin{animation:none;border-right-color:currentColor;opacity:.5}',
         '}',
       ].join('');
-      document.head.appendChild(style);
+      const existing = document.getElementById('threatbook-intel-style');
+      if (existing) {
+        // 插件热重载时模块状态会重置，但旧 <style> 还挂在 document 上；
+        // 直接覆盖内容，避免旧规则 (例如旧的按钮高度) 继续生效
+        existing.textContent = text;
+      } else {
+        const style = document.createElement('style');
+        style.id = 'threatbook-intel-style';
+        style.textContent = text;
+        document.head.appendChild(style);
+      }
+      styleInjected = true;
     }
 
     // 点击名称中间的「·」可循环切换界面预览状态；其余用户不会注意到这个入口
@@ -1487,7 +1518,7 @@ window.__ModuleLoader__.load({
     function PreviewBar() {
       if (!PREVIEW) return null;
       return h('div', { style: css.preview },
-        h('span', { style: { fontSize: '12px', fontWeight: 600, color: C.text } }, '界面预览'),
+        h('span', { style: { fontSize: FS.body, fontWeight: 600, color: C.text } }, '界面预览'),
         ...Object.entries(PREVIEW_LABELS).map(([kind, label]) =>
           h(Btn, { key: kind, primary: kind === PREVIEW, onClick: () => setPreview(kind) }, label)),
         h(Btn, { onClick: () => setPreview(null) }, '退出预览'));

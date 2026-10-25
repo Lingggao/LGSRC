@@ -42,7 +42,7 @@ function makePayload(reportPatch = {}) {
   about: {
         name: '灵糕中心 · 安全响应中心',
         intro: '灵糕中心 · 安全响应中心是用于打击计算机病毒与恶意网站的独立非营利组织。',
-        version: '1.8.4',
+        version: '1.8.5',
         releaseDate: '2026-10-26',
         repoUrl: 'https://github.com/Lingggao/LGSRC',
         releasesUrl: 'https://github.com/Lingggao/LGSRC/releases',
@@ -85,6 +85,9 @@ function textOf(node) {
   return out.join('');
 }
 
+let sandboxStyle = null;
+let sandboxStyleCreated = 0;
+
 async function renderSettings(payload) {
   const React = makeReact();
   let factory = null;
@@ -97,8 +100,9 @@ async function renderSettings(payload) {
       history: { replaceState() {} },
     },
     document: {
-      head: { appendChild() {} },
-      getElementById: () => null,
+      head: { appendChild() { sandbox.__styleCreated = (sandbox.__styleCreated || 0) + 1; } },
+      // 模拟插件热重载：旧样式表还在 document 上
+      getElementById: (id) => (id === 'threatbook-intel-style' ? sandbox.__oldStyle : null),
       createElement: () => ({ style: {}, setAttribute() {}, select() {}, remove() {}, textContent: '' }),
       body: { appendChild() {} },
       execCommand: () => true,
@@ -111,6 +115,7 @@ async function renderSettings(payload) {
     clearTimeout() {},
     console,
   };
+  sandbox.__oldStyle = { id: 'threatbook-intel-style', textContent: 'old-css' };
   vm.createContext(sandbox);
   vm.runInContext(CODE, sandbox);
 
@@ -138,6 +143,8 @@ async function renderSettings(payload) {
   collect();
   await new Promise((resolve) => globalThis.setTimeout(resolve, 30));
   collect();
+  sandboxStyle = sandbox.__oldStyle;
+  sandboxStyleCreated = sandbox.__styleCreated || 0;
   return nodes;
 }
 
@@ -227,7 +234,7 @@ const check = (name, ok, detail = '') => {
   const nodes = await renderSettings(makePayload());
   check('关于分节存在', hasText(nodes, '关于'));
   check('包含机构简介', hasText(nodes, '灵糕中心 · 安全响应中心是用于打击计算机病毒与恶意网站'));
-  check('显示当前版本', hasText(nodes, '当前版本 v1.8.4'));
+  check('显示当前版本', hasText(nodes, '当前版本 v1.8.5'));
   check('版本行不再重复机构名', !nodes.some((n) => textOf(n) === '灵糕中心 · 安全响应中心'));
   check('显示发布日期', hasText(nodes, '发布于 2026-10-26'));
   check('提供检查更新按钮', buttons(nodes).some((n) => textOf(n) === '检查更新'));
@@ -236,9 +243,62 @@ const check = (name, ok, detail = '') => {
   const links = nodes.filter((n) => n.type === 'a');
   check('外链标注在新窗口打开', links.some((n) => String(n.props['aria-label'] || '').includes('新窗口打开')));
   check('外链使用统一链接样式', links.length > 0 && links.every((n) => n.props.className === 'tb-link'));
-  const aboutLinks = links.filter((n) => String(n.props['aria-label'] || '').includes('在新窗口打开'));
+  const aboutLinks = links.filter((n) => String(n.props['aria-label'] || '').includes('在新窗口打开')
+    && !String(n.props['aria-label'] || '').includes('绑定页'));
   check('门户网站排在关于链接第一位', aboutLinks[0] && aboutLinks[0].props.href === 'https://www.lgsrc.cn', String(aboutLinks[0] && aboutLinks[0].props.href));
   check('提供 GitHub 主页链接', links.some((n) => textOf(n) === 'GitHub 主页↗'));
+}
+
+// 9. 按钮高度与宽度规则
+{
+  const btnRule = CODE.match(/\.tb-btn\{[^}]*min-height:(\d+)px/);
+  check('常规按钮高度 28px', Boolean(btnRule) && btnRule[1] === '28', btnRule && btnRule[1]);
+  check('没有 24px 高的按钮规则', !/min-height:24px/.test(CODE));
+  const inputRule = CODE.match(/input:\s*\{[\s\S]*?minHeight:\s*'(\d+)px'/);
+  check('输入框与按钮同高', Boolean(inputRule) && inputRule[1] === '28', inputRule && inputRule[1]);
+
+  // 宽度规则：44 + 12 × 字数
+  const helperStart = CODE.indexOf('function buttonLabel(');
+  const helperEnd = CODE.indexOf('function Btn(');
+  check('存在按钮宽度函数', helperStart >= 0 && helperEnd > helperStart);
+  const { buttonWidth } = new Function(CODE.slice(helperStart, helperEnd) + '\nreturn { buttonWidth };')();
+  check('两字按钮宽度一致 (中文 vs 英文)', buttonWidth('取消') === buttonWidth('OK'), buttonWidth('取消') + ' / ' + buttonWidth('OK'));
+  check('一字到四字统一 92px', buttonWidth('好') === 92 && buttonWidth('复制路径') === 92, buttonWidth('好') + ' / ' + buttonWidth('复制路径'));
+  check('五字按钮也是 92px', buttonWidth('打开绑定页') === 92, buttonWidth('打开绑定页'));
+  check('六字按钮自动加宽到 116px', buttonWidth('恢复默认目录') === 116, buttonWidth('恢复默认目录'));
+  check('五字按钮加载时放宽到 104px', buttonWidth('保存到本机', true) === 104, buttonWidth('保存到本机', true));
+  check('四字按钮加载时仍 92px', buttonWidth('检查更新', true) === 92, buttonWidth('检查更新', true));
+
+  const nodes = await renderSettings(makePayload());
+  const btns = buttons(nodes);
+  const byLength = new Map();
+  let formulaOk = true;
+  for (const b of btns) {
+    const len = Array.from(textOf(b)).length;
+    const width = b.props.style && b.props.style.width;
+    const expected = (len <= 5 ? 92 : 44 + 12 * len) + 'px';
+    if (width !== expected) formulaOk = false;
+    if (!byLength.has(len)) byLength.set(len, new Set());
+    byLength.get(len).add(width);
+  }
+  check('按钮宽度都符合字数公式', formulaOk, [...byLength.entries()].map(([k, v]) => k + ':' + [...v].join('/')).join(' '));
+  check('同字数按钮宽度完全一致', [...byLength.values()].every((set) => set.size === 1), [...byLength.entries()].map(([k, v]) => k + ':' + [...v].join('/')).join(' '));
+}
+
+// 10. 样式表热重载：旧 <style> 必须被新规则覆盖
+{
+  await renderSettings(makePayload());
+  check('热重载覆盖旧样式表', sandboxStyle && sandboxStyle.textContent !== 'old-css' && sandboxStyle.textContent.includes('.tb-btn{'), sandboxStyle && sandboxStyle.textContent.slice(0, 20));
+  check('新样式含统一按钮高度', sandboxStyle && sandboxStyle.textContent.includes('height:28px'));
+  check('没有重复插入样式标签', sandboxStyleCreated === 0, sandboxStyleCreated);
+}
+
+// 11. 文案与样式收敛
+{
+  const nodes = await renderSettings(makePayload());
+  check('目录操作统一为「打开文件夹」', hasText(nodes, '打开文件夹') && !hasText(nodes, '打开目录') && !hasText(nodes, '打开报告目录'));
+  check('没有内联字号硬编码', !/fontSize: '\d+px'/.test(CODE));
+  check('按钮没有遗留尺寸变体', !/data-size/.test(CODE));
 }
 
 console.log(`\n通过 ${passed} 项，失败 ${failures.length} 项`);
