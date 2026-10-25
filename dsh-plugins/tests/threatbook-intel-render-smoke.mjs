@@ -32,6 +32,16 @@ const basePayload = {
     priority: 'P1 高优', score: 70, c2: ['45.1.2.3 (IP)'],
   },
   autoOpenedAt: 0,
+  about: {
+    portalUrl: 'https://www.lgsrc.cn',
+    name: '灵糕中心 · 安全响应中心',
+    intro: '灵糕中心 · 安全响应中心是用于打击计算机病毒与恶意网站的独立非营利组织。',
+    version: '1.8.4',
+    releaseDate: '2026-10-26',
+    repoUrl: 'https://github.com/Lingggao/LGSRC',
+    releasesUrl: 'https://github.com/Lingggao/LGSRC/releases',
+    contactEmail: 'ling@lghub.org',
+  },
   report: {
     dir: 'C:\\work\\threatbook-reports',
     defaultDir: 'C:\\work\\threatbook-reports',

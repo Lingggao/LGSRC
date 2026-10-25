@@ -30,6 +30,13 @@ const EGRESS_PROVIDERS = (process.env.THREATBOOK_EGRESS_URLS || [
   'https://api.ipify.org?format=json',
 ].join(',')).split(',').map((s) => s.trim()).filter(Boolean);
 const REPORT_DIR_NAME = 'threatbook-reports';
+const PORTAL_URL = 'https://www.lgsrc.cn';
+const REPO_URL = 'https://github.com/Lingggao/LGSRC';
+const RELEASES_URL = REPO_URL + '/releases';
+const CONTACT_EMAIL = 'ling@lghub.org';
+const ABOUT_NAME = '灵糕中心 · 安全响应中心';
+const ABOUT_INTRO = '灵糕中心 · 安全响应中心是用于打击计算机病毒与恶意网站的独立非营利组织。由独立网络安全研究员、中国计算机学会 (CCF) 会员兼计算机安全专业委员会委员 Ling Gao 领导。';
+const UPDATE_CACHE_MS = 10 * 60 * 1000;
 
 /** 进程内派生状态 (不是权威数据：Key 以文件为准，查询结果以落盘文件为准)。 */
 const state = {
@@ -39,6 +46,7 @@ const state = {
   lasts: new Map(),
   autoOpenedAt: 0,
   lastPurgeAt: 0,
+  updateCache: null,
 };
 
 const LAST_PER_SESSION_LIMIT = 50;
@@ -66,6 +74,123 @@ function dataDir() {
 
 function keyFile() {
   return process.env.THREATBOOK_KEY_FILE || path.join(dataDir(), 'apikey.json');
+}
+
+// ---------------------------------------------------------------- 关于与更新
+
+let versionCache = null;
+function pluginVersion() {
+  if (versionCache) return versionCache;
+  try {
+    const pkg = JSON.parse(fs.readFileSync(new URL('./package.json', import.meta.url), 'utf8'));
+    versionCache = typeof pkg.version === 'string' ? pkg.version : 'unknown';
+  } catch {
+    versionCache = 'unknown';
+  }
+  return versionCache;
+}
+
+/** 从 CHANGELOG 顶部取当前版本的发布日期 */
+const releaseDateCache = new Map();
+function releaseDateOf(version) {
+  if (releaseDateCache.has(version)) return releaseDateCache.get(version);
+  try {
+    const text = fs.readFileSync(new URL('./CHANGELOG.md', import.meta.url), 'utf8');
+    const escaped = String(version).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const match = text.match(new RegExp('^##\\s*' + escaped + '\\s*[—-]\\s*(\\d{4}-\\d{2}-\\d{2})', 'm'));
+    const date = match ? match[1] : null;
+    releaseDateCache.set(version, date);
+    return date;
+  } catch {
+    releaseDateCache.set(version, null);
+    return null;
+  }
+}
+
+/** 只比较 x.y.z 数字段，忽略预发布后缀 */
+function compareVersions(a, b) {
+  const parse = (v) => String(v || '').replace(/^v/i, '').split('.').map((n) => Number.parseInt(n, 10) || 0);
+  const left = parse(a);
+  const right = parse(b);
+  for (let i = 0; i < 3; i += 1) {
+    const x = left[i] || 0;
+    const y = right[i] || 0;
+    if (x !== y) return x > y ? 1 : -1;
+  }
+  return 0;
+}
+
+/** 从 releases 列表里挑出本插件最高的正式版本 */
+function pickLatestRelease(releases, current) {
+  const list = Array.isArray(releases) ? releases : [];
+  const candidates = [];
+  for (const item of list) {
+    if (!item || item.draft || item.prerelease) continue;
+    const tag = String(item.tag_name || '');
+    const match = tag.match(/^threatbook-intel-v(\d+\.\d+\.\d+)$/);
+    if (!match) continue;
+    candidates.push({
+      version: match[1],
+      publishedAt: item.published_at || null,
+    });
+  }
+  candidates.sort((a, b) => compareVersions(b.version, a.version));
+  const latest = candidates[0] || null;
+  if (!latest) return { hasUpdate: false, current, latest: null };
+  return {
+    hasUpdate: compareVersions(latest.version, current) > 0,
+    current,
+    latest,
+  };
+}
+
+function httpGetJson(url, timeoutMs = 8000) {
+  return new Promise((resolve, reject) => {
+    const req = https.get(url, {
+      headers: { 'user-agent': USER_AGENT, accept: 'application/vnd.github+json' },
+      timeout: timeoutMs,
+    }, (res) => {
+      const chunks = [];
+      let size = 0;
+      res.on('data', (c) => {
+        size += c.length;
+        if (size > 2 * 1024 * 1024) {
+          req.destroy(new Error('GitHub 响应过大'));
+          return;
+        }
+        chunks.push(c);
+      });
+      res.on('end', () => {
+        const text = Buffer.concat(chunks).toString('utf8');
+        if (res.statusCode !== 200) {
+          const hint = res.statusCode === 403 || res.statusCode === 429
+            ? ' (GitHub 接口可能被限流，稍后再试)'
+            : '';
+          reject(new Error(`GitHub 返回 HTTP ${res.statusCode}${hint}`));
+          return;
+        }
+        try {
+          resolve(JSON.parse(text));
+        } catch {
+          reject(new Error('GitHub 返回的不是合法 JSON'));
+        }
+      });
+    });
+    req.on('timeout', () => req.destroy(new Error('检查更新超时')));
+    req.on('error', reject);
+  });
+}
+
+async function checkForUpdate() {
+  const current = pluginVersion();
+  const now = Date.now();
+  if (state.updateCache && now - state.updateCache.at < UPDATE_CACHE_MS) {
+    return { ...state.updateCache.data, cached: true };
+  }
+  const releases = await httpGetJson(`https://api.github.com/repos/Lingggao/LGSRC/releases?per_page=50`);
+  const result = pickLatestRelease(releases, current);
+  state.updateCache = { at: now, data: result };
+  return result;
 }
 
 // ---------------------------------------------------------------- 报告目录设置
@@ -1546,6 +1671,16 @@ async function statePayload(options = {}) {
     bindingUrl: BIND_URL,
     reportDirName: REPORT_DIR_NAME,
     report: reportState(),
+    about: {
+      name: ABOUT_NAME,
+      intro: ABOUT_INTRO,
+      version: pluginVersion(),
+      releaseDate: releaseDateOf(pluginVersion()),
+      portalUrl: PORTAL_URL,
+      repoUrl: REPO_URL,
+      releasesUrl: RELEASES_URL,
+      contactEmail: CONTACT_EMAIL,
+    },
     // 当前会话自己的最近查询；没有会话上下文时为 null
     lastLookup: scoped ? { ...scoped, scope: 'session' } : null,
     // 所有会话里最近的一条，供设置页展示
@@ -1848,6 +1983,23 @@ export function apply(ctx) {
           writeSettings({ reportDir: settings.reportDir, consent: settings.consent, retentionDays: days });
           const purged = purgeTrash(reportRoot(), days);
           sendJson(res, 200, { ok: true, purged: purged.removed.length, state: await respondState() });
+          return;
+        } else if (action === 'check-update') {
+          try {
+            const result = await checkForUpdate();
+            sendJson(res, 200, { ok: true, update: result, state: await respondState() });
+          } catch (error) {
+            sendJson(res, 200, {
+              ok: false,
+              error: `检查更新失败：${error instanceof Error ? error.message : String(error)}`,
+              update: { hasUpdate: false, current: pluginVersion(), latest: null },
+              state: await respondState(),
+            });
+          }
+          return;
+        } else if (action === 'open-releases') {
+          openExternal(RELEASES_URL);
+          sendJson(res, 200, { ok: true, state: await respondState() });
           return;
         } else if (action === 'empty-trash') {
           const result = emptyTrash();

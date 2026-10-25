@@ -94,6 +94,16 @@ window.__ModuleLoader__.load({
         },
         autoOpenedAt: 0,
         permissions: [],
+        about: {
+          name: '灵糕中心 · 安全响应中心',
+          intro: '灵糕中心 · 安全响应中心是用于打击计算机病毒与恶意网站的独立非营利组织。',
+          version: '1.8.4',
+          releaseDate: '2026-10-26',
+          portalUrl: 'https://www.lgsrc.cn',
+          repoUrl: 'https://github.com/Lingggao/LGSRC',
+          releasesUrl: 'https://github.com/Lingggao/LGSRC/releases',
+          contactEmail: 'ling@lghub.org',
+        },
         report: {
           dir: 'C:\\work\\threatbook-reports',
           defaultDir: 'C:\\work\\threatbook-reports',
@@ -316,7 +326,6 @@ window.__ModuleLoader__.load({
       },
       strong: { color: C.text, fontWeight: 600, whiteSpace: 'nowrap' },
       mono: { color: C.text, fontSize: FS.body },
-      monoSm: { fontSize: FS.body, color: C.dim },
       dot: (color, size = 7) => ({
         width: `${size}px`, height: `${size}px`, borderRadius: '50%', display: 'inline-block',
         background: color, flex: '0 0 auto',
@@ -511,6 +520,22 @@ window.__ModuleLoader__.load({
       const pad = (x) => String(x).padStart(2, '0');
       return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate()) + ' '
         + pad(d.getHours()) + ':' + pad(d.getMinutes()) + ':' + pad(d.getSeconds());
+    }
+
+    // 检查更新的展示口径：有错误时只报错，不显示「已是最新」
+    function aboutUpdateView(update, error) {
+      if (error) return { kind: 'error', text: error, actions: false };
+      if (!update) return null;
+      if (update.hasUpdate && update.latest) {
+        const date = update.latest.publishedAt ? String(update.latest.publishedAt).slice(0, 10) : '';
+        const from = update.current ? `当前 v${update.current}，` : '';
+        return {
+          kind: 'warn',
+          text: `${from}发现新版本 v${update.latest.version}${date ? `，发布于 ${date}` : ''}`,
+          actions: true,
+        };
+      }
+      return { kind: 'ok', text: `已是最新版本 v${update.current || 'unknown'}`, actions: false };
     }
 
     // API Key 徽章：按校验结果与配置状态给出文案、颜色档位与提示
@@ -918,8 +943,8 @@ window.__ModuleLoader__.load({
       };
 
       return h('div', { style: css.card },
-        h(SectionHead, { n: '6', title: '报告存放' },
-          h(Badge, { tone: report.isDefault ? undefined : 'info' }, report.isDefault ? '默认目录' : '自定义')),
+        h(SectionHead, { n: '6', title: '报告存储' },
+          h(Badge, { tone: report.isDefault ? undefined : 'info' }, report.isDefault ? '默认目录' : '自定义目录')),
         h('div', { style: css.row },
           h('span', {
             style: { ...css.mono, flex: '1 1 320px', minWidth: '0', wordBreak: 'break-all' },
@@ -927,11 +952,10 @@ window.__ModuleLoader__.load({
           }, report.dir),
           h(Btn, { onClick: () => doCopy(report.dir, 'rdir') }, copied === 'rdir' ? '已复制' : '复制路径'),
           h(Btn, { onClick: () => act('open-folder') }, '打开文件夹'),
-          h(Btn, { onClick: editing ? cancelEdit : startEdit }, editing ? '取消' : '更改')),
-        h('p', { style: css.hint },
-          report.isDefault
-            ? '未设置时保存到默认目录。'
-            : `自定义目录，默认目录是 ${report.defaultDir}。`),
+          h(Btn, { onClick: editing ? cancelEdit : startEdit }, editing ? '取消' : '更改目录')),
+        report.isDefault
+          ? null
+          : h('p', { style: css.hint }, `默认目录为 ${report.defaultDir}。`),
         // 只有真的还差一次授权时才报警；已授权的工作区外目录只留一句中性说明
         report.consentRequired
           ? h(Notice, { kind: 'warn', text: '该目录在工作区之外，写入前需要确认授权。' })
@@ -942,7 +966,7 @@ window.__ModuleLoader__.load({
 
         editing
           ? h('div', { style: css.field },
-              h('label', { htmlFor: 'tb-report-dir', style: css.fieldLabel }, '报告目录'),
+              h('label', { htmlFor: 'tb-report-dir', style: css.fieldLabel }, '存储目录'),
               h('div', { style: css.row },
                 h('input', {
                   id: 'tb-report-dir', className: 'tb-input', style: css.input, type: 'text',
@@ -966,11 +990,11 @@ window.__ModuleLoader__.load({
                       h(Btn, { primary: true, onClick: () => apply('copy', false) }, '复制到新目录'),
                       h(Btn, { onClick: () => apply('move', false) }, '移动到新目录'),
                       h(Btn, { onClick: () => apply('keep', false) }, '旧报告保持不变'),
-                      h(Btn, { onClick: () => setPhase('view') }, '取消')))
+                      h(Btn, { onClick: () => setPhase('view') }, '暂不迁移')))
                 : null,
               phase === 'consent'
                 ? h('div', { style: css.field },
-                    h(Notice, { kind: 'warn', text: `确认授权读写：${pending ? pending.path : ''}` }),
+                    h(Notice, { kind: 'warn', text: `确认授权此目录的读写权限：${pending ? pending.path : ''}` }),
                     h('div', { style: css.row },
                       h(Btn, { danger: true, onClick: () => apply(pending ? pending.mode : 'keep', true), loading: busyLocal }, '确认授权并保存'),
                       h(Btn, { onClick: cancelEdit }, '取消')))
@@ -980,8 +1004,8 @@ window.__ModuleLoader__.load({
         h('div', { style: css.row },
           h('span', { style: css.faint }, '回收站'),
           h('span', { style: { ...css.faint, flex: '1 1 240px', minWidth: '0', overflow: 'hidden', textOverflow: 'ellipsis' }, title: report.trashDir }, report.trashDir),
-          h(Btn, { size: 'sm', onClick: () => doCopy(report.trashDir, 'trash') }, copied === 'trash' ? '已复制' : '复制'),
-          h(Btn, { size: 'sm', onClick: () => act('open-folder', { path: report.trashDir }) }, '打开'),
+          h(Btn, { size: 'sm', onClick: () => doCopy(report.trashDir, 'trash') }, copied === 'trash' ? '已复制' : '复制路径'),
+          h(Btn, { size: 'sm', onClick: () => act('open-folder', { path: report.trashDir }) }, '打开回收站'),
           report.trashCount
             ? h(Btn, { size: 'sm', danger: true, onClick: () => setConfirmEmpty(true) }, '清空')
             : null),
@@ -1015,8 +1039,9 @@ window.__ModuleLoader__.load({
               : `清理报告${report.reportCount ? ` (${report.reportCount})` : ''}`),
           h('span', { style: css.hint }, report.trashCount ? `回收站现有 ${report.trashCount} 个文件，${fmtBytes(report.trashBytes)}` : '回收站为空')),
 
-        listing === 'open'
-          ? h('div', { style: css.field, id: 'tb-report-files' },
+        h('div', { id: 'tb-report-files', hidden: listing !== 'open' },
+          listing === 'open'
+          ? h('div', { style: css.field },
               h('p', { style: css.hint }, files && files.length
                 ? `以下 ${files.length} 个报告在勾选后移入回收站，删除后可以撤销。`
                 : '该目录里没有识别到本插件写出的报告。'),
@@ -1024,7 +1049,7 @@ window.__ModuleLoader__.load({
                 ? h('div', { style: css.scrollList, className: 'tb-scroll', tabIndex: 0, role: 'group', 'aria-label': '报告文件列表' },
                   files.map((f) => h('label', { key: f.name, style: { ...css.docRow, cursor: 'pointer' } },
                     h('input', {
-                      type: 'checkbox', style: { margin: 0, flex: '0 0 auto', accentColor: C.brand },
+                      type: 'checkbox', className: 'tb-check', style: { margin: 0, flex: '0 0 auto', accentColor: C.brand },
                       checked: Boolean(picked[f.name]),
                       'aria-label': `选择 ${f.name}`,
                       onChange: () => togglePick(f.name),
@@ -1042,7 +1067,7 @@ window.__ModuleLoader__.load({
                     }, `确认删除 ${chosen.length} 个`),
                     h(Btn, { onClick: () => setListing(false) }, '取消'))
                 : h('div', { style: css.row }, h(Btn, { onClick: () => setListing(false) }, '关闭')))
-          : null,
+          : null),
 
         lastBatch
           ? h('div', { style: css.row },
@@ -1052,6 +1077,82 @@ window.__ModuleLoader__.load({
                   : '刚才删除的报告在回收站里，本次会话内可撤销。'),
               h(Btn, { id: 'tb-undo-btn', onClick: undo, loading: busyLocal, autoFocus: true }, '撤销删除'))
           : null);
+    }
+
+    // 关于：简介、版本与发布日期、检查更新、反馈渠道
+    function AboutCard() {
+      const s = useStore();
+      const [copied, doCopy] = useCopy();
+      const [checking, setChecking] = React.useState(false);
+      const [update, setUpdate] = React.useState(null);
+      const [updateError, setUpdateError] = React.useState('');
+
+      const about = s.data && s.data.about;
+      if (!about) return null;
+
+      const check = async () => {
+        setChecking(true);
+        setUpdateError('');
+        try {
+          const res = await act('check-update');
+          if (!res) return;
+          if (res.error) {
+            setUpdateError(res.error);
+            setUpdate(res.update || null);
+            return;
+          }
+          setUpdate(res.update || null);
+        } finally {
+          setChecking(false);
+        }
+      };
+
+      const feedback = async () => {
+        const ok = await doCopy(about.contactEmail, 'mail');
+        if (ok) notify('ok', `已复制 ${about.contactEmail}，请邮件联系 Ling Gao 反馈 Bug 或建议，附上复现步骤与插件版本。`);
+        else notify('error', `复制失败，请手动复制邮箱：${about.contactEmail}`);
+      };
+
+      return h('div', { style: css.card },
+        h(SectionHead, { n: '7', title: '关于' }),
+        h('p', { style: css.hint }, about.intro),
+        h('div', { style: css.row },
+          h('span', { style: css.faint },
+            `当前版本 v${about.version}${about.releaseDate ? ` · 发布于 ${about.releaseDate}` : ''}`)),
+        h('div', { style: css.row },
+          h(Btn, { onClick: check, loading: checking }, '检查更新'),
+          h(Btn, { onClick: feedback, title: '通过邮件反馈 Bug 或建议' }, copied === 'mail' ? '已复制邮箱' : '反馈与建议'),
+          h('a', {
+            className: 'tb-link', style: css.link, href: about.portalUrl || 'https://www.lgsrc.cn', target: '_blank', rel: 'noreferrer noopener',
+            'aria-label': '门户网站 (在新窗口打开)',
+          }, '门户网站', h('span', { 'aria-hidden': 'true', style: { marginLeft: '2px' } }, '↗')),
+          h('a', {
+            className: 'tb-link', style: css.link, href: about.repoUrl, target: '_blank', rel: 'noreferrer noopener',
+            'aria-label': 'GitHub 主页 (在新窗口打开)',
+          }, 'GitHub 主页', h('span', { 'aria-hidden': 'true', style: { marginLeft: '2px' } }, '↗')),
+          h('a', {
+            className: 'tb-link', style: css.link, href: about.releasesUrl, target: '_blank', rel: 'noreferrer noopener',
+            'aria-label': '更新日志 (在新窗口打开)',
+          }, '更新日志', h('span', { 'aria-hidden': 'true', style: { marginLeft: '2px' } }, '↗'))),
+
+        (() => {
+          const view = aboutUpdateView(update, updateError);
+          if (!view) return null;
+          return h('div', { style: view.actions ? css.field : null },
+            h(Notice, { kind: view.kind, text: view.text }),
+            view.actions
+              ? h(React.Fragment, null,
+                  h('p', { style: css.hint },
+                    '下载 Releases 页面里的 zip，解压后在「插件 → 添加插件」中填入解压目录的绝对路径即可覆盖安装；也可以直接拉取仓库最新代码后重装。'),
+                  h('div', { style: css.row },
+                    h(Btn, { primary: true, onClick: () => act('open-releases') }, '打开 Releases 页面')))
+              : null);
+        })(),
+
+        h('div', { style: css.row },
+          h('span', { style: css.hint }, '反馈邮箱'),
+          h('a', { className: 'tb-link', style: css.link, href: `mailto:${about.contactEmail}` }, about.contactEmail)),
+      );
     }
 
     function SettingsPanelInner() {
@@ -1257,8 +1358,11 @@ window.__ModuleLoader__.load({
             : h('p', { style: css.hint }, '还没有查询过。在对话中粘贴 IP / Domain / Hash / URL / CVE 即可。'),
         ),
 
-        // 6. 报告存放
+        // 6. 报告存储
         h(ReportCard, null),
+
+        // 7. 关于
+        h(AboutCard, null),
       );
     }
 
@@ -1332,12 +1436,14 @@ window.__ModuleLoader__.load({
         'border-color:transparent;font-weight:600}',
         '.tb-btn[data-primary="1"]:hover{filter:brightness(1.08)}',
         '.tb-btn:disabled{opacity:.55;cursor:default}',
+        '.tb-btn:active:not(:disabled){filter:brightness(.95)}',
         '.tb-btn[data-size="sm"]{min-width:0;min-height:24px;padding:2px 8px}',
         '.tb-btn[data-danger="1"]{color:var(--dsw-alias-state-error-primary);',
         'border-color:color-mix(in srgb,var(--dsw-alias-state-error-primary) 55%,var(--dsw-alias-border-l2))}',
         '.tb-btn[data-danger="1"]:hover{background:color-mix(in srgb,var(--dsw-alias-state-error-primary) 10%,transparent)}',
         // 输入框焦点用品牌色描边，不用默认黑框
         '.tb-link:focus{outline:none}',
+        '.tb-link:hover{text-decoration:underline}',
         '.tb-link:focus-visible{outline:2px solid var(--dsw-alias-brand-primary);outline-offset:2px;border-radius:4px}',
         // 非按钮元素上的 role="button" (打码开关) 也要有可见焦点环
         '.tb-hit:focus{outline:none}',
@@ -1345,6 +1451,7 @@ window.__ModuleLoader__.load({
         // 可聚焦的滚动区域同样需要焦点环，否则键盘用户不知道焦点在哪
         '.tb-scroll:focus{outline:none}',
         '.tb-scroll:focus-visible{outline:2px solid var(--dsw-alias-brand-primary);outline-offset:2px;border-radius:8px}',
+        '.tb-check:focus-visible{outline:2px solid var(--dsw-alias-brand-primary);outline-offset:2px}',
         '.tb-input:focus{outline:none;border-color:var(--dsw-alias-brand-primary)}',
         '.tb-input:focus-visible{outline:none;border-color:var(--dsw-alias-brand-primary);',
         'box-shadow:0 0 0 3px color-mix(in srgb,var(--dsw-alias-brand-primary) 18%,transparent)}',

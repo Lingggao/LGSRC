@@ -39,6 +39,15 @@ function makePayload(reportPatch = {}) {
     latestLookup: null,
     lastLookup: null,
     autoOpenedAt: 0,
+  about: {
+        name: '灵糕中心 · 安全响应中心',
+        intro: '灵糕中心 · 安全响应中心是用于打击计算机病毒与恶意网站的独立非营利组织。',
+        version: '1.8.4',
+        releaseDate: '2026-10-26',
+        repoUrl: 'https://github.com/Lingggao/LGSRC',
+        releasesUrl: 'https://github.com/Lingggao/LGSRC/releases',
+        contactEmail: 'ling@lghub.org',
+      },
     report: { ...baseReport, ...reportPatch },
   };
 }
@@ -146,7 +155,7 @@ const check = (name, ok, detail = '') => {
 // 0. 渲染本身要先成立，否则后面全是假通过
 {
   const nodes = await renderSettings(makePayload());
-  check('设置页能渲染出报告存放分节', hasText(nodes, '报告存放'), `节点数 ${nodes.length}`);
+  check('设置页能渲染出报告存储分节', hasText(nodes, '报告存储'), `节点数 ${nodes.length}`);
 }
 
 // 1. 已授权的工作区外目录：不再常驻红色告警
@@ -211,6 +220,25 @@ const check = (name, ok, detail = '') => {
   check('默认不出现「确认清除」', !hasText(nodes, '确认清除'));
   const clear = buttons(nodes).find((n) => textOf(n) === '清除');
   check('「清除」本身不是危险按钮', Boolean(clear) && clear.props['data-danger'] === undefined);
+}
+
+// 8. 关于分节：简介、版本、更新与反馈入口
+{
+  const nodes = await renderSettings(makePayload());
+  check('关于分节存在', hasText(nodes, '关于'));
+  check('包含机构简介', hasText(nodes, '灵糕中心 · 安全响应中心是用于打击计算机病毒与恶意网站'));
+  check('显示当前版本', hasText(nodes, '当前版本 v1.8.4'));
+  check('版本行不再重复机构名', !nodes.some((n) => textOf(n) === '灵糕中心 · 安全响应中心'));
+  check('显示发布日期', hasText(nodes, '发布于 2026-10-26'));
+  check('提供检查更新按钮', buttons(nodes).some((n) => textOf(n) === '检查更新'));
+  check('提供反馈按钮', buttons(nodes).some((n) => textOf(n) === '反馈与建议'));
+  check('显示反馈邮箱', hasText(nodes, 'ling@lghub.org'));
+  const links = nodes.filter((n) => n.type === 'a');
+  check('外链标注在新窗口打开', links.some((n) => String(n.props['aria-label'] || '').includes('新窗口打开')));
+  check('外链使用统一链接样式', links.length > 0 && links.every((n) => n.props.className === 'tb-link'));
+  const aboutLinks = links.filter((n) => String(n.props['aria-label'] || '').includes('在新窗口打开'));
+  check('门户网站排在关于链接第一位', aboutLinks[0] && aboutLinks[0].props.href === 'https://www.lgsrc.cn', String(aboutLinks[0] && aboutLinks[0].props.href));
+  check('提供 GitHub 主页链接', links.some((n) => textOf(n) === 'GitHub 主页↗'));
 }
 
 console.log(`\n通过 ${passed} 项，失败 ${failures.length} 项`);
