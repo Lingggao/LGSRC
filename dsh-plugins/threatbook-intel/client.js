@@ -325,7 +325,11 @@ window.__ModuleLoader__.load({
 
       // 小标签
       badge: (tone) => {
-        const color = tone === 'ok' ? C.ok : tone === 'warn' ? C.warn : tone === 'error' ? C.err : null;
+        const color = tone === 'ok' ? C.ok
+          : tone === 'warn' ? C.warn
+            : tone === 'error' ? C.err
+              : tone === 'info' ? C.brand
+                : null;
         return {
           fontSize: FS.body, lineHeight: '18px', padding: '2px 8px', borderRadius: RADIUS.pill,
           border: `1px solid ${color || C.line}`,
@@ -399,7 +403,9 @@ window.__ModuleLoader__.load({
     }
 
     function Badge(props) {
-      return h('span', { style: css.badge(props.tone) }, props.children);
+      // 颜色之外还带文字；有详细原因时同时给悬停提示与无障碍名称
+      const label = props.title ? `${props.children}：${props.title}` : undefined;
+      return h('span', { style: css.badge(props.tone), title: props.title, 'aria-label': label }, props.children);
     }
 
     function StepCard(props) {
@@ -408,7 +414,7 @@ window.__ModuleLoader__.load({
           h('span', { style: css.subNo }, props.n),
           h('span', { style: css.stepTitle }, props.title)),
         props.desc || props.action
-          ? h('div', { style: { display: 'flex', alignItems: 'center', gap: '8px' } },
+          ? h('div', { style: { display: 'flex', alignItems: 'center', gap: SPACE.md, minHeight: '24px' } },
               props.desc ? h('span', { style: { ...css.stepDesc, flex: '1 1 auto', minWidth: '0' } }, props.desc) : null,
               props.action ? h('span', { style: { flex: '0 0 auto' } }, props.action) : null)
           : null,
@@ -423,6 +429,17 @@ window.__ModuleLoader__.load({
         props.children || null);
     }
 
+
+    // API Key 徽章：按校验结果与配置状态给出文案、颜色档位与提示
+    function keyBadge(check, configured) {
+      const settled = check && !check.loading;
+      if (settled && check.kind === 'quota') {
+        return { tone: 'info', text: '额度用尽', title: check.message || 'Key 有效，但当前被频率或配额限制' };
+      }
+      if (settled && !check.ok) return { tone: 'error', text: '校验未通过', title: check.message };
+      if (configured) return { tone: 'ok', text: '已配置' };
+      return { tone: 'warn', text: '未配置' };
+    }
 
     // 出口 IP 默认打码，便于截图分享；点「点击显示」临时还原
     function maskIp(value) {
@@ -711,7 +728,7 @@ window.__ModuleLoader__.load({
           h('div', { style: css.steps },
             h(StepCard, {
               n: '1', title: '打开绑定页', desc: '登录微步 X 情报中心',
-              action: h(Btn, { primary: true, onClick: () => act('open-binding') }, '打开绑定页'),
+              action: h(Btn, { primary: true, size: 'sm', onClick: () => act('open-binding') }, '打开绑定页'),
             }),
             h(StepCard, { n: '2', title: '添加白名单', desc: `「我的 KEY」→ 添加 ${egress.ip && !store.ipVisible ? maskIp(egress.ip) : (egress.ip || '出口 IP')}` }),
             h(StepCard, { n: '3', title: '复制 API Key', desc: '回到下方「API Key」一栏粘贴保存' })),
@@ -725,10 +742,8 @@ window.__ModuleLoader__.load({
         h('div', { style: css.card },
           h(SectionHead, { n: '3', title: 'API Key' },
             (() => {
-              const check = s.keyCheck || verify;
-              if (check && !check.loading && !check.ok) return h(Badge, { tone: 'error' }, '校验未通过');
-              if (data.key.configured) return h(Badge, { tone: 'ok' }, '已配置');
-              return h(Badge, { tone: 'warn' }, '未配置');
+              const view = keyBadge(s.keyCheck || verify, data.key.configured);
+              return h(Badge, { tone: view.tone, title: view.title }, view.text);
             })()),
           data.key.configured && !editing
             ? h(React.Fragment, null,
@@ -737,7 +752,7 @@ window.__ModuleLoader__.load({
                   h('span', { style: css.faint }, data.key.file),
                   h(Btn, { onClick: () => { setEditing(true); setDraft(''); } }, '更换'),
                   h(Btn, { onClick: async () => { await act('clear-key'); setVerify(null); patch({ keyCheck: null }); } }, '清除'),
-                  h(Btn, { onClick: test, loading: testing, title: '会调用一次 IP 信誉接口，占用当日额度' }, '测试连通性')),
+                  h(Btn, { onClick: test, loading: testing, title: '会调用一次文件报告接口，占用当日文件额度 (300 次/天)' }, '测试连通性')),
                 h('p', { style: css.hint }, '完整 Key 以 0600 权限写入本机文件，不上传、不同步、不记入对话日志。'))
             : h('div', { style: css.field },
                 h('label', { htmlFor: 'tb-apikey', style: css.fieldLabel }, 'API Key'),
@@ -753,8 +768,8 @@ window.__ModuleLoader__.load({
                   }),
                   h(Btn, { primary: true, onClick: save, loading: saving, disabled: !draft.trim() }, '保存到本机'),
                   editing ? h(Btn, { onClick: () => { setEditing(false); setDraft(''); } }, '取消') : null,
-                  data.key.configured ? null : h(Btn, { onClick: test, loading: testing, title: '会调用一次 IP 信誉接口，占用当日额度' }, '测试连通性')),
-                h('p', { id: 'tb-apikey-hint', style: css.hint }, '保存后界面只显示首尾 4 位；完整 Key 以 0600 权限写入本机文件，不上传、不同步、不记入对话日志。保存后会自动校验一次，占用一次 IP 信誉额度。')),
+                  data.key.configured ? null : h(Btn, { onClick: test, loading: testing, title: '会调用一次文件报告接口，占用当日文件额度 (300 次/天)' }, '测试连通性')),
+                h('p', { id: 'tb-apikey-hint', style: css.hint }, '保存后界面只显示首尾 4 位；完整 Key 以 0600 权限写入本机文件，不上传、不同步、不记入对话日志。保存后会自动校验一次，占用一次文件查询额度 (300 次/天)。')),
           verify
             ? h(Notice, {
                 kind: verify.ok ? 'ok' : 'error',

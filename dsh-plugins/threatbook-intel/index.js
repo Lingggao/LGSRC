@@ -1147,19 +1147,38 @@ function failureHint(message) {
   return '可在「设置 → 微步情报」里点「测试连通性」定位是 Key、IP 白名单还是权限问题。';
 }
 
-async function verifyKey() {
+// 校验 Key 用的样本：EICAR 测试文件 (公开的标准样本)，走文件报告接口。
+// 普通账号文件查询 300 次/天，比 IP 信誉 50 次/天更经用，校验不再挤占 IP 额度。
+const VERIFY_SHA256 = '275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f';
+
+async function verifyKey(request = tbRequest) {
   const key = readKey();
   if (!key) return { ok: false, kind: 'no-key', message: '尚未配置 API Key。' };
   try {
-    const res = await tbRequest('/scene/ip_reputation', { resource: '8.8.8.8', lang: 'zh' });
-    if (res.code === 0 || res.code === 1 || res.code === 2 || res.code === 3) {
-      return { ok: true, kind: 'ok', message: 'Key 可用，IP 白名单与接口权限均正常。', responseCode: res.code };
+    const res = await request('/file/report', { resource: VERIFY_SHA256, query_fields: ['summary'] }, { timeoutMs: 20000 });
+    if (typeof res.code === 'number' && res.code >= 0) {
+      return {
+        ok: true, kind: 'ok', responseCode: res.code,
+        message: 'Key 可用，出口 IP 白名单与文件接口权限正常 (本次校验占用 1 次文件查询额度)。',
+      };
     }
     const merged = `${res.code} ${res.msg}`;
+    if (/Frequent Limitation|Beyond (Daily|Monthly)|频率|配额/i.test(res.msg)) {
+      return {
+        ok: true, kind: 'quota', responseCode: res.code,
+        message: `${merged} —— Key 本身有效，只是当前被频率或配额限制，稍后重试即可。`,
+      };
+    }
     let kind = 'api';
     if (/Invalid Access IP|无效的访问\s*IP/i.test(res.msg)) kind = 'whitelist';
     else if (/Invalid API Key|无效的\s*API\s*key/i.test(res.msg)) kind = 'key';
-    else if (/No Access to API Method|没有访问接口权限/i.test(res.msg)) kind = 'permission';
+    else if (/No Access to API Method|没有访问接口权限/i.test(res.msg)) {
+      // 校验接口本身没开权限，不代表 Key 失效
+      return {
+        ok: false, kind: 'permission', responseCode: res.code,
+        message: `${merged} —— Key 可能仍然有效，只是没有文件报告接口权限，无法完成校验。`,
+      };
+    }
     return { ok: false, kind, message: `${merged} —— ${failureHint(res.msg)}`, responseCode: res.code };
   } catch (error) {
     const message = error instanceof Error ? error.message : String(error);
