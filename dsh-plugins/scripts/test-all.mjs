@@ -30,8 +30,9 @@ const plugins = fs.readdirSync(root)
   .map((n) => path.join(root, n))
   .filter((d) => fs.existsSync(path.join(d, 'package.json')));
 for (const dir of plugins) {
-  const smoke = path.join(dir, 'test', 'render-smoke.mjs');
-  if (fs.existsSync(smoke)) run(`渲染冒烟：${path.basename(dir)}`, smoke);
+  const name = path.basename(dir);
+  const smoke = path.join(root, 'tests', `${name}-render-smoke.mjs`);
+  if (fs.existsSync(smoke)) run(`渲染冒烟：${name}`, smoke);
 }
 
 const failed = steps.filter((s) => !s.ok);

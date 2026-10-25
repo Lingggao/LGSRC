@@ -2,6 +2,13 @@
 
 本文件记录 `threatbook-intel` 插件的版本变化。发版时在顶部新增一节。
 
+## 1.7.3 — 2026-10-25
+
+测试脚本移出插件目录。
+
+- 渲染冒烟测试从插件目录移到仓库的 `dsh-plugins/tests/`，发布包不再夹带 `test/`，zip 回到 10 个文件
+- `node dsh-plugins/scripts/test-all.mjs` 仍自动发现并运行它，新增插件时按 `<插件名>-render-smoke.mjs` 命名即可
+
 ## 1.7.2 — 2026-10-25
 
 Key 校验改用文件样本。

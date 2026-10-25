@@ -33,7 +33,7 @@ node dsh-plugins/scripts/test-all.mjs
 | --- | --- | --- |
 | 清单与排版 | `scripts/check.mjs` | 包结构、模块 id、硬编码 Key、全角括号、中英文粘连、括号前后空格 |
 | UI 一致性 | `scripts/ui-audit.mjs` | 字号只允许 12/16px、圆角与间距只用令牌值、颜色必须来自主题、按钮与输入框的可访问性 |
-| 渲染冒烟 | `<插件>/test/render-smoke.mjs` | 用桩 React 跑通每个槽位的 8 种界面状态（无 Key、有 Key、最近查询、空、提示、加载中、服务不可用等） |
+| 渲染冒烟 | `tests/<插件>-render-smoke.mjs` | 用桩 React 跑通每个槽位的 8 种界面状态（无 Key、有 Key、最近查询、空、提示、加载中、服务不可用等） |
 
 界面改动还需要人工确认一眼：刷新页面后设置页、输入框下方的状态条、新会话入口三处显示正常，贴一个指标能查到结果。
 

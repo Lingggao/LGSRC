@@ -1,5 +1,5 @@
 // 渲染冒烟测试：用桩 React 执行 client.js 的各个槽位，确认没有运行时报错
-// 用法：node dsh-plugins/threatbook-intel/test/render-smoke.mjs [场景...]
+// 用法：node dsh-plugins/tests/threatbook-intel-render-smoke.mjs [场景...]
 // 场景：normal / unconfigured / configured / last / empty / notice / loading / error
 import fs from 'node:fs';
 import path from 'node:path';
@@ -7,7 +7,7 @@ import vm from 'node:vm';
 import { fileURLToPath } from 'node:url';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
-const clientFile = path.resolve(here, '..', 'client.js');
+const clientFile = path.resolve(here, '..', 'threatbook-intel', 'client.js');
 const SCENARIOS = ['normal', 'unconfigured', 'configured', 'last', 'empty', 'notice', 'loading', 'error'];
 const targets = process.argv.slice(2).length ? process.argv.slice(2) : SCENARIOS;
 
