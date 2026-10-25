@@ -97,7 +97,7 @@ window.__ModuleLoader__.load({
         about: {
           name: '灵糕中心 · 安全响应中心',
           intro: '灵糕中心 · 安全响应中心是用于打击计算机病毒与恶意网站的独立非营利组织。',
-          version: '1.8.5',
+          version: '1.8.6',
           releaseDate: '2026-10-26',
           portalUrl: 'https://www.lgsrc.cn',
           repoUrl: 'https://github.com/Lingggao/LGSRC',
@@ -317,6 +317,8 @@ window.__ModuleLoader__.load({
     const RADIUS = { sm: '8px', md: '10px', lg: '12px', pill: '999px' };
     const FS = { body: '12px', page: '16px' };
     const LIST_COLS = 'minmax(0, 1fr) 92px 56px 76px';
+    // 清理报告按钮的标签会随数量与展开状态变化，固定成 6 个汉字宽避免抖动
+    const CLEAN_BTN_WIDTH = 116;
 
     const css = {
       // 状态条
@@ -428,6 +430,7 @@ window.__ModuleLoader__.load({
         whiteSpace: 'pre-wrap', wordBreak: 'break-word', maxHeight: '280px', overflow: 'auto',
       },
       errorText: { fontSize: FS.body, color: C.err },
+      divider: { borderTop: `1px solid ${C.line}`, margin: '2px 0 0' },
       chip: {
         display: 'flex', alignItems: 'center', gap: SPACE.sm, fontSize: FS.body, lineHeight: '20px',
         color: C.dim, border: `1px solid ${C.line}`, borderRadius: RADIUS.pill,
@@ -479,7 +482,8 @@ window.__ModuleLoader__.load({
         id: props.id,
         'data-primary': props.primary ? '1' : '0',
         'data-danger': props.danger ? '1' : undefined,
-        style: { ...(props.style || {}), width: `${buttonWidth(props.children, props.loading)}px`, flex: '0 0 auto' },
+        // width 可选：标签会随状态变长的按钮用它固定宽度，避免抖动
+        style: { ...(props.style || {}), width: `${props.width || buttonWidth(props.children, props.loading)}px`, flex: '0 0 auto' },
         title: props.title,
         'aria-label': props.ariaLabel,
         'aria-busy': props.loading ? 'true' : undefined,
@@ -988,9 +992,10 @@ window.__ModuleLoader__.load({
           h(Badge, { tone: report.isDefault ? undefined : 'info' }, report.isDefault ? '默认目录' : '自定义目录')),
         h('div', { style: css.row },
           h('span', {
-            style: { ...css.mono, flex: '1 1 320px', minWidth: '0', wordBreak: 'break-all' },
+            style: { ...css.mono, flex: '1 1 100%', minWidth: '0', wordBreak: 'break-all' },
             title: report.dir,
-          }, report.dir),
+          }, report.dir)),
+        h('div', { style: css.row },
           h(Btn, { onClick: () => doCopy(report.dir, 'rdir') }, copied === 'rdir' ? '已复制' : '复制路径'),
           h(Btn, { onClick: () => act('open-folder') }, '打开文件夹'),
           h(Btn, { onClick: editing ? cancelEdit : startEdit }, editing ? '取消' : '更改目录')),
@@ -1018,7 +1023,7 @@ window.__ModuleLoader__.load({
                   onChange: (e) => { setDraft(e.target.value); if (dirError) setDirError(''); },
                   onKeyDown: (e) => { if (e.key === 'Enter') confirmChange(); },
                 }),
-                h(Btn, { onClick: browse, disabled: busyLocal }, '选择文件夹…'),
+                h(Btn, { onClick: browse, disabled: busyLocal }, '选择文件夹'),
                 h(Btn, { primary: true, onClick: confirmChange, loading: busyLocal }, '保存目录')),
               dirError
                 ? h('p', { id: 'tb-report-dir-error', role: 'alert', style: { ...css.hint, color: C.err } }, dirError)
@@ -1042,43 +1047,18 @@ window.__ModuleLoader__.load({
                 : null)
           : null,
 
-        h('div', { style: css.row },
-          h('span', { style: css.faint }, '回收站'),
-          h('span', { style: { ...css.faint, flex: '1 1 240px', minWidth: '0', overflow: 'hidden', textOverflow: 'ellipsis' }, title: report.trashDir }, report.trashDir),
-          h(Btn, { onClick: () => doCopy(report.trashDir, 'trash') }, copied === 'trash' ? '已复制' : '复制路径'),
-          h(Btn, { onClick: () => act('open-folder', { path: report.trashDir }) }, '打开回收站'),
-          report.trashCount
-            ? h(Btn, { danger: true, onClick: () => setConfirmEmpty(true) }, '清空')
-            : null),
-
-        confirmEmpty
-          ? h('div', { style: css.field },
-              h(Notice, { kind: 'warn', text: `确认清空回收站？里边的 ${report.trashCount} 个文件会被永久删除，无法撤销。` }),
-              h('div', { style: css.row },
-                h(Btn, { danger: true, onClick: emptyTrash, loading: busyLocal }, '确认清空'),
-                h(Btn, { onClick: () => setConfirmEmpty(false) }, '取消')))
-          : null,
-
-        h('div', { style: css.row },
-          h('span', { style: css.hint }, '回收站保留'),
-          ...[7, 30, 0].map((days) => h(Btn, {
-            key: days, primary: report.retentionDays === days,
-            pressed: report.retentionDays === days,
-            ariaLabel: days === 0 ? '回收站永久保留' : `回收站保留 ${days} 天`,
-            onClick: () => act('set-retention', { days }),
-          }, days === 0 ? '永久' : `${days} 天`)),
-          h('span', { style: css.faint }, report.retentionDays ? '到期自动清空' : '不会自动清空')),
-
+        // 当前目录：先处理这里报告，再看回收站
         h('div', { style: css.row },
           h(Btn, {
             id: 'tb-list-btn', onClick: loadList, loading: listing === 'load',
             expanded: listing === 'open', controls: 'tb-report-files',
+            width: CLEAN_BTN_WIDTH,
           }, listing === 'load'
             ? '正在扫描…'
             : listing === 'open'
               ? '收起清理面板'
               : `清理报告${report.reportCount ? ` (${report.reportCount})` : ''}`),
-          h('span', { style: css.hint }, report.trashCount ? `回收站现有 ${report.trashCount} 个文件，${fmtBytes(report.trashBytes)}` : '回收站为空')),
+          h('span', { style: css.hint }, '自动识别文件内容，仅清理本插件撰写的报告')),
 
         h('div', { id: 'tb-report-files', hidden: listing !== 'open' },
           listing === 'open'
@@ -1117,6 +1097,43 @@ window.__ModuleLoader__.load({
                   ? `刚才删除的报告在上一目录 ${lastBatch.dir} 的回收站里，本次会话内可撤销。`
                   : '刚才删除的报告在回收站里，本次会话内可撤销。'),
               h(Btn, { id: 'tb-undo-btn', onClick: undo, loading: busyLocal, autoFocus: true }, '撤销删除'))
+          : null,
+
+        // 回收站：路径与状态 → 保留策略 → 清空
+        h('div', { style: css.divider }),
+
+        h('div', { style: css.row },
+          h('span', { style: css.faint }, '回收站'),
+          h('span', { style: { ...css.faint, flex: '1 1 0', minWidth: '0', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }, title: report.trashDir }, report.trashDir)),
+        h('div', { style: css.row },
+          h(Btn, { onClick: () => doCopy(report.trashDir, 'trash') }, copied === 'trash' ? '已复制' : '复制路径'),
+          h(Btn, { onClick: () => act('open-folder', { path: report.trashDir }) }, '打开回收站')),
+
+        h('p', { style: css.hint }, report.trashCount
+          ? `回收站现有 ${report.trashCount} 个文件，${fmtBytes(report.trashBytes)}`
+          : '回收站为空'),
+
+        h('div', { style: css.row },
+          h('span', { style: css.hint }, '回收站保留'),
+          ...[7, 30, 0].map((days) => h(Btn, {
+            key: days, primary: report.retentionDays === days,
+            pressed: report.retentionDays === days,
+            ariaLabel: days === 0 ? '回收站永久保留' : `回收站保留 ${days} 天`,
+            onClick: () => act('set-retention', { days }),
+          }, days === 0 ? '永久' : `${days} 天`)),
+          h('span', { style: css.faint }, report.retentionDays ? '到期自动清空' : '不会自动清空')),
+
+        report.trashCount
+          ? h('div', { style: css.row },
+              h(Btn, { danger: true, onClick: () => setConfirmEmpty(true) }, '清空回收站'))
+          : null,
+
+        confirmEmpty
+          ? h('div', { style: css.field },
+              h(Notice, { kind: 'warn', text: `确认清空？回收站中的 ${report.trashCount} 个文件将被永久删除，无法撤销。` }),
+              h('div', { style: css.row },
+                h(Btn, { danger: true, onClick: emptyTrash, loading: busyLocal }, '确认清空'),
+                h(Btn, { onClick: () => setConfirmEmpty(false) }, '取消')))
           : null);
     }
 

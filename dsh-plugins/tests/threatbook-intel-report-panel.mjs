@@ -42,7 +42,7 @@ function makePayload(reportPatch = {}) {
   about: {
         name: '灵糕中心 · 安全响应中心',
         intro: '灵糕中心 · 安全响应中心是用于打击计算机病毒与恶意网站的独立非营利组织。',
-        version: '1.8.5',
+        version: '1.8.6',
         releaseDate: '2026-10-26',
         repoUrl: 'https://github.com/Lingggao/LGSRC',
         releasesUrl: 'https://github.com/Lingggao/LGSRC/releases',
@@ -204,10 +204,13 @@ const check = (name, ok, detail = '') => {
 // 5. 回收站有内容时才出现清空入口，且要二次确认
 {
   const nodes = await renderSettings(makePayload({ trashCount: 3, trashBytes: 81920 }));
-  const empty = buttons(nodes).find((n) => textOf(n) === '清空');
+  const all = buttons(nodes);
+  const empty = all.find((n) => textOf(n) === '清空回收站');
+  const clean = all.find((n) => textOf(n).startsWith('清理报告'));
   check('回收站非空时出现清空入口', Boolean(empty));
   check('清空入口是危险色', Boolean(empty) && empty.props['data-danger'] === '1');
-  check('未点击时不会直接出现确认清空', !hasText(nodes, '确认清空回收站'));
+  check('清理报告在清空回收站之前', Boolean(clean && empty) && all.indexOf(clean) < all.indexOf(empty));
+  check('未点击时不会直接出现确认清空', !hasText(nodes, '确认清空？'));
 }
 
 // 6. 打码开关与品牌「·」的可访问性约定
@@ -234,7 +237,7 @@ const check = (name, ok, detail = '') => {
   const nodes = await renderSettings(makePayload());
   check('关于分节存在', hasText(nodes, '关于'));
   check('包含机构简介', hasText(nodes, '灵糕中心 · 安全响应中心是用于打击计算机病毒与恶意网站'));
-  check('显示当前版本', hasText(nodes, '当前版本 v1.8.5'));
+  check('显示当前版本', hasText(nodes, '当前版本 v1.8.6'));
   check('版本行不再重复机构名', !nodes.some((n) => textOf(n) === '灵糕中心 · 安全响应中心'));
   check('显示发布日期', hasText(nodes, '发布于 2026-10-26'));
   check('提供检查更新按钮', buttons(nodes).some((n) => textOf(n) === '检查更新'));
@@ -274,6 +277,7 @@ const check = (name, ok, detail = '') => {
   const byLength = new Map();
   let formulaOk = true;
   for (const b of btns) {
+    if (b.props.width || textOf(b).startsWith('清理报告')) continue;
     const len = Array.from(textOf(b)).length;
     const width = b.props.style && b.props.style.width;
     const expected = (len <= 5 ? 92 : 44 + 12 * len) + 'px';
@@ -283,6 +287,12 @@ const check = (name, ok, detail = '') => {
   }
   check('按钮宽度都符合字数公式', formulaOk, [...byLength.entries()].map(([k, v]) => k + ':' + [...v].join('/')).join(' '));
   check('同字数按钮宽度完全一致', [...byLength.values()].every((set) => set.size === 1), [...byLength.entries()].map(([k, v]) => k + ':' + [...v].join('/')).join(' '));
+
+  const cleanBtn = btns.find((b) => textOf(b).startsWith('清理报告'));
+  check('清理报告按钮固定六字宽 116px', Boolean(cleanBtn) && cleanBtn.props.style.width === '116px', cleanBtn && cleanBtn.props.style.width);
+  const bigNodes = await renderSettings(makePayload({ reportCount: 123 }));
+  const bigClean = buttons(bigNodes).find((b) => textOf(b).startsWith('清理报告'));
+  check('三位数报告数仍不撑宽', Boolean(bigClean) && bigClean.props.style.width === '116px', bigClean && bigClean.props.style.width);
 }
 
 // 10. 样式表热重载：旧 <style> 必须被新规则覆盖
@@ -299,6 +309,10 @@ const check = (name, ok, detail = '') => {
   check('目录操作统一为「打开文件夹」', hasText(nodes, '打开文件夹') && !hasText(nodes, '打开目录') && !hasText(nodes, '打开报告目录'));
   check('没有内联字号硬编码', !/fontSize: '\d+px'/.test(CODE));
   check('按钮没有遗留尺寸变体', !/data-size/.test(CODE));
+  check('清理说明使用新文案', hasText(nodes, '自动识别文件内容，仅清理本插件撰写的报告'));
+  check('选择文件夹不再带省略号', CODE.includes("'选择文件夹'") && !CODE.includes('选择文件夹…'));
+  check('清空确认文案已更新', CODE.includes('确认清空？回收站中的'));
+  check('存储目录路径占满一行', nodes.some((n) => n.props.style && n.props.style.flex === '1 1 100%'));
 }
 
 console.log(`\n通过 ${passed} 项，失败 ${failures.length} 项`);
