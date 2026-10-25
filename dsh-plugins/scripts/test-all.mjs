@@ -25,6 +25,9 @@ const run = (label, script, args = []) => {
 
 run('清单与排版校验', path.join(root, 'scripts', 'check.mjs'));
 run('UI 一致性审计', path.join(root, 'scripts', 'ui-audit.mjs'));
+// 接口级契约（目前只有微步插件有），没有该文件的插件自动跳过
+const contract = path.join(root, 'tests', 'threatbook-intel-report-panel.mjs');
+if (fs.existsSync(contract)) run('报告面板契约', contract);
 
 const plugins = fs.readdirSync(root)
   .map((n) => path.join(root, n))

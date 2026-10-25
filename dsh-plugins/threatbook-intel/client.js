@@ -28,6 +28,7 @@ window.__ModuleLoader__.load({
       error: '本机服务不可用',
       empty: '无查询记录',
       last: '含最近查询',
+      reports: '报告目录与回收站',
       notice: '带提示',
     };
 
@@ -43,7 +44,7 @@ window.__ModuleLoader__.load({
       } catch { /* 无 localStorage 时不进预览 */ }
       return null;
     })();
-    const PREVIEW_ORDER = ['unconfigured', 'configured', 'last', 'empty', 'notice', 'loading', 'error'];
+    const PREVIEW_ORDER = ['unconfigured', 'configured', 'last', 'reports', 'empty', 'notice', 'loading', 'error'];
 
     function setPreview(kind) {
       PREVIEW = kind || null;
@@ -93,12 +94,46 @@ window.__ModuleLoader__.load({
         },
         autoOpenedAt: 0,
         permissions: [],
+        report: {
+          dir: 'C:\\work\\threatbook-reports',
+          defaultDir: 'C:\\work\\threatbook-reports',
+          isDefault: true,
+          outsideWorkspace: false,
+          consentRequired: false,
+          writable: true,
+          retentionDays: 30,
+          trashDir: 'C:\\work\\threatbook-reports\\.LGSRC-trash',
+          reportCount: 2,
+          reportBytes: 4096,
+          trashCount: 0,
+          trashBytes: 0,
+          lastTrashBatch: null,
+        },
       };
       if (kind === 'unconfigured') {
         payload.key = { configured: false, masked: '', savedAt: null, file: payload.key.file };
         payload.lastLookup = null;
       }
       if (kind === 'empty') payload.lastLookup = null;
+      // 报告目录的边界状态：自定义目录、已授权的工作区外路径、回收站非空
+      if (kind === 'reports') {
+        payload.report = {
+          ...payload.report,
+          dir: 'D:\\Security\\threatbook-reports',
+          defaultDir: 'C:\\work\\threatbook-reports',
+          isDefault: false,
+          outsideWorkspace: true,
+          consentRequired: false,
+          retentionDays: 7,
+          trashDir: 'D:\\Security\\threatbook-reports\\.LGSRC-trash',
+          reportCount: 6,
+          trashCount: 3,
+          trashBytes: 81920,
+          lastTrashBatch: '2026-10-25T15-26-45-930Z',
+        };
+      }
+      payload.latestLookup = payload.lastLookup ? { ...payload.lastLookup, scope: 'global' } : null;
+      payload.lastLookup = payload.lastLookup ? { ...payload.lastLookup, scope: 'session' } : null;
       return payload;
     }
 
@@ -113,6 +148,8 @@ window.__ModuleLoader__.load({
       notice: null,
       ipVisible: false,
       keyCheck: null,
+      // 本次会话里已移入回收站的报告，用于把失效的「打开报告」入口收起来
+      trashed: null,
     };
 
     function emit() {
@@ -127,6 +164,8 @@ window.__ModuleLoader__.load({
     }
 
     let inflight = null;
+    // 当前面板所在会话；状态接口据此返回本会话的最近查询
+    let activeSessionId = null;
 
     function refresh() {
       if (PREVIEW) {
@@ -149,7 +188,8 @@ window.__ModuleLoader__.load({
       if (inflight) return inflight;
       inflight = (async () => {
         try {
-          const res = await fetch(STATE_URL, { headers: { accept: 'application/json' }, cache: 'no-store' });
+          const query = activeSessionId ? `?sessionId=${encodeURIComponent(activeSessionId)}` : '';
+          const res = await fetch(STATE_URL + query, { headers: { accept: 'application/json' }, cache: 'no-store' });
           if (res.status === 401 || res.status === 403) throw new Error('授权已失效，请刷新页面 (Ctrl+R)');
           if (!res.ok) throw new Error(`HTTP ${res.status}`);
           const data = await res.json();
@@ -178,7 +218,7 @@ window.__ModuleLoader__.load({
         const res = await fetch(ACTION_URL, {
           method: 'POST',
           headers: { 'content-type': 'application/json' },
-          body: JSON.stringify({ action, ...(payload || {}) }),
+          body: JSON.stringify({ action, sessionId: activeSessionId || undefined, ...(payload || {}) }),
         });
         const body = await res.json().catch(() => ({}));
         if (res.status === 401 || res.status === 403) throw new Error('授权已失效，请刷新页面 (Ctrl+R)');
@@ -209,7 +249,12 @@ window.__ModuleLoader__.load({
     let pollerStarted = false;
     let autoOpenTried = false;
 
-    function ensurePoller() {
+    function ensurePoller(sessionId) {
+      const next = sessionId ? String(sessionId) : null;
+      if (next && next !== activeSessionId) {
+        activeSessionId = next;
+        if (pollerStarted) refresh();
+      }
       if (pollerStarted) return;
       pollerStarted = true;
       refresh();
@@ -361,8 +406,18 @@ window.__ModuleLoader__.load({
         border: `1px dashed ${C.lineStrong}`, borderRadius: RADIUS.md, background: C.surface2,
         fontSize: FS.body, color: C.dim,
       },
+      scrollList: {
+        display: 'flex', flexDirection: 'column', gap: SPACE.xs, maxHeight: '180px',
+        overflowY: 'auto', padding: '4px 0',
+      },
+      docRow: { display: 'flex', alignItems: 'center', gap: SPACE.md, fontSize: FS.body, minWidth: '0' },
+      docName: {
+        flex: '1 1 auto', minWidth: '0', color: C.text,
+        overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
+      },
+      docMeta: { flex: '0 0 auto', color: C.faint, whiteSpace: 'nowrap' },
       notice: (kind) => ({
-        fontSize: FS.body, color: kind === 'error' ? C.err : C.ok,
+        fontSize: FS.body, color: kind === 'error' ? C.err : kind === 'warn' ? C.warn : C.ok,
         background: C.surface2, border: `1px solid ${C.line}`,
         borderRadius: RADIUS.sm, padding: '8px 12px',
         display: 'flex', alignItems: 'flex-start', gap: SPACE.md,
@@ -376,16 +431,24 @@ window.__ModuleLoader__.load({
 
     function Btn(props) {
       ensureStyle();
-      const off = Boolean(props.disabled) || store.busy || Boolean(props.loading);
+      const off = Boolean(props.disabled) || Boolean(props.loading);
       return h('button', {
         type: 'button',
         className: 'tb-btn',
+        id: props.id,
         'data-primary': props.primary ? '1' : '0',
         'data-size': props.size === 'sm' ? 'sm' : 'md',
+        'data-danger': props.danger ? '1' : undefined,
         style: props.style,
         title: props.title,
         'aria-label': props.ariaLabel,
         'aria-busy': props.loading ? 'true' : undefined,
+        // 多选一的当前值必须让读屏读到，不能只靠实心色
+        'aria-pressed': props.pressed === undefined ? undefined : (props.pressed ? 'true' : 'false'),
+        // 展开式面板：读屏要知道按钮现在是展开还是收起
+        'aria-expanded': props.expanded === undefined ? undefined : (props.expanded ? 'true' : 'false'),
+        'aria-controls': props.controls,
+        autoFocus: props.autoFocus || undefined,
         disabled: off,
         onClick: props.onClick,
         onKeyDown: props.onKeyDown,
@@ -395,10 +458,12 @@ window.__ModuleLoader__.load({
     }
 
     // 统一的状态提示：图标 + 文本，颜色之外还有语义
+    // role=alert 本身隐含 assertive，再叠 aria-live="polite" 会让读屏行为互相冲突
     function Notice(props) {
-      const isError = props.kind === 'error';
-      return h('div', { role: isError ? 'alert' : 'status', 'aria-live': 'polite', style: css.notice(props.kind) },
-        h('span', { 'aria-hidden': 'true', style: { fontWeight: 700 } }, isError ? '!' : '✓'),
+      const kind = props.kind || 'ok';
+      const isError = kind === 'error';
+      return h('div', { role: isError ? 'alert' : 'status', style: css.notice(kind) },
+        h('span', { 'aria-hidden': 'true', style: { fontWeight: 700 } }, isError || kind === 'warn' ? '!' : '✓'),
         h('span', null, props.text));
     }
 
@@ -429,6 +494,24 @@ window.__ModuleLoader__.load({
         props.children || null);
     }
 
+
+    function fmtBytes(bytes) {
+      const n = Number(bytes) || 0;
+      if (n < 1024) return n + ' B';
+      if (n < 1024 * 1024) return (n / 1024).toFixed(1) + ' KB';
+      return (n / 1024 / 1024).toFixed(1) + ' MB';
+    }
+
+    // 与主进程的 localTime() 保持同一格式 YYYY-MM-DD HH:mm:ss，
+    // 避免「文件时间」和「最近查询时间」一个带秒一个不带
+    function fmtWhen(ms) {
+      const value = Number(ms);
+      if (!value) return '';
+      const d = new Date(value);
+      const pad = (x) => String(x).padStart(2, '0');
+      return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate()) + ' '
+        + pad(d.getHours()) + ':' + pad(d.getMinutes()) + ':' + pad(d.getSeconds());
+    }
 
     // API Key 徽章：按校验结果与配置状态给出文案、颜色档位与提示
     function keyBadge(check, configured) {
@@ -462,6 +545,19 @@ window.__ModuleLoader__.load({
       return `${value.slice(0, head)}…${value.slice(-tail)}`;
     }
 
+    // 报告已在本会话被移入回收站时，收起指向它的「打开报告」入口，避免点了才报错
+    function isTrashed(target) {
+      const trashed = store.trashed;
+      if (!trashed || !target || !trashed.names) return false;
+      const name = String(target).split(/[\\/]/).pop();
+      if (!name || trashed.names.indexOf(name) < 0) return false;
+      // 目录比较要按路径边界：C:\reports 不能匹配 C:\reports-old
+      const normalize = (value) => String(value || '').replace(/\\/g, '/').replace(/\/+$/, '').toLowerCase();
+      const dir = normalize(trashed.dir);
+      const file = normalize(target);
+      return Boolean(dir) && (file === dir || file.startsWith(dir + '/'));
+    }
+
     function IpValue(props) {
       const text = props.ip === undefined || props.ip === null || props.ip === '' ? '未获取' : String(props.ip);
       return h('span', { style: props.style }, store.ipVisible ? text : maskIp(text));
@@ -469,8 +565,16 @@ window.__ModuleLoader__.load({
 
     function IpToggle() {
       const visible = Boolean(store.ipVisible);
+      const toggle = () => patch({ ipVisible: !store.ipVisible });
       return h('span', {
-        onClick: () => patch({ ipVisible: !store.ipVisible }),
+        role: 'button',
+        tabIndex: 0,
+        className: 'tb-hit',
+        'aria-label': visible ? '隐藏完整出口 IP' : '显示完整出口 IP',
+        onClick: toggle,
+        onKeyDown: (e) => {
+          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); }
+        },
         title: visible ? '打码显示出口 IP' : '显示完整出口 IP',
         style: { cursor: 'pointer', fontSize: '12px', color: C.dim },
       }, visible ? '(点击隐藏)' : '(点击显示)');
@@ -488,6 +592,15 @@ window.__ModuleLoader__.load({
       }];
     }
 
+    // 控件被替换或卸载后把焦点交给另一个仍在的元素
+    function focusById(id) {
+      setTimeout(() => {
+        if (typeof document === 'undefined' || !document.getElementById) return;
+        const el = document.getElementById(id);
+        if (el && typeof el.focus === 'function') el.focus();
+      }, 50);
+    }
+
     // ------------------------------------------------------------ 输入框下方状态条 / 首次配置卡片
 
     function DockPanelInner(props) {
@@ -499,8 +612,8 @@ window.__ModuleLoader__.load({
       const sessionId = props && props.sessionId ? props.sessionId : null;
 
       React.useEffect(() => {
-        ensurePoller();
-      }, []);
+        ensurePoller(sessionId);
+      }, [sessionId]);
 
       const data = s.data;
       const configured = Boolean(data && data.key && data.key.configured);
@@ -626,7 +739,9 @@ window.__ModuleLoader__.load({
         last
           ? h('div', { style: css.row },
               sessionId ? h(Btn, { primary: true, onClick: () => act('summarize', { sessionId }), title: '让 AI 针对这次查询写一段总结' }, 'AI 总结') : null,
-              last.markdownPath ? h(Btn, { onClick: () => act('open-report', { path: last.markdownPath }) }, '打开报告') : null,
+              last.markdownPath && !isTrashed(last.markdownPath)
+                ? h(Btn, { onClick: () => act('open-report', { path: last.markdownPath }) }, '打开报告')
+                : last.markdownPath ? h('span', { style: css.hint }, '报告已移入回收站') : null,
               last.reportDir ? h(Btn, { onClick: () => act('open-folder', { path: last.reportDir }) }, '打开目录') : null)
           : null,
         s.notice ? h(Notice, { kind: s.notice.kind, text: s.notice.text }) : null,
@@ -634,6 +749,310 @@ window.__ModuleLoader__.load({
     }
 
     // ------------------------------------------------------------ 设置页
+
+    // 报告目录：显示当前路径、打开/复制、切换目录 (含迁移选择与跨工作区授权)、清理与撤销
+    function ReportCard() {
+      const s = useStore();
+      const [copied, doCopy] = useCopy();
+      const [editing, setEditing] = React.useState(false);
+      const [draft, setDraft] = React.useState('');
+      const [phase, setPhase] = React.useState('view');
+      const [pending, setPending] = React.useState(null);
+      // false 未展开 / 'load' 正在扫描 / 'open' 已展开
+      const [listing, setListing] = React.useState(false);
+      const [files, setFiles] = React.useState(null);
+      const [picked, setPicked] = React.useState({});
+      const [lastBatch, setLastBatch] = React.useState(null);
+      const [busyLocal, setBusyLocal] = React.useState(false);
+      const [dirError, setDirError] = React.useState('');
+      const [confirmEmpty, setConfirmEmpty] = React.useState(false);
+
+      const report = s.data && s.data.report;
+      if (!report) return null;
+
+      // 按钮被卸载后把焦点交还给一个仍在的控件，避免键盘焦点掉回页面顶部
+      const focusLater = (id) => focusById(id);
+
+      const startEdit = () => {
+        setDraft(report.dir || '');
+        setEditing(true);
+        setPhase('view');
+        setDirError('');
+      };
+
+      const cancelEdit = () => {
+        setEditing(false);
+        setPhase('view');
+        setPending(null);
+        setDirError('');
+      };
+
+      const browse = async () => {
+        setBusyLocal(true);
+        try {
+          const res = await act('choose-report-dir');
+          if (res && res.path) {
+            setDraft(res.path);
+            setDirError('');
+          }
+        } finally {
+          setBusyLocal(false);
+        }
+      };
+
+      const apply = async (mode, consent) => {
+        const target = (pending && pending.path) || draft.trim();
+        if (!target) return;
+        setBusyLocal(true);
+        const res = await act('set-report-dir', { path: target, mode, consent: Boolean(consent) });
+        setBusyLocal(false);
+        if (!res) return;
+        if (res.needsConsent) {
+          setPending({ path: res.path, mode });
+          setPhase('consent');
+          return;
+        }
+        const moved = res.migration ? (res.migration.copied + res.migration.moved) : 0;
+        notify('ok', moved ? `已切换目录，迁移 ${moved} 个报告` : '已切换报告目录');
+        setPending(null);
+        cancelEdit();
+      };
+
+      // 目录为空时就地报错，不再借用全局提示条
+      const requireTarget = () => {
+        const target = draft.trim();
+        if (!target) {
+          setDirError('请填写或选择报告目录');
+          return null;
+        }
+        setDirError('');
+        return target;
+      };
+
+      const submit = (mode) => {
+        if (!requireTarget()) return;
+        apply(mode, false);
+      };
+
+      const confirmChange = () => {
+        const target = requireTarget();
+        if (!target) return;
+        if (target === report.dir) { notify('ok', '报告目录没有变化'); cancelEdit(); return; }
+        if (report.reportCount > 0) { setPhase('migrate'); return; }
+        submit('keep');
+      };
+
+      const loadList = async () => {
+        if (listing === 'open') { setListing(false); return; }
+        if (listing === 'load') return;
+        setListing('load');
+        const res = await act('list-reports');
+        if (!res) { setListing(false); return; }
+        const list = res.files || [];
+        const marks = {};
+        for (const f of list) marks[f.name] = true;
+        setFiles(list);
+        setPicked(marks);
+        setListing('open');
+      };
+
+      const togglePick = (name) => {
+        setPicked((prev) => ({ ...prev, [name]: !(prev && prev[name]) }));
+      };
+
+      const allPicked = Boolean(files && files.length) && files.every((f) => picked[f.name]);
+      const toggleAll = () => {
+        const marks = {};
+        for (const f of files || []) marks[f.name] = !allPicked;
+        setPicked(marks);
+      };
+      const chosen = (files || []).filter((f) => picked[f.name]);
+
+      const confirmDelete = async () => {
+        const names = chosen.map((f) => f.name);
+        if (!names.length) return;
+        setBusyLocal(true);
+        try {
+          const res = await act('delete-reports', { names });
+          if (!res) return;
+          const dir = res.dir || report.dir;
+          setLastBatch({ batch: res.batch, dir });
+          patch({ trashed: { dir, names: res.moved || names } });
+          setFiles(null);
+          setPicked({});
+          setListing(false);
+          notify('ok', `已把 ${res.moved.length} 个报告移入回收站，本次会话内可撤销。`);
+        } finally {
+          setBusyLocal(false);
+        }
+      };
+
+      const undo = async () => {
+        if (!lastBatch) return;
+        setBusyLocal(true);
+        try {
+          const res = await act('undo-delete', { batch: lastBatch.batch, dir: lastBatch.dir });
+          if (!res) return;
+          notify('ok', `已恢复 ${res.restored.length} 个报告`);
+          patch({ trashed: null });
+          setLastBatch(null);
+          focusLater('tb-list-btn');
+        } finally {
+          setBusyLocal(false);
+        }
+      };
+
+      const emptyTrash = async () => {
+        setBusyLocal(true);
+        try {
+          const res = await act('empty-trash');
+          if (!res) return;
+          notify('ok', `已清空回收站，删除 ${res.removed.length} 个批次`);
+          patch({ trashed: null });
+          setLastBatch(null);
+          setConfirmEmpty(false);
+          focusLater('tb-list-btn');
+        } finally {
+          setBusyLocal(false);
+        }
+      };
+
+      return h('div', { style: css.card },
+        h(SectionHead, { n: '6', title: '报告存放' },
+          h(Badge, { tone: report.isDefault ? undefined : 'info' }, report.isDefault ? '默认目录' : '自定义')),
+        h('div', { style: css.row },
+          h('span', {
+            style: { ...css.mono, flex: '1 1 320px', minWidth: '0', wordBreak: 'break-all' },
+            title: report.dir,
+          }, report.dir),
+          h(Btn, { onClick: () => doCopy(report.dir, 'rdir') }, copied === 'rdir' ? '已复制' : '复制路径'),
+          h(Btn, { onClick: () => act('open-folder') }, '打开文件夹'),
+          h(Btn, { onClick: editing ? cancelEdit : startEdit }, editing ? '取消' : '更改')),
+        h('p', { style: css.hint },
+          report.isDefault
+            ? '未设置时保存到默认目录。'
+            : `自定义目录，默认目录是 ${report.defaultDir}。`),
+        // 只有真的还差一次授权时才报警；已授权的工作区外目录只留一句中性说明
+        report.consentRequired
+          ? h(Notice, { kind: 'warn', text: '该目录在工作区之外，写入前需要确认授权。' })
+          : report.outsideWorkspace
+            ? h('p', { style: css.hint }, '该目录在工作区之外，已授权写入。')
+            : null,
+        !report.writable && h(Notice, { kind: 'error', text: '当前目录不可写，请检查权限或改选其他目录。' }),
+
+        editing
+          ? h('div', { style: css.field },
+              h('label', { htmlFor: 'tb-report-dir', style: css.fieldLabel }, '报告目录'),
+              h('div', { style: css.row },
+                h('input', {
+                  id: 'tb-report-dir', className: 'tb-input', style: css.input, type: 'text',
+                  placeholder: '例如 D:\Security\threatbook-reports',
+                  value: draft,
+                  'aria-describedby': dirError ? 'tb-report-dir-error' : undefined,
+                  'aria-invalid': dirError ? 'true' : undefined,
+                  onChange: (e) => { setDraft(e.target.value); if (dirError) setDirError(''); },
+                  onKeyDown: (e) => { if (e.key === 'Enter') confirmChange(); },
+                }),
+                h(Btn, { onClick: browse, disabled: busyLocal }, '选择文件夹…'),
+                h(Btn, { primary: true, onClick: confirmChange, loading: busyLocal }, '保存目录')),
+              dirError
+                ? h('p', { id: 'tb-report-dir-error', role: 'alert', style: { ...css.hint, color: C.err } }, dirError)
+                : null,
+              report.isDefault ? null : h(Btn, { size: 'sm', onClick: () => { setDraft(report.defaultDir); setPhase('migrate'); } }, '恢复默认目录'),
+              phase === 'migrate'
+                ? h('div', { style: css.field },
+                    h('p', { style: css.hint }, `当前目录还有 ${report.reportCount} 个报告，要一起带到新目录吗？`),
+                    h('div', { style: css.row },
+                      h(Btn, { primary: true, onClick: () => apply('copy', false) }, '复制到新目录'),
+                      h(Btn, { onClick: () => apply('move', false) }, '移动到新目录'),
+                      h(Btn, { onClick: () => apply('keep', false) }, '旧报告保持不变'),
+                      h(Btn, { onClick: () => setPhase('view') }, '取消')))
+                : null,
+              phase === 'consent'
+                ? h('div', { style: css.field },
+                    h(Notice, { kind: 'warn', text: `确认授权读写：${pending ? pending.path : ''}` }),
+                    h('div', { style: css.row },
+                      h(Btn, { danger: true, onClick: () => apply(pending ? pending.mode : 'keep', true), loading: busyLocal }, '确认授权并保存'),
+                      h(Btn, { onClick: cancelEdit }, '取消')))
+                : null)
+          : null,
+
+        h('div', { style: css.row },
+          h('span', { style: css.faint }, '回收站'),
+          h('span', { style: { ...css.faint, flex: '1 1 240px', minWidth: '0', overflow: 'hidden', textOverflow: 'ellipsis' }, title: report.trashDir }, report.trashDir),
+          h(Btn, { size: 'sm', onClick: () => doCopy(report.trashDir, 'trash') }, copied === 'trash' ? '已复制' : '复制'),
+          h(Btn, { size: 'sm', onClick: () => act('open-folder', { path: report.trashDir }) }, '打开'),
+          report.trashCount
+            ? h(Btn, { size: 'sm', danger: true, onClick: () => setConfirmEmpty(true) }, '清空')
+            : null),
+
+        confirmEmpty
+          ? h('div', { style: css.field },
+              h(Notice, { kind: 'warn', text: `确认清空回收站？里边的 ${report.trashCount} 个文件会被永久删除，无法撤销。` }),
+              h('div', { style: css.row },
+                h(Btn, { danger: true, onClick: emptyTrash, loading: busyLocal }, '确认清空'),
+                h(Btn, { onClick: () => setConfirmEmpty(false) }, '取消')))
+          : null,
+
+        h('div', { style: css.row },
+          h('span', { style: css.hint }, '回收站保留'),
+          ...[7, 30, 0].map((days) => h(Btn, {
+            key: days, size: 'sm', primary: report.retentionDays === days,
+            pressed: report.retentionDays === days,
+            ariaLabel: days === 0 ? '回收站永久保留' : `回收站保留 ${days} 天`,
+            onClick: () => act('set-retention', { days }),
+          }, days === 0 ? '永久' : `${days} 天`)),
+          h('span', { style: css.faint }, report.retentionDays ? '到期自动清空' : '不会自动清空')),
+
+        h('div', { style: css.row },
+          h(Btn, {
+            id: 'tb-list-btn', onClick: loadList, loading: listing === 'load',
+            expanded: listing === 'open', controls: 'tb-report-files',
+          }, listing === 'load'
+            ? '正在扫描…'
+            : listing === 'open'
+              ? '收起清理面板'
+              : `清理报告${report.reportCount ? ` (${report.reportCount})` : ''}`),
+          h('span', { style: css.hint }, report.trashCount ? `回收站现有 ${report.trashCount} 个文件，${fmtBytes(report.trashBytes)}` : '回收站为空')),
+
+        listing === 'open'
+          ? h('div', { style: css.field, id: 'tb-report-files' },
+              h('p', { style: css.hint }, files && files.length
+                ? `以下 ${files.length} 个报告在勾选后移入回收站，删除后可以撤销。`
+                : '该目录里没有识别到本插件写出的报告。'),
+              files && files.length
+                ? h('div', { style: css.scrollList, className: 'tb-scroll', tabIndex: 0, role: 'group', 'aria-label': '报告文件列表' },
+                  files.map((f) => h('label', { key: f.name, style: { ...css.docRow, cursor: 'pointer' } },
+                    h('input', {
+                      type: 'checkbox', style: { margin: 0, flex: '0 0 auto', accentColor: C.brand },
+                      checked: Boolean(picked[f.name]),
+                      'aria-label': `选择 ${f.name}`,
+                      onChange: () => togglePick(f.name),
+                    }),
+                    h('span', { style: css.docName, title: f.name }, f.name),
+                    h('span', { style: css.docMeta }, `${fmtBytes(f.size)} · ${fmtWhen(f.mtime)}`))))
+                : null,
+              files && files.length
+                ? h('div', { style: css.row },
+                    h(Btn, { size: 'sm', onClick: toggleAll }, allPicked ? '全不选' : '全选'),
+                    h(Btn, {
+                      danger: true, onClick: confirmDelete,
+                      disabled: busyLocal || !chosen.length,
+                      loading: busyLocal && Boolean(chosen.length),
+                    }, `确认删除 ${chosen.length} 个`),
+                    h(Btn, { onClick: () => setListing(false) }, '取消'))
+                : h('div', { style: css.row }, h(Btn, { onClick: () => setListing(false) }, '关闭')))
+          : null,
+
+        lastBatch
+          ? h('div', { style: css.row },
+              h('span', { style: css.hint },
+                lastBatch.dir && lastBatch.dir !== report.dir
+                  ? `刚才删除的报告在上一目录 ${lastBatch.dir} 的回收站里，本次会话内可撤销。`
+                  : '刚才删除的报告在回收站里，本次会话内可撤销。'),
+              h(Btn, { id: 'tb-undo-btn', onClick: undo, loading: busyLocal, autoFocus: true }, '撤销删除'))
+          : null);
+    }
 
     function SettingsPanelInner() {
       const s = useStore();
@@ -643,6 +1062,7 @@ window.__ModuleLoader__.load({
       const [verify, setVerify] = React.useState(null);
       const [saving, setSaving] = React.useState(false);
       const [testing, setTesting] = React.useState(false);
+      const [confirmClear, setConfirmClear] = React.useState(false);
 
       React.useEffect(() => { ensurePoller(); }, []);
 
@@ -654,7 +1074,8 @@ window.__ModuleLoader__.load({
       }
 
       const egress = data.egress || {};
-      const last = data.lastLookup;
+      // 设置页没有会话上下文，展示所有会话里最近的一次
+      const last = data.latestLookup || data.lastLookup;
 
       const save = async () => {
         const value = draft.trim();
@@ -701,7 +1122,7 @@ window.__ModuleLoader__.load({
             h('span', { style: { fontSize: '12px', color: C.dim } }, '出口 IP'),
             h(IpValue, { ip: egress.ip || '未探测到', style: css.mono }),
             h(IpToggle, null),
-            h(Btn, { onClick: () => doCopy(egress.ip || '', 'eg') }, copied === 'eg' ? '已复制' : '复制'),
+            h(Btn, { onClick: () => doCopy(egress.ip || '', 'eg'), disabled: !egress.ip }, copied === 'eg' ? '已复制' : '复制'),
             h(Btn, { onClick: () => act('refresh-egress') }, '重新探测'),
             egress.error ? h('span', { style: { fontSize: '12px', color: C.err } }, `探测失败：${egress.error}`) : null,
             egress.at && !egress.error ? h('span', { style: css.faint }, `探测于 ${new Date(egress.at).toLocaleTimeString('zh-CN', { hour12: false })}`) : null),
@@ -711,6 +1132,7 @@ window.__ModuleLoader__.load({
               h('span', { style: css.listHeadCell }, '接口'),
               h('span', { style: css.listHeadCell }, '协议'),
               h('span', { style: { ...css.listHeadCell, textAlign: 'center', padding: '0 0 8px' } }, '操作')),
+            (data.ips || []).length ? null : h('p', { style: { ...css.hint, padding: '8px 10px' } }, '没有检测到本机网卡地址。'),
             (data.ips || []).map((ip) => h('div', { key: `${ip.iface}-${ip.address}`, style: css.listRow },
               h('span', {
                 style: { ...css.listCell, ...css.mono, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' },
@@ -750,9 +1172,27 @@ window.__ModuleLoader__.load({
                 h('div', { style: css.row },
                   h('span', { style: css.mono }, `API Key ${data.key.masked}`),
                   h('span', { style: css.faint }, data.key.file),
-                  h(Btn, { onClick: () => { setEditing(true); setDraft(''); } }, '更换'),
-                  h(Btn, { onClick: async () => { await act('clear-key'); setVerify(null); patch({ keyCheck: null }); } }, '清除'),
+                  h(Btn, { onClick: () => { setEditing(true); setDraft(''); setConfirmClear(false); } }, '更换'),
+                  confirmClear
+                    ? h(React.Fragment, null,
+                        h(Btn, {
+                          danger: true,
+                          // 触发按钮被替换掉后把焦点接住，避免键盘焦点掉回页面顶部
+                          autoFocus: true,
+                          onClick: async () => {
+                            await act('clear-key');
+                            setVerify(null);
+                            setConfirmClear(false);
+                            patch({ keyCheck: null });
+                            focusById('tb-apikey');
+                          },
+                        }, '确认清除'),
+                        h(Btn, { onClick: () => setConfirmClear(false) }, '取消'))
+                    : h(Btn, { onClick: () => setConfirmClear(true) }, '清除'),
                   h(Btn, { onClick: test, loading: testing, title: '会调用一次文件报告接口，占用当日文件额度 (300 次/天)' }, '测试连通性')),
+                confirmClear
+                  ? h('p', { style: { ...css.hint, color: C.err } }, '清除后需要重新粘贴 API Key 才能继续查询。')
+                  : null,
                 h('p', { style: css.hint }, '完整 Key 以 0600 权限写入本机文件，不上传、不同步、不记入对话日志。'))
             : h('div', { style: css.field },
                 h('label', { htmlFor: 'tb-apikey', style: css.fieldLabel }, 'API Key'),
@@ -792,7 +1232,7 @@ window.__ModuleLoader__.load({
 
         // 5. 最近查询
         h('div', { style: css.card },
-          h(SectionHead, { n: '5', title: '最近查询' },
+          h(SectionHead, { n: '5', title: '最近查询', hint: '所有会话最近一次' },
             last && last.priority ? h(Badge, { tone: /^P0/.test(String(last.priority)) ? 'error' : /^P1/.test(String(last.priority)) ? 'warn' : undefined }, last.priority) : null),
           last
             ? h(React.Fragment, null,
@@ -800,6 +1240,7 @@ window.__ModuleLoader__.load({
                   h('span', { style: { ...css.mono, wordBreak: 'break-all' }, title: last.indicator }, last.indicator),
                   h('span', { style: css.faint }, `${last.kind || last.type} · ${last.at}`)),
                 h('pre', {
+                  tabIndex: 0, role: 'group', className: 'tb-scroll', 'aria-label': '最近查询摘要',
                   style: {
                     margin: 0, padding: '10px 12px', background: C.surface2,
                     border: `1px solid ${C.line}`, borderRadius: '10px',
@@ -808,11 +1249,16 @@ window.__ModuleLoader__.load({
                   },
                 }, last.brief || last.digest || ''),
                 h('div', { style: css.row },
-                  last.markdownPath ? h(Btn, { onClick: () => act('open-report', { path: last.markdownPath }) }, '打开完整 MD 报告') : null,
+                  last.markdownPath && !isTrashed(last.markdownPath)
+                    ? h(Btn, { onClick: () => act('open-report', { path: last.markdownPath }) }, '打开完整 MD 报告')
+                    : last.markdownPath ? h('span', { style: css.faint }, '报告已移入回收站') : null,
                   last.reportDir ? h(Btn, { onClick: () => act('open-folder', { path: last.reportDir }) }, '打开报告目录') : null,
                   last.markdownPath ? h('span', { style: css.faint }, last.markdownPath) : null))
             : h('p', { style: css.hint }, '还没有查询过。在对话中粘贴 IP / Domain / Hash / URL / CVE 即可。'),
         ),
+
+        // 6. 报告存放
+        h(ReportCard, null),
       );
     }
 
@@ -820,13 +1266,14 @@ window.__ModuleLoader__.load({
     // 官方 ui-conversation 只在 variant==='composer' 时渲染 conversation.composer.dock，
     // 全新对话是 hero 形态，因此这里额外挂一个始终可见的紧凑入口。
 
-    function HeroChip() {
+    function HeroChip(props) {
       const s = useStore();
       const [copied, doCopy] = useCopy();
+      const sessionId = props && props.sessionId ? props.sessionId : null;
 
       React.useEffect(() => {
-        ensurePoller();
-      }, []);
+        ensurePoller(sessionId);
+      }, [sessionId]);
 
       const data = s.data;
       if (!data) return null;
@@ -886,9 +1333,18 @@ window.__ModuleLoader__.load({
         '.tb-btn[data-primary="1"]:hover{filter:brightness(1.08)}',
         '.tb-btn:disabled{opacity:.55;cursor:default}',
         '.tb-btn[data-size="sm"]{min-width:0;min-height:24px;padding:2px 8px}',
+        '.tb-btn[data-danger="1"]{color:var(--dsw-alias-state-error-primary);',
+        'border-color:color-mix(in srgb,var(--dsw-alias-state-error-primary) 55%,var(--dsw-alias-border-l2))}',
+        '.tb-btn[data-danger="1"]:hover{background:color-mix(in srgb,var(--dsw-alias-state-error-primary) 10%,transparent)}',
         // 输入框焦点用品牌色描边，不用默认黑框
         '.tb-link:focus{outline:none}',
         '.tb-link:focus-visible{outline:2px solid var(--dsw-alias-brand-primary);outline-offset:2px;border-radius:4px}',
+        // 非按钮元素上的 role="button" (打码开关) 也要有可见焦点环
+        '.tb-hit:focus{outline:none}',
+        '.tb-hit:focus-visible{outline:2px solid var(--dsw-alias-brand-primary);outline-offset:2px;border-radius:4px}',
+        // 可聚焦的滚动区域同样需要焦点环，否则键盘用户不知道焦点在哪
+        '.tb-scroll:focus{outline:none}',
+        '.tb-scroll:focus-visible{outline:2px solid var(--dsw-alias-brand-primary);outline-offset:2px;border-radius:8px}',
         '.tb-input:focus{outline:none;border-color:var(--dsw-alias-brand-primary)}',
         '.tb-input:focus-visible{outline:none;border-color:var(--dsw-alias-brand-primary);',
         'box-shadow:0 0 0 3px color-mix(in srgb,var(--dsw-alias-brand-primary) 18%,transparent)}',
@@ -909,17 +1365,13 @@ window.__ModuleLoader__.load({
     }
 
     // 点击名称中间的「·」可循环切换界面预览状态；其余用户不会注意到这个入口
+    // 只保留鼠标入口：不再进入 Tab 顺序，也不给读屏播报，避免正式界面里多出一个开发用控件
     function BrandName(props) {
       return h('span', { style: props.style },
         'LGSRC ',
         h('span', {
-          role: 'button',
-          tabIndex: 0,
-          'aria-label': '切换界面预览状态',
+          'aria-hidden': 'true',
           onClick: cyclePreview,
-          onKeyDown: (e) => {
-            if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); cyclePreview(); }
-          },
           title: '点击切换界面预览状态',
           style: { cursor: 'pointer' },
         }, '·'),

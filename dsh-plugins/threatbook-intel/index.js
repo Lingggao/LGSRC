@@ -35,8 +35,25 @@ const REPORT_DIR_NAME = 'threatbook-reports';
 const state = {
   egress: { ip: null, at: 0, error: null, source: null },
   last: null,
+  // 按会话保存最近一次查询，避免一个会话的指标出现在另一个会话里
+  lasts: new Map(),
   autoOpenedAt: 0,
+  lastPurgeAt: 0,
 };
+
+const LAST_PER_SESSION_LIMIT = 50;
+
+function rememberLast(sessionId, entry) {
+  state.last = entry;
+  const key = sessionId ? String(sessionId) : '';
+  if (!key) return;
+  state.lasts.set(key, entry);
+  while (state.lasts.size > LAST_PER_SESSION_LIMIT) {
+    const oldest = state.lasts.keys().next().value;
+    if (oldest === undefined) break;
+    state.lasts.delete(oldest);
+  }
+}
 
 // ---------------------------------------------------------------- 本地存储
 
@@ -50,6 +67,287 @@ function dataDir() {
 function keyFile() {
   return process.env.THREATBOOK_KEY_FILE || path.join(dataDir(), 'apikey.json');
 }
+
+// ---------------------------------------------------------------- 报告目录设置
+
+/** 报告目录设置：null 表示用默认目录；retentionDays 0 表示永久保留 */
+const DEFAULT_RETENTION_DAYS = 30;
+const REPORT_PREFIX = 'LGSRC';
+const TRASH_DIR_NAME = '.LGSRC-trash';
+const SETTINGS_VERSION = 1;
+
+function settingsFile() {
+  return path.join(dataDir(), 'settings.json');
+}
+
+function readSettings() {
+  const fallback = { version: SETTINGS_VERSION, reportDir: null, consent: [], retentionDays: DEFAULT_RETENTION_DAYS };
+  try {
+    const parsed = JSON.parse(fs.readFileSync(settingsFile(), 'utf8'));
+    if (!parsed || typeof parsed !== 'object') return fallback;
+    const retention = Number(parsed.retentionDays);
+    return {
+      version: SETTINGS_VERSION,
+      reportDir: typeof parsed.reportDir === 'string' && parsed.reportDir.trim() ? path.resolve(parsed.reportDir.trim()) : null,
+      consent: Array.isArray(parsed.consent) ? parsed.consent.filter((x) => typeof x === 'string').map((x) => path.resolve(x)) : [],
+      retentionDays: [0, 7, 30].includes(retention) ? retention : DEFAULT_RETENTION_DAYS,
+    };
+  } catch {
+    return fallback;
+  }
+}
+
+function writeSettings(next) {
+  const file = settingsFile();
+  fs.mkdirSync(path.dirname(file), { recursive: true });
+  const tmp = file + '.' + Date.now() + '.tmp';
+  fs.writeFileSync(tmp, JSON.stringify({ version: SETTINGS_VERSION, ...next }, null, 2), 'utf8');
+  fs.renameSync(tmp, file);
+}
+
+/** 部署默认工作区；没有 workingDirectory 服务时退回进程目录 */
+function defaultWorkspace() {
+  try {
+    if (hostRefs.ctx) {
+      // 优先落在用户的工作区目录，而不是 DSH 进程的工作目录
+      const registry = hostRefs.ctx.get('workspaceRegistry');
+      if (registry && typeof registry.list === 'function') {
+        const list = registry.list();
+        if (Array.isArray(list) && list.length) {
+          const newest = list[list.length - 1];
+          if (newest && typeof newest.path === 'string' && newest.path) return newest.path;
+        }
+      }
+      const live = hostRefs.ctx.get('workingDirectory');
+      if (live && typeof live.defaultDirectory === 'string' && live.defaultDirectory) {
+        hostRefs.workingDirectory = live;
+        return live.defaultDirectory;
+      }
+    }
+    const cached = hostRefs.workingDirectory;
+    if (cached && typeof cached.defaultDirectory === 'string' && cached.defaultDirectory) return cached.defaultDirectory;
+  } catch { /* 忽略 */ }
+  return process.cwd();
+}
+
+function defaultReportRoot() {
+  return path.join(defaultWorkspace(), REPORT_DIR_NAME);
+}
+
+/** 当前生效的报告根目录：用户配置优先，其次默认目录 */
+function reportRoot(settings = readSettings()) {
+  return settings.reportDir || defaultReportRoot();
+}
+
+function trashRoot(root = reportRoot()) {
+  return path.join(root, TRASH_DIR_NAME);
+}
+
+function isInside(parent, child) {
+  const rel = path.relative(path.resolve(parent), path.resolve(child));
+  return rel === '' || (!rel.startsWith('..') && !path.isAbsolute(rel));
+}
+
+/** 目录在工作区之外时，必须由用户显式确认过一次 */
+function needsConsent(target, settings = readSettings()) {
+  const resolved = path.resolve(target);
+  if (isInside(defaultWorkspace(), resolved)) return false;
+  return !settings.consent.includes(resolved);
+}
+
+/** 探测目录可用性：不存在则尝试创建，并写入一个临时文件验证可写 */
+function probeReportDir(target) {
+  const resolved = path.resolve(target);
+  try {
+    fs.mkdirSync(resolved, { recursive: true });
+    const probe = path.join(resolved, '.LGSRC-write-test');
+    fs.writeFileSync(probe, 'ok', 'utf8');
+    fs.rmSync(probe, { force: true });
+    return { ok: true, path: resolved };
+  } catch (error) {
+    return { ok: false, path: resolved, error: error instanceof Error ? error.message : String(error) };
+  }
+}
+
+/** 报告指纹：只有内容确实由本插件写出，才会被识别、迁移或删除 */
+function looksLikeReport(file) {
+  try {
+    const stat = fs.statSync(file);
+    if (!stat.isFile() || stat.size === 0 || stat.size > 32 * 1024 * 1024) return false;
+    const ext = path.extname(file).toLowerCase();
+    if (ext === '.md') {
+      const fd = fs.openSync(file, 'r');
+      const buf = Buffer.alloc(Math.min(256, stat.size));
+      fs.readSync(fd, buf, 0, buf.length, 0);
+      fs.closeSync(fd);
+      return buf.toString('utf8').replace(/^﻿/, '').startsWith('# 微步情报报告：');
+    }
+    if (ext === '.json') {
+      const fd = fs.openSync(file, 'r');
+      const buf = Buffer.alloc(Math.min(512, stat.size));
+      fs.readSync(fd, buf, 0, buf.length, 0);
+      fs.closeSync(fd);
+      return /"plugin"\s*:\s*"threatbook-intel"/.test(buf.toString('utf8'));
+    }
+    return false;
+  } catch {
+    return false;
+  }
+}
+
+/** 列出目录下的报告 (只看顶层，不进子目录) 与回收站批次 */
+let scanCache = { root: null, at: 0, data: null };
+
+function invalidateScan() {
+  scanCache = { root: null, at: 0, data: null };
+}
+
+function scanReports(root = reportRoot(), force = false) {
+  const now = Date.now();
+  if (!force && scanCache.data && scanCache.root === root && now - scanCache.at < 5000) return scanCache.data;
+  const files = [];
+  const trash = [];
+  try {
+    for (const entry of fs.readdirSync(root, { withFileTypes: true })) {
+      if (!entry.isFile()) continue;
+      const full = path.join(root, entry.name);
+      if (!looksLikeReport(full)) continue;
+      const stat = fs.statSync(full);
+      files.push({ name: entry.name, path: full, size: stat.size, mtime: stat.mtimeMs });
+    }
+  } catch { /* 目录不存在时视为空 */ }
+  try {
+    for (const entry of fs.readdirSync(trashRoot(root), { withFileTypes: true })) {
+      if (!entry.isDirectory()) continue;
+      const dir = path.join(trashRoot(root), entry.name);
+      const stat = fs.statSync(dir);
+      let count = 0;
+      let bytes = 0;
+      try {
+        for (const item of fs.readdirSync(dir, { withFileTypes: true })) {
+          if (!item.isFile()) continue;
+          const s = fs.statSync(path.join(dir, item.name));
+          count += 1;
+          bytes += s.size;
+        }
+      } catch { /* 忽略 */ }
+      trash.push({ id: entry.name, path: dir, count, bytes, at: stat.mtimeMs });
+    }
+  } catch { /* 无回收站 */ }
+  const sortByMtime = (a, b) => b.mtime - a.mtime || b.at - a.at;
+  files.sort(sortByMtime);
+  trash.sort(sortByMtime);
+  const data = { root, trashDir: trashRoot(root), files, trash };
+  scanCache = { root, at: now, data };
+  return data;
+}
+
+function uniqueTarget(dir, name) {
+  const ext = path.extname(name);
+  const base = path.basename(name, ext);
+  let candidate = path.join(dir, name);
+  let i = 1;
+  while (fs.existsSync(candidate)) {
+    candidate = path.join(dir, base + '-' + i + ext);
+    i += 1;
+  }
+  return candidate;
+}
+
+/** 把报告移入回收站批次；返回批次 id 与被移动的文件名 */
+function moveToTrash(root, names) {
+  const batch = new Date().toISOString().replace(/[:.]/g, '-');
+  const dir = path.join(trashRoot(root), batch);
+  fs.mkdirSync(dir, { recursive: true });
+  const moved = [];
+  for (const name of names) {
+    const source = path.join(root, name);
+    if (!looksLikeReport(source)) continue;
+    fs.renameSync(source, path.join(dir, name));
+    moved.push(name);
+  }
+  invalidateScan();
+  return { batch, dir, moved };
+}
+
+function undoTrash(root, batch) {
+  const dir = path.join(trashRoot(root), batch);
+  if (!isInside(trashRoot(root), dir) || !fs.existsSync(dir)) return { restored: [] };
+  const restored = [];
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    if (!entry.isFile()) continue;
+    const target = uniqueTarget(root, entry.name);
+    fs.renameSync(path.join(dir, entry.name), target);
+    restored.push(path.basename(target));
+  }
+  fs.rmSync(dir, { recursive: true, force: true });
+  invalidateScan();
+  return { restored };
+}
+
+/** 立即清空回收站 (不区分批次年龄)，供用户主动释放空间 */
+function emptyTrash(root = reportRoot()) {
+  const removed = [];
+  try {
+    for (const entry of fs.readdirSync(trashRoot(root), { withFileTypes: true })) {
+      if (!entry.isDirectory()) continue;
+      fs.rmSync(path.join(trashRoot(root), entry.name), { recursive: true, force: true });
+      removed.push(entry.name);
+    }
+  } catch { /* 无回收站 */ }
+  if (removed.length) invalidateScan();
+  return { removed };
+}
+
+/** 回收站保留策略：0 天表示永久；过期批次在启动与相关操作时顺手清理 */
+function purgeTrash(root = reportRoot(), retentionDays = readSettings().retentionDays) {
+  if (!retentionDays) return { removed: [] };
+  const removed = [];
+  const cutoff = Date.now() - retentionDays * 24 * 60 * 60 * 1000;
+  try {
+    for (const entry of fs.readdirSync(trashRoot(root), { withFileTypes: true })) {
+      if (!entry.isDirectory()) continue;
+      const dir = path.join(trashRoot(root), entry.name);
+      const stat = fs.statSync(dir);
+      if (stat.mtimeMs < cutoff) {
+        fs.rmSync(dir, { recursive: true, force: true });
+        removed.push(entry.name);
+      }
+    }
+  } catch { /* 无回收站 */ }
+  if (removed.length) invalidateScan();
+  return { removed };
+}
+
+/** 迁移旧报告：copy 保留原文件，move 转移，keep 不做处理 */
+function migrateReports(from, to, mode) {
+  if (!['copy', 'move'].includes(mode)) return { copied: 0, moved: 0, skipped: 0 };
+  const source = scanReports(from).files;
+  fs.mkdirSync(to, { recursive: true });
+  let copied = 0;
+  let moved = 0;
+  for (const item of source) {
+    const target = uniqueTarget(to, item.name);
+    if (mode === 'copy') {
+      fs.copyFileSync(item.path, target);
+      copied += 1;
+    } else {
+      try {
+        fs.renameSync(item.path, target);
+        moved += 1;
+      } catch {
+        fs.copyFileSync(item.path, target);
+        fs.rmSync(item.path, { force: true });
+        moved += 1;
+      }
+    }
+  }
+  if (copied || moved) invalidateScan();
+  return { copied, moved, skipped: 0 };
+}
+
+// 由 apply() 注入的服务引用 (workingDirectory 用于解析默认工作区)
+const hostRefs = { workingDirectory: null };
 
 function readKey() {
   try {
@@ -593,6 +891,16 @@ function digestBrief(type, indicator, results) {
 
 // ---------------------------------------------------------------- 情报研判评分 (参考 SOC 分诊模型)
 
+// 恶意标签分档：severe 能独立支撑「恶意」，elevated 支撑「可疑」，weak 只提示风险
+const SEVERE_TAGS = [
+  'C2', 'C&C', '远控', '后门', 'Backdoor', '僵尸', 'Botnet', '勒索', 'Ransom',
+  '在野利用', '窃密', '窃取', '挖矿', 'Miner', '恶意软件', '木马', 'Trojan', '病毒', 'Virus',
+  '蠕虫', 'Worm', 'Loader', '加载器', 'Downloader', '下载器', '银狐', '黑产', '团伙',
+  'APT', '攻击组织', '恶意行为', '恶意',
+];
+const ELEVATED_TAGS = ['钓鱼', 'Phishing', 'Exploit', '利用', 'PoC', '爆破', 'Brute'];
+const WEAK_TAGS = ['扫描', 'Scanner', '垃圾', 'Spam', '广告', '灰产', '可疑'];
+
 // 时效门槛：超过阈值的情报用于批量扫描会显著抬高误报率
 const IOC_TTL_DAYS = { ip: 30, domain: 30, url: 14, md5: 90, sha1: 90, sha256: 90, vuln: 90 };
 
@@ -707,27 +1015,36 @@ function chainOf(facts) {
  */
 function scoreThreat(type, indicator, results) {
   const facts = collectFacts(type, indicator, results);
-  const text = facts.judgments.join(' ');
-  const has = (words) => words.some((w) => text.includes(w));
+  const text = facts.judgments.join(' ').toLowerCase();
+  const has = (words) => words.some((w) => text.includes(String(w).toLowerCase()));
 
   const severity = String(facts.severity || '');
   const highSeverity = /高|严重|恶意/.test(severity);
-  const highTag = has(['C2', 'C&C', '远控', '后门', 'Backdoor', '僵尸', 'Botnet', '勒索', 'Ransom', '在野利用', '恶意软件', '木马', 'Trojan', 'APT', '银狐', '黑产', '团伙']);
+  // 标签分三档：只拿到标签、没拿到 is_malicious 时，恶意标签也要能撑起结论
+  const severeHit = has(SEVERE_TAGS);
+  const elevatedHit = has(ELEVATED_TAGS);
+  const weakHit = has(WEAK_TAGS);
 
   let risk = 0;
   let riskLabel = '无可用的情报判定';
+  let verdictFromTags = false;
   if (facts.isMalicious === true) {
     // 微步已明确判恶意时，评分不得低于此档，其他接口缺失只影响置信度
-    risk = highTag || highSeverity ? 55 : 45;
+    risk = severeHit || highSeverity ? 55 : 45;
     riskLabel = '微步判定为恶意';
-  } else if (has(['C2', 'C&C', '远控', '后门', 'Backdoor', '僵尸', 'Botnet', '勒索', 'Ransom', '在野利用'])) {
-    risk = 55; riskLabel = '强恶意判定';
-  } else if (has(['利用', 'Exploit', '爆破', 'Brute', '钓鱼', 'Phishing', '木马', 'Trojan', '挖矿', 'PoC'])) {
-    risk = 45; riskLabel = '恶意判定';
-  } else if (has(['扫描', 'Scanner', '垃圾', 'Spam', '可疑'])) {
-    risk = 30; riskLabel = '弱恶意判定';
+  } else if (severeHit) {
+    // 反例：接口判为非恶意但标签是银狐/C2/勒索时，按可疑处理，不能直接给低危
+    risk = facts.isMalicious === false ? 45 : 55;
+    riskLabel = facts.isMalicious === false ? '标签与判定冲突' : '恶意标签';
+    verdictFromTags = facts.isMalicious !== false;
+  } else if (elevatedHit) {
+    risk = facts.isMalicious === false ? 30 : 45;
+    riskLabel = facts.isMalicious === false ? '标签与判定冲突' : '可疑标签';
+    verdictFromTags = facts.isMalicious !== false;
   } else if (facts.isMalicious === false) {
     risk = 8; riskLabel = '判为非恶意';
+  } else if (weakHit) {
+    risk = 30; riskLabel = '弱恶意标签';
   } else if (facts.judgments.length) {
     risk = 20; riskLabel = '有标签但未定性';
   }
@@ -751,10 +1068,13 @@ function scoreThreat(type, indicator, results) {
 
   const score = Math.max(0, Math.min(100, risk + engineScore + confScore + freshScore));
   const priority = score >= 75 ? 'P0 紧急' : score >= 55 ? 'P1 高优' : score >= 30 ? 'P2 中优' : 'P3 低优';
-  // 一个可用的判定接口都没有时，低分不代表「安全」，只代表「没看到」
+  // 只有「没有任何判定和标签」且关键接口都不可用时，才算无法判定
   const status = endpointStatus(type, results);
-  const undetermined = score < 30 && status.noneUsable;
-  return { facts, score, priority, riskLabel, ageDays, chain: chainOf(facts), status, undetermined };
+  const undetermined = score < 30 && status.noneUsable && facts.judgments.length === 0;
+  return {
+    facts, score, priority, riskLabel, ageDays, chain: chainOf(facts), status, undetermined,
+    severeHit, elevatedHit, weakHit, verdictFromTags,
+  };
 }
 
 
@@ -823,35 +1143,55 @@ const KEY_ENDPOINTS = {
   vuln: ['vuln'],
 };
 
-function isDenied(result) {
-  if (!result) return false;
-  if (result.ok === false) return true;
-  return typeof result.code === 'number' && result.code < 0;
+// 权限不足：接口明确返回「没有权限」；网络失败不算权限问题
+function isPermissionDenied(result) {
+  if (!result || typeof result.code !== 'number' || result.code >= 0) return false;
+  return /权限|permission|forbidden|no access/i.test(String(result.msg || ''));
+}
+
+/** 所有接口都失败时，判断是否真的只是「没权限」 */
+function isPermissionOnlyFailure(results) {
+  return results.length > 0 && results.every((r) => (
+    typeof r.code === 'number' && r.code < 0
+    && /权限|permission|forbidden|no access/i.test(String(r.msg || ''))
+  ));
+}
+
+/** 撤销只允许当前目录、默认目录或此前授权过的目录 */
+function undoRootAllowed(target, current, consent) {
+  const allowed = new Set([current, defaultReportRoot(), ...(Array.isArray(consent) ? consent : [])].map((item) => path.resolve(item)));
+  return allowed.has(path.resolve(target));
 }
 
 function endpointStatus(type, results) {
   const byId = new Map(results.map((r) => [r.id, r]));
   const keys = KEY_ENDPOINTS[type] || [];
   const entries = keys.map((id) => ({ id, result: byId.get(id) || null }));
-  const usable = entries.filter((x) => x.result && !isDenied(x.result));
-  const denied = entries.filter((x) => isDenied(x.result));
+  const usable = entries.filter((x) => x.result && x.result.ok !== false && typeof x.result.code === 'number' && x.result.code >= 0);
+  const denied = entries.filter((x) => isPermissionDenied(x.result));
+  const failed = entries.filter((x) => x.result && !usable.includes(x) && !denied.includes(x));
   return {
     allDenied: entries.length > 0 && usable.length === 0 && denied.length === entries.length,
     noneUsable: usable.length === 0,
     usable: usable.map((x) => x.result.label || x.id),
-    denied: denied.map((x) => (x.result && x.result.label) || x.id),
+    denied: denied.map((x) => x.result.label || x.id),
+    failed: failed.map((x) => x.result.label || x.id),
   };
 }
 
 function analysisHints(type, indicator, results) {
-  const { facts, score, priority, riskLabel, ageDays, chain, status, undetermined } = scoreThreat(type, indicator, results);
+  const {
+    facts, score, priority, riskLabel, ageDays, chain, status, undetermined,
+    severeHit, elevatedHit, verdictFromTags,
+  } = scoreThreat(type, indicator, results);
   const lines = [];
-  const strongHit = facts.judgments.some((j) => ['C2', 'C&C', '远控', '后门', '僵尸', '勒索'].some((k) => j.includes(k)));
+  const strongHit = severeHit || facts.judgments.some((j) => ['C2', 'C&C', '远控', '后门', '僵尸', '勒索'].some((k) => j.includes(k)));
 
   let level = 'D';
-  if ((facts.engines && facts.engines.bad >= 5) || strongHit) level = 'A';
+  if (facts.isMalicious === false && severeHit) level = 'B';
+  else if ((facts.engines && facts.engines.bad >= 5) || strongHit) level = 'A';
   else if (facts.isMalicious === true) level = 'A';
-  else if ((facts.engines && facts.engines.bad >= 1) || score >= 30) level = 'B';
+  else if (elevatedHit || (facts.engines && facts.engines.bad >= 1) || score >= 30) level = 'B';
   else if (facts.isMalicious === false || (facts.engines && facts.engines.bad === 0)) level = 'C';
 
   if (facts.isMalicious === true) {
@@ -864,17 +1204,29 @@ function analysisHints(type, indicator, results) {
     }
   }
 
+  if (verdictFromTags) {
+    const tags = facts.judgments.slice(0, 6).join('、');
+    const missing = [...status.denied, ...status.failed];
+    lines.push(`微步返回恶意标签：${tags}${missing.length ? `；缺少 ${missing.join('、')} 只影响把握度，结论仍按恶意处理，不要降级为低危或「无情报记录」` : ''}`);
+  } else if (facts.isMalicious === false && severeHit) {
+    lines.push('判定与标签冲突：接口判为非恶意，但标签包含 ' + facts.judgments.slice(0, 6).join('、') + '，按可疑处理并人工复核');
+  }
+
   const engineText = facts.engines ? `，多引擎 ${facts.engines.bad}/${facts.engines.total} 报毒` : '';
   const levelLabel = facts.verdictSource === 'engines' ? '多引擎共识' : riskLabel;
   lines.push(`证据等级 ${level}：${levelLabel}${engineText}`);
 
   if (undetermined) {
-    lines.push('关键接口均未返回可用数据 (无权限或调用失败)：本次只能算「无法判定」，不能据此认为该指标安全或低危');
+    lines.push('关键接口均不可用，且没有任何判定或标签：本次只能算「无法判定」，不能据此认为该指标安全或低危');
     lines.push('补齐权限后可重新查询；如账号确实没有该类型权限，请改用其他情报源交叉验证');
   } else {
     lines.push(`综合评分 ${score}/100，落在 ${priority}；只按情报面打分，告警级别与资产价值没算进去`);
   }
-  if (status.denied.length && !undetermined) lines.push(`判定来源：${status.usable.join('、') || '无'}；无权限：${status.denied.join('、')}`);
+  if ((status.denied.length || status.failed.length) && !undetermined) {
+    const deniedText = status.denied.length ? `无权限：${status.denied.join('、')}` : '';
+    const failedText = status.failed.length ? `调用失败：${status.failed.join('、')}` : '';
+    lines.push(`判定来源：${status.usable.join('、') || '无'}；${[deniedText, failedText].filter(Boolean).join('；')}`);
+  }
 
   if (chain) lines.push(`所处链条位置：${chain.stage}，可对应 ATT&CK ${chain.techniques.join('、')}`);
 
@@ -905,57 +1257,37 @@ function analysisHints(type, indicator, results) {
 }
 
 function summaryPrompt(last) {
-  if (!last) return '请用中文把刚才这次查询讲清楚：结论、能支撑结论的证据、该做什么，以及哪里还不确定。';
+  if (!last) return '用中文、200 字以内说清这次查询：结论、依据、处置、不确定点。';
   const hints = Array.isArray(last.hints) && last.hints.length ? last.hints.join('\n') : '(无)';
   return [
-    '你是值班的威胁情报分析师，正在给同事写一段可以直接贴进工单的研判。用中文，只讲报告里存在的东西，没有的字段不要补。',
+    '把这次查询压成一段可直接贴进工单的结论。用中文，200-260 字，短句，先给结论，不写寒暄和角色设定。',
     '',
     `指标：${last.indicator} (${last.kind || typeShort(last.type)})`,
     `报告：${last.markdownPath || '(未落盘，只能依据摘要)'}`,
     `查询时间：${last.at}`,
     '',
-    '已识别到的 C2 通联 IOC：',
+    'C2 通联 IOC：',
     Array.isArray(last.c2) && last.c2.length ? last.c2.map((x) => '- ' + x).join('\n') : '(无)',
     '',
-    '文件里已有的摘要：',
+    '已有摘要：',
     last.brief || last.digest || '(无)',
     '',
-    '系统预先算好的判断依据：',
+    '判断依据：',
     hints,
     '',
-    '按下面的顺序写，300-500 字：',
+    '按这四块写，不要加额外标题：',
+    '**结论**：恶意 / 可疑 / 无情报记录 / 无法判定，加置信度、评分与优先级，一句话。',
+    '**依据**：最多 4 条，每条一行，注明来自哪个接口的哪个字段；只留真正影响处置的。',
+    '**处置**：网络 / 主机 / 账号各一条，动作写具体；P3 也要保留「先监控」这一档。',
+    '**不确定**：一句话说清缺什么 (权限 / 接口 / 时间)，以及是否影响结论。',
     '',
-    '## 一、判断结论',
-    '一句话说清它是什么性质 (恶意 / 可疑 / 无情报记录 / 需人工确认)、你的把握有多大、评分多少、建议多快处理。',
-    '',
-    '## 二、支撑证据',
-    '挑 3-5 条真正影响处置决定的发现，每条后面注明数据来自哪个接口的哪个字段。凑数的、无关紧要的不要写。',
-    '',
-    '## 三、风险画像',
-    '它在攻击链条里处于什么位置；如果这个指标已经和内网有往来，最坏会发展成什么 (横向、外传、加密、被当中转)；能对上的 ATT&CK 编号，对不上就别硬写。',
-    '',
-    '## 四、行动建议',
-    '分网络、主机、账号三行来写，没有该类动作就写「无」，不要为了凑格式编动作。每条都要说明依据。',
-    '',
-    '## 五、误报判断',
-    '说什么条件下可以当误报放行；如果是 IDC、CDN 这类共享环境，说清封禁会带来什么业务代价。',
-    '',
-    '## 六、需要人工拍板的事',
-    '列 2-4 条待办 (- [ ] 开头)，每条都要能让人明确回答是或否、或者是哪个系统。',
-    '',
-    '几条底线：',
-    '- 如果研判提示里写明关键接口无权限或「无法判定」，结论必须写「权限不足，无法判定」，并说明缺哪些接口；不能写成「无情报记录」或「低危」。',
-    '- 反过来，部分接口缺失但已有可用的判定时，以可用的判定为准，把缺失接口作为把握度的扣减项说明即可。',
-    '- 微步的判定优先于你的推演：只要报告里出现 is_malicious=true、severity 高，或证据等级为 A，结论就必须是「恶意」或「可疑」，评分不得低于 45；这时候不能写「无情报记录」或「低危」。',
-    '- 反过来，只有当我们自己算出的评分低于微步的判定强度时，以微步为准，并在结论里说明评分未充分反映该判定。',
-    '- 情报的判定和你的推演分开写，你自己推出来的一律加 (推断)。',
-    '- 查不到记录不等于安全，别用「安全」给无记录指标下结论。',
-    '- 不要把 JSON 抄进来，也不要写「根据提供的信息」这类空话。',
-    '- 指标名称统一写 IP / Domain / Hash / URL / CVE。',
-    '- 证据等级是 D 时，结论只能是「无情报记录」，并讲清还缺哪类旁证。',
-    '- 评分低于 30 时，行动建议里必须留「先观察、暂不处置」这一档。',
-    '- 报告里有样本行为或家族时，补 1-3 个 ATT&CK 编号并说明它对应什么行为。',
-    '- 如果上面列出了 C2 通联 IOC，必须在结论里点名，并在行动建议里给出逐条的封禁 / 拦截清单；不允许把 C2 埋在证据段落里。',
+    '底线：',
+    '- 接口缺失或权限不足时，不要把已有的恶意标签 (银狐、C2、勒索、木马等) 丢掉；结论仍按恶意 / 可疑，把缺失写成置信度折扣，不能降级为低危或「无情报记录」。',
+    '- 无记录不等于安全；自己的推断标 (推断)。',
+    '- C2 必须在结论里点名，并在处置里给出逐条封禁，不要埋在依据里。',
+    '- 不要抄 JSON，不要写「根据提供的信息」这类空话。',
+    '- 微步判定优先：is_malicious=true、severity 高或证据等级 A 时，结论不得低于「可疑」，评分不低于 45。',
+    '- 只有证据等级 D 且没有任何标签时，才写「无情报记录」。',
   ].join('\n');
 }
 
@@ -986,8 +1318,10 @@ function reportPathWithin(value, kind) {
   const raw = String(value || '').trim();
   if (!raw) return null;
   const target = path.resolve(raw);
-  const segments = target.split(/[\\/]/).filter(Boolean);
-  if (!segments.includes(REPORT_DIR_NAME)) return null;
+  const root = reportRoot();
+  const inRoot = isInside(root, target);
+  const inTrash = isInside(trashRoot(root), target);
+  if (!inRoot && !inTrash) return null;
   let stat;
   try {
     stat = fs.statSync(target);
@@ -1060,9 +1394,9 @@ function mdReport({ type, indicator, at, results, digest, jsonPath, c2 }) {
 }
 
 function writeReports({ type, indicator, at, results, digest, dir, c2 }) {
-  const outDir = path.join(dir, REPORT_DIR_NAME);
+  const outDir = dir;
   fs.mkdirSync(outDir, { recursive: true });
-  const base = `${type}-${slug(indicator)}-${stamp()}`;
+  const base = `${REPORT_PREFIX}-${type}-${slug(indicator)}-${stamp()}-${randomUUID().slice(0, 4)}`;
   const jsonPath = path.join(outDir, `${base}.json`);
   const mdPath = path.join(outDir, `${base}.md`);
   const payload = {
@@ -1081,15 +1415,62 @@ function writeReports({ type, indicator, at, results, digest, dir, c2 }) {
     markdown = `# 微步情报报告：${indicator}\n\n- 类型：${typeLabel(type)}\n- 时间：${at}\n\n${digest}\n`;
   }
   fs.writeFileSync(mdPath, markdown, 'utf8');
+  // 新报告落盘后让目录扫描缓存失效，设置页立刻能看到最新数量
+  invalidateScan();
   return { jsonPath, mdPath, outDir };
 }
 
 // ---------------------------------------------------------------- 浏览器打开
 
+/** 弹原生文件夹选择框；拿不到路径时返回 null */
+function chooseFolderNative() {
+  return new Promise((resolve) => {
+    let settled = false;
+    const finish = (value) => {
+      if (settled) return;
+      settled = true;
+      resolve(value ? path.resolve(value) : null);
+    };
+    const collect = (command, args) => {
+      try {
+        const child = spawn(command, args, { windowsHide: true });
+        let out = '';
+        child.stdout.on('data', (chunk) => { out += String(chunk); });
+        child.on('error', () => finish(null));
+        child.on('close', () => finish(out.trim() || null));
+        setTimeout(() => { try { child.kill(); } catch { /* 忽略 */ } finish(null); }, 120000);
+      } catch {
+        finish(null);
+      }
+    };
+    if (process.platform === 'win32') {
+      const script = [
+        'Add-Type -AssemblyName System.Windows.Forms',
+        '$f = New-Object System.Windows.Forms.FolderBrowserDialog',
+        "$f.Description = '选择微步情报报告保存目录'",
+        '$f.ShowNewFolderButton = $true',
+        "if ($f.ShowDialog() -eq 'OK') { [Console]::Out.Write($f.SelectedPath) }",
+      ].join('; ');
+      collect('powershell.exe', ['-NoProfile', '-STA', '-Command', script]);
+    } else if (process.platform === 'darwin') {
+      collect('osascript', ['-e', 'POSIX path of (choose folder with prompt "选择微步情报报告保存目录")']);
+    } else {
+      collect('zenity', ['--file-selection', '--directory', '--title=选择微步情报报告保存目录']);
+    }
+  });
+}
+
 function openExternal(url) {
   try {
     if (process.platform === 'win32') {
-      spawn('cmd.exe', ['/c', 'start', '""', url], { detached: true, stdio: 'ignore', windowsHide: true }).unref();
+      const target = String(url);
+      if (/^https?:\/\//i.test(target)) {
+        // 固定常量网址，走 start 让默认浏览器接管
+        spawn('cmd.exe', ['/c', 'start', '""', target], { detached: true, stdio: 'ignore', windowsHide: true }).unref();
+      } else {
+        // 本地路径直接交给 explorer.exe，不经过 cmd，避免目录名里的 & | ^ 被解释
+        spawn('explorer.exe', [target], { detached: true, stdio: 'ignore' }).unref();
+      }
     } else if (process.platform === 'darwin') {
       spawn('open', [url], { detached: true, stdio: 'ignore' }).unref();
     } else {
@@ -1103,9 +1484,58 @@ function openExternal(url) {
 
 // ---------------------------------------------------------------- 状态与校验
 
-async function statePayload() {
+/** 报告目录与回收站的状态快照，供设置页展示 */
+function reportState() {
+  const settings = readSettings();
+  const root = reportRoot(settings);
+  if (settings.retentionDays && Date.now() - state.lastPurgeAt > 60 * 60 * 1000) {
+    state.lastPurgeAt = Date.now();
+    purgeTrash(root, settings.retentionDays);
+  }
+  const scan = scanReports(root);
+  const trashCount = scan.trash.reduce((sum, item) => sum + item.count, 0);
+  const trashBytes = scan.trash.reduce((sum, item) => sum + item.bytes, 0);
+  return {
+    dir: root,
+    defaultDir: defaultReportRoot(),
+    isDefault: !settings.reportDir,
+    outsideWorkspace: !isInside(defaultWorkspace(), root),
+    consentRequired: needsConsent(root, settings),
+    writable: probeWritable(root),
+    retentionDays: settings.retentionDays,
+    trashDir: scan.trashDir,
+    reportCount: scan.files.length,
+    reportBytes: scan.files.reduce((sum, item) => sum + item.size, 0),
+    trashCount,
+    trashBytes,
+    lastTrashBatch: scan.trash[0] ? scan.trash[0].id : null,
+    retentionOptions: [7, 30, 0],
+  };
+}
+
+/** 只读探测：不创建目录，仅判断现有目录是否可写 (30 秒缓存，避免轮询时反复写入) */
+let writableCache = { dir: null, at: 0, ok: true };
+function probeWritable(dir) {
+  if (writableCache.dir === dir && Date.now() - writableCache.at < 30000) return writableCache.ok;
+  try {
+    if (!fs.existsSync(dir)) return true;
+    const probe = path.join(dir, '.LGSRC-write-test');
+    fs.writeFileSync(probe, 'ok', 'utf8');
+    fs.rmSync(probe, { force: true });
+    writableCache = { dir, at: Date.now(), ok: true };
+    return true;
+  } catch {
+    writableCache = { dir, at: Date.now(), ok: false };
+    return false;
+  }
+}
+
+async function statePayload(options = {}) {
   const key = readKey();
   const egress = await probeEgress(false);
+  const sessionId = options && options.sessionId ? String(options.sessionId) : '';
+  const scoped = sessionId ? state.lasts.get(sessionId) || null : null;
+  const latest = state.last ? { ...state.last, scope: 'global' } : null;
   return {
     plugin: PLUGIN_ID,
     host: os.hostname(),
@@ -1115,7 +1545,11 @@ async function statePayload() {
     key: { configured: Boolean(key), masked: key ? maskKey(key.apikey) : '', savedAt: key ? key.savedAt : null, file: keyFile() },
     bindingUrl: BIND_URL,
     reportDirName: REPORT_DIR_NAME,
-    lastLookup: state.last,
+    report: reportState(),
+    // 当前会话自己的最近查询；没有会话上下文时为 null
+    lastLookup: scoped ? { ...scoped, scope: 'session' } : null,
+    // 所有会话里最近的一条，供设置页展示
+    latestLookup: latest,
     autoOpenedAt: state.autoOpenedAt,
     permissions: permissionSummary(),
   };
@@ -1197,14 +1631,13 @@ export const inject = ['tools'];
 export function apply(ctx) {
   // 启动即探测一次公网出口 IP(不阻塞激活；失败会在面板上显示原因)
   probeEgress(true).catch(() => {});
-
-  function resolveDir(agent) {
-    try {
-      const workingDirectory = ctx.get('workingDirectory');
-      if (workingDirectory && agent && agent.session) return workingDirectory.get(agent.session);
-    } catch { /* 退回到进程目录 */ }
-    return process.cwd();
-  }
+  hostRefs.ctx = ctx;
+  try {
+    hostRefs.workingDirectory = ctx.get('workingDirectory') || null;
+  } catch { /* 非 Web 载体 */ }
+  try {
+    purgeTrash();
+  } catch { /* 回收站不可用时忽略 */ }
 
   // ---- 本机 UI 路由 (webServer 可选：缺它时插件仍以工具形式工作)
   ctx.effect(() => ctx.inject(['webServer'], (webCtx) => {
@@ -1241,7 +1674,11 @@ export function apply(ctx) {
         return;
       }
       try {
-        sendJson(res, 200, await statePayload());
+        let sessionId = '';
+        try {
+          sessionId = new URL(req.url || '/', 'http://127.0.0.1').searchParams.get('sessionId') || '';
+        } catch { /* 忽略 */ }
+        sendJson(res, 200, await statePayload({ sessionId }));
       } catch (error) {
         sendJson(res, 500, { error: error instanceof Error ? error.message : String(error) });
       }
@@ -1266,6 +1703,8 @@ export function apply(ctx) {
         return;
       }
       const action = body && body.action;
+      // 响应里的「最近查询」跟随调用方会话；设置页/无会话请求拿到的是全局视图
+      const respondState = () => statePayload({ sessionId: String(body.sessionId || '') });
       try {
         if (action === 'save-key') {
           const apikey = String(body.apikey || '').trim();
@@ -1277,6 +1716,7 @@ export function apply(ctx) {
         } else if (action === 'clear-key') {
           clearKey();
           state.last = null;
+          state.lasts.clear();
         } else if (action === 'open-binding') {
           openExternal(BIND_URL);
         } else if (action === 'open-binding-auto') {
@@ -1293,14 +1733,126 @@ export function apply(ctx) {
           }
           openExternal(target);
         } else if (action === 'open-folder') {
-          const dir = reportPathWithin(body.path, 'dir');
-          if (!dir) {
+          const dir = body.path ? reportPathWithin(body.path, 'dir') : reportRoot();
+          if (!dir || !fs.existsSync(dir)) {
             sendJson(res, 400, { error: '目录无效或不存在' });
             return;
           }
           openExternal(dir);
         } else if (action === 'refresh-egress') {
           await probeEgress(true);
+        } else if (action === 'choose-report-dir') {
+          const picked = await chooseFolderNative();
+          sendJson(res, 200, { ok: Boolean(picked), path: picked, state: await respondState() });
+          return;
+        } else if (action === 'set-report-dir') {
+          const raw = String(body.path || '').trim();
+          if (!raw) {
+            sendJson(res, 400, { error: '缺少目录路径' });
+            return;
+          }
+          if (!path.isAbsolute(raw)) {
+            sendJson(res, 400, { error: '请填写绝对路径' });
+            return;
+          }
+          const settings = readSettings();
+          const oldRoot = reportRoot(settings);
+          const target = path.resolve(raw);
+          const mode = ['copy', 'move', 'keep'].includes(body.mode) ? body.mode : 'keep';
+          if (target !== oldRoot) {
+            if (needsConsent(target, settings) && !body.consent) {
+              sendJson(res, 200, { ok: false, needsConsent: true, path: target, error: '该目录在工作区之外，需要确认授权' });
+              return;
+            }
+            const probe = probeReportDir(target);
+            if (!probe.ok) {
+              sendJson(res, 400, { error: `目录不可写：${probe.error}`, path: target });
+              return;
+            }
+            const migration = mode === 'keep' ? null : migrateReports(oldRoot, target, mode);
+            const consent = settings.consent.includes(target) ? settings.consent : [...settings.consent, target];
+            writeSettings({
+              reportDir: target === defaultReportRoot() ? null : target,
+              consent,
+              retentionDays: settings.retentionDays,
+            });
+            purgeTrash(target, settings.retentionDays);
+            sendJson(res, 200, { ok: true, migration, state: await respondState() });
+            return;
+          }
+          sendJson(res, 200, { ok: true, migration: null, state: await respondState() });
+          return;
+        } else if (action === 'reset-report-dir') {
+          const settings = readSettings();
+          const oldRoot = reportRoot(settings);
+          const target = defaultReportRoot();
+          const mode = ['copy', 'move', 'keep'].includes(body.mode) ? body.mode : 'keep';
+          const migration = oldRoot !== target && mode !== 'keep' ? migrateReports(oldRoot, target, mode) : null;
+          probeReportDir(target);
+          writeSettings({ reportDir: null, consent: settings.consent, retentionDays: settings.retentionDays });
+          sendJson(res, 200, { ok: true, migration, state: await respondState() });
+          return;
+        } else if (action === 'list-reports') {
+          const scan = scanReports(reportRoot(), true);
+          sendJson(res, 200, {
+            ok: true,
+            files: scan.files,
+            trash: scan.trash,
+            dir: scan.root,
+            trashDir: scan.trashDir,
+          });
+          return;
+        } else if (action === 'delete-reports') {
+          const names = Array.isArray(body.names) ? body.names.map((n) => path.basename(String(n))) : [];
+          if (!names.length) {
+            sendJson(res, 400, { error: '没有选中要删除的报告' });
+            return;
+          }
+          const root = reportRoot();
+          const result = moveToTrash(root, names);
+          if (!result.moved.length) {
+            sendJson(res, 409, { ok: false, error: '选中的报告已不存在 (可能已被移动或删除)，请刷新列表后重试' });
+            return;
+          }
+          sendJson(res, 200, { ok: true, batch: result.batch, dir: root, moved: result.moved, state: await respondState() });
+          return;
+        } else if (action === 'undo-delete') {
+          const batch = path.basename(String(body.batch || ''));
+          if (!batch) {
+            sendJson(res, 400, { error: '缺少批次编号' });
+            return;
+          }
+          const settings = readSettings();
+          const current = reportRoot(settings);
+          const requested = String(body.dir || '').trim();
+          const dir = requested ? path.resolve(requested) : current;
+          // 只允许撤销当前目录或此前配置过/授权过的目录，避免任意路径读写
+          if (!undoRootAllowed(dir, current, settings.consent)) {
+            sendJson(res, 400, { error: '该目录不在允许的撤销范围内' });
+            return;
+          }
+          const result = undoTrash(dir, batch);
+          if (!result.restored.length) {
+            sendJson(res, 404, { ok: false, error: `回收站里找不到这批报告 (可能在 ${dir} 的回收站已过期清理)` });
+            return;
+          }
+          sendJson(res, 200, { ok: true, dir, restored: result.restored, state: await respondState() });
+          return;
+        } else if (action === 'set-retention') {
+          const days = Number(body.days);
+          if (![7, 30, 0].includes(days)) {
+            sendJson(res, 400, { error: '保留期只能是 7 天、30 天或永久' });
+            return;
+          }
+          const settings = readSettings();
+          writeSettings({ reportDir: settings.reportDir, consent: settings.consent, retentionDays: days });
+          const purged = purgeTrash(reportRoot(), days);
+          sendJson(res, 200, { ok: true, purged: purged.removed.length, state: await respondState() });
+          return;
+        } else if (action === 'empty-trash') {
+          const result = emptyTrash();
+          sendJson(res, 200, { ok: true, removed: result.removed, state: await respondState() });
+          return;
         } else if (action === 'summarize') {
           const sessionId = String(body.sessionId || '');
           const agents = ctx.get('agents');
@@ -1309,7 +1861,12 @@ export function apply(ctx) {
             sendJson(res, 400, { error: '找不到当前会话，无法自动触发总结 (刷新页面后重试)' });
             return;
           }
-          const prompt = summaryPrompt(state.last);
+          const scoped = sessionId ? state.lasts.get(sessionId) : null;
+          if (!scoped) {
+            sendJson(res, 400, { error: '当前会话还没有查询记录，先查一个指标再点 AI 总结' });
+            return;
+          }
+          const prompt = summaryPrompt(scoped);
           // 与 host 侧 createUserMessage 保持一致：UUID 身份 + 冻结的不可变消息
           agent.followup(Object.freeze({
             id: randomUUID(),
@@ -1319,13 +1876,13 @@ export function apply(ctx) {
           }));
         } else if (action === 'verify') {
           const result = await verifyKey();
-          sendJson(res, 200, { ok: result.ok, verify: result, state: await statePayload() });
+          sendJson(res, 200, { ok: result.ok, verify: result, state: await respondState() });
           return;
         } else {
           sendJson(res, 400, { error: `未知操作：${String(action)}` });
           return;
         }
-        sendJson(res, 200, { ok: true, state: await statePayload() });
+        sendJson(res, 200, { ok: true, state: await respondState() });
       } catch (error) {
         sendJson(res, 500, { ok: false, error: error instanceof Error ? error.message : String(error) });
       }
@@ -1339,10 +1896,14 @@ export function apply(ctx) {
       'Query 微步在线 (ThreatBook) threat intelligence for ONE indicator: IPv4/IPv6, domain, file hash (MD5/SHA1/SHA256), URL, or vulnerability id (CVE/XVE/CNVD/CNNVD/...).',
       'Auto-detects the type and runs the FULL endpoint set (IP: ip/query + reputation + adv; domain: domain/query + adv + sub_domains + IOC + context; hash: file/report all sections + multiengines; URL: url/report with auto scan; vuln: /vuln). Raw JSON plus a complete Markdown report are written to the workspace threatbook-reports/ and their paths returned.',
       'Use it whenever the user pastes such an indicator, even without an explicit instruction.',
-      'The result already carries a 研判提示 block: evidence grade, a 0-100 score mapped to P0-P3, where it sits in an attack chain, matching ATT&CK ids, how fresh the intelligence is, and which endpoints failed. Reuse those values instead of inventing your own.',
-      'Reply in Chinese, in the order a colleague would read it: what the indicator is and how sure you are; the few findings that actually change the decision, each tagged with the endpoint it came from; what it would mean if it were already talking to internal assets; what to do split by network / host / account; when you would call it a false positive; and last what a human still has to decide.',
-      'Ground rules: a missing record is not a clean bill of health; anything you inferred yourself must be marked (推断); say how old the intelligence is when the verdict leans on it; name any endpoint that failed; if the score lands in P3, always offer a monitor-only option; keep raw JSON out of the answer.',
-      'If the data names C2 endpoints (a C2 server IP, domain or URL, e.g. the C2 of a trojan), surface them prominently: state them in the verdict and give an explicit block list in the actions, never bury them inside the evidence list.',
+      'The result already includes a 研判提示 block (evidence grade, 0-100 score → P0-P3, attack-chain stage, ATT&CK ids, intelligence age, skipped/failed endpoints) and the C2 list. Treat those as settled: reuse them, do not recompute or soften them.',
+      'Reply in Chinese, compact and decision-first:',
+      '1) 结论：恶意 / 可疑 / 无情报记录 / 无法判定，一句话，带置信度、评分与优先级。',
+      '2) 关键依据：3-5 条真正影响处置的发现，每条注明来自哪个接口的哪个字段。',
+      '3) C2 与外联：若存在，逐条列出并给明确的封禁 / 拦截清单，不要埋在证据里。',
+      '4) 处置：按网络 / 主机 / 账号分开写并给依据；P3 也要保留「先监控」选项。',
+      '5) 误报条件与需要人工拍板的事，各一句。',
+      'Hard rules: missing data is not safety (无记录 / 权限不足 ≠ 安全或低危); when endpoints are missing but malicious tags remain (银狐、C2、勒索、木马等), keep the 恶意 / 可疑 verdict and treat permissions only as reduced confidence, never downgrade to 低危 or 无情报记录; mark your own reasoning with (推断); keep raw JSON out; if 研判提示 says 无法判定, state it and name the missing endpoints.',
       'End with one short line offering: (1) AI 总结, (2) 完整 MD 报告路径, (3) 深入某个字段。',
     ].join(' '),
     parameters: {
@@ -1432,11 +1993,12 @@ export function apply(ctx) {
       if (failedAll) {
         const messages = [...new Set(results.map((r) => String(r.msg || '').trim()).filter(Boolean))].slice(0, 3);
         const joined = messages.join('；') || '未知错误 (所有接口均未返回可用数据)';
-        const denied = results.length > 0 && results.every((r) => isDenied(r));
-        const headline = denied
+        // -1 既可能是没权限，也可能是 Key 无效/未加白名单；只有消息明确是权限问题才算无权限
+        const permissionOnly = isPermissionOnlyFailure(results);
+        const headline = permissionOnly
           ? `该类型接口均无权限：${indicator}(${typeLabel(type)})`
           : `微步查询未成功：${indicator}(${typeLabel(type)})`;
-        const advice = denied
+        const advice = permissionOnly
           ? '当前 API Key 没有该类型的查询权限，请在控制台确认后重试；无权限不等于该指标安全。'
           : failureHint(joined);
         return { ok: false, type, indicator, text: `${headline}\n${joined}\n\n${advice}` };
@@ -1447,7 +2009,7 @@ export function apply(ctx) {
       const c2 = extractC2(type, indicator, results);
       const c2Line = c2.length ? `\n- C2 通联 IOC：${c2.map((x) => `${x.value} (${x.kind})`).join('、')}` : '';
       const brief = `${digestBrief(type, indicator, results)}\n- 威胁评分：${grade.score}/100 (${grade.priority})${c2Line}`;
-      const dir = resolveDir(exec && exec.agent);
+      const dir = reportRoot();
       let files;
       try {
         files = writeReports({ type, indicator, at, results, digest, dir, c2 });
@@ -1480,7 +2042,7 @@ export function apply(ctx) {
         '可选下一步 (问用户想要哪一个)：① 我直接做简要总结；② 打开/给出完整 MD 报告；③ 深入某个字段或多接口互证。',
       ].join('\n');
 
-      state.last = {
+      const lastEntry = {
         indicator,
         type,
         at,
@@ -1495,6 +2057,8 @@ export function apply(ctx) {
         c2: c2.map((x) => `${x.value} (${x.kind})`),
         digest,
       };
+      const sessionId = exec && exec.agent && exec.agent.session ? String(exec.agent.session.id) : '';
+      rememberLast(sessionId, lastEntry);
 
       return {
         ok: true,
@@ -1528,15 +2092,23 @@ export function apply(ctx) {
         return { text: `读取状态失败：${error instanceof Error ? error.message : String(error)}` };
       }
       const v4 = payload.ips.filter((x) => x.family === 'IPv4');
+      const report = reportState();
       const lines = [
         `本机名：${payload.host}(${payload.platform})`,
         `本机 IPv4：${v4.length ? v4.map((x) => `${x.address} (${x.iface})`).join('；') : '无'}`,
         `公网出口 IP：${payload.egress && payload.egress.ip ? payload.egress.ip : '未探测到'}${payload.egress && payload.egress.error ? `(探测错误：${payload.egress.error})` : ''}`,
         `API Key: ${payload.key.configured ? payload.key.masked : '未配置'}`,
         `Key 文件：${payload.key.file}(仅本地，不上传)`,
+        `报告目录：${report.dir}${report.isDefault ? ' (默认)' : ''}`,
+        `回收站：${report.trashDir}(保留 ${report.retentionDays ? report.retentionDays + ' 天' : '永久'})`,
         `绑定地址：${payload.bindingUrl}`,
         '绑定步骤：登录微步 X 情报中心 → 我的 KEY → 把上面的公网出口 IP 加入白名单 → 复制 API Key → 在插件面板粘贴并保存。',
-        payload.lastLookup ? `最近查询：${payload.lastLookup.indicator}(${payload.lastLookup.type})@ ${payload.lastLookup.at}\n  MD: ${payload.lastLookup.markdownPath}` : '最近查询：无',
+        (() => {
+          const latest = payload.latestLookup || payload.lastLookup;
+          return latest
+            ? `最近查询：${latest.indicator}(${latest.type})@ ${latest.at}\n  MD: ${latest.markdownPath}`
+            : '最近查询：无';
+        })(),
       ];
       return { text: lines.join('\n') };
     },

@@ -8,7 +8,7 @@ import { fileURLToPath } from 'node:url';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const clientFile = path.resolve(here, '..', 'threatbook-intel', 'client.js');
-const SCENARIOS = ['normal', 'unconfigured', 'configured', 'last', 'empty', 'notice', 'loading', 'error'];
+const SCENARIOS = ['normal', 'unconfigured', 'configured', 'last', 'reports', 'empty', 'notice', 'loading', 'error'];
 const targets = process.argv.slice(2).length ? process.argv.slice(2) : SCENARIOS;
 
 const basePayload = {
@@ -32,6 +32,21 @@ const basePayload = {
     priority: 'P1 高优', score: 70, c2: ['45.1.2.3 (IP)'],
   },
   autoOpenedAt: 0,
+  report: {
+    dir: 'C:\\work\\threatbook-reports',
+    defaultDir: 'C:\\work\\threatbook-reports',
+    isDefault: true,
+    outsideWorkspace: false,
+    consentRequired: false,
+    writable: true,
+    retentionDays: 30,
+    trashDir: 'C:\\work\\threatbook-reports\\.LGSRC-trash',
+    reportCount: 2,
+    reportBytes: 4096,
+    trashCount: 0,
+    trashBytes: 0,
+    lastTrashBatch: null,
+  },
 };
 
 function makeReact() {
