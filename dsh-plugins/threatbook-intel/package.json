@@ -1,6 +1,6 @@
 {
   "name": "dsh-threatbook-intel",
-  "version": "1.8.6",
+  "version": "1.8.7",
   "type": "module",
   "description": "ThreatBook (微步在线) intel for DSH: shows the machine's egress IP with copy, opens the key-binding page, keeps the API key in a local file only, and runs full ThreatBook lookups for IP / domain / file hash / URL / CVE.",
   "keywords": [
@@ -11,7 +11,7 @@
     "ti",
     "ioc"
   ],
-  "license": "MIT",
+  "license": "CC-BY-SA-4.0",
   "author": "Ling Gao (LGSRC)",
   "repository": {
     "type": "git",
@@ -35,7 +35,8 @@
     "locale/*.json",
     "icon.svg",
     "README.md",
-    "CHANGELOG.md"
+    "CHANGELOG.md",
+    "LICENSE"
   ],
   "engines": {
     "node": ">=20"

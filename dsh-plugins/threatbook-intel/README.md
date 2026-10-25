@@ -135,3 +135,6 @@ git clone https://github.com/Lingggao/LGSRC.git
 | 最近查询操作 | `打开报告` | 打开完整 MD 报告 |
 | 排版 | 中英文之间、英文括号前后各留一个空格 (中文、数字、字母都算) | 中英文粘连、括号紧贴文字、数字或字母后紧跟括号 |
 
+## 许可证
+
+与主仓库一致，按「署名 - 相同方式共享 4.0」(CC BY-SA 4.0) 协议提供，全文见 [LICENSE.txt](https://github.com/Lingggao/LGSRC/blob/main/LICENSE.txt)。

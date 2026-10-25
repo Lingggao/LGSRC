@@ -36,7 +36,7 @@ const basePayload = {
     portalUrl: 'https://www.lgsrc.cn',
     name: '灵糕中心 · 安全响应中心',
     intro: '灵糕中心 · 安全响应中心是用于打击计算机病毒与恶意网站的独立非营利组织。',
-    version: '1.8.6',
+    version: '1.8.7',
     releaseDate: '2026-10-26',
     repoUrl: 'https://github.com/Lingggao/LGSRC',
     releasesUrl: 'https://github.com/Lingggao/LGSRC/releases',
