@@ -992,6 +992,9 @@
 | 2026/10/18 |       hxxps://www[.]deekpseep[.]com[.]cn        |   **仿冒 DeepSeek、传播病毒**   |   同 972，仅在必应搜索结果中点击该链接时才会跳转至恶意网站   |                            无                            | 981  |
 | 2026/10/18 |         hxxps://deepseek-ys[.]com[.]cn          |   **仿冒 DeepSeek、传播病毒**   |   同 972，仅在必应搜索结果中点击该链接时才会跳转至恶意网站   |                            无                            | 982  |
 | 2026/10/18 |         hxxps://deepseek-dc[.]com[.]cn          |   **仿冒 DeepSeek、传播病毒**   |              hxxps://www[.]msud148[.]com/lod15               |                            无                            | 983  |
+| 2026/10/18 |         hxxps://deepseek-jt[.]com[.]cn          |   **仿冒 DeepSeek、传播病毒**   |                            同 983                            |                            无                            | 984  |
+| 2026/10/18 |         hxxps://deepseek-dy[.]com[.]cn          |   **仿冒 DeepSeek、传播病毒**   |                            同 983                            |                            无                            | 985  |
+| 2026/10/18 |       hxxps://www[.]skmac811[.]com/lod018       |        **传播银狐病毒**         |                       有，载荷提取失败                       | [URLhaus Database](https://urlhaus.abuse.ch/url/3951819) | 986  |
 |   ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
