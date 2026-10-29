@@ -9,6 +9,11 @@
 
 ### 文章
 
+[043]  
+《[**银狐钓鱼新手法：从ISO镜像投递到内核层进程保护**](https://mp.weixin.qq.com/s/pRbJ22263edbrN_k83NXdg)》  
+**江民科技 (北京江民新科技术有限公司)**，2026 年 10 月  
+网址：[https://mp.weixin.qq.com/s/pRbJ22263edbrN_k83NXdg](https://mp.weixin.qq.com/s/pRbJ22263edbrN_k83NXdg)
+
 [042]  
 《[**关于“银狐”木马“镜昙（G02）”团伙攻击态势深入分析报告**](https://mp.weixin.qq.com/s/wbQlp9D3VusutrEfoxAxeQ)》  
 **国家计算机网络应急技术处理协调中心**，2026 年 10 月  

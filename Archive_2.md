@@ -1012,6 +1012,7 @@
 | 2026/10/24 |        hxxps://www[.]mxh4h[.]com/lod018         |        **传播银狐病毒**         |                       有，载荷提取失败                       | [URLhaus Database](https://urlhaus.abuse.ch/url/3990317) | 1001 |
 | 2026/10/24 |           hxxps://doubao-i[.]com[.]cn           |    **仿冒豆包 AI、传播病毒**    |                           同 1001                            |                            无                            | 1002 |
 | 2026/10/24 |          hxxps://doubao-ci[.]com[.]cn           |    **仿冒豆包 AI、传播病毒**    |                           同 1001                            |                            无                            | 1003 |
+| 2026/10/27 |           hxxps://brave-browser[.]co            | **仿冒 Brave 浏览器、传播病毒** |     hxxps://app[.]appdowsdy[.]xyz/p21/BraveBrowser[.]zip     | [URLhaus Database](https://urlhaus.abuse.ch/url/4035511) | 1004 |
 |   ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
