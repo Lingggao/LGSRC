@@ -1013,6 +1013,12 @@
 | 2026/10/24 |           hxxps://doubao-i[.]com[.]cn           |    **仿冒豆包 AI、传播病毒**    |                           同 1001                            |                            无                            | 1002 |
 | 2026/10/24 |          hxxps://doubao-ci[.]com[.]cn           |    **仿冒豆包 AI、传播病毒**    |                           同 1001                            |                            无                            | 1003 |
 | 2026/10/27 |           hxxps://brave-browser[.]co            | **仿冒 Brave 浏览器、传播病毒** |     hxxps://app[.]appdowsdy[.]xyz/p21/BraveBrowser[.]zip     | [URLhaus Database](https://urlhaus.abuse.ch/url/4035511) | 1004 |
+| 2026/10/27 |              hxxps://bravezh[.]com              | **仿冒 Brave 浏览器、传播病毒** |                           同 1004                            |                            无                            | 1005 |
+| 2026/10/27 |           hxxps://apps-braveen[.]com            | **仿冒 Brave 浏览器、传播病毒** |                           同 1004                            |                            无                            | 1006 |
+| 2026/10/27 |         hxxps://www[.]owr4u[.]com/lod25         |        **传播银狐病毒**         |                       有，载荷提取失败                       | [URLhaus Database](https://urlhaus.abuse.ch/url/4035551) | 1007 |
+| 2026/10/27 |          hxxps://tbtool-xb[.]com[.]cn           |  **仿冒图吧工具箱、传播病毒**   |                           同 1007                            |                            无                            | 1008 |
+| 2026/10/27 |           hxxps://tbtoolr[.]com[.]cn            |  **仿冒图吧工具箱、传播病毒**   |                           同 1007                            |                            无                            | 1009 |
+| 2026/10/27 |          hxxps://tbtool-yc[.]com[.]cn           |  **仿冒图吧工具箱、传播病毒**   |                           同 1007                            |                            无                            | 1010 |
 |   ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
