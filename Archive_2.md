@@ -1020,6 +1020,17 @@
 | 2026/10/27 |           hxxps://tbtoolr[.]com[.]cn            |  **仿冒图吧工具箱、传播病毒**   |                           同 1007                            |                            无                            | 1009 |
 | 2026/10/27 |          hxxps://tbtool-yc[.]com[.]cn           |  **仿冒图吧工具箱、传播病毒**   |                           同 1007                            |                            无                            | 1010 |
 | 2026/10/27 |        hxxps://www[.]gun731[.]com/lod27         |        **传播银狐病毒**         |                       有，载荷提取失败                       |                            无                            | 1011 |
+| 2026/10/27 |           hxxps://doubao-h[.]com[.]cn           |    **仿冒豆包 AI、传播病毒**    |                           同 1011                            |                            无                            | 1012 |
+| 2026/10/27 |          hxxps://doubao-cu[.]com[.]cn           |    **仿冒豆包 AI、传播病毒**    |                           同 1011                            |                            无                            | 1013 |
+| 2026/10/27 |          hxxps://doubao-cib[.]com[.]cn          |    **仿冒豆包 AI、传播病毒**    |                           同 1011                            |                            无                            | 1014 |
+| 2026/10/27 |           hxxps://dioubao[.]com[.]cn            |    **仿冒豆包 AI、传播病毒**    | hxxps://aass1122[.]tos-cn-beijing[.]volces[.]com/Dssiookle_setup[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4036088) | 1015 |
+| 2026/10/27 |         hxxps://do[.]doubaor[.]com[.]cn         |    **仿冒豆包 AI、传播病毒**    |  同 1015，仅在必应搜索结果中点击该链接时才会跳转至恶意网站   |                            无                            | 1016 |
+| 2026/10/27 |         hxxps://cn[.]doubaol[.]com[.]cn         |    **仿冒豆包 AI、传播病毒**    |  同 1015，仅在必应搜索结果中点击该链接时才会跳转至恶意网站   |                            无                            | 1017 |
+| 2026/10/27 |       hxxps://www[.]doubao-go[.]com[.]cn        |    **仿冒豆包 AI、传播病毒**    |  同 1015，仅在必应搜索结果中点击该链接时才会跳转至恶意网站   |                            无                            | 1018 |
+| 2026/10/28 |        hxxps://pro[.]bitehttp[.]com[.]cn        |  **仿冒比特浏览器、传播病毒**   | hxxps://pub-deebd68623a947eebf94757bdf8f090b[.]r2[.]dev/10[.]28BTlwqneinniqefacmdmeo[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4041590) | 1019 |
+| 2026/10/28 |          hxxps://bitbrowser[.]sh[.]cn           |  **仿冒比特浏览器、传播病毒**   | hxxps://bitbrowse[.]oss-cn-hongkong[.]aliyuncs[.]com/bitbrowser5-x64[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4041591) | 1020 |
+| 2026/10/28 |          hxxps://bitbrowser[.]fj[.]cn           |  **仿冒比特浏览器、传播病毒**   |                           同 1020                            |                            无                            | 1021 |
+| 2026/10/28 |          hxxps://bitbrowser[.]bj[.]cn           |  **仿冒比特浏览器、传播病毒**   |                           同 1020                            |                            无                            | 1022 |
 |   ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
