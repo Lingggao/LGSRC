@@ -1031,6 +1031,8 @@
 | 2026/10/28 |          hxxps://bitbrowser[.]sh[.]cn           |  **仿冒比特浏览器、传播病毒**   | hxxps://bitbrowse[.]oss-cn-hongkong[.]aliyuncs[.]com/bitbrowser5-x64[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4041591) | 1020 |
 | 2026/10/28 |          hxxps://bitbrowser[.]fj[.]cn           |  **仿冒比特浏览器、传播病毒**   |                           同 1020                            |                            无                            | 1021 |
 | 2026/10/28 |          hxxps://bitbrowser[.]bj[.]cn           |  **仿冒比特浏览器、传播病毒**   |                           同 1020                            |                            无                            | 1022 |
+| 2026/10/28 |          hxxps://bitbrowser[.]xj[.]cn           |  **仿冒比特浏览器、传播病毒**   |                           同 1020                            |                            无                            | 1023 |
+| 2026/10/29 |             hxxps://siyutalk[.]com              |     **仿冒思语、传播病毒**      |     hxxps://dl[.]downloadonly[.]me/siyuchat_setup[.]zip      | [URLhaus Database](https://urlhaus.abuse.ch/url/4042220) | 1024 |
 |   ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
