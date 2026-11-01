@@ -1034,6 +1034,7 @@
 | 2026/10/28 |          hxxps://bitbrowser[.]xj[.]cn           |  **仿冒比特浏览器、传播病毒**   |                           同 1020                            |                            无                            | 1023 |
 | 2026/10/29 |             hxxps://siyutalk[.]com              |     **仿冒思语、传播病毒**      |     hxxps://dl[.]downloadonly[.]me/siyuchat_setup[.]zip      | [URLhaus Database](https://urlhaus.abuse.ch/url/4042220) | 1024 |
 | 2026/10/30 |        hxxps://hr[.]ludashix[.]com[.]cn         |    **仿冒鲁大师、传播病毒**     | hxxps://pub-c3947f4f3f2947e680cbf4cd2a18055d[.]r2[.]dev/10[.]29LUDAScqeirwithbuskoq[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4046987) | 1025 |
+| 2026/10/30 |           hxxps://ludashiz[.]com[.]cn           |    **仿冒鲁大师、传播病毒**     |  同 1025，仅在必应搜索结果中点击该链接时才会跳转至恶意网站   |                            无                            | 1026 |
 |   ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
