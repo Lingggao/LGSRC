@@ -135,7 +135,7 @@
 | 2026/11/1  |         hxxps://www[.]bandizip[.]dev         |   **仿冒 Bandizip、传播病毒**   |  hxxps://www[.]bandizip[.]dev/downloads/BANDIZIPSETUP[.]zip  | [URLhaus Database](https://urlhaus.abuse.ch/url/4049389) | 1043 |
 | 2026/11/1  |         hxxps://www[.]bandizip[.]vip         |   **仿冒 Bandizip、传播病毒**   |                           同 1043                            |                            无                            | 1044 |
 | 2026/11/1  |      hxxps://www[.]udn48vb[.]com/nlod27      |        **传播银狐病毒**         |                       有，载荷提取失败                       | [URLhaus Database](https://urlhaus.abuse.ch/url/4049370) | 1045 |
-| 2026/11/2  |    (回头看) hxxps://www[.]bandizip[.]dev     |   **仿冒 Bandizip、传播病毒**   | https://www.bandizip.dev/downloads/BandiZip_Setup_x64-signed.zip |                            无                            | 1046 |
+| 2026/11/2  |    (回头看) hxxps://www[.]bandizip[.]dev     |   **仿冒 Bandizip、传播病毒**   | hxxps://www[.]bandizip[.]dev/downloads/BandiZip_Setup_x64-signed[.]zip |                            无                            | 1046 |
 |   ——————   |             ————————————————————             |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
