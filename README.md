@@ -58,9 +58,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 11 月 2 日 6:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 11 月 3 日 9:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 11 月 2 日，本中心已打击计算机病毒 / 恶意软件 1,981 个、恶意网站 1,046 个，累计为潜在受害者规避经济损失约 8,419,250 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 11 月 3 日，本中心已打击计算机病毒 / 恶意软件 1,986 个、恶意网站 1,046 个，累计为潜在受害者规避经济损失约 8,440,500 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;在对抗网络犯罪的崇高事业中，本中心仅承担了少量协调类工作。**恶意载荷从发现到清除，离不开国家有关部门、安全社区与研究员、杀毒软件厂商及威胁情报提供商的共同努力**。在此，谨向他们致以诚挚谢意。
 
@@ -80,11 +80,6 @@
 
 |    日期    |          文件名          |           检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :--------: | :----------------------: | :----------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/10/29 |    154.211.92.33.exe     |   **银狐 (SilverFox)**   | 3f3e8aed1a5bb4c86420bc0157df63f6c4ece52725dd8e5684155cbb57d6f012 | a259cc3b-e1b6-4e6b-8425-9f656d3b76db | [VirusTotal](https://www.virustotal.com/gui/file/3f3e8aed1a5bb4c86420bc0157df63f6c4ece52725dd8e5684155cbb57d6f012) (25) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/3f3e8aed1a5bb4c86420bc0157df63f6c4ece52725dd8e5684155cbb57d6f012) | 1962 |
-| 2026/10/29 |         226.exe          |   **银狐 (SilverFox)**   | 617f1c0ed0779c9a5a51b89ff0ad87e0382ae29f36b62cd7c8b747084e8de9f3 | 53be3f4a-940b-4ae4-b78b-ca37f88f7a74 | [VirusTotal](https://www.virustotal.com/gui/file/617f1c0ed0779c9a5a51b89ff0ad87e0382ae29f36b62cd7c8b747084e8de9f3) (8) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/617f1c0ed0779c9a5a51b89ff0ad87e0382ae29f36b62cd7c8b747084e8de9f3) | 1963 |
-| 2026/10/29 |    PeLoader86_236.exe    |   **银狐 (SilverFox)**   | 37dc5a91d729b6ae023306c150dc3f1a487fc4c302a2bd9c2195cd13dd0dd543 | 37d64cd3-57d1-4468-b3f6-946a6ed4fd3b | [VirusTotal](https://www.virustotal.com/gui/file/37dc5a91d729b6ae023306c150dc3f1a487fc4c302a2bd9c2195cd13dd0dd543) (12) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/37dc5a91d729b6ae023306c150dc3f1a487fc4c302a2bd9c2195cd13dd0dd543) | 1964 |
-| 2026/10/29 | ToDesk_x64_Installer.exe |   **银狐 (SilverFox)**   | e94995ac65b45d9ce26d85c1fadb667baab42309b073a3a45874b708c5c6a97f | 12e90e06-06ed-43f8-9bc2-d2afa38a16f8 | [VirusTotal](https://www.virustotal.com/gui/file/e94995ac65b45d9ce26d85c1fadb667baab42309b073a3a45874b708c5c6a97f) (7) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/e94995ac65b45d9ce26d85c1fadb667baab42309b073a3a45874b708c5c6a97f) | 1965 |
-| 2026/10/29 |       WDWWDQDQ.exe       |   **银狐 (SilverFox)**   | 74858aeeac1be1b77eb97d36cafa01e3acfe88daeb31e510fb1dbc6281c5f15a | 4fa0a639-a079-4be7-9106-b9b10ebd194e | [VirusTotal](https://www.virustotal.com/gui/file/74858aeeac1be1b77eb97d36cafa01e3acfe88daeb31e510fb1dbc6281c5f15a) (18) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/74858aeeac1be1b77eb97d36cafa01e3acfe88daeb31e510fb1dbc6281c5f15a) | 1966 |
 | 2026/10/30 |  10.29LUDAScqeir···.exe  |   **银狐 (SilverFox)**   | a6aff03c3b9de86f33bd75c6366f683e8b9bd99939bf7d5dffac95199587f0c3 | b8f5a88d-13fc-421c-a6b9-f12c6de7daf2 | [VirusTotal](https://www.virustotal.com/gui/file/a6aff03c3b9de86f33bd75c6366f683e8b9bd99939bf7d5dffac95199587f0c3) (5) |                              无                              | 1967 |
 | 2026/10/30 |        Setup.exe         |   **银狐 (SilverFox)**   | 038fb6a3b1cbb208f05b372e085a1588a8d6701ff247b1700eae01008b7b9752 | d2e2cdfa-2b41-4dfa-a70c-7b6c34e240b1 | [VirusTotal](https://www.virustotal.com/gui/file/038fb6a3b1cbb208f05b372e085a1588a8d6701ff247b1700eae01008b7b9752) (11) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/038fb6a3b1cbb208f05b372e085a1588a8d6701ff247b1700eae01008b7b9752) | 1968 |
 | 2026/10/30 |  BraveBrowserSetup.exe   |   **银狐 (SilverFox)**   | 46f476a38337e49d1cffbd851c727a94322ee959be314c59dd59cbdd0a827f67 | 11a82d7f-d239-47ba-9f1e-e4c144113ca7 | [VirusTotal](https://www.virustotal.com/gui/file/46f476a38337e49d1cffbd851c727a94322ee959be314c59dd59cbdd0a827f67) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/46f476a38337e49d1cffbd851c727a94322ee959be314c59dd59cbdd0a827f67) | 1969 |
@@ -100,6 +95,11 @@
 | 2026/11/2  |    instoll.3.1.09.exe    | **银狐 (SilverFox.PHL)** | f02bb49b2f9af8ffe36542ca968b150e7911670e8f8daf7d8e401e5b094cf83c | e703de24-2912-4c53-8c77-1128d6ea5ef3 | [VirusTotal](https://www.virustotal.com/gui/file/f02bb49b2f9af8ffe36542ca968b150e7911670e8f8daf7d8e401e5b094cf83c) (24) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/f02bb49b2f9af8ffe36542ca968b150e7911670e8f8daf7d8e401e5b094cf83c) | 1979 |
 | 2026/11/2  |   letspnbzstup···.exe    |   **银狐 (SilverFox)**   | 0d54169c5992c55640623478ba471445b06631f9e231f8dc649886b4b7d902b0 | 3bb69e20-14ca-49ac-bf59-74b1ed4b284a | [VirusTotal](https://www.virustotal.com/gui/file/0d54169c5992c55640623478ba471445b06631f9e231f8dc649886b4b7d902b0) (6) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/0d54169c5992c55640623478ba471445b06631f9e231f8dc649886b4b7d902b0) | 1980 |
 | 2026/11/2  |  BandiZip···signed.exe   |   **银狐 (SilverFox)**   | 41d9eb2f5418181cfe9a9955bdb1ec99692618759704b92f332d2d6e121fa4aa | 8e4d1b57-9099-4d1a-b497-9dfe1fbb03c7 | [VirusTotal](https://www.virustotal.com/gui/file/41d9eb2f5418181cfe9a9955bdb1ec99692618759704b92f332d2d6e121fa4aa) (8) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/41d9eb2f5418181cfe9a9955bdb1ec99692618759704b92f332d2d6e121fa4aa) | 1981 |
+| 2026/11/3  |  207.56.28.153 (2).exe   |   **银狐 (SilverFox)**   | 5ea175c06fa2402c4aeac7816d051ab6c45307c4443221a25871b46267e028f0 | b5811cf6-1f0a-4257-81a5-63e522136902 | [VirusTotal](https://www.virustotal.com/gui/file/5ea175c06fa2402c4aeac7816d051ab6c45307c4443221a25871b46267e028f0) (23) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5ea175c06fa2402c4aeac7816d051ab6c45307c4443221a25871b46267e028f0) | 1982 |
+| 2026/11/3  |  207.56.28.198 (2).exe   |   **银狐 (SilverFox)**   | 217503ba2e91713bcce9f9a221f69f192655b53d0d0596eb6467d71580f2b01c | 4de47c59-6c50-4fdc-a4fc-26d946f84d71 | [VirusTotal](https://www.virustotal.com/gui/file/217503ba2e91713bcce9f9a221f69f192655b53d0d0596eb6467d71580f2b01c) (19) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/217503ba2e91713bcce9f9a221f69f192655b53d0d0596eb6467d71580f2b01c) | 1983 |
+| 2026/11/3  |   goog_win64.3.18.exe    |   **银狐 (SilverFox)**   | 2f2bd39530ebe91604a4a8c0cc8f6f5f96d7d5fa5f808efbb6063e6554010125 | 32b788e4-3573-488d-b235-62936be0293d | [VirusTotal](https://www.virustotal.com/gui/file/2f2bd39530ebe91604a4a8c0cc8f6f5f96d7d5fa5f808efbb6063e6554010125) (10) |                              无                              | 1984 |
+| 2026/11/3  | photo_2026-07-06···.exe  |   **银狐 (SilverFox)**   | 276f8d720e1a7c9c767dc1fe98528717c5508e36cdd4ae4cf3ddb08378f46317 | ae3b14ce-5bac-445f-a07b-ae8e887c3f94 | [VirusTotal](https://www.virustotal.com/gui/file/276f8d720e1a7c9c767dc1fe98528717c5508e36cdd4ae4cf3ddb08378f46317) (42) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/276f8d720e1a7c9c767dc1fe98528717c5508e36cdd4ae4cf3ddb08378f46317) | 1985 |
+| 2026/11/3  |      setup_x64.exe       |   **银狐 (SilverFox)**   | b9cf4d76059414fa7e100a211fcc772dc05b22722a8dac83bbef6cc8f2cd5336 | 2b76022c-0d5e-4e8a-b0a8-1e187640e480 | [VirusTotal](https://www.virustotal.com/gui/file/b9cf4d76059414fa7e100a211fcc772dc05b22722a8dac83bbef6cc8f2cd5336) (3) |                              无                              | 1986 |
 |   ——————   |       ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -135,7 +135,7 @@
 | 2026/11/1  |         hxxps://www[.]bandizip[.]dev         |   **仿冒 Bandizip、传播病毒**   |  hxxps://www[.]bandizip[.]dev/downloads/BANDIZIPSETUP[.]zip  | [URLhaus Database](https://urlhaus.abuse.ch/url/4049389) | 1043 |
 | 2026/11/1  |         hxxps://www[.]bandizip[.]vip         |   **仿冒 Bandizip、传播病毒**   |                           同 1043                            |                            无                            | 1044 |
 | 2026/11/1  |      hxxps://www[.]udn48vb[.]com/nlod27      |        **传播银狐病毒**         |                       有，载荷提取失败                       | [URLhaus Database](https://urlhaus.abuse.ch/url/4049370) | 1045 |
-| 2026/11/2  |    (回头看) hxxps://www[.]bandizip[.]dev     |   **仿冒 Bandizip、传播病毒**   | hxxps://www[.]bandizip[.]dev/downloads/BandiZip_Setup_x64-signed[.]zip |                            无                            | 1046 |
+| 2026/11/2  |    (回头看) hxxps://www[.]bandizip[.]dev     |   **仿冒 Bandizip、传播病毒**   | hxxps://www[.]bandizip[.]dev/downloads/BandiZip_Setup_x64-signed[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4050275) | 1046 |
 |   ——————   |             ————————————————————             |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
@@ -162,9 +162,9 @@
 
 &emsp;&emsp;[《**常被 “银狐” 犯罪团伙仿冒的软件列表及注意事项**》](https://github.com/Lingggao/LGSRC/blob/main/Documents/List.md) (已收录 111 款软件)
 
-&emsp;&emsp;[《**“银狐” 威胁动态：官方及网络安全企业文章汇编**》](https://github.com/Lingggao/LGSRC/blob/main/Documents/SilverFox_Articles.md) (已收录 43 篇文章)
+&emsp;&emsp;[《**“银狐” 威胁动态：官方及网络安全企业文章汇编**》](https://github.com/Lingggao/LGSRC/blob/main/Documents/SilverFox_Articles.md) (已收录 46 篇文章)
 
-&emsp;&emsp;**银狐 IOC 情报合集**：[**VirusTotal**](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) + [**LevelBlue OTX**](https://otx.alienvault.com/pulse/6a36fe5a3c1568785b59c4d7)&emsp;实时更新，已收录 2,209 项情报 (文件、URL、域名、IP)
+&emsp;&emsp;**银狐 IOC 情报合集**：[**VirusTotal**](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) + [**LevelBlue OTX**](https://otx.alienvault.com/pulse/6a36fe5a3c1568785b59c4d7)&emsp;实时更新，已收录 2,221 项情报 (文件、URL、域名、IP)
 
 ---
 

@@ -9,6 +9,21 @@
 
 ### 文章
 
+[046]  
+《[**银狐疯狂进化，看AI如何"猎狐"！亚信专项方案获IDC推荐**](https://mp.weixin.qq.com/s/t3RleWSEejEHmOBuWry8AQ)》  
+**亚信安全 [亚信科技 (成都) 有限公司]**，2026 年 11 月  
+网址：[https://mp.weixin.qq.com/s/t3RleWSEejEHmOBuWry8AQ](https://mp.weixin.qq.com/s/t3RleWSEejEHmOBuWry8AQ)
+
+[045]  
+《[**10 月流行计算机病毒｜陌生文件慎点！**](https://mp.weixin.qq.com/s/6SmPo5NHGCGjoSQEHribuw)》  
+**国家计算机病毒应急处理中心**，2026 年 11 月  
+网址：[https://mp.weixin.qq.com/s/6SmPo5NHGCGjoSQEHribuw](https://mp.weixin.qq.com/s/6SmPo5NHGCGjoSQEHribuw)
+
+[044]  
+《[**“银狐”木马专项——恶意域名及恶意IP（八）**](https://mp.weixin.qq.com/s/VRV1NHzSw4HHDmWiTcipfQ)》  
+**国家计算机网络应急技术处理协调中心**，2026 年 11 月  
+网址：[https://mp.weixin.qq.com/s/VRV1NHzSw4HHDmWiTcipfQ](https://mp.weixin.qq.com/s/VRV1NHzSw4HHDmWiTcipfQ)
+
 [043]  
 《[**银狐钓鱼新手法：从ISO镜像投递到内核层进程保护**](https://mp.weixin.qq.com/s/pRbJ22263edbrN_k83NXdg)》  
 **江民科技 (北京江民新科技术有限公司)**，2026 年 10 月  
