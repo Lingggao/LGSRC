@@ -1040,6 +1040,18 @@
 | 2026/10/30 |     hxxps://137web[.]cdn-ludashi[.]com[.]cn     |    **仿冒鲁大师、传播病毒**     |  同 1025，仅在必应搜索结果中点击该链接时才会跳转至恶意网站   |                            无                            | 1029 |
 | 2026/10/30 |          hxxps://ludashiapp[.]com[.]cn          |    **仿冒鲁大师、传播病毒**     | hxxps://download-azhioss[.]space/download/win-Bundle%20x643014[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4046980) | 1030 |
 | 2026/10/30 |              hxxps://bravezh[.]com              | **仿冒 Brave 浏览器、传播病毒** |     hxxps://app[.]dydowsdy[.]xyz/p21/BraveBrowser[.]zip      | [URLhaus Database](https://urlhaus.abuse.ch/url/4047369) | 1031 |
+| 2026/10/31 |         hxxps://deepseek-osf[.]com[.]cn         |   **仿冒 DeepSeek、传播病毒**   |                 hxxps://kuajillan[.]com[.]cn                 |                            无                            | 1032 |
+| 2026/10/31 |      hxxps://web[.]deepseek-tfg[.]com[.]cn      |   **仿冒 DeepSeek、传播病毒**   |                           同 1032                            |                            无                            | 1033 |
+| 2026/10/31 |          hxxps://kuajillan[.]com[.]cn           |    **借助 VPN 工具传播病毒**    |         hxxps://2650web[.]cdn-kuailianvpn[.]com[.]cn         |                            无                            | 1034 |
+| 2026/10/31 |  hxxps://2650web[.]cdn-kuailianvpn[.]com[.]cn   |    **借助 VPN 工具传播病毒**    | hxxps://pub-41b75d021b0b48ddad6cbe9eeb14f7be[.]r2[.]dev/10[.]29KLcqievnrutnueg[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4047754) | 1035 |
+| 2026/10/31 |           hxxps://kuailar[.]com[.]cn            |    **借助 VPN 工具传播病毒**    |                 hxxps://www[.]8vas4i7g[.]xyz                 |                            无                            | 1036 |
+| 2026/10/31 |          hxxps://www[.]8vas4i7g[.]xyz           |    **借助 VPN 工具传播病毒**    | hxxps://winx64-letskauliian-1374029367[.]cos[.]ap-tokyo[.]myqcloud[.]com/winx64-Letskauliian[.]x188[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4047751) | 1037 |
+| 2026/10/31 |      hxxps://www[.]deepseek-oo[.]com[.]cn       |   **仿冒 DeepSeek、传播病毒**   |          hxxps://2038web[.]cdn-deepseek[.]com[.]cn           |                            无                            | 1038 |
+| 2026/10/31 |      hxxps://app[.]deepseek-bb[.]com[.]cn       |   **仿冒 DeepSeek、传播病毒**   |                           同 1038                            |                            无                            | 1039 |
+| 2026/10/31 |      hxxps://v3[.]deepseek-rwe[.]com[.]cn       |   **仿冒 DeepSeek、传播病毒**   |                           同 1038                            |                            无                            | 1040 |
+| 2026/10/31 |    hxxps://2038web[.]cdn-deepseek[.]com[.]cn    |   **仿冒 DeepSeek、传播病毒**   | hxxps://ooppxz[.]tos-cn-beijing[.]volces[.]com/Dssiookle_setup[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4047747) | 1041 |
+| 2026/10/31 |         hxxps://ww[.]qwicikq[.]com[.]cn         |    **借助 VPN 工具传播病毒**    | hxxps://lsmdngnakjbgazxv[.]com/Aliyunc/Quickq-win10-11%201[.]5[.]6x64[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4047748) | 1042 |
+| 2026/11/1  |          hxxps://www[.]bandizip[.]dev           |   **仿冒 Bandizip、传播病毒**   |  hxxps://www[.]bandizip[.]dev/downloads/BANDIZIPSETUP[.]zip  | [URLhaus Database](https://urlhaus.abuse.ch/url/4049389) | 1043 |
 |   ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---

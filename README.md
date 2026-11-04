@@ -58,9 +58,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 11 月 3 日 23:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 11 月 5 日 1:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 11 月 3 日，本中心已打击计算机病毒 / 恶意软件 1,990 个、恶意网站 1,051 个，累计为潜在受害者规避经济损失约 8,457,500 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 11 月 5 日，本中心已打击计算机病毒 / 恶意软件 1,992 个、恶意网站 1,063 个，累计为潜在受害者规避经济损失约 8,466,000 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;在对抗网络犯罪的崇高事业中，本中心仅承担了少量协调类工作。**恶意载荷从发现到清除，离不开国家有关部门、安全社区与研究员、杀毒软件厂商及威胁情报提供商的共同努力**。在此，谨向他们致以诚挚谢意。
 
@@ -80,8 +80,6 @@
 
 |    日期    |          文件名          |           检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :--------: | :----------------------: | :----------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/10/31 |   192.253.228.245.exe    |   **银狐 (SilverFox)**   | 5f8cf3213f664b81240b186f1e26dcbb1c7d6a6910e31de357da022c06b866ae | 53393781-7c44-4a07-a03a-b3a04fbcda16 | [VirusTotal](https://www.virustotal.com/gui/file/5f8cf3213f664b81240b186f1e26dcbb1c7d6a6910e31de357da022c06b866ae) (23) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/5f8cf3213f664b81240b186f1e26dcbb1c7d6a6910e31de357da022c06b866ae) | 1971 |
-| 2026/10/31 |  Quickq···1.5.6x64.msi   |       **Stealer**        | 4f2a429337f82fffa04687a4fe6340efa56b16605d530c2bf7fb8a3081c42c76 | 63b6150b-5edd-4cb2-a688-5df538296f33 | [VirusTotal](https://www.virustotal.com/gui/file/4f2a429337f82fffa04687a4fe6340efa56b16605d530c2bf7fb8a3081c42c76) (18) |                              无                              | 1972 |
 | 2026/10/31 | ···Letskauliian.x188.exe |        **Agent**         | 3d4135f74f288541d72b716e5bb6edaa266904df94edb005c5c13203e9f09f4b | 525fda9c-6f22-4d59-8bbc-215bf932a8fa | [VirusTotal](https://www.virustotal.com/gui/file/3d4135f74f288541d72b716e5bb6edaa266904df94edb005c5c13203e9f09f4b) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/3d4135f74f288541d72b716e5bb6edaa266904df94edb005c5c13203e9f09f4b) | 1973 |
 | 2026/11/1  |    BANDIZIPSETUP.exe     |   **银狐 (SilverFox)**   | c5418c52bdf33f70aff9bcf014d3f10c4661a87ff2dbc8747feaa10415fc5e52 | fbd81f25-e7ad-4759-9267-3c2a76feee85 | [VirusTotal](https://www.virustotal.com/gui/file/c5418c52bdf33f70aff9bcf014d3f10c4661a87ff2dbc8747feaa10415fc5e52) (10) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/c5418c52bdf33f70aff9bcf014d3f10c4661a87ff2dbc8747feaa10415fc5e52) | 1974 |
 | 2026/11/1  |    install.1.2.03.exe    | **银狐 (SilverFox.PHL)** | 36f6f9331b5efe7124f043b8a3b922a6c4df5cb3cf37cb14827baab47aa70c7c | 3346666b-c6ee-45ae-a8ca-b6e5cce53c3a | [VirusTotal](https://www.virustotal.com/gui/file/36f6f9331b5efe7124f043b8a3b922a6c4df5cb3cf37cb14827baab47aa70c7c) (37) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/36f6f9331b5efe7124f043b8a3b922a6c4df5cb3cf37cb14827baab47aa70c7c) | 1975 |
@@ -100,6 +98,8 @@
 | 2026/11/3  |    install_s.8.07.exe    |   **银狐 (SilverFox)**   | 7c7f84346adc0653da81a24b1e92ddd93e456465d5470e7aba1350ed4448314d | 060ae3e5-cae0-4118-ae78-74b440c66f51 | [VirusTotal](https://www.virustotal.com/gui/file/7c7f84346adc0653da81a24b1e92ddd93e456465d5470e7aba1350ed4448314d) (33) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/7c7f84346adc0653da81a24b1e92ddd93e456465d5470e7aba1350ed4448314d) | 1988 |
 | 2026/11/3  |        Setup.exe         |   **银狐 (SilverFox)**   | 228c0c17c1cef66ef7bd811e366b7f467f152a507601301f563ebd3f84fab5c3 | f92afa00-b06c-4a30-b6f3-dd5faef9ce0f | [VirusTotal](https://www.virustotal.com/gui/file/228c0c17c1cef66ef7bd811e366b7f467f152a507601301f563ebd3f84fab5c3) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/228c0c17c1cef66ef7bd811e366b7f467f152a507601301f563ebd3f84fab5c3) | 1989 |
 | 2026/11/3  |  w版护照办证价格表.exe   |   **银狐 (SilverFox)**   | e617dfbd039a949cad8727c26d6fcdb3cdfd3970af5bfe96aa367e04109eb425 | 7fde9d2d-34fa-4688-b7b1-e3600b4b8241 | [VirusTotal](https://www.virustotal.com/gui/file/e617dfbd039a949cad8727c26d6fcdb3cdfd3970af5bfe96aa367e04109eb425) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/e617dfbd039a949cad8727c26d6fcdb3cdfd3970af5bfe96aa367e04109eb425) | 1990 |
+| 2026/11/5  | SogouExplorer···210.exe  |   **银狐 (SilverFox)**   | 490c00007d2a99a873c282a49f9e49bb971f15cb6a7c2f626c6a2495d47c3df9 | f02e308d-5ebc-48d9-8b75-850346d8e6da | [VirusTotal](https://www.virustotal.com/gui/file/490c00007d2a99a873c282a49f9e49bb971f15cb6a7c2f626c6a2495d47c3df9) (6) |                              无                              | 1991 |
+| 2026/11/5  |  SogouExpolorer···.exe   |   **银狐 (SilverFox)**   | 84b214f9cd262ac46ad1fcd863b5dc1de6c88bc44cb59df41e7473a870d65f47 | 918dd092-6950-47bc-81bf-9f86d27f01a3 | [VirusTotal](https://www.virustotal.com/gui/file/84b214f9cd262ac46ad1fcd863b5dc1de6c88bc44cb59df41e7473a870d65f47) (4) |                              无                              | 1992 |
 |   ——————   |       ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -114,29 +114,29 @@
 >
 > &emsp;为确保安全，网站地址将用 “hxxps://” 与 “[.]” 进行替换。**切勿尝试访问表格中列出的任何网址**。
 
-|    日期    |                     URL                      |            类别             |                           有效载荷                           |                         URLhaus                          | 编号 |
-| :--------: | :------------------------------------------: | :-------------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
-| 2026/10/31 |       hxxps://deepseek-osf[.]com[.]cn        | **仿冒 DeepSeek、传播病毒** |                 hxxps://kuajillan[.]com[.]cn                 |                            无                            | 1032 |
-| 2026/10/31 |    hxxps://web[.]deepseek-tfg[.]com[.]cn     | **仿冒 DeepSeek、传播病毒** |                           同 1032                            |                            无                            | 1033 |
-| 2026/10/31 |         hxxps://kuajillan[.]com[.]cn         |  **借助 VPN 工具传播病毒**  |         hxxps://2650web[.]cdn-kuailianvpn[.]com[.]cn         |                            无                            | 1034 |
-| 2026/10/31 | hxxps://2650web[.]cdn-kuailianvpn[.]com[.]cn |  **借助 VPN 工具传播病毒**  | hxxps://pub-41b75d021b0b48ddad6cbe9eeb14f7be[.]r2[.]dev/10[.]29KLcqievnrutnueg[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4047754) | 1035 |
-| 2026/10/31 |          hxxps://kuailar[.]com[.]cn          |  **借助 VPN 工具传播病毒**  |                 hxxps://www[.]8vas4i7g[.]xyz                 |                            无                            | 1036 |
-| 2026/10/31 |         hxxps://www[.]8vas4i7g[.]xyz         |  **借助 VPN 工具传播病毒**  | hxxps://winx64-letskauliian-1374029367[.]cos[.]ap-tokyo[.]myqcloud[.]com/winx64-Letskauliian[.]x188[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4047751) | 1037 |
-| 2026/10/31 |     hxxps://www[.]deepseek-oo[.]com[.]cn     | **仿冒 DeepSeek、传播病毒** |          hxxps://2038web[.]cdn-deepseek[.]com[.]cn           |                            无                            | 1038 |
-| 2026/10/31 |     hxxps://app[.]deepseek-bb[.]com[.]cn     | **仿冒 DeepSeek、传播病毒** |                           同 1038                            |                            无                            | 1039 |
-| 2026/10/31 |     hxxps://v3[.]deepseek-rwe[.]com[.]cn     | **仿冒 DeepSeek、传播病毒** |                           同 1038                            |                            无                            | 1040 |
-| 2026/10/31 |  hxxps://2038web[.]cdn-deepseek[.]com[.]cn   | **仿冒 DeepSeek、传播病毒** | hxxps://ooppxz[.]tos-cn-beijing[.]volces[.]com/Dssiookle_setup[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4047747) | 1041 |
-| 2026/10/31 |       hxxps://ww[.]qwicikq[.]com[.]cn        |  **借助 VPN 工具传播病毒**  | hxxps://lsmdngnakjbgazxv[.]com/Aliyunc/Quickq-win10-11%201[.]5[.]6x64[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4047748) | 1042 |
-| 2026/11/1  |         hxxps://www[.]bandizip[.]dev         | **仿冒 Bandizip、传播病毒** |  hxxps://www[.]bandizip[.]dev/downloads/BANDIZIPSETUP[.]zip  | [URLhaus Database](https://urlhaus.abuse.ch/url/4049389) | 1043 |
-| 2026/11/1  |         hxxps://www[.]bandizip[.]vip         | **仿冒 Bandizip、传播病毒** |                           同 1043                            |                            无                            | 1044 |
-| 2026/11/1  |      hxxps://www[.]udn48vb[.]com/nlod27      |      **传播银狐病毒**       |                       有，载荷提取失败                       | [URLhaus Database](https://urlhaus.abuse.ch/url/4049370) | 1045 |
-| 2026/11/2  |    (回头看) hxxps://www[.]bandizip[.]dev     | **仿冒 Bandizip、传播病毒** | hxxps://www[.]bandizip[.]dev/downloads/BandiZip_Setup_x64-signed[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4050275) | 1046 |
-| 2026/11/3  | (回头看) hxxps://gf-qudongzongcai[.]com[.]cn | **仿冒驱动总裁、传播病毒**  | hxxps://download[.]bitbrowser-cn[.]cyou/download/Drv_ceo_12[.]8[.]1_x64[.]zip |                            无                            | 1047 |
-| 2026/11/3  |        hxxps://pc-qudongtk[.]com[.]cn        | **仿冒驱动天空、传播病毒**  |             hxxps://www[.]skmac811[.]com/181down             |                            无                            | 1048 |
-| 2026/11/3  |    hxxps://www[.]tiankong-yun[.]com[.]cn     | **仿冒驱动天空、传播病毒**  |                           同 1048                            |                            无                            | 1049 |
-| 2026/11/3  |        hxxps://dashiqudong[.]com[.]cn        | **仿冒驱动大师、传播病毒**  |                           同 1048                            |                            无                            | 1050 |
-| 2026/11/3  |         hxxps://qudongda[.]com[.]cn          | **仿冒驱动大师、传播病毒**  |                           同 1048                            |                            无                            | 1051 |
-|   ——————   |             ————————————————————             |       ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
+|   日期    |                     URL                      |             类别             |                           有效载荷                           |                         URLhaus                          | 编号 |
+| :-------: | :------------------------------------------: | :--------------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
+| 2026/11/1 |         hxxps://www[.]bandizip[.]vip         | **仿冒 Bandizip、传播病毒**  |                           同 1043                            |                            无                            | 1044 |
+| 2026/11/1 |      hxxps://www[.]udn48vb[.]com/nlod27      |       **传播银狐病毒**       |                       有，载荷提取失败                       | [URLhaus Database](https://urlhaus.abuse.ch/url/4049370) | 1045 |
+| 2026/11/2 |    (回头看) hxxps://www[.]bandizip[.]dev     | **仿冒 Bandizip、传播病毒**  | hxxps://www[.]bandizip[.]dev/downloads/BandiZip_Setup_x64-signed[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4050275) | 1046 |
+| 2026/11/3 | (回头看) hxxps://gf-qudongzongcai[.]com[.]cn |  **仿冒驱动总裁、传播病毒**  | hxxps://download[.]bitbrowser-cn[.]cyou/download/Drv_ceo_12[.]8[.]1_x64[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4055982) | 1047 |
+| 2026/11/3 |        hxxps://pc-qudongtk[.]com[.]cn        |  **仿冒驱动天空、传播病毒**  |             hxxps://www[.]skmac811[.]com/181down             |                            无                            | 1048 |
+| 2026/11/3 |    hxxps://www[.]tiankong-yun[.]com[.]cn     |  **仿冒驱动天空、传播病毒**  |                           同 1048                            |                            无                            | 1049 |
+| 2026/11/3 |        hxxps://dashiqudong[.]com[.]cn        |  **仿冒驱动大师、传播病毒**  |                           同 1048                            |                            无                            | 1050 |
+| 2026/11/3 |         hxxps://qudongda[.]com[.]cn          |  **仿冒驱动大师、传播病毒**  |                           同 1048                            |                            无                            | 1051 |
+| 2026/11/5 |       hxxps://browser-sogo[.]org[.]cn        | **仿冒搜狗浏览器、传播病毒** | hxxps://sogouexplorer[.]oss-cn-hongkong[.]aliyuncs[.]com/SogouExplorer_Setup_x64_2100120000[.]zip |                            无                            | 1052 |
+| 2026/11/5 |       hxxps://browser-sougo[.]hk[.]cn        | **仿冒搜狗浏览器、传播病毒** |                           同 1052                            |                            无                            | 1053 |
+| 2026/11/5 |        hxxps://browsersogo[.]org[.]cn        | **仿冒搜狗浏览器、传播病毒** |                           同 1052                            |                            无                            | 1054 |
+| 2026/11/5 |       hxxps://browserr-sogo[.]net[.]cn       | **仿冒搜狗浏览器、传播病毒** |                           同 1052                            |                            无                            | 1055 |
+| 2026/11/5 |       hxxps://browser-sogou[.]hk[.]cn        | **仿冒搜狗浏览器、传播病毒** |                           同 1052                            |                            无                            | 1056 |
+| 2026/11/5 |       hxxps://sougo-browser[.]hk[.]cn        | **仿冒搜狗浏览器、传播病毒** |                           同 1052                            |                            无                            | 1057 |
+| 2026/11/5 |        hxxps://sogo-browser[.]hk[.]cn        | **仿冒搜狗浏览器、传播病毒** |                           同 1052                            |                            无                            | 1058 |
+| 2026/11/5 |       hxxps://sougou-browser[.]hk[.]cn       | **仿冒搜狗浏览器、传播病毒** |                           同 1052                            |                            无                            | 1059 |
+| 2026/11/5 |       hxxps://browser-sougo[.]gz[.]cn        | **仿冒搜狗浏览器、传播病毒** | hxxps://sosogou[.]oss-cn-hongkong[.]aliyuncs[.]com/SogouExpolorer_Seitup_x64[.]zip |                            无                            | 1060 |
+| 2026/11/5 |       hxxps://browser-sougo[.]hi[.]cn        | **仿冒搜狗浏览器、传播病毒** |                           同 1060                            |                            无                            | 1061 |
+| 2026/11/5 |        hxxps://browser-sogo[.]hk[.]cn        | **仿冒搜狗浏览器、传播病毒** |                           同 1060                            |                            无                            | 1062 |
+| 2026/11/5 |       hxxps://browser-sougo[.]sc[.]cn        | **仿冒搜狗浏览器、传播病毒** |                           同 1060                            |                            无                            | 1063 |
+|  ——————   |             ————————————————————             |       ———————————————        |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
 >
@@ -164,7 +164,7 @@
 
 &emsp;&emsp;[《**“银狐” 威胁动态：官方及网络安全企业文章汇编**》](https://github.com/Lingggao/LGSRC/blob/main/Documents/SilverFox_Articles.md) (已收录 46 篇文章)
 
-&emsp;&emsp;**银狐 IOC 情报合集**：[**VirusTotal**](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) + [**LevelBlue OTX**](https://otx.alienvault.com/pulse/6a36fe5a3c1568785b59c4d7)&emsp;实时更新，已收录 2,234 项情报 (文件、URL、域名、IP)
+&emsp;&emsp;**银狐 IOC 情报合集**：[**VirusTotal**](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) + [**LevelBlue OTX**](https://otx.alienvault.com/pulse/6a36fe5a3c1568785b59c4d7)&emsp;实时更新，已收录 2,250 项情报 (文件、URL、域名、IP)
 
 ---
 
