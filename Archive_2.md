@@ -1052,6 +1052,14 @@
 | 2026/10/31 |    hxxps://2038web[.]cdn-deepseek[.]com[.]cn    |   **仿冒 DeepSeek、传播病毒**   | hxxps://ooppxz[.]tos-cn-beijing[.]volces[.]com/Dssiookle_setup[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4047747) | 1041 |
 | 2026/10/31 |         hxxps://ww[.]qwicikq[.]com[.]cn         |    **借助 VPN 工具传播病毒**    | hxxps://lsmdngnakjbgazxv[.]com/Aliyunc/Quickq-win10-11%201[.]5[.]6x64[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4047748) | 1042 |
 | 2026/11/1  |          hxxps://www[.]bandizip[.]dev           |   **仿冒 Bandizip、传播病毒**   |  hxxps://www[.]bandizip[.]dev/downloads/BANDIZIPSETUP[.]zip  | [URLhaus Database](https://urlhaus.abuse.ch/url/4049389) | 1043 |
+| 2026/11/1  |          hxxps://www[.]bandizip[.]vip           |   **仿冒 Bandizip、传播病毒**   |                           同 1043                            |                            无                            | 1044 |
+| 2026/11/1  |       hxxps://www[.]udn48vb[.]com/nlod27        |        **传播银狐病毒**         |                       有，载荷提取失败                       | [URLhaus Database](https://urlhaus.abuse.ch/url/4049370) | 1045 |
+| 2026/11/2  |      (回头看) hxxps://www[.]bandizip[.]dev      |   **仿冒 Bandizip、传播病毒**   | hxxps://www[.]bandizip[.]dev/downloads/BandiZip_Setup_x64-signed[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4050275) | 1046 |
+| 2026/11/3  |  (回头看) hxxps://gf-qudongzongcai[.]com[.]cn   |   **仿冒驱动总裁、传播病毒**    | hxxps://download[.]bitbrowser-cn[.]cyou/download/Drv_ceo_12[.]8[.]1_x64[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4055982) | 1047 |
+| 2026/11/3  |         hxxps://pc-qudongtk[.]com[.]cn          |   **仿冒驱动天空、传播病毒**    |             hxxps://www[.]skmac811[.]com/181down             |                            无                            | 1048 |
+| 2026/11/3  |      hxxps://www[.]tiankong-yun[.]com[.]cn      |   **仿冒驱动天空、传播病毒**    |                           同 1048                            |                            无                            | 1049 |
+| 2026/11/3  |         hxxps://dashiqudong[.]com[.]cn          |   **仿冒驱动大师、传播病毒**    |                           同 1048                            |                            无                            | 1050 |
+| 2026/11/3  |           hxxps://qudongda[.]com[.]cn           |   **仿冒驱动大师、传播病毒**    |                           同 1048                            |                            无                            | 1051 |
 |   ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
