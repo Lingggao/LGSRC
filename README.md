@@ -58,7 +58,7 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 11 月 8 日 1:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 11 月 8 日 3:00 (GMT+8)
 
 &emsp;&emsp;**截至 2026 年 11 月 8 日，本中心已打击计算机病毒 / 恶意软件 2,006 个、恶意网站 1,076 个，累计为潜在受害者规避经济损失约 8,525,500 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
@@ -154,7 +154,7 @@
 
 &emsp;&emsp;欢迎体验我们编写的 **OpenClaw** (龙虾 AI Agent) 技能 [**vt-insight**](https://github.com/Lingggao/LGSRC/blob/main/vt-insight/SKILL.md)！该技能可用于在 VirusTotal 网站查询样本信息，自动整理并格式化输出查询报告。([效果图 ①](https://github.com/Lingggao/LGSRC/blob/main/Images/Rendering%201.png)) ([效果图 ②](https://github.com/Lingggao/LGSRC/blob/main/Images/Rendering%202.png)) 向 AI 大模型发送指令 `“将此 .md 文档作为 OpenClaw 技能安装：https://github.com/Lingggao/LGSRC/blob/main/vt-insight/SKILL.md，安装成功后进行简要介绍。”` 即可安装此技能，前往[**微步 Skill 广场**](https://x.threatbook.com/v5/skill/58eeb86ccd5fc240e8e04a24520e6158)或 [ClawHub](https://clawhub.ai/lingggao/vt-insight) 安装亦可。([vt-insight 技能安全审计报告](https://github.com/Lingggao/LGSRC/blob/main/Documents/vt-insight-security-audit-report%20(%E8%85%BE%E8%AE%AF%E5%AE%89%E5%85%A8%E4%BA%91%E9%BC%8E%E5%AE%9E%E9%AA%8C%E5%AE%A4).md)) ([微步 SafeSkill 检测报告](https://safeskill.cn/report/3bd851387126652d775c0a5e42fa60051b1ca16e6cad7c9b3088e89b09105a2b))
 
-&emsp;&emsp;欢迎体验我们编写的 **DSH 插件** [**threatbook-intel**](https://github.com/Lingggao/LGSRC/tree/main/dsh-plugins/threatbook-intel)！该插件可在 DeepSeek Harness 中展示本机出口 IP 并一键复制、绑定微步 API Key，并对 IP / 域名 / 文件 Hash / URL / 漏洞编号执行完整情报查询。([安装说明](https://github.com/Lingggao/LGSRC/blob/main/dsh-plugins/README.md))
+&emsp;&emsp;欢迎体验我们制作的 **DeepSeek Harness** 插件 [**threatbook-intel**](https://github.com/Lingggao/LGSRC/tree/main/dsh-plugins/threatbook-intel)！该插件可用于在 DSH 界面绑定微步 X 情报中心 API Key，输入 IP、域名、文件 Hash、URL 等查询情报，支持 AI 总结与报告本地保存。(效果图 ①) (效果图 ②) (效果图 ③) 前往[**发布页**](https://github.com/Lingggao/LGSRC/releases)下载最新版本 `threatbook-intel-(版本号).zip` 安装包，解压后在 DSH 中点击 “插件” > “添加插件”，填入解压路径即可安装此插件。
 
 &emsp;&emsp;[**恶意软件研究工具集**](https://github.com/Lingggao/LGSRC/blob/main/Documents/Toolkit.md)
 
