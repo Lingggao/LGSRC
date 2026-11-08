@@ -58,7 +58,7 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 11 月 8 日 3:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 11 月 8 日 16:00 (GMT+8)
 
 &emsp;&emsp;**截至 2026 年 11 月 8 日，本中心已打击计算机病毒 / 恶意软件 2,006 个、恶意网站 1,076 个，累计为潜在受害者规避经济损失约 8,525,500 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
@@ -146,15 +146,11 @@
 
 ## 交流与合作
 
-&emsp;&emsp;[安全响应中心 管理委员会](https://github.com/Lingggao/LGSRC/blob/main/Documents/Leadership.md)
+&emsp;&emsp;[**灵糕中心 · 安全响应中心 (LGSRC) 管理委员会**](https://github.com/Lingggao/LGSRC/blob/main/Documents/Leadership.md)
 
-&emsp;&emsp;如需联系 Ling Gao，请发送电子邮件至 **ling@lghub.org** 或 **ling_gao@acm.org**。谢谢！🥰
+&emsp;&emsp;如需联系 Ling Gao，请发送电子邮件至 ling@lghub.org 或 ling_gao@acm.org。谢谢！🥰
 
 &emsp;&emsp;如需本中心协助检测**文件**是否存在恶意行为，请将其上传至[微步云沙箱](https://s.threatbook.com)及 [VirusTotal](https://www.virustotal.com)，并将 **SHA256** 填入[本表单](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=39DabECOEk2JZekK_Z5UjJJAHDqug_FNgSvl5TTF-MJUM1pISDk0VTFLNjhHVVpJQ0FHVDlLMjcwMi4u) (请勿直接发送文件本体)；如需本中心协助检测**网站**是否存在恶意行为，请将 **URL** 填入[本表单](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=39DabECOEk2JZekK_Z5UjJJAHDqug_FNgSvl5TTF-MJUM1pISDk0VTFLNjhHVVpJQ0FHVDlLMjcwMi4u)。同时，请提供您的**电子邮件地址**。本中心将独立进行分析，并于 2 个工作日内将检测结果发送至您填写的邮箱。上传至第三方平台前，请仔细阅读相关服务条款与隐私政策，并确保文件与网站中不含任何个人信息。
-
-&emsp;&emsp;欢迎体验我们编写的 **OpenClaw** (龙虾 AI Agent) 技能 [**vt-insight**](https://github.com/Lingggao/LGSRC/blob/main/vt-insight/SKILL.md)！该技能可用于在 VirusTotal 网站查询样本信息，自动整理并格式化输出查询报告。([效果图 ①](https://github.com/Lingggao/LGSRC/blob/main/Images/Rendering%201.png)) ([效果图 ②](https://github.com/Lingggao/LGSRC/blob/main/Images/Rendering%202.png)) 向 AI 大模型发送指令 `“将此 .md 文档作为 OpenClaw 技能安装：https://github.com/Lingggao/LGSRC/blob/main/vt-insight/SKILL.md，安装成功后进行简要介绍。”` 即可安装此技能，前往[**微步 Skill 广场**](https://x.threatbook.com/v5/skill/58eeb86ccd5fc240e8e04a24520e6158)或 [ClawHub](https://clawhub.ai/lingggao/vt-insight) 安装亦可。([vt-insight 技能安全审计报告](https://github.com/Lingggao/LGSRC/blob/main/Documents/vt-insight-security-audit-report%20(%E8%85%BE%E8%AE%AF%E5%AE%89%E5%85%A8%E4%BA%91%E9%BC%8E%E5%AE%9E%E9%AA%8C%E5%AE%A4).md)) ([微步 SafeSkill 检测报告](https://safeskill.cn/report/3bd851387126652d775c0a5e42fa60051b1ca16e6cad7c9b3088e89b09105a2b))
-
-&emsp;&emsp;欢迎体验我们制作的 **DeepSeek Harness** 插件 [**threatbook-intel**](https://github.com/Lingggao/LGSRC/tree/main/dsh-plugins/threatbook-intel)！该插件可用于在 DSH 界面绑定微步 X 情报中心 API Key，输入 IP、域名、文件 Hash、URL 等进行情报查询，支持 AI 总结与报告本地保存。([效果图 ①](https://github.com/Lingggao/LGSRC/blob/main/Images/Rendering%203.png)) ([效果图 ②](https://github.com/Lingggao/LGSRC/blob/main/Images/Rendering%204.png)) ([效果图 ③](https://github.com/Lingggao/LGSRC/blob/main/Images/Rendering%205.png)) 前往[**发布页**](https://github.com/Lingggao/LGSRC/releases)下载最新版本 `threatbook-intel-(版本号).zip` 安装包，解压后在 DSH 中点击 “插件” > “添加插件”，填入解压路径即可安装此插件。([threatbook-intel 插件安全自检报告](https://github.com/Lingggao/LGSRC/blob/main/dsh-plugins/docs/threatbook-intel-security-audit.md))
 
 &emsp;&emsp;[**恶意软件研究工具集**](https://github.com/Lingggao/LGSRC/blob/main/Documents/Toolkit.md)
 
@@ -164,7 +160,13 @@
 
 &emsp;&emsp;[《**“银狐” 威胁动态：官方及网络安全企业文章汇编**》](https://github.com/Lingggao/LGSRC/blob/main/Documents/SilverFox_Articles.md) (已收录 46 篇文章)
 
-&emsp;&emsp;**银狐 IOC 情报合集**：[**VirusTotal**](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) + [**LevelBlue OTX**](https://otx.alienvault.com/pulse/6a36fe5a3c1568785b59c4d7)&emsp;实时更新，已收录 2,293 项情报 (文件、URL、域名、IP)
+&emsp;&emsp;**银狐 IOC 情报合集**：[**VirusTotal**](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) + [**LevelBlue OTX**](https://otx.alienvault.com/pulse/6a36fe5a3c1568785b59c4d7) (实时更新，已收录 2,293 项情报)
+
+## 人工智能 (AI)
+
+&emsp;&emsp;欢迎体验我们编写的 **AI Agent** 技能 [**vt-insight**](https://github.com/Lingggao/LGSRC/blob/main/vt-insight/SKILL.md)！该技能可用于在 VirusTotal 网站查询样本信息，自动整理并格式化输出查询报告。([效果图 ①](https://github.com/Lingggao/LGSRC/blob/main/Images/Rendering%201.png)) ([效果图 ②](https://github.com/Lingggao/LGSRC/blob/main/Images/Rendering%202.png)) 向 AI 大模型发送指令 `“将此 .md 文档作为 Skill 安装：https://github.com/Lingggao/LGSRC/blob/main/vt-insight/SKILL.md，安装成功后作简要介绍。”` 即可安装此技能，前往[**微步 Skill 广场**](https://x.threatbook.com/v5/skill/58eeb86ccd5fc240e8e04a24520e6158)或 [ClawHub](https://clawhub.ai/lingggao/vt-insight) 安装亦可。([vt-insight 技能安全审计报告](https://github.com/Lingggao/LGSRC/blob/main/Documents/vt-insight-security-audit-report%20(%E8%85%BE%E8%AE%AF%E5%AE%89%E5%85%A8%E4%BA%91%E9%BC%8E%E5%AE%9E%E9%AA%8C%E5%AE%A4).md)) ([微步 SafeSkill 检测报告](https://safeskill.cn/report/3bd851387126652d775c0a5e42fa60051b1ca16e6cad7c9b3088e89b09105a2b))
+
+&emsp;&emsp;欢迎体验我们制作的 **DeepSeek Harness** 插件 [**threatbook-intel**](https://github.com/Lingggao/LGSRC/tree/main/dsh-plugins/threatbook-intel)！该插件可用于在 DSH 界面绑定微步 X 情报中心 API Key，输入文件 Hash、URL、域名、IP 等进行情报查询，支持 AI 总结与报告本地保存。([效果图 ①](https://github.com/Lingggao/LGSRC/blob/main/Images/Rendering%203.png)) ([效果图 ②](https://github.com/Lingggao/LGSRC/blob/main/Images/Rendering%204.png)) ([效果图 ③](https://github.com/Lingggao/LGSRC/blob/main/Images/Rendering%205.png)) 前往[**发布页**](https://github.com/Lingggao/LGSRC/releases)下载最新版本 `threatbook-intel-(版本号).zip` 安装包，解压后在 DSH 中点击 `“插件” > “添加插件”`，填入解压路径即可安装此插件。([threatbook-intel 插件安全自检报告](https://github.com/Lingggao/LGSRC/blob/main/dsh-plugins/docs/threatbook-intel-security-audit.md))
 
 ---
 
