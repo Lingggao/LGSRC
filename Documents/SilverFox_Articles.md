@@ -9,6 +9,11 @@
 
 ### 文章
 
+[047]  
+《[**关于“银狐”木马“金钩（G03）”团伙攻击态势深入分析报告**](https://mp.weixin.qq.com/s/JiPWCQySngQHuBCa3f37lw)》  
+**国家计算机网络应急技术处理协调中心**，2026 年 11 月  
+网址：[https://mp.weixin.qq.com/s/JiPWCQySngQHuBCa3f37lw](https://mp.weixin.qq.com/s/JiPWCQySngQHuBCa3f37lw)
+
 [046]  
 《[**银狐疯狂进化，看AI如何"猎狐"！亚信专项方案获IDC推荐**](https://mp.weixin.qq.com/s/t3RleWSEejEHmOBuWry8AQ)》  
 **亚信安全 [亚信科技 (成都) 有限公司]**，2026 年 11 月  
