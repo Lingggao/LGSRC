@@ -1068,6 +1068,14 @@
 | 2026/11/5  |         hxxps://sougo-browser[.]hk[.]cn         |  **仿冒搜狗浏览器、传播病毒**   |                           同 1052                            |                            无                            | 1057 |
 | 2026/11/5  |         hxxps://sogo-browser[.]hk[.]cn          |  **仿冒搜狗浏览器、传播病毒**   |                           同 1052                            |                            无                            | 1058 |
 | 2026/11/5  |        hxxps://sougou-browser[.]hk[.]cn         |  **仿冒搜狗浏览器、传播病毒**   |                           同 1052                            |                            无                            | 1059 |
+| 2026/11/5  |         hxxps://browser-sougo[.]gz[.]cn         |  **仿冒搜狗浏览器、传播病毒**   | hxxps://sosogou[.]oss-cn-hongkong[.]aliyuncs[.]com/SogouExpolorer_Seitup_x64[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4056902) | 1060 |
+| 2026/11/5  |         hxxps://browser-sougo[.]hi[.]cn         |  **仿冒搜狗浏览器、传播病毒**   |                           同 1060                            |                            无                            | 1061 |
+| 2026/11/5  |         hxxps://browser-sogo[.]hk[.]cn          |  **仿冒搜狗浏览器、传播病毒**   |                           同 1060                            |                            无                            | 1062 |
+| 2026/11/5  |         hxxps://browser-sougo[.]sc[.]cn         |  **仿冒搜狗浏览器、传播病毒**   |                           同 1060                            |                            无                            | 1063 |
+| 2026/11/6  |          hxxps://sogoucloud[.]com[.]cn          |  **仿冒搜狗输入法、传播病毒**   |                       有，载荷提取失败                       |                            无                            | 1064 |
+| 2026/11/6  |           hxxps://sogouss[.]com[.]cn            |  **仿冒搜狗输入法、传播病毒**   |        (随机跳转) hxxps://1669web[.]cdn-sogou[.]cn 等        |                            无                            | 1065 |
+| 2026/11/6  |        hxxps://1669web[.]cdn-sogou[.]cn         |  **仿冒搜狗输入法、传播病毒**   | hxxps://pub-8cd123cf29f247f8bf6c3b4507e3a5fb[.]r2[.]dev/11[.]53SGsrfsetupwindow[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4058065) | 1066 |
+| 2026/11/6  |        hxxps://2810web[.]cdn-sogou[.]cn         |  **仿冒搜狗输入法、传播病毒**   |  同 1066，仅在必应搜索结果中点击该链接时才会跳转至恶意网站   |                            无                            | 1067 |
 |   ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
