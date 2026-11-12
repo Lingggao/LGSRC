@@ -1076,6 +1076,11 @@
 | 2026/11/6  |           hxxps://sogouss[.]com[.]cn            |  **仿冒搜狗输入法、传播病毒**   |        (随机跳转) hxxps://1669web[.]cdn-sogou[.]cn 等        |                            无                            | 1065 |
 | 2026/11/6  |        hxxps://1669web[.]cdn-sogou[.]cn         |  **仿冒搜狗输入法、传播病毒**   | hxxps://pub-8cd123cf29f247f8bf6c3b4507e3a5fb[.]r2[.]dev/11[.]53SGsrfsetupwindow[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4058065) | 1066 |
 | 2026/11/6  |        hxxps://2810web[.]cdn-sogou[.]cn         |  **仿冒搜狗输入法、传播病毒**   |  同 1066，仅在必应搜索结果中点击该链接时才会跳转至恶意网站   |                            无                            | 1067 |
+| 2026/11/6  |        hxxps://sku[.]sogougg[.]com[.]cn         |  **仿冒搜狗输入法、传播病毒**   |  同 1066，仅在必应搜索结果中点击该链接时才会跳转至恶意网站   |                            无                            | 1068 |
+| 2026/11/6  |          hxxps://sougougtu[.]com[.]cn           |  **仿冒搜狗输入法、传播病毒**   | hxxps://lsmdngnakjbgazxv[.]com/Lrrstes/Mtuewi/sougou-win-1[.]27[.]8[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4058064) | 1069 |
+| 2026/11/6  |          hxxps://sougoujapp[.]com[.]cn          |  **仿冒搜狗输入法、传播病毒**   |                           同 1069                            |                            无                            | 1070 |
+| 2026/11/6  |          hxxps://sougoucpc[.]com[.]cn           |  **仿冒搜狗输入法、传播病毒**   |                           同 1069                            |                            无                            | 1071 |
+| 2026/11/7  |      hxxps://www[.]grg1n[.]com/clientsetup      |        **传播银狐病毒**         |                       有，载荷提取失败                       | [URLhaus Database](https://urlhaus.abuse.ch/url/4059911) | 1072 |
 |   ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
