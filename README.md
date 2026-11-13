@@ -58,9 +58,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 11 月 13 日 21:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 11 月 14 日 1:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 11 月 13 日，本中心已打击计算机病毒 / 恶意软件 2,032 个、恶意网站 1,097 个，累计为潜在受害者规避经济损失约 8,636,000 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 11 月 14 日，本中心已打击计算机病毒 / 恶意软件 2,032 个、恶意网站 1,097 个，累计为潜在受害者规避经济损失约 8,636,000 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;在对抗网络犯罪的崇高事业中，本中心仅承担了少量协调类工作。**恶意载荷从发现到清除，离不开国家有关部门、安全社区与研究员、杀毒软件厂商及威胁情报提供商的共同努力**。在此，谨向他们致以诚挚谢意。
 
@@ -131,11 +131,11 @@
 | 2026/11/13 |         hxxps://yfanyi-cn[.]com         |  **仿冒易翻译、传播病毒**  | hxxps://yiwaiwaikehuduan[.]com/yifanyi-x64setup[.]10[.]27[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4064995) | 1090 |
 | 2026/11/13 |      hxxps://www[.]yifanyix[.]com       |  **仿冒易翻译、传播病毒**  | hxxps://yifayiapp[.]oss-cn-hongkong[.]aliyuncs[.]com/Yifanyitalkapp[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4064991) | 1091 |
 | 2026/11/13 |      hxxps://yifanyiand[.]com[.]cn      |  **仿冒易翻译、传播病毒**  |    hxxps://sooyun-yun[.]com[.]cn/donwnload/yifanyi[.]zip     | [URLhaus Database](https://urlhaus.abuse.ch/url/4064993) | 1092 |
-| 2026/11/13 |      https://www.kop4r.com/shenma       |      **传播银狐病毒**      |                       有，载荷提取失败                       |                            无                            | 1093 |
-| 2026/11/13 |          https://sunlogim.com           |  **仿冒向日葵、传播病毒**  | https://pcdanfhn.appdlhub.workers.dev/dl/1794573540/6adfc97fb74a7fb0f08b4e5fc1e8f12029e6751d6bed28140e7312ade4403e0f/FEKedPX/200/sunlogim.zip |                            无                            | 1094 |
-| 2026/11/13 |       https://sunlogin-remote.cn        |  **仿冒向日葵、传播病毒**  |         https://v2raynapps.com.cn/xrkAwe_Sun16.6.zip         |                            无                            | 1095 |
-| 2026/11/13 |        https://sunlogin-app.com         |  **仿冒向日葵、传播病毒**  |                           同 1093                            |                            无                            | 1096 |
-| 2026/11/13 |        https://sunlogin-app.net         |  **仿冒向日葵、传播病毒**  |                           同 1093                            |                            无                            | 1097 |
+| 2026/11/13 |    hxxps://www[.]kop4r[.]com/shenma     |      **传播银狐病毒**      |                       有，载荷提取失败                       | [URLhaus Database](https://urlhaus.abuse.ch/url/4065138) | 1093 |
+| 2026/11/13 |         hxxps://sunlogim[.]com          |  **仿冒向日葵、传播病毒**  | hxxps://pcdanfhn[.]appdlhub[.]workers[.]dev/dl/1794573540/6adfc97fb74a7fb0f08b4e5fc1e8f12029e6751d6bed28140e7312ade4403e0f/FEKedPX/200/sunlogim[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4065125) | 1094 |
+| 2026/11/13 |      hxxps://sunlogin-remote[.]cn       |  **仿冒向日葵、传播病毒**  |     hxxps://v2raynapps[.]com[.]cn/xrkAwe_Sun16[.]6[.]zip     | [URLhaus Database](https://urlhaus.abuse.ch/url/4065139) | 1095 |
+| 2026/11/13 |       hxxps://sunlogin-app[.]com        |  **仿冒向日葵、传播病毒**  |                           同 1093                            |                            无                            | 1096 |
+| 2026/11/13 |       hxxps://sunlogin-app[.]net        |  **仿冒向日葵、传播病毒**  |                           同 1093                            |                            无                            | 1097 |
 |   ——————   |          ————————————————————           |      ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
@@ -162,7 +162,7 @@
 
 &emsp;&emsp;[《**“银狐” 威胁动态：官方及网络安全企业文章汇编**》](https://github.com/Lingggao/LGSRC/blob/main/Documents/SilverFox_Articles.md) (已收录 47 篇文章)
 
-&emsp;&emsp;**银狐 IOC 情报合集**：[**VirusTotal**](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) + [**LevelBlue OTX**](https://otx.alienvault.com/pulse/6a36fe5a3c1568785b59c4d7) (已收录 2,359 项情报，实时更新)
+&emsp;&emsp;**银狐 IOC 情报合集**：[**VirusTotal**](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) + [**LevelBlue OTX**](https://otx.alienvault.com/pulse/6a36fe5a3c1568785b59c4d7) (已收录 2,370 项情报，实时更新)
 
 ## 人工智能 (AI)
 
