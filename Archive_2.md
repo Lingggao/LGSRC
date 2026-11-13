@@ -1081,6 +1081,11 @@
 | 2026/11/6  |          hxxps://sougoujapp[.]com[.]cn          |  **仿冒搜狗输入法、传播病毒**   |                           同 1069                            |                            无                            | 1070 |
 | 2026/11/6  |          hxxps://sougoucpc[.]com[.]cn           |  **仿冒搜狗输入法、传播病毒**   |                           同 1069                            |                            无                            | 1071 |
 | 2026/11/7  |      hxxps://www[.]grg1n[.]com/clientsetup      |        **传播银狐病毒**         |                       有，载荷提取失败                       | [URLhaus Database](https://urlhaus.abuse.ch/url/4059911) | 1072 |
+| 2026/11/7  |          hxxps://deepseek-client[.]net          |   **仿冒 DeepSeek、传播病毒**   |                           同 1072                            |                            无                            | 1073 |
+| 2026/11/7  |         hxxps://deepseek-ab[.]com[.]cn          |   **仿冒 DeepSeek、传播病毒**   | hxxps://aass111222[.]tos-cn-beijing[.]volces[.]com/Dssiookle_setup[.]zip |                            无                            | 1074 |
+| 2026/11/7  |      hxxps://www[.]deepseek-cs[.]com[.]cn       |   **仿冒 DeepSeek、传播病毒**   |  同 1074，仅在必应搜索结果中点击该链接时才会跳转至恶意网站   |                            无                            | 1075 |
+| 2026/11/7  |       hxxps://www[.]deekseep-p[.]com[.]cn       |   **仿冒 DeepSeek、传播病毒**   |  同 1074，仅在必应搜索结果中点击该链接时才会跳转至恶意网站   |                            无                            | 1076 |
+| 2026/11/10 |        hxxps://sso[.]qishuic[.]com[.]cn         |   **仿冒汽水音乐、传播病毒**    |    (随机跳转) hxxps://2061web[.]cdn-qishui[.]com[.]cn 等     |                            无                            | 1077 |
 |   ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
