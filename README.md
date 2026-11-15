@@ -58,9 +58,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 11 月 15 日 22:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 11 月 16 日 1:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 11 月 15 日，本中心已打击计算机病毒 / 恶意软件 2,048 个、恶意网站 1,106 个，累计为潜在受害者规避经济损失约 8,704,000 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 11 月 16 日，本中心已打击计算机病毒 / 恶意软件 2,048 个、恶意网站 1,106 个，累计为潜在受害者规避经济损失约 8,704,000 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;在对抗网络犯罪的崇高事业中，本中心仅承担了少量协调类工作。**恶意载荷从发现到清除，离不开国家有关部门、安全社区与研究员、杀毒软件厂商及威胁情报提供商的共同努力**。在此，谨向他们致以诚挚谢意。
 
@@ -114,29 +114,29 @@
 >
 > &emsp;为确保安全，网站地址将用 “hxxps://” 与 “[.]” 进行替换。**切勿尝试访问表格中列出的任何网址**。
 
-|    日期    |               URL                |            类别            |                           有效载荷                           |                         URLhaus                          | 编号 |
-| :--------: | :------------------------------: | :------------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
-| 2026/11/11 |   hxxps://10jqka-cf[.]com[.]cn   |  **仿冒同花顺、传播病毒**  | (随机跳转) 仅在必应搜索结果中点击该链接时，才会跳转至恶意网站 |                            无                            | 1087 |
-| 2026/11/13 |    hxxps://app-yifanyi[.]com     |  **仿冒易翻译、传播病毒**  | hxxps://app-yifanyi[.]com/generated_pages/moban30/static/download/Setup[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4064996) | 1088 |
-| 2026/11/13 |     hxxps://yifanyiweb[.]com     |  **仿冒易翻译、传播病毒**  | hxxps://pub-5cc52b70262a4f5b8364aae5d25fa4ea[.]r2[.]dev/YFYSetup-win-8[.]9[.]0-x64[.]exe | [URLhaus Database](https://urlhaus.abuse.ch/url/4064994) | 1089 |
-| 2026/11/13 |     hxxps://yfanyi-cn[.]com      |  **仿冒易翻译、传播病毒**  | hxxps://yiwaiwaikehuduan[.]com/yifanyi-x64setup[.]10[.]27[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4064995) | 1090 |
-| 2026/11/13 |   hxxps://www[.]yifanyix[.]com   |  **仿冒易翻译、传播病毒**  | hxxps://yifayiapp[.]oss-cn-hongkong[.]aliyuncs[.]com/Yifanyitalkapp[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4064991) | 1091 |
-| 2026/11/13 |  hxxps://yifanyiand[.]com[.]cn   |  **仿冒易翻译、传播病毒**  |    hxxps://sooyun-yun[.]com[.]cn/donwnload/yifanyi[.]zip     | [URLhaus Database](https://urlhaus.abuse.ch/url/4064993) | 1092 |
-| 2026/11/13 | hxxps://www[.]kop4r[.]com/shenma |      **传播银狐病毒**      |                       有，载荷提取失败                       | [URLhaus Database](https://urlhaus.abuse.ch/url/4065138) | 1093 |
-| 2026/11/13 |      hxxps://sunlogim[.]com      |  **仿冒向日葵、传播病毒**  | hxxps://pcdanfhn[.]appdlhub[.]workers[.]dev/dl/1794573540/6adfc97fb74a7fb0f08b4e5fc1e8f12029e6751d6bed28140e7312ade4403e0f/FEKedPX/200/sunlogim[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4065125) | 1094 |
-| 2026/11/13 |   hxxps://sunlogin-remote[.]cn   |  **仿冒向日葵、传播病毒**  |     hxxps://v2raynapps[.]com[.]cn/xrkAwe_Sun16[.]6[.]zip     | [URLhaus Database](https://urlhaus.abuse.ch/url/4065139) | 1095 |
-| 2026/11/13 |    hxxps://sunlogin-app[.]com    |  **仿冒向日葵、传播病毒**  |                           同 1093                            |                            无                            | 1096 |
-| 2026/11/13 |    hxxps://sunlogin-app[.]net    |  **仿冒向日葵、传播病毒**  |                           同 1093                            |                            无                            | 1097 |
-| 2026/11/15 |      https://youdaoweb.com       | **仿冒有道翻译、传播病毒** |                    hxxps://youdaopc[.]com                    |                            无                            | 1098 |
-| 2026/11/15 |       https://youdaopc.com       | **仿冒有道翻译、传播病毒** |  https://windo.oss-cn-hongkong.aliyuncs.com/Youdao_win.zip   |                            无                            | 1099 |
-| 2026/11/15 |    https://www.youdaofyi.com     | **仿冒有道翻译、传播病毒** |       https://wwce.hellowortnm.cn/youdao/yoduao123.zip       |                            无                            | 1100 |
-| 2026/11/15 |    https://new.youdaoo.com.cn    | **仿冒有道翻译、传播病毒** |        (随机跳转) hxxps://188web[.]cdn-youdao[.]cn 等        |                            无                            | 1101 |
-| 2026/11/15 |   https://188web.cdn-youdao.cn   | **仿冒有道翻译、传播病毒** | https://pub-423927d9b82649c681bc5899c6177996.r2.dev/11.15ydfywondisans9.zip |                            无                            | 1102 |
-| 2026/11/15 |  https://2871web.cdn-youdao.cn   | **仿冒有道翻译、传播病毒** |  同 1102，仅在必应搜索结果中点击该链接时才会跳转至恶意网站   |                            无                            | 1103 |
-| 2026/11/15 |     https://edo.youdaogf.com     | **仿冒有道翻译、传播病毒** | https://guanfangxiazai-oss-cn-singapore-aliyuncs.top/YouDaoX64.zip |                            无                            | 1104 |
-| 2026/11/15 |   https://p.youdaofanyigw.com    | **仿冒有道翻译、传播病毒** |                           同 1104                            |                            无                            | 1105 |
-| 2026/11/15 |  https://ssl.youdaofanyigf.com   | **仿冒有道翻译、传播病毒** |                           同 1104                            |                            无                            | 1106 |
-|   ——————   |       ————————————————————       |      ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
+|    日期    |                URL                |            类别            |                           有效载荷                           |                         URLhaus                          | 编号 |
+| :--------: | :-------------------------------: | :------------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
+| 2026/11/11 |   hxxps://10jqka-cf[.]com[.]cn    |  **仿冒同花顺、传播病毒**  | (随机跳转) 仅在必应搜索结果中点击该链接时，才会跳转至恶意网站 |                            无                            | 1087 |
+| 2026/11/13 |     hxxps://app-yifanyi[.]com     |  **仿冒易翻译、传播病毒**  | hxxps://app-yifanyi[.]com/generated_pages/moban30/static/download/Setup[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4064996) | 1088 |
+| 2026/11/13 |     hxxps://yifanyiweb[.]com      |  **仿冒易翻译、传播病毒**  | hxxps://pub-5cc52b70262a4f5b8364aae5d25fa4ea[.]r2[.]dev/YFYSetup-win-8[.]9[.]0-x64[.]exe | [URLhaus Database](https://urlhaus.abuse.ch/url/4064994) | 1089 |
+| 2026/11/13 |      hxxps://yfanyi-cn[.]com      |  **仿冒易翻译、传播病毒**  | hxxps://yiwaiwaikehuduan[.]com/yifanyi-x64setup[.]10[.]27[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4064995) | 1090 |
+| 2026/11/13 |   hxxps://www[.]yifanyix[.]com    |  **仿冒易翻译、传播病毒**  | hxxps://yifayiapp[.]oss-cn-hongkong[.]aliyuncs[.]com/Yifanyitalkapp[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4064991) | 1091 |
+| 2026/11/13 |   hxxps://yifanyiand[.]com[.]cn   |  **仿冒易翻译、传播病毒**  |    hxxps://sooyun-yun[.]com[.]cn/donwnload/yifanyi[.]zip     | [URLhaus Database](https://urlhaus.abuse.ch/url/4064993) | 1092 |
+| 2026/11/13 | hxxps://www[.]kop4r[.]com/shenma  |      **传播银狐病毒**      |                       有，载荷提取失败                       | [URLhaus Database](https://urlhaus.abuse.ch/url/4065138) | 1093 |
+| 2026/11/13 |      hxxps://sunlogim[.]com       |  **仿冒向日葵、传播病毒**  | hxxps://pcdanfhn[.]appdlhub[.]workers[.]dev/dl/1794573540/6adfc97fb74a7fb0f08b4e5fc1e8f12029e6751d6bed28140e7312ade4403e0f/FEKedPX/200/sunlogim[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4065125) | 1094 |
+| 2026/11/13 |   hxxps://sunlogin-remote[.]cn    |  **仿冒向日葵、传播病毒**  |     hxxps://v2raynapps[.]com[.]cn/xrkAwe_Sun16[.]6[.]zip     | [URLhaus Database](https://urlhaus.abuse.ch/url/4065139) | 1095 |
+| 2026/11/13 |    hxxps://sunlogin-app[.]com     |  **仿冒向日葵、传播病毒**  |                           同 1093                            |                            无                            | 1096 |
+| 2026/11/13 |    hxxps://sunlogin-app[.]net     |  **仿冒向日葵、传播病毒**  |                           同 1093                            |                            无                            | 1097 |
+| 2026/11/15 |      hxxps://youdaoweb[.]com      | **仿冒有道翻译、传播病毒** |                    hxxps://youdaopc[.]com                    |                            无                            | 1098 |
+| 2026/11/15 |      hxxps://youdaopc[.]com       | **仿冒有道翻译、传播病毒** | hxxps://windo[.]oss-cn-hongkong[.]aliyuncs[.]com/Youdao_win[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4066831) | 1099 |
+| 2026/11/15 |   hxxps://www[.]youdaofyi[.]com   | **仿冒有道翻译、传播病毒** |    hxxps://wwce[.]hellowortnm[.]cn/youdao/yoduao123[.]zip    | [URLhaus Database](https://urlhaus.abuse.ch/url/4066833) | 1100 |
+| 2026/11/15 | hxxps://new[.]youdaoo[.]com[.]cn  | **仿冒有道翻译、传播病毒** |        (随机跳转) hxxps://188web[.]cdn-youdao[.]cn 等        |                            无                            | 1101 |
+| 2026/11/15 | hxxps://188web[.]cdn-youdao[.]cn  | **仿冒有道翻译、传播病毒** | hxxps://pub-423927d9b82649c681bc5899c6177996[.]r2[.]dev/11[.]15ydfywondisans9[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4066829) | 1102 |
+| 2026/11/15 | hxxps://2871web[.]cdn-youdao[.]cn | **仿冒有道翻译、传播病毒** |  同 1102，仅在必应搜索结果中点击该链接时才会跳转至恶意网站   |                            无                            | 1103 |
+| 2026/11/15 |   hxxps://edo[.]youdaogf[.]com    | **仿冒有道翻译、传播病毒** | hxxps://guanfangxiazai-oss-cn-singapore-aliyuncs[.]top/YouDaoX64[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4066832) | 1104 |
+| 2026/11/15 |  hxxps://p[.]youdaofanyigw[.]com  | **仿冒有道翻译、传播病毒** |                           同 1104                            |                            无                            | 1105 |
+| 2026/11/15 | hxxps://ssl[.]youdaofanyigf[.]com | **仿冒有道翻译、传播病毒** |                           同 1104                            |                            无                            | 1106 |
+|   ——————   |       ————————————————————        |      ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
 >
