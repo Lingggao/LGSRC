@@ -58,9 +58,9 @@
 
 ## 数据
 
-&emsp;&emsp;上次更新时间：2026 年 11 月 15 日 5:00 (GMT+8)
+&emsp;&emsp;上次更新时间：2026 年 11 月 15 日 22:00 (GMT+8)
 
-&emsp;&emsp;**截至 2026 年 11 月 15 日，本中心已打击计算机病毒 / 恶意软件 2,044 个、恶意网站 1,097 个，累计为潜在受害者规避经济损失约 8,687,000 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
+&emsp;&emsp;**截至 2026 年 11 月 15 日，本中心已打击计算机病毒 / 恶意软件 2,048 个、恶意网站 1,106 个，累计为潜在受害者规避经济损失约 8,704,000 元人民币**。[ $$E = \sum (W_i \times P_{\text{exec}} \times N_{\text{victim}} \times P_{\text{monetize}} \times V_{\text{loss}})$$ ] ([何意味？](https://github.com/Lingggao/LGSRC/blob/main/Documents/LossModel.md))
 
 &emsp;&emsp;在对抗网络犯罪的崇高事业中，本中心仅承担了少量协调类工作。**恶意载荷从发现到清除，离不开国家有关部门、安全社区与研究员、杀毒软件厂商及威胁情报提供商的共同努力**。在此，谨向他们致以诚挚谢意。
 
@@ -80,10 +80,6 @@
 
 |    日期    |          文件名          |           检测           |                            SHA256                            |             Internal ID              |                          VirusTotal                          |                        MalwareBazaar                         | 编号 |
 | :--------: | :----------------------: | :----------------------: | :----------------------------------------------------------: | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 2026/11/11 |         wps.exe          |   **银狐 (SilverFox)**   | 5bbbb07d085b5c1845e0835406ca1d290a17231348a319a0c26afe7f97720723 | b6189116-ad29-4c0f-9bbe-65c51492343d | [VirusTotal](https://www.virustotal.com/gui/file/5bbbb07d085b5c1845e0835406ca1d290a17231348a319a0c26afe7f97720723) (13) |                              无                              | 2025 |
-| 2026/11/13 |        Setup.msi         |   **银狐 (SilverFox)**   | 98b8b84b8b5496be8f8bfed961d6049e3b22357b2b44f67bdaae87fa0e8af3d4 | 9d0216a7-36ac-47ed-a21c-2ed1bbfca61f | [VirusTotal](https://www.virustotal.com/gui/file/98b8b84b8b5496be8f8bfed961d6049e3b22357b2b44f67bdaae87fa0e8af3d4) (8) |                              无                              | 2026 |
-| 2026/11/13 |   YFYSetup-win···.exe    |   **银狐 (SilverFox)**   | 7c6c39f9038e0c91167ff098c8b19162d8001b3141eb3dfba2d71d56fd8e2f4d | 9f5d691f-c4a0-4108-84ef-bdccf4463f54 | [VirusTotal](https://www.virustotal.com/gui/file/7c6c39f9038e0c91167ff098c8b19162d8001b3141eb3dfba2d71d56fd8e2f4d) (4) |                              无                              | 2027 |
-| 2026/11/13 |       yifanyi.exe        |   **银狐 (SilverFox)**   | 8291d1771e23656b6824d3b5f004f17054b7a3d077307706df83f4bbd1cfb0a1 | 9c90b7aa-70ea-4bf1-a982-0c5fb43bf9d9 | [VirusTotal](https://www.virustotal.com/gui/file/8291d1771e23656b6824d3b5f004f17054b7a3d077307706df83f4bbd1cfb0a1) (8) |                              无                              | 2028 |
 | 2026/11/13 |    Yifanyitalkapp.msi    |   **银狐 (SilverFox)**   | 3fc79e48b04e38627a6dab47a4597e87a516d06ea7fd51dc7e8ed6a9fa94b501 | 8d15e55c-f5f6-4ca3-a3fa-290840ff47d2 | [VirusTotal](https://www.virustotal.com/gui/file/3fc79e48b04e38627a6dab47a4597e87a516d06ea7fd51dc7e8ed6a9fa94b501) (13) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/3fc79e48b04e38627a6dab47a4597e87a516d06ea7fd51dc7e8ed6a9fa94b501) | 2029 |
 | 2026/11/13 |   yifanyi···10.27.exe    |   **银狐 (SilverFox)**   | 1c07f91c07f428f3bd3dcbce8a5b70b0fde2a959e27d1b0fc9643a2e2093283c | 045de22f-ce1f-45d5-a12e-a0b09b8f1e36 | [VirusTotal](https://www.virustotal.com/gui/file/1c07f91c07f428f3bd3dcbce8a5b70b0fde2a959e27d1b0fc9643a2e2093283c) (1) |                              无                              | 2030 |
 | 2026/11/13 |   AweSun···lsm388.msi    |   **银狐 (SilverFox)**   | 0be513bdf87b5f9f78d9ae5b87cac57832d69563e1064e08075f1cc8d90b899e | eb4454bc-50fc-4a6d-b7dd-fe86e607d5b9 | [VirusTotal](https://www.virustotal.com/gui/file/0be513bdf87b5f9f78d9ae5b87cac57832d69563e1064e08075f1cc8d90b899e) (5) |                              无                              | 2031 |
@@ -100,6 +96,10 @@
 | 2026/11/15 |   deepsk_x64.in.07.exe   | **银狐 (SilverFox.PHL)** | 3508ff0f60393da94291896fc95c23832322b57cf228d599911c33c493b7e7a7 | 88c27d6f-2a12-4e73-88b5-e40dc3e083fc | [VirusTotal](https://www.virustotal.com/gui/file/3508ff0f60393da94291896fc95c23832322b57cf228d599911c33c493b7e7a7) (30) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/3508ff0f60393da94291896fc95c23832322b57cf228d599911c33c493b7e7a7) | 2042 |
 | 2026/11/15 |   deepsk_x64.in.13.exe   | **银狐 (SilverFox.PHL)** | bb605b6d4d91bd9cc787b6b9e40d38a16ff423bee9d3c6dacf3d70aab695690c | 8e713ece-815b-4c3c-80b1-3c1614e0b805 | [VirusTotal](https://www.virustotal.com/gui/file/bb605b6d4d91bd9cc787b6b9e40d38a16ff423bee9d3c6dacf3d70aab695690c) (30) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/bb605b6d4d91bd9cc787b6b9e40d38a16ff423bee9d3c6dacf3d70aab695690c) | 2043 |
 | 2026/11/15 |   deepsk_x64.in.15.exe   | **银狐 (SilverFox.PHL)** | 201f298ad9e5940aff96ac3a165c4a4800b50cc070b945e68d98dc9b28e5831e | 8de03c9e-37d5-428a-ba12-2e6ca4969207 | [VirusTotal](https://www.virustotal.com/gui/file/201f298ad9e5940aff96ac3a165c4a4800b50cc070b945e68d98dc9b28e5831e) (32) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/201f298ad9e5940aff96ac3a165c4a4800b50cc070b945e68d98dc9b28e5831e) | 2044 |
+| 2026/11/15 |  11.15ydfywondisans.exe  |   **银狐 (SilverFox)**   | 20702c4400a465a0d9935ddbcacb66d99e81c3eb90336df5f1a13d1b2a674922 | 45d86357-32fd-4bfc-93bc-7e6d8a5e5dd6 | [VirusTotal](https://www.virustotal.com/gui/file/20702c4400a465a0d9935ddbcacb66d99e81c3eb90336df5f1a13d1b2a674922) (9) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/20702c4400a465a0d9935ddbcacb66d99e81c3eb90336df5f1a13d1b2a674922) | 2045 |
+| 2026/11/15 |      yoduao123.exe       |   **银狐 (SilverFox)**   | 33037dd37f1a6aae3e3ebe4a4b60a638db3a41cf73c8493f3b698b9c334c0fb5 | f3f32aaa-a40a-43cf-9596-2e04a5ff2282 | [VirusTotal](https://www.virustotal.com/gui/file/33037dd37f1a6aae3e3ebe4a4b60a638db3a41cf73c8493f3b698b9c334c0fb5) (4) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/33037dd37f1a6aae3e3ebe4a4b60a638db3a41cf73c8493f3b698b9c334c0fb5) | 2046 |
+| 2026/11/15 |      Youdao_win.exe      |   **银狐 (SilverFox)**   | ccc8053c432e7bc0ab10d874e6727b9ebf411899c47af5be974e19073c4dd777 | 7b1710d4-cc99-4247-a74e-649a22d8a793 | [VirusTotal](https://www.virustotal.com/gui/file/ccc8053c432e7bc0ab10d874e6727b9ebf411899c47af5be974e19073c4dd777) (5) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/ccc8053c432e7bc0ab10d874e6727b9ebf411899c47af5be974e19073c4dd777) | 2047 |
+| 2026/11/15 |      YouDaoX64.exe       |   **银狐 (SilverFox)**   | 3df036123e1ef0d0c7ef63f735f2357eb7c58e36daf091745427b999f1786ba1 | 2c0af435-b0f9-440f-80d2-3910abce148c | [VirusTotal](https://www.virustotal.com/gui/file/3df036123e1ef0d0c7ef63f735f2357eb7c58e36daf091745427b999f1786ba1) (26) | [MalwareBazaar Database](https://bazaar.abuse.ch/sample/3df036123e1ef0d0c7ef63f735f2357eb7c58e36daf091745427b999f1786ba1) | 2048 |
 |   ——————   |       ————————————       |       ————————————       |             ———————————————————————————————————              |         ————————————————————         |                           ————————                           |                         ————————————                         | ———  |
 
 > [!NOTE]
@@ -114,29 +114,29 @@
 >
 > &emsp;为确保安全，网站地址将用 “hxxps://” 与 “[.]” 进行替换。**切勿尝试访问表格中列出的任何网址**。
 
-|    日期    |                   URL                   |            类别            |                           有效载荷                           |                         URLhaus                          | 编号 |
-| :--------: | :-------------------------------------: | :------------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
-| 2026/11/10 | hxxps://2061web[.]cdn-qishui[.]com[.]cn | **仿冒汽水音乐、传播病毒** | hxxps://pub-ce256d2118c14becb5bbce4cc0655db9[.]r2[.]dev/11[.]99Qsyywindeaweosaws[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4062496) | 1078 |
-| 2026/11/10 | hxxps://2116web[.]cdn-qishui[.]com[.]cn | **仿冒汽水音乐、传播病毒** |  同 1078，仅在必应搜索结果中点击该链接时才会跳转至恶意网站   |                            无                            | 1079 |
-| 2026/11/11 |   hxxps://www[.]10jqka-ka[.]com[.]cn    |  **仿冒同花顺、传播病毒**  |       (随机跳转) hxxps://2070web[.]10jqka-app[.]com 等       |                            无                            | 1080 |
-| 2026/11/11 |   hxxps://2070web[.]10jqka-app[.]com    |  **仿冒同花顺、传播病毒**  |                       有，载荷提取失败                       |                            无                            | 1081 |
-| 2026/11/11 |   hxxps://1180web[.]10jqka-app[.]com    |  **仿冒同花顺、传播病毒**  |                       有，载荷提取失败                       |                            无                            | 1082 |
-| 2026/11/11 |      hxxps://10jqka-gh[.]com[.]cn       |  **仿冒同花顺、传播病毒**  | (随机跳转) 仅在必应搜索结果中点击该链接时，才会跳转至恶意网站 |                            无                            | 1083 |
-| 2026/11/11 |   hxxps://app[.]10jqka-ew[.]com[.]cn    |  **仿冒同花顺、传播病毒**  | (随机跳转) 仅在必应搜索结果中点击该链接时，才会跳转至恶意网站 |                            无                            | 1084 |
-| 2026/11/11 |   hxxps://app[.]10jqka-ac[.]com[.]cn    |  **仿冒同花顺、传播病毒**  | (随机跳转) 仅在必应搜索结果中点击该链接时，才会跳转至恶意网站 |                            无                            | 1085 |
-| 2026/11/11 |      hxxps://10jqka-hy[.]com[.]cn       |  **仿冒同花顺、传播病毒**  | (随机跳转) 仅在必应搜索结果中点击该链接时，才会跳转至恶意网站 |                            无                            | 1086 |
-| 2026/11/11 |      hxxps://10jqka-cf[.]com[.]cn       |  **仿冒同花顺、传播病毒**  | (随机跳转) 仅在必应搜索结果中点击该链接时，才会跳转至恶意网站 |                            无                            | 1087 |
-| 2026/11/13 |        hxxps://app-yifanyi[.]com        |  **仿冒易翻译、传播病毒**  | hxxps://app-yifanyi[.]com/generated_pages/moban30/static/download/Setup[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4064996) | 1088 |
-| 2026/11/13 |        hxxps://yifanyiweb[.]com         |  **仿冒易翻译、传播病毒**  | hxxps://pub-5cc52b70262a4f5b8364aae5d25fa4ea[.]r2[.]dev/YFYSetup-win-8[.]9[.]0-x64[.]exe | [URLhaus Database](https://urlhaus.abuse.ch/url/4064994) | 1089 |
-| 2026/11/13 |         hxxps://yfanyi-cn[.]com         |  **仿冒易翻译、传播病毒**  | hxxps://yiwaiwaikehuduan[.]com/yifanyi-x64setup[.]10[.]27[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4064995) | 1090 |
-| 2026/11/13 |      hxxps://www[.]yifanyix[.]com       |  **仿冒易翻译、传播病毒**  | hxxps://yifayiapp[.]oss-cn-hongkong[.]aliyuncs[.]com/Yifanyitalkapp[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4064991) | 1091 |
-| 2026/11/13 |      hxxps://yifanyiand[.]com[.]cn      |  **仿冒易翻译、传播病毒**  |    hxxps://sooyun-yun[.]com[.]cn/donwnload/yifanyi[.]zip     | [URLhaus Database](https://urlhaus.abuse.ch/url/4064993) | 1092 |
-| 2026/11/13 |    hxxps://www[.]kop4r[.]com/shenma     |      **传播银狐病毒**      |                       有，载荷提取失败                       | [URLhaus Database](https://urlhaus.abuse.ch/url/4065138) | 1093 |
-| 2026/11/13 |         hxxps://sunlogim[.]com          |  **仿冒向日葵、传播病毒**  | hxxps://pcdanfhn[.]appdlhub[.]workers[.]dev/dl/1794573540/6adfc97fb74a7fb0f08b4e5fc1e8f12029e6751d6bed28140e7312ade4403e0f/FEKedPX/200/sunlogim[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4065125) | 1094 |
-| 2026/11/13 |      hxxps://sunlogin-remote[.]cn       |  **仿冒向日葵、传播病毒**  |     hxxps://v2raynapps[.]com[.]cn/xrkAwe_Sun16[.]6[.]zip     | [URLhaus Database](https://urlhaus.abuse.ch/url/4065139) | 1095 |
-| 2026/11/13 |       hxxps://sunlogin-app[.]com        |  **仿冒向日葵、传播病毒**  |                           同 1093                            |                            无                            | 1096 |
-| 2026/11/13 |       hxxps://sunlogin-app[.]net        |  **仿冒向日葵、传播病毒**  |                           同 1093                            |                            无                            | 1097 |
-|   ——————   |          ————————————————————           |      ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
+|    日期    |               URL                |            类别            |                           有效载荷                           |                         URLhaus                          | 编号 |
+| :--------: | :------------------------------: | :------------------------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
+| 2026/11/11 |   hxxps://10jqka-cf[.]com[.]cn   |  **仿冒同花顺、传播病毒**  | (随机跳转) 仅在必应搜索结果中点击该链接时，才会跳转至恶意网站 |                            无                            | 1087 |
+| 2026/11/13 |    hxxps://app-yifanyi[.]com     |  **仿冒易翻译、传播病毒**  | hxxps://app-yifanyi[.]com/generated_pages/moban30/static/download/Setup[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4064996) | 1088 |
+| 2026/11/13 |     hxxps://yifanyiweb[.]com     |  **仿冒易翻译、传播病毒**  | hxxps://pub-5cc52b70262a4f5b8364aae5d25fa4ea[.]r2[.]dev/YFYSetup-win-8[.]9[.]0-x64[.]exe | [URLhaus Database](https://urlhaus.abuse.ch/url/4064994) | 1089 |
+| 2026/11/13 |     hxxps://yfanyi-cn[.]com      |  **仿冒易翻译、传播病毒**  | hxxps://yiwaiwaikehuduan[.]com/yifanyi-x64setup[.]10[.]27[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4064995) | 1090 |
+| 2026/11/13 |   hxxps://www[.]yifanyix[.]com   |  **仿冒易翻译、传播病毒**  | hxxps://yifayiapp[.]oss-cn-hongkong[.]aliyuncs[.]com/Yifanyitalkapp[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4064991) | 1091 |
+| 2026/11/13 |  hxxps://yifanyiand[.]com[.]cn   |  **仿冒易翻译、传播病毒**  |    hxxps://sooyun-yun[.]com[.]cn/donwnload/yifanyi[.]zip     | [URLhaus Database](https://urlhaus.abuse.ch/url/4064993) | 1092 |
+| 2026/11/13 | hxxps://www[.]kop4r[.]com/shenma |      **传播银狐病毒**      |                       有，载荷提取失败                       | [URLhaus Database](https://urlhaus.abuse.ch/url/4065138) | 1093 |
+| 2026/11/13 |      hxxps://sunlogim[.]com      |  **仿冒向日葵、传播病毒**  | hxxps://pcdanfhn[.]appdlhub[.]workers[.]dev/dl/1794573540/6adfc97fb74a7fb0f08b4e5fc1e8f12029e6751d6bed28140e7312ade4403e0f/FEKedPX/200/sunlogim[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4065125) | 1094 |
+| 2026/11/13 |   hxxps://sunlogin-remote[.]cn   |  **仿冒向日葵、传播病毒**  |     hxxps://v2raynapps[.]com[.]cn/xrkAwe_Sun16[.]6[.]zip     | [URLhaus Database](https://urlhaus.abuse.ch/url/4065139) | 1095 |
+| 2026/11/13 |    hxxps://sunlogin-app[.]com    |  **仿冒向日葵、传播病毒**  |                           同 1093                            |                            无                            | 1096 |
+| 2026/11/13 |    hxxps://sunlogin-app[.]net    |  **仿冒向日葵、传播病毒**  |                           同 1093                            |                            无                            | 1097 |
+| 2026/11/15 |      https://youdaoweb.com       | **仿冒有道翻译、传播病毒** |                    hxxps://youdaopc[.]com                    |                            无                            | 1098 |
+| 2026/11/15 |       https://youdaopc.com       | **仿冒有道翻译、传播病毒** |  https://windo.oss-cn-hongkong.aliyuncs.com/Youdao_win.zip   |                            无                            | 1099 |
+| 2026/11/15 |    https://www.youdaofyi.com     | **仿冒有道翻译、传播病毒** |       https://wwce.hellowortnm.cn/youdao/yoduao123.zip       |                            无                            | 1100 |
+| 2026/11/15 |    https://new.youdaoo.com.cn    | **仿冒有道翻译、传播病毒** |        (随机跳转) hxxps://188web[.]cdn-youdao[.]cn 等        |                            无                            | 1101 |
+| 2026/11/15 |   https://188web.cdn-youdao.cn   | **仿冒有道翻译、传播病毒** | https://pub-423927d9b82649c681bc5899c6177996.r2.dev/11.15ydfywondisans9.zip |                            无                            | 1102 |
+| 2026/11/15 |  https://2871web.cdn-youdao.cn   | **仿冒有道翻译、传播病毒** |  同 1102，仅在必应搜索结果中点击该链接时才会跳转至恶意网站   |                            无                            | 1103 |
+| 2026/11/15 |     https://edo.youdaogf.com     | **仿冒有道翻译、传播病毒** | https://guanfangxiazai-oss-cn-singapore-aliyuncs.top/YouDaoX64.zip |                            无                            | 1104 |
+| 2026/11/15 |   https://p.youdaofanyigw.com    | **仿冒有道翻译、传播病毒** |                           同 1104                            |                            无                            | 1105 |
+| 2026/11/15 |  https://ssl.youdaofanyigf.com   | **仿冒有道翻译、传播病毒** |                           同 1104                            |                            无                            | 1106 |
+|   ——————   |       ————————————————————       |      ———————————————       |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 > [!NOTE]
 >
@@ -162,7 +162,7 @@
 
 &emsp;&emsp;[《**“银狐” 威胁动态：官方及网络安全企业文章汇编**》](https://github.com/Lingggao/LGSRC/blob/main/Documents/SilverFox_Articles.md) (已收录 47 篇文章)
 
-&emsp;&emsp;**银狐 IOC 情报合集**：[**VirusTotal**](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) + [**LevelBlue OTX**](https://otx.alienvault.com/pulse/6a36fe5a3c1568785b59c4d7) (已收录 2,394 项情报，实时更新)
+&emsp;&emsp;**银狐 IOC 情报合集**：[**VirusTotal**](https://www.virustotal.com/gui/collection/c4dd0a03e18770678ba094169aa006095d3a0cbda29587567507f8d956db38e1) + [**LevelBlue OTX**](https://otx.alienvault.com/pulse/6a36fe5a3c1568785b59c4d7) (已收录 2,416 项情报，实时更新)
 
 ## 人工智能 (AI)
 
