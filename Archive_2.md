@@ -1095,6 +1095,14 @@
 | 2026/11/11 |       hxxps://app[.]10jqka-ew[.]com[.]cn        |    **仿冒同花顺、传播病毒**     | (随机跳转) 仅在必应搜索结果中点击该链接时，才会跳转至恶意网站 |                            无                            | 1084 |
 | 2026/11/11 |       hxxps://app[.]10jqka-ac[.]com[.]cn        |    **仿冒同花顺、传播病毒**     | (随机跳转) 仅在必应搜索结果中点击该链接时，才会跳转至恶意网站 |                            无                            | 1085 |
 | 2026/11/11 |          hxxps://10jqka-hy[.]com[.]cn           |    **仿冒同花顺、传播病毒**     | (随机跳转) 仅在必应搜索结果中点击该链接时，才会跳转至恶意网站 |                            无                            | 1086 |
+| 2026/11/11 |          hxxps://10jqka-cf[.]com[.]cn           |    **仿冒同花顺、传播病毒**     | (随机跳转) 仅在必应搜索结果中点击该链接时，才会跳转至恶意网站 |                            无                            | 1087 |
+| 2026/11/13 |            hxxps://app-yifanyi[.]com            |    **仿冒易翻译、传播病毒**     | hxxps://app-yifanyi[.]com/generated_pages/moban30/static/download/Setup[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4064996) | 1088 |
+| 2026/11/13 |            hxxps://yifanyiweb[.]com             |    **仿冒易翻译、传播病毒**     | hxxps://pub-5cc52b70262a4f5b8364aae5d25fa4ea[.]r2[.]dev/YFYSetup-win-8[.]9[.]0-x64[.]exe | [URLhaus Database](https://urlhaus.abuse.ch/url/4064994) | 1089 |
+| 2026/11/13 |             hxxps://yfanyi-cn[.]com             |    **仿冒易翻译、传播病毒**     | hxxps://yiwaiwaikehuduan[.]com/yifanyi-x64setup[.]10[.]27[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4064995) | 1090 |
+| 2026/11/13 |          hxxps://www[.]yifanyix[.]com           |    **仿冒易翻译、传播病毒**     | hxxps://yifayiapp[.]oss-cn-hongkong[.]aliyuncs[.]com/Yifanyitalkapp[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4064991) | 1091 |
+| 2026/11/13 |          hxxps://yifanyiand[.]com[.]cn          |    **仿冒易翻译、传播病毒**     |    hxxps://sooyun-yun[.]com[.]cn/donwnload/yifanyi[.]zip     | [URLhaus Database](https://urlhaus.abuse.ch/url/4064993) | 1092 |
+| 2026/11/13 |        hxxps://www[.]kop4r[.]com/shenma         |        **传播银狐病毒**         |                       有，载荷提取失败                       | [URLhaus Database](https://urlhaus.abuse.ch/url/4065138) | 1093 |
+| 2026/11/13 |             hxxps://sunlogim[.]com              |    **仿冒向日葵、传播病毒**     | hxxps://pcdanfhn[.]appdlhub[.]workers[.]dev/dl/1794573540/6adfc97fb74a7fb0f08b4e5fc1e8f12029e6751d6bed28140e7312ade4403e0f/FEKedPX/200/sunlogim[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4065125) | 1094 |
 |   ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
