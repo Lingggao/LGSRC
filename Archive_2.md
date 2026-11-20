@@ -1103,6 +1103,23 @@
 | 2026/11/13 |          hxxps://yifanyiand[.]com[.]cn          |    **仿冒易翻译、传播病毒**     |    hxxps://sooyun-yun[.]com[.]cn/donwnload/yifanyi[.]zip     | [URLhaus Database](https://urlhaus.abuse.ch/url/4064993) | 1092 |
 | 2026/11/13 |        hxxps://www[.]kop4r[.]com/shenma         |        **传播银狐病毒**         |                       有，载荷提取失败                       | [URLhaus Database](https://urlhaus.abuse.ch/url/4065138) | 1093 |
 | 2026/11/13 |             hxxps://sunlogim[.]com              |    **仿冒向日葵、传播病毒**     | hxxps://pcdanfhn[.]appdlhub[.]workers[.]dev/dl/1794573540/6adfc97fb74a7fb0f08b4e5fc1e8f12029e6751d6bed28140e7312ade4403e0f/FEKedPX/200/sunlogim[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4065125) | 1094 |
+| 2026/11/13 |          hxxps://sunlogin-remote[.]cn           |    **仿冒向日葵、传播病毒**     |     hxxps://v2raynapps[.]com[.]cn/xrkAwe_Sun16[.]6[.]zip     | [URLhaus Database](https://urlhaus.abuse.ch/url/4065139) | 1095 |
+| 2026/11/13 |           hxxps://sunlogin-app[.]com            |    **仿冒向日葵、传播病毒**     |                           同 1093                            |                            无                            | 1096 |
+| 2026/11/13 |           hxxps://sunlogin-app[.]net            |    **仿冒向日葵、传播病毒**     |                           同 1093                            |                            无                            | 1097 |
+| 2026/11/15 |             hxxps://youdaoweb[.]com             |   **仿冒有道翻译、传播病毒**    |                    hxxps://youdaopc[.]com                    |                            无                            | 1098 |
+| 2026/11/15 |             hxxps://youdaopc[.]com              |   **仿冒有道翻译、传播病毒**    | hxxps://windo[.]oss-cn-hongkong[.]aliyuncs[.]com/Youdao_win[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4066831) | 1099 |
+| 2026/11/15 |          hxxps://www[.]youdaofyi[.]com          |   **仿冒有道翻译、传播病毒**    |    hxxps://wwce[.]hellowortnm[.]cn/youdao/yoduao123[.]zip    | [URLhaus Database](https://urlhaus.abuse.ch/url/4066833) | 1100 |
+| 2026/11/15 |        hxxps://new[.]youdaoo[.]com[.]cn         |   **仿冒有道翻译、传播病毒**    |        (随机跳转) hxxps://188web[.]cdn-youdao[.]cn 等        |                            无                            | 1101 |
+| 2026/11/15 |        hxxps://188web[.]cdn-youdao[.]cn         |   **仿冒有道翻译、传播病毒**    | hxxps://pub-423927d9b82649c681bc5899c6177996[.]r2[.]dev/11[.]15ydfywondisans9[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4066829) | 1102 |
+| 2026/11/15 |        hxxps://2871web[.]cdn-youdao[.]cn        |   **仿冒有道翻译、传播病毒**    |  同 1102，仅在必应搜索结果中点击该链接时才会跳转至恶意网站   |                            无                            | 1103 |
+| 2026/11/15 |          hxxps://edo[.]youdaogf[.]com           |   **仿冒有道翻译、传播病毒**    | hxxps://guanfangxiazai-oss-cn-singapore-aliyuncs[.]top/YouDaoX64[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4066832) | 1104 |
+| 2026/11/15 |         hxxps://p[.]youdaofanyigw[.]com         |   **仿冒有道翻译、传播病毒**    |                           同 1104                            |                            无                            | 1105 |
+| 2026/11/15 |        hxxps://ssl[.]youdaofanyigf[.]com        |   **仿冒有道翻译、传播病毒**    |                           同 1104                            |                            无                            | 1106 |
+| 2026/11/17 |            hxxps://app-todesk[.]com             |    **仿冒 ToDesk、传播病毒**    |                       有，载荷提取失败                       |                            无                            | 1107 |
+| 2026/11/17 |            hxxps://todesk[.]cn[.]com            |    **仿冒 ToDesk、传播病毒**    | hxxps://hll912-1484535448[.]cos[.]ap-hongkong[.]myqcloud[.]com/ToDesk_HLL%20[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4068117) | 1108 |
+| 2026/11/17 |         hxxps://oa[.]todeak[.]com[.]cn          |    **仿冒 ToDesk、传播病毒**    |     (随机跳转) hxxps://581web[.]cdn-todesk[.]com[.]cn 等     |                            无                            | 1109 |
+| 2026/11/17 |     hxxps://581web[.]cdn-todesk[.]com[.]cn      |    **仿冒 ToDesk、传播病毒**    | hxxps://pub-c2333fd98ad04e31be785553c40467a4[.]r2[.]dev/11[.]17todeskaioniuawcwq[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4068120) | 1110 |
+| 2026/11/17 |     hxxps://2786web[.]cdn-todesk[.]com[.]cn     |    **仿冒 ToDesk、传播病毒**    |  同 1110，仅在必应搜索结果中点击该链接时才会跳转至恶意网站   |                            无                            | 1111 |
 |   ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
