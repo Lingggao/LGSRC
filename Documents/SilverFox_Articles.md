@@ -9,6 +9,16 @@
 
 ### 文章
 
+[049]  
+《[**"键盘被锁"之谜—银狐 RdViewer 远控木马逆向实录**](https://mp.weixin.qq.com/s/NfzeKLz0Ulb3C3gwKfgnrQ)》  
+**亚信网络安全研究院 [亚信科技 (成都) 有限公司]**，2026 年 11 月  
+网址：[https://mp.weixin.qq.com/s/NfzeKLz0Ulb3C3gwKfgnrQ](https://mp.weixin.qq.com/s/NfzeKLz0Ulb3C3gwKfgnrQ)
+
+[048]  
+《[**关于“银狐”系列网络攻击活动利用VPN客户端软件安装包传播木马病毒的预警报告**](https://mp.weixin.qq.com/s/pcu1J38AxT4BaLbF4f0SBg)》  
+**国家计算机病毒应急处理中心**，2026 年 11 月  
+网址：[https://mp.weixin.qq.com/s/pcu1J38AxT4BaLbF4f0SBg](https://mp.weixin.qq.com/s/pcu1J38AxT4BaLbF4f0SBg)
+
 [047]  
 《[**关于“银狐”木马“金钩（G03）”团伙攻击态势深入分析报告**](https://mp.weixin.qq.com/s/JiPWCQySngQHuBCa3f37lw)》  
 **国家计算机网络应急技术处理协调中心**，2026 年 11 月  
