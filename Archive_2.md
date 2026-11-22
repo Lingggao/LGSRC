@@ -1120,6 +1120,16 @@
 | 2026/11/17 |         hxxps://oa[.]todeak[.]com[.]cn          |    **仿冒 ToDesk、传播病毒**    |     (随机跳转) hxxps://581web[.]cdn-todesk[.]com[.]cn 等     |                            无                            | 1109 |
 | 2026/11/17 |     hxxps://581web[.]cdn-todesk[.]com[.]cn      |    **仿冒 ToDesk、传播病毒**    | hxxps://pub-c2333fd98ad04e31be785553c40467a4[.]r2[.]dev/11[.]17todeskaioniuawcwq[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4068120) | 1110 |
 | 2026/11/17 |     hxxps://2786web[.]cdn-todesk[.]com[.]cn     |    **仿冒 ToDesk、传播病毒**    |  同 1110，仅在必应搜索结果中点击该链接时才会跳转至恶意网站   |                            无                            | 1111 |
+| 2026/11/17 |         hxxps://todesk-peak[.]com[.]cn          |    **仿冒 ToDesk、传播病毒**    | hxxps://pub-8c944cde37db4a589e86137d049091b0[.]r2[.]dev/Aliyrne-s3/Lmynrewb/todesk-x64[.]10[.]05[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4068115) | 1112 |
+| 2026/11/17 |         hxxps://todesk-nova[.]com[.]cn          |    **仿冒 ToDesk、传播病毒**    |                           同 1112                            |                            无                            | 1113 |
+| 2026/11/17 |       hxxps://api[.]apptodask[.]com[.]cn        |    **仿冒 ToDesk、传播病毒**    | hxxps://dashijie2026[.]oss-ap-southeast-7[.]aliyuncs[.]com/Todesk_x64_2[.]1[.]3[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4068121) | 1114 |
+| 2026/11/21 |      hxxps://www[.]wqrn59d[.]com/dsclient       |        **传播银狐病毒**         |                       有，载荷提取失败                       | [URLhaus Database](https://urlhaus.abuse.ch/url/4072511) | 1115 |
+| 2026/11/21 |         hxxps://deepseek-gj[.]com[.]cn          |   **仿冒 DeepSeek、传播病毒**   |     (随机跳转) hxxps://1771web[.]cdns-deepseek[.]com 等      |                            无                            | 1116 |
+| 2026/11/21 |      hxxps://1771web[.]cdns-deepseek[.]com      |   **仿冒 DeepSeek、传播病毒**   | hxxps://aasss111222222[.]tos-cn-beijing[.]volces[.]com/11181030_setup[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4072488) | 1117 |
+| 2026/11/21 |      hxxps://2976web[.]cdns-deepseek[.]com      |   **仿冒 DeepSeek、传播病毒**   |  同 1117，仅在必应搜索结果中点击该链接时才会跳转至恶意网站   |                            无                            | 1118 |
+| 2026/11/21 |            hxxps://deepseekdl[.]net             |   **仿冒 DeepSeek、传播病毒**   |                           同 1115                            |                            无                            | 1119 |
+| 2026/11/21 |            hxxps://deepseekst[.]net             |   **仿冒 DeepSeek、传播病毒**   |                           同 1115                            |                            无                            | 1120 |
+| 2026/11/21 |            hxxps://deepseek-ch[.]net            |   **仿冒 DeepSeek、传播病毒**   |                           同 1115                            |                            无                            | 1121 |
 |   ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
