@@ -9,6 +9,16 @@
 
 ### 文章
 
+[051]  
+《[**多人搜索DeepSeek误入高仿网站，电脑被植入“银狐”木马病毒：文件凭空消失，硬盘被格式化，微信还被盗群发垃圾信息**](https://mp.weixin.qq.com/s/2GPk_WByPHdPxhQeTa-LJw)》  
+**极目新闻 (湖北日报传媒集团)**，2026 年 11 月  
+网址：[https://mp.weixin.qq.com/s/2GPk_WByPHdPxhQeTa-LJw](https://mp.weixin.qq.com/s/2GPk_WByPHdPxhQeTa-LJw)
+
+[050]  
+《[**银狐「金钩（G03）」： 假冒同花顺下载站传播银狐木马，企业如何应对**](https://mp.weixin.qq.com/s/IcnAYgkY75hZG6u0Sz-HIA)》  
+**北京猎鹰安全科技有限公司**，2026 年 11 月  
+网址：[https://mp.weixin.qq.com/s/IcnAYgkY75hZG6u0Sz-HIA](https://mp.weixin.qq.com/s/IcnAYgkY75hZG6u0Sz-HIA)
+
 [049]  
 《[**"键盘被锁"之谜—银狐 RdViewer 远控木马逆向实录**](https://mp.weixin.qq.com/s/NfzeKLz0Ulb3C3gwKfgnrQ)》  
 **亚信网络安全研究院 [亚信科技 (成都) 有限公司]**，2026 年 11 月  
@@ -106,7 +116,7 @@
 
 [030]  
 《[**骗子换新马甲：自称记者，发来一个“身份证明压缩包”，解压就是木马**](https://mp.weixin.qq.com/s/lIaMjEJLezELbCVla6lHrA)》  
-**澎湃新闻**，2026 年 9 月  
+**澎湃新闻 (上海报业集团)**，2026 年 9 月  
 网址：[https://mp.weixin.qq.com/s/lIaMjEJLezELbCVla6lHrA](https://mp.weixin.qq.com/s/lIaMjEJLezELbCVla6lHrA)
 
 [029]  

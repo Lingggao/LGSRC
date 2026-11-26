@@ -1136,6 +1136,13 @@
 | 2026/11/21 |         hxxps://deepseek-xt[.]com[.]cn          |   **仿冒 DeepSeek、传播病毒**   |  同 1117，仅在必应搜索结果中点击该链接时才会跳转至恶意网站   |                            无                            | 1125 |
 | 2026/11/21 |      hxxps://www[.]deepseek-xh[.]com[.]cn       |   **仿冒 DeepSeek、传播病毒**   |  同 1117，仅在必应搜索结果中点击该链接时才会跳转至恶意网站   |                            无                            | 1126 |
 | 2026/11/21 |       hxxps://cn[.]deepseek-hc[.]com[.]cn       |   **仿冒 DeepSeek、传播病毒**   |  同 1117，仅在必应搜索结果中点击该链接时才会跳转至恶意网站   |                            无                            | 1127 |
+| 2026/11/21 |       hxxps://web[.]deepaiseek[.]com[.]cn       |   **仿冒 DeepSeek、传播病毒**   |  同 1117，仅在必应搜索结果中点击该链接时才会跳转至恶意网站   |                            无                            | 1128 |
+| 2026/11/21 |       hxxps://cn[.]deeposieek[.]com[.]cn        |   **仿冒 DeepSeek、传播病毒**   |  同 1117，仅在必应搜索结果中点击该链接时才会跳转至恶意网站   |                            无                            | 1129 |
+| 2026/11/21 |         hxxps://deepseek-jn[.]com[.]cn          |   **仿冒 DeepSeek、传播病毒**   |  同 1117，仅在必应搜索结果中点击该链接时才会跳转至恶意网站   |                            无                            | 1130 |
+| 2026/11/21 |      hxxps://www[.]deepseek-pt[.]com[.]cn       |   **仿冒 DeepSeek、传播病毒**   |  同 1117，仅在必应搜索结果中点击该链接时才会跳转至恶意网站   |                            无                            | 1131 |
+| 2026/11/23 |        (回头看) hxxps://app-todesk[.]com        |    **仿冒 ToDesk、传播病毒**    |                       有，载荷提取失败                       |                            无                            | 1132 |
+| 2026/11/23 |             hxxps://td-todesk[.]com             |    **仿冒 ToDesk、传播病毒**    |                   hxxp://kuaifase-me[.]cn                    |                            无                            | 1133 |
+| 2026/11/23 |             hxxp://kuaifase-me[.]cn             |        **传播银狐病毒**         | hxxps://pub-f6745cf8efe14679acfbe49bedff70af[.]r2[.]dev/Todesk_Big_3[.]1[.]1[.]zip | [URLhaus Database](https://urlhaus.abuse.ch/url/4074232) | 1134 |
 |   ——————   |              ————————————————————               |         ———————————————         |                ——————————————————————————————                |                        ——————————                        | ———  |
 
 ---
